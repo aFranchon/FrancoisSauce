@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_utility" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TouchUtility</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_utility_1af2e83df472e86d2de65d6058daca1821" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InControl.TouchUtility.AnchorToViewPoint</definition>
+        <argsstring>(TouchControlAnchor touchControlAnchor)</argsstring>
+        <name>AnchorToViewPoint</name>
+        <param>
+          <type><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" kindref="member">TouchControlAnchor</ref></type>
+          <declname>touchControlAnchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" line="8" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" bodystart="8" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_utility_1ac96294443c57c653d1e2906b747b2563" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InControl.TouchUtility.RoundVector</definition>
+        <argsstring>(Vector2 vector)</argsstring>
+        <name>RoundVector</name>
+        <param>
+          <type>Vector2</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" line="38" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" line="6" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUtility.cs" bodystart="7" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_utility_1af2e83df472e86d2de65d6058daca1821" prot="public" virt="non-virtual"><scope>InControl::TouchUtility</scope><name>AnchorToViewPoint</name></member>
+      <member refid="class_in_control_1_1_touch_utility_1ac96294443c57c653d1e2906b747b2563" prot="public" virt="non-virtual"><scope>InControl::TouchUtility</scope><name>RoundVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

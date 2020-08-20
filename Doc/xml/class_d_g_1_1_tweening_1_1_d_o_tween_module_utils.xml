@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils" kind="class" language="C#" prot="public">
+    <compoundname>DG::Tweening::DOTweenModuleUtils</compoundname>
+    <innerclass refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics" prot="public">DG::Tweening::DOTweenModuleUtils::Physics</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1a0d8e7a80aa22b59c32d0a5b477b82c41" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool DG.Tweening.DOTweenModuleUtils._initialized</definition>
+        <argsstring></argsstring>
+        <name>_initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="28" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1a64e00b2b0481a9df619bf7591d3edbf9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DG.Tweening.DOTweenModuleUtils.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Called via Reflection by DOTweenComponent on Awake </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="38" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="38" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Utility functions that deal with available Modules. Modules defines: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>DOTAUDIO</para>
+</listitem><listitem><para>DOTPHYSICS</para>
+</listitem><listitem><para>DOTPHYSICS2D</para>
+</listitem><listitem><para>DOTSPRITE</para>
+</listitem><listitem><para>DOTUI Extra defines set and used for implementation of external assets:</para>
+</listitem><listitem><para>DOTWEEN_TMP ► TextMesh Pro</para>
+</listitem><listitem><para>DOTWEEN_TK2D ► 2D Toolkit</para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="26" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="27" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1a0d8e7a80aa22b59c32d0a5b477b82c41" prot="private" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils</scope><name>_initialized</name></member>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1a64e00b2b0481a9df619bf7591d3edbf9" prot="public" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils</scope><name>Init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

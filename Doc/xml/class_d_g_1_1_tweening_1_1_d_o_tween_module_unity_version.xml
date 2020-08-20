@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_g_1_1_tweening_1_1_d_o_tween_module_unity_version" kind="class" language="C#" prot="public">
+    <compoundname>DG::Tweening::DOTweenModuleUnityVersion</compoundname>
+    <briefdescription>
+<para>Shortcuts/functions that are not strictly related to specific Modules but are available only on some Unity versions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUnityVersion.cs" line="19" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUnityVersion.cs" bodystart="20" bodyend="317"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

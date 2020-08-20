@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="interface_in_control_1_1_i_input_control" kind="interface" language="C#" prot="public">
+    <compoundname>InControl::IInputControl</compoundname>
+    <derivedcompoundref refid="class_in_control_1_1_one_axis_input_control" prot="public" virt="non-virtual">InControl.OneAxisInputControl</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_two_axis_input_control" prot="public" virt="non-virtual">InControl.TwoAxisInputControl</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_in_control_1_1_i_input_control_1ae56610373e70e9001b1867b437521d71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.IInputControl.HasChanged</definition>
+        <argsstring></argsstring>
+        <name>HasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="7" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_in_control_1_1_i_input_control_1aea68895f288e7267d9724ee05da09b55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.IInputControl.IsPressed</definition>
+        <argsstring></argsstring>
+        <name>IsPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="8" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_in_control_1_1_i_input_control_1aa5d9c8a87c86aaf4c233147cbcadb895" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.IInputControl.WasPressed</definition>
+        <argsstring></argsstring>
+        <name>WasPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="9" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_in_control_1_1_i_input_control_1aaac37df8fa2648bf8e186c67761dbf8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.IInputControl.WasReleased</definition>
+        <argsstring></argsstring>
+        <name>WasReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="10" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_in_control_1_1_i_input_control_1a46906c56fe1c46c68be66e5d672ca479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.IInputControl.ClearInputState</definition>
+        <argsstring>()</argsstring>
+        <name>ClearInputState</name>
+        <reimplementedby refid="class_in_control_1_1_two_axis_input_control_1a1044d19da44a51a47ed0950490c5da79">ClearInputState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558">ClearInputState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="11" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>InControl.PlayerTwoAxisAction</label>
+        <link refid="class_in_control_1_1_player_two_axis_action"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InControl.InputControl</label>
+        <link refid="class_in_control_1_1_input_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InControl.OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.PlayerOneAxisAction</label>
+        <link refid="class_in_control_1_1_player_one_axis_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="6">
+        <label>InControl.TwoAxisInputControl</label>
+        <link refid="class_in_control_1_1_two_axis_input_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" line="4" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/IInputControl.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_in_control_1_1_i_input_control_1a46906c56fe1c46c68be66e5d672ca479" prot="public" virt="non-virtual"><scope>InControl::IInputControl</scope><name>ClearInputState</name></member>
+      <member refid="interface_in_control_1_1_i_input_control_1ae56610373e70e9001b1867b437521d71" prot="public" virt="non-virtual"><scope>InControl::IInputControl</scope><name>HasChanged</name></member>
+      <member refid="interface_in_control_1_1_i_input_control_1aea68895f288e7267d9724ee05da09b55" prot="public" virt="non-virtual"><scope>InControl::IInputControl</scope><name>IsPressed</name></member>
+      <member refid="interface_in_control_1_1_i_input_control_1aa5d9c8a87c86aaf4c233147cbcadb895" prot="public" virt="non-virtual"><scope>InControl::IInputControl</scope><name>WasPressed</name></member>
+      <member refid="interface_in_control_1_1_i_input_control_1aaac37df8fa2648bf8e186c67761dbf8d" prot="public" virt="non-virtual"><scope>InControl::IInputControl</scope><name>WasReleased</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

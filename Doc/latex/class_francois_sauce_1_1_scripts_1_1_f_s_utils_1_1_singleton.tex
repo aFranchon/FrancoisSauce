@@ -1,0 +1,116 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{}\doxysection{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton$<$ T $>$ Class Template Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}\index{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}}
+
+
+\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Singleton}} design pattern very simple implementation  
+
+
+Inheritance diagram for Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41e7b240b5701ecae492ddf4df99b212}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Mono\+Behaviour\textquotesingle{}s Awake method. \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Singleton}} logic. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41fa01ee5bf413c65ea9af2b509ed05e}{On\+Destroy}} ()
+\begin{DoxyCompactList}\small\item\em Mono\+Behaviour\textquotesingle{}s On\+Destroy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static T \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a9a4d369055575da6b0972fb4bc7ec887}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em getter to the instance of the singleton \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_aa10403574a8eba4d6c57d3c3fd690ff1}{Is\+Initialized}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Call this method to know if the singleton is Initialized or not \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Singleton}} design pattern very simple implementation 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Template to fit every possible type\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Singleton}}$<$T$>$}]\end{description}
+\end{Desc}
+
+
+Definition at line 9 of file Singleton.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41e7b240b5701ecae492ddf4df99b212}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41e7b240b5701ecae492ddf4df99b212}} 
+\index{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}!Awake@{Awake}}
+\index{Awake@{Awake}!FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily virtual void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton}}$<$ T $>$.Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Mono\+Behaviour\textquotesingle{}s Awake method. \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Singleton}} logic. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_aa0c00cd0a7c6325079b1377dfb0405e1}{Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager}}, \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ac7dc8ae0819f15e70fda6f94ea14d416}{Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager}}, and \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list_a1b61d06cdfac5a30f9e227df54f62779}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Scene\+List}}.
+
+
+
+Definition at line 35 of file Singleton.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41fa01ee5bf413c65ea9af2b509ed05e}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41fa01ee5bf413c65ea9af2b509ed05e}} 
+\index{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily virtual void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton}}$<$ T $>$.On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Mono\+Behaviour\textquotesingle{}s On\+Destroy 
+
+
+
+Definition at line 51 of file Singleton.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a9a4d369055575da6b0972fb4bc7ec887}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a9a4d369055575da6b0972fb4bc7ec887}} 
+\index{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}!Instance@{Instance}}
+\index{Instance@{Instance}!FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton}}$<$ T $>$.Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+getter to the instance of the singleton 
+
+
+
+Definition at line 19 of file Singleton.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_aa10403574a8eba4d6c57d3c3fd690ff1}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_aa10403574a8eba4d6c57d3c3fd690ff1}} 
+\index{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}!IsInitialized@{IsInitialized}}
+\index{IsInitialized@{IsInitialized}!FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$@{FrancoisSauce.Scripts.FSUtils.Singleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{IsInitialized}{IsInitialized}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton}}$<$ T $>$.Is\+Initialized\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Call this method to know if the singleton is Initialized or not 
+
+
+
+Definition at line 27 of file Singleton.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+\_\+\+\_\+\+\_\+\+F\+S\+Utils/\mbox{\hyperlink{_singleton_8cs}{Singleton.\+cs}}\end{DoxyCompactItemize}

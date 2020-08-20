@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_mouse_8cs" kind="file" language="C#">
+    <compoundname>Mouse.cs</compoundname>
+    <innernamespace refid="namespace_in_control">InControl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ac9d3e887722f2bc482bcca9d41c512af" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a2a81c1ce439d7652d7a61d55229c8043" kindref="member">LeftButton</ref>,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a7e264b46aade8e083656f1f0897220f3" kindref="member">RightButton</ref>,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aa196f1ff95059e191270f3bb6ab4a266" kindref="member">MiddleButton</ref>,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a963a8a64a09d54efc81b136ca6be21b2" kindref="member">NegativeX</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a9f082d04c481aab268b9f614d2ffd129" kindref="member">PositiveX</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94ae4d5f02ceecd15caf66e9f0b2393c86b" kindref="member">NegativeY</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94ac53c385ced96bd629c0f45a902aceba3" kindref="member">PositiveY</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a773cf26b55c80474de2fbf5fcc950ecf" kindref="member">PositiveScrollWheel</ref>,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aae1db8b24ddb4abf6272b6ba8f5c30d6" kindref="member">NegativeScrollWheel</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a91ff24acfc01cc2c3a4238a272a37d07" kindref="member">Button4</ref>,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94af8849babaeaee3344306b87310664d65" kindref="member">Button5</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a375ccc6b3a6125cc5c67f2c700a55b72" kindref="member">Button6</ref>,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aa00c628d1b186fa4fe9c7f633426979e" kindref="member">Button7</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a4f651f24c0b38f6e7ea0d52b0c514e36" kindref="member">Button8</ref>,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aefe28baa94fc5f90fde7d0ff617460a3" kindref="member">Button9</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/Mouse.cs"/>
+  </compounddef>
+</doxygen>

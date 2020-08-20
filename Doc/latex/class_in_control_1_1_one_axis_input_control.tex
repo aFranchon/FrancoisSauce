@@ -1,0 +1,420 @@
+\hypertarget{class_in_control_1_1_one_axis_input_control}{}\doxysection{In\+Control.\+One\+Axis\+Input\+Control Class Reference}
+\label{class_in_control_1_1_one_axis_input_control}\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+Inheritance diagram for In\+Control.\+One\+Axis\+Input\+Control\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.857143cm]{class_in_control_1_1_one_axis_input_control}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_af4034c3da774bd41962a70e1bc6d4695}{Update\+With\+State}} (bool state, ulong update\+Tick, float delta\+Time)
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a2cfecd6013398352c65a50536b325ff4}{Update\+With\+Value}} (float value, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a52027acbb86146a3d82060ca5fe69558}{Clear\+Input\+State}} ()
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_ac3c9a4c88b831ec8972690a1ffa3d660}{Commit}} ()
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a4bfbe3c1dedb74a74c4a78fa7d629166}{Commit\+With\+State}} (bool state, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_adcd69783f6d8b9e1723cb956970542a0}{Commit\+With\+Value}} (float value, ulong update\+Tick, float delta\+Time)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static implicit \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a464a57f579e1930fb7b3a585bcd9e438}{operator bool}} (\mbox{\hyperlink{class_in_control_1_1_one_axis_input_control}{One\+Axis\+Input\+Control}} instance)
+\item 
+static implicit \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a54fd995f60eb3974df434b3f792e64c0}{operator float}} (\mbox{\hyperlink{class_in_control_1_1_one_axis_input_control}{One\+Axis\+Input\+Control}} instance)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_abb13de70844295498478b8ac735a90cb}{First\+Repeat\+Delay}} = 0.\+8f
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_ac5aba91554a05625586c898fe9d04488}{Repeat\+Delay}} = 0.\+1f
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a90ee3e79b32ff2c7f8144b708c612b7d}{Raw}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_abef0e38da8073a2a4f65dc103527a0ac}{is\+Null\+Control}} = false
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a403faa9619b3ce43198cab39bd318bd9}{owner\+Enabled}} = true
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+ulong \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a5bf34a6fdc64beb8d7918c1215fc8926}{Update\+Tick}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_ad1c6801c74c00ae62ed86e48449a0494}{State}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_ac76ec3ab0d179bac573764257e841f60}{Last\+State}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float? \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a71ba66125a978328e21fd15be98a6391}{Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float? \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_adaa5cf32a0d28ff7771bc9c25ea43bba}{Last\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float? \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a4db7186057aa15f6afdd61e90afec944}{Raw\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a1872c88f76350a12d22c13959ee9df7e}{Has\+Changed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a162fd9ae5ec093c0cfb29f70d44ed615}{Is\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a3f66d80e060c9e3fe4ae28fe3c102d57}{Was\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a29892ee1b0a2279bad8544d51acd7f6c}{Was\+Released}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a7e32762b80868bece430920333b35967}{Was\+Repeated}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a0e83259dc76f5560b5ae31fdb5f9ebfc}{Sensitivity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a0f3e6493becb5157f2d3d9fbe02082cc}{Lower\+Dead\+Zone}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a703699e369e8f581afb18ed5ab5cd648}{Upper\+Dead\+Zone}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a7ad0a82a7f0abad2b76a1903c430c3e3}{State\+Threshold}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_acff62d4d79fb6e8ca2d9b96640078211}{Is\+Null\+Control}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a0628993c2a24211a2a5bec327d753542}{Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_one_axis_input_control_a9069a818f8e575b87b2e8f22dc9213a7}{Enabled\+In\+Hierarchy}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 7 of file One\+Axis\+Input\+Control.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a52027acbb86146a3d82060ca5fe69558}\label{class_in_control_1_1_one_axis_input_control_a52027acbb86146a3d82060ca5fe69558}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!ClearInputState@{ClearInputState}}
+\index{ClearInputState@{ClearInputState}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{ClearInputState()}{ClearInputState()}}
+{\footnotesize\ttfamily void In\+Control.\+One\+Axis\+Input\+Control.\+Clear\+Input\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_in_control_1_1_i_input_control_a46906c56fe1c46c68be66e5d672ca479}{In\+Control.\+I\+Input\+Control}}.
+
+
+
+Definition at line 159 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_ac3c9a4c88b831ec8972690a1ffa3d660}\label{class_in_control_1_1_one_axis_input_control_ac3c9a4c88b831ec8972690a1ffa3d660}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!Commit@{Commit}}
+\index{Commit@{Commit}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{Commit()}{Commit()}}
+{\footnotesize\ttfamily void In\+Control.\+One\+Axis\+Input\+Control.\+Commit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 169 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a4bfbe3c1dedb74a74c4a78fa7d629166}\label{class_in_control_1_1_one_axis_input_control_a4bfbe3c1dedb74a74c4a78fa7d629166}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!CommitWithState@{CommitWithState}}
+\index{CommitWithState@{CommitWithState}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{CommitWithState()}{CommitWithState()}}
+{\footnotesize\ttfamily void In\+Control.\+One\+Axis\+Input\+Control.\+Commit\+With\+State (\begin{DoxyParamCaption}\item[{bool}]{state,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 221 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_adcd69783f6d8b9e1723cb956970542a0}\label{class_in_control_1_1_one_axis_input_control_adcd69783f6d8b9e1723cb956970542a0}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!CommitWithValue@{CommitWithValue}}
+\index{CommitWithValue@{CommitWithValue}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{CommitWithValue()}{CommitWithValue()}}
+{\footnotesize\ttfamily void In\+Control.\+One\+Axis\+Input\+Control.\+Commit\+With\+Value (\begin{DoxyParamCaption}\item[{float}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 228 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a464a57f579e1930fb7b3a585bcd9e438}\label{class_in_control_1_1_one_axis_input_control_a464a57f579e1930fb7b3a585bcd9e438}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!operator bool@{operator bool}}
+\index{operator bool@{operator bool}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{operator bool()}{operator bool()}}
+{\footnotesize\ttfamily static implicit In\+Control.\+One\+Axis\+Input\+Control.\+operator bool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_one_axis_input_control}{One\+Axis\+Input\+Control}}}]{instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 368 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a54fd995f60eb3974df434b3f792e64c0}\label{class_in_control_1_1_one_axis_input_control_a54fd995f60eb3974df434b3f792e64c0}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!operator float@{operator float}}
+\index{operator float@{operator float}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{operator float()}{operator float()}}
+{\footnotesize\ttfamily static implicit In\+Control.\+One\+Axis\+Input\+Control.\+operator float (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_one_axis_input_control}{One\+Axis\+Input\+Control}}}]{instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 374 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_af4034c3da774bd41962a70e1bc6d4695}\label{class_in_control_1_1_one_axis_input_control_af4034c3da774bd41962a70e1bc6d4695}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!UpdateWithState@{UpdateWithState}}
+\index{UpdateWithState@{UpdateWithState}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{UpdateWithState()}{UpdateWithState()}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Update\+With\+State (\begin{DoxyParamCaption}\item[{bool}]{state,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 74 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a2cfecd6013398352c65a50536b325ff4}\label{class_in_control_1_1_one_axis_input_control_a2cfecd6013398352c65a50536b325ff4}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!UpdateWithValue@{UpdateWithValue}}
+\index{UpdateWithValue@{UpdateWithValue}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{UpdateWithValue()}{UpdateWithValue()}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Update\+With\+Value (\begin{DoxyParamCaption}\item[{float}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file One\+Axis\+Input\+Control.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_abb13de70844295498478b8ac735a90cb}\label{class_in_control_1_1_one_axis_input_control_abb13de70844295498478b8ac735a90cb}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!FirstRepeatDelay@{FirstRepeatDelay}}
+\index{FirstRepeatDelay@{FirstRepeatDelay}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{FirstRepeatDelay}{FirstRepeatDelay}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+First\+Repeat\+Delay = 0.\+8f}
+
+
+
+Definition at line 21 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_abef0e38da8073a2a4f65dc103527a0ac}\label{class_in_control_1_1_one_axis_input_control_abef0e38da8073a2a4f65dc103527a0ac}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!isNullControl@{isNullControl}}
+\index{isNullControl@{isNullControl}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{isNullControl}{isNullControl}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+is\+Null\+Control = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 17 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a403faa9619b3ce43198cab39bd318bd9}\label{class_in_control_1_1_one_axis_input_control_a403faa9619b3ce43198cab39bd318bd9}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!ownerEnabled@{ownerEnabled}}
+\index{ownerEnabled@{ownerEnabled}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{ownerEnabled}{ownerEnabled}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+owner\+Enabled = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 32 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a90ee3e79b32ff2c7f8144b708c612b7d}\label{class_in_control_1_1_one_axis_input_control_a90ee3e79b32ff2c7f8144b708c612b7d}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!Raw@{Raw}}
+\index{Raw@{Raw}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{Raw}{Raw}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Raw}
+
+
+
+Definition at line 27 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_ac5aba91554a05625586c898fe9d04488}\label{class_in_control_1_1_one_axis_input_control_ac5aba91554a05625586c898fe9d04488}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!RepeatDelay@{RepeatDelay}}
+\index{RepeatDelay@{RepeatDelay}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{RepeatDelay}{RepeatDelay}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+Repeat\+Delay = 0.\+1f}
+
+
+
+Definition at line 25 of file One\+Axis\+Input\+Control.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a0628993c2a24211a2a5bec327d753542}\label{class_in_control_1_1_one_axis_input_control_a0628993c2a24211a2a5bec327d753542}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!Enabled@{Enabled}}
+\index{Enabled@{Enabled}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{Enabled}{Enabled}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 355 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a9069a818f8e575b87b2e8f22dc9213a7}\label{class_in_control_1_1_one_axis_input_control_a9069a818f8e575b87b2e8f22dc9213a7}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!EnabledInHierarchy@{EnabledInHierarchy}}
+\index{EnabledInHierarchy@{EnabledInHierarchy}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{EnabledInHierarchy}{EnabledInHierarchy}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Enabled\+In\+Hierarchy\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 362 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a1872c88f76350a12d22c13959ee9df7e}\label{class_in_control_1_1_one_axis_input_control_a1872c88f76350a12d22c13959ee9df7e}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!HasChanged@{HasChanged}}
+\index{HasChanged@{HasChanged}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{HasChanged}{HasChanged}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Has\+Changed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 291 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_acff62d4d79fb6e8ca2d9b96640078211}\label{class_in_control_1_1_one_axis_input_control_acff62d4d79fb6e8ca2d9b96640078211}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!IsNullControl@{IsNullControl}}
+\index{IsNullControl@{IsNullControl}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{IsNullControl}{IsNullControl}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Is\+Null\+Control\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 349 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a162fd9ae5ec093c0cfb29f70d44ed615}\label{class_in_control_1_1_one_axis_input_control_a162fd9ae5ec093c0cfb29f70d44ed615}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!IsPressed@{IsPressed}}
+\index{IsPressed@{IsPressed}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{IsPressed}{IsPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Is\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 297 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_ac76ec3ab0d179bac573764257e841f60}\label{class_in_control_1_1_one_axis_input_control_ac76ec3ab0d179bac573764257e841f60}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!LastState@{LastState}}
+\index{LastState@{LastState}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{LastState}{LastState}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Last\+State\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 251 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_adaa5cf32a0d28ff7771bc9c25ea43bba}\label{class_in_control_1_1_one_axis_input_control_adaa5cf32a0d28ff7771bc9c25ea43bba}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!LastValue@{LastValue}}
+\index{LastValue@{LastValue}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{LastValue}{LastValue}}
+{\footnotesize\ttfamily float? In\+Control.\+One\+Axis\+Input\+Control.\+Last\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 263 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a0f3e6493becb5157f2d3d9fbe02082cc}\label{class_in_control_1_1_one_axis_input_control_a0f3e6493becb5157f2d3d9fbe02082cc}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!LowerDeadZone@{LowerDeadZone}}
+\index{LowerDeadZone@{LowerDeadZone}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{LowerDeadZone}{LowerDeadZone}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+Lower\+Dead\+Zone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 328 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a4db7186057aa15f6afdd61e90afec944}\label{class_in_control_1_1_one_axis_input_control_a4db7186057aa15f6afdd61e90afec944}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!RawValue@{RawValue}}
+\index{RawValue@{RawValue}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{RawValue}{RawValue}}
+{\footnotesize\ttfamily float? In\+Control.\+One\+Axis\+Input\+Control.\+Raw\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 269 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a0e83259dc76f5560b5ae31fdb5f9ebfc}\label{class_in_control_1_1_one_axis_input_control_a0e83259dc76f5560b5ae31fdb5f9ebfc}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!Sensitivity@{Sensitivity}}
+\index{Sensitivity@{Sensitivity}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{Sensitivity}{Sensitivity}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+Sensitivity\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 321 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_ad1c6801c74c00ae62ed86e48449a0494}\label{class_in_control_1_1_one_axis_input_control_ad1c6801c74c00ae62ed86e48449a0494}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!State@{State}}
+\index{State@{State}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{State}{State}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+State\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 245 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a7ad0a82a7f0abad2b76a1903c430c3e3}\label{class_in_control_1_1_one_axis_input_control_a7ad0a82a7f0abad2b76a1903c430c3e3}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!StateThreshold@{StateThreshold}}
+\index{StateThreshold@{StateThreshold}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{StateThreshold}{StateThreshold}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+State\+Threshold\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 342 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a5bf34a6fdc64beb8d7918c1215fc8926}\label{class_in_control_1_1_one_axis_input_control_a5bf34a6fdc64beb8d7918c1215fc8926}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!UpdateTick@{UpdateTick}}
+\index{UpdateTick@{UpdateTick}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{UpdateTick}{UpdateTick}}
+{\footnotesize\ttfamily ulong In\+Control.\+One\+Axis\+Input\+Control.\+Update\+Tick\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 9 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a703699e369e8f581afb18ed5ab5cd648}\label{class_in_control_1_1_one_axis_input_control_a703699e369e8f581afb18ed5ab5cd648}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!UpperDeadZone@{UpperDeadZone}}
+\index{UpperDeadZone@{UpperDeadZone}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{UpperDeadZone}{UpperDeadZone}}
+{\footnotesize\ttfamily float In\+Control.\+One\+Axis\+Input\+Control.\+Upper\+Dead\+Zone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 335 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a71ba66125a978328e21fd15be98a6391}\label{class_in_control_1_1_one_axis_input_control_a71ba66125a978328e21fd15be98a6391}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!Value@{Value}}
+\index{Value@{Value}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{Value}{Value}}
+{\footnotesize\ttfamily float? In\+Control.\+One\+Axis\+Input\+Control.\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 257 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a3f66d80e060c9e3fe4ae28fe3c102d57}\label{class_in_control_1_1_one_axis_input_control_a3f66d80e060c9e3fe4ae28fe3c102d57}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!WasPressed@{WasPressed}}
+\index{WasPressed@{WasPressed}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{WasPressed}{WasPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Was\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 303 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a29892ee1b0a2279bad8544d51acd7f6c}\label{class_in_control_1_1_one_axis_input_control_a29892ee1b0a2279bad8544d51acd7f6c}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!WasReleased@{WasReleased}}
+\index{WasReleased@{WasReleased}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{WasReleased}{WasReleased}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Was\+Released\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 309 of file One\+Axis\+Input\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_one_axis_input_control_a7e32762b80868bece430920333b35967}\label{class_in_control_1_1_one_axis_input_control_a7e32762b80868bece430920333b35967}} 
+\index{InControl.OneAxisInputControl@{InControl.OneAxisInputControl}!WasRepeated@{WasRepeated}}
+\index{WasRepeated@{WasRepeated}!InControl.OneAxisInputControl@{InControl.OneAxisInputControl}}
+\doxysubsubsection{\texorpdfstring{WasRepeated}{WasRepeated}}
+{\footnotesize\ttfamily bool In\+Control.\+One\+Axis\+Input\+Control.\+Was\+Repeated\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 315 of file One\+Axis\+Input\+Control.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Control/\mbox{\hyperlink{_one_axis_input_control_8cs}{One\+Axis\+Input\+Control.\+cs}}\end{DoxyCompactItemize}

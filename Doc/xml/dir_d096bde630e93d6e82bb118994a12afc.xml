@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_d096bde630e93d6e82bb118994a12afc" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XInput</compoundname>
+    <innerdir refid="dir_6e1bdccbc9eb9d037dc85a920ff0a016">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XInput/XInputDotNetPure</innerdir>
+    <innerfile refid="_x_input_device_8cs">XInputDevice.cs</innerfile>
+    <innerfile refid="_x_input_device_manager_8cs">XInputDeviceManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XInput/"/>
+  </compounddef>
+</doxygen>

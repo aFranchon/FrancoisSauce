@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSSingleton::GameManager</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSUtils.Singleton&lt; GameManager &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a420a79ae98b7cc78d3614636501d0382" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o" kindref="compound">FSIntEventSO</ref></type>
+        <definition>FSIntEventSO FrancoisSauce.Scripts.FSSingleton.GameManager.onSceneLoaded</definition>
+        <argsstring></argsstring>
+        <name>onSceneLoaded</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>reference to FSIntEventSO for loaded scene event occurs when scene is loaded at 90% </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="21" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a3764082f9b7fca0a98516c992f047e5d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o" kindref="compound">FSIntEventSO</ref></type>
+        <definition>FSIntEventSO FrancoisSauce.Scripts.FSSingleton.GameManager.onSceneChanged</definition>
+        <argsstring></argsstring>
+        <name>onSceneChanged</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>reference to FSIntEventSO for changed scene event occurs when the scene become active </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="25" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a22d13742243acfdc4b2dee499b0f155e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_float_event_s_o" kindref="compound">FSIntFloatEventSO</ref></type>
+        <definition>FSIntFloatEventSO FrancoisSauce.Scripts.FSSingleton.GameManager.onLoadProgress</definition>
+        <argsstring></argsstring>
+        <name>onLoadProgress</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>reference to FSIntFloatEventSO for load scene progress event occurs during each loading frames </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="29" column="36" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a7b98c7553b139a1ce6569e6e97c196fb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o" kindref="compound">FSIntEventSO</ref></type>
+        <definition>FSIntEventSO FrancoisSauce.Scripts.FSSingleton.GameManager.onUnloadComplete</definition>
+        <argsstring></argsstring>
+        <name>onUnloadComplete</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>reference to FSIntEventSO for changed scene event occurs when a scene is completely unload </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="33" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1ad8982be70febdcad8f1571a6189ce937" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.FSSingleton.GameManager.onUpdate</definition>
+        <argsstring></argsstring>
+        <name>onUpdate</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>reference to FSVoidEventSO for frame update. The purpose of this is to replace Update() unity&apos;s method on each object of the game </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="40" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a9ebbcb56f090b4c6e632da55690f1f5b" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; int, int &gt;</type>
+        <definition>readonly Dictionary&lt;int, int&gt; FrancoisSauce.Scripts.FSSingleton.GameManager.indexes</definition>
+        <argsstring></argsstring>
+        <name>indexes</name>
+        <initializer>= new Dictionary&lt;int, int&gt;()</initializer>
+        <briefdescription>
+<para>list of indexes of loading scenes, the key is the buildIndex of the Scene, the value is the index on currentAsyncOperation and currentLoadingIndex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="46" column="37" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a8adc66fcba109c9e40ee7447c6033acd" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; AsyncOperation &gt;</type>
+        <definition>readonly List&lt;AsyncOperation&gt; FrancoisSauce.Scripts.FSSingleton.GameManager.currentAsyncOperation</definition>
+        <argsstring></argsstring>
+        <name>currentAsyncOperation</name>
+        <initializer>= new List&lt;AsyncOperation&gt;()</initializer>
+        <briefdescription>
+<para>List&lt;T&gt; of AsyncOperation currently loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="50" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a4c185a578d002a88e1974ae83170a095" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; int &gt;</type>
+        <definition>readonly List&lt;int&gt; FrancoisSauce.Scripts.FSSingleton.GameManager.currentLoadingIndex</definition>
+        <argsstring></argsstring>
+        <name>currentLoadingIndex</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+<para>List&lt;T&gt; of the currently loading Scene&apos;s indexes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="54" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1aa0c00cd0a7c6325079b1377dfb0405e1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSSingleton.GameManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41e7b240b5701ecae492ddf4df99b212">Awake</reimplements>
+        <briefdescription>
+<para>Awake method from MonoBehaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="59" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a549bb2d7b7b4f604f75945ff2cc2b61d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator FrancoisSauce.Scripts.FSSingleton.GameManager.LoadSceneAsync</definition>
+        <argsstring>(int index, bool directActivation=false, bool slowLoading=true)</argsstring>
+        <name>LoadSceneAsync</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>directActivation</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>slowLoading</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Method to async load a new Scene. It&apos;s additive so the scene will be added without unloading previous ones </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The buildIndex of the Scene to load</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directActivation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true the scene will load instantly, without raising onSceneLoaded</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>slowLoading</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if false do not load game slowly</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator method (use StartCoroutine(LoadSceneAsync) to run the method</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="73" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="73" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a67ab55edc9260305c18cc555f1edff3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator FrancoisSauce.Scripts.FSSingleton.GameManager.EndLoadingActivation</definition>
+        <argsstring>(int index)</argsstring>
+        <name>EndLoadingActivation</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Method to end the loading of a Scene and activate it </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the Scene to activate</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator method (use StartCoroutine(EndLoadingActivation) to run the method</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="124" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="124" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a822d52123ed1e7378b3d2bb7884faa3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameManager.UnloadAsync</definition>
+        <argsstring>(int index)</argsstring>
+        <name>UnloadAsync</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Asynchronous unloading of a Scene </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the Scene to unload</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="161" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="161" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1add3c3154d8d272c7da72b0d64198032e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Update method </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="173" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="173" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Game Manager&apos;s purpose is to handle scene loading/unloading. It raises events on every step of the process of loading/unloading scenes </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Singleton&lt; GameManager &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSSingleton.GameManager</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Singleton&lt; GameManager &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSSingleton.GameManager</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="15" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" bodystart="16" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1aa0c00cd0a7c6325079b1377dfb0405e1" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a8adc66fcba109c9e40ee7447c6033acd" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>currentAsyncOperation</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a4c185a578d002a88e1974ae83170a095" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>currentLoadingIndex</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a67ab55edc9260305c18cc555f1edff3f" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>EndLoadingActivation</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a9ebbcb56f090b4c6e632da55690f1f5b" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>indexes</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>Instance</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1aa10403574a8eba4d6c57d3c3fd690ff1" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>IsInitialized</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a549bb2d7b7b4f604f75945ff2cc2b61d" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>LoadSceneAsync</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41fa01ee5bf413c65ea9af2b509ed05e" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a22d13742243acfdc4b2dee499b0f155e" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>onLoadProgress</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a3764082f9b7fca0a98516c992f047e5d" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>onSceneChanged</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a420a79ae98b7cc78d3614636501d0382" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>onSceneLoaded</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a7b98c7553b139a1ce6569e6e97c196fb" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>onUnloadComplete</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1ad8982be70febdcad8f1571a6189ce937" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>onUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1a822d52123ed1e7378b3d2bb7884faa3b" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>UnloadAsync</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1add3c3154d8d272c7da72b0d64198032e" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

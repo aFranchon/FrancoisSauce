@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_base_menu_8cs" kind="file" language="C#">
+    <compoundname>BaseMenu.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu" prot="public">FrancoisSauce::FSUI::Scripts::BaseMenu::BaseMenu</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_f_s_u_i">FrancoisSauce::FSUI</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_f_s_u_i_1_1_scripts">FrancoisSauce::FSUI::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu">FrancoisSauce::FSUI::Scripts::BaseMenu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu" kindref="compound">FrancoisSauce.FSUI.Scripts.BaseMenu</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu" kindref="compound">BaseMenu</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a290f6bab8c6e5d3c8e9412f2d6f1712a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Button<sp/><ref refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a290f6bab8c6e5d3c8e9412f2d6f1712a" kindref="member">PlayButton</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1ad465292e260fa156e36caac301edbeff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Button<sp/><ref refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1ad465292e260fa156e36caac301edbeff" kindref="member">OptionMenuButton</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a57afeb917a7cf485be02704c79f72a24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Button<sp/><ref refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a57afeb917a7cf485be02704c79f72a24" kindref="member">QuitButton</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs"/>
+  </compounddef>
+</doxygen>

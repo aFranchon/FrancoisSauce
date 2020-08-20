@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_input_device_manager" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>InControl::InputDeviceManager</compoundname>
+    <derivedcompoundref refid="class_in_control_1_1_native_input_device_manager" prot="public" virt="non-virtual">InControl.NativeInputDeviceManager</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_ouya_everywhere_device_manager" prot="public" virt="non-virtual">InControl.OuyaEverywhereDeviceManager</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_unity_input_device_manager" prot="public" virt="non-virtual">InControl.UnityInputDeviceManager</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_xbox_one_input_device_manager" prot="public" virt="non-virtual">InControl.XboxOneInputDeviceManager</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_manager_1a024370cba1e3d026abd3a83fa27922c8" prot="protected" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref> &gt;</type>
+        <definition>readonly List&lt;InputDevice&gt; InControl.InputDeviceManager.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" line="8" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_device_manager_1ac3416e8a7486490be7f21a0b33f71e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.InputDeviceManager.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_in_control_1_1_ouya_everywhere_device_manager_1a5ff4a55358deb91306bb6d86ab15f7b7">Update</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_unity_input_device_manager_1afcc8cd8dcd9185c3d32b15d99b581e6b">Update</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_xbox_one_input_device_manager_1afb3555eced68428a7ad9a07fb97d953e">Update</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_native_input_device_manager_1a73fc159153de40e247a8c16417cea162">Update</reimplementedby>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" line="10" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_manager_1afa06031296afe418d2c57b13e2fa3c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InControl.InputDeviceManager.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <reimplementedby refid="class_in_control_1_1_xbox_one_input_device_manager_1ae1b63db9f19db80c88a28eb10f5b856a">Destroy</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_native_input_device_manager_1a8a2569e0f985eedf1e3b2f6871b48fbf">Destroy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" line="11" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>InControl.UnityInputDeviceManager</label>
+        <link refid="class_in_control_1_1_unity_input_device_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InControl.OuyaEverywhereDeviceManager</label>
+        <link refid="class_in_control_1_1_ouya_everywhere_device_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.XboxOneInputDeviceManager</label>
+        <link refid="class_in_control_1_1_xbox_one_input_device_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+      </node>
+      <node id="2">
+        <label>InControl.NativeInputDeviceManager</label>
+        <link refid="class_in_control_1_1_native_input_device_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>devices</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" line="6" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceManager.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_device_manager_1afa06031296afe418d2c57b13e2fa3c97" prot="public" virt="virtual"><scope>InControl::InputDeviceManager</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_input_device_manager_1a024370cba1e3d026abd3a83fa27922c8" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceManager</scope><name>devices</name></member>
+      <member refid="class_in_control_1_1_input_device_manager_1ac3416e8a7486490be7f21a0b33f71e77" prot="public" virt="pure-virtual"><scope>InControl::InputDeviceManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

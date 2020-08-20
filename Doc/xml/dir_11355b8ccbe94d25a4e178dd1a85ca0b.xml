@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_11355b8ccbe94d25a4e178dd1a85ca0b" kind="dir">
+    <compoundname>DOTween/Modules</compoundname>
+    <innerfile refid="_d_o_tween_module_audio_8cs">DOTweenModuleAudio.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_physics_8cs">DOTweenModulePhysics.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_physics2_d_8cs">DOTweenModulePhysics2D.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_sprite_8cs">DOTweenModuleSprite.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_u_i_8cs">DOTweenModuleUI.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_unity_version_8cs">DOTweenModuleUnityVersion.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_utils_8cs">DOTweenModuleUtils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DOTween/Modules/"/>
+  </compounddef>
+</doxygen>

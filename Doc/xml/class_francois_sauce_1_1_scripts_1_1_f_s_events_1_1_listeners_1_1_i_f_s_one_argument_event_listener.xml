@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener_1adb27415897b8ceb95fc972905eb5ce79" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; T &gt;.Invoke</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Method called when FSEventSO raise this listener. It raise the UnityEvent </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be pass to all subscribers</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSOneArgumentEventListener.cs" line="18" column="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface used for listeners to one arguments FSEventSO </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the type of the event to witch we register</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFSEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFSEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSOneArgumentEventListener.cs" line="10" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSOneArgumentEventListener.cs" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a4910cd4d11a62d2483abe096d4d4a048" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>AddListeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a9f4110c8bc095c237d5fea9d2f18f87f" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener_1adb27415897b8ceb95fc972905eb5ce79" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>Invoke</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1aa866d34759a6378469ec931e9ce867cd" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1acfef303b35085ca512c0daec1840874a" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>OnDisable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1af58534aa991b21f25d80dcc6f92b500a" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>OnEnable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1ad993f18a6d542b810928a942588c6762" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSOneArgumentEventListener</scope><name>RemoveListeners</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

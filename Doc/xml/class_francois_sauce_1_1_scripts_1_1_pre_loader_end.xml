@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_pre_loader_end" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::PreLoaderEnd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_pre_loader_end_1a10711abbbd8585ecf77b5bb65487a5f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator FrancoisSauce.Scripts.PreLoaderEnd.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/PreLoaderEnd.cs" line="10" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/PreLoaderEnd.cs" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.PreLoaderEnd</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.PreLoaderEnd</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/PreLoaderEnd.cs" line="8" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/PreLoaderEnd.cs" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end_1a10711abbbd8585ecf77b5bb65487a5f7" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::PreLoaderEnd</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

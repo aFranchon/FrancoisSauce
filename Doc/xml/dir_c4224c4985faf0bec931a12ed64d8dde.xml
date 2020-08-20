@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_c4224c4985faf0bec931a12ed64d8dde" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere</compoundname>
+    <innerfile refid="_ouya_everywhere_device_8cs">OuyaEverywhereDevice.cs</innerfile>
+    <innerfile refid="_ouya_everywhere_device_manager_8cs">OuyaEverywhereDeviceManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/"/>
+  </compounddef>
+</doxygen>

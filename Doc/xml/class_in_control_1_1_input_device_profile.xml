@@ -1,0 +1,1212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_input_device_profile" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InputDeviceProfile</compoundname>
+    <derivedcompoundref refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile" prot="public" virt="non-virtual">InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1af9f48b117cd0d88c058cacd123744928" prot="private" static="yes" mutable="no">
+        <type>readonly HashSet&lt; Type &gt;</type>
+        <definition>readonly HashSet&lt;Type&gt; InControl.InputDeviceProfile.hiddenProfiles</definition>
+        <argsstring></argsstring>
+        <name>hiddenProfiles</name>
+        <initializer>= new HashSet&lt;Type&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="11" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a0983298673cd4827d14eab76344a296b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84" kindref="member">InputDeviceProfileType</ref></type>
+        <definition>InputDeviceProfileType InControl.InputDeviceProfile.profileType</definition>
+        <argsstring></argsstring>
+        <name>profileType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="17" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a8f9b723937a236f55785ed13d5ef3f68" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputDeviceProfile.deviceName</definition>
+        <argsstring></argsstring>
+        <name>deviceName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="20" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1ab3774a4c5e22fd6a9f40d8997d19a6e1" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputDeviceProfile.deviceNotes</definition>
+        <argsstring></argsstring>
+        <name>deviceNotes</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="23" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1acba7aaa5b100d060c299757aa9596214" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>InputDeviceClass InControl.InputDeviceProfile.deviceClass</definition>
+        <argsstring></argsstring>
+        <name>deviceClass</name>
+        <initializer>= <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceClass.Unknown</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="26" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a8c2103dcae9a0e87eacdf54711b2a4e1" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>InputDeviceStyle InControl.InputDeviceProfile.deviceStyle</definition>
+        <argsstring></argsstring>
+        <name>deviceStyle</name>
+        <initializer>= <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceStyle.Unknown</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="29" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a49c354478ed568f9d9e73327838b82df" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.sensitivity</definition>
+        <argsstring></argsstring>
+        <name>sensitivity</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="33" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1ac0c32e3db7d53f404895a218b9654017" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.lowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>lowerDeadZone</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="37" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1af69c4ce521e72a3693358eb79cb38d43" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.upperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>upperDeadZone</name>
+        <initializer>= 0.9f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="41" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a6bed3e7b8770b252c3e2639304e42b88" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] InControl.InputDeviceProfile.includePlatforms</definition>
+        <argsstring></argsstring>
+        <name>includePlatforms</name>
+        <initializer>= new string[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="44" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a9aff73ba23ea6ece006f2c8ee538e9cf" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] InControl.InputDeviceProfile.excludePlatforms</definition>
+        <argsstring></argsstring>
+        <name>excludePlatforms</name>
+        <initializer>= new string[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="47" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a14fc1e1bc3640752163870e9a74cc67b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.minSystemBuildNumber</definition>
+        <argsstring></argsstring>
+        <name>minSystemBuildNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="51" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a2e2e26e5726256cededc23b4362119ab" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.maxSystemBuildNumber</definition>
+        <argsstring></argsstring>
+        <name>maxSystemBuildNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="55" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1aa1af5218be194a9dc29b735805982c45" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.InputDeviceProfile.minUnityVersion</definition>
+        <argsstring></argsstring>
+        <name>minUnityVersion</name>
+        <initializer>= <ref refid="struct_in_control_1_1_version_info_1aa7b3bfda44821c859a267e7476c74bcf" kindref="member">VersionInfo.Min</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="58" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1adda7031cc6704408801687cb8eecb564" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.InputDeviceProfile.maxUnityVersion</definition>
+        <argsstring></argsstring>
+        <name>maxUnityVersion</name>
+        <initializer>= <ref refid="struct_in_control_1_1_version_info_1a9f45ee26dce919661bf0549201815c7b" kindref="member">VersionInfo.Max</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="61" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1af207238cebc6375b7f14e6768dc483f0" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[]</type>
+        <definition>InputDeviceMatcher [] InControl.InputDeviceProfile.matchers</definition>
+        <argsstring></argsstring>
+        <name>matchers</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="64" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a5c9c49c77d2c67946e7424a996ef203b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[]</type>
+        <definition>InputDeviceMatcher [] InControl.InputDeviceProfile.lastResortMatchers</definition>
+        <argsstring></argsstring>
+        <name>lastResortMatchers</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="67" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1af7b714238af61b2446e7bb809c5bfab6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[]</type>
+        <definition>InputControlMapping [] InControl.InputDeviceProfile.analogMappings</definition>
+        <argsstring></argsstring>
+        <name>analogMappings</name>
+        <initializer>= new <ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="70" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1aab9fdaa199d6de255d831a8f8bd31d48" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[]</type>
+        <definition>InputControlMapping [] InControl.InputDeviceProfile.buttonMappings</definition>
+        <argsstring></argsstring>
+        <name>buttonMappings</name>
+        <initializer>= new <ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="73" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1aa391db36ddfc58686faf670a98c2f6e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84" kindref="member">InputDeviceProfileType</ref></type>
+        <definition>InputDeviceProfileType InControl.InputDeviceProfile.ProfileType</definition>
+        <argsstring></argsstring>
+        <name>ProfileType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="80" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a25545f0772a3f2f074dc19b40bd279c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>string</type>
+        <definition>string InControl.InputDeviceProfile.DeviceName</definition>
+        <argsstring></argsstring>
+        <name>DeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="81" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1abc188ddbafbde8f294aa6b0e952ea8b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>string</type>
+        <definition>string InControl.InputDeviceProfile.DeviceNotes</definition>
+        <argsstring></argsstring>
+        <name>DeviceNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="82" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a95481d6fc44e494c6fc7e2813d864f32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>InputDeviceClass InControl.InputDeviceProfile.DeviceClass</definition>
+        <argsstring></argsstring>
+        <name>DeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="83" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a996c6637e7b3c0b733b79a03d3d605a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>InputDeviceStyle InControl.InputDeviceProfile.DeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>DeviceStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="84" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a730ee66ab320fe8833f669c629b4badf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.Sensitivity</definition>
+        <argsstring></argsstring>
+        <name>Sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="85" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1ae05a8f2e472d414c9d05e850caa53fe0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="86" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a1bff750befede18389f44aefce702952" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>float</type>
+        <definition>float InControl.InputDeviceProfile.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="87" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1ac7ebe9af345a8e28809312dd1f07cc49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[]</type>
+        <definition>InputControlMapping [] InControl.InputDeviceProfile.AnalogMappings</definition>
+        <argsstring></argsstring>
+        <name>AnalogMappings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="88" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1aae3597995570addfbfb7f4e004678c83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref>[]</type>
+        <definition>InputControlMapping [] InControl.InputDeviceProfile.ButtonMappings</definition>
+        <argsstring></argsstring>
+        <name>ButtonMappings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="89" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a9d6205301407b48002d5e2b107697231" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>string[]</type>
+        <definition>string [] InControl.InputDeviceProfile.IncludePlatforms</definition>
+        <argsstring></argsstring>
+        <name>IncludePlatforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="92" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a5ebc7a2f988b3eff11f1f7211d7073f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>string[]</type>
+        <definition>string [] InControl.InputDeviceProfile.ExcludePlatforms</definition>
+        <argsstring></argsstring>
+        <name>ExcludePlatforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="93" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a57ea5ec5b5937425a0f786621429cfb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.MinSystemBuildNumber</definition>
+        <argsstring></argsstring>
+        <name>MinSystemBuildNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="94" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a622f4dc64147f01c9171ba730186938e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.MaxSystemBuildNumber</definition>
+        <argsstring></argsstring>
+        <name>MaxSystemBuildNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="95" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a42acf58fbe381b4f9fce1868a4109a1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.InputDeviceProfile.MinUnityVersion</definition>
+        <argsstring></argsstring>
+        <name>MinUnityVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="96" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a4fb4b72076ba70613f40dfc303c9fc32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.InputDeviceProfile.MaxUnityVersion</definition>
+        <argsstring></argsstring>
+        <name>MaxUnityVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="97" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1ad9b74761bbbb035465d6517ae9c0299a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[]</type>
+        <definition>InputDeviceMatcher [] InControl.InputDeviceProfile.Matchers</definition>
+        <argsstring></argsstring>
+        <name>Matchers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="98" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a7a6343ce97a0c191e575921df1bfe2c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[]</type>
+        <definition>InputDeviceMatcher [] InControl.InputDeviceProfile.LastResortMatchers</definition>
+        <argsstring></argsstring>
+        <name>LastResortMatchers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="99" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a3afbc43d0833d3b79ab50309f4b78449" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.IsSupportedOnThisPlatform</definition>
+        <argsstring></argsstring>
+        <name>IsSupportedOnThisPlatform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="176" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="177" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a3028c74f63433a3744ad3a01476fb544" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.IsHidden</definition>
+        <argsstring></argsstring>
+        <name>IsHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="238" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="239" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1aa59b71b62ce0a51c103e97c9159a285e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.IsNotHidden</definition>
+        <argsstring></argsstring>
+        <name>IsNotHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="244" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="245" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1ab177a6325bf73396a9f7ef8243c4100f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.AnalogCount</definition>
+        <argsstring></argsstring>
+        <name>AnalogCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="250" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_device_profile_1a987b7547b70cb1fe0a4e1c63ef9b6c41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.InputDeviceProfile.ButtonCount</definition>
+        <argsstring></argsstring>
+        <name>ButtonCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="256" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="257" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a4505d312e7f52e20039f05ffc5b869db" prot="protected" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>readonly InputControlSource InControl.InputDeviceProfile.MenuKey</definition>
+        <argsstring></argsstring>
+        <name>MenuKey</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref>( KeyCode.Menu )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="276" column="46" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_device_profile_1a7e13d96258c8b1288c21ed05c8b2b229" prot="protected" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>readonly InputControlSource InControl.InputDeviceProfile.EscapeKey</definition>
+        <argsstring></argsstring>
+        <name>EscapeKey</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref>( KeyCode.Escape )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="277" column="46" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a1c3b1c0eeb3c70033a177ecb0258d44b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref></type>
+        <definition>static InputDeviceProfile InControl.InputDeviceProfile.CreateInstanceOfType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>CreateInstanceOfType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="116" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1af65cc53e7fd709dd16930ddb9d795f4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref></type>
+        <definition>static InputDeviceProfile InControl.InputDeviceProfile.CreateInstanceOfType</definition>
+        <argsstring>(string typeName)</argsstring>
+        <name>CreateInstanceOfType</name>
+        <param>
+          <type>string</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="125" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="125" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a74a1a29a27f1370b500abe550d2349a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.InputDeviceProfile.Hide</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>Hide</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="232" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a867e55788f04eaf9f100dbdc6e8bd84e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InControl.InputDeviceProfile.Define</definition>
+        <argsstring>()</argsstring>
+        <name>Define</name>
+        <reimplementedby refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile_1a94047cc4776770bf27e937b99607d8be">Define</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="138" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a9d506e23c72334dec16a4456b3012bd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.Matches</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>Matches</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="145" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a49930b3a10e70aef75df85a1265b8204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.LastResortMatches</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>LastResortMatches</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="151" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a5bf4874b4c9f25125eeb4d3c146a711f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceProfile.Matches</definition>
+        <argsstring>(InputDeviceInfo deviceInfo, InputDeviceMatcher[] matchers)</argsstring>
+        <name>Matches</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_matcher" kindref="compound">InputDeviceMatcher</ref>[]</type>
+          <declname>matchers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="158" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="158" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1afae422ca31b73ea38e9c3562c92a1c0a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>static InputControlSource InControl.InputDeviceProfile.Button</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Button</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="264" column="37" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="264" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1af8ac52ad2c812a6e5a78937648c94799" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>static InputControlSource InControl.InputDeviceProfile.Analog</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Analog</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="270" column="37" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1aeb3b4c3494b98b9502ef8fa2d376054a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickLeftMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickLeftMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="284" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="284" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a71923c41ff83bde6ff167f1b9e9c19c0" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickRightMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickRightMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="297" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="297" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a766cad4cb095a0b03272214945347565" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickUpMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickUpMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="310" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="310" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1afcaab01b5924c661b57604593baca5fc" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickDownMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickDownMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="323" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="323" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1aecf75ccd2b2cf304ff6b961fb4a5f583" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickUpMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickUpMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="336" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="336" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1ab65187bdb5468b029510679965eba794" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftStickDownMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftStickDownMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="349" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="349" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a205ccf4cd547af0a60542d875e0cac7d" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickLeftMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickLeftMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="362" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="362" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a77489aa50fcb32a47f5015c607d48bc8" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickRightMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickRightMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="375" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="375" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a945604663254824fed6ac247bae2ee2e" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickUpMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickUpMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="388" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="388" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a63975e28fada4604aa3195ce06bea054" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickDownMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickDownMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="401" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="401" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1ac6c896d58dae71f66a798c4ef9534eb2" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickUpMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickUpMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="414" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="414" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a3a2f46c0a26c6653b4765fb58cf40b69" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightStickDownMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightStickDownMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="427" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="427" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a4cd8ae54bc98a85e9e93c7c9a3da51c3" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.LeftTriggerMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>LeftTriggerMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="440" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="440" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a31847b8de3dc634a6b91f6a8bee7f691" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.RightTriggerMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>RightTriggerMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="454" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="454" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a568409c65613a22207e10f8f950f0128" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadLeftMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadLeftMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="468" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="468" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a31d398d2dc796f85ff00bbec36565486" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadRightMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadRightMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="481" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="481" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a4849cdc6b4d6832a2311b711cb9eddbb" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadUpMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadUpMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="494" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="494" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1acfc357f14eaae184f495859b40db0093" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadDownMapping</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadDownMapping</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="507" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="507" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1a57f0529100a195319d19d07580c645e0" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadUpMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadUpMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="520" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="520" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_device_profile_1aa4dfc95ca14f23800bb402e74fe5a386" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_control_mapping" kindref="compound">InputControlMapping</ref></type>
+        <definition>static InputControlMapping InControl.InputDeviceProfile.DPadDownMapping2</definition>
+        <argsstring>(int analog)</argsstring>
+        <name>DPadDownMapping2</name>
+        <param>
+          <type>int</type>
+          <declname>analog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="533" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="533" bodyend="543"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile</label>
+        <link refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.InputDeviceProfile</label>
+        <link refid="class_in_control_1_1_input_device_profile"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>readonly</label>
+      </node>
+      <node id="1">
+        <label>InControl.InputDeviceProfile</label>
+        <link refid="class_in_control_1_1_input_device_profile"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>MenuKey</edgelabel>
+          <edgelabel>EscapeKey</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" line="9" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfile.cs" bodystart="10" bodyend="597"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_device_profile_1af8ac52ad2c812a6e5a78937648c94799" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Analog</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ab177a6325bf73396a9f7ef8243c4100f" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>AnalogCount</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af7b714238af61b2446e7bb809c5bfab6" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>analogMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ac7ebe9af345a8e28809312dd1f07cc49" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>AnalogMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1afae422ca31b73ea38e9c3562c92a1c0a" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Button</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a987b7547b70cb1fe0a4e1c63ef9b6c41" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>ButtonCount</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aab9fdaa199d6de255d831a8f8bd31d48" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>buttonMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aae3597995570addfbfb7f4e004678c83" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>ButtonMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a1c3b1c0eeb3c70033a177ecb0258d44b" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>CreateInstanceOfType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af65cc53e7fd709dd16930ddb9d795f4c" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>CreateInstanceOfType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a867e55788f04eaf9f100dbdc6e8bd84e" prot="public" virt="virtual"><scope>InControl::InputDeviceProfile</scope><name>Define</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1acba7aaa5b100d060c299757aa9596214" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>deviceClass</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a95481d6fc44e494c6fc7e2813d864f32" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a8f9b723937a236f55785ed13d5ef3f68" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>deviceName</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a25545f0772a3f2f074dc19b40bd279c3" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DeviceName</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ab3774a4c5e22fd6a9f40d8997d19a6e1" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>deviceNotes</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1abc188ddbafbde8f294aa6b0e952ea8b6" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DeviceNotes</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a996c6637e7b3c0b733b79a03d3d605a1" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a8c2103dcae9a0e87eacdf54711b2a4e1" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>deviceStyle</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1acfc357f14eaae184f495859b40db0093" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa4dfc95ca14f23800bb402e74fe5a386" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a568409c65613a22207e10f8f950f0128" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a31d398d2dc796f85ff00bbec36565486" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4849cdc6b4d6832a2311b711cb9eddbb" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a57f0529100a195319d19d07580c645e0" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>DPadUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a7e13d96258c8b1288c21ed05c8b2b229" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>EscapeKey</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a9aff73ba23ea6ece006f2c8ee538e9cf" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>excludePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a5ebc7a2f988b3eff11f1f7211d7073f7" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>ExcludePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af9f48b117cd0d88c058cacd123744928" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>hiddenProfiles</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a74a1a29a27f1370b500abe550d2349a0" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Hide</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a6bed3e7b8770b252c3e2639304e42b88" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>includePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a9d6205301407b48002d5e2b107697231" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>IncludePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3028c74f63433a3744ad3a01476fb544" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>IsHidden</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa59b71b62ce0a51c103e97c9159a285e" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>IsNotHidden</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3afbc43d0833d3b79ab50309f4b78449" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>IsSupportedOnThisPlatform</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a7a6343ce97a0c191e575921df1bfe2c2" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LastResortMatchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a5c9c49c77d2c67946e7424a996ef203b" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>lastResortMatchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a49930b3a10e70aef75df85a1265b8204" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LastResortMatches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1afcaab01b5924c661b57604593baca5fc" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ab65187bdb5468b029510679965eba794" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aeb3b4c3494b98b9502ef8fa2d376054a" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a71923c41ff83bde6ff167f1b9e9c19c0" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a766cad4cb095a0b03272214945347565" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aecf75ccd2b2cf304ff6b961fb4a5f583" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftStickUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4cd8ae54bc98a85e9e93c7c9a3da51c3" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LeftTriggerMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ae05a8f2e472d414c9d05e850caa53fe0" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ac0c32e3db7d53f404895a218b9654017" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>lowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ad9b74761bbbb035465d6517ae9c0299a" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Matchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af207238cebc6375b7f14e6768dc483f0" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>matchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a9d506e23c72334dec16a4456b3012bd6" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Matches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a5bf4874b4c9f25125eeb4d3c146a711f" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Matches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a2e2e26e5726256cededc23b4362119ab" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>maxSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a622f4dc64147f01c9171ba730186938e" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>MaxSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4fb4b72076ba70613f40dfc303c9fc32" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>MaxUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1adda7031cc6704408801687cb8eecb564" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>maxUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4505d312e7f52e20039f05ffc5b869db" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>MenuKey</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a14fc1e1bc3640752163870e9a74cc67b" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>minSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a57ea5ec5b5937425a0f786621429cfb0" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>MinSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a42acf58fbe381b4f9fce1868a4109a1b" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>MinUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa1af5218be194a9dc29b735805982c45" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>minUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a0983298673cd4827d14eab76344a296b" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>profileType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa391db36ddfc58686faf670a98c2f6e7" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>ProfileType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a63975e28fada4604aa3195ce06bea054" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3a2f46c0a26c6653b4765fb58cf40b69" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a205ccf4cd547af0a60542d875e0cac7d" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a77489aa50fcb32a47f5015c607d48bc8" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a945604663254824fed6ac247bae2ee2e" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ac6c896d58dae71f66a798c4ef9534eb2" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightStickUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a31847b8de3dc634a6b91f6a8bee7f691" prot="protected" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>RightTriggerMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a730ee66ab320fe8833f669c629b4badf" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a49c354478ed568f9d9e73327838b82df" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>sensitivity</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a1bff750befede18389f44aefce702952" prot="public" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af69c4ce521e72a3693358eb79cb38d43" prot="private" virt="non-virtual"><scope>InControl::InputDeviceProfile</scope><name>upperDeadZone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

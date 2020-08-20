@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_key_info" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::KeyInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_key_info_1aa89660e65d606a891c8f60493d20c4d9" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+        <definition>readonly Key InControl.KeyInfo.key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="8" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_info_1a9b8aa7f8eb7f6bb1e904a36ffd02ef1d" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string InControl.KeyInfo.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="9" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_info_1a813af268bd6d705e095ea4b7b8a979e0" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string InControl.KeyInfo.macName</definition>
+        <argsstring></argsstring>
+        <name>macName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="10" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_info_1a518dad3f1de99ca20747b0fa2ab6544d" prot="public" static="no" mutable="no">
+        <type>readonly KeyCode[]</type>
+        <definition>readonly KeyCode [] InControl.KeyInfo.keyCodes</definition>
+        <argsstring></argsstring>
+        <name>keyCodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="11" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_key_info_1aef3ba34517da0501d1c44c1a8532a51a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.KeyInfo.IsPressed</definition>
+        <argsstring></argsstring>
+        <name>IsPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="32" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="33" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_key_info_1a2b483389836fa8c5a80c68c4515c0910" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string InControl.KeyInfo.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="50" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="51" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_key_info_1a1bc82945294e98f06b7871595b17ae23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+        <definition>Key InControl.KeyInfo.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="71" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_key_info_1a6777b703a2dc042fb5d942bf4fa37742" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_key_info" kindref="compound">KeyInfo</ref>[]</type>
+        <definition>readonly KeyInfo [] InControl.KeyInfo.KeyList</definition>
+        <argsstring></argsstring>
+        <name>KeyList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="80" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_key_info_1a44e7c621c8302ac95e53ce7882c2a5b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyInfo.KeyInfo</definition>
+        <argsstring>(Key key, string name, params KeyCode[] keyCodes)</argsstring>
+        <name>KeyInfo</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>params KeyCode[]</type>
+          <declname>keyCodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="14" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_info_1a35b548550d5d40a0159291446acb3243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyInfo.KeyInfo</definition>
+        <argsstring>(Key key, string name, string macName, params KeyCode[] keyCodes)</argsstring>
+        <name>KeyInfo</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>macName</declname>
+        </param>
+        <param>
+          <type>params KeyCode[]</type>
+          <declname>keyCodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="23" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.KeyInfo</label>
+        <link refid="struct_in_control_1_1_key_info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>KeyList</edgelabel>
+          <edgelabel>keyCodes</edgelabel>
+          <edgelabel>key</edgelabel>
+          <edgelabel>macName</edgelabel>
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyInfo.cs" bodystart="7" bodyend="245"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_key_info_1aef3ba34517da0501d1c44c1a8532a51a" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>IsPressed</name></member>
+      <member refid="struct_in_control_1_1_key_info_1aa89660e65d606a891c8f60493d20c4d9" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>key</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a1bc82945294e98f06b7871595b17ae23" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>Key</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a518dad3f1de99ca20747b0fa2ab6544d" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>keyCodes</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a44e7c621c8302ac95e53ce7882c2a5b5" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>KeyInfo</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a35b548550d5d40a0159291446acb3243" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>KeyInfo</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a6777b703a2dc042fb5d942bf4fa37742" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>KeyList</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a813af268bd6d705e095ea4b7b8a979e0" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>macName</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a9b8aa7f8eb7f6bb1e904a36ffd02ef1d" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>name</name></member>
+      <member refid="struct_in_control_1_1_key_info_1a2b483389836fa8c5a80c68c4515c0910" prot="public" virt="non-virtual"><scope>InControl::KeyInfo</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

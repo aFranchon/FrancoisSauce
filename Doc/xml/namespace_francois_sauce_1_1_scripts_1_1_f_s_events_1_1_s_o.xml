@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::SO</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_bool_event" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSBoolEvent</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_bool_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSBoolEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_float_event" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSFloatEvent</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_float_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSFloatEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSIntEvent</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSIntEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_float_event" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSIntFloatEvent</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_float_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSIntFloatEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSOneArgumentEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSThreeArgumentEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSTwoArgumentEventSO</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" prot="public">FrancoisSauce::Scripts::FSEvents::SO::FSVoidEventSO</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSBoolEventSO.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

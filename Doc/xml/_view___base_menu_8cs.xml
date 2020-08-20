@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_view___base_menu_8cs" kind="file" language="C#">
+    <compoundname>View_BaseMenu.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu" prot="public">FrancoisSauce::Scripts::MainMenu::BaseMenu::View_BaseMenu</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu">FrancoisSauce::Scripts::MainMenu</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu">FrancoisSauce::Scripts::MainMenu::BaseMenu</innernamespace>
+    <innernamespace refid="namespace_application">Application</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_view___base_menu_8cs_1a2419d32c6dcb26aae15cbd3d1052315d" prot="public" static="no">
+        <type>UnityEngine.Application</type>
+        <definition>using Application =  UnityEngine.Application</definition>
+        <argsstring></argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_BaseMenu/View_BaseMenu.cs" line="3" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_BaseMenu/View_BaseMenu.cs" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_utils" kindref="compound">FSUtils</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_views" kindref="compound">FSViews</ref>;</highlight></codeline>
+<codeline lineno="3" refid="_view___base_menu_8cs_1a2419d32c6dcb26aae15cbd3d1052315d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="_view___base_menu_8cs_1a2419d32c6dcb26aae15cbd3d1052315d" kindref="member">Application</ref><sp/>=<sp/>UnityEngine.Application;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu" kindref="compound">FrancoisSauce.Scripts.MainMenu.BaseMenu</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu" kindref="compound">View_BaseMenu</ref><sp/>:<sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" kindref="compound">IFSView</ref>&lt;Scene_MainMenu&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a49ff6ac3d0dc8cae15892cf6fac9cf89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a49ff6ac3d0dc8cae15892cf6fac9cf89" kindref="member">Awake</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>viewUI<sp/>=<sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1a6fa940abf57f82ff0dfdedc8947c16d9" kindref="member">baseMenuUI</ref>.GetComponentInChildren&lt;<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_base_menu_script" kindref="compound">BaseMenuScript</ref>&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewUI.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_base_menu_script_1a3fc5932c95e6f72cf9e14936536d751c" kindref="member">optionMenuButton</ref>.onClick.AddListener(()<sp/>=&gt;<sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1ac508cea259a3e9a7e32bb574937bf9df" kindref="member">ChangeView</ref>(scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1a605696bda682a7eecbc2867cf1644136" kindref="member">optionMenu</ref>));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewUI.playButton.onClick.AddListener(()<sp/>=&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1ac508cea259a3e9a7e32bb574937bf9df" kindref="member">ChangeView</ref>(scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1afcc5de0350f2081ed62f012264d2c9ac" kindref="member">loadingMenu</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1abc3ef48bcea42c0815c360ef81151365" kindref="member">LoadScene</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list" kindref="compound">SceneList</ref>.<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" kindref="member">Instance</ref>.scenes[</highlight><highlight class="stringliteral">&quot;GameScene&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewUI.quitButton.onClick.AddListener(<ref refid="_view___base_menu_8cs_1a2419d32c6dcb26aae15cbd3d1052315d" kindref="member">Application</ref>.Quit);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a6a1c7253dcec814f60b1ea2349a6b979" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a6a1c7253dcec814f60b1ea2349a6b979" kindref="member">OnViewEnter</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1a6fa940abf57f82ff0dfdedc8947c16d9" kindref="member">baseMenuUI</ref>.SetActive(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a91a447e4547020563166fdaae93c496a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a91a447e4547020563166fdaae93c496a" kindref="member">OnViewExit</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1a6fa940abf57f82ff0dfdedc8947c16d9" kindref="member">baseMenuUI</ref>.SetActive(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a3aad8dffe2568f1f581f4648a314aeb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu_1a3aad8dffe2568f1f581f4648a314aeb9" kindref="member">OnUpdate</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_BaseMenu/View_BaseMenu.cs"/>
+  </compounddef>
+</doxygen>

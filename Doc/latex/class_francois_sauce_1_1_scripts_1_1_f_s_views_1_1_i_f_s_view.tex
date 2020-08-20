@@ -1,0 +1,87 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{}\doxysection{Francois\+Sauce.\+Scripts.\+F\+S\+Views.\+I\+F\+S\+View$<$ T $>$ Class Template Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}\index{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}}
+
+
+Interface of \mbox{\hyperlink{namespace_francois_sauce}{Francois\+Sauce}} scene/view implementation. Views are states of the I\+F\+S\+Scene$<$\+T$>$ state machine. Views are here to handle the scene lifetime  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a3ef1f8a685147372c0c44b78cfd605fc}{On\+View\+Enter}} (T scene)
+\begin{DoxyCompactList}\small\item\em Method to handle entering in the view \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a36392b71d04164b02eee2babec44a104}{On\+View\+Exit}} (T scene)
+\begin{DoxyCompactList}\small\item\em Method to handle exiting out the view \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a5d37ff926ef30075b56065bedff7a9d2}{On\+Update}} (T scene)
+\begin{DoxyCompactList}\small\item\em Method to handle updating the view \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface of \mbox{\hyperlink{namespace_francois_sauce}{Francois\+Sauce}} scene/view implementation. Views are states of the I\+F\+S\+Scene$<$\+T$>$ state machine. Views are here to handle the scene lifetime 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & template class to allow code to be used everywhere\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em I\+F\+S\+Scene$<$T$>$}]\end{description}
+\end{Desc}
+
+
+Definition at line 11 of file I\+F\+S\+V\+Iew.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a5d37ff926ef30075b56065bedff7a9d2}\label{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a5d37ff926ef30075b56065bedff7a9d2}} 
+\index{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{Francois\+Sauce.\+Scripts.\+F\+S\+Views.\+I\+F\+S\+View}}$<$ T $>$.On\+Update (\begin{DoxyParamCaption}\item[{T}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Method to handle updating the view 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & the I\+F\+S\+Scene$<$\+T$>$ that own the view. The scene contains every infos needed by the view.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a3ef1f8a685147372c0c44b78cfd605fc}\label{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a3ef1f8a685147372c0c44b78cfd605fc}} 
+\index{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}!OnViewEnter@{OnViewEnter}}
+\index{OnViewEnter@{OnViewEnter}!FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{OnViewEnter()}{OnViewEnter()}}
+{\footnotesize\ttfamily abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{Francois\+Sauce.\+Scripts.\+F\+S\+Views.\+I\+F\+S\+View}}$<$ T $>$.On\+View\+Enter (\begin{DoxyParamCaption}\item[{T}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Method to handle entering in the view 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & the I\+F\+S\+Scene$<$\+T$>$ that own the view. The scene contains every infos needed by the view.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a36392b71d04164b02eee2babec44a104}\label{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_a36392b71d04164b02eee2babec44a104}} 
+\index{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}!OnViewExit@{OnViewExit}}
+\index{OnViewExit@{OnViewExit}!FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$@{FrancoisSauce.Scripts.FSViews.IFSView$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{OnViewExit()}{OnViewExit()}}
+{\footnotesize\ttfamily abstract void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{Francois\+Sauce.\+Scripts.\+F\+S\+Views.\+I\+F\+S\+View}}$<$ T $>$.On\+View\+Exit (\begin{DoxyParamCaption}\item[{T}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Method to handle exiting out the view 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & the I\+F\+S\+Scene$<$\+T$>$ that own the view. The scene contains every infos needed by the view.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+\_\+\+\_\+\+\_\+\+F\+S\+Views/\mbox{\hyperlink{_i_f_s_v_iew_8cs}{I\+F\+S\+V\+Iew.\+cs}}\end{DoxyCompactItemize}

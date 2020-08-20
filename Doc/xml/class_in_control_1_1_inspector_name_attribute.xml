@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_inspector_name_attribute" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InspectorNameAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_inspector_name_attribute_1af3569494ef8183b706784eecfd78a563" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string InControl.InspectorNameAttribute.displayName</definition>
+        <argsstring></argsstring>
+        <name>displayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" line="14" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_inspector_name_attribute_1a7ce63fad94286594a20a74d4f0421685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InspectorNameAttribute.InspectorNameAttribute</definition>
+        <argsstring>(string displayName)</argsstring>
+        <name>InspectorNameAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" line="16" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PropertyAttribute</label>
+      </node>
+      <node id="1">
+        <label>InControl.InspectorNameAttribute</label>
+        <link refid="class_in_control_1_1_inspector_name_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PropertyAttribute</label>
+      </node>
+      <node id="1">
+        <label>InControl.InspectorNameAttribute</label>
+        <link refid="class_in_control_1_1_inspector_name_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>displayName</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" line="12" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/InspectorNameAttribute.cs" bodystart="13" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_inspector_name_attribute_1af3569494ef8183b706784eecfd78a563" prot="public" virt="non-virtual"><scope>InControl::InspectorNameAttribute</scope><name>displayName</name></member>
+      <member refid="class_in_control_1_1_inspector_name_attribute_1a7ce63fad94286594a20a74d4f0421685" prot="public" virt="non-virtual"><scope>InControl::InspectorNameAttribute</scope><name>InspectorNameAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

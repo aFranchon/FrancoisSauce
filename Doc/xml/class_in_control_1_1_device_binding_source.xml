@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_device_binding_source" kind="class" language="C#" prot="public">
+    <compoundname>InControl::DeviceBindingSource</compoundname>
+    <basecompoundref refid="class_in_control_1_1_binding_source" prot="public" virt="non-virtual">InControl.BindingSource</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1ab2d6dc1c56d71577cb59f4c0a42747c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+        <definition>InputControlType InControl.DeviceBindingSource.Control</definition>
+        <argsstring></argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="10" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1aff28546b6f8f7437a34a56fe412b6916" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.DeviceBindingSource.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="47" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="48" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1a53cd18010fef0a8515b26fcd9ae58aed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.DeviceBindingSource.DeviceName</definition>
+        <argsstring></argsstring>
+        <name>DeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="71" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="72" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1aaf6d606569162e29c491560e7c81d066" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref>?</type>
+        <definition>override InputDeviceClass? InControl.DeviceBindingSource.DeviceClass</definition>
+        <argsstring></argsstring>
+        <name>DeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="94" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1a7bc7b168bc3d678ee4df4557aa928888" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref>?</type>
+        <definition>override InputDeviceStyle? InControl.DeviceBindingSource.DeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>DeviceStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="103" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1a74fd8bf2d68a84a65fa2c0e437ea96b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>override BindingSourceType InControl.DeviceBindingSource.BindingSourceType</definition>
+        <argsstring></argsstring>
+        <name>BindingSourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="152" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_device_binding_source_1a965bca919d65c19ef287b64140d028b2" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool InControl.DeviceBindingSource.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="173" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="174" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a18c482f57dddeb1d607d8e3f9142257e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.DeviceBindingSource.DeviceBindingSource</definition>
+        <argsstring>()</argsstring>
+        <name>DeviceBindingSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="13" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1ab6e6c425321565c8ce4a571f3c130211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.DeviceBindingSource.DeviceBindingSource</definition>
+        <argsstring>(InputControlType control)</argsstring>
+        <name>DeviceBindingSource</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="19" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1aafe6748cd71503b797db7d50aaebb4ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float InControl.DeviceBindingSource.GetValue</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a8fff562866ca868f6b5c9f91932bd64a">GetValue</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a float value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value, usually in the range -1..1, but not necessarily, for example, in the case of mouse movement.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="25" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1ad8c9d4292f21239e8b9240460b77aa04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.DeviceBindingSource.GetState</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetState</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a72c2d47869cfc3c33b2cfc1ea8ab24cc">GetState</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a bool value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the value of the binding is non-zero; otherwise <computeroutput>false</computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="36" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a60a1e63f8466d41c7c3e68b4c191753f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.DeviceBindingSource.Equals</definition>
+        <argsstring>(BindingSource other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1afb297381157f71e88975cbabedabe635">Equals</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to compare with the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="112" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="112" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a3f4acd95a2b28be58f0136cbfbb3a892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.DeviceBindingSource.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="129" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="129" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a8606c32ac5db20c7e1ae11b689a07850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.DeviceBindingSource.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="146" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a43e9b6b14aa49652259c3d1d147512ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.DeviceBindingSource.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1aa3291f28485fa64ca39cdf41dbbfdaa0">Save</reimplements>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="161" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_device_binding_source_1a2876ae996404d269d067830113a6f553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.DeviceBindingSource.Load</definition>
+        <argsstring>(BinaryReader reader, UInt16 dataFormatVersion)</argsstring>
+        <name>Load</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a40f55804f6cbfde3f3c92d59756cbcb1">Load</reimplements>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dataFormatVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="167" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="167" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.DeviceBindingSource</label>
+        <link refid="class_in_control_1_1_device_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.DeviceBindingSource</label>
+        <link refid="class_in_control_1_1_device_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/DeviceBindingSource.cs" bodystart="9" bodyend="188"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_device_binding_source_1a74fd8bf2d68a84a65fa2c0e437ea96b2" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>BindingSourceType</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a0d9586fb3b6233d99a96407ef287ccb5" prot="package" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>BoundTo</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1ab2d6dc1c56d71577cb59f4c0a42747c4" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>Control</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a18c482f57dddeb1d607d8e3f9142257e" prot="package" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>DeviceBindingSource</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1ab6e6c425321565c8ce4a571f3c130211" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>DeviceBindingSource</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1aaf6d606569162e29c491560e7c81d066" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a53cd18010fef0a8515b26fcd9ae58aed" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>DeviceName</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a7bc7b168bc3d678ee4df4557aa928888" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a60a1e63f8466d41c7c3e68b4c191753f" prot="public" virt="virtual"><scope>InControl::DeviceBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a3f4acd95a2b28be58f0136cbfbb3a892" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a8606c32ac5db20c7e1ae11b689a07850" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>GetHashCode</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1ad8c9d4292f21239e8b9240460b77aa04" prot="public" virt="virtual"><scope>InControl::DeviceBindingSource</scope><name>GetState</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1aafe6748cd71503b797db7d50aaebb4ff" prot="public" virt="virtual"><scope>InControl::DeviceBindingSource</scope><name>GetValue</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a965bca919d65c19ef287b64140d028b2" prot="package" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>IsValid</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a2876ae996404d269d067830113a6f553" prot="public" virt="virtual"><scope>InControl::DeviceBindingSource</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1aff28546b6f8f7437a34a56fe412b6916" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_binding_source_1ab5f01ce009d16d8fe1dcebdcb765dcf3" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>operator!=</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a2be1cd2a60d29c2f90ca075b2bf5b306" prot="public" virt="non-virtual"><scope>InControl::DeviceBindingSource</scope><name>operator==</name></member>
+      <member refid="class_in_control_1_1_device_binding_source_1a43e9b6b14aa49652259c3d1d147512ff" prot="public" virt="virtual"><scope>InControl::DeviceBindingSource</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

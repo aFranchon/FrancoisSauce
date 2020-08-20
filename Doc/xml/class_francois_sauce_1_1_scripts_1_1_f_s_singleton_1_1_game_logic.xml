@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSSingleton::GameLogic</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSUtils.Singleton&lt; GameLogic &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1afcf05add507e1e6705c965ec6df76775" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.FSSingleton.GameLogic.onGameWin</definition>
+        <argsstring></argsstring>
+        <name>onGameWin</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>FSVoidEventSO raised when game is win, called by levels game objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="20" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a233171b3a54681c58254933978289aca" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.FSSingleton.GameLogic.onGameLose</definition>
+        <argsstring></argsstring>
+        <name>onGameLose</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>FSVoidEventSO raised when game is lost, called by levels game objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="24" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a8fdc71fcb756e41519265395ae0a3273" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.FSSingleton.GameLogic.onUpdateGameStarted</definition>
+        <argsstring></argsstring>
+        <name>onUpdateGameStarted</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>FSVoidEventSO raised when game starts, called by <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene" kindref="compound">GameScene</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="28" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a99bad145c985a4e280ab89d3cc427425" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FrancoisSauce.Scripts.FSSingleton.GameLogic.gameStarted</definition>
+        <argsstring></argsstring>
+        <name>gameStarted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>to know if game is started or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="33" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1ad8113455d5fea5d1ff93d0cf16355db9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FrancoisSauce.Scripts.FSSingleton.GameLogic.gamePaused</definition>
+        <argsstring></argsstring>
+        <name>gamePaused</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>to know if game is paused or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="37" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1aefc4c2d62a85ec8e9e05f5e98fe3c1d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <briefdescription>
+<para>called as Update from MonoBehaviour raise the FSVoidEventSO onUpdateGameStarted event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="43" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a4163fe9e5d6d35fcb67b93d0b012cb08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnClickedStartButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnClickedStartButton</name>
+        <briefdescription>
+<para>called from FSVoidEventSO onClickedStartButton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="60" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1ab152d3fadd390b49895e9f54ee788521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnWin</definition>
+        <argsstring>()</argsstring>
+        <name>OnWin</name>
+        <briefdescription>
+<para>called from FSVoidEventSO onWin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="68" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a019debd821ef8312406cf18d8f2dc77e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnLose</definition>
+        <argsstring>()</argsstring>
+        <name>OnLose</name>
+        <briefdescription>
+<para>called from FSVoidEventSO onLose </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="77" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a4a0c840a6cddb08347db73c88951633e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>called from FSVoidEventSO onPause </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="86" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1af50536b2dcd699df584802a8869f4c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSSingleton.GameLogic.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+<para>called from FSVoidEventSO onResume </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="94" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The logic of the game, should contain only behaviour that manage the state of the game events in relation with <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene" kindref="compound">GameScene</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Singleton&lt; GameLogic &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSSingleton.GameLogic</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Singleton&lt; GameLogic &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSSingleton.GameLogic</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" line="15" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons/GameLogic.cs" bodystart="16" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41e7b240b5701ecae492ddf4df99b212" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1ad8113455d5fea5d1ff93d0cf16355db9" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>gamePaused</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a99bad145c985a4e280ab89d3cc427425" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>gameStarted</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>Instance</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1aa10403574a8eba4d6c57d3c3fd690ff1" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>IsInitialized</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a4163fe9e5d6d35fcb67b93d0b012cb08" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnClickedStartButton</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41fa01ee5bf413c65ea9af2b509ed05e" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a233171b3a54681c58254933978289aca" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>onGameLose</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1afcf05add507e1e6705c965ec6df76775" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>onGameWin</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a019debd821ef8312406cf18d8f2dc77e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnLose</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a4a0c840a6cddb08347db73c88951633e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnPause</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1af50536b2dcd699df584802a8869f4c20" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnResume</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1aefc4c2d62a85ec8e9e05f5e98fe3c1d7" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1a8fdc71fcb756e41519265395ae0a3273" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>onUpdateGameStarted</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic_1ab152d3fadd390b49895e9f54ee788521" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSSingleton::GameLogic</scope><name>OnWin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

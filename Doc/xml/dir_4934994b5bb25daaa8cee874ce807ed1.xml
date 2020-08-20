@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_4934994b5bb25daaa8cee874ce807ed1" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu</compoundname>
+    <innerdir refid="dir_c49a66ea4073b4101a4ed256e827a539">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_BaseMenu</innerdir>
+    <innerdir refid="dir_256a4e39dce53f6048c17c7878efb09d">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu</innerdir>
+    <innerdir refid="dir_0f23a8f0e4e99d766376a2b0ef1138c0">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu</innerdir>
+    <innerfile refid="_scene___main_menu_8cs">Scene_MainMenu.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/"/>
+  </compounddef>
+</doxygen>

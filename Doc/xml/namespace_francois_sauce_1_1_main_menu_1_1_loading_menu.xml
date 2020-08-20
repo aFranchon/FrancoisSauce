@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_main_menu_1_1_loading_menu" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::MainMenu::LoadingMenu</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script" prot="public">FrancoisSauce::MainMenu::LoadingMenu::LoadingMenuScript</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu" prot="public">FrancoisSauce::MainMenu::LoadingMenu::View_LoadingMenu</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu/LoadingMenuScript.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

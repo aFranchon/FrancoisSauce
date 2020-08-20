@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_logger" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Logger</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_in_control_1_1_logger_1a2582661dfff939539ff2bec520e77773" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="struct_in_control_1_1_log_message" kindref="compound">LogMessage</ref> &gt;</type>
+        <definition>Action&lt;LogMessage&gt; InControl.Logger.OnLogMessage</definition>
+        <argsstring></argsstring>
+        <name>OnLogMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="23" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_logger_1af2808d097e60a35d866745471e59f2c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Logger.LogInfo</definition>
+        <argsstring>(string text)</argsstring>
+        <name>LogInfo</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="26" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_logger_1a12bc37ff25b4cce3f00a72d43f2816ab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Logger.LogWarning</definition>
+        <argsstring>(string text)</argsstring>
+        <name>LogWarning</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="36" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_logger_1aa66109834395f445851eabf44db12ac4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Logger.LogError</definition>
+        <argsstring>(string text)</argsstring>
+        <name>LogError</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="46" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="21" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="22" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_logger_1aa66109834395f445851eabf44db12ac4" prot="public" virt="non-virtual"><scope>InControl::Logger</scope><name>LogError</name></member>
+      <member refid="class_in_control_1_1_logger_1af2808d097e60a35d866745471e59f2c6" prot="public" virt="non-virtual"><scope>InControl::Logger</scope><name>LogInfo</name></member>
+      <member refid="class_in_control_1_1_logger_1a12bc37ff25b4cce3f00a72d43f2816ab" prot="public" virt="non-virtual"><scope>InControl::Logger</scope><name>LogWarning</name></member>
+      <member refid="class_in_control_1_1_logger_1a2582661dfff939539ff2bec520e77773" prot="public" virt="non-virtual"><scope>InControl::Logger</scope><name>OnLogMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

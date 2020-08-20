@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_scripts_1_1_game_scene" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::Scripts::GameScene</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" prot="public">FrancoisSauce::Scripts::GameScene::Scene_Game</innerclass>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose">FrancoisSauce::Scripts::GameScene::Lose</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause">FrancoisSauce::Scripts::GameScene::Pause</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing">FrancoisSauce::Scripts::GameScene::Playing</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start">FrancoisSauce::Scripts::GameScene::WaitingToStart</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_win">FrancoisSauce::Scripts::GameScene::Win</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

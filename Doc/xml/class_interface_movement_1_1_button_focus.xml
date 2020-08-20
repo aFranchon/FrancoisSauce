@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_interface_movement_1_1_button_focus" kind="class" language="C#" prot="public">
+    <compoundname>InterfaceMovement::ButtonFocus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_interface_movement_1_1_button_focus_1ab992546b71ca1b3e71433f8c2d6a3a02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.ButtonFocus.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonFocus.cs" line="8" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonFocus.cs" bodystart="8" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InterfaceMovement.ButtonFocus</label>
+        <link refid="class_interface_movement_1_1_button_focus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InterfaceMovement.ButtonFocus</label>
+        <link refid="class_interface_movement_1_1_button_focus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonFocus.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonFocus.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_interface_movement_1_1_button_focus_1ab992546b71ca1b3e71433f8c2d6a3a02" prot="private" virt="non-virtual"><scope>InterfaceMovement::ButtonFocus</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

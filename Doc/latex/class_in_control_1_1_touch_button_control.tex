@@ -1,0 +1,291 @@
+\hypertarget{class_in_control_1_1_touch_button_control}{}\doxysection{In\+Control.\+Touch\+Button\+Control Class Reference}
+\label{class_in_control_1_1_touch_button_control}\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+Inheritance diagram for In\+Control.\+Touch\+Button\+Control\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_in_control_1_1_touch_button_control}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a38e18c2c569379a724152821c786c760}{Create\+Control}} ()
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_ae461215462dcc7f889b12ed10b652f47}{Destroy\+Control}} ()
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_ac4954ed423c651aab6924236602e440e}{Configure\+Control}} ()
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a460833c12ef423b3d7724eeac071e7fb}{Draw\+Gizmos}} ()
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a9ddeb884d10deb38ef2adb66c9e6f5e3}{Submit\+Control\+State}} (ulong update\+Tick, float delta\+Time)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_ad6994d02653f3509bebf7b7e2f81587b}{Commit\+Control\+State}} (ulong update\+Tick, float delta\+Time)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a23cd757a1e50b97049535c0d875e0a16}{Touch\+Began}} (\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} touch)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_ab06d8faeb6ed8540b264f6549c8daad0}{Touch\+Moved}} (\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} touch)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a31f08b548597c6b7e24725f4b4990030}{Touch\+Ended}} (\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} touch)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_touch_control_a8b96adca4e913ca6b3cbb089d1b60966}{Button\+Target}} \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a5a4da4dec90c9ad8ccdd928118dcb197}{target}} = \mbox{\hyperlink{class_in_control_1_1_touch_control_a8b96adca4e913ca6b3cbb089d1b60966a72c7a3098399dfb77a42f5181b46fa41}{Button\+Target.\+Action1}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a7a12be34308281c2e0224ddda0bb63d1}{allow\+Slide\+Toggle}} = true
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a70bcedbc687423f7696ea672b45641be}{toggle\+On\+Leave}} = false
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_touch_button_control_aeb49a6568452ce0ae11e79312c2ca190}{pressure\+Sensitive}} = false
+\item 
+\mbox{\hyperlink{class_in_control_1_1_touch_sprite}{Touch\+Sprite}} \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a1865f6d24939eeaabf8eae84755ca660}{button}} = new \mbox{\hyperlink{class_in_control_1_1_touch_sprite}{Touch\+Sprite}}( 15.\+0f )
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Vector3? \mbox{\hyperlink{class_in_control_1_1_touch_button_control_aa9281832b24fa635eaa1464870f7be39}{Button\+Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{namespace_in_control_ad13ad2f389ab0fb36f613eb6e5a6e65a}{Touch\+Control\+Anchor}} \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a356f5af9f460a0c0ca41babc0a58f2f9}{Anchor}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Vector2 \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a94619ffdfc103d0a8217caf13ee84544}{Offset}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}} \mbox{\hyperlink{class_in_control_1_1_touch_button_control_a5e4a2fbb62a3440d272f0e826966c29f}{Offset\+Unit\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Touch\+Button\+Control.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_ad6994d02653f3509bebf7b7e2f81587b}\label{class_in_control_1_1_touch_button_control_ad6994d02653f3509bebf7b7e2f81587b}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!CommitControlState@{CommitControlState}}
+\index{CommitControlState@{CommitControlState}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{CommitControlState()}{CommitControlState()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Commit\+Control\+State (\begin{DoxyParamCaption}\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_ab6dda6aaa855e7066c3b556fb77752e6}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 133 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_ac4954ed423c651aab6924236602e440e}\label{class_in_control_1_1_touch_button_control_ac4954ed423c651aab6924236602e440e}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!ConfigureControl@{ConfigureControl}}
+\index{ConfigureControl@{ConfigureControl}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{ConfigureControl()}{ConfigureControl()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Configure\+Control (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_a884930763fd25d4b01252cad074d4324}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 60 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a38e18c2c569379a724152821c786c760}\label{class_in_control_1_1_touch_button_control_a38e18c2c569379a724152821c786c760}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!CreateControl@{CreateControl}}
+\index{CreateControl@{CreateControl}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{CreateControl()}{CreateControl()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Create\+Control (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_ab81fefe6eca3e972ce1c188c76a54215}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 42 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_ae461215462dcc7f889b12ed10b652f47}\label{class_in_control_1_1_touch_button_control_ae461215462dcc7f889b12ed10b652f47}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!DestroyControl@{DestroyControl}}
+\index{DestroyControl@{DestroyControl}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{DestroyControl()}{DestroyControl()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Destroy\+Control (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_af26e3207ecb016a2f783adf1dfc8efc0}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 48 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a460833c12ef423b3d7724eeac071e7fb}\label{class_in_control_1_1_touch_button_control_a460833c12ef423b3d7724eeac071e7fb}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!DrawGizmos@{DrawGizmos}}
+\index{DrawGizmos@{DrawGizmos}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{DrawGizmos()}{DrawGizmos()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Draw\+Gizmos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_aaaf4e78f6fb9a16199273dcdfe425eee}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 67 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a9ddeb884d10deb38ef2adb66c9e6f5e3}\label{class_in_control_1_1_touch_button_control_a9ddeb884d10deb38ef2adb66c9e6f5e3}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!SubmitControlState@{SubmitControlState}}
+\index{SubmitControlState@{SubmitControlState}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{SubmitControlState()}{SubmitControlState()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Submit\+Control\+State (\begin{DoxyParamCaption}\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_a8e600dd3c15e3d3df1843df8ad755b83}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 87 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a23cd757a1e50b97049535c0d875e0a16}\label{class_in_control_1_1_touch_button_control_a23cd757a1e50b97049535c0d875e0a16}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!TouchBegan@{TouchBegan}}
+\index{TouchBegan@{TouchBegan}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{TouchBegan()}{TouchBegan()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Touch\+Began (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}}}]{touch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_aab486b8ad4c8975e17e36b7749f453fa}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 139 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a31f08b548597c6b7e24725f4b4990030}\label{class_in_control_1_1_touch_button_control_a31f08b548597c6b7e24725f4b4990030}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!TouchEnded@{TouchEnded}}
+\index{TouchEnded@{TouchEnded}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{TouchEnded()}{TouchEnded()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Touch\+Ended (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}}}]{touch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_ac9e2cde2c166f417fd6201a0d8104b7d}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 169 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_ab06d8faeb6ed8540b264f6549c8daad0}\label{class_in_control_1_1_touch_button_control_ab06d8faeb6ed8540b264f6549c8daad0}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!TouchMoved@{TouchMoved}}
+\index{TouchMoved@{TouchMoved}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{TouchMoved()}{TouchMoved()}}
+{\footnotesize\ttfamily override void In\+Control.\+Touch\+Button\+Control.\+Touch\+Moved (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}}}]{touch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_touch_control_a4241997b6929b835bef41e4938aeb84b}{In\+Control.\+Touch\+Control}}.
+
+
+
+Definition at line 154 of file Touch\+Button\+Control.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a7a12be34308281c2e0224ddda0bb63d1}\label{class_in_control_1_1_touch_button_control_a7a12be34308281c2e0224ddda0bb63d1}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!allowSlideToggle@{allowSlideToggle}}
+\index{allowSlideToggle@{allowSlideToggle}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{allowSlideToggle}{allowSlideToggle}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Button\+Control.\+allow\+Slide\+Toggle = true}
+
+
+
+Definition at line 25 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a1865f6d24939eeaabf8eae84755ca660}\label{class_in_control_1_1_touch_button_control_a1865f6d24939eeaabf8eae84755ca660}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!button@{button}}
+\index{button@{button}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{button}{button}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_touch_sprite}{Touch\+Sprite}} In\+Control.\+Touch\+Button\+Control.\+button = new \mbox{\hyperlink{class_in_control_1_1_touch_sprite}{Touch\+Sprite}}( 15.\+0f )}
+
+
+
+Definition at line 34 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_aeb49a6568452ce0ae11e79312c2ca190}\label{class_in_control_1_1_touch_button_control_aeb49a6568452ce0ae11e79312c2ca190}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!pressureSensitive@{pressureSensitive}}
+\index{pressureSensitive@{pressureSensitive}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{pressureSensitive}{pressureSensitive}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Button\+Control.\+pressure\+Sensitive = false}
+
+
+
+Definition at line 29 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a5a4da4dec90c9ad8ccdd928118dcb197}\label{class_in_control_1_1_touch_button_control_a5a4da4dec90c9ad8ccdd928118dcb197}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!target@{target}}
+\index{target@{target}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_touch_control_a8b96adca4e913ca6b3cbb089d1b60966}{Button\+Target}} In\+Control.\+Touch\+Button\+Control.\+target = \mbox{\hyperlink{class_in_control_1_1_touch_control_a8b96adca4e913ca6b3cbb089d1b60966a72c7a3098399dfb77a42f5181b46fa41}{Button\+Target.\+Action1}}}
+
+
+
+Definition at line 23 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a70bcedbc687423f7696ea672b45641be}\label{class_in_control_1_1_touch_button_control_a70bcedbc687423f7696ea672b45641be}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!toggleOnLeave@{toggleOnLeave}}
+\index{toggleOnLeave@{toggleOnLeave}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{toggleOnLeave}{toggleOnLeave}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Button\+Control.\+toggle\+On\+Leave = false}
+
+
+
+Definition at line 26 of file Touch\+Button\+Control.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a356f5af9f460a0c0ca41babc0a58f2f9}\label{class_in_control_1_1_touch_button_control_a356f5af9f460a0c0ca41babc0a58f2f9}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!Anchor@{Anchor}}
+\index{Anchor@{Anchor}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{Anchor}{Anchor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_ad13ad2f389ab0fb36f613eb6e5a6e65a}{Touch\+Control\+Anchor}} In\+Control.\+Touch\+Button\+Control.\+Anchor\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 216 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_aa9281832b24fa635eaa1464870f7be39}\label{class_in_control_1_1_touch_button_control_aa9281832b24fa635eaa1464870f7be39}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!ButtonPosition@{ButtonPosition}}
+\index{ButtonPosition@{ButtonPosition}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{ButtonPosition}{ButtonPosition}}
+{\footnotesize\ttfamily Vector3? In\+Control.\+Touch\+Button\+Control.\+Button\+Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 199 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a94619ffdfc103d0a8217caf13ee84544}\label{class_in_control_1_1_touch_button_control_a94619ffdfc103d0a8217caf13ee84544}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!Offset@{Offset}}
+\index{Offset@{Offset}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{Offset}{Offset}}
+{\footnotesize\ttfamily Vector2 In\+Control.\+Touch\+Button\+Control.\+Offset\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 234 of file Touch\+Button\+Control.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_button_control_a5e4a2fbb62a3440d272f0e826966c29f}\label{class_in_control_1_1_touch_button_control_a5e4a2fbb62a3440d272f0e826966c29f}} 
+\index{InControl.TouchButtonControl@{InControl.TouchButtonControl}!OffsetUnitType@{OffsetUnitType}}
+\index{OffsetUnitType@{OffsetUnitType}!InControl.TouchButtonControl@{InControl.TouchButtonControl}}
+\doxysubsubsection{\texorpdfstring{OffsetUnitType}{OffsetUnitType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}} In\+Control.\+Touch\+Button\+Control.\+Offset\+Unit\+Type\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 252 of file Touch\+Button\+Control.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Touch/\+Controls/\mbox{\hyperlink{_touch_button_control_8cs}{Touch\+Button\+Control.\+cs}}\end{DoxyCompactItemize}

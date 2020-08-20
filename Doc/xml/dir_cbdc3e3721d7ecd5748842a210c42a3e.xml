@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_cbdc3e3721d7ecd5748842a210c42a3e" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/AppleTV</compoundname>
+    <innerfile refid="_apple_t_v_remote_unity_profile_8cs">AppleTVRemoteUnityProfile.cs</innerfile>
+    <innerfile refid="_apple_t_v_wireless_controller_unity_profile_8cs">AppleTVWirelessControllerUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/AppleTV/"/>
+  </compounddef>
+</doxygen>

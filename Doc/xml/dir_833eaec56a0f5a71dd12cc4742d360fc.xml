@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_833eaec56a0f5a71dd12cc4742d360fc" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/___FSUtils</compoundname>
+    <innerdir refid="dir_37cd30db190e98a306bac42ff0b3d62e">FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables</innerdir>
+    <innerfile refid="_game_object_pool_8cs">GameObjectPool.cs</innerfile>
+    <innerfile refid="_singleton_8cs">Singleton.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSUtils/"/>
+  </compounddef>
+</doxygen>

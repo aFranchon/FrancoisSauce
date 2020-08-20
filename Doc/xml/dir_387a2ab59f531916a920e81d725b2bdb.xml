@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_387a2ab59f531916a920e81d725b2bdb" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Windows</compoundname>
+    <innerfile refid="_nintendo_switch_pro_windows_chrome_unity_profile_8cs">NintendoSwitchProWindowsChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_windows_chrome_unity_profile_8cs">PlayStation4WindowsChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_windows_firefox_unity_profile_8cs">PlayStation4WindowsFirefoxUnityProfile.cs</innerfile>
+    <innerfile refid="_x_input_windows_chrome_unity_profile_8cs">XInputWindowsChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_x_input_windows_firefox_unity_profile_8cs">XInputWindowsFirefoxUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Windows/"/>
+  </compounddef>
+</doxygen>

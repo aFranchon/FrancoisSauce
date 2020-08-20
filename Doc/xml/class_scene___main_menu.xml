@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_scene___main_menu" kind="class" language="C#" prot="public">
+    <compoundname>Scene_MainMenu</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSScenes.IFSScene&lt; Scene_MainMenu &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene___main_menu_1a60c1ddf44990df20833646eb027fba16" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Scene_MainMenu.baseMenuUI</definition>
+        <argsstring></argsstring>
+        <name>baseMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="12" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1a88786f7d766125251d72ae1a048932a2" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Scene_MainMenu.optionMenuUI</definition>
+        <argsstring></argsstring>
+        <name>optionMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="13" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1a010e9f714401e86ee6811ed2853d928b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Scene_MainMenu.loadingMenuUI</definition>
+        <argsstring></argsstring>
+        <name>loadingMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="14" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1ab5e1728e80196b28f9d788eece680985" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Scene_MainMenu.currentProgression</definition>
+        <argsstring></argsstring>
+        <name>currentProgression</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="17" column="18" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1a602cd066bb18fdfd0786830b6e91c20b" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_view___base_menu" kindref="compound">View_BaseMenu</ref></type>
+        <definition>readonly View_BaseMenu Scene_MainMenu.baseMenu</definition>
+        <argsstring></argsstring>
+        <name>baseMenu</name>
+        <initializer>= new <ref refid="class_view___base_menu" kindref="compound">View_BaseMenu</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="19" column="35" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1a60e9f5f19315250cfcb41571026e6ba1" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_view___option_menu" kindref="compound">View_OptionMenu</ref></type>
+        <definition>readonly View_OptionMenu Scene_MainMenu.optionMenu</definition>
+        <argsstring></argsstring>
+        <name>optionMenu</name>
+        <initializer>= new <ref refid="class_view___option_menu" kindref="compound">View_OptionMenu</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="20" column="37" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1ad5339287176e7c46d2f8b2c3a987eadb" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_view___loading_menu" kindref="compound">View_LoadingMenu</ref></type>
+        <definition>readonly View_LoadingMenu Scene_MainMenu.loadingMenu</definition>
+        <argsstring></argsstring>
+        <name>loadingMenu</name>
+        <initializer>= new <ref refid="class_view___loading_menu" kindref="compound">View_LoadingMenu</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="21" column="38" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene___main_menu_1a170935854d5d9c8d56f8c1238c809914" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image Scene_MainMenu.transition</definition>
+        <argsstring></argsstring>
+        <name>transition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="23" column="19" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene___main_menu_1a926fdac6cc564158118cb620429ebc5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scene_MainMenu.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="25" column="18" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene___main_menu_1a92e8f64820aab6f5aaec6edcd0e37caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Scene_MainMenu.OnSceneLoaded</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneLoaded</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a4ff06426701488cfbb8332604627cfff">OnSceneLoaded</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="38" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1a1af25767e88151ba60f3fdda98141284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Scene_MainMenu.OnSceneChanged</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneChanged</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a94507aa18af634587a5ad7303565fa6b">OnSceneChanged</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="43" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1aefe7cdafa9c103b0ad753fd6c9247a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Scene_MainMenu.OnLoadProgression</definition>
+        <argsstring>(float progression)</argsstring>
+        <name>OnLoadProgression</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a597154ea8cfab61a0383a1ef443e409c">OnLoadProgression</reimplements>
+        <param>
+          <type>float</type>
+          <declname>progression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="47" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1a0432fbd7963922ceac29d865cf7a54d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Scene_MainMenu.OnSceneUnloaded</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneUnloaded</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a510a1e7a2c5a05be578f963089ad4ea8">OnSceneUnloaded</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="52" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1aaf3c7dc4d8b0d281ede46274f31bc327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>sealed override void</type>
+        <definition>sealed override void Scene_MainMenu.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1aa945778bcc39b5d402ef5cf1262faa5e">OnUpdate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="56" column="33" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1ac7bf1cd1f0b730eeece7c968b6f61e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Scene_MainMenu.ChangeView</definition>
+        <argsstring>(IFSView&lt; Scene_MainMenu &gt; newView)</argsstring>
+        <name>ChangeView</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" kindref="compound">IFSView</ref>&lt; <ref refid="class_scene___main_menu" kindref="compound">Scene_MainMenu</ref> &gt;</type>
+          <declname>newView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="61" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1a03425f2f8756c98664501e61d20b3e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scene_MainMenu.LoadScene</definition>
+        <argsstring>(int index)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="68" column="17" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene___main_menu_1ad9547594ec74b619525916debf036556" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scene_MainMenu.UnloadScene</definition>
+        <argsstring>(int index)</argsstring>
+        <name>UnloadScene</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="73" column="17" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Scene_MainMenu</label>
+        <link refid="class_scene___main_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSScene&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>View_LoadingMenu</label>
+        <link refid="class_view___loading_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>View_OptionMenu</label>
+        <link refid="class_view___option_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IFSView&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+      <node id="1">
+        <label>Scene_MainMenu</label>
+        <link refid="class_scene___main_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>loadingMenu</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>optionMenu</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>baseMenu</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSScene&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
+      </node>
+      <node id="6">
+        <label>View_BaseMenu</label>
+        <link refid="class_view___base_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" line="9" column="7" bodyfile="FrancoisSauce/MainMenu/Scripts/Scene_MainMenu.cs" bodystart="10" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_scene___main_menu_1a926fdac6cc564158118cb620429ebc5a" prot="private" virt="non-virtual"><scope>Scene_MainMenu</scope><name>Awake</name></member>
+      <member refid="class_scene___main_menu_1a602cd066bb18fdfd0786830b6e91c20b" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>baseMenu</name></member>
+      <member refid="class_scene___main_menu_1a60c1ddf44990df20833646eb027fba16" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>baseMenuUI</name></member>
+      <member refid="class_scene___main_menu_1ac7bf1cd1f0b730eeece7c968b6f61e2d" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>ChangeView</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a3bc107afa888c637054423fcc7174a23" prot="public" virt="pure-virtual" ambiguityscope="IFSScene&lt; Scene_MainMenu &gt;."><scope>Scene_MainMenu</scope><name>ChangeView</name></member>
+      <member refid="class_scene___main_menu_1ab5e1728e80196b28f9d788eece680985" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>currentProgression</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a9c1f990adf97f16778d24e000a792d06" prot="protected" virt="non-virtual"><scope>Scene_MainMenu</scope><name>currentView</name></member>
+      <member refid="class_scene___main_menu_1ad5339287176e7c46d2f8b2c3a987eadb" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>loadingMenu</name></member>
+      <member refid="class_scene___main_menu_1a010e9f714401e86ee6811ed2853d928b" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>loadingMenuUI</name></member>
+      <member refid="class_scene___main_menu_1a03425f2f8756c98664501e61d20b3e0c" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>LoadScene</name></member>
+      <member refid="class_scene___main_menu_1aefe7cdafa9c103b0ad753fd6c9247a11" prot="public" virt="virtual"><scope>Scene_MainMenu</scope><name>OnLoadProgression</name></member>
+      <member refid="class_scene___main_menu_1a1af25767e88151ba60f3fdda98141284" prot="public" virt="virtual"><scope>Scene_MainMenu</scope><name>OnSceneChanged</name></member>
+      <member refid="class_scene___main_menu_1a92e8f64820aab6f5aaec6edcd0e37caa" prot="public" virt="virtual"><scope>Scene_MainMenu</scope><name>OnSceneLoaded</name></member>
+      <member refid="class_scene___main_menu_1a0432fbd7963922ceac29d865cf7a54d4" prot="public" virt="virtual"><scope>Scene_MainMenu</scope><name>OnSceneUnloaded</name></member>
+      <member refid="class_scene___main_menu_1aaf3c7dc4d8b0d281ede46274f31bc327" prot="public" virt="virtual"><scope>Scene_MainMenu</scope><name>OnUpdate</name></member>
+      <member refid="class_scene___main_menu_1a60e9f5f19315250cfcb41571026e6ba1" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>optionMenu</name></member>
+      <member refid="class_scene___main_menu_1a88786f7d766125251d72ae1a048932a2" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>optionMenuUI</name></member>
+      <member refid="class_scene___main_menu_1a170935854d5d9c8d56f8c1238c809914" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>transition</name></member>
+      <member refid="class_scene___main_menu_1ad9547594ec74b619525916debf036556" prot="public" virt="non-virtual"><scope>Scene_MainMenu</scope><name>UnloadScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

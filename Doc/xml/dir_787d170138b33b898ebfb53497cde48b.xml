@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_787d170138b33b898ebfb53497cde48b" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL</compoundname>
+    <innerdir refid="dir_2a77cc1194310edc30cd6eda96f016a4">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Mac</innerdir>
+    <innerdir refid="dir_387a2ab59f531916a920e81d725b2bdb">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Windows</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_bf2315c3a916ed75ff87ede9dce86321" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules</compoundname>
+    <innerfile refid="_d_o_tween_module_audio_8cs">DOTweenModuleAudio.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_physics_8cs">DOTweenModulePhysics.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_physics2_d_8cs">DOTweenModulePhysics2D.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_sprite_8cs">DOTweenModuleSprite.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_u_i_8cs">DOTweenModuleUI.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_unity_version_8cs">DOTweenModuleUnityVersion.cs</innerfile>
+    <innerfile refid="_d_o_tween_module_utils_8cs">DOTweenModuleUtils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/"/>
+  </compounddef>
+</doxygen>

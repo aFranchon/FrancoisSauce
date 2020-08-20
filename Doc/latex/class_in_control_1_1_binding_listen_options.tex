@@ -1,0 +1,346 @@
+\hypertarget{class_in_control_1_1_binding_listen_options}{}\doxysection{In\+Control.\+Binding\+Listen\+Options Class Reference}
+\label{class_in_control_1_1_binding_listen_options}\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a1af06e11dceb7a8db62d5cacd36663cb}{Call\+On\+Binding\+Found}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} player\+Action, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding\+Source)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a7005a436faedb824bae9b0c661f1a663}{Call\+On\+Binding\+Added}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} player\+Action, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding\+Source)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_abd7f5a54718bcc2b65de4f53988d3f02}{Call\+On\+Binding\+Rejected}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} player\+Action, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding\+Source, \mbox{\hyperlink{namespace_in_control_a23e1075b605dd20e9aed252a86f0f1b4}{Binding\+Source\+Rejection\+Type}} binding\+Source\+Rejection\+Type)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a70a91f58e807d097d465ba0069ac1e28}{Call\+On\+Binding\+Ended}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} player\+Action)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a3e980b43069f4d0a9538a96ff22b8212}{Include\+Controllers}} = true
+\begin{DoxyCompactList}\small\item\em Include controllers when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_ae7050e440df976d8882bae878ecb5635}{Include\+Unknown\+Controllers}} = false
+\begin{DoxyCompactList}\small\item\em Include unknown controllers when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a5d81af1d6bbc916d4562f3c6f40f0cad}{Include\+Non\+Standard\+Controls}} = true
+\begin{DoxyCompactList}\small\item\em Include non-\/standard controls on controllers when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a439ed2b680af2ae257a5546a3eb6dffc}{Include\+Mouse\+Buttons}} = false
+\begin{DoxyCompactList}\small\item\em Include mouse buttons when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a7afe3848f3f2a9398fb1208c20acd918}{Include\+Mouse\+Scroll\+Wheel}} = false
+\begin{DoxyCompactList}\small\item\em Include mouse scroll wheel when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a1810ba85ecf1a4ff5ba7d64486245d75}{Include\+Keys}} = true
+\begin{DoxyCompactList}\small\item\em Include keyboard keys when listening for new bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a7b633b147b112b34f642094035caae56}{Include\+Modifiers\+As\+First\+Class\+Keys}} = false
+\begin{DoxyCompactList}\small\item\em Treat modifiers (Shift, Alt, Control, etc.) as first class keys instead of modifiers. \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_aef64e4a7653bd459eaecf19f7a34b1d2}{Max\+Allowed\+Bindings}} = 0
+\begin{DoxyCompactList}\small\item\em The maximum number of bindings allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a19f2f3840da40dd27b4216a09f307a76}{Max\+Allowed\+Bindings\+Per\+Type}} = 0
+\begin{DoxyCompactList}\small\item\em The maximum number of bindings of a given type allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. When nonzero, this setting overrides Max\+Allowed\+Bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_aeaae34e0b0266314bb39b48118fcf54a}{Allow\+Duplicate\+Bindings\+Per\+Set}} = false
+\begin{DoxyCompactList}\small\item\em Allow bindings that are already bound to any other action in the set. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a4ebbd2f356d6f03837e8c1c56cdbaf53}{Unset\+Duplicate\+Bindings\+On\+Set}} = false
+\begin{DoxyCompactList}\small\item\em If an existing duplicate binding exists, remove it before adding the new one. When \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_afa544ec4534a7dff17dc606fe4ec8ed5}{Reject\+Redundant\+Bindings}} = false
+\begin{DoxyCompactList}\small\item\em If an existing duplicate binding already exists on the same action, reject the binding instead of accepting it doing nothing. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a34433d987f485f0641d51f764af5f8a0}{Replace\+Binding}} = null
+\begin{DoxyCompactList}\small\item\em If not \end{DoxyCompactList}\item 
+Func$<$ \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}, bool $>$ \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a9d7d523ec69173cf9bd14968d65bb889}{On\+Binding\+Found}} = null
+\begin{DoxyCompactList}\small\item\em This function is called when a binding is found but before it is added. If this function returns \end{DoxyCompactList}\item 
+Action$<$ \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} $>$ \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_aca8e770494b58202665320c198e47698}{On\+Binding\+Added}} = null
+\begin{DoxyCompactList}\small\item\em This action is called after a binding is added. If set to \end{DoxyCompactList}\item 
+Action$<$ \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}, \mbox{\hyperlink{namespace_in_control_a23e1075b605dd20e9aed252a86f0f1b4}{Binding\+Source\+Rejection\+Type}} $>$ \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_abf0089683054fa17b25ef93d6b7d1a56}{On\+Binding\+Rejected}} = null
+\begin{DoxyCompactList}\small\item\em This action is called after a binding is found, but rejected along with the reason (Binding\+Source\+Rejection\+Type) why it was rejected. If set to \end{DoxyCompactList}\item 
+Action$<$ \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} $>$ \mbox{\hyperlink{class_in_control_1_1_binding_listen_options_a195bc2d9fdc928e6fcea6327a37bfd08}{On\+Binding\+Ended}} = null
+\begin{DoxyCompactList}\small\item\em This action is called after listening for bindings is ended (for any reason). If set to \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Binding\+Listen\+Options.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a7005a436faedb824bae9b0c661f1a663}\label{class_in_control_1_1_binding_listen_options_a7005a436faedb824bae9b0c661f1a663}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!CallOnBindingAdded@{CallOnBindingAdded}}
+\index{CallOnBindingAdded@{CallOnBindingAdded}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{CallOnBindingAdded()}{CallOnBindingAdded()}}
+{\footnotesize\ttfamily void In\+Control.\+Binding\+Listen\+Options.\+Call\+On\+Binding\+Added (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{player\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding\+Source }\end{DoxyParamCaption})}
+
+
+
+Definition at line 123 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a70a91f58e807d097d465ba0069ac1e28}\label{class_in_control_1_1_binding_listen_options_a70a91f58e807d097d465ba0069ac1e28}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!CallOnBindingEnded@{CallOnBindingEnded}}
+\index{CallOnBindingEnded@{CallOnBindingEnded}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{CallOnBindingEnded()}{CallOnBindingEnded()}}
+{\footnotesize\ttfamily void In\+Control.\+Binding\+Listen\+Options.\+Call\+On\+Binding\+Ended (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{player\+Action }\end{DoxyParamCaption})}
+
+
+
+Definition at line 141 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a1af06e11dceb7a8db62d5cacd36663cb}\label{class_in_control_1_1_binding_listen_options_a1af06e11dceb7a8db62d5cacd36663cb}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!CallOnBindingFound@{CallOnBindingFound}}
+\index{CallOnBindingFound@{CallOnBindingFound}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{CallOnBindingFound()}{CallOnBindingFound()}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Call\+On\+Binding\+Found (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{player\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding\+Source }\end{DoxyParamCaption})}
+
+
+
+Definition at line 111 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_abd7f5a54718bcc2b65de4f53988d3f02}\label{class_in_control_1_1_binding_listen_options_abd7f5a54718bcc2b65de4f53988d3f02}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!CallOnBindingRejected@{CallOnBindingRejected}}
+\index{CallOnBindingRejected@{CallOnBindingRejected}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{CallOnBindingRejected()}{CallOnBindingRejected()}}
+{\footnotesize\ttfamily void In\+Control.\+Binding\+Listen\+Options.\+Call\+On\+Binding\+Rejected (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{player\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding\+Source,  }\item[{\mbox{\hyperlink{namespace_in_control_a23e1075b605dd20e9aed252a86f0f1b4}{Binding\+Source\+Rejection\+Type}}}]{binding\+Source\+Rejection\+Type }\end{DoxyParamCaption})}
+
+
+
+Definition at line 132 of file Binding\+Listen\+Options.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_aeaae34e0b0266314bb39b48118fcf54a}\label{class_in_control_1_1_binding_listen_options_aeaae34e0b0266314bb39b48118fcf54a}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!AllowDuplicateBindingsPerSet@{AllowDuplicateBindingsPerSet}}
+\index{AllowDuplicateBindingsPerSet@{AllowDuplicateBindingsPerSet}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{AllowDuplicateBindingsPerSet}{AllowDuplicateBindingsPerSet}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Allow\+Duplicate\+Bindings\+Per\+Set = false}
+
+
+
+Allow bindings that are already bound to any other action in the set. 
+
+
+
+Definition at line 63 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a3e980b43069f4d0a9538a96ff22b8212}\label{class_in_control_1_1_binding_listen_options_a3e980b43069f4d0a9538a96ff22b8212}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeControllers@{IncludeControllers}}
+\index{IncludeControllers@{IncludeControllers}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeControllers}{IncludeControllers}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Controllers = true}
+
+
+
+Include controllers when listening for new bindings. 
+
+
+
+Definition at line 11 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a1810ba85ecf1a4ff5ba7d64486245d75}\label{class_in_control_1_1_binding_listen_options_a1810ba85ecf1a4ff5ba7d64486245d75}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeKeys@{IncludeKeys}}
+\index{IncludeKeys@{IncludeKeys}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeKeys}{IncludeKeys}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Keys = true}
+
+
+
+Include keyboard keys when listening for new bindings. 
+
+
+
+Definition at line 36 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a7b633b147b112b34f642094035caae56}\label{class_in_control_1_1_binding_listen_options_a7b633b147b112b34f642094035caae56}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeModifiersAsFirstClassKeys@{IncludeModifiersAsFirstClassKeys}}
+\index{IncludeModifiersAsFirstClassKeys@{IncludeModifiersAsFirstClassKeys}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeModifiersAsFirstClassKeys}{IncludeModifiersAsFirstClassKeys}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Modifiers\+As\+First\+Class\+Keys = false}
+
+
+
+Treat modifiers (Shift, Alt, Control, etc.) as first class keys instead of modifiers. 
+
+
+
+Definition at line 41 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a439ed2b680af2ae257a5546a3eb6dffc}\label{class_in_control_1_1_binding_listen_options_a439ed2b680af2ae257a5546a3eb6dffc}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeMouseButtons@{IncludeMouseButtons}}
+\index{IncludeMouseButtons@{IncludeMouseButtons}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeMouseButtons}{IncludeMouseButtons}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Mouse\+Buttons = false}
+
+
+
+Include mouse buttons when listening for new bindings. 
+
+
+
+Definition at line 26 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a7afe3848f3f2a9398fb1208c20acd918}\label{class_in_control_1_1_binding_listen_options_a7afe3848f3f2a9398fb1208c20acd918}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeMouseScrollWheel@{IncludeMouseScrollWheel}}
+\index{IncludeMouseScrollWheel@{IncludeMouseScrollWheel}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeMouseScrollWheel}{IncludeMouseScrollWheel}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Mouse\+Scroll\+Wheel = false}
+
+
+
+Include mouse scroll wheel when listening for new bindings. 
+
+
+
+Definition at line 31 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a5d81af1d6bbc916d4562f3c6f40f0cad}\label{class_in_control_1_1_binding_listen_options_a5d81af1d6bbc916d4562f3c6f40f0cad}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeNonStandardControls@{IncludeNonStandardControls}}
+\index{IncludeNonStandardControls@{IncludeNonStandardControls}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeNonStandardControls}{IncludeNonStandardControls}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Non\+Standard\+Controls = true}
+
+
+
+Include non-\/standard controls on controllers when listening for new bindings. 
+
+
+
+Definition at line 21 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_ae7050e440df976d8882bae878ecb5635}\label{class_in_control_1_1_binding_listen_options_ae7050e440df976d8882bae878ecb5635}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!IncludeUnknownControllers@{IncludeUnknownControllers}}
+\index{IncludeUnknownControllers@{IncludeUnknownControllers}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{IncludeUnknownControllers}{IncludeUnknownControllers}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Include\+Unknown\+Controllers = false}
+
+
+
+Include unknown controllers when listening for new bindings. 
+
+
+
+Definition at line 16 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_aef64e4a7653bd459eaecf19f7a34b1d2}\label{class_in_control_1_1_binding_listen_options_aef64e4a7653bd459eaecf19f7a34b1d2}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!MaxAllowedBindings@{MaxAllowedBindings}}
+\index{MaxAllowedBindings@{MaxAllowedBindings}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{MaxAllowedBindings}{MaxAllowedBindings}}
+{\footnotesize\ttfamily uint In\+Control.\+Binding\+Listen\+Options.\+Max\+Allowed\+Bindings = 0}
+
+
+
+The maximum number of bindings allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. 
+
+
+
+Definition at line 49 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a19f2f3840da40dd27b4216a09f307a76}\label{class_in_control_1_1_binding_listen_options_a19f2f3840da40dd27b4216a09f307a76}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!MaxAllowedBindingsPerType@{MaxAllowedBindingsPerType}}
+\index{MaxAllowedBindingsPerType@{MaxAllowedBindingsPerType}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{MaxAllowedBindingsPerType}{MaxAllowedBindingsPerType}}
+{\footnotesize\ttfamily uint In\+Control.\+Binding\+Listen\+Options.\+Max\+Allowed\+Bindings\+Per\+Type = 0}
+
+
+
+The maximum number of bindings of a given type allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. When nonzero, this setting overrides Max\+Allowed\+Bindings. 
+
+
+
+Definition at line 58 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_aca8e770494b58202665320c198e47698}\label{class_in_control_1_1_binding_listen_options_aca8e770494b58202665320c198e47698}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!OnBindingAdded@{OnBindingAdded}}
+\index{OnBindingAdded@{OnBindingAdded}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{OnBindingAdded}{OnBindingAdded}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}$>$ In\+Control.\+Binding\+Listen\+Options.\+On\+Binding\+Added = null}
+
+
+
+This action is called after a binding is added. If set to 
+
+{\ttfamily null} (default), it will not be called.
+
+Definition at line 95 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a195bc2d9fdc928e6fcea6327a37bfd08}\label{class_in_control_1_1_binding_listen_options_a195bc2d9fdc928e6fcea6327a37bfd08}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!OnBindingEnded@{OnBindingEnded}}
+\index{OnBindingEnded@{OnBindingEnded}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{OnBindingEnded}{OnBindingEnded}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}$>$ In\+Control.\+Binding\+Listen\+Options.\+On\+Binding\+Ended = null}
+
+
+
+This action is called after listening for bindings is ended (for any reason). If set to 
+
+{\ttfamily null} (default), it will not be called.
+
+Definition at line 108 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a9d7d523ec69173cf9bd14968d65bb889}\label{class_in_control_1_1_binding_listen_options_a9d7d523ec69173cf9bd14968d65bb889}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!OnBindingFound@{OnBindingFound}}
+\index{OnBindingFound@{OnBindingFound}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{OnBindingFound}{OnBindingFound}}
+{\footnotesize\ttfamily Func$<$\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}, bool$>$ In\+Control.\+Binding\+Listen\+Options.\+On\+Binding\+Found = null}
+
+
+
+This function is called when a binding is found but before it is added. If this function returns 
+
+{\ttfamily false}, then the binding is ignored and listening for new bindings will continue. If set to {\ttfamily null} (default), it will not be called.
+
+Definition at line 89 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_abf0089683054fa17b25ef93d6b7d1a56}\label{class_in_control_1_1_binding_listen_options_abf0089683054fa17b25ef93d6b7d1a56}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!OnBindingRejected@{OnBindingRejected}}
+\index{OnBindingRejected@{OnBindingRejected}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{OnBindingRejected}{OnBindingRejected}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}, \mbox{\hyperlink{namespace_in_control_a23e1075b605dd20e9aed252a86f0f1b4}{Binding\+Source\+Rejection\+Type}}$>$ In\+Control.\+Binding\+Listen\+Options.\+On\+Binding\+Rejected = null}
+
+
+
+This action is called after a binding is found, but rejected along with the reason (Binding\+Source\+Rejection\+Type) why it was rejected. If set to 
+
+{\ttfamily null} (default), it will not be called.
+
+Definition at line 102 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_afa544ec4534a7dff17dc606fe4ec8ed5}\label{class_in_control_1_1_binding_listen_options_afa544ec4534a7dff17dc606fe4ec8ed5}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!RejectRedundantBindings@{RejectRedundantBindings}}
+\index{RejectRedundantBindings@{RejectRedundantBindings}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{RejectRedundantBindings}{RejectRedundantBindings}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Reject\+Redundant\+Bindings = false}
+
+
+
+If an existing duplicate binding already exists on the same action, reject the binding instead of accepting it doing nothing. 
+
+
+
+Definition at line 75 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a34433d987f485f0641d51f764af5f8a0}\label{class_in_control_1_1_binding_listen_options_a34433d987f485f0641d51f764af5f8a0}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!ReplaceBinding@{ReplaceBinding}}
+\index{ReplaceBinding@{ReplaceBinding}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{ReplaceBinding}{ReplaceBinding}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} In\+Control.\+Binding\+Listen\+Options.\+Replace\+Binding = null}
+
+
+
+If not 
+
+{\ttfamily null}, and this binding is on the listening action, this binding will be replace by the newly found binding.
+
+Definition at line 81 of file Binding\+Listen\+Options.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_listen_options_a4ebbd2f356d6f03837e8c1c56cdbaf53}\label{class_in_control_1_1_binding_listen_options_a4ebbd2f356d6f03837e8c1c56cdbaf53}} 
+\index{InControl.BindingListenOptions@{InControl.BindingListenOptions}!UnsetDuplicateBindingsOnSet@{UnsetDuplicateBindingsOnSet}}
+\index{UnsetDuplicateBindingsOnSet@{UnsetDuplicateBindingsOnSet}!InControl.BindingListenOptions@{InControl.BindingListenOptions}}
+\doxysubsubsection{\texorpdfstring{UnsetDuplicateBindingsOnSet}{UnsetDuplicateBindingsOnSet}}
+{\footnotesize\ttfamily bool In\+Control.\+Binding\+Listen\+Options.\+Unset\+Duplicate\+Bindings\+On\+Set = false}
+
+
+
+If an existing duplicate binding exists, remove it before adding the new one. When 
+
+{\ttfamily true}, the value of Allow\+Duplicate\+Bindings\+Per\+Set is irrelevant.
+
+Definition at line 69 of file Binding\+Listen\+Options.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_binding_listen_options_8cs}{Binding\+Listen\+Options.\+cs}}\end{DoxyCompactItemize}

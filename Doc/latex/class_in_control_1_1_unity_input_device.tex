@@ -1,0 +1,210 @@
+\hypertarget{class_in_control_1_1_unity_input_device}{}\doxysection{In\+Control.\+Unity\+Input\+Device Class Reference}
+\label{class_in_control_1_1_unity_input_device}\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+Inheritance diagram for In\+Control.\+Unity\+Input\+Device\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_in_control_1_1_unity_input_device}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_unity_input_device_a5cfd64bc516117642e309b3e8186254f}{Unity\+Input\+Device}} (int joystick\+Id, string joystick\+Name)
+\item 
+\mbox{\hyperlink{class_in_control_1_1_unity_input_device_af7c853a8622d4e68ce0424c69560f9c0}{Unity\+Input\+Device}} (\mbox{\hyperlink{class_in_control_1_1_input_device_profile}{Input\+Device\+Profile}} device\+Profile, int joystick\+Id, string joystick\+Name)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_unity_input_device_ac24eeb1fcdd32f60b752038232b5f093}{Update}} (ulong update\+Tick, float delta\+Time)
+\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_unity_input_device_ac1ec524086a326d64a7c7297d34d2b6e}{Read\+Raw\+Button\+State}} (int index)
+\item 
+override float \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a3ba0be498184daf0ebcb2f4192ccd8d0}{Read\+Raw\+Analog\+Value}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a26e3cf47c60855d1e1bcc02fa01f6583}{Max\+Devices}} = 10
+\item 
+const int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_aab5829ea04c1851c57c862d368fdfaa9}{Max\+Buttons}} = 20
+\item 
+const int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a61fecfbebecc30d1a870eb19d1f61ba3}{Max\+Analogs}} = 20
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a582bf12895ff7ffff4808589e07442f9}{Joystick\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a8fee2aff9dd9d66453e3f6dc63afc63b}{Is\+Supported\+On\+This\+Platform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a83263cc7101b29f1610da5a43476fe8f}{Is\+Known}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a079c04b0a05a0047637dab10f7241065}{Num\+Unknown\+Buttons}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override int \mbox{\hyperlink{class_in_control_1_1_unity_input_device_ad6f75e9574c7e8ee0e905c530a5288f6}{Num\+Unknown\+Analogs}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Unity\+Input\+Device.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a5cfd64bc516117642e309b3e8186254f}\label{class_in_control_1_1_unity_input_device_a5cfd64bc516117642e309b3e8186254f}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!UnityInputDevice@{UnityInputDevice}}
+\index{UnityInputDevice@{UnityInputDevice}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{UnityInputDevice()}{UnityInputDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily In\+Control.\+Unity\+Input\+Device.\+Unity\+Input\+Device (\begin{DoxyParamCaption}\item[{int}]{joystick\+Id,  }\item[{string}]{joystick\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_af7c853a8622d4e68ce0424c69560f9c0}\label{class_in_control_1_1_unity_input_device_af7c853a8622d4e68ce0424c69560f9c0}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!UnityInputDevice@{UnityInputDevice}}
+\index{UnityInputDevice@{UnityInputDevice}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{UnityInputDevice()}{UnityInputDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily In\+Control.\+Unity\+Input\+Device.\+Unity\+Input\+Device (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device_profile}{Input\+Device\+Profile}}}]{device\+Profile,  }\item[{int}]{joystick\+Id,  }\item[{string}]{joystick\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file Unity\+Input\+Device.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a3ba0be498184daf0ebcb2f4192ccd8d0}\label{class_in_control_1_1_unity_input_device_a3ba0be498184daf0ebcb2f4192ccd8d0}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!ReadRawAnalogValue@{ReadRawAnalogValue}}
+\index{ReadRawAnalogValue@{ReadRawAnalogValue}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{ReadRawAnalogValue()}{ReadRawAnalogValue()}}
+{\footnotesize\ttfamily override float In\+Control.\+Unity\+Input\+Device.\+Read\+Raw\+Analog\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_in_control_1_1_input_device_a94e7c8bc0a377983e02a7679fb9c744b}{In\+Control.\+Input\+Device}}.
+
+
+
+Definition at line 187 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_ac1ec524086a326d64a7c7297d34d2b6e}\label{class_in_control_1_1_unity_input_device_ac1ec524086a326d64a7c7297d34d2b6e}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!ReadRawButtonState@{ReadRawButtonState}}
+\index{ReadRawButtonState@{ReadRawButtonState}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{ReadRawButtonState()}{ReadRawButtonState()}}
+{\footnotesize\ttfamily override bool In\+Control.\+Unity\+Input\+Device.\+Read\+Raw\+Button\+State (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_in_control_1_1_input_device_aac5b76b0b9bd9358d3cbfed83a9ea60c}{In\+Control.\+Input\+Device}}.
+
+
+
+Definition at line 175 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_ac24eeb1fcdd32f60b752038232b5f093}\label{class_in_control_1_1_unity_input_device_ac24eeb1fcdd32f60b752038232b5f093}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!Update@{Update}}
+\index{Update@{Update}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily override void In\+Control.\+Unity\+Input\+Device.\+Update (\begin{DoxyParamCaption}\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_in_control_1_1_input_device_ad927cca3de09c44fd9d977d3fefdc8e9}{In\+Control.\+Input\+Device}}.
+
+
+
+Definition at line 99 of file Unity\+Input\+Device.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a61fecfbebecc30d1a870eb19d1f61ba3}\label{class_in_control_1_1_unity_input_device_a61fecfbebecc30d1a870eb19d1f61ba3}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!MaxAnalogs@{MaxAnalogs}}
+\index{MaxAnalogs@{MaxAnalogs}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{MaxAnalogs}{MaxAnalogs}}
+{\footnotesize\ttfamily const int In\+Control.\+Unity\+Input\+Device.\+Max\+Analogs = 20\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 13 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_aab5829ea04c1851c57c862d368fdfaa9}\label{class_in_control_1_1_unity_input_device_aab5829ea04c1851c57c862d368fdfaa9}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!MaxButtons@{MaxButtons}}
+\index{MaxButtons@{MaxButtons}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{MaxButtons}{MaxButtons}}
+{\footnotesize\ttfamily const int In\+Control.\+Unity\+Input\+Device.\+Max\+Buttons = 20\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 12 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a26e3cf47c60855d1e1bcc02fa01f6583}\label{class_in_control_1_1_unity_input_device_a26e3cf47c60855d1e1bcc02fa01f6583}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!MaxDevices@{MaxDevices}}
+\index{MaxDevices@{MaxDevices}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{MaxDevices}{MaxDevices}}
+{\footnotesize\ttfamily const int In\+Control.\+Unity\+Input\+Device.\+Max\+Devices = 10\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 11 of file Unity\+Input\+Device.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a83263cc7101b29f1610da5a43476fe8f}\label{class_in_control_1_1_unity_input_device_a83263cc7101b29f1610da5a43476fe8f}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!IsKnown@{IsKnown}}
+\index{IsKnown@{IsKnown}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{IsKnown}{IsKnown}}
+{\footnotesize\ttfamily override bool In\+Control.\+Unity\+Input\+Device.\+Is\+Known\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 208 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a8fee2aff9dd9d66453e3f6dc63afc63b}\label{class_in_control_1_1_unity_input_device_a8fee2aff9dd9d66453e3f6dc63afc63b}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!IsSupportedOnThisPlatform@{IsSupportedOnThisPlatform}}
+\index{IsSupportedOnThisPlatform@{IsSupportedOnThisPlatform}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{IsSupportedOnThisPlatform}{IsSupportedOnThisPlatform}}
+{\footnotesize\ttfamily override bool In\+Control.\+Unity\+Input\+Device.\+Is\+Supported\+On\+This\+Platform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 199 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a582bf12895ff7ffff4808589e07442f9}\label{class_in_control_1_1_unity_input_device_a582bf12895ff7ffff4808589e07442f9}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!JoystickId@{JoystickId}}
+\index{JoystickId@{JoystickId}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{JoystickId}{JoystickId}}
+{\footnotesize\ttfamily int In\+Control.\+Unity\+Input\+Device.\+Joystick\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 15 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_ad6f75e9574c7e8ee0e905c530a5288f6}\label{class_in_control_1_1_unity_input_device_ad6f75e9574c7e8ee0e905c530a5288f6}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!NumUnknownAnalogs@{NumUnknownAnalogs}}
+\index{NumUnknownAnalogs@{NumUnknownAnalogs}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{NumUnknownAnalogs}{NumUnknownAnalogs}}
+{\footnotesize\ttfamily override int In\+Control.\+Unity\+Input\+Device.\+Num\+Unknown\+Analogs\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 226 of file Unity\+Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_unity_input_device_a079c04b0a05a0047637dab10f7241065}\label{class_in_control_1_1_unity_input_device_a079c04b0a05a0047637dab10f7241065}} 
+\index{InControl.UnityInputDevice@{InControl.UnityInputDevice}!NumUnknownButtons@{NumUnknownButtons}}
+\index{NumUnknownButtons@{NumUnknownButtons}!InControl.UnityInputDevice@{InControl.UnityInputDevice}}
+\doxysubsubsection{\texorpdfstring{NumUnknownButtons}{NumUnknownButtons}}
+{\footnotesize\ttfamily override int In\+Control.\+Unity\+Input\+Device.\+Num\+Unknown\+Buttons\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 217 of file Unity\+Input\+Device.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Unity/\mbox{\hyperlink{_unity_input_device_8cs}{Unity\+Input\+Device.\+cs}}\end{DoxyCompactItemize}

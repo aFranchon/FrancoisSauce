@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_optional_input_device_transport_type" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::OptionalInputDeviceTransportType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_input_device_transport_type_1a1abbd2e35a558f63d8ee75730e4a6dd3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceTransportType.hasValue</definition>
+        <argsstring></argsstring>
+        <name>hasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_input_device_transport_type_1aab1258be4cd383591199c6325d4a1312" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+        <definition>InputDeviceTransportType InControl.OptionalInputDeviceTransportType.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="18" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_transport_type_1a96825829f3d595266ff560e2fb04f8fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceTransportType.HasValue</definition>
+        <argsstring></argsstring>
+        <name>HasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="28" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_transport_type_1a691bc8e0d153f20aaa86bee6cb6d4d0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceTransportType.HasNoValue</definition>
+        <argsstring></argsstring>
+        <name>HasNoValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="37" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_transport_type_1a9dc1d07e70a64e55af44c71d6afa035d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+        <definition>InputDeviceTransportType InControl.OptionalInputDeviceTransportType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="46" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="47" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1af3974f6af9530828ee966280e0af2e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.OptionalInputDeviceTransportType.OptionalInputDeviceTransportType</definition>
+        <argsstring>(InputDeviceTransportType value)</argsstring>
+        <name>OptionalInputDeviceTransportType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="21" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a42887fd3665f13c8c2fa33f7aba65587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalInputDeviceTransportType.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="66" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a0825ccee7db8445a56b3c61723a105dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+        <definition>InputDeviceTransportType InControl.OptionalInputDeviceTransportType.GetValueOrDefault</definition>
+        <argsstring>(InputDeviceTransportType defaultValue)</argsstring>
+        <name>GetValueOrDefault</name>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="73" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a2ea42c9cc9983440886505aeb3efe8de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+        <definition>InputDeviceTransportType InControl.OptionalInputDeviceTransportType.GetValueOrZero</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueOrZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="79" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1ab14fb425d74f25029203d227a8a52156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalInputDeviceTransportType.SetValue</definition>
+        <argsstring>(InputDeviceTransportType value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="86" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="86" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1ae8918b5c61ec3723da3daf8db821bb07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.OptionalInputDeviceTransportType.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="93" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1ab5a13a0ea8bd709fe657d1f21edeb626" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceTransportType.Equals</definition>
+        <argsstring>(OptionalInputDeviceTransportType other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="100" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a2584a214f44b98d4eb14650051a8daa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceTransportType.Equals</definition>
+        <argsstring>(InputDeviceTransportType other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="108" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1accbfa6872ef569d620a5faf36946fe14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.OptionalInputDeviceTransportType.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="150" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="150" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1ab057aa748286a918cf6b700c5ac44d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.OptionalInputDeviceTransportType.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="158" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a692d1549ff8609995f863e819df4f256" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceTransportType.operator==</definition>
+        <argsstring>(OptionalInputDeviceTransportType a, OptionalInputDeviceTransportType b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="115" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a562e257ae9e4fbae66d0697fb9df9b12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceTransportType.operator!=</definition>
+        <argsstring>(OptionalInputDeviceTransportType a, OptionalInputDeviceTransportType b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="123" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1af6e1a8143444475558d87f69c32ccfee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceTransportType.operator==</definition>
+        <argsstring>(OptionalInputDeviceTransportType a, InputDeviceTransportType b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="129" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1af94a5ac4c941046dd95a2023e000a5d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceTransportType.operator!=</definition>
+        <argsstring>(OptionalInputDeviceTransportType a, InputDeviceTransportType b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="135" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1ac443569e6bac9e47e0f95be06a568586" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.OptionalInputDeviceTransportType.CombineHashCodes</definition>
+        <argsstring>(int h1, int h2)</argsstring>
+        <name>CombineHashCodes</name>
+        <param>
+          <type>int</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="141" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a7edd9ca5d14c5ae8762396836ed3ff15" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.OptionalInputDeviceTransportType.operator OptionalInputDeviceTransportType</definition>
+        <argsstring>(InputDeviceTransportType value)</argsstring>
+        <name>operator OptionalInputDeviceTransportType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="164" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_transport_type_1a0d3eec3c79da7367313c3301eb902c91" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static InControl.OptionalInputDeviceTransportType.operator InputDeviceTransportType</definition>
+        <argsstring>(OptionalInputDeviceTransportType optional)</argsstring>
+        <name>operator InputDeviceTransportType</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_transport_type" kindref="compound">OptionalInputDeviceTransportType</ref></type>
+          <declname>optional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="170" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" line="10" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceTransportType.cs" bodystart="11" bodyend="174"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a42887fd3665f13c8c2fa33f7aba65587" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>Clear</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1ac443569e6bac9e47e0f95be06a568586" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>CombineHashCodes</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1ae8918b5c61ec3723da3daf8db821bb07" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1ab5a13a0ea8bd709fe657d1f21edeb626" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a2584a214f44b98d4eb14650051a8daa1" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1accbfa6872ef569d620a5faf36946fe14" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a0825ccee7db8445a56b3c61723a105dc" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>GetValueOrDefault</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a2ea42c9cc9983440886505aeb3efe8de" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>GetValueOrZero</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a691bc8e0d153f20aaa86bee6cb6d4d0e" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>HasNoValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a1abbd2e35a558f63d8ee75730e4a6dd3" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>hasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a96825829f3d595266ff560e2fb04f8fb" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>HasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a0d3eec3c79da7367313c3301eb902c91" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator InputDeviceTransportType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a7edd9ca5d14c5ae8762396836ed3ff15" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator OptionalInputDeviceTransportType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a562e257ae9e4fbae66d0697fb9df9b12" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1af94a5ac4c941046dd95a2023e000a5d9" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a692d1549ff8609995f863e819df4f256" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1af6e1a8143444475558d87f69c32ccfee" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1af3974f6af9530828ee966280e0af2e31" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>OptionalInputDeviceTransportType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1ab14fb425d74f25029203d227a8a52156" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>SetValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1ab057aa748286a918cf6b700c5ac44d6e" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1aab1258be4cd383591199c6325d4a1312" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>value</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_transport_type_1a9dc1d07e70a64e55af44c71d6afa035d" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceTransportType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

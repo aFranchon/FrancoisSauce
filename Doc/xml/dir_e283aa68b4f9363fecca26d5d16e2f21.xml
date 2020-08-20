@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_e283aa68b4f9363fecca26d5d16e2f21" kind="dir">
+    <compoundname>FrancoisSauce/Scripts</compoundname>
+    <innerdir refid="dir_68473cb674b38c468e0f810081f5ec74">FrancoisSauce/Scripts/___FSEvents</innerdir>
+    <innerdir refid="dir_6eaab4503c3f8d12de5c01219357b205">FrancoisSauce/Scripts/___FSScenes</innerdir>
+    <innerdir refid="dir_adefe7676598cc70ef120a8626608362">FrancoisSauce/Scripts/___FSSingletons</innerdir>
+    <innerdir refid="dir_833eaec56a0f5a71dd12cc4742d360fc">FrancoisSauce/Scripts/___FSUtils</innerdir>
+    <innerdir refid="dir_bbd1addbfb2ae7313a45066016db6ce6">FrancoisSauce/Scripts/___FSViews</innerdir>
+    <innerdir refid="dir_c30fb76c432d2c9da1f2e2246801f155">FrancoisSauce/Scripts/__FSUI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/"/>
+  </compounddef>
+</doxygen>

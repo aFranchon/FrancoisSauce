@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_fe5d1d5fd90723a6bfa97868c319a9bb" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl</compoundname>
+    <innerdir refid="dir_f8538d7a0aae585dd8fd2f493b24f9db">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor</innerdir>
+    <innerdir refid="dir_4a0ccc4fc7049d18c4cab39c80daa695">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples</innerdir>
+    <innerdir refid="dir_965640687fbb535603a55ead1d52b839">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins</innerdir>
+    <innerdir refid="dir_71cb1949589b14dff2a1161c5133a67d">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme</innerdir>
+    <innerdir refid="dir_5cbdfbf7d4b47b68c17d0e285b7c213f">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source</innerdir>
+    <innerdir refid="dir_5be503d8ec0217192b6ed1f9826d60e9">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/"/>
+  </compounddef>
+</doxygen>

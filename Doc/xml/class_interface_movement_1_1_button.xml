@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_interface_movement_1_1_button" kind="class" language="C#" prot="public">
+    <compoundname>InterfaceMovement::Button</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_1a58c8473fc63aeac0c4ba87f9398644aa" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer InterfaceMovement.Button.cachedRenderer</definition>
+        <argsstring></argsstring>
+        <name>cachedRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="8" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_1a5136c841967bf9cd816108896eee3082" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button InterfaceMovement.Button.up</definition>
+        <argsstring></argsstring>
+        <name>up</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="10" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_1a5626fa319596be08f4078d5bf15bf552" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button InterfaceMovement.Button.down</definition>
+        <argsstring></argsstring>
+        <name>down</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="11" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_1aafee0bfa3ff45420e88b48411b203f31" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button InterfaceMovement.Button.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="12" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_1acbc758cbde4505add3b8a98f94bf3506" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button InterfaceMovement.Button.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="13" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_interface_movement_1_1_button_1a5ab9fd8d43e1af28456fde3866a7994a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.Button.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="16" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_movement_1_1_button_1a1a09a312acc28346586ea753a5b48b71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.Button.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="22" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="22" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InterfaceMovement.Button</label>
+        <link refid="class_interface_movement_1_1_button"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InterfaceMovement.Button</label>
+        <link refid="class_interface_movement_1_1_button"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>down</edgelabel>
+          <edgelabel>right</edgelabel>
+          <edgelabel>left</edgelabel>
+          <edgelabel>up</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_interface_movement_1_1_button_1a58c8473fc63aeac0c4ba87f9398644aa" prot="private" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>cachedRenderer</name></member>
+      <member refid="class_interface_movement_1_1_button_1a5626fa319596be08f4078d5bf15bf552" prot="public" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>down</name></member>
+      <member refid="class_interface_movement_1_1_button_1aafee0bfa3ff45420e88b48411b203f31" prot="public" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>left</name></member>
+      <member refid="class_interface_movement_1_1_button_1acbc758cbde4505add3b8a98f94bf3506" prot="public" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>right</name></member>
+      <member refid="class_interface_movement_1_1_button_1a5ab9fd8d43e1af28456fde3866a7994a" prot="private" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>Start</name></member>
+      <member refid="class_interface_movement_1_1_button_1a5136c841967bf9cd816108896eee3082" prot="public" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>up</name></member>
+      <member refid="class_interface_movement_1_1_button_1a1a09a312acc28346586ea753a5b48b71" prot="private" virt="non-virtual"><scope>InterfaceMovement::Button</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_log_message" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::LogMessage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_log_message_1af3257ecf40998d3c5eb8e697d6fa3092" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.LogMessage.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="16" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_log_message_1a3e71c6f40b08c6f1968c706ba975a288" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1aebf54bb02b0c05cb7a0ac71d85248238" kindref="member">LogMessageType</ref></type>
+        <definition>LogMessageType InControl.LogMessage.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="17" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="14" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_log_message_1af3257ecf40998d3c5eb8e697d6fa3092" prot="public" virt="non-virtual"><scope>InControl::LogMessage</scope><name>text</name></member>
+      <member refid="struct_in_control_1_1_log_message_1a3e71c6f40b08c6f1968c706ba975a288" prot="public" virt="non-virtual"><scope>InControl::LogMessage</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

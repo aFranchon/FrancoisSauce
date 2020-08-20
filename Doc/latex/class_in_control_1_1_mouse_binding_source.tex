@@ -1,0 +1,314 @@
+\hypertarget{class_in_control_1_1_mouse_binding_source}{}\doxysection{In\+Control.\+Mouse\+Binding\+Source Class Reference}
+\label{class_in_control_1_1_mouse_binding_source}\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+Inheritance diagram for In\+Control.\+Mouse\+Binding\+Source\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_in_control_1_1_mouse_binding_source}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a9fcb6a2e073775bde1e65c4892e330da}{Mouse\+Binding\+Source}} (\mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}} mouse\+Control)
+\item 
+override float \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a3358929944911f0d6d56ef7c105cb6d9}{Get\+Value}} (\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} input\+Device)
+\begin{DoxyCompactList}\small\item\em Read a float value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a352cea127d33a9c28e707421b62c2265}{Get\+State}} (\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} input\+Device)
+\begin{DoxyCompactList}\small\item\em Read a bool value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_aae47c26344f038d1f6c066f63a191aec}{Equals}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} other)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a937f23c9ac8396823811bfd0782eea0d}{Equals}} (object other)
+\item 
+override int \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a2eabd1c9e4cafccb279b3769e1bc6154}{Get\+Hash\+Code}} ()
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_acf98d228eaf27e43120173ad51bd6d23}{Save}} (Binary\+Writer writer)
+\item 
+override void \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_af61a4c2ad0d3adbc30118018220e3346}{Load}} (Binary\+Reader reader, U\+Int16 data\+Format\+Version)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a184df8c90fe2b58005ab095ce6850781}{ScaleX}} = 0.\+05f
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a2d063fa1e16468c19d9a609a810e7f71}{ScaleY}} = 0.\+05f
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a53eedf0593adcc434e0ff414384dcf3f}{ScaleZ}} = 0.\+05f
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_ad82ef4d3716f57c7dcf281f2859a975c}{Jitter\+Threshold}} = 0.\+05f
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}} \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_ab6d016556a82efd13c8cb28dc70a3a44}{Control}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+override string \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a1558e58666d2c00664c013d98c31493e}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override string \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a843cf1ac7eb04459dd1c42bd4098e886}{Device\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a79d706e40c9ce926ec6939f3b86804d3}{Device\+Class}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a68a3e558e5aac3cf5460b75e6b88c32a}{Device\+Style}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a808c16868872272e7a0232371de22f3d}{Binding\+Source\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 8 of file Mouse\+Binding\+Source.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a9fcb6a2e073775bde1e65c4892e330da}\label{class_in_control_1_1_mouse_binding_source_a9fcb6a2e073775bde1e65c4892e330da}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!MouseBindingSource@{MouseBindingSource}}
+\index{MouseBindingSource@{MouseBindingSource}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{MouseBindingSource()}{MouseBindingSource()}}
+{\footnotesize\ttfamily In\+Control.\+Mouse\+Binding\+Source.\+Mouse\+Binding\+Source (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}}}]{mouse\+Control }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Mouse\+Binding\+Source.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_aae47c26344f038d1f6c066f63a191aec}\label{class_in_control_1_1_mouse_binding_source_aae47c26344f038d1f6c066f63a191aec}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily override bool In\+Control.\+Mouse\+Binding\+Source.\+Equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Determines whether the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to compare with the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_binding_source_afb297381157f71e88975cbabedabe635}{In\+Control.\+Binding\+Source}}.
+
+
+
+Definition at line 151 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a937f23c9ac8396823811bfd0782eea0d}\label{class_in_control_1_1_mouse_binding_source_a937f23c9ac8396823811bfd0782eea0d}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily override bool In\+Control.\+Mouse\+Binding\+Source.\+Equals (\begin{DoxyParamCaption}\item[{object}]{other }\end{DoxyParamCaption})}
+
+
+
+Definition at line 168 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a2eabd1c9e4cafccb279b3769e1bc6154}\label{class_in_control_1_1_mouse_binding_source_a2eabd1c9e4cafccb279b3769e1bc6154}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int In\+Control.\+Mouse\+Binding\+Source.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 185 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a352cea127d33a9c28e707421b62c2265}\label{class_in_control_1_1_mouse_binding_source_a352cea127d33a9c28e707421b62c2265}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!GetState@{GetState}}
+\index{GetState@{GetState}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{GetState()}{GetState()}}
+{\footnotesize\ttfamily override bool In\+Control.\+Mouse\+Binding\+Source.\+Get\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}}]{input\+Device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read a bool value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the value of the binding is non-\/zero; otherwise {\ttfamily false}.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Device} & An input device which serves as the context for this source, if applicable. Pass in null when not applicable.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_binding_source_a72c2d47869cfc3c33b2cfc1ea8ab24cc}{In\+Control.\+Binding\+Source}}.
+
+
+
+Definition at line 109 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a3358929944911f0d6d56ef7c105cb6d9}\label{class_in_control_1_1_mouse_binding_source_a3358929944911f0d6d56ef7c105cb6d9}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!GetValue@{GetValue}}
+\index{GetValue@{GetValue}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{GetValue()}{GetValue()}}
+{\footnotesize\ttfamily override float In\+Control.\+Mouse\+Binding\+Source.\+Get\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}}]{input\+Device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read a float value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. 
+
+\begin{DoxyReturn}{Returns}
+The value, usually in the range -\/1..1, but not necessarily, for example, in the case of mouse movement.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Device} & An input device which serves as the context for this source, if applicable. Pass in null when not applicable.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_binding_source_a8fff562866ca868f6b5c9f91932bd64a}{In\+Control.\+Binding\+Source}}.
+
+
+
+Definition at line 103 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_af61a4c2ad0d3adbc30118018220e3346}\label{class_in_control_1_1_mouse_binding_source_af61a4c2ad0d3adbc30118018220e3346}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Load@{Load}}
+\index{Load@{Load}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily override void In\+Control.\+Mouse\+Binding\+Source.\+Load (\begin{DoxyParamCaption}\item[{Binary\+Reader}]{reader,  }\item[{U\+Int16}]{data\+Format\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_binding_source_a40f55804f6cbfde3f3c92d59756cbcb1}{In\+Control.\+Binding\+Source}}.
+
+
+
+Definition at line 206 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_acf98d228eaf27e43120173ad51bd6d23}\label{class_in_control_1_1_mouse_binding_source_acf98d228eaf27e43120173ad51bd6d23}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Save@{Save}}
+\index{Save@{Save}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily override void In\+Control.\+Mouse\+Binding\+Source.\+Save (\begin{DoxyParamCaption}\item[{Binary\+Writer}]{writer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_in_control_1_1_binding_source_aa3291f28485fa64ca39cdf41dbbfdaa0}{In\+Control.\+Binding\+Source}}.
+
+
+
+Definition at line 200 of file Mouse\+Binding\+Source.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_ad82ef4d3716f57c7dcf281f2859a975c}\label{class_in_control_1_1_mouse_binding_source_ad82ef4d3716f57c7dcf281f2859a975c}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!JitterThreshold@{JitterThreshold}}
+\index{JitterThreshold@{JitterThreshold}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{JitterThreshold}{JitterThreshold}}
+{\footnotesize\ttfamily float In\+Control.\+Mouse\+Binding\+Source.\+Jitter\+Threshold = 0.\+05f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 14 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a184df8c90fe2b58005ab095ce6850781}\label{class_in_control_1_1_mouse_binding_source_a184df8c90fe2b58005ab095ce6850781}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!ScaleX@{ScaleX}}
+\index{ScaleX@{ScaleX}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{ScaleX}{ScaleX}}
+{\footnotesize\ttfamily float In\+Control.\+Mouse\+Binding\+Source.\+ScaleX = 0.\+05f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 11 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a2d063fa1e16468c19d9a609a810e7f71}\label{class_in_control_1_1_mouse_binding_source_a2d063fa1e16468c19d9a609a810e7f71}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!ScaleY@{ScaleY}}
+\index{ScaleY@{ScaleY}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{ScaleY}{ScaleY}}
+{\footnotesize\ttfamily float In\+Control.\+Mouse\+Binding\+Source.\+ScaleY = 0.\+05f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 12 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a53eedf0593adcc434e0ff414384dcf3f}\label{class_in_control_1_1_mouse_binding_source_a53eedf0593adcc434e0ff414384dcf3f}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!ScaleZ@{ScaleZ}}
+\index{ScaleZ@{ScaleZ}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{ScaleZ}{ScaleZ}}
+{\footnotesize\ttfamily float In\+Control.\+Mouse\+Binding\+Source.\+ScaleZ = 0.\+05f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 13 of file Mouse\+Binding\+Source.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a808c16868872272e7a0232371de22f3d}\label{class_in_control_1_1_mouse_binding_source_a808c16868872272e7a0232371de22f3d}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!BindingSourceType@{BindingSourceType}}
+\index{BindingSourceType@{BindingSourceType}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{BindingSourceType}{BindingSourceType}}
+{\footnotesize\ttfamily override \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} In\+Control.\+Mouse\+Binding\+Source.\+Binding\+Source\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 191 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_ab6d016556a82efd13c8cb28dc70a3a44}\label{class_in_control_1_1_mouse_binding_source_ab6d016556a82efd13c8cb28dc70a3a44}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Control@{Control}}
+\index{Control@{Control}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Control}{Control}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}} In\+Control.\+Mouse\+Binding\+Source.\+Control\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 10 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a79d706e40c9ce926ec6939f3b86804d3}\label{class_in_control_1_1_mouse_binding_source_a79d706e40c9ce926ec6939f3b86804d3}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!DeviceClass@{DeviceClass}}
+\index{DeviceClass@{DeviceClass}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceClass}{DeviceClass}}
+{\footnotesize\ttfamily override \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} In\+Control.\+Mouse\+Binding\+Source.\+Device\+Class\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 133 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a843cf1ac7eb04459dd1c42bd4098e886}\label{class_in_control_1_1_mouse_binding_source_a843cf1ac7eb04459dd1c42bd4098e886}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!DeviceName@{DeviceName}}
+\index{DeviceName@{DeviceName}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceName}{DeviceName}}
+{\footnotesize\ttfamily override string In\+Control.\+Mouse\+Binding\+Source.\+Device\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 124 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a68a3e558e5aac3cf5460b75e6b88c32a}\label{class_in_control_1_1_mouse_binding_source_a68a3e558e5aac3cf5460b75e6b88c32a}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!DeviceStyle@{DeviceStyle}}
+\index{DeviceStyle@{DeviceStyle}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceStyle}{DeviceStyle}}
+{\footnotesize\ttfamily override \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} In\+Control.\+Mouse\+Binding\+Source.\+Device\+Style\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 142 of file Mouse\+Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_mouse_binding_source_a1558e58666d2c00664c013d98c31493e}\label{class_in_control_1_1_mouse_binding_source_a1558e58666d2c00664c013d98c31493e}} 
+\index{InControl.MouseBindingSource@{InControl.MouseBindingSource}!Name@{Name}}
+\index{Name@{Name}!InControl.MouseBindingSource@{InControl.MouseBindingSource}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily override string In\+Control.\+Mouse\+Binding\+Source.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 115 of file Mouse\+Binding\+Source.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_mouse_binding_source_8cs}{Mouse\+Binding\+Source.\+cs}}\end{DoxyCompactItemize}

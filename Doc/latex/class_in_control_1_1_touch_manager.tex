@@ -1,0 +1,450 @@
+\hypertarget{class_in_control_1_1_touch_manager}{}\doxysection{In\+Control.\+Touch\+Manager Class Reference}
+\label{class_in_control_1_1_touch_manager}\index{InControl.TouchManager@{InControl.TouchManager}}
+Inheritance diagram for In\+Control.\+Touch\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_in_control_1_1_touch_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{Gizmo\+Show\+Option}} \{ \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a6e7b34fa59e1bd229b207892956dc41c}{Gizmo\+Show\+Option.\+Never}}, 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1aafecacd83d0ff42e9a9d746955701f78}{Gizmo\+Show\+Option.\+When\+Selected}}, 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1ad318decee9117a132439fafe0824d0ad}{Gizmo\+Show\+Option.\+Unless\+Playing}}, 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a68eec46437c384d8dad18d5464ebc35c}{Gizmo\+Show\+Option.\+Always}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_a74d5c9892ab6a21829f2056918139bc5}{Get\+Touch}} (int touch\+Index)
+\item 
+static \mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_a8fccad9f44951ca624c8e98b2e927770}{Get\+Touch\+By\+Finger\+Id}} (int finger\+Id)
+\item 
+static Vector3 \mbox{\hyperlink{class_in_control_1_1_touch_manager_a58ccf312bd526a178177348d4060af41}{Screen\+To\+World\+Point}} (Vector2 point)
+\item 
+static Vector3 \mbox{\hyperlink{class_in_control_1_1_touch_manager_a45ee8807112151d7ab087f4d67f4721c}{View\+To\+World\+Point}} (Vector2 point)
+\item 
+static Vector3 \mbox{\hyperlink{class_in_control_1_1_touch_manager_aba17a6013e5665076578275c03fa353b}{Screen\+To\+View\+Point}} (Vector2 point)
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_touch_manager_ae8abad77d5a73a1f6632e2bfa4bf1486}{Convert\+To\+World}} (float value, \mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}} unit\+Type)
+\item 
+static Rect \mbox{\hyperlink{class_in_control_1_1_touch_manager_aa58797145c364b2afdfeba2cbfb71a83}{Percent\+To\+World\+Rect}} (Rect rect)
+\item 
+static Rect \mbox{\hyperlink{class_in_control_1_1_touch_manager_af49d84f4311a6b88d593ccc353a5146b}{Pixel\+To\+World\+Rect}} (Rect rect)
+\item 
+static Rect \mbox{\hyperlink{class_in_control_1_1_touch_manager_a691da6959a987f32ff81818c74d549a4}{Convert\+To\+World}} (Rect rect, \mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}} unit\+Type)
+\item 
+static implicit \mbox{\hyperlink{class_in_control_1_1_touch_manager_a95fb3f15749e144e36a68de8f41c186b}{operator bool}} (\mbox{\hyperlink{class_in_control_1_1_touch_manager}{Touch\+Manager}} instance)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_ad973b2f08aacba6b69f83e18c42fc1c0}{Camera}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_afd05e0178a03f48f90acb7d5081fc7d2}{touch\+Camera}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{Gizmo\+Show\+Option}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_abcbf172f765590a7928464a116390ad0}{controls\+Show\+Gizmos}} = \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a68eec46437c384d8dad18d5464ebc35c}{Gizmo\+Show\+Option.\+Always}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_touch_manager_a2371e6b570779d3d1b410c3f270dfad2}{enable\+Controls\+On\+Touch}} = false
+\item 
+int \mbox{\hyperlink{class_in_control_1_1_touch_manager_ae6179976be3911afa9d1c30dbf25b380}{controls\+Layer}} = 5
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_touch_manager_af1204d3ed48b9b172d5e05943a6fefc3}{Touch\+Manager}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_touch_manager_aee07dc98b8cd9eeeb5181994226bd438}{controls\+Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+static Read\+Only\+Collection$<$ \mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} $>$ \mbox{\hyperlink{class_in_control_1_1_touch_manager_a7906163359941929fc441bdc94a95554}{Touches}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static int \mbox{\hyperlink{class_in_control_1_1_touch_manager_aabcfe27c6afadef3d9c2180489ffb2ae}{Touch\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static Camera \mbox{\hyperlink{class_in_control_1_1_touch_manager_ad973b2f08aacba6b69f83e18c42fc1c0}{Camera}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_a776a782092849c6549d790e958059552}{Device}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static Vector3 \mbox{\hyperlink{class_in_control_1_1_touch_manager_a6500e5f5a30182c0d64fe8373d4466a5}{View\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_touch_manager_af358a207c26f3b17cf42219b11a0f9f1}{Percent\+To\+World}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_touch_manager_a8fc76fefb3b36a74168425d3a8a3830e}{Half\+Percent\+To\+World}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_touch_manager_a2ad9a8a085cde04cf08ef46b481184b3}{Pixel\+To\+World}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static float \mbox{\hyperlink{class_in_control_1_1_touch_manager_a411bb6ea2d9af8223f7420b22bf9b2ce}{Half\+Pixel\+To\+World}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static Vector2 \mbox{\hyperlink{class_in_control_1_1_touch_manager_ac97d14ab19376ec23aca58377349d93a}{Screen\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static Vector2 \mbox{\hyperlink{class_in_control_1_1_touch_manager_aa38a53f91e50fdf33eb77f6c432a313e}{Half\+Screen\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{Gizmo\+Show\+Option}} \mbox{\hyperlink{class_in_control_1_1_touch_manager_a4b2f880359bc2021cfabcf8be1996056}{Controls\+Show\+Gizmos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static bool \mbox{\hyperlink{class_in_control_1_1_touch_manager_aaa1f0fd78149d6dcc3c0e9843f464e2d}{Controls\+Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+static Action \mbox{\hyperlink{class_in_control_1_1_touch_manager_ad1e47062e4b4c49c57641683daca1a52}{On\+Setup}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 11 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}\label{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!GizmoShowOption@{GizmoShowOption}}
+\index{GizmoShowOption@{GizmoShowOption}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{GizmoShowOption}{GizmoShowOption}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{In\+Control.\+Touch\+Manager.\+Gizmo\+Show\+Option}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Never@{Never}!InControl.TouchManager@{InControl.TouchManager}}\index{InControl.TouchManager@{InControl.TouchManager}!Never@{Never}}}\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a6e7b34fa59e1bd229b207892956dc41c}\label{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a6e7b34fa59e1bd229b207892956dc41c}} 
+Never&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WhenSelected@{WhenSelected}!InControl.TouchManager@{InControl.TouchManager}}\index{InControl.TouchManager@{InControl.TouchManager}!WhenSelected@{WhenSelected}}}\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1aafecacd83d0ff42e9a9d746955701f78}\label{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1aafecacd83d0ff42e9a9d746955701f78}} 
+When\+Selected&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UnlessPlaying@{UnlessPlaying}!InControl.TouchManager@{InControl.TouchManager}}\index{InControl.TouchManager@{InControl.TouchManager}!UnlessPlaying@{UnlessPlaying}}}\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1ad318decee9117a132439fafe0824d0ad}\label{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1ad318decee9117a132439fafe0824d0ad}} 
+Unless\+Playing&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Always@{Always}!InControl.TouchManager@{InControl.TouchManager}}\index{InControl.TouchManager@{InControl.TouchManager}!Always@{Always}}}\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a68eec46437c384d8dad18d5464ebc35c}\label{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a68eec46437c384d8dad18d5464ebc35c}} 
+Always&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 13 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_af1204d3ed48b9b172d5e05943a6fefc3}\label{class_in_control_1_1_touch_manager_af1204d3ed48b9b172d5e05943a6fefc3}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!TouchManager@{TouchManager}}
+\index{TouchManager@{TouchManager}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{TouchManager()}{TouchManager()}}
+{\footnotesize\ttfamily In\+Control.\+Touch\+Manager.\+Touch\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 61 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_ae8abad77d5a73a1f6632e2bfa4bf1486}\label{class_in_control_1_1_touch_manager_ae8abad77d5a73a1f6632e2bfa4bf1486}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ConvertToWorld@{ConvertToWorld}}
+\index{ConvertToWorld@{ConvertToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ConvertToWorld()}{ConvertToWorld()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static float In\+Control.\+Touch\+Manager.\+Convert\+To\+World (\begin{DoxyParamCaption}\item[{float}]{value,  }\item[{\mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}}}]{unit\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 597 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a691da6959a987f32ff81818c74d549a4}\label{class_in_control_1_1_touch_manager_a691da6959a987f32ff81818c74d549a4}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ConvertToWorld@{ConvertToWorld}}
+\index{ConvertToWorld@{ConvertToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ConvertToWorld()}{ConvertToWorld()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Rect In\+Control.\+Touch\+Manager.\+Convert\+To\+World (\begin{DoxyParamCaption}\item[{Rect}]{rect,  }\item[{\mbox{\hyperlink{namespace_in_control_a511ebe2d5cc1b40d96165f734e5b3605}{Touch\+Unit\+Type}}}]{unit\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 625 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a74d5c9892ab6a21829f2056918139bc5}\label{class_in_control_1_1_touch_manager_a74d5c9892ab6a21829f2056918139bc5}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!GetTouch@{GetTouch}}
+\index{GetTouch@{GetTouch}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{GetTouch()}{GetTouch()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} In\+Control.\+Touch\+Manager.\+Get\+Touch (\begin{DoxyParamCaption}\item[{int}]{touch\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 567 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a8fccad9f44951ca624c8e98b2e927770}\label{class_in_control_1_1_touch_manager_a8fccad9f44951ca624c8e98b2e927770}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!GetTouchByFingerId@{GetTouchByFingerId}}
+\index{GetTouchByFingerId@{GetTouchByFingerId}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{GetTouchByFingerId()}{GetTouchByFingerId()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_in_control_1_1_touch}{Touch}} In\+Control.\+Touch\+Manager.\+Get\+Touch\+By\+Finger\+Id (\begin{DoxyParamCaption}\item[{int}]{finger\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 573 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a95fb3f15749e144e36a68de8f41c186b}\label{class_in_control_1_1_touch_manager_a95fb3f15749e144e36a68de8f41c186b}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!operator bool@{operator bool}}
+\index{operator bool@{operator bool}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{operator bool()}{operator bool()}}
+{\footnotesize\ttfamily static implicit In\+Control.\+Touch\+Manager.\+operator bool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_touch_manager}{Touch\+Manager}}}]{instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 701 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aa58797145c364b2afdfeba2cbfb71a83}\label{class_in_control_1_1_touch_manager_aa58797145c364b2afdfeba2cbfb71a83}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!PercentToWorldRect@{PercentToWorldRect}}
+\index{PercentToWorldRect@{PercentToWorldRect}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{PercentToWorldRect()}{PercentToWorldRect()}}
+{\footnotesize\ttfamily static Rect In\+Control.\+Touch\+Manager.\+Percent\+To\+World\+Rect (\begin{DoxyParamCaption}\item[{Rect}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 603 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_af49d84f4311a6b88d593ccc353a5146b}\label{class_in_control_1_1_touch_manager_af49d84f4311a6b88d593ccc353a5146b}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!PixelToWorldRect@{PixelToWorldRect}}
+\index{PixelToWorldRect@{PixelToWorldRect}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{PixelToWorldRect()}{PixelToWorldRect()}}
+{\footnotesize\ttfamily static Rect In\+Control.\+Touch\+Manager.\+Pixel\+To\+World\+Rect (\begin{DoxyParamCaption}\item[{Rect}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 614 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aba17a6013e5665076578275c03fa353b}\label{class_in_control_1_1_touch_manager_aba17a6013e5665076578275c03fa353b}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ScreenToViewPoint@{ScreenToViewPoint}}
+\index{ScreenToViewPoint@{ScreenToViewPoint}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ScreenToViewPoint()}{ScreenToViewPoint()}}
+{\footnotesize\ttfamily static Vector3 In\+Control.\+Touch\+Manager.\+Screen\+To\+View\+Point (\begin{DoxyParamCaption}\item[{Vector2}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 591 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a58ccf312bd526a178177348d4060af41}\label{class_in_control_1_1_touch_manager_a58ccf312bd526a178177348d4060af41}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ScreenToWorldPoint@{ScreenToWorldPoint}}
+\index{ScreenToWorldPoint@{ScreenToWorldPoint}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ScreenToWorldPoint()}{ScreenToWorldPoint()}}
+{\footnotesize\ttfamily static Vector3 In\+Control.\+Touch\+Manager.\+Screen\+To\+World\+Point (\begin{DoxyParamCaption}\item[{Vector2}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 579 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a45ee8807112151d7ab087f4d67f4721c}\label{class_in_control_1_1_touch_manager_a45ee8807112151d7ab087f4d67f4721c}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ViewToWorldPoint@{ViewToWorldPoint}}
+\index{ViewToWorldPoint@{ViewToWorldPoint}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ViewToWorldPoint()}{ViewToWorldPoint()}}
+{\footnotesize\ttfamily static Vector3 In\+Control.\+Touch\+Manager.\+View\+To\+World\+Point (\begin{DoxyParamCaption}\item[{Vector2}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 585 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_ae6179976be3911afa9d1c30dbf25b380}\label{class_in_control_1_1_touch_manager_ae6179976be3911afa9d1c30dbf25b380}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!controlsLayer@{controlsLayer}}
+\index{controlsLayer@{controlsLayer}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{controlsLayer}{controlsLayer}}
+{\footnotesize\ttfamily int In\+Control.\+Touch\+Manager.\+controls\+Layer = 5}
+
+
+
+Definition at line 34 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_abcbf172f765590a7928464a116390ad0}\label{class_in_control_1_1_touch_manager_abcbf172f765590a7928464a116390ad0}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!controlsShowGizmos@{controlsShowGizmos}}
+\index{controlsShowGizmos@{controlsShowGizmos}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{controlsShowGizmos}{controlsShowGizmos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{Gizmo\+Show\+Option}} In\+Control.\+Touch\+Manager.\+controls\+Show\+Gizmos = \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1a68eec46437c384d8dad18d5464ebc35c}{Gizmo\+Show\+Option.\+Always}}}
+
+
+
+Definition at line 24 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a2371e6b570779d3d1b410c3f270dfad2}\label{class_in_control_1_1_touch_manager_a2371e6b570779d3d1b410c3f270dfad2}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!enableControlsOnTouch@{enableControlsOnTouch}}
+\index{enableControlsOnTouch@{enableControlsOnTouch}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{enableControlsOnTouch}{enableControlsOnTouch}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Manager.\+enable\+Controls\+On\+Touch = false}
+
+
+
+Definition at line 27 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_afd05e0178a03f48f90acb7d5081fc7d2}\label{class_in_control_1_1_touch_manager_afd05e0178a03f48f90acb7d5081fc7d2}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!touchCamera@{touchCamera}}
+\index{touchCamera@{touchCamera}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{touchCamera}{touchCamera}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_touch_manager_ad973b2f08aacba6b69f83e18c42fc1c0}{Camera}} In\+Control.\+Touch\+Manager.\+touch\+Camera}
+
+
+
+Definition at line 22 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_ad973b2f08aacba6b69f83e18c42fc1c0}\label{class_in_control_1_1_touch_manager_ad973b2f08aacba6b69f83e18c42fc1c0}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!Camera@{Camera}}
+\index{Camera@{Camera}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{Camera}{Camera}}
+{\footnotesize\ttfamily Camera In\+Control.\+Touch\+Manager.\+Camera\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 631 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aee07dc98b8cd9eeeb5181994226bd438}\label{class_in_control_1_1_touch_manager_aee07dc98b8cd9eeeb5181994226bd438}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!controlsEnabled@{controlsEnabled}}
+\index{controlsEnabled@{controlsEnabled}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{controlsEnabled}{controlsEnabled}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Manager.\+controls\+Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 533 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aaa1f0fd78149d6dcc3c0e9843f464e2d}\label{class_in_control_1_1_touch_manager_aaa1f0fd78149d6dcc3c0e9843f464e2d}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ControlsEnabled@{ControlsEnabled}}
+\index{ControlsEnabled@{ControlsEnabled}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ControlsEnabled}{ControlsEnabled}}
+{\footnotesize\ttfamily bool In\+Control.\+Touch\+Manager.\+Controls\+Enabled\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 691 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a4b2f880359bc2021cfabcf8be1996056}\label{class_in_control_1_1_touch_manager_a4b2f880359bc2021cfabcf8be1996056}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ControlsShowGizmos@{ControlsShowGizmos}}
+\index{ControlsShowGizmos@{ControlsShowGizmos}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ControlsShowGizmos}{ControlsShowGizmos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_touch_manager_a1af72a39d4d41399ff56c59190b1e6d1}{Gizmo\+Show\+Option}} In\+Control.\+Touch\+Manager.\+Controls\+Show\+Gizmos\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 685 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a776a782092849c6549d790e958059552}\label{class_in_control_1_1_touch_manager_a776a782092849c6549d790e958059552}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!Device@{Device}}
+\index{Device@{Device}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{Device}{Device}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} In\+Control.\+Touch\+Manager.\+Device\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 637 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a8fc76fefb3b36a74168425d3a8a3830e}\label{class_in_control_1_1_touch_manager_a8fc76fefb3b36a74168425d3a8a3830e}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!HalfPercentToWorld@{HalfPercentToWorld}}
+\index{HalfPercentToWorld@{HalfPercentToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{HalfPercentToWorld}{HalfPercentToWorld}}
+{\footnotesize\ttfamily float In\+Control.\+Touch\+Manager.\+Half\+Percent\+To\+World\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 655 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a411bb6ea2d9af8223f7420b22bf9b2ce}\label{class_in_control_1_1_touch_manager_a411bb6ea2d9af8223f7420b22bf9b2ce}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!HalfPixelToWorld@{HalfPixelToWorld}}
+\index{HalfPixelToWorld@{HalfPixelToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{HalfPixelToWorld}{HalfPixelToWorld}}
+{\footnotesize\ttfamily float In\+Control.\+Touch\+Manager.\+Half\+Pixel\+To\+World\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 667 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aa38a53f91e50fdf33eb77f6c432a313e}\label{class_in_control_1_1_touch_manager_aa38a53f91e50fdf33eb77f6c432a313e}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!HalfScreenSize@{HalfScreenSize}}
+\index{HalfScreenSize@{HalfScreenSize}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{HalfScreenSize}{HalfScreenSize}}
+{\footnotesize\ttfamily Vector2 In\+Control.\+Touch\+Manager.\+Half\+Screen\+Size\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 679 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_af358a207c26f3b17cf42219b11a0f9f1}\label{class_in_control_1_1_touch_manager_af358a207c26f3b17cf42219b11a0f9f1}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!PercentToWorld@{PercentToWorld}}
+\index{PercentToWorld@{PercentToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{PercentToWorld}{PercentToWorld}}
+{\footnotesize\ttfamily float In\+Control.\+Touch\+Manager.\+Percent\+To\+World\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 649 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a2ad9a8a085cde04cf08ef46b481184b3}\label{class_in_control_1_1_touch_manager_a2ad9a8a085cde04cf08ef46b481184b3}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!PixelToWorld@{PixelToWorld}}
+\index{PixelToWorld@{PixelToWorld}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{PixelToWorld}{PixelToWorld}}
+{\footnotesize\ttfamily float In\+Control.\+Touch\+Manager.\+Pixel\+To\+World\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 661 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_ac97d14ab19376ec23aca58377349d93a}\label{class_in_control_1_1_touch_manager_ac97d14ab19376ec23aca58377349d93a}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ScreenSize@{ScreenSize}}
+\index{ScreenSize@{ScreenSize}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ScreenSize}{ScreenSize}}
+{\footnotesize\ttfamily Vector2 In\+Control.\+Touch\+Manager.\+Screen\+Size\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 673 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_aabcfe27c6afadef3d9c2180489ffb2ae}\label{class_in_control_1_1_touch_manager_aabcfe27c6afadef3d9c2180489ffb2ae}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!TouchCount@{TouchCount}}
+\index{TouchCount@{TouchCount}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{TouchCount}{TouchCount}}
+{\footnotesize\ttfamily int In\+Control.\+Touch\+Manager.\+Touch\+Count\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 561 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a7906163359941929fc441bdc94a95554}\label{class_in_control_1_1_touch_manager_a7906163359941929fc441bdc94a95554}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!Touches@{Touches}}
+\index{Touches@{Touches}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{Touches}{Touches}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\mbox{\hyperlink{class_in_control_1_1_touch}{Touch}}$>$ In\+Control.\+Touch\+Manager.\+Touches\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 555 of file Touch\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_a6500e5f5a30182c0d64fe8373d4466a5}\label{class_in_control_1_1_touch_manager_a6500e5f5a30182c0d64fe8373d4466a5}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!ViewSize@{ViewSize}}
+\index{ViewSize@{ViewSize}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{ViewSize}{ViewSize}}
+{\footnotesize\ttfamily Vector3 In\+Control.\+Touch\+Manager.\+View\+Size\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Definition at line 643 of file Touch\+Manager.\+cs.
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_touch_manager_ad1e47062e4b4c49c57641683daca1a52}\label{class_in_control_1_1_touch_manager_ad1e47062e4b4c49c57641683daca1a52}} 
+\index{InControl.TouchManager@{InControl.TouchManager}!OnSetup@{OnSetup}}
+\index{OnSetup@{OnSetup}!InControl.TouchManager@{InControl.TouchManager}}
+\doxysubsubsection{\texorpdfstring{OnSetup}{OnSetup}}
+{\footnotesize\ttfamily Action In\+Control.\+Touch\+Manager.\+On\+Setup\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 36 of file Touch\+Manager.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Touch/\mbox{\hyperlink{_touch_manager_8cs}{Touch\+Manager.\+cs}}\end{DoxyCompactItemize}

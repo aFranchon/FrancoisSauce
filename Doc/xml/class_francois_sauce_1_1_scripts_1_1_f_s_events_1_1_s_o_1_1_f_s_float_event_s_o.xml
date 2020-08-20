@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_float_event_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::SO::FSFloatEventSO</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; float &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FSOneArgumentEventSO&lt; float &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSFloatEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_float_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FSOneArgumentEventSO&lt; float &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSFloatEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_float_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSFloatEventSO.cs" line="16" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSFloatEventSO.cs" bodystart="17" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1af3250d9f42f9653643223f82c1ffc607" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSFloatEventSO</scope><name>fsOneArgumentAction</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1acb5c48078fe6ad137054ab5d2c31b675" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSFloatEventSO</scope><name>Invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

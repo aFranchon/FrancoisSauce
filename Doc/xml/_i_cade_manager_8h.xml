@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_i_cade_manager_8h" kind="file" language="C++">
+    <compoundname>ICadeManager.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_i_cade_manager_8m" local="yes">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h</label>
+        <link refid="_i_cade_manager_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h</label>
+        <link refid="_i_cade_manager_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m</label>
+        <link refid="_i_cade_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_i_cade_manager" prot="public">ICadeManager</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* UnityCallback) (int state)</definition>
+        <argsstring>)(int state)</argsstring>
+        <name>UnityCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<sp/><ref refid="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" kindref="member">UnityCallback</ref>)(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>state<sp/>);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="interface_i_cade_manager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_cade_manager" kindref="compound">ICadeManager</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">+(id)<sp/><ref refid="interface_i_cade_manager_1a867d9f40f833a0e05f7c6f3c1c51136e" kindref="member">sharedManager</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">-(void)<sp/>activate:<sp/>(BOOL)<sp/>state;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">-(void)<sp/>delayedActivate:<sp/>(NSNumber<sp/>*)<sp/>stateNumber;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-(void)<sp/>setStateCallback:<sp/>(<ref refid="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" kindref="member">UnityCallback</ref>)<sp/>callback;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-(int)<sp/><ref refid="interface_i_cade_manager_1a7c2fc0ed34b40e5fd81e669223b8911d" kindref="member">getState</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h"/>
+  </compounddef>
+</doxygen>

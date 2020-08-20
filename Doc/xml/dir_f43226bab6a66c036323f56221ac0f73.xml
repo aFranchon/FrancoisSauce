@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f43226bab6a66c036323f56221ac0f73" kind="dir">
+    <compoundname>Fantasy UI/Samples</compoundname>
+    <innerfile refid="_icon_preview_8cs">IconPreview.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Fantasy UI/Samples/"/>
+  </compounddef>
+</doxygen>

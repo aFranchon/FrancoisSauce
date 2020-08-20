@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_e4bccbec496d5bcc94a0bc5b85c5d657" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility</compoundname>
+    <innerfile refid="_header_attribute_8cs">HeaderAttribute.cs</innerfile>
+    <innerfile refid="_inspector_name_attribute_8cs">InspectorNameAttribute.cs</innerfile>
+    <innerfile refid="_range_attribute_8cs">RangeAttribute.cs</innerfile>
+    <innerfile refid="_space_attribute_8cs">SpaceAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility/"/>
+  </compounddef>
+</doxygen>

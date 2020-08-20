@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_input_control_state" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::InputControlState</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_input_control_state_1a3dc05d53b33ddea19e48feef9c5962eb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlState.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="7" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_control_state_1aee3962e34c0a148558f8f42e07990453" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlState.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="8" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_control_state_1a496ad5feeb80b68983af5d748e4ba762" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlState.RawValue</definition>
+        <argsstring></argsstring>
+        <name>RawValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="9" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a290d0d621f448fa84111614355e3ba0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InputControlState.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="12" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a70741e3df4f944e9900f9b96db94e59f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InputControlState.Set</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="20" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1adc152b6fb3e84e38177e661586e38bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InputControlState.Set</definition>
+        <argsstring>(float value, float threshold)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="27" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a67640ec3bd68224cf9ba960720c4700f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InputControlState.Set</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="34" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a075ef65170009b2846c3aface75bf4de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.InputControlState.operator bool</definition>
+        <argsstring>(InputControlState state)</argsstring>
+        <name>operator bool</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="42" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a0204ac9f0c51350ec3c15644e81d659f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.InputControlState.operator float</definition>
+        <argsstring>(InputControlState state)</argsstring>
+        <name>operator float</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="48" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1a8d33efab533082f3494fb1cd3f9354a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.InputControlState.operator==</definition>
+        <argsstring>(InputControlState a, InputControlState b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="54" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_state_1abf2bfc7947562d88c372762e5e59edce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.InputControlState.operator!=</definition>
+        <argsstring>(InputControlState a, InputControlState b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="60" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" line="5" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlState.cs" bodystart="6" bodyend="64"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_input_control_state_1a075ef65170009b2846c3aface75bf4de" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>operator bool</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a0204ac9f0c51350ec3c15644e81d659f" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>operator float</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1abf2bfc7947562d88c372762e5e59edce" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a8d33efab533082f3494fb1cd3f9354a1" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a496ad5feeb80b68983af5d748e4ba762" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>RawValue</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a290d0d621f448fa84111614355e3ba0d" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>Reset</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a70741e3df4f944e9900f9b96db94e59f" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>Set</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1adc152b6fb3e84e38177e661586e38bda" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>Set</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a67640ec3bd68224cf9ba960720c4700f" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>Set</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1a3dc05d53b33ddea19e48feef9c5962eb" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>State</name></member>
+      <member refid="struct_in_control_1_1_input_control_state_1aee3962e34c0a148558f8f42e07990453" prot="public" virt="non-virtual"><scope>InControl::InputControlState</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_key_binding_source" kind="class" language="C#" prot="public">
+    <compoundname>InControl::KeyBindingSource</compoundname>
+    <basecompoundref refid="class_in_control_1_1_binding_source" prot="public" virt="non-virtual">InControl.BindingSource</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1a2fc7476f8a3d2a1f8e30c40072d2fe7b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+        <definition>KeyCombo InControl.KeyBindingSource.Control</definition>
+        <argsstring></argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="9" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1abb58403fb386eff9a36d536aae9b751b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.KeyBindingSource.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="39" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1ad55013e8bd1c575209817e0cb67bf070" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.KeyBindingSource.DeviceName</definition>
+        <argsstring></argsstring>
+        <name>DeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="48" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1a0a99c32f2b2c828b7a071864609b68d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>override InputDeviceClass InControl.KeyBindingSource.DeviceClass</definition>
+        <argsstring></argsstring>
+        <name>DeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="57" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1a929827b0a8dce8b8937adf0dd7113aa6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>override InputDeviceStyle InControl.KeyBindingSource.DeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>DeviceStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="66" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_key_binding_source_1ab45cbe48eaa365c66c474456e0dc0ee4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>override BindingSourceType InControl.KeyBindingSource.BindingSourceType</definition>
+        <argsstring></argsstring>
+        <name>BindingSourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="115" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="116" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a1227ef51b6a3ea9a26225dc1eecc3993" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyBindingSource.KeyBindingSource</definition>
+        <argsstring>()</argsstring>
+        <name>KeyBindingSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="12" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a0f958cce4999a58b0806c9c91a317a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyBindingSource.KeyBindingSource</definition>
+        <argsstring>(KeyCombo keyCombo)</argsstring>
+        <name>KeyBindingSource</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>keyCombo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="15" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1acf1fe1ef625925be3e577a5dffabab0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyBindingSource.KeyBindingSource</definition>
+        <argsstring>(params Key[] keys)</argsstring>
+        <name>KeyBindingSource</name>
+        <param>
+          <type>params <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="21" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1ac72f66f55d7fffc80441f17bc6d9566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float InControl.KeyBindingSource.GetValue</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a8fff562866ca868f6b5c9f91932bd64a">GetValue</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a float value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value, usually in the range -1..1, but not necessarily, for example, in the case of mouse movement.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="27" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a651f3135b9aaca5205dcba46b70b36e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.KeyBindingSource.GetState</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetState</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a72c2d47869cfc3c33b2cfc1ea8ab24cc">GetState</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a bool value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the value of the binding is non-zero; otherwise <computeroutput>false</computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="33" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a3c68a82e1ceb1b03fe6b2735ae25818b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.KeyBindingSource.Equals</definition>
+        <argsstring>(BindingSource other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1afb297381157f71e88975cbabedabe635">Equals</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to compare with the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="75" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1af86266067a8e1df8cea1095f6ef7f699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.KeyBindingSource.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="92" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="92" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a9812fdd280e4d8c96a6036421da6a730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.KeyBindingSource.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="109" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a59d3dbc6c99ef2961105e8ae554c5c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.KeyBindingSource.Load</definition>
+        <argsstring>(BinaryReader reader, UInt16 dataFormatVersion)</argsstring>
+        <name>Load</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a40f55804f6cbfde3f3c92d59756cbcb1">Load</reimplements>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dataFormatVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="124" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_key_binding_source_1a3bed32d666caf3c53423c4c4e08d703b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.KeyBindingSource.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1aa3291f28485fa64ca39cdf41dbbfdaa0">Save</reimplements>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="133" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.KeyBindingSource</label>
+        <link refid="class_in_control_1_1_key_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.KeyBindingSource</label>
+        <link refid="class_in_control_1_1_key_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyBindingSource.cs" bodystart="8" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_key_binding_source_1ab45cbe48eaa365c66c474456e0dc0ee4" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>BindingSourceType</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a0d9586fb3b6233d99a96407ef287ccb5" prot="package" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>BoundTo</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a2fc7476f8a3d2a1f8e30c40072d2fe7b" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>Control</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a0a99c32f2b2c828b7a071864609b68d1" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1ad55013e8bd1c575209817e0cb67bf070" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>DeviceName</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a929827b0a8dce8b8937adf0dd7113aa6" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a3c68a82e1ceb1b03fe6b2735ae25818b" prot="public" virt="virtual"><scope>InControl::KeyBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1af86266067a8e1df8cea1095f6ef7f699" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a9812fdd280e4d8c96a6036421da6a730" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>GetHashCode</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a651f3135b9aaca5205dcba46b70b36e5" prot="public" virt="virtual"><scope>InControl::KeyBindingSource</scope><name>GetState</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1ac72f66f55d7fffc80441f17bc6d9566d" prot="public" virt="virtual"><scope>InControl::KeyBindingSource</scope><name>GetValue</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a5563d470b4b7872b4e03ce7dbaa019c8" prot="package" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>IsValid</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a1227ef51b6a3ea9a26225dc1eecc3993" prot="package" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>KeyBindingSource</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a0f958cce4999a58b0806c9c91a317a4f" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>KeyBindingSource</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1acf1fe1ef625925be3e577a5dffabab0f" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>KeyBindingSource</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a59d3dbc6c99ef2961105e8ae554c5c8d" prot="public" virt="virtual"><scope>InControl::KeyBindingSource</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1abb58403fb386eff9a36d536aae9b751b" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_binding_source_1ab5f01ce009d16d8fe1dcebdcb765dcf3" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>operator!=</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a2be1cd2a60d29c2f90ca075b2bf5b306" prot="public" virt="non-virtual"><scope>InControl::KeyBindingSource</scope><name>operator==</name></member>
+      <member refid="class_in_control_1_1_key_binding_source_1a3bed32d666caf3c53423c4c4e08d703b" prot="public" virt="virtual"><scope>InControl::KeyBindingSource</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

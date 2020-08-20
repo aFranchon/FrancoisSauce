@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_binding_listen_options" kind="class" language="C#" prot="public">
+    <compoundname>InControl::BindingListenOptions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a3e980b43069f4d0a9538a96ff22b8212" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeControllers</definition>
+        <argsstring></argsstring>
+        <name>IncludeControllers</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Include controllers when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="11" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1ae7050e440df976d8882bae878ecb5635" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeUnknownControllers</definition>
+        <argsstring></argsstring>
+        <name>IncludeUnknownControllers</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Include unknown controllers when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="16" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a5d81af1d6bbc916d4562f3c6f40f0cad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeNonStandardControls</definition>
+        <argsstring></argsstring>
+        <name>IncludeNonStandardControls</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Include non-standard controls on controllers when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="21" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a439ed2b680af2ae257a5546a3eb6dffc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeMouseButtons</definition>
+        <argsstring></argsstring>
+        <name>IncludeMouseButtons</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Include mouse buttons when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="26" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a7afe3848f3f2a9398fb1208c20acd918" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeMouseScrollWheel</definition>
+        <argsstring></argsstring>
+        <name>IncludeMouseScrollWheel</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Include mouse scroll wheel when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="31" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a1810ba85ecf1a4ff5ba7d64486245d75" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeKeys</definition>
+        <argsstring></argsstring>
+        <name>IncludeKeys</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Include keyboard keys when listening for new bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="36" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a7b633b147b112b34f642094035caae56" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.IncludeModifiersAsFirstClassKeys</definition>
+        <argsstring></argsstring>
+        <name>IncludeModifiersAsFirstClassKeys</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Treat modifiers (Shift, Alt, Control, etc.) as first class keys instead of modifiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="41" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1aef64e4a7653bd459eaecf19f7a34b1d2" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint InControl.BindingListenOptions.MaxAllowedBindings</definition>
+        <argsstring></argsstring>
+        <name>MaxAllowedBindings</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The maximum number of bindings allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="49" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a19f2f3840da40dd27b4216a09f307a76" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint InControl.BindingListenOptions.MaxAllowedBindingsPerType</definition>
+        <argsstring></argsstring>
+        <name>MaxAllowedBindingsPerType</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The maximum number of bindings of a given type allowed for the action. If a new binding is detected and would cause this number to be exceeded, enough bindings are removed to make room before adding the new binding. When zero (default), no limit is applied. When nonzero, this setting overrides MaxAllowedBindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="58" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1aeaae34e0b0266314bb39b48118fcf54a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.AllowDuplicateBindingsPerSet</definition>
+        <argsstring></argsstring>
+        <name>AllowDuplicateBindingsPerSet</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Allow bindings that are already bound to any other action in the set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="63" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a4ebbd2f356d6f03837e8c1c56cdbaf53" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.UnsetDuplicateBindingsOnSet</definition>
+        <argsstring></argsstring>
+        <name>UnsetDuplicateBindingsOnSet</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If an existing duplicate binding exists, remove it before adding the new one. When </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput>, the value of AllowDuplicateBindingsPerSet is irrelevant.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="69" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1afa544ec4534a7dff17dc606fe4ec8ed5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.RejectRedundantBindings</definition>
+        <argsstring></argsstring>
+        <name>RejectRedundantBindings</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If an existing duplicate binding already exists on the same action, reject the binding instead of accepting it doing nothing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="75" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a34433d987f485f0641d51f764af5f8a0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+        <definition>BindingSource InControl.BindingListenOptions.ReplaceBinding</definition>
+        <argsstring></argsstring>
+        <name>ReplaceBinding</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>If not </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>null</computeroutput>, and this binding is on the listening action, this binding will be replace by the newly found binding.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="81" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a9d7d523ec69173cf9bd14968d65bb889" prot="public" static="no" mutable="no">
+        <type>Func&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref>, <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>, bool &gt;</type>
+        <definition>Func&lt;PlayerAction, BindingSource, bool&gt; InControl.BindingListenOptions.OnBindingFound</definition>
+        <argsstring></argsstring>
+        <name>OnBindingFound</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>This function is called when a binding is found but before it is added. If this function returns </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>false</computeroutput>, then the binding is ignored and listening for new bindings will continue. If set to <computeroutput>null</computeroutput> (default), it will not be called.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="89" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1aca8e770494b58202665320c198e47698" prot="public" static="no" mutable="no">
+        <type>Action&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref>, <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>Action&lt;PlayerAction, BindingSource&gt; InControl.BindingListenOptions.OnBindingAdded</definition>
+        <argsstring></argsstring>
+        <name>OnBindingAdded</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>This action is called after a binding is added. If set to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>null</computeroutput> (default), it will not be called.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="95" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1abf0089683054fa17b25ef93d6b7d1a56" prot="public" static="no" mutable="no">
+        <type>Action&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref>, <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>, <ref refid="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4" kindref="member">BindingSourceRejectionType</ref> &gt;</type>
+        <definition>Action&lt;PlayerAction, BindingSource, BindingSourceRejectionType&gt; InControl.BindingListenOptions.OnBindingRejected</definition>
+        <argsstring></argsstring>
+        <name>OnBindingRejected</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>This action is called after a binding is found, but rejected along with the reason (BindingSourceRejectionType) why it was rejected. If set to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>null</computeroutput> (default), it will not be called.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="102" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_binding_listen_options_1a195bc2d9fdc928e6fcea6327a37bfd08" prot="public" static="no" mutable="no">
+        <type>Action&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref> &gt;</type>
+        <definition>Action&lt;PlayerAction&gt; InControl.BindingListenOptions.OnBindingEnded</definition>
+        <argsstring></argsstring>
+        <name>OnBindingEnded</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>This action is called after listening for bindings is ended (for any reason). If set to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>null</computeroutput> (default), it will not be called.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="108" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_binding_listen_options_1a1af06e11dceb7a8db62d5cacd36663cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.BindingListenOptions.CallOnBindingFound</definition>
+        <argsstring>(PlayerAction playerAction, BindingSource bindingSource)</argsstring>
+        <name>CallOnBindingFound</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>playerAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>bindingSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="111" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="111" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_binding_listen_options_1a7005a436faedb824bae9b0c661f1a663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.BindingListenOptions.CallOnBindingAdded</definition>
+        <argsstring>(PlayerAction playerAction, BindingSource bindingSource)</argsstring>
+        <name>CallOnBindingAdded</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>playerAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>bindingSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="123" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_binding_listen_options_1abd7f5a54718bcc2b65de4f53988d3f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.BindingListenOptions.CallOnBindingRejected</definition>
+        <argsstring>(PlayerAction playerAction, BindingSource bindingSource, BindingSourceRejectionType bindingSourceRejectionType)</argsstring>
+        <name>CallOnBindingRejected</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>playerAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>bindingSource</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4" kindref="member">BindingSourceRejectionType</ref></type>
+          <declname>bindingSourceRejectionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="132" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_binding_listen_options_1a70a91f58e807d097d465ba0069ac1e28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.BindingListenOptions.CallOnBindingEnded</definition>
+        <argsstring>(PlayerAction playerAction)</argsstring>
+        <name>CallOnBindingEnded</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>playerAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="141" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.BindingListenOptions</label>
+        <link refid="class_in_control_1_1_binding_listen_options"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ReplaceBinding</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>InControl.BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingListenOptions.cs" bodystart="7" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_binding_listen_options_1aeaae34e0b0266314bb39b48118fcf54a" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>AllowDuplicateBindingsPerSet</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a7005a436faedb824bae9b0c661f1a663" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>CallOnBindingAdded</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a70a91f58e807d097d465ba0069ac1e28" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>CallOnBindingEnded</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a1af06e11dceb7a8db62d5cacd36663cb" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>CallOnBindingFound</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1abd7f5a54718bcc2b65de4f53988d3f02" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>CallOnBindingRejected</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a3e980b43069f4d0a9538a96ff22b8212" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeControllers</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a1810ba85ecf1a4ff5ba7d64486245d75" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeKeys</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a7b633b147b112b34f642094035caae56" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeModifiersAsFirstClassKeys</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a439ed2b680af2ae257a5546a3eb6dffc" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeMouseButtons</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a7afe3848f3f2a9398fb1208c20acd918" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeMouseScrollWheel</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a5d81af1d6bbc916d4562f3c6f40f0cad" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeNonStandardControls</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1ae7050e440df976d8882bae878ecb5635" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>IncludeUnknownControllers</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1aef64e4a7653bd459eaecf19f7a34b1d2" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>MaxAllowedBindings</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a19f2f3840da40dd27b4216a09f307a76" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>MaxAllowedBindingsPerType</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1aca8e770494b58202665320c198e47698" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>OnBindingAdded</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a195bc2d9fdc928e6fcea6327a37bfd08" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>OnBindingEnded</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a9d7d523ec69173cf9bd14968d65bb889" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>OnBindingFound</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1abf0089683054fa17b25ef93d6b7d1a56" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>OnBindingRejected</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1afa544ec4534a7dff17dc606fe4ec8ed5" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>RejectRedundantBindings</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a34433d987f485f0641d51f764af5f8a0" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>ReplaceBinding</name></member>
+      <member refid="class_in_control_1_1_binding_listen_options_1a4ebbd2f356d6f03837e8c1c56cdbaf53" prot="public" virt="non-virtual"><scope>InControl::BindingListenOptions</scope><name>UnsetDuplicateBindingsOnSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

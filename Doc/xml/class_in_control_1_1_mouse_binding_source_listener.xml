@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_mouse_binding_source_listener" kind="class" language="C#" prot="public">
+    <compoundname>InControl::MouseBindingSourceListener</compoundname>
+    <basecompoundref refid="interface_in_control_1_1_binding_source_listener" prot="public" virt="non-virtual">InControl.BindingSourceListener</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_listener_1a8068fbbf57db07605acc75fc0253764a" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float InControl.MouseBindingSourceListener.ScrollWheelThreshold</definition>
+        <argsstring></argsstring>
+        <name>ScrollWheelThreshold</name>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="5" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_listener_1a0904e77ce9810a069dbd51eb1a65854c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+        <definition>Mouse InControl.MouseBindingSourceListener.detectFound</definition>
+        <argsstring></argsstring>
+        <name>detectFound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_listener_1a92619126376f4f5ec63b475410c5e844" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.MouseBindingSourceListener.detectPhase</definition>
+        <argsstring></argsstring>
+        <name>detectPhase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="8" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_listener_1aa9b5251ce0864e8d6084f8ccb741dfd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.MouseBindingSourceListener.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="interface_in_control_1_1_binding_source_listener_1a4827864725a5c6cb801268518552e706">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="11" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_listener_1a4429c434e3d6fab1e1cd73dbfb3527cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+        <definition>BindingSource InControl.MouseBindingSourceListener.Listen</definition>
+        <argsstring>(BindingListenOptions listenOptions, InputDevice device)</argsstring>
+        <name>Listen</name>
+        <reimplements refid="interface_in_control_1_1_binding_source_listener_1a99c94b78347e77cc36cb8d04e26bd5a2">Listen</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+          <declname>listenOptions</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="18" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="18" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_listener_1a0012c5723d5867858b0fe2aa0b7244b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.MouseBindingSourceListener.IsPressed</definition>
+        <argsstring>(Mouse control)</argsstring>
+        <name>IsPressed</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="54" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_listener_1a083118915d0f949857edc9a34d339a2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+        <definition>Mouse InControl.MouseBindingSourceListener.ListenForControl</definition>
+        <argsstring>(BindingListenOptions listenOptions)</argsstring>
+        <name>ListenForControl</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+          <declname>listenOptions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="68" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="68" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BindingSourceListener</label>
+        <link refid="interface_in_control_1_1_binding_source_listener"/>
+      </node>
+      <node id="1">
+        <label>InControl.MouseBindingSourceListener</label>
+        <link refid="class_in_control_1_1_mouse_binding_source_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BindingSourceListener</label>
+        <link refid="interface_in_control_1_1_binding_source_listener"/>
+      </node>
+      <node id="1">
+        <label>InControl.MouseBindingSourceListener</label>
+        <link refid="class_in_control_1_1_mouse_binding_source_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSourceListener.cs" bodystart="4" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a0904e77ce9810a069dbd51eb1a65854c" prot="private" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>detectFound</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a92619126376f4f5ec63b475410c5e844" prot="private" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>detectPhase</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a0012c5723d5867858b0fe2aa0b7244b5" prot="private" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a4429c434e3d6fab1e1cd73dbfb3527cb" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>Listen</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a083118915d0f949857edc9a34d339a2b" prot="private" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>ListenForControl</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1aa9b5251ce0864e8d6084f8ccb741dfd6" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>Reset</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_listener_1a8068fbbf57db07605acc75fc0253764a" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSourceListener</scope><name>ScrollWheelThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

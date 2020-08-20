@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_60116e5d1a95faf840435a6543bb31a4" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control</compoundname>
+    <innerfile refid="_dead_zone_8cs">DeadZone.cs</innerfile>
+    <innerfile refid="_i_input_control_8cs">IInputControl.cs</innerfile>
+    <innerfile refid="_input_control_8cs">InputControl.cs</innerfile>
+    <innerfile refid="_input_control_mapping_8cs">InputControlMapping.cs</innerfile>
+    <innerfile refid="_input_control_source_8cs">InputControlSource.cs</innerfile>
+    <innerfile refid="_input_control_state_8cs">InputControlState.cs</innerfile>
+    <innerfile refid="_input_control_type_8cs">InputControlType.cs</innerfile>
+    <innerfile refid="_input_range_8cs">InputRange.cs</innerfile>
+    <innerfile refid="_input_range_type_8cs">InputRangeType.cs</innerfile>
+    <innerfile refid="_one_axis_input_control_8cs">OneAxisInputControl.cs</innerfile>
+    <innerfile refid="_two_axis_input_control_8cs">TwoAxisInputControl.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/"/>
+  </compounddef>
+</doxygen>

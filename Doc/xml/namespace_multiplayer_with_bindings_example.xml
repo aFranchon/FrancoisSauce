@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_multiplayer_with_bindings_example" kind="namespace" language="C#">
+    <compoundname>MultiplayerWithBindingsExample</compoundname>
+    <innerclass refid="class_multiplayer_with_bindings_example_1_1_player" prot="public">MultiplayerWithBindingsExample::Player</innerclass>
+    <innerclass refid="class_multiplayer_with_bindings_example_1_1_player_actions" prot="public">MultiplayerWithBindingsExample::PlayerActions</innerclass>
+    <innerclass refid="class_multiplayer_with_bindings_example_1_1_player_manager" prot="public">MultiplayerWithBindingsExample::PlayerManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/Player.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

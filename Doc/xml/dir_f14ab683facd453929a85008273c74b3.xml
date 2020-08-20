@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f14ab683facd453929a85008273c74b3" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native</compoundname>
+    <innerdir refid="dir_905576ac41821085534de8859ea28bb8">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles</innerdir>
+    <innerfile refid="_native_8cs">Native.cs</innerfile>
+    <innerfile refid="_native_input_device_8cs">NativeInputDevice.cs</innerfile>
+    <innerfile refid="_native_input_device_manager_8cs">NativeInputDeviceManager.cs</innerfile>
+    <innerfile refid="_native_input_device_profile_attribute_8cs">NativeInputDeviceProfileAttribute.cs</innerfile>
+    <innerfile refid="_native_input_device_profile_list_8cs">NativeInputDeviceProfileList.cs</innerfile>
+    <innerfile refid="_native_input_options_8cs">NativeInputOptions.cs</innerfile>
+    <innerfile refid="_native_version_info_8cs">NativeVersionInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/"/>
+  </compounddef>
+</doxygen>

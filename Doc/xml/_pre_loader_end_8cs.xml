@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_pre_loader_end_8cs" kind="file" language="C#">
+    <compoundname>PreLoaderEnd.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end" prot="public">FrancoisSauce::Scripts::PreLoaderEnd</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_singleton" kindref="compound">FSSingleton</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_utils" kindref="compound">FSUtils</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">FrancoisSauce.Scripts</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end" kindref="compound">PreLoaderEnd</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>IEnumerator<sp/>Start()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" kindref="member">Instance</ref>.LoadSceneAsync(<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list" kindref="compound">SceneList</ref>.<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" kindref="member">Instance</ref>.scenes[</highlight><highlight class="stringliteral">&quot;MainMenu&quot;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>WaitForSeconds(.5f);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" kindref="member">Instance</ref>.UnloadAsync(<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list" kindref="compound">SceneList</ref>.<ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" kindref="member">Instance</ref>.scenes[</highlight><highlight class="stringliteral">&quot;PreLoad&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/PreLoaderEnd.cs"/>
+  </compounddef>
+</doxygen>

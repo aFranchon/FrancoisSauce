@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::FSUI::Scripts::BaseMenu::BaseMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a290f6bab8c6e5d3c8e9412f2d6f1712a" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.FSUI.Scripts.BaseMenu.BaseMenu.PlayButton</definition>
+        <argsstring></argsstring>
+        <name>PlayButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" line="10" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1ad465292e260fa156e36caac301edbeff" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.FSUI.Scripts.BaseMenu.BaseMenu.OptionMenuButton</definition>
+        <argsstring></argsstring>
+        <name>OptionMenuButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" line="11" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a57afeb917a7cf485be02704c79f72a24" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.FSUI.Scripts.BaseMenu.BaseMenu.QuitButton</definition>
+        <argsstring></argsstring>
+        <name>QuitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" line="12" column="23" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.FSUI.Scripts.BaseMenu.BaseMenu</label>
+        <link refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.FSUI.Scripts.BaseMenu.BaseMenu</label>
+        <link refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" line="8" column="11" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/BaseMenu.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1ad465292e260fa156e36caac301edbeff" prot="public" virt="non-virtual"><scope>FrancoisSauce::FSUI::Scripts::BaseMenu::BaseMenu</scope><name>OptionMenuButton</name></member>
+      <member refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a290f6bab8c6e5d3c8e9412f2d6f1712a" prot="public" virt="non-virtual"><scope>FrancoisSauce::FSUI::Scripts::BaseMenu::BaseMenu</scope><name>PlayButton</name></member>
+      <member refid="class_francois_sauce_1_1_f_s_u_i_1_1_scripts_1_1_base_menu_1_1_base_menu_1a57afeb917a7cf485be02704c79f72a24" prot="public" virt="non-virtual"><scope>FrancoisSauce::FSUI::Scripts::BaseMenu::BaseMenu</scope><name>QuitButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

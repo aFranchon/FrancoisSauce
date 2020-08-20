@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; bool &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1acfff9652cbbb2dd176ecb50b9cf812cc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_bool_event_s_o" kindref="compound">FSBoolEventSO</ref></type>
+        <definition>FSBoolEventSO FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.fsBoolEventSo</definition>
+        <argsstring></argsstring>
+        <name>fsBoolEventSo</name>
+        <briefdescription>
+<para>The FSEventSO to subscribe to of type FSBoolEventSO </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="16" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1ab7590811f490124cfafc744783c5c756" prot="public" static="no" mutable="no">
+        <type>UnityEvent&lt; bool &gt;</type>
+        <definition>UnityEvent&lt;bool&gt; FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.listeners</definition>
+        <argsstring></argsstring>
+        <name>listeners</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_bool_event" kindref="compound">FSBoolEvent</ref>()</initializer>
+        <briefdescription>
+<para>Public UnityEvent&lt;T0&gt; to be raised when the given FSBoolEventSO is raised </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="21" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1aa211689f18f113ddfe57efa4ad62405b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.AddListeners</definition>
+        <argsstring>()</argsstring>
+        <name>AddListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="25" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a613669a9717078d7f40cd327317f5924" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.RemoveListeners</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="30" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7a9f373c360af794cf9efc14817d440e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.Invoke</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="35" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7b29d386fe13f6c7d591bd8737b511f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="44" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a2ccb0d71a3e0fe15fcb60e0b70aea261" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="50" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7848a9b1b879d023ccd9d49956310bae" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="56" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1ae6c597b0a3a3aa3f3f0ef8c8133098f2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="61" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>bool implementation of IFSOneArgumentEventListener&lt;T&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFSOneArgumentEventListener&lt; bool &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFSOneArgumentEventListener&lt; bool &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.FSBoolEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>fsBoolEventSo</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSBoolEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_bool_event_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FSOneArgumentEventSO&lt; bool &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSBoolEventListener.cs" bodystart="12" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1aa211689f18f113ddfe57efa4ad62405b" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>AddListeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7b29d386fe13f6c7d591bd8737b511f7" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1acfff9652cbbb2dd176ecb50b9cf812cc" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>fsBoolEventSo</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7a9f373c360af794cf9efc14817d440e" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>Invoke</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener_1adb27415897b8ceb95fc972905eb5ce79" prot="protected" virt="pure-virtual" ambiguityscope="IFSOneArgumentEventListener&lt; bool &gt;."><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>Invoke</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1ab7590811f490124cfafc744783c5c756" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>listeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1ae6c597b0a3a3aa3f3f0ef8c8133098f2" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a7848a9b1b879d023ccd9d49956310bae" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>OnDisable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a2ccb0d71a3e0fe15fcb60e0b70aea261" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>OnEnable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_bool_event_listener_1a613669a9717078d7f40cd327317f5924" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSBoolEventListener</scope><name>RemoveListeners</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_icon_preview" kind="class" language="C#" prot="public">
+    <compoundname>IconPreview</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_icon_preview_1a158b25a2ff0e9c783f53bf1ce2cd327a" prot="public" static="no" mutable="no">
+        <type>Sprite[]</type>
+        <definition>Sprite [] IconPreview.icons</definition>
+        <argsstring></argsstring>
+        <name>icons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" line="7" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_icon_preview_1a16a7a20d83d7d207c5bfb1eb3b1dc781" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IconPreview.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" line="8" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_icon_preview_1a63ef7e81ba905663e0f6495ad6e98ec3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IconPreview.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" line="12" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" bodystart="12" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_preview_1acfb437d409b34710484d1ffd7380b20f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IconPreview.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" line="23" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IconPreview</label>
+        <link refid="class_icon_preview"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IconPreview</label>
+        <link refid="class_icon_preview"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples/IconPreview.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_icon_preview_1a63ef7e81ba905663e0f6495ad6e98ec3" prot="private" virt="non-virtual"><scope>IconPreview</scope><name>Awake</name></member>
+      <member refid="class_icon_preview_1a16a7a20d83d7d207c5bfb1eb3b1dc781" prot="private" virt="non-virtual"><scope>IconPreview</scope><name>icon</name></member>
+      <member refid="class_icon_preview_1a158b25a2ff0e9c783f53bf1ce2cd327a" prot="public" virt="non-virtual"><scope>IconPreview</scope><name>icons</name></member>
+      <member refid="class_icon_preview_1acfb437d409b34710484d1ffd7380b20f" prot="private" virt="non-virtual"><scope>IconPreview</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

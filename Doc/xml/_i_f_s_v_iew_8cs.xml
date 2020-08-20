@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_i_f_s_v_iew_8cs" kind="file" language="C#">
+    <compoundname>IFSVIew.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" prot="public">FrancoisSauce::Scripts::FSViews::IFSView</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_views">FrancoisSauce::Scripts::FSViews</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_scenes" kindref="compound">FSScenes</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_views" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_views" kindref="compound">FrancoisSauce.Scripts.FSViews</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" kindref="compound">IFSView</ref>&lt;T&gt;<sp/>where<sp/>T<sp/>:<sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene" kindref="compound">IFSScene</ref>&lt;T&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a3ef1f8a685147372c0c44b78cfd605fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a3ef1f8a685147372c0c44b78cfd605fc" kindref="member">OnViewEnter</ref>(T<sp/>scene);</highlight></codeline>
+<codeline lineno="24" refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a36392b71d04164b02eee2babec44a104" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a36392b71d04164b02eee2babec44a104" kindref="member">OnViewExit</ref>(T<sp/>scene);</highlight></codeline>
+<codeline lineno="30" refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a5d37ff926ef30075b56065bedff7a9d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a5d37ff926ef30075b56065bedff7a9d2" kindref="member">OnUpdate</ref>(T<sp/>scene);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSViews/IFSVIew.cs"/>
+  </compounddef>
+</doxygen>

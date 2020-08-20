@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_waiting_to_start_script_8cs" kind="file" language="C#">
+    <compoundname>WaitingToStartScript.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script" prot="public">FrancoisSauce::Scripts::GameScene::WaitingToStart::WaitingToStartScript</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene">FrancoisSauce::Scripts::GameScene</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start">FrancoisSauce::Scripts::GameScene::WaitingToStart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start" kindref="compound">FrancoisSauce.Scripts.GameScene.WaitingToStart</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script" kindref="compound">WaitingToStartScript</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script_1a537cf8f42eef37abfe35bcf1a0c489de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Button<sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script_1a537cf8f42eef37abfe35bcf1a0c489de" kindref="member">startButton</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/WaitingToStartScript.cs"/>
+  </compounddef>
+</doxygen>

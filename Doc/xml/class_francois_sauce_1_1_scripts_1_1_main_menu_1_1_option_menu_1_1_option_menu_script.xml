@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::MainMenu::OptionMenu::OptionMenuScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script_1a65e9e9925dbb0e1548c5d8ad85f387e7" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.MainMenu.OptionMenu.OptionMenuScript.backButton</definition>
+        <argsstring></argsstring>
+        <name>backButton</name>
+        <briefdescription>
+<para>backButton to allow <ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu" kindref="compound">View_OptionMenu</ref> to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu/OptionMenuScript.cs" line="14" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu/OptionMenuScript.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of all the mandatory references for the <ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu" kindref="compound">View_OptionMenu</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.MainMenu.OptionMenu.OptionMenuScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.MainMenu.OptionMenu.OptionMenuScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu/OptionMenuScript.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu/OptionMenuScript.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script_1a65e9e9925dbb0e1548c5d8ad85f387e7" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::MainMenu::OptionMenu::OptionMenuScript</scope><name>backButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

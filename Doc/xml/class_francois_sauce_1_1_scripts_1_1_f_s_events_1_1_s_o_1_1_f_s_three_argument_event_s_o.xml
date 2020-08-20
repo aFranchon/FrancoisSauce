@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::SO::FSThreeArgumentEventSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T0</type>
+      </param>
+      <param>
+        <type>T1</type>
+      </param>
+      <param>
+        <type>T2</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o_1a3a7a218936db7e398832b1893fb352f4" prot="public" static="no" mutable="no">
+        <type>Action&lt; T0, T1, T2 &gt;</type>
+        <definition>Action&lt;T0, T1, T2&gt; FrancoisSauce.Scripts.FSEvents.SO.FSThreeArgumentEventSO&lt; T0, T1, T2 &gt;.fsThreeArgumentAction</definition>
+        <argsstring></argsstring>
+        <name>fsThreeArgumentAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSThreeArgumentEventSO.cs" line="9" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSThreeArgumentEventSO.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSThreeArgumentEventSO&lt; T0, T1, T2 &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSThreeArgumentEventSO&lt; T0, T1, T2 &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSThreeArgumentEventSO.cs" line="7" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSThreeArgumentEventSO.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_three_argument_event_s_o_1a3a7a218936db7e398832b1893fb352f4" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSThreeArgumentEventSO</scope><name>fsThreeArgumentAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,618 @@
+\hypertarget{class_in_control_1_1_player_action_set}{}\doxysection{In\+Control.\+Player\+Action\+Set Class Reference}
+\label{class_in_control_1_1_player_action_set}\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+
+
+An action set represents a set of actions, usually for a single player. This class must be subclassed to be used. An action set can contain both explicit, bindable single value actions (for example, \char`\"{}\+Jump\char`\"{}, \char`\"{}\+Left\char`\"{} and \char`\"{}\+Right\char`\"{}) and implicit, aggregate actions which combine together other actions into one or two axes, for example \char`\"{}\+Move\char`\"{}, which might consist of \char`\"{}\+Left\char`\"{}, \char`\"{}\+Right\char`\"{}, \char`\"{}\+Up\char`\"{} and \char`\"{}\+Down\char`\"{} filtered into a single two-\/axis control with its own applied circular deadzone, queryable vector value, etc.  
+
+
+Inheritance diagram for In\+Control.\+Player\+Action\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.296296cm]{class_in_control_1_1_player_action_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_a0cda02068b64064d1de6ac95ebc7b950}{Destroy}} ()
+\begin{DoxyCompactList}\small\item\em Properly dispose of this action set. You should make sure to call this when the action set will no longer be used or it will result in unnecessary internal processing every frame. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_aae7aa897b4590eb13c6d7d4697193c2c}{Get\+Player\+Action\+By\+Name}} (string action\+Name)
+\begin{DoxyCompactList}\small\item\em Gets the action with the specified action name. If the action does not exist, it returns {\ttfamily null}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_aa57effb6fd3c33b532ca5cd36de39d1f}{Reset}} ()
+\begin{DoxyCompactList}\small\item\em Reset the bindings on all actions in this set. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_a267737f62ea872e0662fac6f6a0827e4}{Clear\+Input\+State}} ()
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_set_a60e7b0f8e0c34b68b1242c4e96e91b34}{Has\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Searches all the bindings on all the actions on this set to see if any match the provided binding object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_a1297642ebbae139ae7e1bb24f8f03488}{Remove\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Searches all the bindings on all the actions on this set to see if any match the provided binding object and, if found, removes it. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_in_control_1_1_player_action_set_a01ce0f8fc6c5a3efd9a7f16fc71528f8}{Save\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns the state of this action set and all bindings encoded into a byte array that you can save somewhere. Pass this string to \mbox{\hyperlink{class_in_control_1_1_player_action_set_aff307570d2d8878e3d53848e5c1c8aab}{Load\+Data()}} to restore the state of this action set. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_aff307570d2d8878e3d53848e5c1c8aab}{Load\+Data}} (byte\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em Load a state returned by calling Save\+Bytes() at a prior time. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_in_control_1_1_player_action_set_a9a5773b5c31fd249109dc49eaf0a8065}{Save}} ()
+\begin{DoxyCompactList}\small\item\em Returns the state of this action set and all bindings encoded into a string that you can save somewhere. Pass this string to \mbox{\hyperlink{class_in_control_1_1_player_action_set_a63a709b0bc2528f462e4ae958b84ba63}{Load()}} to restore the state of this action set. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_set_a63a709b0bc2528f462e4ae958b84ba63}{Load}} (string data)
+\begin{DoxyCompactList}\small\item\em Load a state returned by calling \mbox{\hyperlink{class_in_control_1_1_player_action_set_a9a5773b5c31fd249109dc49eaf0a8065}{Save()}} at a prior time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_a6d91ee6720dec191cfe56cd47119b178}{Last\+Input\+Type}} = \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754}{Binding\+Source\+Type.\+None}}
+\begin{DoxyCompactList}\small\item\em The binding source type that last provided input to this action set. \end{DoxyCompactList}\item 
+ulong \mbox{\hyperlink{class_in_control_1_1_player_action_set_ada6b89a428d9792e0758d7c9aa9a3cda}{Last\+Input\+Type\+Changed\+Tick}}
+\begin{DoxyCompactList}\small\item\em Updated when \mbox{\hyperlink{class_in_control_1_1_player_action_set_a6d91ee6720dec191cfe56cd47119b178}{Last\+Input\+Type}} changes. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_acf04e96e3e7446a4a918b27c0b4dfc5d}{Last\+Device\+Class}} = \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Class.\+Unknown}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} of the binding source that last provided input to this action set. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_adfcf3cd9b1a252fb6f1ec85768813284}{Last\+Device\+Style}} = \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Style.\+Unknown}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} of the binding source that last provided input to this action set. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action_set_a1c4f1e576375f1f09f7668a51d2c4f14}{Player\+Action\+Set}} ()
+\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_aecce35c5a5bbe1ebcfad223b5f295e17}{Create\+Player\+Action}} (string name)
+\begin{DoxyCompactList}\small\item\em Create an action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_player_one_axis_action}{Player\+One\+Axis\+Action}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_a510454d12307b48ad20ed1b17024a95d}{Create\+One\+Axis\+Player\+Action}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} negative\+Action, \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} positive\+Action)
+\begin{DoxyCompactList}\small\item\em Create an aggregate, single-\/axis action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_player_two_axis_action}{Player\+Two\+Axis\+Action}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_a0a8d5d427c856d1536c80e77c1dbd161}{Create\+Two\+Axis\+Player\+Action}} (\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} negative\+X\+Action, \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} positive\+X\+Action, \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} negative\+Y\+Action, \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} positive\+Y\+Action)
+\begin{DoxyCompactList}\small\item\em Create an aggregate, double-\/axis action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_ae75dfd749d6f46962b0a84222064e65f}{Device}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optionally specifies a device which this action set should query from, if applicable. When set to {\ttfamily null} (default) this action set will try to find an active device when required. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_set_a3f759003340fa67549593f72ab250f94}{Include\+Devices}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A list of devices which this action set should include when searching for an active device. When empty, all attached devices will be considered. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_set_aefb98e5358792a2f40b661e4aebc9b65}{Exclude\+Devices}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A list of devices which this action set should exclude when searching for an active device. \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_set_a92e6ddd4be6645bf1cfcf564170c5cbc}{Actions}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the actions in this action set as a readonly collection. \end{DoxyCompactList}\item 
+ulong \mbox{\hyperlink{class_in_control_1_1_player_action_set_abcc95980d57ba52aef3dd54f496dc544}{Update\+Tick}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The last update tick on which any action in this set changed value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_set_a3f493288d0c80e6684f319b1824def9e}{Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether this action set should produce input. Default\+: {\ttfamily true} \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_set_ab8616f279789513978a6807e7857a0c6}{Prevent\+Input\+While\+Listening\+For\+Binding}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The prevent input to all actions while any action in the set is listening for a binding. \end{DoxyCompactList}\item 
+object \mbox{\hyperlink{class_in_control_1_1_player_action_set_ad6d88193d18e511bf72d41f510804cec}{User\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em This property can be used to store whatever arbitrary game data you want on this action set. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} \mbox{\hyperlink{class_in_control_1_1_player_action_set_a69b1473ae9ce6f960ed5a76d08ce961d}{this\mbox{[}string action\+Name\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the action with the specified action name. If the action does not exist, {\ttfamily Key\+Not\+Found\+Exception} is thrown. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_set_a6c6d0a537148cd66c0b15c8d64ede5df}{Is\+Listening\+For\+Binding}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Query whether any action in this set is currently listening for a new binding. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_binding_listen_options}{Binding\+Listen\+Options}}?? \mbox{\hyperlink{class_in_control_1_1_player_action_set_a4e67b7ac47fe5bc25cb3f510fbb39901}{Listen\+Options}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Configures how in an action in this set listens for new bindings when the action does not explicitly define its own listen options. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}?? \mbox{\hyperlink{class_in_control_1_1_player_action_set_aef26e18d18f778a6e9c97dde3661a9fd}{Active\+Device}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to an action on this set. When Last\+Input\+Type is not a device (controller), this will return the null device. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_set_ab1e494c0fa2b19f343df52ac104d5941}{On\+Last\+Input\+Type\+Changed}}
+\begin{DoxyCompactList}\small\item\em Occurs when the binding source type that last provided input to this action set changes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An action set represents a set of actions, usually for a single player. This class must be subclassed to be used. An action set can contain both explicit, bindable single value actions (for example, \char`\"{}\+Jump\char`\"{}, \char`\"{}\+Left\char`\"{} and \char`\"{}\+Right\char`\"{}) and implicit, aggregate actions which combine together other actions into one or two axes, for example \char`\"{}\+Move\char`\"{}, which might consist of \char`\"{}\+Left\char`\"{}, \char`\"{}\+Right\char`\"{}, \char`\"{}\+Up\char`\"{} and \char`\"{}\+Down\char`\"{} filtered into a single two-\/axis control with its own applied circular deadzone, queryable vector value, etc. 
+
+
+
+Definition at line 17 of file Player\+Action\+Set.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a1c4f1e576375f1f09f7668a51d2c4f14}\label{class_in_control_1_1_player_action_set_a1c4f1e576375f1f09f7668a51d2c4f14}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!PlayerActionSet@{PlayerActionSet}}
+\index{PlayerActionSet@{PlayerActionSet}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{PlayerActionSet()}{PlayerActionSet()}}
+{\footnotesize\ttfamily In\+Control.\+Player\+Action\+Set.\+Player\+Action\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 95 of file Player\+Action\+Set.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a267737f62ea872e0662fac6f6a0827e4}\label{class_in_control_1_1_player_action_set_a267737f62ea872e0662fac6f6a0827e4}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!ClearInputState@{ClearInputState}}
+\index{ClearInputState@{ClearInputState}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{ClearInputState()}{ClearInputState()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Clear\+Input\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 323 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a510454d12307b48ad20ed1b17024a95d}\label{class_in_control_1_1_player_action_set_a510454d12307b48ad20ed1b17024a95d}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!CreateOneAxisPlayerAction@{CreateOneAxisPlayerAction}}
+\index{CreateOneAxisPlayerAction@{CreateOneAxisPlayerAction}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{CreateOneAxisPlayerAction()}{CreateOneAxisPlayerAction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_one_axis_action}{Player\+One\+Axis\+Action}} In\+Control.\+Player\+Action\+Set.\+Create\+One\+Axis\+Player\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{negative\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{positive\+Action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create an aggregate, single-\/axis action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Throttle = \mbox{\hyperlink{class_in_control_1_1_player_action_set_a510454d12307b48ad20ed1b17024a95d}{CreateOneAxisPlayerAction}}( Brake, Accelerate );}
+\end{DoxyCode}
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em negative\+Action} & The action to query for the negative component of the axis.\\
+\hline
+{\em positive\+Action} & The action to query for the positive component of the axis.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 153 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aecce35c5a5bbe1ebcfad223b5f295e17}\label{class_in_control_1_1_player_action_set_aecce35c5a5bbe1ebcfad223b5f295e17}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!CreatePlayerAction@{CreatePlayerAction}}
+\index{CreatePlayerAction@{CreatePlayerAction}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{CreatePlayerAction()}{CreatePlayerAction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} In\+Control.\+Player\+Action\+Set.\+Create\+Player\+Action (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create an action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & A unique identifier for this action within the context of this set.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_in_control_1_1_in_control_exception}{In\+Control\+Exception}}} & Thrown when trying to create an action with a non-\/unique name for this set.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 123 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a0a8d5d427c856d1536c80e77c1dbd161}\label{class_in_control_1_1_player_action_set_a0a8d5d427c856d1536c80e77c1dbd161}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!CreateTwoAxisPlayerAction@{CreateTwoAxisPlayerAction}}
+\index{CreateTwoAxisPlayerAction@{CreateTwoAxisPlayerAction}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{CreateTwoAxisPlayerAction()}{CreateTwoAxisPlayerAction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_two_axis_action}{Player\+Two\+Axis\+Action}} In\+Control.\+Player\+Action\+Set.\+Create\+Two\+Axis\+Player\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{negative\+X\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{positive\+X\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{negative\+Y\+Action,  }\item[{\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}}]{positive\+Y\+Action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create an aggregate, double-\/axis action on this set. This should be performed in the constructor of your \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} subclass. 
+
+Note that, due to Unity\textquotesingle{}s positive up-\/vector, the parameter order of {\ttfamily negative\+Y\+Action} and {\ttfamily positive\+Y\+Action} might seem counter-\/intuitive. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Move = \mbox{\hyperlink{class_in_control_1_1_player_action_set_a0a8d5d427c856d1536c80e77c1dbd161}{CreateTwoAxisPlayerAction}}( Left, Right, Down, Up );}
+\end{DoxyCode}
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em negative\+X\+Action} & The action to query for the negative component of the X axis.\\
+\hline
+{\em positive\+X\+Action} & The action to query for the positive component of the X axis.\\
+\hline
+{\em negative\+Y\+Action} & The action to query for the negative component of the Y axis.\\
+\hline
+{\em positive\+Y\+Action} & The action to query for the positive component of the Y axis.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 174 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a0cda02068b64064d1de6ac95ebc7b950}\label{class_in_control_1_1_player_action_set_a0cda02068b64064d1de6ac95ebc7b950}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Destroy()}{Destroy()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Properly dispose of this action set. You should make sure to call this when the action set will no longer be used or it will result in unnecessary internal processing every frame. 
+
+
+
+Definition at line 111 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aae7aa897b4590eb13c6d7d4697193c2c}\label{class_in_control_1_1_player_action_set_aae7aa897b4590eb13c6d7d4697193c2c}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!GetPlayerActionByName@{GetPlayerActionByName}}
+\index{GetPlayerActionByName@{GetPlayerActionByName}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{GetPlayerActionByName()}{GetPlayerActionByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} In\+Control.\+Player\+Action\+Set.\+Get\+Player\+Action\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{action\+Name }\end{DoxyParamCaption})}
+
+
+
+Gets the action with the specified action name. If the action does not exist, it returns {\ttfamily null}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em action\+Name} & The name of the action to get.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 205 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a60e7b0f8e0c34b68b1242c4e96e91b34}\label{class_in_control_1_1_player_action_set_a60e7b0f8e0c34b68b1242c4e96e91b34}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!HasBinding@{HasBinding}}
+\index{HasBinding@{HasBinding}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{HasBinding()}{HasBinding()}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action\+Set.\+Has\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Searches all the bindings on all the actions on this set to see if any match the provided binding object. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if a matching binding is found on any action on this set, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} template to search for.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 352 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a63a709b0bc2528f462e4ae958b84ba63}\label{class_in_control_1_1_player_action_set_a63a709b0bc2528f462e4ae958b84ba63}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Load@{Load}}
+\index{Load@{Load}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Load (\begin{DoxyParamCaption}\item[{string}]{data }\end{DoxyParamCaption})}
+
+
+
+Load a state returned by calling \mbox{\hyperlink{class_in_control_1_1_player_action_set_a9a5773b5c31fd249109dc49eaf0a8065}{Save()}} at a prior time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The data string.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 538 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aff307570d2d8878e3d53848e5c1c8aab}\label{class_in_control_1_1_player_action_set_aff307570d2d8878e3d53848e5c1c8aab}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!LoadData@{LoadData}}
+\index{LoadData@{LoadData}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{LoadData()}{LoadData()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Load\+Data (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data }\end{DoxyParamCaption})}
+
+
+
+Load a state returned by calling Save\+Bytes() at a prior time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The data byte array.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 479 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a1297642ebbae139ae7e1bb24f8f03488}\label{class_in_control_1_1_player_action_set_a1297642ebbae139ae7e1bb24f8f03488}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!RemoveBinding@{RemoveBinding}}
+\index{RemoveBinding@{RemoveBinding}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{RemoveBinding()}{RemoveBinding()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Remove\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Searches all the bindings on all the actions on this set to see if any match the provided binding object and, if found, removes it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} template to search for.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 377 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aa57effb6fd3c33b532ca5cd36de39d1f}\label{class_in_control_1_1_player_action_set_aa57effb6fd3c33b532ca5cd36de39d1f}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Reset@{Reset}}
+\index{Reset@{Reset}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Reset()}{Reset()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action\+Set.\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reset the bindings on all actions in this set. 
+
+
+
+Definition at line 280 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a9a5773b5c31fd249109dc49eaf0a8065}\label{class_in_control_1_1_player_action_set_a9a5773b5c31fd249109dc49eaf0a8065}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Save@{Save}}
+\index{Save@{Save}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily string In\+Control.\+Player\+Action\+Set.\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the state of this action set and all bindings encoded into a string that you can save somewhere. Pass this string to \mbox{\hyperlink{class_in_control_1_1_player_action_set_a63a709b0bc2528f462e4ae958b84ba63}{Load()}} to restore the state of this action set. 
+
+
+
+Definition at line 528 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a01ce0f8fc6c5a3efd9a7f16fc71528f8}\label{class_in_control_1_1_player_action_set_a01ce0f8fc6c5a3efd9a7f16fc71528f8}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!SaveData@{SaveData}}
+\index{SaveData@{SaveData}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{SaveData()}{SaveData()}}
+{\footnotesize\ttfamily byte \mbox{[}$\,$\mbox{]} In\+Control.\+Player\+Action\+Set.\+Save\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the state of this action set and all bindings encoded into a byte array that you can save somewhere. Pass this string to \mbox{\hyperlink{class_in_control_1_1_player_action_set_aff307570d2d8878e3d53848e5c1c8aab}{Load\+Data()}} to restore the state of this action set. 
+
+
+
+Definition at line 446 of file Player\+Action\+Set.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_acf04e96e3e7446a4a918b27c0b4dfc5d}\label{class_in_control_1_1_player_action_set_acf04e96e3e7446a4a918b27c0b4dfc5d}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!LastDeviceClass@{LastDeviceClass}}
+\index{LastDeviceClass@{LastDeviceClass}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{LastDeviceClass}{LastDeviceClass}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} In\+Control.\+Player\+Action\+Set.\+Last\+Device\+Class = \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Class.\+Unknown}}}
+
+
+
+The \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} of the binding source that last provided input to this action set. 
+
+
+
+Definition at line 64 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_adfcf3cd9b1a252fb6f1ec85768813284}\label{class_in_control_1_1_player_action_set_adfcf3cd9b1a252fb6f1ec85768813284}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!LastDeviceStyle@{LastDeviceStyle}}
+\index{LastDeviceStyle@{LastDeviceStyle}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{LastDeviceStyle}{LastDeviceStyle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} In\+Control.\+Player\+Action\+Set.\+Last\+Device\+Style = \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Style.\+Unknown}}}
+
+
+
+The \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} of the binding source that last provided input to this action set. 
+
+
+
+Definition at line 69 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a6d91ee6720dec191cfe56cd47119b178}\label{class_in_control_1_1_player_action_set_a6d91ee6720dec191cfe56cd47119b178}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!LastInputType@{LastInputType}}
+\index{LastInputType@{LastInputType}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{LastInputType}{LastInputType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} In\+Control.\+Player\+Action\+Set.\+Last\+Input\+Type = \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754}{Binding\+Source\+Type.\+None}}}
+
+
+
+The binding source type that last provided input to this action set. 
+
+
+
+Definition at line 49 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_ada6b89a428d9792e0758d7c9aa9a3cda}\label{class_in_control_1_1_player_action_set_ada6b89a428d9792e0758d7c9aa9a3cda}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!LastInputTypeChangedTick@{LastInputTypeChangedTick}}
+\index{LastInputTypeChangedTick@{LastInputTypeChangedTick}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{LastInputTypeChangedTick}{LastInputTypeChangedTick}}
+{\footnotesize\ttfamily ulong In\+Control.\+Player\+Action\+Set.\+Last\+Input\+Type\+Changed\+Tick}
+
+
+
+Updated when \mbox{\hyperlink{class_in_control_1_1_player_action_set_a6d91ee6720dec191cfe56cd47119b178}{Last\+Input\+Type}} changes. 
+
+
+
+Definition at line 59 of file Player\+Action\+Set.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a92e6ddd4be6645bf1cfcf564170c5cbc}\label{class_in_control_1_1_player_action_set_a92e6ddd4be6645bf1cfcf564170c5cbc}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Actions@{Actions}}
+\index{Actions@{Actions}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Actions}{Actions}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}}$>$ In\+Control.\+Player\+Action\+Set.\+Actions\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the actions in this action set as a readonly collection. 
+
+
+
+Definition at line 39 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aef26e18d18f778a6e9c97dde3661a9fd}\label{class_in_control_1_1_player_action_set_aef26e18d18f778a6e9c97dde3661a9fd}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!ActiveDevice@{ActiveDevice}}
+\index{ActiveDevice@{ActiveDevice}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{ActiveDevice}{ActiveDevice}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}?? In\+Control.\+Player\+Action\+Set.\+Active\+Device\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to an action on this set. When Last\+Input\+Type is not a device (controller), this will return the null device. 
+
+
+
+Definition at line 429 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_ae75dfd749d6f46962b0a84222064e65f}\label{class_in_control_1_1_player_action_set_ae75dfd749d6f46962b0a84222064e65f}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Device@{Device}}
+\index{Device@{Device}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Device}{Device}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} In\+Control.\+Player\+Action\+Set.\+Device\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optionally specifies a device which this action set should query from, if applicable. When set to {\ttfamily null} (default) this action set will try to find an active device when required. 
+
+
+
+Definition at line 23 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a3f493288d0c80e6684f319b1824def9e}\label{class_in_control_1_1_player_action_set_a3f493288d0c80e6684f319b1824def9e}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!Enabled@{Enabled}}
+\index{Enabled@{Enabled}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{Enabled}{Enabled}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action\+Set.\+Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Whether this action set should produce input. Default\+: {\ttfamily true} 
+
+
+
+Definition at line 74 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_aefb98e5358792a2f40b661e4aebc9b65}\label{class_in_control_1_1_player_action_set_aefb98e5358792a2f40b661e4aebc9b65}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!ExcludeDevices@{ExcludeDevices}}
+\index{ExcludeDevices@{ExcludeDevices}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{ExcludeDevices}{ExcludeDevices}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}$>$ In\+Control.\+Player\+Action\+Set.\+Exclude\+Devices\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+A list of devices which this action set should exclude when searching for an active device. 
+
+
+
+Definition at line 34 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a3f759003340fa67549593f72ab250f94}\label{class_in_control_1_1_player_action_set_a3f759003340fa67549593f72ab250f94}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!IncludeDevices@{IncludeDevices}}
+\index{IncludeDevices@{IncludeDevices}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{IncludeDevices}{IncludeDevices}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}$>$ In\+Control.\+Player\+Action\+Set.\+Include\+Devices\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+A list of devices which this action set should include when searching for an active device. When empty, all attached devices will be considered. 
+
+
+
+Definition at line 29 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a6c6d0a537148cd66c0b15c8d64ede5df}\label{class_in_control_1_1_player_action_set_a6c6d0a537148cd66c0b15c8d64ede5df}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!IsListeningForBinding@{IsListeningForBinding}}
+\index{IsListeningForBinding@{IsListeningForBinding}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{IsListeningForBinding}{IsListeningForBinding}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action\+Set.\+Is\+Listening\+For\+Binding\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Query whether any action in this set is currently listening for a new binding. 
+
+
+
+Definition at line 395 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a4e67b7ac47fe5bc25cb3f510fbb39901}\label{class_in_control_1_1_player_action_set_a4e67b7ac47fe5bc25cb3f510fbb39901}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!ListenOptions@{ListenOptions}}
+\index{ListenOptions@{ListenOptions}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{ListenOptions}{ListenOptions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_binding_listen_options}{Binding\+Listen\+Options}}?? In\+Control.\+Player\+Action\+Set.\+Listen\+Options\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Configures how in an action in this set listens for new bindings when the action does not explicitly define its own listen options. 
+
+
+
+Definition at line 408 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_ab8616f279789513978a6807e7857a0c6}\label{class_in_control_1_1_player_action_set_ab8616f279789513978a6807e7857a0c6}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!PreventInputWhileListeningForBinding@{PreventInputWhileListeningForBinding}}
+\index{PreventInputWhileListeningForBinding@{PreventInputWhileListeningForBinding}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{PreventInputWhileListeningForBinding}{PreventInputWhileListeningForBinding}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action\+Set.\+Prevent\+Input\+While\+Listening\+For\+Binding\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The prevent input to all actions while any action in the set is listening for a binding. 
+
+
+
+Definition at line 79 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_a69b1473ae9ce6f960ed5a76d08ce961d}\label{class_in_control_1_1_player_action_set_a69b1473ae9ce6f960ed5a76d08ce961d}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!this\mbox{[}string actionName\mbox{]}@{this[string actionName]}}
+\index{this\mbox{[}string actionName\mbox{]}@{this[string actionName]}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{this[string actionName]}{this[string actionName]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_action}{Player\+Action}} In\+Control.\+Player\+Action\+Set.\+this\mbox{[}string action\+Name\mbox{]}\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the action with the specified action name. If the action does not exist, {\ttfamily Key\+Not\+Found\+Exception} is thrown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em action\+Name} & The name of the action to get.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 186 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_abcc95980d57ba52aef3dd54f496dc544}\label{class_in_control_1_1_player_action_set_abcc95980d57ba52aef3dd54f496dc544}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!UpdateTick@{UpdateTick}}
+\index{UpdateTick@{UpdateTick}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{UpdateTick}{UpdateTick}}
+{\footnotesize\ttfamily ulong In\+Control.\+Player\+Action\+Set.\+Update\+Tick\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+The last update tick on which any action in this set changed value. 
+
+
+
+Definition at line 44 of file Player\+Action\+Set.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_ad6d88193d18e511bf72d41f510804cec}\label{class_in_control_1_1_player_action_set_ad6d88193d18e511bf72d41f510804cec}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!UserData@{UserData}}
+\index{UserData@{UserData}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{UserData}{UserData}}
+{\footnotesize\ttfamily object In\+Control.\+Player\+Action\+Set.\+User\+Data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+This property can be used to store whatever arbitrary game data you want on this action set. 
+
+
+
+Definition at line 84 of file Player\+Action\+Set.\+cs.
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_set_ab1e494c0fa2b19f343df52ac104d5941}\label{class_in_control_1_1_player_action_set_ab1e494c0fa2b19f343df52ac104d5941}} 
+\index{InControl.PlayerActionSet@{InControl.PlayerActionSet}!OnLastInputTypeChanged@{OnLastInputTypeChanged}}
+\index{OnLastInputTypeChanged@{OnLastInputTypeChanged}!InControl.PlayerActionSet@{InControl.PlayerActionSet}}
+\doxysubsubsection{\texorpdfstring{OnLastInputTypeChanged}{OnLastInputTypeChanged}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}}$>$ In\+Control.\+Player\+Action\+Set.\+On\+Last\+Input\+Type\+Changed}
+
+
+
+Occurs when the binding source type that last provided input to this action set changes. 
+
+
+
+Definition at line 54 of file Player\+Action\+Set.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_player_action_set_8cs}{Player\+Action\+Set.\+cs}}\end{DoxyCompactItemize}

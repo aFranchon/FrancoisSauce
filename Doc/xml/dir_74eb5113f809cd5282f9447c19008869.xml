@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_74eb5113f809cd5282f9447c19008869" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart</compoundname>
+    <innerfile refid="_view___waiting_to_start_8cs">View_WaitingToStart.cs</innerfile>
+    <innerfile refid="_waiting_to_start_script_8cs">WaitingToStartScript.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/"/>
+  </compounddef>
+</doxygen>

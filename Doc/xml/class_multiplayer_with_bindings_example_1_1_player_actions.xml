@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_multiplayer_with_bindings_example_1_1_player_actions" kind="class" language="C#" prot="public">
+    <compoundname>MultiplayerWithBindingsExample::PlayerActions</compoundname>
+    <basecompoundref refid="class_in_control_1_1_player_action_set" prot="public" virt="non-virtual">InControl.PlayerActionSet</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a89110d05786760b7c3f8538538573ee9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="8" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a521adde0ead1c1fd1c09f010df9d46fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="9" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1af0117cd6538591c32a412f842908eafe" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Blue</definition>
+        <argsstring></argsstring>
+        <name>Blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="10" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a130000a38891c0edfd9e93694f024293" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Yellow</definition>
+        <argsstring></argsstring>
+        <name>Yellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="11" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1aac6e68f430766471293cc003b5266675" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="12" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1acc782477dab1fb95ec794a5270e21b70" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="13" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1aa721bfd437ae61a4f2c67aad6c490b7a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Up</definition>
+        <argsstring></argsstring>
+        <name>Up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="14" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1aae0425a6eca4b5e9123504b9e0311b33" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction MultiplayerWithBindingsExample.PlayerActions.Down</definition>
+        <argsstring></argsstring>
+        <name>Down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="15" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a5786b7f7417d94cccfaf79cced1ffe0c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_two_axis_action" kindref="compound">PlayerTwoAxisAction</ref></type>
+        <definition>PlayerTwoAxisAction MultiplayerWithBindingsExample.PlayerActions.Rotate</definition>
+        <argsstring></argsstring>
+        <name>Rotate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="16" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a8961b39ca15faafb6105c09478fb39b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MultiplayerWithBindingsExample.PlayerActions.PlayerActions</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="19" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="19" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_actions_1a8809f588ac0f92ec727b59738e06275e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>static PlayerActions MultiplayerWithBindingsExample.PlayerActions.CreateWithKeyboardBindings</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWithKeyboardBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="33" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="33" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_actions_1ac3fe01abc3063af0e3d9cf19da66a2c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>static PlayerActions MultiplayerWithBindingsExample.PlayerActions.CreateWithJoystickBindings</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWithJoystickBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="51" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="51" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+      </node>
+      <node id="1">
+        <label>MultiplayerWithBindingsExample.PlayerActions</label>
+        <link refid="class_multiplayer_with_bindings_example_1_1_player_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="9">
+        <label>InControl.PlayerTwoAxisAction</label>
+        <link refid="class_in_control_1_1_player_two_axis_action"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InControl.BindingListenOptions</label>
+        <link refid="class_in_control_1_1_binding_listen_options"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>ReplaceBinding</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>listenWithAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="4">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>DeadZoneFunc</label>
+      </node>
+      <node id="10">
+        <label>TwoAxisInputControl</label>
+        <link refid="class_in_control_1_1_two_axis_input_control"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>DeadZoneFunc</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>Null</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MultiplayerWithBindingsExample.PlayerActions</label>
+        <link refid="class_multiplayer_with_bindings_example_1_1_player_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Down</edgelabel>
+          <edgelabel>Yellow</edgelabel>
+          <edgelabel>Left</edgelabel>
+          <edgelabel>Right</edgelabel>
+          <edgelabel>Blue</edgelabel>
+          <edgelabel>Up</edgelabel>
+          <edgelabel>Red</edgelabel>
+          <edgelabel>Green</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>Rotate</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>InControl.BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>readonly</label>
+      </node>
+      <node id="3">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ListenOptions</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerActions.cs" bodystart="7" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_player_action_set_1a92e6ddd4be6645bf1cfcf564170c5cbc" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Actions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aef26e18d18f778a6e9c97dde3661a9fd" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>ActiveDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a5b3cdf0c7f9789e823160b9eb2686a" prot="package" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>AddPlayerAction</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1af0117cd6538591c32a412f842908eafe" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Blue</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a267737f62ea872e0662fac6f6a0827e4" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a510454d12307b48ad20ed1b17024a95d" prot="protected" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>CreateOneAxisPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aecce35c5a5bbe1ebcfad223b5f295e17" prot="protected" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>CreatePlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a8d5d427c856d1536c80e77c1dbd161" prot="protected" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>CreateTwoAxisPlayerAction</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1ac3fe01abc3063af0e3d9cf19da66a2c7" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>CreateWithJoystickBindings</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a8809f588ac0f92ec727b59738e06275e" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>CreateWithKeyboardBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0cda02068b64064d1de6ac95ebc7b950" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ae75dfd749d6f46962b0a84222064e65f" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Device</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1aae0425a6eca4b5e9123504b9e0311b33" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Down</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f493288d0c80e6684f319b1824def9e" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aefb98e5358792a2f40b661e4aebc9b65" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>ExcludeDevices</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aae7aa897b4590eb13c6d7d4697193c2c" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>GetPlayerActionByName</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a89110d05786760b7c3f8538538573ee9" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Green</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a60e7b0f8e0c34b68b1242c4e96e91b34" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>HasBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f759003340fa67549593f72ab250f94" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>IncludeDevices</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6c6d0a537148cd66c0b15c8d64ede5df" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>IsListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1acf04e96e3e7446a4a918b27c0b4dfc5d" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>LastDeviceClass</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1adfcf3cd9b1a252fb6f1ec85768813284" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>LastDeviceStyle</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6d91ee6720dec191cfe56cd47119b178" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ada6b89a428d9792e0758d7c9aa9a3cda" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>LastInputTypeChangedTick</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1aac6e68f430766471293cc003b5266675" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Left</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a4e67b7ac47fe5bc25cb3f510fbb39901" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>ListenOptions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a20e0ba7362c42bed5bfd8c4719d7105d" prot="package" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>listenWithAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a63a709b0bc2528f462e4ae958b84ba63" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aff307570d2d8878e3d53848e5c1c8aab" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>LoadData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab1e494c0fa2b19f343df52ac104d5941" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a8961b39ca15faafb6105c09478fb39b6" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>PlayerActions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1c4f1e576375f1f09f7668a51d2c4f14" prot="protected" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>PlayerActionSet</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab8616f279789513978a6807e7857a0c6" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>PreventInputWhileListeningForBinding</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a521adde0ead1c1fd1c09f010df9d46fa" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Red</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1297642ebbae139ae7e1bb24f8f03488" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>RemoveBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aa57effb6fd3c33b532ca5cd36de39d1f" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Reset</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1acc782477dab1fb95ec794a5270e21b70" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Right</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a5786b7f7417d94cccfaf79cced1ffe0c" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Rotate</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a9a5773b5c31fd249109dc49eaf0a8065" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Save</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a01ce0f8fc6c5a3efd9a7f16fc71528f8" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>SaveData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a69b1473ae9ce6f960ed5a76d08ce961d" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>this[string actionName]</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1aa721bfd437ae61a4f2c67aad6c490b7a" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Up</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad5052caa6e7535488cfd9b29193c6eb3" prot="package" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1abcc95980d57ba52aef3dd54f496dc544" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad6d88193d18e511bf72d41f510804cec" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>UserData</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_actions_1a130000a38891c0edfd9e93694f024293" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerActions</scope><name>Yellow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1277 @@
+\hypertarget{class_in_control_1_1_input_device}{}\doxysection{In\+Control.\+Input\+Device Class Reference}
+\label{class_in_control_1_1_input_device}\index{InControl.InputDevice@{InControl.InputDevice}}
+Inheritance diagram for In\+Control.\+Input\+Device\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.829630cm]{class_in_control_1_1_input_device}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_in_control_1_1_input_device_1_1_analog_snapshot_entry}{Analog\+Snapshot\+Entry}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device_aaa84c23d7800bafe87ba86942964dbf0}{Input\+Device}} ()
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device_a48467f078fa4beb0559058f8602f533f}{Input\+Device}} (string name)
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device_a9534198cc6d019fb6059d82c48c1f920}{Input\+Device}} (string name, bool raw\+Sticks)
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a12b559b4becdb7e4477b6e0ab27bc215}{Has\+Control}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type)
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a6de8f8e9667d607fb05e83c3d1d1f972}{Get\+Control}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type)
+\begin{DoxyCompactList}\small\item\em Gets the control with the specified control type. If the control does not exist, {\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control_a7ad1dd5eaa682a6107ebe996bf03b1d3}{Input\+Control.\+Null}}} is returned. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_afae509de58e308f78b18bca34fb5cded}{Get\+Control\+By\+Name}} (string control\+Name)
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a1b692818390731829d1363538773c85e}{Add\+Control}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type, string handle)
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_ada56e8f646cc0cef9d17878a699d99b9}{Add\+Control}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type, string handle, float lower\+Dead\+Zone, float upper\+Dead\+Zone)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a5df7b9a790839f4bb1bc63122f9720cf}{Clear\+Input\+State}} ()
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a34d75729911e2fbfbc073a5ad6261634}{Update\+Left\+Stick\+With\+Value}} (Vector2 value, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_aab4a0fb778b49c23d72f5862d4238716}{Update\+Left\+Stick\+With\+Raw\+Value}} (Vector2 value, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a9fd3b3b4c3817be7e3ae03f883a79abe}{Commit\+Left\+Stick}} ()
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a0a13444618190cef8d4bc670801c4bc4}{Update\+Right\+Stick\+With\+Value}} (Vector2 value, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a1799c38f5bcd0e5c86b4b68465bc31a4}{Update\+Right\+Stick\+With\+Raw\+Value}} (Vector2 value, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a2dd1ceb9151b1fceb8e60e068988ca97}{Commit\+Right\+Stick}} ()
+\item 
+virtual void \mbox{\hyperlink{class_in_control_1_1_input_device_ad927cca3de09c44fd9d977d3fefdc8e9}{Update}} (ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_aa910c9fbe34df355b42ac6013a399d87}{Commit}} (ulong update\+Tick, float delta\+Time)
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_ae09c7662a2a92ade7697fc4c76247cb2}{Last\+Input\+After}} (\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} device)
+\item 
+virtual void \mbox{\hyperlink{class_in_control_1_1_input_device_ac7a44b1cea1e5e0a191501292e67dc4c}{Vibrate}} (float left\+Motor, float right\+Motor)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a2d65d48c4a35641ce8ea88b3972283da}{Vibrate}} (float intensity)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_afde16535135a393bbf91356b49994fcf}{Stop\+Vibration}} ()
+\item 
+virtual void \mbox{\hyperlink{class_in_control_1_1_input_device_ac99a7da44c24b9688f78082710a6465d}{Set\+Light\+Color}} (float red, float green, float blue)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a17a6841f43bbf0bb8213bb6124e18b2c}{Set\+Light\+Color}} (Color color)
+\item 
+virtual void \mbox{\hyperlink{class_in_control_1_1_input_device_a283e938f9c146edbe0ef9b9dc9dd68bc}{Set\+Light\+Flash}} (float flash\+On\+Duration, float flash\+Off\+Duration)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a0befd36b4cd2b3077f3c1a9f3f8a2c88}{Stop\+Light\+Flash}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_in_control_1_1_input_device_aac5b76b0b9bd9358d3cbfed83a9ea60c}{Read\+Raw\+Button\+State}} (int index)
+\item 
+virtual float \mbox{\hyperlink{class_in_control_1_1_input_device_a94e7c8bc0a377983e02a7679fb9c744b}{Read\+Raw\+Analog\+Value}} (int index)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a56319331de6eb3857eb4d02aaa739cf7}{Take\+Snapshot}} ()
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_unknown_device_control}{Unknown\+Device\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a0542e741f10de68db94fc0b8713d5b52}{Get\+First\+Pressed\+Analog}} ()
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_unknown_device_control}{Unknown\+Device\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a553aed4b4a3a836a9932a7bac32aa34a}{Get\+First\+Pressed\+Button}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} \mbox{\hyperlink{class_in_control_1_1_input_device_a16f3d4399b06dae377ea254264095841}{Get\+Input\+Control\+Type\+By\+Name}} (string input\+Control\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a9fc608f824f2991720806acd5ac988cf}{Passive}}
+\begin{DoxyCompactList}\small\item\em When a device is passive, it will never be considered an active device. This may be useful if you want a device to be accessible, but not show up in places where active devices are used. Defaults to \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} \mbox{\hyperlink{class_in_control_1_1_input_device_a9fb7bdedcbac71b641c45c3a621924bd}{Null}} = new \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}( \char`\"{}None\char`\"{} )
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_ada32e82a8b95dd649512683975285580}{Clear\+Controls}} ()
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_aeb283e0ce1d2870d8683b7a0f6f52aef}{Update\+With\+State}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type, bool state, ulong update\+Tick, float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_in_control_1_1_input_device_a1da6a776db3b18efb22beb496ca9d9f7}{Update\+With\+Value}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type, float value, ulong update\+Tick, float delta\+Time)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_in_control_1_1_input_device_a4e42f774c1cf4b329552cfd63acf4b2c}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_in_control_1_1_input_device_a85b61f3827983fe5524f92416a13da8d}{Meta}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_in_control_1_1_input_device_a1c6f73b47c2f9163e99c0b948effcec3}{Sort\+Order}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+\mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} \mbox{\hyperlink{class_in_control_1_1_input_device_a15de0a1bb0d85882b27aa5d409dc8774}{Device\+Class}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+\mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} \mbox{\hyperlink{class_in_control_1_1_input_device_a512664c24ed7c9cd9fcce89da52a8aa2}{Device\+Style}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+Guid \mbox{\hyperlink{class_in_control_1_1_input_device_a7171b92462ba0b798d1433ea71bd39d2}{G\+U\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+ulong \mbox{\hyperlink{class_in_control_1_1_input_device_a25f71d6d2199aea78513eb11789508a5}{Last\+Input\+Tick}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_af31f04c251833ec56f3501cc67fc2abd}{Is\+Active}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_ae7c70795b65e02d9d2b061c71a448ec0}{Is\+Attached}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_adfe6cd341162ca2f10e631050a5ad833}{Raw\+Sticks}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Read\+Only\+Collection$<$ \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} $>$ \mbox{\hyperlink{class_in_control_1_1_input_device_a4268f12783d582d2e2cb46b62587e2bf}{Controls}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_in_control_1_1_input_device_afa91bda72edeeabdfc52a4c68da8869e}{Controls\+By\+Target}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a734002b1ab2eb62587df450daba23a61}{Left\+Stick}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_aa3ec8559208f319a804caa530fe3015d}{Right\+Stick}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a0dc83d2a9fd0d351b88fcc815a12026b}{D\+Pad}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_input_device_1_1_analog_snapshot_entry}{Analog\+Snapshot\+Entry}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_in_control_1_1_input_device_ab051cecf530b78787de236e9cb90607a}{Analog\+Snapshot}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_a4b334152c26f072e227924c065ce1633}{this\mbox{[}\+Input\+Control\+Type control\+Type\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the control with the specified control type. If the control does not exist, {\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control_a7ad1dd5eaa682a6107ebe996bf03b1d3}{Input\+Control.\+Null}}} is returned. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_in_control_1_1_input_device_ad3aee3607585ff3fca5c2c8e0ef3f0bb}{Is\+Supported\+On\+This\+Platform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual bool \mbox{\hyperlink{class_in_control_1_1_input_device_a891824cf015ee325c6c7f355e9ea8aab}{Is\+Known}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_ae1e274e92e7f8b9d5c5fe1a8430d821f}{Is\+Unknown}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a179837f8a176c1f91bb5d5a50cbf6e52}{Menu\+Is\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_af98b201d800dd9082b7f894c453c7f53}{Menu\+Was\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a795f75707281b6d7389522fb0121e124}{Menu\+Was\+Released}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_ad60996b36ba3ecb813ec46b7a09fbf0a}{Command\+Is\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a261354968ef15bbe0a458c45ad553569}{Command\+Was\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a2ee1662b266f5fade80591b623b97e4f}{Command\+Was\+Released}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{\hyperlink{class_in_control_1_1_input_device_adb18f4d84b69c9d169b97849350c6784}{Any\+Button}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_aa0f55880adbc2b888398bbf97a51878a}{Any\+Button\+Is\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a90952b8c99784717fc54ce04abc66cb0}{Any\+Button\+Was\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_in_control_1_1_input_device_a3d9f85eb1173f568df9d9d8989879037}{Any\+Button\+Was\+Released}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}}? \mbox{\hyperlink{class_in_control_1_1_input_device_a3feed4ed9d9c667f9291f4d84a84da0f}{Direction}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_ac1658e9c5adb671ec5b6ce4179d2bd0c}{Left\+Stick\+Up}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a66ca6a10fded33a49a4f3d6632962d67}{Left\+Stick\+Down}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a928c388a6f337a2c57d36f2e9ddbb23d}{Left\+Stick\+Left}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a8f38e0cb6386e6776937775464ebc72e}{Left\+Stick\+Right}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a3a50ecdcb61325a1bbaa87e6e3be2668}{Right\+Stick\+Up}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a9ac69c0342529888a472642081a18ffb}{Right\+Stick\+Down}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a50a3ec90e322e5d9a8c70552dbe1595d}{Right\+Stick\+Left}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a1ffcddc34659d08f0bd064f37d827bab}{Right\+Stick\+Right}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a608d60562aef56d600257cfa667ba3ef}{D\+Pad\+Up}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a1e50017cd70c9ea4b5cb81070c05a48f}{D\+Pad\+Down}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_aa4bfbc40fc807ac6a159c74607fd6ec9}{D\+Pad\+Left}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_afc393071ee66b731b2d547a29a5df84f}{D\+Pad\+Right}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a5d93d14773333a0e751585996c9f5b77}{Action1}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a0cda65a2c153479ed5005c7327baaaae}{Action2}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a405357291244593b61506bcd01d214d9}{Action3}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_ad12df47fa4b2288b2cab5f55ee597c95}{Action4}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_ac3c31091129f3056b7a7e60753ef1ee7}{Left\+Trigger}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a771fda97d00d3f299f61e2c36d12dd7f}{Right\+Trigger}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a83bf1a76a92d1506018ffa4abd75cc58}{Left\+Bumper}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_af699c6e32f0afbdd7af84bf85697100b}{Right\+Bumper}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a588c8fc549c079112beb8642b6587dab}{Left\+Stick\+Button}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a2c9f65ddec1df4075dd0b0184f0ffc07}{Right\+Stick\+Button}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a611329caf85687b7fe6f2675dd00cf74}{Left\+StickX}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_ac2d6e183c300ee847ca3675d99104cf5}{Left\+StickY}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_aee9a26848a4e6dc82416c28d4b300b78}{Right\+StickX}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a969e1f4326e3e9f267e9ff3e31fcd9e7}{Right\+StickY}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_a7c81db0898d981434a40216022a0dbde}{D\+PadX}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_abdf25659f0a77d5a80a6a1c72b044414}{D\+PadY}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? \mbox{\hyperlink{class_in_control_1_1_input_device_aad86b9d1a4bc3baaea31dd30cc89363d}{Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual int \mbox{\hyperlink{class_in_control_1_1_input_device_af8a208299a52a1fdd39a8827f34e62e0}{Num\+Unknown\+Analogs}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual int \mbox{\hyperlink{class_in_control_1_1_input_device_a0eaa13d87f3eb1b0482f29baafd19a96}{Num\+Unknown\+Buttons}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 9 of file Input\+Device.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aaa84c23d7800bafe87ba86942964dbf0}\label{class_in_control_1_1_input_device_aaa84c23d7800bafe87ba86942964dbf0}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!InputDevice@{InputDevice}}
+\index{InputDevice@{InputDevice}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{InputDevice()}{InputDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily In\+Control.\+Input\+Device.\+Input\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 60 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a48467f078fa4beb0559058f8602f533f}\label{class_in_control_1_1_input_device_a48467f078fa4beb0559058f8602f533f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!InputDevice@{InputDevice}}
+\index{InputDevice@{InputDevice}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{InputDevice()}{InputDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily In\+Control.\+Input\+Device.\+Input\+Device (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 64 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a9534198cc6d019fb6059d82c48c1f920}\label{class_in_control_1_1_input_device_a9534198cc6d019fb6059d82c48c1f920}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!InputDevice@{InputDevice}}
+\index{InputDevice@{InputDevice}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{InputDevice()}{InputDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily In\+Control.\+Input\+Device.\+Input\+Device (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{bool}]{raw\+Sticks }\end{DoxyParamCaption})}
+
+
+
+Definition at line 68 of file Input\+Device.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1b692818390731829d1363538773c85e}\label{class_in_control_1_1_input_device_a1b692818390731829d1363538773c85e}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AddControl@{AddControl}}
+\index{AddControl@{AddControl}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AddControl()}{AddControl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+Add\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type,  }\item[{string}]{handle }\end{DoxyParamCaption})}
+
+
+
+Definition at line 205 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ada56e8f646cc0cef9d17878a699d99b9}\label{class_in_control_1_1_input_device_ada56e8f646cc0cef9d17878a699d99b9}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AddControl@{AddControl}}
+\index{AddControl@{AddControl}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AddControl()}{AddControl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+Add\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type,  }\item[{string}]{handle,  }\item[{float}]{lower\+Dead\+Zone,  }\item[{float}]{upper\+Dead\+Zone }\end{DoxyParamCaption})}
+
+
+
+Definition at line 220 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ada32e82a8b95dd649512683975285580}\label{class_in_control_1_1_input_device_ada32e82a8b95dd649512683975285580}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!ClearControls@{ClearControls}}
+\index{ClearControls@{ClearControls}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{ClearControls()}{ClearControls()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Clear\+Controls (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 155 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a5df7b9a790839f4bb1bc63122f9720cf}\label{class_in_control_1_1_input_device_a5df7b9a790839f4bb1bc63122f9720cf}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!ClearInputState@{ClearInputState}}
+\index{ClearInputState@{ClearInputState}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{ClearInputState()}{ClearInputState()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Clear\+Input\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 241 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aa910c9fbe34df355b42ac6013a399d87}\label{class_in_control_1_1_input_device_aa910c9fbe34df355b42ac6013a399d87}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Commit@{Commit}}
+\index{Commit@{Commit}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Commit()}{Commit()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Commit (\begin{DoxyParamCaption}\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 466 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a9fd3b3b4c3817be7e3ae03f883a79abe}\label{class_in_control_1_1_input_device_a9fd3b3b4c3817be7e3ae03f883a79abe}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!CommitLeftStick@{CommitLeftStick}}
+\index{CommitLeftStick@{CommitLeftStick}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{CommitLeftStick()}{CommitLeftStick()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Commit\+Left\+Stick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 307 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a2dd1ceb9151b1fceb8e60e068988ca97}\label{class_in_control_1_1_input_device_a2dd1ceb9151b1fceb8e60e068988ca97}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!CommitRightStick@{CommitRightStick}}
+\index{CommitRightStick@{CommitRightStick}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{CommitRightStick()}{CommitRightStick()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Commit\+Right\+Stick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 352 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a6de8f8e9667d607fb05e83c3d1d1f972}\label{class_in_control_1_1_input_device_a6de8f8e9667d607fb05e83c3d1d1f972}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GetControl@{GetControl}}
+\index{GetControl@{GetControl}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GetControl()}{GetControl()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+Get\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type }\end{DoxyParamCaption})}
+
+
+
+Gets the control with the specified control type. If the control does not exist, {\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control_a7ad1dd5eaa682a6107ebe996bf03b1d3}{Input\+Control.\+Null}}} is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control\+Type} & The control type of the control to get.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 173 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_afae509de58e308f78b18bca34fb5cded}\label{class_in_control_1_1_input_device_afae509de58e308f78b18bca34fb5cded}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GetControlByName@{GetControlByName}}
+\index{GetControlByName@{GetControlByName}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GetControlByName()}{GetControlByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+Get\+Control\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{control\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 198 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0542e741f10de68db94fc0b8713d5b52}\label{class_in_control_1_1_input_device_a0542e741f10de68db94fc0b8713d5b52}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GetFirstPressedAnalog@{GetFirstPressedAnalog}}
+\index{GetFirstPressedAnalog@{GetFirstPressedAnalog}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GetFirstPressedAnalog()}{GetFirstPressedAnalog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_unknown_device_control}{Unknown\+Device\+Control}} In\+Control.\+Input\+Device.\+Get\+First\+Pressed\+Analog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 966 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a553aed4b4a3a836a9932a7bac32aa34a}\label{class_in_control_1_1_input_device_a553aed4b4a3a836a9932a7bac32aa34a}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GetFirstPressedButton@{GetFirstPressedButton}}
+\index{GetFirstPressedButton@{GetFirstPressedButton}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GetFirstPressedButton()}{GetFirstPressedButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_unknown_device_control}{Unknown\+Device\+Control}} In\+Control.\+Input\+Device.\+Get\+First\+Pressed\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1010 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a16f3d4399b06dae377ea254264095841}\label{class_in_control_1_1_input_device_a16f3d4399b06dae377ea254264095841}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GetInputControlTypeByName@{GetInputControlTypeByName}}
+\index{GetInputControlTypeByName@{GetInputControlTypeByName}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GetInputControlTypeByName()}{GetInputControlTypeByName()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} In\+Control.\+Input\+Device.\+Get\+Input\+Control\+Type\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{input\+Control\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 191 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a12b559b4becdb7e4477b6e0ab27bc215}\label{class_in_control_1_1_input_device_a12b559b4becdb7e4477b6e0ab27bc215}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!HasControl@{HasControl}}
+\index{HasControl@{HasControl}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{HasControl()}{HasControl()}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Has\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type }\end{DoxyParamCaption})}
+
+
+
+Definition at line 163 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ae09c7662a2a92ade7697fc4c76247cb2}\label{class_in_control_1_1_input_device_ae09c7662a2a92ade7697fc4c76247cb2}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LastInputAfter@{LastInputAfter}}
+\index{LastInputAfter@{LastInputAfter}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LastInputAfter()}{LastInputAfter()}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Last\+Input\+After (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}}]{device }\end{DoxyParamCaption})}
+
+
+
+Definition at line 525 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a94e7c8bc0a377983e02a7679fb9c744b}\label{class_in_control_1_1_input_device_a94e7c8bc0a377983e02a7679fb9c744b}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!ReadRawAnalogValue@{ReadRawAnalogValue}}
+\index{ReadRawAnalogValue@{ReadRawAnalogValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{ReadRawAnalogValue()}{ReadRawAnalogValue()}}
+{\footnotesize\ttfamily virtual float In\+Control.\+Input\+Device.\+Read\+Raw\+Analog\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_unity_input_device_a3ba0be498184daf0ebcb2f4192ccd8d0}{In\+Control.\+Unity\+Input\+Device}}, and \mbox{\hyperlink{class_in_control_1_1_native_input_device_a9f670f9a9a3a77c28f796cd8f6409fec}{In\+Control.\+Native\+Input\+Device}}.
+
+
+
+Definition at line 945 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aac5b76b0b9bd9358d3cbfed83a9ea60c}\label{class_in_control_1_1_input_device_aac5b76b0b9bd9358d3cbfed83a9ea60c}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!ReadRawButtonState@{ReadRawButtonState}}
+\index{ReadRawButtonState@{ReadRawButtonState}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{ReadRawButtonState()}{ReadRawButtonState()}}
+{\footnotesize\ttfamily virtual bool In\+Control.\+Input\+Device.\+Read\+Raw\+Button\+State (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_unity_input_device_ac1ec524086a326d64a7c7297d34d2b6e}{In\+Control.\+Unity\+Input\+Device}}, and \mbox{\hyperlink{class_in_control_1_1_native_input_device_a71b1b5273d9bbb7cf66f1a4479d16160}{In\+Control.\+Native\+Input\+Device}}.
+
+
+
+Definition at line 939 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a17a6841f43bbf0bb8213bb6124e18b2c}\label{class_in_control_1_1_input_device_a17a6841f43bbf0bb8213bb6124e18b2c}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!SetLightColor@{SetLightColor}}
+\index{SetLightColor@{SetLightColor}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{SetLightColor()}{SetLightColor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Set\+Light\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Definition at line 556 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ac99a7da44c24b9688f78082710a6465d}\label{class_in_control_1_1_input_device_ac99a7da44c24b9688f78082710a6465d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!SetLightColor@{SetLightColor}}
+\index{SetLightColor@{SetLightColor}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{SetLightColor()}{SetLightColor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void In\+Control.\+Input\+Device.\+Set\+Light\+Color (\begin{DoxyParamCaption}\item[{float}]{red,  }\item[{float}]{green,  }\item[{float}]{blue }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_native_input_device_aa02371a20ab601a5b95b392b84fef04e}{In\+Control.\+Native\+Input\+Device}}.
+
+
+
+Definition at line 553 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a283e938f9c146edbe0ef9b9dc9dd68bc}\label{class_in_control_1_1_input_device_a283e938f9c146edbe0ef9b9dc9dd68bc}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!SetLightFlash@{SetLightFlash}}
+\index{SetLightFlash@{SetLightFlash}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{SetLightFlash()}{SetLightFlash()}}
+{\footnotesize\ttfamily virtual void In\+Control.\+Input\+Device.\+Set\+Light\+Flash (\begin{DoxyParamCaption}\item[{float}]{flash\+On\+Duration,  }\item[{float}]{flash\+Off\+Duration }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_native_input_device_a62c8edb902b2d967bfd129c7e1e5c0f5}{In\+Control.\+Native\+Input\+Device}}.
+
+
+
+Definition at line 562 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0befd36b4cd2b3077f3c1a9f3f8a2c88}\label{class_in_control_1_1_input_device_a0befd36b4cd2b3077f3c1a9f3f8a2c88}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!StopLightFlash@{StopLightFlash}}
+\index{StopLightFlash@{StopLightFlash}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{StopLightFlash()}{StopLightFlash()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Stop\+Light\+Flash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 565 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_afde16535135a393bbf91356b49994fcf}\label{class_in_control_1_1_input_device_afde16535135a393bbf91356b49994fcf}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!StopVibration@{StopVibration}}
+\index{StopVibration@{StopVibration}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{StopVibration()}{StopVibration()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Stop\+Vibration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 547 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a56319331de6eb3857eb4d02aaa739cf7}\label{class_in_control_1_1_input_device_a56319331de6eb3857eb4d02aaa739cf7}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!TakeSnapshot@{TakeSnapshot}}
+\index{TakeSnapshot@{TakeSnapshot}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{TakeSnapshot()}{TakeSnapshot()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Take\+Snapshot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 951 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ad927cca3de09c44fd9d977d3fefdc8e9}\label{class_in_control_1_1_input_device_ad927cca3de09c44fd9d977d3fefdc8e9}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Update@{Update}}
+\index{Update@{Update}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily virtual void In\+Control.\+Input\+Device.\+Update (\begin{DoxyParamCaption}\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_native_input_device_adfa4ae5782cda135af43c55a20d056b5}{In\+Control.\+Native\+Input\+Device}}, \mbox{\hyperlink{class_in_control_1_1_unity_input_device_ac24eeb1fcdd32f60b752038232b5f093}{In\+Control.\+Unity\+Input\+Device}}, \mbox{\hyperlink{class_in_control_1_1_xbox_one_input_device_afee7446758abb45494ad27c64f04f9d3}{In\+Control.\+Xbox\+One\+Input\+Device}}, \mbox{\hyperlink{class_in_control_1_1_ouya_everywhere_device_ac20635efd8daaf0c0b74f9acdbc9ffe2}{In\+Control.\+Ouya\+Everywhere\+Device}}, and \mbox{\hyperlink{class_virtual_device_example_1_1_virtual_device_a6847ef9b616c379a1d5a15e37134ccf9}{Virtual\+Device\+Example.\+Virtual\+Device}}.
+
+
+
+Definition at line 361 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aab4a0fb778b49c23d72f5862d4238716}\label{class_in_control_1_1_input_device_aab4a0fb778b49c23d72f5862d4238716}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateLeftStickWithRawValue@{UpdateLeftStickWithRawValue}}
+\index{UpdateLeftStickWithRawValue@{UpdateLeftStickWithRawValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateLeftStickWithRawValue()}{UpdateLeftStickWithRawValue()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+Left\+Stick\+With\+Raw\+Value (\begin{DoxyParamCaption}\item[{Vector2}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 289 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a34d75729911e2fbfbc073a5ad6261634}\label{class_in_control_1_1_input_device_a34d75729911e2fbfbc073a5ad6261634}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateLeftStickWithValue@{UpdateLeftStickWithValue}}
+\index{UpdateLeftStickWithValue@{UpdateLeftStickWithValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateLeftStickWithValue()}{UpdateLeftStickWithValue()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+Left\+Stick\+With\+Value (\begin{DoxyParamCaption}\item[{Vector2}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 271 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1799c38f5bcd0e5c86b4b68465bc31a4}\label{class_in_control_1_1_input_device_a1799c38f5bcd0e5c86b4b68465bc31a4}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateRightStickWithRawValue@{UpdateRightStickWithRawValue}}
+\index{UpdateRightStickWithRawValue@{UpdateRightStickWithRawValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateRightStickWithRawValue()}{UpdateRightStickWithRawValue()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+Right\+Stick\+With\+Raw\+Value (\begin{DoxyParamCaption}\item[{Vector2}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 334 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0a13444618190cef8d4bc670801c4bc4}\label{class_in_control_1_1_input_device_a0a13444618190cef8d4bc670801c4bc4}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateRightStickWithValue@{UpdateRightStickWithValue}}
+\index{UpdateRightStickWithValue@{UpdateRightStickWithValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateRightStickWithValue()}{UpdateRightStickWithValue()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+Right\+Stick\+With\+Value (\begin{DoxyParamCaption}\item[{Vector2}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Definition at line 316 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aeb283e0ce1d2870d8683b7a0f6f52aef}\label{class_in_control_1_1_input_device_aeb283e0ce1d2870d8683b7a0f6f52aef}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateWithState@{UpdateWithState}}
+\index{UpdateWithState@{UpdateWithState}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateWithState()}{UpdateWithState()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+With\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type,  }\item[{bool}]{state,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 259 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1da6a776db3b18efb22beb496ca9d9f7}\label{class_in_control_1_1_input_device_a1da6a776db3b18efb22beb496ca9d9f7}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!UpdateWithValue@{UpdateWithValue}}
+\index{UpdateWithValue@{UpdateWithValue}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{UpdateWithValue()}{UpdateWithValue()}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Update\+With\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control\+Type,  }\item[{float}]{value,  }\item[{ulong}]{update\+Tick,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 265 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a2d65d48c4a35641ce8ea88b3972283da}\label{class_in_control_1_1_input_device_a2d65d48c4a35641ce8ea88b3972283da}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Vibrate@{Vibrate}}
+\index{Vibrate@{Vibrate}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Vibrate()}{Vibrate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void In\+Control.\+Input\+Device.\+Vibrate (\begin{DoxyParamCaption}\item[{float}]{intensity }\end{DoxyParamCaption})}
+
+
+
+Definition at line 541 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ac7a44b1cea1e5e0a191501292e67dc4c}\label{class_in_control_1_1_input_device_ac7a44b1cea1e5e0a191501292e67dc4c}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Vibrate@{Vibrate}}
+\index{Vibrate@{Vibrate}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Vibrate()}{Vibrate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void In\+Control.\+Input\+Device.\+Vibrate (\begin{DoxyParamCaption}\item[{float}]{left\+Motor,  }\item[{float}]{right\+Motor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_in_control_1_1_native_input_device_ab0571bcda4122abf2a8c55dcd0e433c6}{In\+Control.\+Native\+Input\+Device}}, and \mbox{\hyperlink{class_in_control_1_1_xbox_one_input_device_ae431b6110a817706553ef919b841d468}{In\+Control.\+Xbox\+One\+Input\+Device}}.
+
+
+
+Definition at line 538 of file Input\+Device.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a9fb7bdedcbac71b641c45c3a621924bd}\label{class_in_control_1_1_input_device_a9fb7bdedcbac71b641c45c3a621924bd}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Null@{Null}}
+\index{Null@{Null}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Null}{Null}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} In\+Control.\+Input\+Device.\+Null = new \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}( \char`\"{}None\char`\"{} )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 11 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a9fc608f824f2991720806acd5ac988cf}\label{class_in_control_1_1_input_device_a9fc608f824f2991720806acd5ac988cf}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Passive@{Passive}}
+\index{Passive@{Passive}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Passive}{Passive}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Passive}
+
+
+
+When a device is passive, it will never be considered an active device. This may be useful if you want a device to be accessible, but not show up in places where active devices are used. Defaults to 
+
+{\ttfamily false}.
+
+Definition at line 41 of file Input\+Device.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a5d93d14773333a0e751585996c9f5b77}\label{class_in_control_1_1_input_device_a5d93d14773333a0e751585996c9f5b77}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Action1@{Action1}}
+\index{Action1@{Action1}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Action1}{Action1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Action1\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 803 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0cda65a2c153479ed5005c7327baaaae}\label{class_in_control_1_1_input_device_a0cda65a2c153479ed5005c7327baaaae}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Action2@{Action2}}
+\index{Action2@{Action2}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Action2}{Action2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Action2\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 808 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a405357291244593b61506bcd01d214d9}\label{class_in_control_1_1_input_device_a405357291244593b61506bcd01d214d9}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Action3@{Action3}}
+\index{Action3@{Action3}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Action3}{Action3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Action3\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 813 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ad12df47fa4b2288b2cab5f55ee597c95}\label{class_in_control_1_1_input_device_ad12df47fa4b2288b2cab5f55ee597c95}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Action4@{Action4}}
+\index{Action4@{Action4}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Action4}{Action4}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Action4\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 818 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ab051cecf530b78787de236e9cb90607a}\label{class_in_control_1_1_input_device_ab051cecf530b78787de236e9cb90607a}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AnalogSnapshot@{AnalogSnapshot}}
+\index{AnalogSnapshot@{AnalogSnapshot}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AnalogSnapshot}{AnalogSnapshot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_input_device_1_1_analog_snapshot_entry}{Analog\+Snapshot\+Entry}} \mbox{[}$\,$\mbox{]} In\+Control.\+Input\+Device.\+Analog\+Snapshot\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 57 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_adb18f4d84b69c9d169b97849350c6784}\label{class_in_control_1_1_input_device_adb18f4d84b69c9d169b97849350c6784}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AnyButton@{AnyButton}}
+\index{AnyButton@{AnyButton}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AnyButton}{AnyButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+Any\+Button\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 628 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aa0f55880adbc2b888398bbf97a51878a}\label{class_in_control_1_1_input_device_aa0f55880adbc2b888398bbf97a51878a}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AnyButtonIsPressed@{AnyButtonIsPressed}}
+\index{AnyButtonIsPressed@{AnyButtonIsPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AnyButtonIsPressed}{AnyButtonIsPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Any\+Button\+Is\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 647 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a90952b8c99784717fc54ce04abc66cb0}\label{class_in_control_1_1_input_device_a90952b8c99784717fc54ce04abc66cb0}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AnyButtonWasPressed@{AnyButtonWasPressed}}
+\index{AnyButtonWasPressed@{AnyButtonWasPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AnyButtonWasPressed}{AnyButtonWasPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Any\+Button\+Was\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 666 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a3d9f85eb1173f568df9d9d8989879037}\label{class_in_control_1_1_input_device_a3d9f85eb1173f568df9d9d8989879037}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!AnyButtonWasReleased@{AnyButtonWasReleased}}
+\index{AnyButtonWasReleased@{AnyButtonWasReleased}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{AnyButtonWasReleased}{AnyButtonWasReleased}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Any\+Button\+Was\+Released\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 685 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aad86b9d1a4bc3baaea31dd30cc89363d}\label{class_in_control_1_1_input_device_aad86b9d1a4bc3baaea31dd30cc89363d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Command@{Command}}
+\index{Command@{Command}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Command}{Command}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Command\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 883 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ad60996b36ba3ecb813ec46b7a09fbf0a}\label{class_in_control_1_1_input_device_ad60996b36ba3ecb813ec46b7a09fbf0a}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!CommandIsPressed@{CommandIsPressed}}
+\index{CommandIsPressed@{CommandIsPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{CommandIsPressed}{CommandIsPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Command\+Is\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 610 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a261354968ef15bbe0a458c45ad553569}\label{class_in_control_1_1_input_device_a261354968ef15bbe0a458c45ad553569}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!CommandWasPressed@{CommandWasPressed}}
+\index{CommandWasPressed@{CommandWasPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{CommandWasPressed}{CommandWasPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Command\+Was\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 616 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a2ee1662b266f5fade80591b623b97e4f}\label{class_in_control_1_1_input_device_a2ee1662b266f5fade80591b623b97e4f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!CommandWasReleased@{CommandWasReleased}}
+\index{CommandWasReleased@{CommandWasReleased}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{CommandWasReleased}{CommandWasReleased}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Command\+Was\+Released\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 622 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a4268f12783d582d2e2cb46b62587e2bf}\label{class_in_control_1_1_input_device_a4268f12783d582d2e2cb46b62587e2bf}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Controls@{Controls}}
+\index{Controls@{Controls}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Controls}{Controls}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}$>$ In\+Control.\+Input\+Device.\+Controls\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 28 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_afa91bda72edeeabdfc52a4c68da8869e}\label{class_in_control_1_1_input_device_afa91bda72edeeabdfc52a4c68da8869e}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!ControlsByTarget@{ControlsByTarget}}
+\index{ControlsByTarget@{ControlsByTarget}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{ControlsByTarget}{ControlsByTarget}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} \mbox{[}$\,$\mbox{]} In\+Control.\+Input\+Device.\+Controls\+By\+Target\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 29 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a15de0a1bb0d85882b27aa5d409dc8774}\label{class_in_control_1_1_input_device_a15de0a1bb0d85882b27aa5d409dc8774}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DeviceClass@{DeviceClass}}
+\index{DeviceClass@{DeviceClass}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DeviceClass}{DeviceClass}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} In\+Control.\+Input\+Device.\+Device\+Class\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 17 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a512664c24ed7c9cd9fcce89da52a8aa2}\label{class_in_control_1_1_input_device_a512664c24ed7c9cd9fcce89da52a8aa2}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DeviceStyle@{DeviceStyle}}
+\index{DeviceStyle@{DeviceStyle}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DeviceStyle}{DeviceStyle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} In\+Control.\+Input\+Device.\+Device\+Style\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 18 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a3feed4ed9d9c667f9291f4d84a84da0f}\label{class_in_control_1_1_input_device_a3feed4ed9d9c667f9291f4d84a84da0f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Direction@{Direction}}
+\index{Direction@{Direction}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Direction}{Direction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}}? In\+Control.\+Input\+Device.\+Direction\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 704 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0dc83d2a9fd0d351b88fcc815a12026b}\label{class_in_control_1_1_input_device_a0dc83d2a9fd0d351b88fcc815a12026b}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPad@{DPad}}
+\index{DPad@{DPad}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPad}{DPad}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} In\+Control.\+Input\+Device.\+D\+Pad\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 33 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1e50017cd70c9ea4b5cb81070c05a48f}\label{class_in_control_1_1_input_device_a1e50017cd70c9ea4b5cb81070c05a48f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadDown@{DPadDown}}
+\index{DPadDown@{DPadDown}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadDown}{DPadDown}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+Pad\+Down\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 788 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aa4bfbc40fc807ac6a159c74607fd6ec9}\label{class_in_control_1_1_input_device_aa4bfbc40fc807ac6a159c74607fd6ec9}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadLeft@{DPadLeft}}
+\index{DPadLeft@{DPadLeft}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadLeft}{DPadLeft}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+Pad\+Left\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 793 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_afc393071ee66b731b2d547a29a5df84f}\label{class_in_control_1_1_input_device_afc393071ee66b731b2d547a29a5df84f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadRight@{DPadRight}}
+\index{DPadRight@{DPadRight}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadRight}{DPadRight}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+Pad\+Right\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 798 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a608d60562aef56d600257cfa667ba3ef}\label{class_in_control_1_1_input_device_a608d60562aef56d600257cfa667ba3ef}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadUp@{DPadUp}}
+\index{DPadUp@{DPadUp}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadUp}{DPadUp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+Pad\+Up\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 783 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a7c81db0898d981434a40216022a0dbde}\label{class_in_control_1_1_input_device_a7c81db0898d981434a40216022a0dbde}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadX@{DPadX}}
+\index{DPadX@{DPadX}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadX}{DPadX}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+PadX\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 873 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_abdf25659f0a77d5a80a6a1c72b044414}\label{class_in_control_1_1_input_device_abdf25659f0a77d5a80a6a1c72b044414}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!DPadY@{DPadY}}
+\index{DPadY@{DPadY}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{DPadY}{DPadY}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+D\+PadY\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 878 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a7171b92462ba0b798d1433ea71bd39d2}\label{class_in_control_1_1_input_device_a7171b92462ba0b798d1433ea71bd39d2}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!GUID@{GUID}}
+\index{GUID@{GUID}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{GUID}{GUID}}
+{\footnotesize\ttfamily Guid In\+Control.\+Input\+Device.\+G\+U\+ID\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 20 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_af31f04c251833ec56f3501cc67fc2abd}\label{class_in_control_1_1_input_device_af31f04c251833ec56f3501cc67fc2abd}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!IsActive@{IsActive}}
+\index{IsActive@{IsActive}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{IsActive}{IsActive}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Is\+Active\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 22 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ae7c70795b65e02d9d2b061c71a448ec0}\label{class_in_control_1_1_input_device_ae7c70795b65e02d9d2b061c71a448ec0}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!IsAttached@{IsAttached}}
+\index{IsAttached@{IsAttached}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{IsAttached}{IsAttached}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Is\+Attached\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 23 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a891824cf015ee325c6c7f355e9ea8aab}\label{class_in_control_1_1_input_device_a891824cf015ee325c6c7f355e9ea8aab}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!IsKnown@{IsKnown}}
+\index{IsKnown@{IsKnown}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{IsKnown}{IsKnown}}
+{\footnotesize\ttfamily virtual bool In\+Control.\+Input\+Device.\+Is\+Known\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 577 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ad3aee3607585ff3fca5c2c8e0ef3f0bb}\label{class_in_control_1_1_input_device_ad3aee3607585ff3fca5c2c8e0ef3f0bb}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!IsSupportedOnThisPlatform@{IsSupportedOnThisPlatform}}
+\index{IsSupportedOnThisPlatform@{IsSupportedOnThisPlatform}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{IsSupportedOnThisPlatform}{IsSupportedOnThisPlatform}}
+{\footnotesize\ttfamily virtual bool In\+Control.\+Input\+Device.\+Is\+Supported\+On\+This\+Platform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 571 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ae1e274e92e7f8b9d5c5fe1a8430d821f}\label{class_in_control_1_1_input_device_ae1e274e92e7f8b9d5c5fe1a8430d821f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!IsUnknown@{IsUnknown}}
+\index{IsUnknown@{IsUnknown}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{IsUnknown}{IsUnknown}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Is\+Unknown\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 583 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a25f71d6d2199aea78513eb11789508a5}\label{class_in_control_1_1_input_device_a25f71d6d2199aea78513eb11789508a5}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LastInputTick@{LastInputTick}}
+\index{LastInputTick@{LastInputTick}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LastInputTick}{LastInputTick}}
+{\footnotesize\ttfamily ulong In\+Control.\+Input\+Device.\+Last\+Input\+Tick\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 21 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a83bf1a76a92d1506018ffa4abd75cc58}\label{class_in_control_1_1_input_device_a83bf1a76a92d1506018ffa4abd75cc58}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftBumper@{LeftBumper}}
+\index{LeftBumper@{LeftBumper}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftBumper}{LeftBumper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Bumper\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 833 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a734002b1ab2eb62587df450daba23a61}\label{class_in_control_1_1_input_device_a734002b1ab2eb62587df450daba23a61}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStick@{LeftStick}}
+\index{LeftStick@{LeftStick}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStick}{LeftStick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} In\+Control.\+Input\+Device.\+Left\+Stick\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 31 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a588c8fc549c079112beb8642b6587dab}\label{class_in_control_1_1_input_device_a588c8fc549c079112beb8642b6587dab}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickButton@{LeftStickButton}}
+\index{LeftStickButton@{LeftStickButton}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickButton}{LeftStickButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Stick\+Button\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 843 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a66ca6a10fded33a49a4f3d6632962d67}\label{class_in_control_1_1_input_device_a66ca6a10fded33a49a4f3d6632962d67}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickDown@{LeftStickDown}}
+\index{LeftStickDown@{LeftStickDown}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickDown}{LeftStickDown}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Stick\+Down\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 748 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a928c388a6f337a2c57d36f2e9ddbb23d}\label{class_in_control_1_1_input_device_a928c388a6f337a2c57d36f2e9ddbb23d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickLeft@{LeftStickLeft}}
+\index{LeftStickLeft@{LeftStickLeft}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickLeft}{LeftStickLeft}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Stick\+Left\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 753 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a8f38e0cb6386e6776937775464ebc72e}\label{class_in_control_1_1_input_device_a8f38e0cb6386e6776937775464ebc72e}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickRight@{LeftStickRight}}
+\index{LeftStickRight@{LeftStickRight}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickRight}{LeftStickRight}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Stick\+Right\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 758 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ac1658e9c5adb671ec5b6ce4179d2bd0c}\label{class_in_control_1_1_input_device_ac1658e9c5adb671ec5b6ce4179d2bd0c}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickUp@{LeftStickUp}}
+\index{LeftStickUp@{LeftStickUp}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickUp}{LeftStickUp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Stick\+Up\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 743 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a611329caf85687b7fe6f2675dd00cf74}\label{class_in_control_1_1_input_device_a611329caf85687b7fe6f2675dd00cf74}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickX@{LeftStickX}}
+\index{LeftStickX@{LeftStickX}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickX}{LeftStickX}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+StickX\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 853 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ac2d6e183c300ee847ca3675d99104cf5}\label{class_in_control_1_1_input_device_ac2d6e183c300ee847ca3675d99104cf5}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftStickY@{LeftStickY}}
+\index{LeftStickY@{LeftStickY}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftStickY}{LeftStickY}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+StickY\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 858 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_ac3c31091129f3056b7a7e60753ef1ee7}\label{class_in_control_1_1_input_device_ac3c31091129f3056b7a7e60753ef1ee7}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!LeftTrigger@{LeftTrigger}}
+\index{LeftTrigger@{LeftTrigger}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{LeftTrigger}{LeftTrigger}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Left\+Trigger\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 823 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a179837f8a176c1f91bb5d5a50cbf6e52}\label{class_in_control_1_1_input_device_a179837f8a176c1f91bb5d5a50cbf6e52}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!MenuIsPressed@{MenuIsPressed}}
+\index{MenuIsPressed@{MenuIsPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{MenuIsPressed}{MenuIsPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Menu\+Is\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 590 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_af98b201d800dd9082b7f894c453c7f53}\label{class_in_control_1_1_input_device_af98b201d800dd9082b7f894c453c7f53}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!MenuWasPressed@{MenuWasPressed}}
+\index{MenuWasPressed@{MenuWasPressed}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{MenuWasPressed}{MenuWasPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Menu\+Was\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 597 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a795f75707281b6d7389522fb0121e124}\label{class_in_control_1_1_input_device_a795f75707281b6d7389522fb0121e124}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!MenuWasReleased@{MenuWasReleased}}
+\index{MenuWasReleased@{MenuWasReleased}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{MenuWasReleased}{MenuWasReleased}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Menu\+Was\+Released\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 604 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a85b61f3827983fe5524f92416a13da8d}\label{class_in_control_1_1_input_device_a85b61f3827983fe5524f92416a13da8d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Meta@{Meta}}
+\index{Meta@{Meta}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Meta}{Meta}}
+{\footnotesize\ttfamily string In\+Control.\+Input\+Device.\+Meta\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 14 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a4e42f774c1cf4b329552cfd63acf4b2c}\label{class_in_control_1_1_input_device_a4e42f774c1cf4b329552cfd63acf4b2c}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!Name@{Name}}
+\index{Name@{Name}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string In\+Control.\+Input\+Device.\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 13 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_af8a208299a52a1fdd39a8827f34e62e0}\label{class_in_control_1_1_input_device_af8a208299a52a1fdd39a8827f34e62e0}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!NumUnknownAnalogs@{NumUnknownAnalogs}}
+\index{NumUnknownAnalogs@{NumUnknownAnalogs}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{NumUnknownAnalogs}{NumUnknownAnalogs}}
+{\footnotesize\ttfamily virtual int In\+Control.\+Input\+Device.\+Num\+Unknown\+Analogs\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 927 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a0eaa13d87f3eb1b0482f29baafd19a96}\label{class_in_control_1_1_input_device_a0eaa13d87f3eb1b0482f29baafd19a96}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!NumUnknownButtons@{NumUnknownButtons}}
+\index{NumUnknownButtons@{NumUnknownButtons}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{NumUnknownButtons}{NumUnknownButtons}}
+{\footnotesize\ttfamily virtual int In\+Control.\+Input\+Device.\+Num\+Unknown\+Buttons\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 933 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_adfe6cd341162ca2f10e631050a5ad833}\label{class_in_control_1_1_input_device_adfe6cd341162ca2f10e631050a5ad833}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RawSticks@{RawSticks}}
+\index{RawSticks@{RawSticks}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RawSticks}{RawSticks}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Device.\+Raw\+Sticks\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 25 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_af699c6e32f0afbdd7af84bf85697100b}\label{class_in_control_1_1_input_device_af699c6e32f0afbdd7af84bf85697100b}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightBumper@{RightBumper}}
+\index{RightBumper@{RightBumper}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightBumper}{RightBumper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Bumper\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 838 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aa3ec8559208f319a804caa530fe3015d}\label{class_in_control_1_1_input_device_aa3ec8559208f319a804caa530fe3015d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStick@{RightStick}}
+\index{RightStick@{RightStick}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStick}{RightStick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_two_axis_input_control}{Two\+Axis\+Input\+Control}} In\+Control.\+Input\+Device.\+Right\+Stick\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 32 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a2c9f65ddec1df4075dd0b0184f0ffc07}\label{class_in_control_1_1_input_device_a2c9f65ddec1df4075dd0b0184f0ffc07}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickButton@{RightStickButton}}
+\index{RightStickButton@{RightStickButton}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickButton}{RightStickButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Stick\+Button\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 848 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a9ac69c0342529888a472642081a18ffb}\label{class_in_control_1_1_input_device_a9ac69c0342529888a472642081a18ffb}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickDown@{RightStickDown}}
+\index{RightStickDown@{RightStickDown}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickDown}{RightStickDown}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Stick\+Down\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 768 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a50a3ec90e322e5d9a8c70552dbe1595d}\label{class_in_control_1_1_input_device_a50a3ec90e322e5d9a8c70552dbe1595d}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickLeft@{RightStickLeft}}
+\index{RightStickLeft@{RightStickLeft}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickLeft}{RightStickLeft}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Stick\+Left\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 773 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1ffcddc34659d08f0bd064f37d827bab}\label{class_in_control_1_1_input_device_a1ffcddc34659d08f0bd064f37d827bab}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickRight@{RightStickRight}}
+\index{RightStickRight@{RightStickRight}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickRight}{RightStickRight}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Stick\+Right\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 778 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a3a50ecdcb61325a1bbaa87e6e3be2668}\label{class_in_control_1_1_input_device_a3a50ecdcb61325a1bbaa87e6e3be2668}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickUp@{RightStickUp}}
+\index{RightStickUp@{RightStickUp}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickUp}{RightStickUp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Stick\+Up\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 763 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_aee9a26848a4e6dc82416c28d4b300b78}\label{class_in_control_1_1_input_device_aee9a26848a4e6dc82416c28d4b300b78}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickX@{RightStickX}}
+\index{RightStickX@{RightStickX}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickX}{RightStickX}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+StickX\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 863 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a969e1f4326e3e9f267e9ff3e31fcd9e7}\label{class_in_control_1_1_input_device_a969e1f4326e3e9f267e9ff3e31fcd9e7}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightStickY@{RightStickY}}
+\index{RightStickY@{RightStickY}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightStickY}{RightStickY}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+StickY\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 868 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a771fda97d00d3f299f61e2c36d12dd7f}\label{class_in_control_1_1_input_device_a771fda97d00d3f299f61e2c36d12dd7f}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!RightTrigger@{RightTrigger}}
+\index{RightTrigger@{RightTrigger}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{RightTrigger}{RightTrigger}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}}?? In\+Control.\+Input\+Device.\+Right\+Trigger\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 828 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a1c6f73b47c2f9163e99c0b948effcec3}\label{class_in_control_1_1_input_device_a1c6f73b47c2f9163e99c0b948effcec3}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!SortOrder@{SortOrder}}
+\index{SortOrder@{SortOrder}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{SortOrder}{SortOrder}}
+{\footnotesize\ttfamily int In\+Control.\+Input\+Device.\+Sort\+Order\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+Definition at line 15 of file Input\+Device.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_input_device_a4b334152c26f072e227924c065ce1633}\label{class_in_control_1_1_input_device_a4b334152c26f072e227924c065ce1633}} 
+\index{InControl.InputDevice@{InControl.InputDevice}!this\mbox{[}InputControlType controlType\mbox{]}@{this[InputControlType controlType]}}
+\index{this\mbox{[}InputControlType controlType\mbox{]}@{this[InputControlType controlType]}!InControl.InputDevice@{InControl.InputDevice}}
+\doxysubsubsection{\texorpdfstring{this[InputControlType controlType]}{this[InputControlType controlType]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control}{Input\+Control}} In\+Control.\+Input\+Device.\+this\mbox{[}\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control\+Type\mbox{]}\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the control with the specified control type. If the control does not exist, {\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_control_a7ad1dd5eaa682a6107ebe996bf03b1d3}{Input\+Control.\+Null}}} is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control\+Type} & The control type of the control to get.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 184 of file Input\+Device.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Device/\mbox{\hyperlink{_input_device_8cs}{Input\+Device.\+cs}}\end{DoxyCompactItemize}

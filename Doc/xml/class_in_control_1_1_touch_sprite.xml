@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_sprite" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TouchSprite</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1aadde9baaf977ac1b7d87422ae2692f9c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" kindref="member">Sprite</ref></type>
+        <definition>Sprite InControl.TouchSprite.idleSprite</definition>
+        <argsstring></argsstring>
+        <name>idleSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="18" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1afc5bda1cc2adb332a03449f83bb1a8e1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" kindref="member">Sprite</ref></type>
+        <definition>Sprite InControl.TouchSprite.busySprite</definition>
+        <argsstring></argsstring>
+        <name>busySprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="21" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1aad364fd0c0704b4827e81ffcf11db38c" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color InControl.TouchSprite.idleColor</definition>
+        <argsstring></argsstring>
+        <name>idleColor</name>
+        <initializer>= new Color( 1.0f, 1.0f, 1.0f, 0.5f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="24" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1a28bb79683e60754b26db7abeebb2bb2a" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color InControl.TouchSprite.busyColor</definition>
+        <argsstring></argsstring>
+        <name>busyColor</name>
+        <initializer>= new Color( 1.0f, 1.0f, 1.0f, 1.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="27" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1a106e90053e9097aa3b2393eadab2c8b2" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a460db188c91485171a18b4c6e9464b38" kindref="member">TouchSpriteShape</ref></type>
+        <definition>TouchSpriteShape InControl.TouchSprite.shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <initializer>= <ref refid="namespace_in_control_1a460db188c91485171a18b4c6e9464b38a01733ae48f19ae284165e55dd2934b61" kindref="member">TouchSpriteShape.Oval</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="30" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1a8882b7c1676eded09d605ade696a0f95" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchSprite.sizeUnitType</definition>
+        <argsstring></argsstring>
+        <name>sizeUnitType</name>
+        <initializer>= <ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" kindref="member">TouchUnitType.Percent</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="33" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1a5df99d86c7c52734b07af68ca5bfa3ae" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchSprite.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <initializer>= new Vector2( 10.0f, 10.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="36" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1afdc24ab49f4a5128e9e6f9903e235445" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.lockAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>lockAspectRatio</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="39" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1a9cff8efcf0d3730dfa472c30229f2319" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchSprite.worldSize</definition>
+        <argsstring></argsstring>
+        <name>worldSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="42" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1adf9cd1e5915e0a1e5b44e97587b8a6e2" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject InControl.TouchSprite.spriteGameObject</definition>
+        <argsstring></argsstring>
+        <name>spriteGameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="44" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1abecc53a133e2de66474bfc0e8eb37b12" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer InControl.TouchSprite.spriteRenderer</definition>
+        <argsstring></argsstring>
+        <name>spriteRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="45" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_sprite_1aef959309ac6c8d2e6a3042ddeda7d8cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="46" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a08eef28e69d9757f508b53cfac32ca20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.Dirty</definition>
+        <argsstring></argsstring>
+        <name>Dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="48" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1aea9e467581956f9c740eb802f1d5d53d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.Ready</definition>
+        <argsstring></argsstring>
+        <name>Ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="49" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a9b96372a3ce3605d417f5695d97ddc9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="224" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="225" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1afa4e9c9930dd1b74ccd48c259a2821f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" kindref="member">Sprite</ref></type>
+        <definition>Sprite InControl.TouchSprite.BusySprite</definition>
+        <argsstring></argsstring>
+        <name>BusySprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="242" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="243" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a7be64f9000ad08d68cff43851fcbba33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" kindref="member">Sprite</ref></type>
+        <definition>Sprite InControl.TouchSprite.IdleSprite</definition>
+        <argsstring></argsstring>
+        <name>IdleSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="260" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="261" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Sprite</type>
+        <definition>Sprite InControl.TouchSprite.Sprite</definition>
+        <argsstring></argsstring>
+        <name>Sprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="278" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="279" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a74b190e0b7e96c677d396279948bf350" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color InControl.TouchSprite.BusyColor</definition>
+        <argsstring></argsstring>
+        <name>BusyColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="297" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="298" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a690af8f10897eda9a7b0fa6a5441a01e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color InControl.TouchSprite.IdleColor</definition>
+        <argsstring></argsstring>
+        <name>IdleColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="315" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="316" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a7ca6efffec2e64de9f13cd4772822676" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a460db188c91485171a18b4c6e9464b38" kindref="member">TouchSpriteShape</ref></type>
+        <definition>TouchSpriteShape InControl.TouchSprite.Shape</definition>
+        <argsstring></argsstring>
+        <name>Shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="333" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="334" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a5c657132e89a63a0aeae6686a3efa6cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchSprite.SizeUnitType</definition>
+        <argsstring></argsstring>
+        <name>SizeUnitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="351" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="352" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a1b36de6f2871f9aa3f816e95c764beef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchSprite.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="369" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="370" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1afaea4e70d6b087aa8c40f498c354a8c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchSprite.WorldSize</definition>
+        <argsstring></argsstring>
+        <name>WorldSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="387" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="388" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_sprite_1a3f1f24dbc5cdffa73963e8e161123bc4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3?</type>
+        <definition>Vector3? InControl.TouchSprite.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="396" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="397" bodyend="410"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a6e10d10f26f3e998164d7f15386fa41f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.TouchSprite.TouchSprite</definition>
+        <argsstring>()</argsstring>
+        <name>TouchSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="52" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1aaf27bf920a022a6fa6fd203ea860f500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.TouchSprite.TouchSprite</definition>
+        <argsstring>(float size)</argsstring>
+        <name>TouchSprite</name>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="57" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a8f64047f135b493d727a9e3c29ccded0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.Create</definition>
+        <argsstring>(string gameObjectName, Transform parentTransform, int sortingOrder)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>gameObjectName</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parentTransform</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortingOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="63" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a4341c0f42ab0dff95162860095d9859f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.Delete</definition>
+        <argsstring>()</argsstring>
+        <name>Delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="72" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="72" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a77cf0c77116294141233ba1e2f5b452c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="79" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1ad14687f743c6816283784d4ea8ea05c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.Update</definition>
+        <argsstring>(bool forceUpdate)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>bool</type>
+          <declname>forceUpdate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="85" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="85" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1af1daae183a9a50ad71b85d8338a0c517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.Contains</definition>
+        <argsstring>(Vector2 testWorldPoint)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>Vector2</type>
+          <declname>testWorldPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="188" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="188" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a4cd24dc75d2f84c03680b3723ba9e8e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.TouchSprite.Contains</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="205" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1ad269cee4b3b3144b22363b8afa3a1038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.DrawGizmos</definition>
+        <argsstring>(Vector3 position, Color color)</argsstring>
+        <name>DrawGizmos</name>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="211" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="211" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a7bb7c34eb5132f048ec4ebf0bda0f736" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject InControl.TouchSprite.CreateSpriteGameObject</definition>
+        <argsstring>(string name, Transform parentTransform)</argsstring>
+        <name>CreateSpriteGameObject</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parentTransform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="127" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="127" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a478b64e7e1f13aa7502d7082101c3e9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer InControl.TouchSprite.CreateSpriteRenderer</definition>
+        <argsstring>(GameObject spriteGameObject, Sprite sprite, int sortingOrder)</argsstring>
+        <name>CreateSpriteRenderer</name>
+        <param>
+          <type>GameObject</type>
+          <declname>spriteGameObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" kindref="member">Sprite</ref></type>
+          <declname>sprite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortingOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="138" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="138" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1a715ebec955f7df44ba48e6c5d328e053" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.ScaleSpriteInPixels</definition>
+        <argsstring>(GameObject spriteGameObject, SpriteRenderer spriteRenderer, Vector2 size)</argsstring>
+        <name>ScaleSpriteInPixels</name>
+        <param>
+          <type>GameObject</type>
+          <declname>spriteGameObject</declname>
+        </param>
+        <param>
+          <type>SpriteRenderer</type>
+          <declname>spriteRenderer</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="149" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="149" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_sprite_1ab5a4a3f68d627699f4298f1e99dca867" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSprite.ScaleSpriteInPercent</definition>
+        <argsstring>(GameObject spriteGameObject, SpriteRenderer spriteRenderer, Vector2 size)</argsstring>
+        <name>ScaleSpriteInPercent</name>
+        <param>
+          <type>GameObject</type>
+          <declname>spriteGameObject</declname>
+        </param>
+        <param>
+          <type>SpriteRenderer</type>
+          <declname>spriteRenderer</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="165" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="165" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="15" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="16" bodyend="411"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_sprite_1a28bb79683e60754b26db7abeebb2bb2a" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>busyColor</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a74b190e0b7e96c677d396279948bf350" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>BusyColor</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1afc5bda1cc2adb332a03449f83bb1a8e1" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>busySprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1afa4e9c9930dd1b74ccd48c259a2821f3" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>BusySprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1af1daae183a9a50ad71b85d8338a0c517" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Contains</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a4cd24dc75d2f84c03680b3723ba9e8e1" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Contains</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a8f64047f135b493d727a9e3c29ccded0" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Create</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a7bb7c34eb5132f048ec4ebf0bda0f736" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>CreateSpriteGameObject</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a478b64e7e1f13aa7502d7082101c3e9f" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>CreateSpriteRenderer</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a4341c0f42ab0dff95162860095d9859f" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Delete</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a08eef28e69d9757f508b53cfac32ca20" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Dirty</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1ad269cee4b3b3144b22363b8afa3a1038" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>DrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a690af8f10897eda9a7b0fa6a5441a01e" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>IdleColor</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1aad364fd0c0704b4827e81ffcf11db38c" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>idleColor</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a7be64f9000ad08d68cff43851fcbba33" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>IdleSprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1aadde9baaf977ac1b7d87422ae2692f9c" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>idleSprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1afdc24ab49f4a5128e9e6f9903e235445" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>lockAspectRatio</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a3f1f24dbc5cdffa73963e8e161123bc4" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Position</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1aea9e467581956f9c740eb802f1d5d53d" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Ready</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1ab5a4a3f68d627699f4298f1e99dca867" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>ScaleSpriteInPercent</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a715ebec955f7df44ba48e6c5d328e053" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>ScaleSpriteInPixels</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a106e90053e9097aa3b2393eadab2c8b2" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>shape</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a7ca6efffec2e64de9f13cd4772822676" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Shape</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a1b36de6f2871f9aa3f816e95c764beef" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Size</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a5df99d86c7c52734b07af68ca5bfa3ae" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>size</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a5c657132e89a63a0aeae6686a3efa6cd" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>SizeUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a8882b7c1676eded09d605ade696a0f95" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>sizeUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1ac2a213899a8822f3f08bf9673fc114e6" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Sprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1adf9cd1e5915e0a1e5b44e97587b8a6e2" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>spriteGameObject</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1abecc53a133e2de66474bfc0e8eb37b12" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>spriteRenderer</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a9b96372a3ce3605d417f5695d97ddc9a" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1aef959309ac6c8d2e6a3042ddeda7d8cc" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>state</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a6e10d10f26f3e998164d7f15386fa41f" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>TouchSprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1aaf27bf920a022a6fa6fd203ea860f500" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>TouchSprite</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a77cf0c77116294141233ba1e2f5b452c" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1ad14687f743c6816283784d4ea8ea05c4" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1a9cff8efcf0d3730dfa472c30229f2319" prot="private" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>worldSize</name></member>
+      <member refid="class_in_control_1_1_touch_sprite_1afaea4e70d6b087aa8c40f498c354a8c8" prot="public" virt="non-virtual"><scope>InControl::TouchSprite</scope><name>WorldSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

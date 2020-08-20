@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_e22b51881c5db392a4cabd5724f31954" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Android</compoundname>
+    <innerfile refid="_android_t_v_mi_box_remote_unity_profile_8cs">AndroidTVMiBoxRemoteUnityProfile.cs</innerfile>
+    <innerfile refid="_android_t_v_remote_unity_profile_8cs">AndroidTVRemoteUnityProfile.cs</innerfile>
+    <innerfile refid="_android_t_v_unity_profile_8cs">AndroidTVUnityProfile.cs</innerfile>
+    <innerfile refid="_beboncool_d_a015_c_a_android_unity_profile_8cs">BeboncoolDA015CAAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_betop_b_t_p_a_x1_t_android_unity_profile_8cs">BetopBTPAX1TAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_betop_b_t_p_generic_android_unity_profile_8cs">BetopBTPGenericAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_b_t_c938_android_unity_profile_8cs">BTC938AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_droid_box_p_s3_android_unity_profile_8cs">DroidBoxPS3AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_droid_box_xbox_android_unity_profile_8cs">DroidBoxXboxAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_easy_smx_esm9101_android_unity_profile_8cs">EasySmxEsm9101AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_f_c30_pro_android_unity_profile_8cs">EightBitdoFC30ProAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_generic_android_unity_profile_8cs">EightBitdoGenericAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_n30_pro2_android_unity_profile_8cs">EightBitdoN30Pro2AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_n_e_s30_pro_android_unity_profile_8cs">EightBitdoNES30ProAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_f30_pro_android_unity_profile_8cs">EightBitdoSF30ProAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_f_c30_android_unity_profile_8cs">EightBitdoSFC30AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_n30_pro_android_unity_profile_8cs">EightBitdoSN30ProAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_n_e_s30_android_unity_profile_8cs">EightBitdoSNES30AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_fix_x_b_g301_android_unity_profile_8cs">FixXBG301AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_flare_android_unity_profile_8cs">FlareAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_flare_play_android_unity_profile_8cs">FlarePlayAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_game_sir_g3s_android_unity_profile_8cs">GameSirG3sAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_game_sir_g3w_android_unity_profile_8cs">GameSirG3wAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_game_sir_g4s_android_unity_profile_8cs">GameSirG4sAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_generic_android_unity_profile_8cs">GenericAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_green_throttle_atlas_android_unity_profile_8cs">GreenThrottleAtlasAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9021_android_unity_profile_8cs">IpegaPG9021AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9023_android_unity_profile_8cs">IpegaPG9023AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9025_android_unity_profile_8cs">IpegaPG9025AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9037_android_unity_profile_8cs">IpegaPG9037AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9055_android_unity_profile_8cs">IpegaPG9055AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_ipega_p_g9068_android_unity_profile_8cs">IpegaPG9068AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_mad_catz_c_t_r_l_r_android_unity_profile_8cs">MadCatzCTRLRAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_moga_hero_power_android_unity_profile_8cs">MogaHeroPowerAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_moga_pro_android_unity_profile_8cs">MogaProAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_moga_pro_power_android_unity_profile_8cs">MogaProPowerAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_nexus_player_android_unity_profile_8cs">NexusPlayerAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_nexus_player_remote_android_unity_profile_8cs">NexusPlayerRemoteAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_n_vidia_shield2016_android_unity_profile_8cs">NVidiaShield2016AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_n_vidia_shield2017_android_unity_profile_8cs">NVidiaShield2017AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_n_vidia_shield2017_n_vidia_shield_unity_profile_8cs">NVidiaShield2017NVidiaShieldUnityProfile.cs</innerfile>
+    <innerfile refid="_nvidia_shield_remote_android_unity_profile_8cs">NvidiaShieldRemoteAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station3_android_unity_profile_8cs">PlayStation3AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_android_unity_profile_8cs">PlayStation4AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_android_xperia_z5_unity_profile_8cs">PlayStation4AndroidXperiaZ5UnityProfile.cs</innerfile>
+    <innerfile refid="_red_samurai_android_unity_profile_8cs">RedSamuraiAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_samsung_g_p20_android_unity_profile_8cs">SamsungGP20AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_steel_series_free_android_unity_profile_8cs">SteelSeriesFreeAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_steel_series_stratus_x_l_android_unity_profile_8cs">SteelSeriesStratusXLAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_android_unity_profile_8cs">Xbox360AndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_rock_candy_android_unity_profile_8cs">Xbox360RockCandyAndroidUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_bluetooth_android_unity_profile_8cs">XboxOneBluetoothAndroidUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Android/"/>
+  </compounddef>
+</doxygen>

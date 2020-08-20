@@ -1,0 +1,684 @@
+\hypertarget{class_in_control_1_1_player_action}{}\doxysection{In\+Control.\+Player\+Action Class Reference}
+\label{class_in_control_1_1_player_action}\index{InControl.PlayerAction@{InControl.PlayerAction}}
+
+
+This class represents a single action that may have multiple controls bound to it. A bound control is represented by a subclass of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. For example, \mbox{\hyperlink{class_in_control_1_1_device_binding_source}{Device\+Binding\+Source}} provides input from a control on any supported \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. Similarly, \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} provides input from one or more keypresses. An action may have any number of bindings. Actions have two groups of bindings defined\+: default bindings and regular bindings. Default bindings are the predefined default bindings, and the current bindings for the action can be reset to this group in a single operation. Regular bindings are those added by users, most likely at runtime in a settings menu or the like. There are no other distinctions between these groupings; they are purely for organizational convenience.  
+
+
+Inheritance diagram for In\+Control.\+Player\+Action\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_in_control_1_1_player_action}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action_a6b2dd65b9f91bd39c0b89d8bffba51c7}{Player\+Action}} (string name, \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} owner)
+\begin{DoxyCompactList}\small\item\em Construct an action belonging to a given action set. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a9bcb3dd2ec46f428d04f741fe5369a7d}{Add\+Default\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Adds a default binding for the action. This will also add it to the regular bindings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a26d82b1a76814337977579bedcd5a3c2}{Add\+Default\+Binding}} (params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]} keys)
+\begin{DoxyCompactList}\small\item\em A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} to the default bindings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_aee9be6ad55814d59f11bb04c9450ca15}{Add\+Default\+Binding}} (\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} key\+Combo)
+\begin{DoxyCompactList}\small\item\em A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} to the default bindings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a7d96b121b24ff50d8a0af7a87ce001bb}{Add\+Default\+Binding}} (\mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}} control)
+\begin{DoxyCompactList}\small\item\em A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source}{Mouse\+Binding\+Source}} to the default bindings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a9b3f3e9bed389bb8af978fc5e2a6a0b2}{Add\+Default\+Binding}} (\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}} control)
+\begin{DoxyCompactList}\small\item\em A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_device_binding_source}{Device\+Binding\+Source}} to the default bindings. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_afce6fd8d05d6ad7833fd92d5f58e50d1}{Add\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Add a regular binding to the action. A binding cannot be added if it matches an existing binding on the action, or if it is already bound to another action. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_aadde5bf3f6614d2fb440c05eced010e3}{Insert\+Binding\+At}} (int index, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Insert a regular binding to the action at the specified index. A binding cannot be inserted if it matches an existing binding on the action, or if it is already bound to another action. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_a1bb914446c5498834dfcab894c8e7ce8}{Replace\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} find\+Binding, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} with\+Binding)
+\begin{DoxyCompactList}\small\item\em Add a regular binding to the action replacing an existing binding. A binding cannot be added if is already bound to another action. If the binding to replace is not present on this action, the binding will not be added. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_aa2651a4e1aa3efdbe4930fcce7320553}{Has\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Searches all the bindings on this action to see if any that match the provided binding object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} \mbox{\hyperlink{class_in_control_1_1_player_action_acfaa9ca2433357ab09443964cd9528a8}{Find\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Searches all the bindings on this action to see if any that match the provided binding object and, if found, returns it. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a2919bc1a4aa88b1a276acb1191b7133e}{Remove\+Binding}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Searches all the bindings on this action to see if any that match the provided binding object and, if found, removes it. N\+O\+TE\+: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_ac85325c24fb772e16b1e811520468eb0}{Remove\+Binding\+At}} (int index)
+\begin{DoxyCompactList}\small\item\em Removes the binding at the specified index from the action. Note\+: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_abe9862bf305ab5f23bd53d868cb54ab4}{Clear\+Bindings}} ()
+\begin{DoxyCompactList}\small\item\em Clears the bindings for this action. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a0aece81ebdc4b78edd99f65e48204975}{Reset\+Bindings}} ()
+\begin{DoxyCompactList}\small\item\em Resets the bindings to the default bindings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a77cdcf2daa0e6a276d2b5fb6a4f2b2e9}{Listen\+For\+Binding}} ()
+\begin{DoxyCompactList}\small\item\em Begin listening for a new user defined binding. Which types of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} are detected depends on the value of Listen\+Options and Default\+Listen\+Options. Once one is found, it will be added to the regular bindings for the action and listening will stop. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_ac88200ed2e7e2a4c21a7d17dbb69eed5}{Listen\+For\+Binding\+Replacing}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} binding)
+\begin{DoxyCompactList}\small\item\em Begin listening for a new user defined binding, replacing an existing specified binding. If the binding to replace is not present on this action, the new binding will fail to be added. Which types of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} are detected depends on the value of Listen\+Options and Default\+Listen\+Options. Once one is found, it will be added to the regular bindings for the action and listening will stop. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_in_control_1_1_player_action_a3ec62ce6877c274f9d2ae0f989d95f25}{Stop\+Listening\+For\+Binding}} ()
+\begin{DoxyCompactList}\small\item\em Stop listening for new user defined bindings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_in_control_1_1_binding_listen_options}{Binding\+Listen\+Options}} \mbox{\hyperlink{class_in_control_1_1_player_action_a2ed649267f4f141292294bee57340e7c}{Listen\+Options}} = null
+\begin{DoxyCompactList}\small\item\em Configures how this action listens for new bindings. When {\ttfamily null} (default) the owner\textquotesingle{}s \mbox{\hyperlink{class_in_control_1_1_player_action_set_a4e67b7ac47fe5bc25cb3f510fbb39901}{Player\+Action\+Set.\+Listen\+Options}} will be used. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_in_control_1_1_player_action_a77cdcf2daa0e6a276d2b5fb6a4f2b2e9}{Listen\+For\+Binding()}}
+
+
+\end{DoxySeeAlso}
+\end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} \mbox{\hyperlink{class_in_control_1_1_player_action_aec1389bf83327ca9e37f0cd94a5f30b6}{Last\+Input\+Type}} = \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754}{Binding\+Source\+Type.\+None}}
+\begin{DoxyCompactList}\small\item\em The binding source type that last provided input to this action. \end{DoxyCompactList}\item 
+ulong \mbox{\hyperlink{class_in_control_1_1_player_action_a47c592a0d56e9961f2729dca5d36760d}{Last\+Input\+Type\+Changed\+Tick}}
+\begin{DoxyCompactList}\small\item\em Updated when \mbox{\hyperlink{class_in_control_1_1_player_action_aec1389bf83327ca9e37f0cd94a5f30b6}{Last\+Input\+Type}} changes. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} \mbox{\hyperlink{class_in_control_1_1_player_action_aa3f9fc3f8398cc98159ac5bb6eab2e76}{Last\+Device\+Class}} = \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Class.\+Unknown}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} of the binding source that last provided input to this action. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} \mbox{\hyperlink{class_in_control_1_1_player_action_a1dfb8960b115bee9b7f511279281a328}{Last\+Device\+Style}} = \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Style.\+Unknown}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} of the binding source that last provided input to this action. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_in_control_1_1_player_action_a4596efffef7b22974c2406e7f3959468}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The unique identifier for this action within the context of its owning action set. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} \mbox{\hyperlink{class_in_control_1_1_player_action_a6e20fde89f27c0bd6fea82a21044a3cf}{Owner}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the owning action set containing this action. \end{DoxyCompactList}\item 
+object \mbox{\hyperlink{class_in_control_1_1_player_action_a9708d5dfedd7512834abedcd6cab1acb}{User\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em This property can be used to store whatever arbitrary game data you want on this action. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_in_control_1_1_player_action_aebe720a077d93a43f1e24b55d5d04727}{Is\+Listening\+For\+Binding}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether this action is listening for new user defined bindings. \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_aee5a6758e9385ba9afd21f42d27803ac}{Bindings}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the valid (in context of the current device) bindings for this action as a readonly collection. What this means is, if your current active controller is an Xbox One controller and you have \mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3aadae8ace18bdcbcc6ae5aece263e14fe8}{Input\+Control\+Type.\+Options}} bound, it will not be included. This is generally the bindings you should display unless you are doing something custom. \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_a84a08118acf3e36c0acd7da2cda6060b}{Unfiltered\+Bindings}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets A\+LL bindings for this action (including ones that don\textquotesingle{}t make sense for the current device) as a readonly collection. Use of this collection is not recommended unless you really need unfettered access to all the bindings on an action. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}?? \mbox{\hyperlink{class_in_control_1_1_player_action_ac811de300a5e18a7e11dbbcbebd64661}{Active\+Device}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to this action. When Last\+Input\+Type is not a device (controller), this will return the null device. \end{DoxyCompactList}\item 
+new float \mbox{\hyperlink{class_in_control_1_1_player_action_a758e0509bae4cf29de1ab07e51cef150}{Lower\+Dead\+Zone}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+new float \mbox{\hyperlink{class_in_control_1_1_player_action_ab36e7341dd7f70017c21ef580a838e53}{Upper\+Dead\+Zone}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} $>$ \mbox{\hyperlink{class_in_control_1_1_player_action_a135ef2d110eebadd8fa3855144844e00}{On\+Last\+Input\+Type\+Changed}}
+\begin{DoxyCompactList}\small\item\em This event is triggered when the binding source type that last provided input to this action changes. \end{DoxyCompactList}\item 
+Action \mbox{\hyperlink{class_in_control_1_1_player_action_a21a4c42a7fcb785119e2b59d65907da6}{On\+Bindings\+Changed}}
+\begin{DoxyCompactList}\small\item\em This event is triggered if bindings on an action are added or removed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This class represents a single action that may have multiple controls bound to it. A bound control is represented by a subclass of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. For example, \mbox{\hyperlink{class_in_control_1_1_device_binding_source}{Device\+Binding\+Source}} provides input from a control on any supported \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. Similarly, \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} provides input from one or more keypresses. An action may have any number of bindings. Actions have two groups of bindings defined\+: default bindings and regular bindings. Default bindings are the predefined default bindings, and the current bindings for the action can be reset to this group in a single operation. Regular bindings are those added by users, most likely at runtime in a settings menu or the like. There are no other distinctions between these groupings; they are purely for organizational convenience. 
+
+
+
+Definition at line 22 of file Player\+Action.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a6b2dd65b9f91bd39c0b89d8bffba51c7}\label{class_in_control_1_1_player_action_a6b2dd65b9f91bd39c0b89d8bffba51c7}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!PlayerAction@{PlayerAction}}
+\index{PlayerAction@{PlayerAction}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{PlayerAction()}{PlayerAction()}}
+{\footnotesize\ttfamily In\+Control.\+Player\+Action.\+Player\+Action (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}}}]{owner }\end{DoxyParamCaption})}
+
+
+
+Construct an action belonging to a given action set. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & A unique identifier for this action within the context of its owning action set.\\
+\hline
+{\em owner} & The action set to contain (own) this action.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 100 of file Player\+Action.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_afce6fd8d05d6ad7833fd92d5f58e50d1}\label{class_in_control_1_1_player_action_afce6fd8d05d6ad7833fd92d5f58e50d1}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddBinding@{AddBinding}}
+\index{AddBinding@{AddBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddBinding()}{AddBinding()}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action.\+Add\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Add a regular binding to the action. A binding cannot be added if it matches an existing binding on the action, or if it is already bound to another action. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if binding was added, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to add.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 194 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a9bcb3dd2ec46f428d04f741fe5369a7d}\label{class_in_control_1_1_player_action_a9bcb3dd2ec46f428d04f741fe5369a7d}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddDefaultBinding@{AddDefaultBinding}}
+\index{AddDefaultBinding@{AddDefaultBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddDefaultBinding()}{AddDefaultBinding()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Add\+Default\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Adds a default binding for the action. This will also add it to the regular bindings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to add.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 115 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a9b3f3e9bed389bb8af978fc5e2a6a0b2}\label{class_in_control_1_1_player_action_a9b3f3e9bed389bb8af978fc5e2a6a0b2}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddDefaultBinding@{AddDefaultBinding}}
+\index{AddDefaultBinding@{AddDefaultBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddDefaultBinding()}{AddDefaultBinding()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Add\+Default\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3a}{Input\+Control\+Type}}}]{control }\end{DoxyParamCaption})}
+
+
+
+A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_device_binding_source}{Device\+Binding\+Source}} to the default bindings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & The Input\+Control\+Type to add.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 182 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aee9be6ad55814d59f11bb04c9450ca15}\label{class_in_control_1_1_player_action_aee9be6ad55814d59f11bb04c9450ca15}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddDefaultBinding@{AddDefaultBinding}}
+\index{AddDefaultBinding@{AddDefaultBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddDefaultBinding()}{AddDefaultBinding()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Add\+Default\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}}}]{key\+Combo }\end{DoxyParamCaption})}
+
+
+
+A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} to the default bindings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+Combo} & A \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} for the binding source.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 162 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a7d96b121b24ff50d8a0af7a87ce001bb}\label{class_in_control_1_1_player_action_a7d96b121b24ff50d8a0af7a87ce001bb}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddDefaultBinding@{AddDefaultBinding}}
+\index{AddDefaultBinding@{AddDefaultBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddDefaultBinding()}{AddDefaultBinding()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Add\+Default\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a75840029eafac4d65146eaa4bc50fc94}{Mouse}}}]{control }\end{DoxyParamCaption})}
+
+
+
+A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source}{Mouse\+Binding\+Source}} to the default bindings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & The Mouse control to add.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 172 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a26d82b1a76814337977579bedcd5a3c2}\label{class_in_control_1_1_player_action_a26d82b1a76814337977579bedcd5a3c2}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!AddDefaultBinding@{AddDefaultBinding}}
+\index{AddDefaultBinding@{AddDefaultBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{AddDefaultBinding()}{AddDefaultBinding()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Add\+Default\+Binding (\begin{DoxyParamCaption}\item[{params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]}}]{keys }\end{DoxyParamCaption})}
+
+
+
+A convenience method for adding a \mbox{\hyperlink{class_in_control_1_1_key_binding_source}{Key\+Binding\+Source}} to the default bindings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em keys} & A list of one or more keys making up a \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} for the binding source.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 152 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_abe9862bf305ab5f23bd53d868cb54ab4}\label{class_in_control_1_1_player_action_abe9862bf305ab5f23bd53d868cb54ab4}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ClearBindings@{ClearBindings}}
+\index{ClearBindings@{ClearBindings}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ClearBindings()}{ClearBindings()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Clear\+Bindings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the bindings for this action. 
+
+
+
+Definition at line 491 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_acfaa9ca2433357ab09443964cd9528a8}\label{class_in_control_1_1_player_action_acfaa9ca2433357ab09443964cd9528a8}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!FindBinding@{FindBinding}}
+\index{FindBinding@{FindBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{FindBinding()}{FindBinding()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} In\+Control.\+Player\+Action.\+Find\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Searches all the bindings on this action to see if any that match the provided binding object and, if found, returns it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} template to search for.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 350 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aa2651a4e1aa3efdbe4930fcce7320553}\label{class_in_control_1_1_player_action_aa2651a4e1aa3efdbe4930fcce7320553}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!HasBinding@{HasBinding}}
+\index{HasBinding@{HasBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{HasBinding()}{HasBinding()}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action.\+Has\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Searches all the bindings on this action to see if any that match the provided binding object. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if a matching binding is found on this action, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} template to search for.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 328 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aadde5bf3f6614d2fb440c05eced010e3}\label{class_in_control_1_1_player_action_aadde5bf3f6614d2fb440c05eced010e3}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!InsertBindingAt@{InsertBindingAt}}
+\index{InsertBindingAt@{InsertBindingAt}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{InsertBindingAt()}{InsertBindingAt()}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action.\+Insert\+Binding\+At (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Insert a regular binding to the action at the specified index. A binding cannot be inserted if it matches an existing binding on the action, or if it is already bound to another action. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if binding was inserted, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index at which to insert.\\
+\hline
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to insert.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 234 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a77cdcf2daa0e6a276d2b5fb6a4f2b2e9}\label{class_in_control_1_1_player_action_a77cdcf2daa0e6a276d2b5fb6a4f2b2e9}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ListenForBinding@{ListenForBinding}}
+\index{ListenForBinding@{ListenForBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ListenForBinding()}{ListenForBinding()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Listen\+For\+Binding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Begin listening for a new user defined binding. Which types of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} are detected depends on the value of Listen\+Options and Default\+Listen\+Options. Once one is found, it will be added to the regular bindings for the action and listening will stop. 
+
+
+
+Definition at line 537 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_ac88200ed2e7e2a4c21a7d17dbb69eed5}\label{class_in_control_1_1_player_action_ac88200ed2e7e2a4c21a7d17dbb69eed5}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ListenForBindingReplacing@{ListenForBindingReplacing}}
+\index{ListenForBindingReplacing@{ListenForBindingReplacing}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ListenForBindingReplacing()}{ListenForBindingReplacing()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Listen\+For\+Binding\+Replacing (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Begin listening for a new user defined binding, replacing an existing specified binding. If the binding to replace is not present on this action, the new binding will fail to be added. Which types of \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} are detected depends on the value of Listen\+Options and Default\+Listen\+Options. Once one is found, it will be added to the regular bindings for the action and listening will stop. 
+
+
+
+Definition at line 549 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a2919bc1a4aa88b1a276acb1191b7133e}\label{class_in_control_1_1_player_action_a2919bc1a4aa88b1a276acb1191b7133e}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!RemoveBinding@{RemoveBinding}}
+\index{RemoveBinding@{RemoveBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{RemoveBinding()}{RemoveBinding()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Remove\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Searches all the bindings on this action to see if any that match the provided binding object and, if found, removes it. N\+O\+TE\+: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} template to search for.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 406 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_ac85325c24fb772e16b1e811520468eb0}\label{class_in_control_1_1_player_action_ac85325c24fb772e16b1e811520468eb0}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!RemoveBindingAt@{RemoveBindingAt}}
+\index{RemoveBindingAt@{RemoveBindingAt}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{RemoveBindingAt()}{RemoveBindingAt()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Remove\+Binding\+At (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Removes the binding at the specified index from the action. Note\+: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index of the \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} in the Bindings collection to remove.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 427 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a1bb914446c5498834dfcab894c8e7ce8}\label{class_in_control_1_1_player_action_a1bb914446c5498834dfcab894c8e7ce8}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ReplaceBinding@{ReplaceBinding}}
+\index{ReplaceBinding@{ReplaceBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ReplaceBinding()}{ReplaceBinding()}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action.\+Replace\+Binding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{find\+Binding,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{with\+Binding }\end{DoxyParamCaption})}
+
+
+
+Add a regular binding to the action replacing an existing binding. A binding cannot be added if is already bound to another action. If the binding to replace is not present on this action, the binding will not be added. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if binding was added, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em find\+Binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to replace.\\
+\hline
+{\em with\+Binding} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to replace it with.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 285 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a0aece81ebdc4b78edd99f65e48204975}\label{class_in_control_1_1_player_action_a0aece81ebdc4b78edd99f65e48204975}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ResetBindings@{ResetBindings}}
+\index{ResetBindings@{ResetBindings}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ResetBindings()}{ResetBindings()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Reset\+Bindings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resets the bindings to the default bindings. 
+
+
+
+Definition at line 509 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a3ec62ce6877c274f9d2ae0f989d95f25}\label{class_in_control_1_1_player_action_a3ec62ce6877c274f9d2ae0f989d95f25}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!StopListeningForBinding@{StopListeningForBinding}}
+\index{StopListeningForBinding@{StopListeningForBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{StopListeningForBinding()}{StopListeningForBinding()}}
+{\footnotesize\ttfamily void In\+Control.\+Player\+Action.\+Stop\+Listening\+For\+Binding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Stop listening for new user defined bindings. 
+
+
+
+Definition at line 567 of file Player\+Action.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aa3f9fc3f8398cc98159ac5bb6eab2e76}\label{class_in_control_1_1_player_action_aa3f9fc3f8398cc98159ac5bb6eab2e76}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!LastDeviceClass@{LastDeviceClass}}
+\index{LastDeviceClass@{LastDeviceClass}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{LastDeviceClass}{LastDeviceClass}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} In\+Control.\+Player\+Action.\+Last\+Device\+Class = \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Class.\+Unknown}}}
+
+
+
+The \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} of the binding source that last provided input to this action. 
+
+
+
+Definition at line 59 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a1dfb8960b115bee9b7f511279281a328}\label{class_in_control_1_1_player_action_a1dfb8960b115bee9b7f511279281a328}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!LastDeviceStyle@{LastDeviceStyle}}
+\index{LastDeviceStyle@{LastDeviceStyle}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{LastDeviceStyle}{LastDeviceStyle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} In\+Control.\+Player\+Action.\+Last\+Device\+Style = \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e}{Input\+Device\+Style.\+Unknown}}}
+
+
+
+The \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} of the binding source that last provided input to this action. 
+
+
+
+Definition at line 64 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aec1389bf83327ca9e37f0cd94a5f30b6}\label{class_in_control_1_1_player_action_aec1389bf83327ca9e37f0cd94a5f30b6}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!LastInputType@{LastInputType}}
+\index{LastInputType@{LastInputType}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{LastInputType}{LastInputType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} In\+Control.\+Player\+Action.\+Last\+Input\+Type = \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754}{Binding\+Source\+Type.\+None}}}
+
+
+
+The binding source type that last provided input to this action. 
+
+
+
+Definition at line 44 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a47c592a0d56e9961f2729dca5d36760d}\label{class_in_control_1_1_player_action_a47c592a0d56e9961f2729dca5d36760d}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!LastInputTypeChangedTick@{LastInputTypeChangedTick}}
+\index{LastInputTypeChangedTick@{LastInputTypeChangedTick}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{LastInputTypeChangedTick}{LastInputTypeChangedTick}}
+{\footnotesize\ttfamily ulong In\+Control.\+Player\+Action.\+Last\+Input\+Type\+Changed\+Tick}
+
+
+
+Updated when \mbox{\hyperlink{class_in_control_1_1_player_action_aec1389bf83327ca9e37f0cd94a5f30b6}{Last\+Input\+Type}} changes. 
+
+
+
+Definition at line 54 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a2ed649267f4f141292294bee57340e7c}\label{class_in_control_1_1_player_action_a2ed649267f4f141292294bee57340e7c}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ListenOptions@{ListenOptions}}
+\index{ListenOptions@{ListenOptions}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ListenOptions}{ListenOptions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_binding_listen_options}{Binding\+Listen\+Options}} In\+Control.\+Player\+Action.\+Listen\+Options = null}
+
+
+
+Configures how this action listens for new bindings. When {\ttfamily null} (default) the owner\textquotesingle{}s \mbox{\hyperlink{class_in_control_1_1_player_action_set_a4e67b7ac47fe5bc25cb3f510fbb39901}{Player\+Action\+Set.\+Listen\+Options}} will be used. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_in_control_1_1_player_action_a77cdcf2daa0e6a276d2b5fb6a4f2b2e9}{Listen\+For\+Binding()}}
+
+
+\end{DoxySeeAlso}
+
+
+
+
+Definition at line 39 of file Player\+Action.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_ac811de300a5e18a7e11dbbcbebd64661}\label{class_in_control_1_1_player_action_ac811de300a5e18a7e11dbbcbebd64661}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!ActiveDevice@{ActiveDevice}}
+\index{ActiveDevice@{ActiveDevice}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{ActiveDevice}{ActiveDevice}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}?? In\+Control.\+Player\+Action.\+Active\+Device\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to this action. When Last\+Input\+Type is not a device (controller), this will return the null device. 
+
+
+
+Definition at line 862 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aee5a6758e9385ba9afd21f42d27803ac}\label{class_in_control_1_1_player_action_aee5a6758e9385ba9afd21f42d27803ac}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!Bindings@{Bindings}}
+\index{Bindings@{Bindings}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{Bindings}{Bindings}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}$>$ In\+Control.\+Player\+Action.\+Bindings\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the valid (in context of the current device) bindings for this action as a readonly collection. What this means is, if your current active controller is an Xbox One controller and you have \mbox{\hyperlink{namespace_in_control_a182fc07c0fa4922faa248b81f403fb3aadae8ace18bdcbcc6ae5aece263e14fe8}{Input\+Control\+Type.\+Options}} bound, it will not be included. This is generally the bindings you should display unless you are doing something custom. 
+
+
+
+Definition at line 591 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_aebe720a077d93a43f1e24b55d5d04727}\label{class_in_control_1_1_player_action_aebe720a077d93a43f1e24b55d5d04727}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!IsListeningForBinding@{IsListeningForBinding}}
+\index{IsListeningForBinding@{IsListeningForBinding}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{IsListeningForBinding}{IsListeningForBinding}}
+{\footnotesize\ttfamily bool In\+Control.\+Player\+Action.\+Is\+Listening\+For\+Binding\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets a value indicating whether this action is listening for new user defined bindings. 
+
+
+
+Definition at line 580 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a758e0509bae4cf29de1ab07e51cef150}\label{class_in_control_1_1_player_action_a758e0509bae4cf29de1ab07e51cef150}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!LowerDeadZone@{LowerDeadZone}}
+\index{LowerDeadZone@{LowerDeadZone}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{LowerDeadZone}{LowerDeadZone}}
+{\footnotesize\ttfamily new float In\+Control.\+Player\+Action.\+Lower\+Dead\+Zone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 879 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a4596efffef7b22974c2406e7f3959468}\label{class_in_control_1_1_player_action_a4596efffef7b22974c2406e7f3959468}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!Name@{Name}}
+\index{Name@{Name}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string In\+Control.\+Player\+Action.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The unique identifier for this action within the context of its owning action set. 
+
+
+
+Definition at line 27 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a6e20fde89f27c0bd6fea82a21044a3cf}\label{class_in_control_1_1_player_action_a6e20fde89f27c0bd6fea82a21044a3cf}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!Owner@{Owner}}
+\index{Owner@{Owner}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{Owner}{Owner}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_in_control_1_1_player_action_set}{Player\+Action\+Set}} In\+Control.\+Player\+Action.\+Owner\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the owning action set containing this action. 
+
+
+
+Definition at line 32 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a84a08118acf3e36c0acd7da2cda6060b}\label{class_in_control_1_1_player_action_a84a08118acf3e36c0acd7da2cda6060b}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!UnfilteredBindings@{UnfilteredBindings}}
+\index{UnfilteredBindings@{UnfilteredBindings}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{UnfilteredBindings}{UnfilteredBindings}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}$>$ In\+Control.\+Player\+Action.\+Unfiltered\+Bindings\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets A\+LL bindings for this action (including ones that don\textquotesingle{}t make sense for the current device) as a readonly collection. Use of this collection is not recommended unless you really need unfettered access to all the bindings on an action. 
+
+
+
+Definition at line 601 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_ab36e7341dd7f70017c21ef580a838e53}\label{class_in_control_1_1_player_action_ab36e7341dd7f70017c21ef580a838e53}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!UpperDeadZone@{UpperDeadZone}}
+\index{UpperDeadZone@{UpperDeadZone}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{UpperDeadZone}{UpperDeadZone}}
+{\footnotesize\ttfamily new float In\+Control.\+Player\+Action.\+Upper\+Dead\+Zone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 893 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a9708d5dfedd7512834abedcd6cab1acb}\label{class_in_control_1_1_player_action_a9708d5dfedd7512834abedcd6cab1acb}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!UserData@{UserData}}
+\index{UserData@{UserData}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{UserData}{UserData}}
+{\footnotesize\ttfamily object In\+Control.\+Player\+Action.\+User\+Data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+This property can be used to store whatever arbitrary game data you want on this action. 
+
+
+
+Definition at line 74 of file Player\+Action.\+cs.
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a21a4c42a7fcb785119e2b59d65907da6}\label{class_in_control_1_1_player_action_a21a4c42a7fcb785119e2b59d65907da6}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!OnBindingsChanged@{OnBindingsChanged}}
+\index{OnBindingsChanged@{OnBindingsChanged}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{OnBindingsChanged}{OnBindingsChanged}}
+{\footnotesize\ttfamily Action In\+Control.\+Player\+Action.\+On\+Bindings\+Changed}
+
+
+
+This event is triggered if bindings on an action are added or removed. 
+
+
+
+Definition at line 69 of file Player\+Action.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_player_action_a135ef2d110eebadd8fa3855144844e00}\label{class_in_control_1_1_player_action_a135ef2d110eebadd8fa3855144844e00}} 
+\index{InControl.PlayerAction@{InControl.PlayerAction}!OnLastInputTypeChanged@{OnLastInputTypeChanged}}
+\index{OnLastInputTypeChanged@{OnLastInputTypeChanged}!InControl.PlayerAction@{InControl.PlayerAction}}
+\doxysubsubsection{\texorpdfstring{OnLastInputTypeChanged}{OnLastInputTypeChanged}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}}$>$ In\+Control.\+Player\+Action.\+On\+Last\+Input\+Type\+Changed}
+
+
+
+This event is triggered when the binding source type that last provided input to this action changes. 
+
+
+
+Definition at line 49 of file Player\+Action.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_player_action_8cs}{Player\+Action.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_bbd1addbfb2ae7313a45066016db6ce6" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/___FSViews</compoundname>
+    <innerfile refid="_i_f_s_v_iew_8cs">IFSVIew.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSViews/"/>
+  </compounddef>
+</doxygen>

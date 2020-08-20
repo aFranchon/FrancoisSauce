@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_bindings_example_1_1_bindings_example" kind="class" language="C#" prot="public">
+    <compoundname>BindingsExample::BindingsExample</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bindings_example_1_1_bindings_example_1acf415d546211b3760cfa8c393a2574d2" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer BindingsExample.BindingsExample.cachedRenderer</definition>
+        <argsstring></argsstring>
+        <name>cachedRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="9" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bindings_example_1_1_bindings_example_1ad18576f46ac4c722983a40ad2ea10945" prot="private" static="no" mutable="no">
+        <type><ref refid="class_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions BindingsExample.BindingsExample.playerActions</definition>
+        <argsstring></argsstring>
+        <name>playerActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="10" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bindings_example_1_1_bindings_example_1a81b23f89e0f53219c71834357e4d92cf" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BindingsExample.BindingsExample.saveData</definition>
+        <argsstring></argsstring>
+        <name>saveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="11" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1aab2ca2297813251a77ba3265c4a3824f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1a95b8571ebc74db7b982587419a120692" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="24" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1a22466e39ee5332c5db1a42416339e68e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="32" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1a4018f215d886fd0eee58570fed438c51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="38" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1a94f512bbc44cd8b5aee51459f6d731c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.SaveBindings</definition>
+        <argsstring>()</argsstring>
+        <name>SaveBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="50" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1ad08fb94902ced6621e3c466231221185" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.LoadBindings</definition>
+        <argsstring>()</argsstring>
+        <name>LoadBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="57" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1aa25fc001bfe589f584aecc9034de76cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="67" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bindings_example_1_1_bindings_example_1a54800eea81c0b15e30db2ccb497337d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BindingsExample.BindingsExample.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="73" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="73" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>BindingsExample.BindingsExample</label>
+        <link refid="class_bindings_example_1_1_bindings_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>BindingsExample.BindingsExample</label>
+        <link refid="class_bindings_example_1_1_bindings_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings/BindingsExample.cs" bodystart="8" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_bindings_example_1_1_bindings_example_1acf415d546211b3760cfa8c393a2574d2" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>cachedRenderer</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1ad08fb94902ced6621e3c466231221185" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>LoadBindings</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1aa25fc001bfe589f584aecc9034de76cb" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>OnApplicationQuit</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a95b8571ebc74db7b982587419a120692" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>OnDisable</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1aab2ca2297813251a77ba3265c4a3824f" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>OnEnable</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a54800eea81c0b15e30db2ccb497337d2" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>OnGUI</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1ad18576f46ac4c722983a40ad2ea10945" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>playerActions</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a94f512bbc44cd8b5aee51459f6d731c4" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>SaveBindings</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a81b23f89e0f53219c71834357e4d92cf" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>saveData</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a22466e39ee5332c5db1a42416339e68e" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>Start</name></member>
+      <member refid="class_bindings_example_1_1_bindings_example_1a4018f215d886fd0eee58570fed438c51" prot="private" virt="non-virtual"><scope>BindingsExample::BindingsExample</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

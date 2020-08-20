@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::SO::FSOneArgumentEventSO::FSIntEventSO</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; int &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o_1ae620a57b3d16372b40a41466788105d1" prot="public" static="no" mutable="no">
+        <type>Action&lt; T &gt;</type>
+        <definition>Action&lt;T&gt; FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; T &gt;.FSIntEventSO.fsOneArgumentAction</definition>
+        <argsstring></argsstring>
+        <name>fsOneArgumentAction</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>The action that trigger all IFSEventListener that registered</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" line="17" column="27" bodyfile="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o_1aa45c31b940880aa83a925597d6d98647" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; T &gt;.FSIntEventSO.Invoke</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Function called by original raiser of the event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the float value to be raised</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" line="25" column="25" bodyfile="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Scriptable object that contains an action that trigger all IFSEventListener that subscribe to it. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FSOneArgumentEventSO&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; T &gt;.FSIntEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FSOneArgumentEventSO&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSOneArgumentEventSO&lt; T &gt;.FSIntEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" line="14" column="15" bodyfile="FrancoisSauce/Scripts/___FSEvents/SO/FSOneArgumentEventSO.cs" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o_1ae620a57b3d16372b40a41466788105d1" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSOneArgumentEventSO::FSIntEventSO</scope><name>fsOneArgumentAction</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o_1_1_f_s_int_event_s_o_1aa45c31b940880aa83a925597d6d98647" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSOneArgumentEventSO::FSIntEventSO</scope><name>Invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

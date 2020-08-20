@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_internal_1_1_code_writer" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Internal::CodeWriter</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_code_writer_1a92834835ad1b3c5870eb663106ac7fc9" prot="private" static="yes" mutable="no">
+        <type>const char</type>
+        <definition>const char InControl.Internal.CodeWriter.newLine</definition>
+        <argsstring></argsstring>
+        <name>newLine</name>
+        <initializer>= &apos;\n&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="10" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_code_writer_1aa6023ebadd32abd2de5db579b1196860" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Internal.CodeWriter.indent</definition>
+        <argsstring></argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="11" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_code_writer_1a0fc471b5275349e1cd9f59caa11f6340" prot="private" static="no" mutable="no">
+        <type>readonly StringBuilder</type>
+        <definition>readonly StringBuilder InControl.Internal.CodeWriter.stringBuilder</definition>
+        <argsstring></argsstring>
+        <name>stringBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="12" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a159926e1f782d6f3338690d8b6c49ff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.Internal.CodeWriter.CodeWriter</definition>
+        <argsstring>()</argsstring>
+        <name>CodeWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="15" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a1aa243493c4d64f445ee2d1144753255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.IncreaseIndent</definition>
+        <argsstring>()</argsstring>
+        <name>IncreaseIndent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="22" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1afe70773b2bc4767866cb236635c2d031" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.DecreaseIndent</definition>
+        <argsstring>()</argsstring>
+        <name>DecreaseIndent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="28" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a1007302d13998d6cead93ed116c75e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.Append</definition>
+        <argsstring>(string code)</argsstring>
+        <name>Append</name>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="34" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1ad57f82efc7413573088273a0efb46e04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.Append</definition>
+        <argsstring>(bool trim, string code)</argsstring>
+        <name>Append</name>
+        <param>
+          <type>bool</type>
+          <declname>trim</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="40" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="40" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a7bbd2bbbc6058c9e0ae3754035a7add0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.AppendLine</definition>
+        <argsstring>(string code)</argsstring>
+        <name>AppendLine</name>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="67" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1ab5a200f3cf8bdffe0e9c48879e8337b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.AppendLine</definition>
+        <argsstring>(int count)</argsstring>
+        <name>AppendLine</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="74" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1ac8ad4e5e728d1f3f911037ac0e5a1937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.AppendFormat</definition>
+        <argsstring>(string format, params object[] args)</argsstring>
+        <name>AppendFormat</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="80" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a638ff22c36290471c139d7575fd471a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.CodeWriter.AppendLineFormat</definition>
+        <argsstring>(string format, params object[] args)</argsstring>
+        <name>AppendLineFormat</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="86" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_code_writer_1a516f41f84ef2817881c76906d50ab88f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.Internal.CodeWriter.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="92" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/CodeWriter.cs" bodystart="9" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a1007302d13998d6cead93ed116c75e31" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>Append</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1ad57f82efc7413573088273a0efb46e04" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>Append</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1ac8ad4e5e728d1f3f911037ac0e5a1937" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>AppendFormat</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a7bbd2bbbc6058c9e0ae3754035a7add0" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>AppendLine</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1ab5a200f3cf8bdffe0e9c48879e8337b9" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>AppendLine</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a638ff22c36290471c139d7575fd471a6" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>AppendLineFormat</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a159926e1f782d6f3338690d8b6c49ff5" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>CodeWriter</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1afe70773b2bc4767866cb236635c2d031" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>DecreaseIndent</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a1aa243493c4d64f445ee2d1144753255" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>IncreaseIndent</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1aa6023ebadd32abd2de5db579b1196860" prot="private" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>indent</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a92834835ad1b3c5870eb663106ac7fc9" prot="private" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>newLine</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a0fc471b5275349e1cd9f59caa11f6340" prot="private" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>stringBuilder</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_code_writer_1a516f41f84ef2817881c76906d50ab88f" prot="public" virt="non-virtual"><scope>InControl::Internal::CodeWriter</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

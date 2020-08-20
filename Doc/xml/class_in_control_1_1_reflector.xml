@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_reflector" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Reflector</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_reflector_1ac048dd58945038ff875b6f5750752a8d" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] InControl.Reflector.ignoreAssemblies</definition>
+        <argsstring></argsstring>
+        <name>ignoreAssemblies</name>
+        <initializer>=
+		{
+			&quot;Unity&quot;,
+			&quot;UnityEngine&quot;,
+			&quot;UnityEditor&quot;,
+			&quot;mscorlib&quot;,
+			&quot;Microsoft&quot;,
+			&quot;System&quot;,
+			&quot;Mono&quot;,
+			&quot;JetBrains&quot;,
+			&quot;nunit&quot;,
+			&quot;ExCSS&quot;,
+			&quot;ICSharpCode&quot;,
+			&quot;AssetStoreTools&quot;,
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="12" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_reflector_1a10b0fd1c2252eb4f37c81a3d67319986" prot="private" static="yes" mutable="no">
+        <type>IEnumerable&lt; Type &gt;</type>
+        <definition>IEnumerable&lt;Type&gt; InControl.Reflector.assemblyTypes</definition>
+        <argsstring></argsstring>
+        <name>assemblyTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="29" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_reflector_1a000d1d50a40eec9468ae7663b1242a90" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; Type &gt;??</type>
+        <definition>IEnumerable&lt;Type&gt;?? InControl.Reflector.AllAssemblyTypes</definition>
+        <argsstring></argsstring>
+        <name>AllAssemblyTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="31" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_reflector_1af63409f8b5358498c864121125151da9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Reflector.IgnoreAssemblyWithName</definition>
+        <argsstring>(string assemblyName)</argsstring>
+        <name>IgnoreAssemblyWithName</name>
+        <param>
+          <type>string</type>
+          <declname>assemblyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="40" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="40" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_reflector_1af16d6727120564ffc993d9f3acc87dc6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Type &gt;</type>
+        <definition>static IEnumerable&lt;Type&gt; InControl.Reflector.GetAllAssemblyTypes</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllAssemblyTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="54" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="54" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" line="10" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Reflector.cs" bodystart="11" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_reflector_1a000d1d50a40eec9468ae7663b1242a90" prot="public" virt="non-virtual"><scope>InControl::Reflector</scope><name>AllAssemblyTypes</name></member>
+      <member refid="class_in_control_1_1_reflector_1a10b0fd1c2252eb4f37c81a3d67319986" prot="private" virt="non-virtual"><scope>InControl::Reflector</scope><name>assemblyTypes</name></member>
+      <member refid="class_in_control_1_1_reflector_1af16d6727120564ffc993d9f3acc87dc6" prot="private" virt="non-virtual"><scope>InControl::Reflector</scope><name>GetAllAssemblyTypes</name></member>
+      <member refid="class_in_control_1_1_reflector_1ac048dd58945038ff875b6f5750752a8d" prot="private" virt="non-virtual"><scope>InControl::Reflector</scope><name>ignoreAssemblies</name></member>
+      <member refid="class_in_control_1_1_reflector_1af63409f8b5358498c864121125151da9" prot="private" virt="non-virtual"><scope>InControl::Reflector</scope><name>IgnoreAssemblyWithName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

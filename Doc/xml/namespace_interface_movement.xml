@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_interface_movement" kind="namespace" language="C#">
+    <compoundname>InterfaceMovement</compoundname>
+    <innerclass refid="class_interface_movement_1_1_button" prot="public">InterfaceMovement::Button</innerclass>
+    <innerclass refid="class_interface_movement_1_1_button_focus" prot="public">InterfaceMovement::ButtonFocus</innerclass>
+    <innerclass refid="class_interface_movement_1_1_button_manager" prot="public">InterfaceMovement::ButtonManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/Button.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

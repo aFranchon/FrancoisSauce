@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_option_menu" kind="class" language="C#" prot="public">
+    <compoundname>OptionMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_option_menu_1a3fbd1060daed45de5482942d5a934eeb" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button OptionMenu.backButton</definition>
+        <argsstring></argsstring>
+        <name>backButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_OptionMenu/OptionMenu.cs" line="8" column="19" bodyfile="FrancoisSauce/MainMenu/Scripts/_OptionMenu/OptionMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OptionMenu</label>
+        <link refid="class_option_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OptionMenu</label>
+        <link refid="class_option_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/MainMenu/Scripts/_OptionMenu/OptionMenu.cs" line="6" column="7" bodyfile="FrancoisSauce/MainMenu/Scripts/_OptionMenu/OptionMenu.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_option_menu_1a3fbd1060daed45de5482942d5a934eeb" prot="public" virt="non-virtual"><scope>OptionMenu</scope><name>backButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

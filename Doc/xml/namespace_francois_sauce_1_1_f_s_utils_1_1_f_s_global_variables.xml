@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::FSUtils::FSGlobalVariables</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_bool_so" prot="public">FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalBoolSo</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so" prot="public">FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalFloatSo</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_int_so" prot="public">FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalIntSo</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_string_so" prot="public">FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalStringSo</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_variable_so" prot="public">FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalVariableSo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalBoolSO.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

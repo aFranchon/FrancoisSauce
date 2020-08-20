@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_ff21122d515c5730d0e5e8a60abbaeca" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts</compoundname>
+    <innerdir refid="dir_4d4862d4bc37340ed75a027c6fd7345b">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents</innerdir>
+    <innerdir refid="dir_13c8922006e4cfe64cecc27d5f7da3df">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSScenes</innerdir>
+    <innerdir refid="dir_19adcbfd34c6bdc253f0795bbae35711">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSSingletons</innerdir>
+    <innerdir refid="dir_1b62019568a05836390bfef9b0af2c81">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils</innerdir>
+    <innerdir refid="dir_7f6cf51f361ad3746daff6e07a91b642">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSViews</innerdir>
+    <innerdir refid="dir_c292ce758a4d48b10bd642f60d3f7364">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI</innerdir>
+    <innerdir refid="dir_716c0689e9033f254b0e07773c933fb3">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene</innerdir>
+    <innerdir refid="dir_4934994b5bb25daaa8cee874ce807ed1">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu</innerdir>
+    <innerdir refid="dir_571f6220cb5b88a48c61c7a654630516">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player</innerdir>
+    <innerfile refid="_pre_loader_end_8cs">PreLoaderEnd.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/"/>
+  </compounddef>
+</doxygen>

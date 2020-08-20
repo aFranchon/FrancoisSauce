@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_99972a918361121894149e9b109dd5a2" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Mac</compoundname>
+    <innerfile refid="_air_flo_wired_p_s3_mac_unity_profile_8cs">AirFloWiredPS3MacUnityProfile.cs</innerfile>
+    <innerfile refid="_buffalo_classic_mac_unity_profile_8cs">BuffaloClassicMacUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_n_e_s30_pro_mac_unity_profile_8cs">EightBitdoNES30ProMacUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_f_c30_mac_unity_profile_8cs">EightBitdoSFC30MacUnityProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_n_e_s30_mac_unity_profile_8cs">EightBitdoSNES30MacUnityProfile.cs</innerfile>
+    <innerfile refid="_executioner_x_mac_unity_profile_8cs">ExecutionerXMacUnityProfile.cs</innerfile>
+    <innerfile refid="_google_stadia_mac_unity_profile_8cs">GoogleStadiaMacUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f310_mode_d_mac_unity_profile_8cs">LogitechF310ModeDMacUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f310_mode_x_mac_unity_profile_8cs">LogitechF310ModeXMacUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f510_mode_d_mac_unity_profile_8cs">LogitechF510ModeDMacUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f510_mode_x_mac_unity_profile_8cs">LogitechF510ModeXMacUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f710_mac_unity_profile_8cs">LogitechF710MacUnityProfile.cs</innerfile>
+    <innerfile refid="_moga_pro_mac_unity_profile_8cs">MogaProMacUnityProfile.cs</innerfile>
+    <innerfile refid="_nexus_player_mac_unity_profile_8cs">NexusPlayerMacUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station3_mac_unity_profile_8cs">PlayStation3MacUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_mac_bluetooth_unity_profile_8cs">PlayStation4MacBluetoothUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_mac_u_s_b_unity_profile_8cs">PlayStation4MacUSBUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_steam_link_mac_unity_profile_8cs">PlayStation4SteamLinkMacUnityProfile.cs</innerfile>
+    <innerfile refid="_razer_serval_mac_unity_profile_8cs">RazerServalMacUnityProfile.cs</innerfile>
+    <innerfile refid="_speedlink_strike_mac_unity_profile_8cs">SpeedlinkStrikeMacUnityProfile.cs</innerfile>
+    <innerfile refid="_steel_series_free_mac_unity_profile_8cs">SteelSeriesFreeMacUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_mac_unity_profile_8cs">Xbox360MacUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_mac_unity_profile_8cs">XboxOneMacUnityProfile.cs</innerfile>
+    <innerfile refid="_xiaomi_mac_unity_profile_8cs">XiaomiMacUnityProfile.cs</innerfile>
+    <innerfile refid="_x_t_r55___g2___mac_unity_profile_8cs">XTR55_G2_MacUnityProfile.cs</innerfile>
+    <innerfile refid="_x_t_r___g2___mac_unity_profile_8cs">XTR_G2_MacUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Mac/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,882 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_one_axis_input_control" kind="class" language="C#" prot="public">
+    <compoundname>InControl::OneAxisInputControl</compoundname>
+    <basecompoundref refid="interface_in_control_1_1_i_input_control" prot="public" virt="non-virtual">InControl.IInputControl</basecompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_input_control" prot="public" virt="non-virtual">InControl.InputControl</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_player_action" prot="public" virt="non-virtual">InControl.PlayerAction</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_player_one_axis_action" prot="public" virt="non-virtual">InControl.PlayerOneAxisAction</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a5bf34a6fdc64beb8d7918c1215fc8926" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>ulong</type>
+        <definition>ulong InControl.OneAxisInputControl.UpdateTick</definition>
+        <argsstring></argsstring>
+        <name>UpdateTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="9" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1ad1c6801c74c00ae62ed86e48449a0494" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="245" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="246" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1ac76ec3ab0d179bac573764257e841f60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.LastState</definition>
+        <argsstring></argsstring>
+        <name>LastState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="251" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="252" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a71ba66125a978328e21fd15be98a6391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float?</type>
+        <definition>float? InControl.OneAxisInputControl.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="257" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="258" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1adaa5cf32a0d28ff7771bc9c25ea43bba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float?</type>
+        <definition>float? InControl.OneAxisInputControl.LastValue</definition>
+        <argsstring></argsstring>
+        <name>LastValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="263" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="264" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a4db7186057aa15f6afdd61e90afec944" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float?</type>
+        <definition>float? InControl.OneAxisInputControl.RawValue</definition>
+        <argsstring></argsstring>
+        <name>RawValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="269" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="270" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1afac4e5ff00ccc02e23d5f81aeb21a59a" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float?</type>
+        <definition>float? InControl.OneAxisInputControl.NextRawValue</definition>
+        <argsstring></argsstring>
+        <name>NextRawValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="275" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="276" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a8d11262b1d0fe035558a34bcd25946d6" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.HasInput</definition>
+        <argsstring></argsstring>
+        <name>HasInput</name>
+        <briefdescription>
+<para>This differs from IsPressed in that it just means the control has a nonzero value whereas IsPressed means the absolute value is over StateThreshold. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="285" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a1872c88f76350a12d22c13959ee9df7e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.HasChanged</definition>
+        <argsstring></argsstring>
+        <name>HasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="291" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a162fd9ae5ec093c0cfb29f70d44ed615" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.IsPressed</definition>
+        <argsstring></argsstring>
+        <name>IsPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="297" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="298" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a3f66d80e060c9e3fe4ae28fe3c102d57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.WasPressed</definition>
+        <argsstring></argsstring>
+        <name>WasPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="303" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="304" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a29892ee1b0a2279bad8544d51acd7f6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.WasReleased</definition>
+        <argsstring></argsstring>
+        <name>WasReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="309" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="310" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a7e32762b80868bece430920333b35967" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.WasRepeated</definition>
+        <argsstring></argsstring>
+        <name>WasRepeated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="315" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="316" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a0e83259dc76f5560b5ae31fdb5f9ebfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.Sensitivity</definition>
+        <argsstring></argsstring>
+        <name>Sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="321" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="322" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a0f3e6493becb5157f2d3d9fbe02082cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="328" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a703699e369e8f581afb18ed5ab5cd648" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="335" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="336" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a7ad0a82a7f0abad2b76a1903c430c3e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.StateThreshold</definition>
+        <argsstring></argsstring>
+        <name>StateThreshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="342" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="343" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1acff62d4d79fb6e8ca2d9b96640078211" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.IsNullControl</definition>
+        <argsstring></argsstring>
+        <name>IsNullControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="349" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a0628993c2a24211a2a5bec327d753542" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="355" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="356" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_one_axis_input_control_1a9069a818f8e575b87b2e8f22dc9213a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.EnabledInHierarchy</definition>
+        <argsstring></argsstring>
+        <name>EnabledInHierarchy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="362" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="363" bodyend="365"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1ac942dd85d8876a5f757546ee0fc5c14a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.sensitivity</definition>
+        <argsstring></argsstring>
+        <name>sensitivity</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a847fd296ae726e710ac74f8b626f2a14" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.lowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>lowerDeadZone</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="12" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a0f818ac68f600571a227939fdb3649a2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.upperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>upperDeadZone</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="13" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1ab99036e7b778a7e2da03f3359544ec81" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.stateThreshold</definition>
+        <argsstring></argsstring>
+        <name>stateThreshold</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="14" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a227de9cd78cc405d43aa8508835cc97c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="29" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a2c8fdcd2b4d74f61c7742a7da2269609" prot="private" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.OneAxisInputControl.pendingTick</definition>
+        <argsstring></argsstring>
+        <name>pendingTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="34" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a55cbb2133b993f58485d03b7ceb4c159" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.pendingCommit</definition>
+        <argsstring></argsstring>
+        <name>pendingCommit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="35" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a8bbdda2ce1677ecd76a3dbd95c6dcefd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.nextRepeatTime</definition>
+        <argsstring></argsstring>
+        <name>nextRepeatTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="37" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a61a333e0957cae10e464176c6ce41651" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.wasRepeated</definition>
+        <argsstring></argsstring>
+        <name>wasRepeated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="38" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a1f2a3557581e7259a4c822d8e22f3185" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.clearInputState</definition>
+        <argsstring></argsstring>
+        <name>clearInputState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="40" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a643e72adfb2459eb08c03af81936714e" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+        <definition>InputControlState InControl.OneAxisInputControl.lastState</definition>
+        <argsstring></argsstring>
+        <name>lastState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="42" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1aca253810cff0255ca0bad30263e97892" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+        <definition>InputControlState InControl.OneAxisInputControl.nextState</definition>
+        <argsstring></argsstring>
+        <name>nextState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="43" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1ab501667fed2959ee6b357640a7d90769" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_control_state" kindref="compound">InputControlState</ref></type>
+        <definition>InputControlState InControl.OneAxisInputControl.thisState</definition>
+        <argsstring></argsstring>
+        <name>thisState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="44" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.isNullControl</definition>
+        <argsstring></argsstring>
+        <name>isNullControl</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="17" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a403faa9619b3ce43198cab39bd318bd9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.ownerEnabled</definition>
+        <argsstring></argsstring>
+        <name>ownerEnabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="32" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1abb13de70844295498478b8ac735a90cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.FirstRepeatDelay</definition>
+        <argsstring></argsstring>
+        <name>FirstRepeatDelay</name>
+        <initializer>= 0.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="21" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1ac5aba91554a05625586c898fe9d04488" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OneAxisInputControl.RepeatDelay</definition>
+        <argsstring></argsstring>
+        <name>RepeatDelay</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="25" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_one_axis_input_control_1a90ee3e79b32ff2c7f8144b708c612b7d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.Raw</definition>
+        <argsstring></argsstring>
+        <name>Raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="27" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1ac53a4f968a310f1e846207a7090da37d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.PrepareForUpdate</definition>
+        <argsstring>(ulong updateTick)</argsstring>
+        <name>PrepareForUpdate</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="47" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="47" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1af4034c3da774bd41962a70e1bc6d4695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.UpdateWithState</definition>
+        <argsstring>(bool state, ulong updateTick, float deltaTime)</argsstring>
+        <name>UpdateWithState</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="74" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a2cfecd6013398352c65a50536b325ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.UpdateWithValue</definition>
+        <argsstring>(float value, ulong updateTick, float deltaTime)</argsstring>
+        <name>UpdateWithValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="89" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="89" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.ClearInputState</definition>
+        <argsstring>()</argsstring>
+        <name>ClearInputState</name>
+        <reimplements refid="interface_in_control_1_1_i_input_control_1a46906c56fe1c46c68be66e5d672ca479">ClearInputState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="159" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="159" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1ac3c9a4c88b831ec8972690a1ffa3d660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.Commit</definition>
+        <argsstring>()</argsstring>
+        <name>Commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="169" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="169" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a4bfbe3c1dedb74a74c4a78fa7d629166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.CommitWithState</definition>
+        <argsstring>(bool state, ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitWithState</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="221" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="221" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1adcd69783f6d8b9e1723cb956970542a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.CommitWithValue</definition>
+        <argsstring>(float value, ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitWithValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="228" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="228" bodyend="232"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a3a4ea5d222f1301291a6ce5deea5545e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OneAxisInputControl.UpdateWithRawValue</definition>
+        <argsstring>(float value, ulong updateTick, float deltaTime)</argsstring>
+        <name>UpdateWithRawValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="117" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="117" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1aa60a87a7cece5b81ff0c0fe166d13732" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.SetValue</definition>
+        <argsstring>(float value, ulong updateTick)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="139" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="139" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a26ee60b21f6d1fbb6fdb47f640c63789" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OneAxisInputControl.CommitWithSides</definition>
+        <argsstring>(InputControl negativeSide, InputControl positiveSide, ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitWithSides</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_control" kindref="compound">InputControl</ref></type>
+          <declname>negativeSide</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_control" kindref="compound">InputControl</ref></type>
+          <declname>positiveSide</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="235" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="235" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a464a57f579e1930fb7b3a585bcd9e438" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.OneAxisInputControl.operator bool</definition>
+        <argsstring>(OneAxisInputControl instance)</argsstring>
+        <name>operator bool</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_one_axis_input_control" kindref="compound">OneAxisInputControl</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="368" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_one_axis_input_control_1a54fd995f60eb3974df434b3f792e64c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.OneAxisInputControl.operator float</definition>
+        <argsstring>(OneAxisInputControl instance)</argsstring>
+        <name>operator float</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_one_axis_input_control" kindref="compound">OneAxisInputControl</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="374" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="374" bodyend="377"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="3">
+        <label>InControl.InputControl</label>
+        <link refid="class_in_control_1_1_input_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.PlayerOneAxisAction</label>
+        <link refid="class_in_control_1_1_player_one_axis_action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>InControl.OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/OneAxisInputControl.cs" bodystart="8" bodyend="378"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a1f2a3557581e7259a4c822d8e22f3185" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>clearInputState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac3c9a4c88b831ec8972690a1ffa3d660" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>Commit</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a26ee60b21f6d1fbb6fdb47f640c63789" prot="package" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>CommitWithSides</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4bfbe3c1dedb74a74c4a78fa7d629166" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>CommitWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adcd69783f6d8b9e1723cb956970542a0" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>CommitWithValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0628993c2a24211a2a5bec327d753542" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a227de9cd78cc405d43aa8508835cc97c" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>enabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a9069a818f8e575b87b2e8f22dc9213a7" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>EnabledInHierarchy</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abb13de70844295498478b8ac735a90cb" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>FirstRepeatDelay</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a1872c88f76350a12d22c13959ee9df7e" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>HasChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a8d11262b1d0fe035558a34bcd25946d6" prot="package" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>HasInput</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1acff62d4d79fb6e8ca2d9b96640078211" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>IsNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" prot="protected" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>isNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a162fd9ae5ec093c0cfb29f70d44ed615" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a643e72adfb2459eb08c03af81936714e" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>lastState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac76ec3ab0d179bac573764257e841f60" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>LastState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adaa5cf32a0d28ff7771bc9c25ea43bba" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>LastValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0f3e6493becb5157f2d3d9fbe02082cc" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a847fd296ae726e710ac74f8b626f2a14" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>lowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1afac4e5ff00ccc02e23d5f81aeb21a59a" prot="package" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>NextRawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a8bbdda2ce1677ecd76a3dbd95c6dcefd" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>nextRepeatTime</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1aca253810cff0255ca0bad30263e97892" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>nextState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a464a57f579e1930fb7b3a585bcd9e438" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>operator bool</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a54fd995f60eb3974df434b3f792e64c0" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>operator float</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a403faa9619b3ce43198cab39bd318bd9" prot="protected" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>ownerEnabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a55cbb2133b993f58485d03b7ceb4c159" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>pendingCommit</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a2c8fdcd2b4d74f61c7742a7da2269609" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>pendingTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac53a4f968a310f1e846207a7090da37d" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>PrepareForUpdate</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a90ee3e79b32ff2c7f8144b708c612b7d" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4db7186057aa15f6afdd61e90afec944" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>RawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac5aba91554a05625586c898fe9d04488" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>RepeatDelay</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0e83259dc76f5560b5ae31fdb5f9ebfc" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac942dd85d8876a5f757546ee0fc5c14a" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>sensitivity</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1aa60a87a7cece5b81ff0c0fe166d13732" prot="package" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>SetValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ad1c6801c74c00ae62ed86e48449a0494" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7ad0a82a7f0abad2b76a1903c430c3e3" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>StateThreshold</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ab99036e7b778a7e2da03f3359544ec81" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>stateThreshold</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ab501667fed2959ee6b357640a7d90769" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>thisState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a5bf34a6fdc64beb8d7918c1215fc8926" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3a4ea5d222f1301291a6ce5deea5545e" prot="package" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>UpdateWithRawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1af4034c3da774bd41962a70e1bc6d4695" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>UpdateWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a2cfecd6013398352c65a50536b325ff4" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>UpdateWithValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0f818ac68f600571a227939fdb3649a2" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>upperDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a703699e369e8f581afb18ed5ab5cd648" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a71ba66125a978328e21fd15be98a6391" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>Value</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3f66d80e060c9e3fe4ae28fe3c102d57" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>WasPressed</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a29892ee1b0a2279bad8544d51acd7f6c" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>WasReleased</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a61a333e0957cae10e464176c6ce41651" prot="private" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>wasRepeated</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7e32762b80868bece430920333b35967" prot="public" virt="non-virtual"><scope>InControl::OneAxisInputControl</scope><name>WasRepeated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

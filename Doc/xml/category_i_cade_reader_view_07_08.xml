@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="category_i_cade_reader_view_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>ICadeReaderView()</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_i_cade_reader_view_07_08_1ab6c5de711ab84e13dafb409876a55796" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeReaderView()::willResignActive</definition>
+        <argsstring>()</argsstring>
+        <name>willResignActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m" line="5" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_i_cade_reader_view_07_08_1acf9922fb96ee6c9a868ce5ea50114e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeReaderView()::didBecomeActive</definition>
+        <argsstring>()</argsstring>
+        <name>didBecomeActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m" line="5" column="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m" line="7" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m" bodystart="7" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_i_cade_reader_view_07_08_1acf9922fb96ee6c9a868ce5ea50114e4b" prot="public" virt="virtual"><scope>ICadeReaderView()</scope><name>didBecomeActive</name></member>
+      <member refid="category_i_cade_reader_view_07_08_1ab6c5de711ab84e13dafb409876a55796" prot="public" virt="virtual"><scope>ICadeReaderView()</scope><name>willResignActive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

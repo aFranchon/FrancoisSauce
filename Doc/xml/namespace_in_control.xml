@@ -1,0 +1,2900 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_in_control" kind="namespace" language="C#">
+    <compoundname>InControl</compoundname>
+    <innerclass refid="class_in_control_1_1_binding_listen_options" prot="public">InControl::BindingListenOptions</innerclass>
+    <innerclass refid="class_in_control_1_1_binding_source" prot="public">InControl::BindingSource</innerclass>
+    <innerclass refid="interface_in_control_1_1_binding_source_listener" prot="public">InControl::BindingSourceListener</innerclass>
+    <innerclass refid="class_in_control_1_1_dead_zone" prot="public">InControl::DeadZone</innerclass>
+    <innerclass refid="class_in_control_1_1_device_binding_source" prot="public">InControl::DeviceBindingSource</innerclass>
+    <innerclass refid="class_in_control_1_1_device_binding_source_listener" prot="public">InControl::DeviceBindingSourceListener</innerclass>
+    <innerclass refid="class_in_control_1_1_hexadecimal_attribute" prot="public">InControl::HexadecimalAttribute</innerclass>
+    <innerclass refid="interface_in_control_1_1_i_input_control" prot="public">InControl::IInputControl</innerclass>
+    <innerclass refid="class_in_control_1_1_in_control_exception" prot="public">InControl::InControlException</innerclass>
+    <innerclass refid="class_in_control_1_1_in_control_manager" prot="public">InControl::InControlManager</innerclass>
+    <innerclass refid="class_in_control_1_1_input_control" prot="public">InControl::InputControl</innerclass>
+    <innerclass refid="class_in_control_1_1_input_control_mapping" prot="public">InControl::InputControlMapping</innerclass>
+    <innerclass refid="struct_in_control_1_1_input_control_source" prot="public">InControl::InputControlSource</innerclass>
+    <innerclass refid="class_in_control_1_1_input_control_source_property_drawer" prot="public">InControl::InputControlSourcePropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_input_control_state" prot="public">InControl::InputControlState</innerclass>
+    <innerclass refid="class_in_control_1_1_input_device" prot="public">InControl::InputDevice</innerclass>
+    <innerclass refid="struct_in_control_1_1_input_device_info" prot="public">InControl::InputDeviceInfo</innerclass>
+    <innerclass refid="class_in_control_1_1_input_device_manager" prot="public">InControl::InputDeviceManager</innerclass>
+    <innerclass refid="struct_in_control_1_1_input_device_matcher" prot="public">InControl::InputDeviceMatcher</innerclass>
+    <innerclass refid="class_in_control_1_1_input_device_profile" prot="public">InControl::InputDeviceProfile</innerclass>
+    <innerclass refid="class_in_control_1_1_input_manager" prot="public">InControl::InputManager</innerclass>
+    <innerclass refid="struct_in_control_1_1_input_range" prot="public">InControl::InputRange</innerclass>
+    <innerclass refid="class_in_control_1_1_inspector_name_attribute" prot="public">InControl::InspectorNameAttribute</innerclass>
+    <innerclass refid="interface_in_control_1_1_i_updateable" prot="public">InControl::IUpdateable</innerclass>
+    <innerclass refid="class_in_control_1_1_key_binding_source" prot="public">InControl::KeyBindingSource</innerclass>
+    <innerclass refid="class_in_control_1_1_key_binding_source_listener" prot="public">InControl::KeyBindingSourceListener</innerclass>
+    <innerclass refid="struct_in_control_1_1_key_combo" prot="public">InControl::KeyCombo</innerclass>
+    <innerclass refid="struct_in_control_1_1_key_info" prot="public">InControl::KeyInfo</innerclass>
+    <innerclass refid="class_in_control_1_1_logger" prot="public">InControl::Logger</innerclass>
+    <innerclass refid="struct_in_control_1_1_log_message" prot="public">InControl::LogMessage</innerclass>
+    <innerclass refid="class_in_control_1_1_marshal_utility" prot="public">InControl::MarshalUtility</innerclass>
+    <innerclass refid="class_in_control_1_1_mouse_binding_source" prot="public">InControl::MouseBindingSource</innerclass>
+    <innerclass refid="class_in_control_1_1_mouse_binding_source_listener" prot="public">InControl::MouseBindingSourceListener</innerclass>
+    <innerclass refid="class_in_control_1_1_native_input_device" prot="public">InControl::NativeInputDevice</innerclass>
+    <innerclass refid="class_in_control_1_1_native_input_device_manager" prot="public">InControl::NativeInputDeviceManager</innerclass>
+    <innerclass refid="class_in_control_1_1_native_input_device_profile_attribute" prot="public">InControl::NativeInputDeviceProfileAttribute</innerclass>
+    <innerclass refid="class_in_control_1_1_native_input_device_profile_list" prot="public">InControl::NativeInputDeviceProfileList</innerclass>
+    <innerclass refid="struct_in_control_1_1_native_input_options" prot="public">InControl::NativeInputOptions</innerclass>
+    <innerclass refid="struct_in_control_1_1_native_version_info" prot="public">InControl::NativeVersionInfo</innerclass>
+    <innerclass refid="class_in_control_1_1_one_axis_input_control" prot="public">InControl::OneAxisInputControl</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_float" prot="public">InControl::OptionalFloat</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_float_property_drawer" prot="public">InControl::OptionalFloatPropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_input_device_driver_type" prot="public">InControl::OptionalInputDeviceDriverType</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_input_device_driver_type_property_drawer" prot="public">InControl::OptionalInputDeviceDriverTypePropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_input_device_transport_type" prot="public">InControl::OptionalInputDeviceTransportType</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_input_device_transport_type_property_drawer" prot="public">InControl::OptionalInputDeviceTransportTypePropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_int16" prot="public">InControl::OptionalInt16</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_int16_property_drawer" prot="public">InControl::OptionalInt16PropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_int32" prot="public">InControl::OptionalInt32</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_int32_property_drawer" prot="public">InControl::OptionalInt32PropertyDrawer</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_type_has_no_value_exception" prot="public">InControl::OptionalTypeHasNoValueException</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_u_int16" prot="public">InControl::OptionalUInt16</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_u_int16_property_drawer" prot="public">InControl::OptionalUInt16PropertyDrawer</innerclass>
+    <innerclass refid="struct_in_control_1_1_optional_u_int32" prot="public">InControl::OptionalUInt32</innerclass>
+    <innerclass refid="class_in_control_1_1_optional_u_int32_property_drawer" prot="public">InControl::OptionalUInt32PropertyDrawer</innerclass>
+    <innerclass refid="class_in_control_1_1_ouya_everywhere_device" prot="public">InControl::OuyaEverywhereDevice</innerclass>
+    <innerclass refid="class_in_control_1_1_ouya_everywhere_device_manager" prot="public">InControl::OuyaEverywhereDeviceManager</innerclass>
+    <innerclass refid="class_in_control_1_1_player_action" prot="public">InControl::PlayerAction</innerclass>
+    <innerclass refid="class_in_control_1_1_player_action_set" prot="public">InControl::PlayerActionSet</innerclass>
+    <innerclass refid="class_in_control_1_1_player_one_axis_action" prot="public">InControl::PlayerOneAxisAction</innerclass>
+    <innerclass refid="class_in_control_1_1_player_two_axis_action" prot="public">InControl::PlayerTwoAxisAction</innerclass>
+    <innerclass refid="class_in_control_1_1_preserve_attribute" prot="public">InControl::PreserveAttribute</innerclass>
+    <innerclass refid="class_in_control_1_1_reflector" prot="public">InControl::Reflector</innerclass>
+    <innerclass refid="class_in_control_1_1_singleton_mono_behavior" prot="public">InControl::SingletonMonoBehavior</innerclass>
+    <innerclass refid="class_in_control_1_1_test_input_manager" prot="public">InControl::TestInputManager</innerclass>
+    <innerclass refid="class_in_control_1_1_thread_safe_queue" prot="package">InControl::ThreadSafeQueue</innerclass>
+    <innerclass refid="class_in_control_1_1_touch" prot="public">InControl::Touch</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_button_control" prot="public">InControl::TouchButtonControl</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_control" prot="public">InControl::TouchControl</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_input_device" prot="public">InControl::TouchInputDevice</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_manager" prot="public">InControl::TouchManager</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_pool" prot="public">InControl::TouchPool</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_sprite" prot="public">InControl::TouchSprite</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_stick_control" prot="public">InControl::TouchStickControl</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_swipe_control" prot="public">InControl::TouchSwipeControl</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_track_control" prot="public">InControl::TouchTrackControl</innerclass>
+    <innerclass refid="class_in_control_1_1_touch_utility" prot="public">InControl::TouchUtility</innerclass>
+    <innerclass refid="class_in_control_1_1_two_axis_input_control" prot="public">InControl::TwoAxisInputControl</innerclass>
+    <innerclass refid="class_in_control_1_1_unity_input_device" prot="public">InControl::UnityInputDevice</innerclass>
+    <innerclass refid="class_in_control_1_1_unity_input_device_manager" prot="public">InControl::UnityInputDeviceManager</innerclass>
+    <innerclass refid="class_in_control_1_1_unity_input_device_profile_attribute" prot="public">InControl::UnityInputDeviceProfileAttribute</innerclass>
+    <innerclass refid="class_in_control_1_1_unity_input_device_profile_list" prot="public">InControl::UnityInputDeviceProfileList</innerclass>
+    <innerclass refid="class_in_control_1_1_unknown_device_binding_source" prot="public">InControl::UnknownDeviceBindingSource</innerclass>
+    <innerclass refid="class_in_control_1_1_unknown_device_binding_source_listener" prot="public">InControl::UnknownDeviceBindingSourceListener</innerclass>
+    <innerclass refid="struct_in_control_1_1_unknown_device_control" prot="public">InControl::UnknownDeviceControl</innerclass>
+    <innerclass refid="class_in_control_1_1_utility" prot="public">InControl::Utility</innerclass>
+    <innerclass refid="struct_in_control_1_1_version_info" prot="public">InControl::VersionInfo</innerclass>
+    <innerclass refid="class_in_control_1_1_xbox_one_input_device" prot="public">InControl::XboxOneInputDevice</innerclass>
+    <innerclass refid="class_in_control_1_1_xbox_one_input_device_manager" prot="public">InControl::XboxOneInputDeviceManager</innerclass>
+    <innernamespace refid="namespace_in_control_1_1_internal">InControl::Internal</innernamespace>
+    <innernamespace refid="namespace_in_control_1_1_native_device_profiles">InControl::NativeDeviceProfiles</innernamespace>
+    <innernamespace refid="namespace_in_control_1_1_unity_device_profiles">InControl::UnityDeviceProfiles</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BindingSourceRejectionType</name>
+        <enumvalue id="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4ae159550f7c045731ec7483f143e10711" prot="public">
+          <name>DuplicateBindingOnAction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a23e1075b605dd20e9aed252a86f0f1b4a8e4bd0de3cc309aec4e55873e1558e08" prot="public">
+          <name>DuplicateBindingOnActionSet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceRejectionType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceRejectionType.cs" bodystart="4" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BindingSourceType</name>
+        <enumvalue id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa5cb65ebc0e7b2c66a67eb41cd180d4e8" prot="public">
+          <name>DeviceBindingSource</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa46873f1ee9f08f03c1ac7c3570f4245e" prot="public">
+          <name>KeyBindingSource</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa7b91443c615e6273237208ed17017d9c" prot="public">
+          <name>MouseBindingSource</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa43ce8ecacc8bf53c5a88210370e019cc" prot="public">
+          <name>UnknownDeviceBindingSource</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceType.cs" bodystart="4" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Key</name>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a825a3d98017bab11815ad2817201324c" prot="public">
+          <name>Shift</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aa2e92861b757ab878312dd57993d60cf" prot="public">
+          <name>Alt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aee97be03cb04119af45014d815621ce1" prot="public">
+          <name>Command</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aa1595abbb4c3a326636dd178757cd6c1" prot="public">
+          <name>Control</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a982621712db76f723b7bb88b631dc64d" prot="public">
+          <name>LeftShift</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a96f9c4eb595a467d02e35c723f63ebf7" prot="public">
+          <name>LeftAlt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a8dac2f53f69eb1bce11b7f781d8302ce" prot="public">
+          <name>LeftCommand</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a641642d3718d5db8994a79d51b43e88c" prot="public">
+          <name>LeftControl</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a317d4a7487ee62605713987d4a037f83" prot="public">
+          <name>RightShift</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ad88bad98046b623323aa6ca28eefa6d5" prot="public">
+          <name>RightAlt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a55084b884f99d51519566315fe31d180" prot="public">
+          <name>RightCommand</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a857bb13bb233ca520283eb9886509b65" prot="public">
+          <name>RightControl</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a013ec032d3460d4be4431c6ab1f8f224" prot="public">
+          <name>Escape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae1dffc8709f31a4987c8a88334107e89" prot="public">
+          <name>F1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424afe5c3684dce76cdd9f7f42430868aa74" prot="public">
+          <name>F2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a4b6bf4b531770872d4328ce69bef5627" prot="public">
+          <name>F3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae7e0e72401a9f2718ed0f39f2861d702" prot="public">
+          <name>F4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a37f438df6a6d5ba4c17ef8ca58562f00" prot="public">
+          <name>F5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a1faf42f2823f184eb2c9f0dffe5d73f2" prot="public">
+          <name>F6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a47489eb597b7db34caa24b1fc78fc839" prot="public">
+          <name>F7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a4787509ad9f9d747a81a30e9dde3d4a7" prot="public">
+          <name>F8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a892a245e287c163080b23db737d3c4c9" prot="public">
+          <name>F9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ab213ce22ca6ad4eda8db82966b9b6e5a" prot="public">
+          <name>F10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a643b0662422d1d0dffa3fca2e2bf28a8" prot="public">
+          <name>F11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae902674982fc99aa343cdd94da7476c3" prot="public">
+          <name>F12</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aaf269d1e4ffb0df48d9cdf6b4d591a58" prot="public">
+          <name>Key0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af64f4f750f097b4421a050c9d11d9c14" prot="public">
+          <name>Key1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ac31650e34686537020ee36190e71da5b" prot="public">
+          <name>Key2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a3d81009a6cd9a27e5ee8043024070dfb" prot="public">
+          <name>Key3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae08e48afa7b3099b0df15613b907a648" prot="public">
+          <name>Key4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a850176141118349ca686347d2eed0b55" prot="public">
+          <name>Key5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aa0b2886a19d886ed19252edbda722a51" prot="public">
+          <name>Key6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a4275a26eae5db36de134edf05c64e44a" prot="public">
+          <name>Key7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a69a678929c3e0b081c385c16535414a3" prot="public">
+          <name>Key8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a2ebdff99c5eacb157ec10aab842b082d" prot="public">
+          <name>Key9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0d61f8370cad1d412f80b84d143e1257" prot="public">
+          <name>C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af623e75af30e62bbd73d6df5b50bb7b5" prot="public">
+          <name>D</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a3a3ea00cfc35332cedf6e5e9a32e94da" prot="public">
+          <name>E</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a800618943025315f869e4e1f09471012" prot="public">
+          <name>F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424adfcf28d0734569a6a693bc8194de62bf" prot="public">
+          <name>G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ac1d9f50f86825a1a2302ec2449c17196" prot="public">
+          <name>H</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424add7536794b63bf90eccfd37f9b147d7f" prot="public">
+          <name>I</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aff44570aca8241914870afbc310cdb85" prot="public">
+          <name>J</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aa5f3c6a11b03839d46af9fb43c97c188" prot="public">
+          <name>K</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ad20caec3b48a1eef164cb4ca81ba2587" prot="public">
+          <name>L</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a69691c7bdcc3ce6d5d8a1361f22d04ac" prot="public">
+          <name>M</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a8d9c307cb7f3c4a32822a51922d1ceaa" prot="public">
+          <name>N</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af186217753c37b9b9f958d906208506e" prot="public">
+          <name>O</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a44c29edb103a2872f519ad0c9a0fdaaa" prot="public">
+          <name>P</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af09564c9ca56850d4cd6b3319e541aee" prot="public">
+          <name>Q</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae1e1d3d40573127e9ee0480caf1283d6" prot="public">
+          <name>R</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5dbc98dcc983a70728bd082d1a47546e" prot="public">
+          <name>S</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3" prot="public">
+          <name>T</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a4c614360da93c0a041b22e537de151eb" prot="public">
+          <name>U</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5206560a306a2e085a437fd258eb57ce" prot="public">
+          <name>V</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a61e9c06ea9a85a5088a499df6458d276" prot="public">
+          <name>W</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a57cec4137b614c87cb4e24a3d003a3e0" prot="public">
+          <name>Y</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a242f46f77c7bc68feb14704514de1079" prot="public">
+          <name>Backquote</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a453fb623e752c5993f65bc410fd74fe5" prot="public">
+          <name>Minus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0ccb67e7eaae09d9e4078d161eeca100" prot="public">
+          <name>Equals</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424acd7d13ceea728b08555f7c818cfb13ef" prot="public">
+          <name>Backspace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5c6ba25104401c9ee0650230fc6ba413" prot="public">
+          <name>Tab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a481c09f513474b2d31ba5c2992947b17" prot="public">
+          <name>LeftBracket</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a455364d8991395f71ef9ccc5cc449e5c" prot="public">
+          <name>RightBracket</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af6c6379402dce27659f7cffee6bc1f00" prot="public">
+          <name>Backslash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9806fa37a3ecd39bf637c203aa011ed0" prot="public">
+          <name>Semicolon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ac48e929b2b1eabba2ba036884433345e" prot="public">
+          <name>Quote</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a988fd738de9c6d177440c5dcf69e73ce" prot="public">
+          <name>Return</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a58be47db9455679e6a44df2eff9c9fa6" prot="public">
+          <name>Comma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a1901606ea069a83dc7beea17881ef95a" prot="public">
+          <name>Period</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a358cfe58715d680d9ab09f82e4010cbc" prot="public">
+          <name>Slash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ad511f8439ecde36647437fbba67a4394" prot="public">
+          <name>Space</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aa458be0f08b7e4ff3c0f633c100176c0" prot="public">
+          <name>Insert</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af2a6c498fb90ee345d997f888fce3b18" prot="public">
+          <name>Delete</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a8cf04a9734132302f96da8e113e80ce5" prot="public">
+          <name>Home</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a87557f11575c0ad78e4e28abedc13b6e" prot="public">
+          <name>End</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9b869c510c75c5827ac82e49d4340927" prot="public">
+          <name>PageUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aee3677bcca83ece9384b01e43952bf33" prot="public">
+          <name>PageDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a1a45924fabe821ad288bd081b0bbf93b" prot="public">
+          <name>LeftArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a026be376ee5c529a3d0a35866d1242ad" prot="public">
+          <name>RightArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0b513090f0a012194da83d5515882b13" prot="public">
+          <name>UpArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0a3f89b5a028cc88370ad5a49dfab276" prot="public">
+          <name>DownArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5c5b4070c3a3ccadec2d93ac0711abc5" prot="public">
+          <name>Pad0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ab1cf81c9307d54bc641778d978711ec6" prot="public">
+          <name>Pad1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aaf089b6612d5721a5abc0b051591a82a" prot="public">
+          <name>Pad2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a56e91a1486edcb3fd7e4e1c4d61681d7" prot="public">
+          <name>Pad3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a8daabf7c7bfa5a3d2550fa8a61f5007d" prot="public">
+          <name>Pad4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ab7f96b3d4ef36d9432df1cc19bec4bb3" prot="public">
+          <name>Pad5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae248042692d9146dfc3f1560aeb4e966" prot="public">
+          <name>Pad6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aed59d9e450c13a4e37a023c40d0fd4ed" prot="public">
+          <name>Pad7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a74cbec26190d20875d323f065f54a6ab" prot="public">
+          <name>Pad8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a600bdebae63189ad97df878460124e07" prot="public">
+          <name>Pad9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a19ba26a55fd08e68d9be73917f0fa0a4" prot="public">
+          <name>Numlock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a623bc7ba43b5857472627ceff75d32c7" prot="public">
+          <name>PadDivide</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424afce2b4f0e9f7cae72e89a83dc0e17b7c" prot="public">
+          <name>PadMultiply</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5f6103037c544a69b076c8a529b9db5d" prot="public">
+          <name>PadMinus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a1543c02bef13ce853a293b80f419085b" prot="public">
+          <name>PadPlus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a5e2ebe3a5563575cdb6d244b681709ad" prot="public">
+          <name>PadEnter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a082b7d042d974a54d8a96ad1fe9548c6" prot="public">
+          <name>PadPeriod</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424adc30bc0c7914db5918da4263fce93ad2" prot="public">
+          <name>Clear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a2aab739987a2f78bd061f61b2ffee316" prot="public">
+          <name>PadEquals</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a95dfde4807d4d6a9eec499203b3c24a0" prot="public">
+          <name>F13</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a2468649b6215c4cdd2aef5095b3f5932" prot="public">
+          <name>F14</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ae53b55851b9ff4979f2c3ff434a4a138" prot="public">
+          <name>F15</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a571dc3ee993d6e9a33bdc851be52b995" prot="public">
+          <name>AltGr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a8d0f4171170104d094d8b6d4f8bf49e6" prot="public">
+          <name>CapsLock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0b1251d3f52fcfe59a19a301884bc02c" prot="public">
+          <name>ExclamationMark</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a77a804418d76dc407383a618b60853ab" prot="public">
+          <name>Tilde</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424adc5f499e83aef4f6811faa4081631740" prot="public">
+          <name>At</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424afae8a9257e154175da4193dbf6552ef6" prot="public">
+          <name>Hash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a4ef781b1cb5e5d83fec0ebb0dd3c5761" prot="public">
+          <name>Dollar</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424aadaaee4b22041c27198d410c68d952c9" prot="public">
+          <name>Percent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424acf0aa280383530e27035f2d533841703" prot="public">
+          <name>Caret</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a42d346f22274dcff52c108f28d8ac897" prot="public">
+          <name>Ampersand</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9c8ae0945940e5baec5a93c4c8ec869e" prot="public">
+          <name>Asterisk</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af02071a8b56c676adabcad98429fa14e" prot="public">
+          <name>LeftParen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a2d7e137ea20e2c01ce105573d47ce525" prot="public">
+          <name>RightParen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a3744017c618a81cd7a01ff4872f3cf76" prot="public">
+          <name>Underscore</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a32ba78fe43257d3e7f88e3935a8ea0d4" prot="public">
+          <name>Plus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9a590bb59f32c0c4689f171f92dfbe8f" prot="public">
+          <name>LeftBrace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af6b8627fb24d257c2eb8509a4094803a" prot="public">
+          <name>RightBrace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a2ab1f3f893823298751fdf60b4e0365a" prot="public">
+          <name>Pipe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a3ccf74d463f8895cef06727cb9709d83" prot="public">
+          <name>Colon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a312f3eacb3208038b0963fd457c576e8" prot="public">
+          <name>DoubleQuote</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424ac6d9d7bb9939f62f01c80f8b1251501c" prot="public">
+          <name>LessThan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424af6d044fe1f01fb0c956b80099e2a3072" prot="public">
+          <name>GreaterThan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a9d1c32ceff0c1951ef12e4bcfc1dab5c" prot="public">
+          <name>QuestionMark</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/Key.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/Key.cs" bodystart="4" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Mouse</name>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a2a81c1ce439d7652d7a61d55229c8043" prot="public">
+          <name>LeftButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a7e264b46aade8e083656f1f0897220f3" prot="public">
+          <name>RightButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aa196f1ff95059e191270f3bb6ab4a266" prot="public">
+          <name>MiddleButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a963a8a64a09d54efc81b136ca6be21b2" prot="public">
+          <name>NegativeX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a9f082d04c481aab268b9f614d2ffd129" prot="public">
+          <name>PositiveX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94ae4d5f02ceecd15caf66e9f0b2393c86b" prot="public">
+          <name>NegativeY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94ac53c385ced96bd629c0f45a902aceba3" prot="public">
+          <name>PositiveY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a773cf26b55c80474de2fbf5fcc950ecf" prot="public">
+          <name>PositiveScrollWheel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aae1db8b24ddb4abf6272b6ba8f5c30d6" prot="public">
+          <name>NegativeScrollWheel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a91ff24acfc01cc2c3a4238a272a37d07" prot="public">
+          <name>Button4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94af8849babaeaee3344306b87310664d65" prot="public">
+          <name>Button5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a375ccc6b3a6125cc5c67f2c700a55b72" prot="public">
+          <name>Button6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aa00c628d1b186fa4fe9c7f633426979e" prot="public">
+          <name>Button7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94a4f651f24c0b38f6e7ea0d52b0c514e36" prot="public">
+          <name>Button8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94aefe28baa94fc5f90fde7d0ff617460a3" prot="public">
+          <name>Button9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/Mouse.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/Mouse.cs" bodystart="4" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a5ae6e3c90e0df90b1054ca2d4c37ce4c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InControlUpdateMode</name>
+        <enumvalue id="namespace_in_control_1a5ae6e3c90e0df90b1054ca2d4c37ce4ca7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a5ae6e3c90e0df90b1054ca2d4c37ce4ca9c1ca4069e206318b33ef896d3dd204e" prot="public">
+          <name>FixedUpdate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a5ae6e3c90e0df90b1054ca2d4c37ce4cae1ba155a9f2e8c3be94020eef32a0301" prot="public">
+          <name>Manual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="16" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a88530919f84d258d097d4198da218079" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputControlSourceType</name>
+        <enumvalue id="namespace_in_control_1a88530919f84d258d097d4198da218079a87b7760f14fbff78d8819291f36ab9a0" prot="public">
+          <name>Button</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a88530919f84d258d097d4198da218079a3d953aa7cfa5ffe0fde34551d918c76c" prot="public">
+          <name>Analog</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a88530919f84d258d097d4198da218079ac907926ec1a512d0ea7a434ca3c9aa9f" prot="public">
+          <name>KeyCode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>InputControlType</name>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa072fdddf2d4a4ca4910f3254e256b68b" prot="public">
+          <name>LeftStickUp</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa7e3b48e444c2605133fde31157fa9524" prot="public">
+          <name>LeftStickDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa0cd6a748ac9cc076b79f9483461ca3e2" prot="public">
+          <name>LeftStickLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa3edb7d0c112444816204877edcbc9cd4" prot="public">
+          <name>LeftStickRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa8e6ef93334f76dce81538a4cbe07cc5c" prot="public">
+          <name>LeftStickButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aadc0d118b86c0d0dfe3e8df6dae59d4c0" prot="public">
+          <name>RightStickUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae4ff1f5bc4c15fcb3ca10f22efbddeca" prot="public">
+          <name>RightStickDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa97d35bccaaba932890d9e190794af6b4" prot="public">
+          <name>RightStickLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab162deccf2fd1a5c616bd3e567f81b18" prot="public">
+          <name>RightStickRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa90873288705923dd2e68a2c6b0e652ce" prot="public">
+          <name>RightStickButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6e53ad4e24c7b597e15b2193883bf7f2" prot="public">
+          <name>DPadUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa826b0ea5950d9f05469d6f3ded8b570f" prot="public">
+          <name>DPadDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa1afff4bd4c22275dff273ca6f01952f1" prot="public">
+          <name>DPadLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaee57d4f85b132ca155ad4f77e71b7df1" prot="public">
+          <name>DPadRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aac412c6d19da2afaf2dc8891f5bcb8901" prot="public">
+          <name>LeftTrigger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa837ed99a897594cef0d37403a18f0df0" prot="public">
+          <name>RightTrigger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa91aac15641d2e4fce8e8aef22a4ce4c7" prot="public">
+          <name>LeftBumper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa509b4eb4dd040194b2aa506683ccfbad" prot="public">
+          <name>RightBumper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa72c7a3098399dfb77a42f5181b46fa41" prot="public">
+          <name>Action1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa426ce788509fd7ac2814ae1639907fe3" prot="public">
+          <name>Action2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa2da42cea2a446458f0f3c11c87c2f357" prot="public">
+          <name>Action3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aade12011c39014de6d3d6658541695391" prot="public">
+          <name>Action4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aad613b9980f7c731fc279724f9e5689fd" prot="public">
+          <name>Action5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaafde7dfeec0f4715a0c0319ea13076b6" prot="public">
+          <name>Action6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa307a5eae0ad4a655061922775dc54bb3" prot="public">
+          <name>Action7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa1fd49dd32a5a66be89ccd3256e4d9b14" prot="public">
+          <name>Action8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa436b85e9c6f2f90e3b5b700b1e1a6d40" prot="public">
+          <name>Action9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4d19cbc5f159e48d45b5600e94d1c749" prot="public">
+          <name>Action10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab28c4115e6973f1843c4f1bad25c1728" prot="public">
+          <name>Action11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaf9b70b3b3b6ec6a2daa3a6a4e91a8c06" prot="public">
+          <name>Action12</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa0557fa923dcee4d0f86b1409f5c2167f" prot="public">
+          <name>Back</name>
+          <initializer>= 100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa6122a65eaa676f700ae68d393054a37" prot="public">
+          <name>Start</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae0626222614bdee31951d84c64e5e9ff" prot="public">
+          <name>Select</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" prot="public">
+          <name>System</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aadae8ace18bdcbcc6ae5aece263e14fe8" prot="public">
+          <name>Options</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa105b296a83f9c105355403f3332af50f" prot="public">
+          <name>Pause</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab61541208db7fa7dba42c85224405911" prot="public">
+          <name>Menu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa5a95a425f74314a96f13a2f136992178" prot="public">
+          <name>Share</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa8cf04a9734132302f96da8e113e80ce5" prot="public">
+          <name>Home</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4351cfebe4b61d8aa5efa1d020710005" prot="public">
+          <name>View</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aadd4fe0cc913f704600b97d1f5dd285de" prot="public">
+          <name>Power</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa44a50f07b4bdc57740901280f9eddaf5" prot="public">
+          <name>Capture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa9b1363da9503dbd4142c0274a88e8d4b" prot="public">
+          <name>Assistant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa32ba78fe43257d3e7f88e3935a8ea0d4" prot="public">
+          <name>Plus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa453fb623e752c5993f65bc410fd74fe5" prot="public">
+          <name>Minus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa09908c4bbbfa073356b89d00c68e3dc0" prot="public">
+          <name>PedalLeft</name>
+          <initializer>= 150</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa44dd76775b5c9a475803baf3f6bb4634" prot="public">
+          <name>PedalRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa793c863ba9f4223cb5fd7224f85f67ce" prot="public">
+          <name>PedalMiddle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4d175984667dd82e3b3d2aab1b8cfc91" prot="public">
+          <name>GearUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa477cd279e0bf7abfa6147cf07b050f08" prot="public">
+          <name>GearDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa87f800274a7f46c50e17114f89171e2e" prot="public">
+          <name>Pitch</name>
+          <initializer>= 200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa25b5eb3bbef15385b5f5ff3abe46f342" prot="public">
+          <name>Roll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aac5d6d1002e8ca364762309fe642a2327" prot="public">
+          <name>Yaw</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa5d41976830c48a3e4102632da498abcf" prot="public">
+          <name>ThrottleUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa320aed68d84ae57e103e51373ad2c05d" prot="public">
+          <name>ThrottleDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa9c712244e6c447707373ed0f523dda79" prot="public">
+          <name>ThrottleLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab87863a418e05cf80086d9121b9ab932" prot="public">
+          <name>ThrottleRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa11a502ec269cc041abd3556ad3fc2af5" prot="public">
+          <name>POVUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa689cab14f03e18dea46edac0b828ee42" prot="public">
+          <name>POVDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa2581ca4912f5f36a69392dbfa3aa51b3" prot="public">
+          <name>POVLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aafb000968754e6ce24ed08e13afec4422" prot="public">
+          <name>POVRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa53c86adf2918f4231ca2987b2651c62e" prot="public">
+          <name>TiltX</name>
+          <initializer>= 250</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa00cfefce92498c20e66c43084d4b0c2" prot="public">
+          <name>TiltY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa3a430af6bcb4c5f677e9d6b89fe521a6" prot="public">
+          <name>TiltZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aac6a135905c528a6904c47713bec340b5" prot="public">
+          <name>ScrollWheel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae4a6f50e3520e361091c677508acf87f" prot="public">
+          <name>TouchPadTap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa58881e427da260f649a4bf17b6b1e8fe" prot="public">
+          <name>TouchPadButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa0bd1a69c94b2f871cbc9a04587a4534d" prot="public">
+          <name>TouchPadXAxis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa1e9db35255e9d72be8fe62b718e50005" prot="public">
+          <name>TouchPadYAxis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa81108d921d7be2c36b94c5e87d2b5f82" prot="public">
+          <name>LeftSL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa7c3e272db858fa69cdc6e212861e0c07" prot="public">
+          <name>LeftSR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aafd17c4232a48b47a6e6da960f59076b4" prot="public">
+          <name>RightSL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa2802da6b7ffc048c604cc2898efa7b37" prot="public">
+          <name>RightSR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaee97be03cb04119af45014d815621ce1" prot="public">
+          <name>Command</name>
+          <initializer>= 300</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa9401da4ce408415b34ce204ccb2c27d0" prot="public">
+          <name>LeftStickX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa729f2100a072d3bc80d4eaea3218e61f" prot="public">
+          <name>LeftStickY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa815982789d1065d38cea0bf6a12e3d75" prot="public">
+          <name>RightStickX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aad3a7ef3a60ff2067a300de6108b26671" prot="public">
+          <name>RightStickY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4fb1d49e9519e92185e00e0ed3d1e86c" prot="public">
+          <name>DPadX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aad3021a6b02d47cff51b581fdaf46c15d" prot="public">
+          <name>DPadY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa2568cf0a78b35d986e144c071fcd8d55" prot="public">
+          <name>Analog0</name>
+          <initializer>= 400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab13e6e9e6199e8043f9d41cef0ccc9ee" prot="public">
+          <name>Analog1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaefebcd1a3142c8f040994b39f154f99f" prot="public">
+          <name>Analog2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaca4d5baae15f7c87da04f1b42ec28752" prot="public">
+          <name>Analog3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae7fce30fb3f69b884e9c717c7c302cd9" prot="public">
+          <name>Analog4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aad7e557d2b9ff4d1697cc4baac8ea1582" prot="public">
+          <name>Analog5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa8bf3bd322b0f4c8c4eec2a245a357c1b" prot="public">
+          <name>Analog6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa5034694099ab99c8c38f204fd5168243" prot="public">
+          <name>Analog7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa2f58e8a4358b489f4872b6e3f329a437" prot="public">
+          <name>Analog8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa73b28bdae29261d8fa6b8e828d7aa452" prot="public">
+          <name>Analog9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aac393de2ff745b7d2653f4400af67a790" prot="public">
+          <name>Analog10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6800dacf1d72eea9cebd0b955a6e70b7" prot="public">
+          <name>Analog11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa5a137e7258e7a77e18cdafab2afcae37" prot="public">
+          <name>Analog12</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaec4693fb831c97ef588d5a0ad53586d2" prot="public">
+          <name>Analog13</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aace687f12e17e00064036746b246fd49a" prot="public">
+          <name>Analog14</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa51d2ff06158b44f6865d21b4d3464133" prot="public">
+          <name>Analog15</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa4a25fe2802037d17aeac76cf5d11511" prot="public">
+          <name>Analog16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae6fefd33c7716e221b83816b8fcdb68a" prot="public">
+          <name>Analog17</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaffb6e44061b693139b5d1e75008f5488" prot="public">
+          <name>Analog18</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa8d462d7910935132f3b87c1a3789d108" prot="public">
+          <name>Analog19</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aadf18fdbdb36feb48df7a2b683a732543" prot="public">
+          <name>Button0</name>
+          <initializer>= 500</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6475a3746209a62a6ce6289a3741d07e" prot="public">
+          <name>Button1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae165925a7c2d5ea94209b91389aa189f" prot="public">
+          <name>Button2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6d0c69e60d65a93dd244ae95f90e679c" prot="public">
+          <name>Button3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa91ff24acfc01cc2c3a4238a272a37d07" prot="public">
+          <name>Button4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaf8849babaeaee3344306b87310664d65" prot="public">
+          <name>Button5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa375ccc6b3a6125cc5c67f2c700a55b72" prot="public">
+          <name>Button6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa00c628d1b186fa4fe9c7f633426979e" prot="public">
+          <name>Button7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4f651f24c0b38f6e7ea0d52b0c514e36" prot="public">
+          <name>Button8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaefe28baa94fc5f90fde7d0ff617460a3" prot="public">
+          <name>Button9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa3d3ef49f12a784286c545ad83aacf8ce" prot="public">
+          <name>Button10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa4133398c2839051d345393acd4faf3ee" prot="public">
+          <name>Button11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aad5a401edc77800581785ad5cb92760da" prot="public">
+          <name>Button12</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa08284e923648a561b32f6827740e34d4" prot="public">
+          <name>Button13</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaf769ff0469d23edf256a251bf24d1db0" prot="public">
+          <name>Button14</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aab445300f30fa6f3d226af8b79226a577" prot="public">
+          <name>Button15</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa50797af028427c93d51eca44e1fdd2c6" prot="public">
+          <name>Button16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae39be6f7fd8b6699b123a7fd7892bee7" prot="public">
+          <name>Button17</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa366892c6e2581cfc45149ba11d5f6bd0" prot="public">
+          <name>Button18</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa82aec6b40690390a7bb599b4f3cf43c1" prot="public">
+          <name>Button19</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration of input controls. This includes both the standardized set of controls and a variety of non-standard and generic unnamed controls. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlType.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlType.cs" bodystart="12" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>InputRangeType</name>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea74bed7bc7c4e66d80d2f4bf23a165586" prot="public">
+          <name>MinusOneToOne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eeaad00e9dd65a4f4c0db6e7ad8cdbb1510" prot="public">
+          <name>OneToMinusOne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea4b942544cb3e764bbb8d33f8a8744855" prot="public">
+          <name>ZeroToOne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea0afe74d4b1c048417383fa00eb87f2c2" prot="public">
+          <name>ZeroToMinusOne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea551dcb73a586c383608f9f38d77b6851" prot="public">
+          <name>OneToZero</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea4ec4c9b9f31fa329cab7dbca8b271c73" prot="public">
+          <name>MinusOneToZero</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRangeType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRangeType.cs" bodystart="4" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1aebf54bb02b0c05cb7a0ac71d85248238" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LogMessageType</name>
+        <enumvalue id="namespace_in_control_1aebf54bb02b0c05cb7a0ac71d85248238a4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1aebf54bb02b0c05cb7a0ac71d85248238a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1aebf54bb02b0c05cb7a0ac71d85248238a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/Logger.cs" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>InputDeviceClass</name>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a6ce4d85a628a88bbdb3ac24a8e5a9c2e" prot="public">
+          <name>Keyboard</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339af2a47c6809d88e175dade0ef7b16aa13" prot="public">
+          <name>Mouse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a9bbf373797bf7cf7ba62c80023682e25" prot="public">
+          <name>Controller</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339af8508f576cd3f742dfc268258dcdf0dd" prot="public">
+          <name>Remote</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a82bfe87f5051b04e94fcddc085522da8" prot="public">
+          <name>FlightStick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a64a952e5a8456c1030ce54bfa07ebb52" prot="public">
+          <name>TouchScreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceClass.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceClass.cs" bodystart="4" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" prot="public" static="no" strong="yes">
+        <type>ushort</type>
+        <name>InputDeviceDriverType</name>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fda88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fda4695654d9a54210407e32e78a14d5cbb" prot="public">
+          <name>HID</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fda7aca5ec618f7317328dcd7014cf9bdcf" prot="public">
+          <name>USB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fda7deff39593c9cecd401b795d6e1ae04b" prot="public">
+          <name>Bluetooth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fda9fb4bed4b739ad953b035208092def08" prot="public">
+          <name>XInput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fdac8789740ffce3e708d1f75f962fdcc10" prot="public">
+          <name>DirectInput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fdaaf6394fc0724e2cbbe32986b14713176" prot="public">
+          <name>RawInput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceDriverType.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceDriverType.cs" bodystart="7" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputDeviceProfileType</name>
+        <enumvalue id="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84a82dd98f1d663acc318e6a8ec4ab69b7a" prot="public">
+          <name>Unity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84a925641e0b76c28cc940e8f3ca178d826" prot="public">
+          <name>Native</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfileType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceProfileType.cs" bodystart="4" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>InputDeviceStyle</name>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a9676fb543e32a92e7f7074c014dff24d" prot="public">
+          <name>Xbox360</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a50aa9948f17b86aa044f4c5efe274445" prot="public">
+          <name>XboxOne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a2d8121056f5136191b951c5cf75ffc79" prot="public">
+          <name>PlayStation2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a18ba8af3fef849cca4d7d8d952289e4a" prot="public">
+          <name>PlayStation3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a95830dd4b3c29e91f6ba2bb62d3b4f37" prot="public">
+          <name>PlayStation4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab1092a8aaa69e9e84847d25294eeaf57" prot="public">
+          <name>PlayStationVita</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a7051340dca783d19cd57b45b3e658637" prot="public">
+          <name>PlayStationMove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab454563f95c69c20f4e840477a7d0d6c" prot="public">
+          <name>Ouya</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a4db4563826bad0eb2f60ee6e42d0ea4b" prot="public">
+          <name>Steam</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ad61408c8059ae69b398a3f2b30e38837" prot="public">
+          <name>AppleMFi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab5979854f969e6ea9f5514539365135e" prot="public">
+          <name>AmazonFireTV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ac4e771614b86be0c39a1abb7ba6e5b67" prot="public">
+          <name>NVIDIAShield</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a6a46e57e280e3618ef962f9bfb182c61" prot="public">
+          <name>NintendoNES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5abec3184d8b8b54e5a286d5ce206fc8e8" prot="public">
+          <name>NintendoSNES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ac0b1680593cd43fb2aa91d7675696c50" prot="public">
+          <name>Nintendo64</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ada16d1a723daeef055b8a7b52220049d" prot="public">
+          <name>NintendoGameCube</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5af9d0edcc3c8a38c2951ae7135eca7d94" prot="public">
+          <name>NintendoWii</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a0e49596cf30134da3e393765f36803dd" prot="public">
+          <name>NintendoWiiU</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a013ed2500604451a094b5aaf9ad2827c" prot="public">
+          <name>NintendoSwitch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a921505a58ebb360d75dc9fba92e1b10a" prot="public">
+          <name>GoogleStadia</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ad9ea24fb6c8712c20f239f2468b28f2e" prot="public">
+          <name>Vive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5aa8a06837aec81e16c9a07221848aef6f" prot="public">
+          <name>Oculus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceStyle.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceStyle.cs" bodystart="7" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" prot="public" static="no" strong="yes">
+        <type>ushort</type>
+        <name>InputDeviceTransportType</name>
+        <enumvalue id="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85a7aca5ec618f7317328dcd7014cf9bdcf" prot="public">
+          <name>USB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85a7deff39593c9cecd401b795d6e1ae04b" prot="public">
+          <name>Bluetooth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceTransportType.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceTransportType.cs" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aa" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>LockAxis</name>
+        <enumvalue id="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aaa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aaac1b5fa03ecdb95d4a45dd1c40b02527f" prot="public">
+          <name>Horizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aaa06ce2a25e5d12c166a36f654dbea6012" prot="public">
+          <name>Vertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4e" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>DragAxis</name>
+        <enumvalue id="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4ea130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4eac1b5fa03ecdb95d4a45dd1c40b02527f" prot="public">
+          <name>Horizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4ea06ce2a25e5d12c166a36f654dbea6012" prot="public">
+          <name>Vertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="14" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>TouchControlAnchor</name>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aab32beb056fbfe36afbabc6c88c81ab36" prot="public">
+          <name>TopLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa9f44821a7b58abb265709f49e54ef8ca" prot="public">
+          <name>CenterLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa98e5a1c44509157ebcaf46c515c78875" prot="public">
+          <name>BottomLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa91b8ede24b7f93a98ae4dcaade15d468" prot="public">
+          <name>TopCenter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa4f1f6016fc9f3f2353c0cc7c67b292bd" prot="public">
+          <name>Center</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aabf7d9c8ad2f89a37cf5378b5fec0b420" prot="public">
+          <name>BottomCenter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa1d85a557894c340c318493f33bfa8efb" prot="public">
+          <name>TopRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aaa538ef718186c9e0967239bb60043d1f" prot="public">
+          <name>CenterRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa9146bfc669fddc88db2c4d89297d0e9a" prot="public">
+          <name>BottomRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControlAnchor.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControlAnchor.cs" bodystart="4" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a460db188c91485171a18b4c6e9464b38" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>TouchSpriteShape</name>
+        <enumvalue id="namespace_in_control_1a460db188c91485171a18b4c6e9464b38a01733ae48f19ae284165e55dd2934b61" prot="public">
+          <name>Oval</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a460db188c91485171a18b4c6e9464b38ace9291906a4c3b042650b70d7f3b152e" prot="public">
+          <name>Rectangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchSprite.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1ab9567f999cf938112e43f91587810dd1" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>TouchType</name>
+        <enumvalue id="namespace_in_control_1ab9567f999cf938112e43f91587810dd1afd1dd0c603be8170f9eae0be9f2f6afb" prot="public">
+          <name>Direct</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ab9567f999cf938112e43f91587810dd1a0b5ca9d0c6dbcbb3e299361cd4e4a79c" prot="public">
+          <name>Indirect</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ab9567f999cf938112e43f91587810dd1af9eccd07c9abd3e633298d3239fa3b98" prot="public">
+          <name>Stylus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1ab9567f999cf938112e43f91587810dd1af2a47c6809d88e175dade0ef7b16aa13" prot="public">
+          <name>Mouse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchType.cs" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>TouchUnitType</name>
+        <enumvalue id="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" prot="public">
+          <name>Percent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605ac3d2f5d37334dc978fd8b17fc77408a1" prot="public">
+          <name>Pixels</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUnitType.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchUnitType.cs" bodystart="4" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_in_control_1acd54c2f1bf3f4d16a3190ce4faf1a983" prot="public" static="no">
+        <type>System.UInt32</type>
+        <definition>typedef System UInt32 InControl::DeviceHandle</definition>
+        <argsstring></argsstring>
+        <name>DeviceHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/Native.cs" line="5" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/Native.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_in_control_1a54c4a6ee445f82353437eaae919cded9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Vector2</type>
+        <definition>delegate Vector2 InControl.DeadZoneFunc</definition>
+        <argsstring>(float x, float y, float lowerDeadZone, float upperDeadZone)</argsstring>
+        <name>DeadZoneFunc</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" line="7" column="25" declfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" declline="7" declcolumn="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>WARNING: This is NOT an example of how to use <ref refid="namespace_in_control" kindref="compound">InControl</ref>. It is intended for testing and troubleshooting the library. It can also be used for create new device profiles as it will show the default Unity mappings for unknown devices. </para>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/InputControlSourcePropertyDrawer.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

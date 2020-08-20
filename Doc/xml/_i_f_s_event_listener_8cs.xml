@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_i_f_s_event_listener_8cs" kind="file" language="C#">
+    <compoundname>IFSEventListener.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" prot="public">FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events">FrancoisSauce::Scripts::FSEvents</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners">FrancoisSauce::Scripts::FSEvents::Listeners</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.Events;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners" kindref="compound">FrancoisSauce.Scripts.FSEvents.Listeners</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" kindref="compound">IFSEventListener</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Listener<sp/>Handler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a4910cd4d11a62d2483abe096d4d4a048" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a4910cd4d11a62d2483abe096d4d4a048" kindref="member">AddListeners</ref>();</highlight></codeline>
+<codeline lineno="21" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1ad993f18a6d542b810928a942588c6762" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1ad993f18a6d542b810928a942588c6762" kindref="member">RemoveListeners</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Unity<sp/>Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a9f4110c8bc095c237d5fea9d2f18f87f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a9f4110c8bc095c237d5fea9d2f18f87f" kindref="member">Awake</ref>();</highlight></codeline>
+<codeline lineno="34" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1af58534aa991b21f25d80dcc6f92b500a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1af58534aa991b21f25d80dcc6f92b500a" kindref="member">OnEnable</ref>();</highlight></codeline>
+<codeline lineno="38" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1acfef303b35085ca512c0daec1840874a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1acfef303b35085ca512c0daec1840874a" kindref="member">OnDisable</ref>();</highlight></codeline>
+<codeline lineno="42" refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1aa866d34759a6378469ec931e9ce867cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1aa866d34759a6378469ec931e9ce867cd" kindref="member">OnDestroy</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_int_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUtils::FSGlobalVariables::FSGlobalIntSO</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalVariableSO&lt; int &gt;</basecompoundref>
+    <briefdescription>
+<para>int implementation of the FSGlobalVariableSO&lt;T&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FSGlobalVariableSO&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalIntSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_int_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FSGlobalVariableSO&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalIntSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_int_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalIntSO.cs" line="10" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalIntSO.cs" bodystart="11" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o_1a523196fb8b89056fbd30005de5e24ec5" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::FSGlobalVariables::FSGlobalIntSO</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

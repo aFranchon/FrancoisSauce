@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_view___option_menu_8cs" kind="file" language="C#">
+    <compoundname>View_OptionMenu.cs</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu" prot="public">FrancoisSauce::Scripts::MainMenu::OptionMenu::View_OptionMenu</innerclass>
+    <innernamespace refid="namespace_francois_sauce">FrancoisSauce</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu">FrancoisSauce::Scripts::MainMenu</innernamespace>
+    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu">FrancoisSauce::Scripts::MainMenu::OptionMenu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_views" kindref="compound">FSViews</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu" kindref="compound">FrancoisSauce.Scripts.MainMenu.OptionMenu</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu" kindref="compound">View_OptionMenu</ref><sp/>:<sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" kindref="compound">IFSView</ref>&lt;Scene_MainMenu&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a85feecc441bb1790643e909d03360177" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a85feecc441bb1790643e909d03360177" kindref="member">Awake</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>viewUI<sp/>=<sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1acae240926d36904893dc3c473768be08" kindref="member">optionMenuUI</ref>.GetComponent&lt;<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script" kindref="compound">OptionMenuScript</ref>&gt;();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewUI.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_option_menu_script_1a65e9e9925dbb0e1548c5d8ad85f387e7" kindref="member">backButton</ref>.onClick.AddListener(()<sp/>=&gt;<sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1ac508cea259a3e9a7e32bb574937bf9df" kindref="member">ChangeView</ref>(scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1ae0ec67059da2a8e0394a78042ac3e98f" kindref="member">baseMenu</ref>));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a25583bcf25274158fabc5b8133907ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a25583bcf25274158fabc5b8133907ea2" kindref="member">OnViewEnter</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1acae240926d36904893dc3c473768be08" kindref="member">optionMenuUI</ref>.SetActive(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a46ee5a29c93ab5988b368a77d6fb2534" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1a46ee5a29c93ab5988b368a77d6fb2534" kindref="member">OnViewExit</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scene.<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_1acae240926d36904893dc3c473768be08" kindref="member">optionMenuUI</ref>.SetActive(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32" refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1adb754467e4fafb8a32e3567747d32b4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu_1adb754467e4fafb8a32e3567747d32b4c" kindref="member">OnUpdate</ref>(<ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu" kindref="compound">Scene_MainMenu</ref><sp/>scene)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_OptionMenu/View_OptionMenu.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_optional_u_int16_property_drawer" kind="class" language="C#" prot="public">
+    <compoundname>InControl::OptionalUInt16PropertyDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_optional_u_int16_property_drawer_1a17d37236acb963fdc478cc27a7502802" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ulong</type>
+        <definition>static ulong InControl.OptionalUInt16PropertyDrawer.ParseNumber</definition>
+        <argsstring>(string text)</argsstring>
+        <name>ParseNumber</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" line="13" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" bodystart="13" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_optional_u_int16_property_drawer_1ad1ad59102098811e555c5cacad2fb8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void InControl.OptionalUInt16PropertyDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" line="41" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" bodystart="41" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.OptionalUInt16PropertyDrawer</label>
+        <link refid="class_in_control_1_1_optional_u_int16_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.OptionalUInt16PropertyDrawer</label>
+        <link refid="class_in_control_1_1_optional_u_int16_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" line="11" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes/OptionalUInt16PropertyDrawer.cs" bodystart="12" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_optional_u_int16_property_drawer_1ad1ad59102098811e555c5cacad2fb8b3" prot="public" virt="non-virtual"><scope>InControl::OptionalUInt16PropertyDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_in_control_1_1_optional_u_int16_property_drawer_1a17d37236acb963fdc478cc27a7502802" prot="private" virt="non-virtual"><scope>InControl::OptionalUInt16PropertyDrawer</scope><name>ParseNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

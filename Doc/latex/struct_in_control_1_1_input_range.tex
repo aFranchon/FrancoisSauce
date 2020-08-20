@@ -1,0 +1,353 @@
+\hypertarget{struct_in_control_1_1_input_range}{}\doxysection{In\+Control.\+Input\+Range Struct Reference}
+\label{struct_in_control_1_1_input_range}\index{InControl.InputRange@{InControl.InputRange}}
+
+
+This type represents a range inclusive of two values, and can remap a value from one range to another.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_input_range_a49677e276ef0b4f328e59eaf95ccfd82}{Input\+Range}} (float value0, float value1, \mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} type)
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_input_range_a0380cdbbed4938515d584409612b99cb}{Input\+Range}} (\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Initializes a new range from a predefined type. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{struct_in_control_1_1_input_range_a7b1ae17212dd233c567874e84c39b32f}{Includes}} (float value)
+\begin{DoxyCompactList}\small\item\em Check whether a value falls within of this range. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{struct_in_control_1_1_input_range_a051775119d743db6b35c8705701bf166}{Excludes}} (float value)
+\begin{DoxyCompactList}\small\item\em Check whether a value falls outside of this range. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_input_range_ad71eb972cc04258d79f8e96294a5bc8c}{Excludes}} (\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} range\+Type, float value)
+\begin{DoxyCompactList}\small\item\em Check whether a value falls outside of a specified range. \end{DoxyCompactList}\item 
+static float \mbox{\hyperlink{struct_in_control_1_1_input_range_a4848ddbcbdf53b6b1ccbdfb08aa033cd}{Remap}} (float value, \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} source\+Range, \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} target\+Range)
+\begin{DoxyCompactList}\small\item\em Remap the specified value, from one range to another. \end{DoxyCompactList}\item 
+static float \mbox{\hyperlink{struct_in_control_1_1_input_range_a0ec75adb28cf6156ad8690afe18b9f1c}{Remap}} (float value, \mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} source\+Range\+Type, \mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} target\+Range\+Type)
+\begin{DoxyCompactList}\small\item\em Remap the specified value, from one range to another. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly float \mbox{\hyperlink{struct_in_control_1_1_input_range_a9d0d73e7af25dbf9ed4f35cd68e63f76}{Value0}}
+\begin{DoxyCompactList}\small\item\em The first value in the range. \end{DoxyCompactList}\item 
+readonly float \mbox{\hyperlink{struct_in_control_1_1_input_range_a385a871dcd86e4dc088925dfb301fd3b}{Value1}}
+\begin{DoxyCompactList}\small\item\em The second value in the range. \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} \mbox{\hyperlink{struct_in_control_1_1_input_range_a95756dce9d9e4261ad36d01a49c6eb5a}{Type}}
+\begin{DoxyCompactList}\small\item\em An enum type of the range. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_aa5a40bb2a8ac2381318d08614201ce6d}{None}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, 0.\+0f, Input\+Range\+Type.\+None )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_ab769d363eba469af0104f5f8a93500e8}{Minus\+One\+To\+One}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( -\/1.\+0f, 1.\+0f, Input\+Range\+Type.\+Minus\+One\+To\+One )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_a5ff0f8fdc006e86088e3006ede21b0d2}{One\+To\+Minus\+One}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 1.\+0f, -\/1.\+0f, Input\+Range\+Type.\+One\+To\+Minus\+One )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_af8148b8e3c781edfe59a4f0731cccd33}{Zero\+To\+One}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, 1.\+0f, Input\+Range\+Type.\+Zero\+To\+One )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_a8b884ec4f2e42a27967dd965399fcae5}{Zero\+To\+Minus\+One}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, -\/1.\+0f, Input\+Range\+Type.\+Zero\+To\+Minus\+One )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_a772275659530f96ca015798b7223b178}{One\+To\+Zero}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 1.\+0f, 0.\+0f, Input\+Range\+Type.\+One\+To\+Zero )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{\hyperlink{struct_in_control_1_1_input_range_aceae03fc197e697c8d47663ab504891a}{Minus\+One\+To\+Zero}} = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( -\/1.\+0f, 0.\+0f, Input\+Range\+Type.\+Minus\+One\+To\+Zero )
+\item 
+static readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{struct_in_control_1_1_input_range_a5957811a2023f7af9b66b98065ede2c2}{type\+To\+Range}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This type represents a range inclusive of two values, and can remap a value from one range to another. 
+
+
+
+Definition at line 11 of file Input\+Range.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a49677e276ef0b4f328e59eaf95ccfd82}\label{struct_in_control_1_1_input_range_a49677e276ef0b4f328e59eaf95ccfd82}} 
+\index{InControl.InputRange@{InControl.InputRange}!InputRange@{InputRange}}
+\index{InputRange@{InputRange}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{InputRange()}{InputRange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily In\+Control.\+Input\+Range.\+Input\+Range (\begin{DoxyParamCaption}\item[{float}]{value0,  }\item[{float}]{value1,  }\item[{\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}}}]{type }\end{DoxyParamCaption})}
+
+
+
+Definition at line 52 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a0380cdbbed4938515d584409612b99cb}\label{struct_in_control_1_1_input_range_a0380cdbbed4938515d584409612b99cb}} 
+\index{InControl.InputRange@{InControl.InputRange}!InputRange@{InputRange}}
+\index{InputRange@{InputRange}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{InputRange()}{InputRange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily In\+Control.\+Input\+Range.\+Input\+Range (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}}}]{type }\end{DoxyParamCaption})}
+
+
+
+Initializes a new range from a predefined type. 
+
+
+
+Definition at line 63 of file Input\+Range.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a051775119d743db6b35c8705701bf166}\label{struct_in_control_1_1_input_range_a051775119d743db6b35c8705701bf166}} 
+\index{InControl.InputRange@{InControl.InputRange}!Excludes@{Excludes}}
+\index{Excludes@{Excludes}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Excludes()}{Excludes()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Range.\+Excludes (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+Check whether a value falls outside of this range. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if the value falls outside this range, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value to check.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 87 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_ad71eb972cc04258d79f8e96294a5bc8c}\label{struct_in_control_1_1_input_range_ad71eb972cc04258d79f8e96294a5bc8c}} 
+\index{InControl.InputRange@{InControl.InputRange}!Excludes@{Excludes}}
+\index{Excludes@{Excludes}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Excludes()}{Excludes()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static bool In\+Control.\+Input\+Range.\+Excludes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}}}]{range\+Type,  }\item[{float}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check whether a value falls outside of a specified range. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if the value falls outside this range, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em range\+Type} & The range to check against.\\
+\hline
+{\em value} & The value to check.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 104 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a7b1ae17212dd233c567874e84c39b32f}\label{struct_in_control_1_1_input_range_a7b1ae17212dd233c567874e84c39b32f}} 
+\index{InControl.InputRange@{InControl.InputRange}!Includes@{Includes}}
+\index{Includes@{Includes}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Includes()}{Includes()}}
+{\footnotesize\ttfamily bool In\+Control.\+Input\+Range.\+Includes (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+Check whether a value falls within of this range. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if the value falls within this range, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value to check.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a4848ddbcbdf53b6b1ccbdfb08aa033cd}\label{struct_in_control_1_1_input_range_a4848ddbcbdf53b6b1ccbdfb08aa033cd}} 
+\index{InControl.InputRange@{InControl.InputRange}!Remap@{Remap}}
+\index{Remap@{Remap}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Remap()}{Remap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static float In\+Control.\+Input\+Range.\+Remap (\begin{DoxyParamCaption}\item[{float}]{value,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}}]{source\+Range,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}}]{target\+Range }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remap the specified value, from one range to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value to remap.\\
+\hline
+{\em source\+Range} & The source range to map from.\\
+\hline
+{\em target\+Range} & The target range to map to.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 116 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a0ec75adb28cf6156ad8690afe18b9f1c}\label{struct_in_control_1_1_input_range_a0ec75adb28cf6156ad8690afe18b9f1c}} 
+\index{InControl.InputRange@{InControl.InputRange}!Remap@{Remap}}
+\index{Remap@{Remap}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Remap()}{Remap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static float In\+Control.\+Input\+Range.\+Remap (\begin{DoxyParamCaption}\item[{float}]{value,  }\item[{\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}}}]{source\+Range\+Type,  }\item[{\mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}}}]{target\+Range\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remap the specified value, from one range to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value to remap.\\
+\hline
+{\em source\+Range\+Type} & The source range to map from.\\
+\hline
+{\em target\+Range\+Type} & The target range to map to.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 134 of file Input\+Range.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_ab769d363eba469af0104f5f8a93500e8}\label{struct_in_control_1_1_input_range_ab769d363eba469af0104f5f8a93500e8}} 
+\index{InControl.InputRange@{InControl.InputRange}!MinusOneToOne@{MinusOneToOne}}
+\index{MinusOneToOne@{MinusOneToOne}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{MinusOneToOne}{MinusOneToOne}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+Minus\+One\+To\+One = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( -\/1.\+0f, 1.\+0f, Input\+Range\+Type.\+Minus\+One\+To\+One )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 15 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_aceae03fc197e697c8d47663ab504891a}\label{struct_in_control_1_1_input_range_aceae03fc197e697c8d47663ab504891a}} 
+\index{InControl.InputRange@{InControl.InputRange}!MinusOneToZero@{MinusOneToZero}}
+\index{MinusOneToZero@{MinusOneToZero}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{MinusOneToZero}{MinusOneToZero}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+Minus\+One\+To\+Zero = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( -\/1.\+0f, 0.\+0f, Input\+Range\+Type.\+Minus\+One\+To\+Zero )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 20 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_aa5a40bb2a8ac2381318d08614201ce6d}\label{struct_in_control_1_1_input_range_aa5a40bb2a8ac2381318d08614201ce6d}} 
+\index{InControl.InputRange@{InControl.InputRange}!None@{None}}
+\index{None@{None}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{None}{None}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+None = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, 0.\+0f, Input\+Range\+Type.\+None )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 14 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a5ff0f8fdc006e86088e3006ede21b0d2}\label{struct_in_control_1_1_input_range_a5ff0f8fdc006e86088e3006ede21b0d2}} 
+\index{InControl.InputRange@{InControl.InputRange}!OneToMinusOne@{OneToMinusOne}}
+\index{OneToMinusOne@{OneToMinusOne}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{OneToMinusOne}{OneToMinusOne}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+One\+To\+Minus\+One = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 1.\+0f, -\/1.\+0f, Input\+Range\+Type.\+One\+To\+Minus\+One )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 16 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a772275659530f96ca015798b7223b178}\label{struct_in_control_1_1_input_range_a772275659530f96ca015798b7223b178}} 
+\index{InControl.InputRange@{InControl.InputRange}!OneToZero@{OneToZero}}
+\index{OneToZero@{OneToZero}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{OneToZero}{OneToZero}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+One\+To\+Zero = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 1.\+0f, 0.\+0f, Input\+Range\+Type.\+One\+To\+Zero )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 19 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a95756dce9d9e4261ad36d01a49c6eb5a}\label{struct_in_control_1_1_input_range_a95756dce9d9e4261ad36d01a49c6eb5a}} 
+\index{InControl.InputRange@{InControl.InputRange}!Type@{Type}}
+\index{Type@{Type}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{namespace_in_control_ad1c59cc658f1d7c1255bf853fd69d1ee}{Input\+Range\+Type}} In\+Control.\+Input\+Range.\+Type}
+
+
+
+An enum type of the range. 
+
+
+
+Definition at line 49 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a5957811a2023f7af9b66b98065ede2c2}\label{struct_in_control_1_1_input_range_a5957811a2023f7af9b66b98065ede2c2}} 
+\index{InControl.InputRange@{InControl.InputRange}!typeToRange@{typeToRange}}
+\index{typeToRange@{typeToRange}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{typeToRange}{typeToRange}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} \mbox{[}$\,$\mbox{]} In\+Control.\+Input\+Range.\+type\+To\+Range\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{        \{}
+\DoxyCodeLine{            }
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_aa5a40bb2a8ac2381318d08614201ce6d}{None}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_ab769d363eba469af0104f5f8a93500e8}{MinusOneToOne}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_a5ff0f8fdc006e86088e3006ede21b0d2}{OneToMinusOne}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_af8148b8e3c781edfe59a4f0731cccd33}{ZeroToOne}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_a8b884ec4f2e42a27967dd965399fcae5}{ZeroToMinusOne}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_a772275659530f96ca015798b7223b178}{OneToZero}},}
+\DoxyCodeLine{            \mbox{\hyperlink{struct_in_control_1_1_input_range_aceae03fc197e697c8d47663ab504891a}{MinusOneToZero}},}
+\DoxyCodeLine{        \}}
+
+\end{DoxyCode}
+
+
+Definition at line 23 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a9d0d73e7af25dbf9ed4f35cd68e63f76}\label{struct_in_control_1_1_input_range_a9d0d73e7af25dbf9ed4f35cd68e63f76}} 
+\index{InControl.InputRange@{InControl.InputRange}!Value0@{Value0}}
+\index{Value0@{Value0}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Value0}{Value0}}
+{\footnotesize\ttfamily readonly float In\+Control.\+Input\+Range.\+Value0}
+
+
+
+The first value in the range. 
+
+
+
+Definition at line 39 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a385a871dcd86e4dc088925dfb301fd3b}\label{struct_in_control_1_1_input_range_a385a871dcd86e4dc088925dfb301fd3b}} 
+\index{InControl.InputRange@{InControl.InputRange}!Value1@{Value1}}
+\index{Value1@{Value1}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{Value1}{Value1}}
+{\footnotesize\ttfamily readonly float In\+Control.\+Input\+Range.\+Value1}
+
+
+
+The second value in the range. 
+
+
+
+Definition at line 44 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_a8b884ec4f2e42a27967dd965399fcae5}\label{struct_in_control_1_1_input_range_a8b884ec4f2e42a27967dd965399fcae5}} 
+\index{InControl.InputRange@{InControl.InputRange}!ZeroToMinusOne@{ZeroToMinusOne}}
+\index{ZeroToMinusOne@{ZeroToMinusOne}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{ZeroToMinusOne}{ZeroToMinusOne}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+Zero\+To\+Minus\+One = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, -\/1.\+0f, Input\+Range\+Type.\+Zero\+To\+Minus\+One )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 18 of file Input\+Range.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_input_range_af8148b8e3c781edfe59a4f0731cccd33}\label{struct_in_control_1_1_input_range_af8148b8e3c781edfe59a4f0731cccd33}} 
+\index{InControl.InputRange@{InControl.InputRange}!ZeroToOne@{ZeroToOne}}
+\index{ZeroToOne@{ZeroToOne}!InControl.InputRange@{InControl.InputRange}}
+\doxysubsubsection{\texorpdfstring{ZeroToOne}{ZeroToOne}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}} In\+Control.\+Input\+Range.\+Zero\+To\+One = new \mbox{\hyperlink{struct_in_control_1_1_input_range}{Input\+Range}}( 0.\+0f, 1.\+0f, Input\+Range\+Type.\+Zero\+To\+One )\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 17 of file Input\+Range.\+cs.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Control/\mbox{\hyperlink{_input_range_8cs}{Input\+Range.\+cs}}\end{DoxyCompactItemize}

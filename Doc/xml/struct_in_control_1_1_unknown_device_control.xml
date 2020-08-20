@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_unknown_device_control" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::UnknownDeviceControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; UnknownDeviceControl &gt;</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_unknown_device_control_1a9afa85b3d2da3eeec91fd302078bd52a" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+        <definition>readonly UnknownDeviceControl InControl.UnknownDeviceControl.None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref>( InputControlType.None, InputRangeType.None )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="9" column="45" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_unknown_device_control_1a08ce4d4e44ab1b50a9cc50d9711203a6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+        <definition>InputControlType InControl.UnknownDeviceControl.Control</definition>
+        <argsstring></argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="11" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_unknown_device_control_1ac9d61c31943ce2f7ebaae207cf1f683e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>InputRangeType InControl.UnknownDeviceControl.SourceRange</definition>
+        <argsstring></argsstring>
+        <name>SourceRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="12" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_unknown_device_control_1a19509de05a07619bba9d937b7331548d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.UnknownDeviceControl.IsButton</definition>
+        <argsstring></argsstring>
+        <name>IsButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="15" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_unknown_device_control_1a205e5083b463b4624fffea6886643181" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.UnknownDeviceControl.IsAnalog</definition>
+        <argsstring></argsstring>
+        <name>IsAnalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="16" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_unknown_device_control_1a201348c2994196419c17a6cc3b6afc9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? InControl.UnknownDeviceControl.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="40" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a1208bd563a997c4e749f06eb125d95ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.UnknownDeviceControl.UnknownDeviceControl</definition>
+        <argsstring>(InputControlType control, InputRangeType sourceRange)</argsstring>
+        <name>UnknownDeviceControl</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>sourceRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="19" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a7742072a247cb0d0a2c27c3b4130cba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.UnknownDeviceControl.Equals</definition>
+        <argsstring>(UnknownDeviceControl other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified object is equal to the current object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to compare with the current object.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified object is equal to the current object; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="83" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a25dfe34ebd9dfe694e27062e69f3d48c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.UnknownDeviceControl.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified object is equal to the current object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to compare with the current object.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified object is equal to the current object; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="95" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1ad93121701a0722fc11016bc535ea5115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.UnknownDeviceControl.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+<para>Serves as a hash function for this object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="106" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1ae6282d7b11a19074630086796cb7bfd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.UnknownDeviceControl.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="121" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="121" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a8a08e22583e3ff591fd85d9a66096874" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InControl.UnknownDeviceControl.GetValue</definition>
+        <argsstring>(InputDevice device)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="28" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a93168e32df81657c46618d2e77e5f83d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.UnknownDeviceControl.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="127" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a715dd1be2e7a3d01db3304db359f9b9f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.UnknownDeviceControl.Load</definition>
+        <argsstring>(BinaryReader reader)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="134" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="134" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1acd9330567ab8e0c66624b6db326ec855" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.UnknownDeviceControl.operator==</definition>
+        <argsstring>(UnknownDeviceControl a, UnknownDeviceControl b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified objects are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first object to compare.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second object to compare.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified objects are equal; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="55" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a38d5781e010396f2e0a5d7befffa769e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.UnknownDeviceControl.operator!=</definition>
+        <argsstring>(UnknownDeviceControl a, UnknownDeviceControl b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified objects are not equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first object to compare.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second object to compare.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified objects are not equal; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="71" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_unknown_device_control_1a3f81cd860a361a2d15ec2390b999fb68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.UnknownDeviceControl.operator bool</definition>
+        <argsstring>(UnknownDeviceControl control)</argsstring>
+        <name>operator bool</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the Control property is not <ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">InputControlType.None</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="115" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.UnknownDeviceControl</label>
+        <link refid="struct_in_control_1_1_unknown_device_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable&lt; UnknownDeviceControl &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.UnknownDeviceControl</label>
+        <link refid="struct_in_control_1_1_unknown_device_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>None</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+      <node id="2">
+        <label>IEquatable&lt; UnknownDeviceControl &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceControl.cs" bodystart="8" bodyend="141"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a08ce4d4e44ab1b50a9cc50d9711203a6" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Control</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a7742072a247cb0d0a2c27c3b4130cba9" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a25dfe34ebd9dfe694e27062e69f3d48c" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1ad93121701a0722fc11016bc535ea5115" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a8a08e22583e3ff591fd85d9a66096874" prot="package" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>GetValue</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a201348c2994196419c17a6cc3b6afc9a" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Index</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a205e5083b463b4624fffea6886643181" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>IsAnalog</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a19509de05a07619bba9d937b7331548d" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>IsButton</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a715dd1be2e7a3d01db3304db359f9b9f" prot="package" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Load</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a9afa85b3d2da3eeec91fd302078bd52a" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>None</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a3f81cd860a361a2d15ec2390b999fb68" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>operator bool</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a38d5781e010396f2e0a5d7befffa769e" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1acd9330567ab8e0c66624b6db326ec855" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a93168e32df81657c46618d2e77e5f83d" prot="package" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>Save</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1ac9d61c31943ce2f7ebaae207cf1f683e" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>SourceRange</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1ae6282d7b11a19074630086796cb7bfd3" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_unknown_device_control_1a1208bd563a997c4e749f06eb125d95ab" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceControl</scope><name>UnknownDeviceControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

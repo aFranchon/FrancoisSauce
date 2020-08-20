@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::WaitingToStart::WaitingToStartScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script_1a537cf8f42eef37abfe35bcf1a0c489de" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.GameScene.WaitingToStart.WaitingToStartScript.startButton</definition>
+        <argsstring></argsstring>
+        <name>startButton</name>
+        <briefdescription>
+<para>startButton to allow <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start" kindref="compound">View_WaitingToStart</ref> to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/WaitingToStartScript.cs" line="14" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/WaitingToStartScript.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of all the mandatory references for the <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start" kindref="compound">View_WaitingToStart</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.WaitingToStart.WaitingToStartScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.WaitingToStart.WaitingToStartScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/WaitingToStartScript.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/WaitingToStartScript.cs" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script_1a537cf8f42eef37abfe35bcf1a0c489de" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::WaitingToStartScript</scope><name>startButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

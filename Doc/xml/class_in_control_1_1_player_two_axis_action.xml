@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_player_two_axis_action" kind="class" language="C#" prot="public">
+    <compoundname>InControl::PlayerTwoAxisAction</compoundname>
+    <basecompoundref refid="class_in_control_1_1_two_axis_input_control" prot="public" virt="non-virtual">InControl.TwoAxisInputControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_two_axis_action_1a9c26c40ec705070f30af0e754b78ac57" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerTwoAxisAction.negativeXAction</definition>
+        <argsstring></argsstring>
+        <name>negativeXAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="8" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_two_axis_action_1a7c49f06583d4d915c65dbc06a612a099" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerTwoAxisAction.positiveXAction</definition>
+        <argsstring></argsstring>
+        <name>positiveXAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="9" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_two_axis_action_1aa5e91f3e087c083fe2b108a28e68b9bc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerTwoAxisAction.negativeYAction</definition>
+        <argsstring></argsstring>
+        <name>negativeYAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="10" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_two_axis_action_1a7817c511cbbfab82430b973794199a4e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerTwoAxisAction.positiveYAction</definition>
+        <argsstring></argsstring>
+        <name>positiveYAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="11" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_player_two_axis_action_1a81a931f22c13207dddb7732037f651e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerTwoAxisAction.InvertXAxis</definition>
+        <argsstring></argsstring>
+        <name>InvertXAxis</name>
+        <briefdescription>
+<para>Gets or sets a value indicating whether the X axis should be inverted for this action. When false (default), the X axis will be positive up, the same as Unity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="18" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_two_axis_action_1acb65a1d97a4abee3dd0cfe444d148428" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerTwoAxisAction.InvertYAxis</definition>
+        <argsstring></argsstring>
+        <name>InvertYAxis</name>
+        <briefdescription>
+<para>Gets or sets a value indicating whether the Y axis should be inverted for this action. When false (default), the Y axis will be positive up, the same as Unity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="25" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_two_axis_action_1a6b4fe4ef8f9639762a289438edade9b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object InControl.PlayerTwoAxisAction.UserData</definition>
+        <argsstring></argsstring>
+        <name>UserData</name>
+        <briefdescription>
+<para>This property can be used to store whatever arbitrary game data you want on this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="40" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_two_axis_action_1af726142277debc1c41aae39f478cac8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerTwoAxisAction.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="91" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="92" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_two_axis_action_1ac54270b0405e571d5791b687adc9d225" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerTwoAxisAction.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="108" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="109" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_two_axis_action_1aeb2be6ef388a62b3580937f07b68455c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>BindingSourceType InControl.PlayerTwoAxisAction.LastInputType</definition>
+        <argsstring></argsstring>
+        <name>LastInputType</name>
+        <initializer>= <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">BindingSourceType.None</ref></initializer>
+        <briefdescription>
+<para>The binding source type that last provided input to this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="30" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_in_control_1_1_player_two_axis_action_1a13e8e0b15499f0ba95ca9380df853ca6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref> &gt;</type>
+        <definition>Action&lt;BindingSourceType&gt; InControl.PlayerTwoAxisAction.OnLastInputTypeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLastInputTypeChanged</name>
+        <briefdescription>
+<para>Occurs when the binding source type that last provided input to this action set changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="35" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_two_axis_action_1a479c8858d47276f4240802221dda3a8d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.PlayerTwoAxisAction.PlayerTwoAxisAction</definition>
+        <argsstring>(PlayerAction negativeXAction, PlayerAction positiveXAction, PlayerAction negativeYAction, PlayerAction positiveYAction)</argsstring>
+        <name>PlayerTwoAxisAction</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeXAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveXAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeYAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveYAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="43" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="43" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_two_axis_action_1a6d271da5be202112a3cb0f7bff37defc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerTwoAxisAction.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="56" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="56" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_two_axis_action_1aeb51d1538ae96697f3792ccc2a8d47f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerTwoAxisAction.ProcessActionUpdate</definition>
+        <argsstring>(PlayerAction action)</argsstring>
+        <name>ProcessActionUpdate</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="69" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="69" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerTwoAxisAction</label>
+        <link refid="class_in_control_1_1_player_two_axis_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TwoAxisInputControl</label>
+        <link refid="class_in_control_1_1_two_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerTwoAxisAction</label>
+        <link refid="class_in_control_1_1_player_two_axis_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DeadZoneFunc</label>
+      </node>
+      <node id="2">
+        <label>TwoAxisInputControl</label>
+        <link refid="class_in_control_1_1_two_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>DeadZoneFunc</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Null</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerTwoAxisAction.cs" bodystart="7" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a9688fe52d6aed9472165d39dcdd1550f" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Angle</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a1044d19da44a51a47ed0950490c5da79" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a1f0f80665b894a45dcf174033589b9aa" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>DeadZoneFunc</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a322a7494d3063e7f140dda51248a8d1c" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Down</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1ad51daae7ce53f97f6e8080615c49cb91" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Filter</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a926b912e53b881710dad264b3419b0cd" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>HasChanged</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a81a931f22c13207dddb7732037f651e5" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>InvertXAxis</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1acb65a1d97a4abee3dd0cfe444d148428" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>InvertYAxis</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a8b976859c70543b75438ceaa269d99e7" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1aeb2be6ef388a62b3580937f07b68455c" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1af35328b06b4c3ec7065bd48fae8e6da6" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>LastState</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a2535fff66a70129a5bac5f5b49078544" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>LastValue</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a3ecf9233a77963fae9e69504634ba0bf" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Left</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1af726142277debc1c41aae39f478cac8e" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a9c26c40ec705070f30af0e754b78ac57" prot="private" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>negativeXAction</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1aa5e91f3e087c083fe2b108a28e68b9bc" prot="private" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>negativeYAction</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1ae68201a608676584bb4fec0c183f073e" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Null</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a13e8e0b15499f0ba95ca9380df853ca6" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1add771bf8300266d1ad25768f466d5fd5" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>operator bool</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a94e31be2b4f3bde57884c9df3a0242f3" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>operator Vector2</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1ae1da88685c9c705b30c5f4e6ab307a96" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>operator Vector3</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a479c8858d47276f4240802221dda3a8d" prot="package" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>PlayerTwoAxisAction</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a7c49f06583d4d915c65dbc06a612a099" prot="private" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>positiveXAction</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a7817c511cbbfab82430b973794199a4e" prot="private" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>positiveYAction</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1aeb51d1538ae96697f3792ccc2a8d47f9" prot="private" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>ProcessActionUpdate</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a7364eb34841d5e776835bc3b5a9e1f0c" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a9227069cbe4965adaa84b9cbbdc3a07b" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Right</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a8dad3c6a438323897b3dab5ba044e847" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a7fd43e7ba5d64d23f2088921d7e73615" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a8b0029faffe405ae9af10475f85e7979" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>StateThreshold</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a144b9d110ff4fc38984e85f091256806" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>TwoAxisInputControl</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a314c1b8614940c27ec554338d3a3374f" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Up</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a6d271da5be202112a3cb0f7bff37defc" prot="package" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1ab02ea668c20d1d43ecf0fcea747d3ea1" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a5d728f67aa9ee678e488d5fdedcc7148" prot="package" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>UpdateWithAxes</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1ac54270b0405e571d5791b687adc9d225" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_two_axis_action_1a6b4fe4ef8f9639762a289438edade9b4" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>UserData</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1af030aa0f356e21e58f511a5e4871daac" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Value</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a5710d72e785fb7acd84d5c9488da05d0" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Vector</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a790a8e658bdca231e1897ac111b04010" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>WasPressed</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1aec3ab528cee9a2d734271c4c546a54b1" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>WasReleased</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a1f778435f2174dcbb2c99eae3305227b" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>X</name></member>
+      <member refid="class_in_control_1_1_two_axis_input_control_1a0ec5dcdf78928ef1059d34cf505c754c" prot="public" virt="non-virtual"><scope>InControl::PlayerTwoAxisAction</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

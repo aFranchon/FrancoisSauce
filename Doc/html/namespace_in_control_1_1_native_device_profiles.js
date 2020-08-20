@@ -1,0 +1,4 @@
+var namespace_in_control_1_1_native_device_profiles =
+[
+    [ "KiwitataNESWindowsNativeProfile", "class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile.html", "class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile" ]
+];

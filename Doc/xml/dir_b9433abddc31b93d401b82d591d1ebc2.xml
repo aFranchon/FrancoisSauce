@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_b9433abddc31b93d401b82d591d1ebc2" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device</compoundname>
+    <innerfile refid="_input_device_8cs">InputDevice.cs</innerfile>
+    <innerfile refid="_input_device_class_8cs">InputDeviceClass.cs</innerfile>
+    <innerfile refid="_input_device_driver_type_8cs">InputDeviceDriverType.cs</innerfile>
+    <innerfile refid="_input_device_info_8cs">InputDeviceInfo.cs</innerfile>
+    <innerfile refid="_input_device_manager_8cs">InputDeviceManager.cs</innerfile>
+    <innerfile refid="_input_device_matcher_8cs">InputDeviceMatcher.cs</innerfile>
+    <innerfile refid="_input_device_profile_8cs">InputDeviceProfile.cs</innerfile>
+    <innerfile refid="_input_device_profile_type_8cs">InputDeviceProfileType.cs</innerfile>
+    <innerfile refid="_input_device_style_8cs">InputDeviceStyle.cs</innerfile>
+    <innerfile refid="_input_device_transport_type_8cs">InputDeviceTransportType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/"/>
+  </compounddef>
+</doxygen>

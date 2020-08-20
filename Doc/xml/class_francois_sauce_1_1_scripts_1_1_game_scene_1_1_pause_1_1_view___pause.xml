@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSViews.IFSView&lt; Scene_Game &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a7e5acaf78a2c3a455842261f5f4420e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Pause.View_Pause.Awake</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>Awake</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>Method to initialize this view </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scene</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref> that own this view</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" line="17" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1ab0786815fdc4861f3dc88d66309afca4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Pause.View_Pause.OnViewEnter</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnViewEnter</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" line="25" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a7635b4b5d13209d2db02985e390fd816" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Pause.View_Pause.OnViewExit</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnViewExit</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" line="32" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a851366f792b28c09fb4da9b0cb203050" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Pause.View_Pause.OnUpdate</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnUpdate</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" line="39" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" bodystart="39" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref> implementation of IFSView&lt;T&gt; of the <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause" kindref="compound">Pause</ref> view </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Pause.View_Pause</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSView&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Pause.View_Pause</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSView&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Pause/View_Pause.cs" bodystart="12" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a7e5acaf78a2c3a455842261f5f4420e0" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a851366f792b28c09fb4da9b0cb203050" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a5d37ff926ef30075b56065bedff7a9d2" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1ab0786815fdc4861f3dc88d66309afca4" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnViewEnter</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a3ef1f8a685147372c0c44b78cfd605fc" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnViewEnter</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause_1a7635b4b5d13209d2db02985e390fd816" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnViewExit</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a36392b71d04164b02eee2babec44a104" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::Pause::View_Pause</scope><name>OnViewExit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

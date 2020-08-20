@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_14eca4e58e6d71e3a9859288c1bd2735" kind="dir">
+    <compoundname>Editor</compoundname>
+    <innerfile refid="_default_scene_loader_8cs">DefaultSceneLoader.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Editor/"/>
+  </compounddef>
+</doxygen>

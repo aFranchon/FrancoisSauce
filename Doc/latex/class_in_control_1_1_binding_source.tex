@@ -1,0 +1,309 @@
+\hypertarget{class_in_control_1_1_binding_source}{}\doxysection{In\+Control.\+Binding\+Source Class Reference}
+\label{class_in_control_1_1_binding_source}\index{InControl.BindingSource@{InControl.BindingSource}}
+
+
+The abstract base class for all binding sources. A binding source can be bound to an action and provides an input source. It essentially represents a control bound to an action, whether it be a controller button, a key or combination of keys, or a mouse button, etc. An action may have multiple binding sources bound. An \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} may serve as context for a binding source, especially in the case of controllers. For example, the binding source may be \char`\"{}\+Left Trigger,\char`\"{} but when querying a value for the binding, a specific \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} must be provided. Not all bindings require an input device. Keyboard or mouse bindings do not.  
+
+
+Inheritance diagram for In\+Control.\+Binding\+Source\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.686747cm]{class_in_control_1_1_binding_source}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract float \mbox{\hyperlink{class_in_control_1_1_binding_source_a8fff562866ca868f6b5c9f91932bd64a}{Get\+Value}} (\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} input\+Device)
+\begin{DoxyCompactList}\small\item\em Read a float value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. \end{DoxyCompactList}\item 
+abstract bool \mbox{\hyperlink{class_in_control_1_1_binding_source_a72c2d47869cfc3c33b2cfc1ea8ab24cc}{Get\+State}} (\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} input\+Device)
+\begin{DoxyCompactList}\small\item\em Read a bool value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. \end{DoxyCompactList}\item 
+abstract bool \mbox{\hyperlink{class_in_control_1_1_binding_source_afb297381157f71e88975cbabedabe635}{Equals}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} other)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_in_control_1_1_binding_source_a912cdfc966fd8db5d28e3bbfffd2af5f}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified object is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_in_control_1_1_binding_source_ac77663fc7b8c160608269b95ab0e518d}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Serves as a hash function for a \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} object. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_in_control_1_1_binding_source_aa3291f28485fa64ca39cdf41dbbfdaa0}{Save}} (Binary\+Writer writer)
+\item 
+abstract void \mbox{\hyperlink{class_in_control_1_1_binding_source_a40f55804f6cbfde3f3c92d59756cbcb1}{Load}} (Binary\+Reader reader, U\+Int16 data\+Format\+Version)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_in_control_1_1_binding_source_a2be1cd2a60d29c2f90ca075b2bf5b306}{operator==}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} a, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} b)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified binding sources are equal. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_in_control_1_1_binding_source_ab5f01ce009d16d8fe1dcebdcb765dcf3}{operator!=}} (\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} a, \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} b)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified binding sources are not equal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+abstract string \mbox{\hyperlink{class_in_control_1_1_binding_source_a929e08d2969c86cdb8e0a08f250dfcf0}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a textual representation of the binding source. \end{DoxyCompactList}\item 
+abstract string \mbox{\hyperlink{class_in_control_1_1_binding_source_acc3ff1ce6d159dae92c41e0769169441}{Device\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the name of the device this binding source currently represents. \end{DoxyCompactList}\item 
+abstract \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} \mbox{\hyperlink{class_in_control_1_1_binding_source_a0cc75bdb727786ec885adf748a163cae}{Device\+Class}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the class of device this binding source currently represents. \end{DoxyCompactList}\item 
+abstract \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} \mbox{\hyperlink{class_in_control_1_1_binding_source_a053e6d4ca928fa1cd8958232888bf11e}{Device\+Style}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the style of device this binding source currently represents. \end{DoxyCompactList}\item 
+abstract \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} \mbox{\hyperlink{class_in_control_1_1_binding_source_a97258e3a6f19a89cba2825dc74aa5c49}{Binding\+Source\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The abstract base class for all binding sources. A binding source can be bound to an action and provides an input source. It essentially represents a control bound to an action, whether it be a controller button, a key or combination of keys, or a mouse button, etc. An action may have multiple binding sources bound. An \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} may serve as context for a binding source, especially in the case of controllers. For example, the binding source may be \char`\"{}\+Left Trigger,\char`\"{} but when querying a value for the binding, a specific \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}} must be provided. Not all bindings require an input device. Keyboard or mouse bindings do not. 
+
+
+
+Definition at line 17 of file Binding\+Source.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_afb297381157f71e88975cbabedabe635}\label{class_in_control_1_1_binding_source_afb297381157f71e88975cbabedabe635}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily abstract bool In\+Control.\+Binding\+Source.\+Equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Determines whether the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} to compare with the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_aae47c26344f038d1f6c066f63a191aec}{In\+Control.\+Mouse\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_unknown_device_binding_source_a92072cf1d266b932847d0c0db91c4133}{In\+Control.\+Unknown\+Device\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_device_binding_source_a60a1e63f8466d41c7c3e68b4c191753f}{In\+Control.\+Device\+Binding\+Source}}, and \mbox{\hyperlink{class_in_control_1_1_key_binding_source_a3c68a82e1ceb1b03fe6b2735ae25818b}{In\+Control.\+Key\+Binding\+Source}}.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a912cdfc966fd8db5d28e3bbfffd2af5f}\label{class_in_control_1_1_binding_source_a912cdfc966fd8db5d28e3bbfffd2af5f}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily override bool In\+Control.\+Binding\+Source.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Determines whether the specified object is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & The object to compare with the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified object is equal to the current \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Definition at line 118 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_ac77663fc7b8c160608269b95ab0e518d}\label{class_in_control_1_1_binding_source_ac77663fc7b8c160608269b95ab0e518d}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int In\+Control.\+Binding\+Source.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Serves as a hash function for a \mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}} object. 
+
+\begin{DoxyReturn}{Returns}
+A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.
+\end{DoxyReturn}
+
+
+Definition at line 129 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a72c2d47869cfc3c33b2cfc1ea8ab24cc}\label{class_in_control_1_1_binding_source_a72c2d47869cfc3c33b2cfc1ea8ab24cc}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!GetState@{GetState}}
+\index{GetState@{GetState}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{GetState()}{GetState()}}
+{\footnotesize\ttfamily abstract bool In\+Control.\+Binding\+Source.\+Get\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}}]{input\+Device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Read a bool value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the value of the binding is non-\/zero; otherwise {\ttfamily false}.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Device} & An input device which serves as the context for this source, if applicable. Pass in null when not applicable.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a352cea127d33a9c28e707421b62c2265}{In\+Control.\+Mouse\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_device_binding_source_ad8c9d4292f21239e8b9240460b77aa04}{In\+Control.\+Device\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_key_binding_source_a651f3135b9aaca5205dcba46b70b36e5}{In\+Control.\+Key\+Binding\+Source}}, and \mbox{\hyperlink{class_in_control_1_1_unknown_device_binding_source_a5e5a14308a85fbe53a7a6c318bb72136}{In\+Control.\+Unknown\+Device\+Binding\+Source}}.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a8fff562866ca868f6b5c9f91932bd64a}\label{class_in_control_1_1_binding_source_a8fff562866ca868f6b5c9f91932bd64a}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!GetValue@{GetValue}}
+\index{GetValue@{GetValue}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{GetValue()}{GetValue()}}
+{\footnotesize\ttfamily abstract float In\+Control.\+Binding\+Source.\+Get\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}}]{input\+Device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Read a float value from the binding source in the context of an optional \mbox{\hyperlink{class_in_control_1_1_input_device}{Input\+Device}}. 
+
+\begin{DoxyReturn}{Returns}
+The value, usually in the range -\/1..1, but not necessarily, for example, in the case of mouse movement.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Device} & An input device which serves as the context for this source, if applicable. Pass in null when not applicable.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_a3358929944911f0d6d56ef7c105cb6d9}{In\+Control.\+Mouse\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_key_binding_source_ac72f66f55d7fffc80441f17bc6d9566d}{In\+Control.\+Key\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_device_binding_source_aafe6748cd71503b797db7d50aaebb4ff}{In\+Control.\+Device\+Binding\+Source}}, and \mbox{\hyperlink{class_in_control_1_1_unknown_device_binding_source_aca9a514c5cf001827ac50348a0637372}{In\+Control.\+Unknown\+Device\+Binding\+Source}}.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a40f55804f6cbfde3f3c92d59756cbcb1}\label{class_in_control_1_1_binding_source_a40f55804f6cbfde3f3c92d59756cbcb1}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!Load@{Load}}
+\index{Load@{Load}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily abstract void In\+Control.\+Binding\+Source.\+Load (\begin{DoxyParamCaption}\item[{Binary\+Reader}]{reader,  }\item[{U\+Int16}]{data\+Format\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_af61a4c2ad0d3adbc30118018220e3346}{In\+Control.\+Mouse\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_unknown_device_binding_source_a0e3149e29d175320e5fb39aad7cd7f9d}{In\+Control.\+Unknown\+Device\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_device_binding_source_a2876ae996404d269d067830113a6f553}{In\+Control.\+Device\+Binding\+Source}}, and \mbox{\hyperlink{class_in_control_1_1_key_binding_source_a59d3dbc6c99ef2961105e8ae554c5c8d}{In\+Control.\+Key\+Binding\+Source}}.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_ab5f01ce009d16d8fe1dcebdcb765dcf3}\label{class_in_control_1_1_binding_source_ab5f01ce009d16d8fe1dcebdcb765dcf3}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Binding\+Source.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{a,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Determines whether the specified binding sources are not equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first binding source to compare.\\
+\hline
+{\em b} & The second binding source to compare.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified binding sources are not equal; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Definition at line 106 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a2be1cd2a60d29c2f90ca075b2bf5b306}\label{class_in_control_1_1_binding_source_a2be1cd2a60d29c2f90ca075b2bf5b306}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!operator==@{operator==}}
+\index{operator==@{operator==}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Binding\+Source.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{a,  }\item[{\mbox{\hyperlink{class_in_control_1_1_binding_source}{Binding\+Source}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Determines whether the specified binding sources are equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first binding source to compare.\\
+\hline
+{\em b} & The second binding source to compare.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified binding sources are equal; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_aa3291f28485fa64ca39cdf41dbbfdaa0}\label{class_in_control_1_1_binding_source_aa3291f28485fa64ca39cdf41dbbfdaa0}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!Save@{Save}}
+\index{Save@{Save}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily abstract void In\+Control.\+Binding\+Source.\+Save (\begin{DoxyParamCaption}\item[{Binary\+Writer}]{writer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_in_control_1_1_mouse_binding_source_acf98d228eaf27e43120173ad51bd6d23}{In\+Control.\+Mouse\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_unknown_device_binding_source_a53b4e08a0ac515c79721974367274a0f}{In\+Control.\+Unknown\+Device\+Binding\+Source}}, \mbox{\hyperlink{class_in_control_1_1_device_binding_source_a43e9b6b14aa49652259c3d1d147512ff}{In\+Control.\+Device\+Binding\+Source}}, and \mbox{\hyperlink{class_in_control_1_1_key_binding_source_a3bed32d666caf3c53423c4c4e08d703b}{In\+Control.\+Key\+Binding\+Source}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a97258e3a6f19a89cba2825dc74aa5c49}\label{class_in_control_1_1_binding_source_a97258e3a6f19a89cba2825dc74aa5c49}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!BindingSourceType@{BindingSourceType}}
+\index{BindingSourceType@{BindingSourceType}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{BindingSourceType}{BindingSourceType}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{namespace_in_control_a9fdcf96c2fce1dd6ce4862cf8dea841a}{Binding\+Source\+Type}} In\+Control.\+Binding\+Source.\+Binding\+Source\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 135 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a0cc75bdb727786ec885adf748a163cae}\label{class_in_control_1_1_binding_source_a0cc75bdb727786ec885adf748a163cae}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!DeviceClass@{DeviceClass}}
+\index{DeviceClass@{DeviceClass}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceClass}{DeviceClass}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{namespace_in_control_a7fd580c8e3f325ebec83b30422aad339}{Input\+Device\+Class}} In\+Control.\+Binding\+Source.\+Device\+Class\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the class of device this binding source currently represents. 
+
+The class of the device.
+
+Definition at line 63 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_acc3ff1ce6d159dae92c41e0769169441}\label{class_in_control_1_1_binding_source_acc3ff1ce6d159dae92c41e0769169441}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!DeviceName@{DeviceName}}
+\index{DeviceName@{DeviceName}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceName}{DeviceName}}
+{\footnotesize\ttfamily abstract string In\+Control.\+Binding\+Source.\+Device\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the name of the device this binding source currently represents. 
+
+The name of the device.
+
+Definition at line 56 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a053e6d4ca928fa1cd8958232888bf11e}\label{class_in_control_1_1_binding_source_a053e6d4ca928fa1cd8958232888bf11e}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!DeviceStyle@{DeviceStyle}}
+\index{DeviceStyle@{DeviceStyle}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{DeviceStyle}{DeviceStyle}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{namespace_in_control_a13b7f216b54cd6b6699ed61c35491de5}{Input\+Device\+Style}} In\+Control.\+Binding\+Source.\+Device\+Style\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the style of device this binding source currently represents. 
+
+The style of the device.
+
+Definition at line 70 of file Binding\+Source.\+cs.
+
+\mbox{\Hypertarget{class_in_control_1_1_binding_source_a929e08d2969c86cdb8e0a08f250dfcf0}\label{class_in_control_1_1_binding_source_a929e08d2969c86cdb8e0a08f250dfcf0}} 
+\index{InControl.BindingSource@{InControl.BindingSource}!Name@{Name}}
+\index{Name@{Name}!InControl.BindingSource@{InControl.BindingSource}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily abstract string In\+Control.\+Binding\+Source.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets a textual representation of the binding source. 
+
+The name.
+
+Definition at line 49 of file Binding\+Source.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_binding_source_8cs}{Binding\+Source.\+cs}}\end{DoxyCompactItemize}

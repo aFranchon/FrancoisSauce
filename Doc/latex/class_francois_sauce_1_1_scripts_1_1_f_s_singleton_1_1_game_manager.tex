@@ -1,0 +1,130 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager}{}\doxysection{Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager Class Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager}\index{FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}}
+
+
+Game Manager\textquotesingle{}s purpose is to handle scene loading/unloading. It raises events on every step of the process of loading/unloading scenes  
+
+
+Inheritance diagram for Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+Enumerator \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a549bb2d7b7b4f604f75945ff2cc2b61d}{Load\+Scene\+Async}} (int index, bool direct\+Activation=false, bool slow\+Loading=true)
+\begin{DoxyCompactList}\small\item\em Method to async load a new Scene. It\textquotesingle{}s additive so the scene will be added without unloading previous ones \end{DoxyCompactList}\item 
+I\+Enumerator \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a67ab55edc9260305c18cc555f1edff3f}{End\+Loading\+Activation}} (int index)
+\begin{DoxyCompactList}\small\item\em Method to end the loading of a Scene and activate it \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a822d52123ed1e7378b3d2bb7884faa3b}{Unload\+Async}} (int index)
+\begin{DoxyCompactList}\small\item\em Asynchronous unloading of a Scene \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_aa0c00cd0a7c6325079b1377dfb0405e1}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Awake method from Mono\+Behaviour \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Game Manager\textquotesingle{}s purpose is to handle scene loading/unloading. It raises events on every step of the process of loading/unloading scenes 
+
+
+
+Definition at line 15 of file Game\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_aa0c00cd0a7c6325079b1377dfb0405e1}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_aa0c00cd0a7c6325079b1377dfb0405e1}} 
+\index{FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}!Awake@{Awake}}
+\index{Awake@{Awake}!FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Awake method from Mono\+Behaviour 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41e7b240b5701ecae492ddf4df99b212}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton$<$ Game\+Manager $>$}}.
+
+
+
+Definition at line 59 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a67ab55edc9260305c18cc555f1edff3f}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a67ab55edc9260305c18cc555f1edff3f}} 
+\index{FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}!EndLoadingActivation@{EndLoadingActivation}}
+\index{EndLoadingActivation@{EndLoadingActivation}!FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}}
+\doxysubsubsection{\texorpdfstring{EndLoadingActivation()}{EndLoadingActivation()}}
+{\footnotesize\ttfamily I\+Enumerator Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager.\+End\+Loading\+Activation (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Method to end the loading of a Scene and activate it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the Scene to activate\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+Enumerator method (use Start\+Coroutine(\+End\+Loading\+Activation) to run the method
+\end{DoxyReturn}
+
+
+Definition at line 124 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a549bb2d7b7b4f604f75945ff2cc2b61d}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a549bb2d7b7b4f604f75945ff2cc2b61d}} 
+\index{FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}!LoadSceneAsync@{LoadSceneAsync}}
+\index{LoadSceneAsync@{LoadSceneAsync}!FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}}
+\doxysubsubsection{\texorpdfstring{LoadSceneAsync()}{LoadSceneAsync()}}
+{\footnotesize\ttfamily I\+Enumerator Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager.\+Load\+Scene\+Async (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{bool}]{direct\+Activation = {\ttfamily false},  }\item[{bool}]{slow\+Loading = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Method to async load a new Scene. It\textquotesingle{}s additive so the scene will be added without unloading previous ones 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The build\+Index of the Scene to load\\
+\hline
+{\em direct\+Activation} & if true the scene will load instantly, without raising on\+Scene\+Loaded\\
+\hline
+{\em slow\+Loading} & if false do not load game slowly\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+Enumerator method (use Start\+Coroutine(\+Load\+Scene\+Async) to run the method
+\end{DoxyReturn}
+
+
+Definition at line 73 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a822d52123ed1e7378b3d2bb7884faa3b}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_a822d52123ed1e7378b3d2bb7884faa3b}} 
+\index{FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}!UnloadAsync@{UnloadAsync}}
+\index{UnloadAsync@{UnloadAsync}!FrancoisSauce.Scripts.FSSingleton.GameManager@{FrancoisSauce.Scripts.FSSingleton.GameManager}}
+\doxysubsubsection{\texorpdfstring{UnloadAsync()}{UnloadAsync()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Game\+Manager.\+Unload\+Async (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Asynchronous unloading of a Scene 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the Scene to unload\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 161 of file Game\+Manager.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+\_\+\+\_\+\+\_\+\+F\+S\+Singletons/\mbox{\hyperlink{_game_manager_8cs}{Game\+Manager.\+cs}}\end{DoxyCompactItemize}

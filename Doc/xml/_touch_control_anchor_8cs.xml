@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_touch_control_anchor_8cs" kind="file" language="C#">
+    <compoundname>TouchControlAnchor.cs</compoundname>
+    <innernamespace refid="namespace_in_control">InControl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" kindref="member">TouchControlAnchor</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aab32beb056fbfe36afbabc6c88c81ab36" kindref="member">TopLeft</ref>,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa9f44821a7b58abb265709f49e54ef8ca" kindref="member">CenterLeft</ref>,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa98e5a1c44509157ebcaf46c515c78875" kindref="member">BottomLeft</ref>,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa91b8ede24b7f93a98ae4dcaade15d468" kindref="member">TopCenter</ref>,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa4f1f6016fc9f3f2353c0cc7c67b292bd" kindref="member">Center</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aabf7d9c8ad2f89a37cf5378b5fec0b420" kindref="member">BottomCenter</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa1d85a557894c340c318493f33bfa8efb" kindref="member">TopRight</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aaa538ef718186c9e0967239bb60043d1f" kindref="member">CenterRight</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa9146bfc669fddc88db2c4d89297d0e9a" kindref="member">BottomRight</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControlAnchor.cs"/>
+  </compounddef>
+</doxygen>

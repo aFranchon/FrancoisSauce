@@ -1,0 +1,201 @@
+\hypertarget{class_scene___game}{}\doxysection{Scene\+\_\+\+Game Class Reference}
+\label{class_scene___game}\index{Scene\_Game@{Scene\_Game}}
+Inheritance diagram for Scene\+\_\+\+Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_scene___game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_scene___game_aa08060a7b56046250f9dc6b69e4a1744}{On\+Scene\+Loaded}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Loaded raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_scene___game_a5199d213cb972528a87f146da6a43338}{On\+Scene\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Changed raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_scene___game_aeb608cf46cdffaef13a64f20ef2aa135}{On\+Load\+Progression}} (float progression)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Load\+Progression raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_scene___game_af746614de06f787fcd068ed90f18fb55}{On\+Scene\+Unloaded}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Unloaded raised by Game\+Manager \end{DoxyCompactList}\item 
+sealed override void \mbox{\hyperlink{class_scene___game_a2b7fc15572b35fbdac2f4dd59be4cdba}{On\+Update}} ()
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Update raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_scene___game_aa652a185019fdb0138bd0cfed1ceac6a}{Change\+View}} (\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{I\+F\+S\+View}}$<$ \mbox{\hyperlink{class_scene___game}{Scene\+\_\+\+Game}} $>$ new\+View)
+\item 
+void \mbox{\hyperlink{class_scene___game_a9d9b076286e8be5e6740de3327522df5}{Load\+Scene}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Camera \mbox{\hyperlink{class_scene___game_af3830eb46d8eb80ec122c2498c11fd67}{main\+Camera}}
+\item 
+Image \mbox{\hyperlink{class_scene___game_a9923675621721cd6118ff780399829ae}{transition}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 9 of file Scene\+\_\+\+Game.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scene___game_aa652a185019fdb0138bd0cfed1ceac6a}\label{class_scene___game_aa652a185019fdb0138bd0cfed1ceac6a}} 
+\index{Scene\_Game@{Scene\_Game}!ChangeView@{ChangeView}}
+\index{ChangeView@{ChangeView}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{ChangeView()}{ChangeView()}}
+{\footnotesize\ttfamily override void Scene\+\_\+\+Game.\+Change\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{I\+F\+S\+View}}$<$ \mbox{\hyperlink{class_scene___game}{Scene\+\_\+\+Game}} $>$}]{new\+View }\end{DoxyParamCaption})}
+
+
+
+Definition at line 47 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_a9d9b076286e8be5e6740de3327522df5}\label{class_scene___game_a9d9b076286e8be5e6740de3327522df5}} 
+\index{Scene\_Game@{Scene\_Game}!LoadScene@{LoadScene}}
+\index{LoadScene@{LoadScene}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{LoadScene()}{LoadScene()}}
+{\footnotesize\ttfamily void Scene\+\_\+\+Game.\+Load\+Scene (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_aeb608cf46cdffaef13a64f20ef2aa135}\label{class_scene___game_aeb608cf46cdffaef13a64f20ef2aa135}} 
+\index{Scene\_Game@{Scene\_Game}!OnLoadProgression@{OnLoadProgression}}
+\index{OnLoadProgression@{OnLoadProgression}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{OnLoadProgression()}{OnLoadProgression()}}
+{\footnotesize\ttfamily override void Scene\+\_\+\+Game.\+On\+Load\+Progression (\begin{DoxyParamCaption}\item[{float}]{progression }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Load\+Progression raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em progression} & value of the current Scene progression\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a597154ea8cfab61a0383a1ef443e409c}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Game $>$}}.
+
+
+
+Definition at line 27 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_a5199d213cb972528a87f146da6a43338}\label{class_scene___game_a5199d213cb972528a87f146da6a43338}} 
+\index{Scene\_Game@{Scene\_Game}!OnSceneChanged@{OnSceneChanged}}
+\index{OnSceneChanged@{OnSceneChanged}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{OnSceneChanged()}{OnSceneChanged()}}
+{\footnotesize\ttfamily override void Scene\+\_\+\+Game.\+On\+Scene\+Changed (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Changed raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the changed Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a94507aa18af634587a5ad7303565fa6b}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Game $>$}}.
+
+
+
+Definition at line 23 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_aa08060a7b56046250f9dc6b69e4a1744}\label{class_scene___game_aa08060a7b56046250f9dc6b69e4a1744}} 
+\index{Scene\_Game@{Scene\_Game}!OnSceneLoaded@{OnSceneLoaded}}
+\index{OnSceneLoaded@{OnSceneLoaded}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{OnSceneLoaded()}{OnSceneLoaded()}}
+{\footnotesize\ttfamily override void Scene\+\_\+\+Game.\+On\+Scene\+Loaded (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Loaded raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the loaded Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a4ff06426701488cfbb8332604627cfff}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Game $>$}}.
+
+
+
+Definition at line 19 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_af746614de06f787fcd068ed90f18fb55}\label{class_scene___game_af746614de06f787fcd068ed90f18fb55}} 
+\index{Scene\_Game@{Scene\_Game}!OnSceneUnloaded@{OnSceneUnloaded}}
+\index{OnSceneUnloaded@{OnSceneUnloaded}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{OnSceneUnloaded()}{OnSceneUnloaded()}}
+{\footnotesize\ttfamily override void Scene\+\_\+\+Game.\+On\+Scene\+Unloaded (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Unloaded raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the unloaded Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a510a1e7a2c5a05be578f963089ad4ea8}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Game $>$}}.
+
+
+
+Definition at line 31 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_a2b7fc15572b35fbdac2f4dd59be4cdba}\label{class_scene___game_a2b7fc15572b35fbdac2f4dd59be4cdba}} 
+\index{Scene\_Game@{Scene\_Game}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily sealed override void Scene\+\_\+\+Game.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Update raised by Game\+Manager 
+
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_aa945778bcc39b5d402ef5cf1262faa5e}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Game $>$}}.
+
+
+
+Definition at line 42 of file Scene\+\_\+\+Game.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_scene___game_af3830eb46d8eb80ec122c2498c11fd67}\label{class_scene___game_af3830eb46d8eb80ec122c2498c11fd67}} 
+\index{Scene\_Game@{Scene\_Game}!mainCamera@{mainCamera}}
+\index{mainCamera@{mainCamera}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{mainCamera}{mainCamera}}
+{\footnotesize\ttfamily Camera Scene\+\_\+\+Game.\+main\+Camera}
+
+
+
+Definition at line 11 of file Scene\+\_\+\+Game.\+cs.
+
+\mbox{\Hypertarget{class_scene___game_a9923675621721cd6118ff780399829ae}\label{class_scene___game_a9923675621721cd6118ff780399829ae}} 
+\index{Scene\_Game@{Scene\_Game}!transition@{transition}}
+\index{transition@{transition}!Scene\_Game@{Scene\_Game}}
+\doxysubsubsection{\texorpdfstring{transition}{transition}}
+{\footnotesize\ttfamily Image Scene\+\_\+\+Game.\+transition}
+
+
+
+Definition at line 12 of file Scene\+\_\+\+Game.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Francois\+Sauce/\+Game\+Scene/\mbox{\hyperlink{_scene___game_8cs}{Scene\+\_\+\+Game.\+cs}}\end{DoxyCompactItemize}

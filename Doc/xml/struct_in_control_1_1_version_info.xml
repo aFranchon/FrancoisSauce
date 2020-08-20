@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_version_info" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::VersionInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; VersionInfo &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_version_info_1ad39b2cb168f2acde066536e37f36fcb6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.major</definition>
+        <argsstring></argsstring>
+        <name>major</name>
+        <briefdescription>
+<para>The major version component. This number changes when significant API changes are made. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="20" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_version_info_1ac6fd258817149c7e126ee8479f40beba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.minor</definition>
+        <argsstring></argsstring>
+        <name>minor</name>
+        <briefdescription>
+<para>The minor version component. This number changes when significant functionality is added in a mostly backwards-compatible manner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="27" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_version_info_1a3dff696d8b56b755204aabd0346e0329" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.patch</definition>
+        <argsstring></argsstring>
+        <name>patch</name>
+        <briefdescription>
+<para>The patch version component. This number is changed when small updates and fixes are added in a backwards-compatible manner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="34" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_version_info_1aab230b8422c1ab82d07e3d24b94a2493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.build</definition>
+        <argsstring></argsstring>
+        <name>build</name>
+        <briefdescription>
+<para>The build version component. This number is incremented during development. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="41" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_version_info_1aa7b3bfda44821c859a267e7476c74bcf" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.VersionInfo.Min</definition>
+        <argsstring></argsstring>
+        <name>Min</name>
+        <initializer>^(\d+)\.(\d+)\.(\d+)[a-zA-Z](\d+)&quot;</initializer>
+        <briefdescription>
+<para>Generates the minimum possible version number. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="97" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_version_info_1a9f45ee26dce919661bf0549201815c7b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.VersionInfo.Max</definition>
+        <argsstring></argsstring>
+        <name>Max</name>
+        <briefdescription>
+<para>Generates the maximum possible version number. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="106" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_version_info_1a555d96840b3abc82ccabb341565846be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>VersionInfo InControl.VersionInfo.Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <briefdescription>
+<para>Generates the next build version. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="115" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_version_info_1a047781946090f942f6fed588e671d179" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.Build</definition>
+        <argsstring></argsstring>
+        <name>Build</name>
+        <briefdescription>
+<para>The build version component. This number is incremented during development. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="124" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="124" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a623b15d44ab8ad461c5a25064ffc55fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.VersionInfo.VersionInfo</definition>
+        <argsstring>(int major, int minor, int patch, int build)</argsstring>
+        <name>VersionInfo</name>
+        <param>
+          <type>int</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>patch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>build</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> with given version components. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>major</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The major version component.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minor version component.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>patch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The patch version component.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>build</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The build version component.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="52" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1acfb2ede42ea78a57a8f8aa624fb85e6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.VersionInfo.CompareTo</definition>
+        <argsstring>(VersionInfo other)</argsstring>
+        <name>CompareTo</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Returns the sort order of the current instance compared to the specified object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="130" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="130" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a36e12b3a1591f4ce5e47d03bdad47223" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.VersionInfo.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified System.Object is equal to the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Object to compare with the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified System.Object is equal to the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="208" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="208" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a4860030d4f1c4e361076f30a31abdf6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.VersionInfo.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+<para>Serves as a hash function for a <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="224" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a88f860973cb768c4df335e3a66aad25c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.VersionInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Returns a System.String that represents the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A System.String that represents the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="234" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="234" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a56a2c558366739635f92e003c0ab5d9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InControl.VersionInfo.ToShortString</definition>
+        <argsstring>()</argsstring>
+        <name>ToShortString</name>
+        <briefdescription>
+<para>Returns a shorter System.String that represents the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A shorter System.String that represents the current <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="249" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="249" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1aa59196d83a6b71dfa1473a28789402e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>static VersionInfo InControl.VersionInfo.InControlVersion</definition>
+        <argsstring>()</argsstring>
+        <name>InControlVersion</name>
+        <briefdescription>
+<para>Initialize an instance of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> with the current version of <ref refid="namespace_in_control" kindref="compound">InControl</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current version of <ref refid="namespace_in_control" kindref="compound">InControl</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="65" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="65" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1ae71f6b15462bb4760262f9c9ec4669d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+        <definition>static VersionInfo InControl.VersionInfo.UnityVersion</definition>
+        <argsstring>()</argsstring>
+        <name>UnityVersion</name>
+        <briefdescription>
+<para>Initialize an instance of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> with the current version of Unity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current version of Unity.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="81" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="81" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a6e425f5adc1c03a4b0096bbb235025c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator==</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> for equality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="147" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a31de564db3ad2121ba054a4aebf889ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator!=</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> for inequality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="156" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a5dd2590223976a913256650e0db8e495" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator&lt;=</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> to see if the first is equal to or smaller than the second. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="166" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1af5445b145a2f8195667b16c9f2122efc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator&gt;=</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> to see if the first is equal to or larger than the second. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="176" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1af3999062ff0c8bedd5f6ca35490f7608" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator&lt;</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> to see if the first is smaller than the second. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="186" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_version_info_1a11063b8f92f52e4898ab801a4af1712d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.VersionInfo.operator&gt;</definition>
+        <argsstring>(VersionInfo a, VersionInfo b)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_version_info" kindref="compound">VersionInfo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Compares two instances of <ref refid="struct_in_control_1_1_version_info" kindref="compound">InControl.VersionInfo</ref> to see if the first is larger than the second. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="196" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="196" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Encapsulates a comparable version number. This version number generally conforms to the semantic version system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IComparable&lt; VersionInfo &gt;</label>
+      </node>
+      <node id="1">
+        <label>InControl.VersionInfo</label>
+        <link refid="struct_in_control_1_1_version_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IComparable&lt; VersionInfo &gt;</label>
+      </node>
+      <node id="1">
+        <label>InControl.VersionInfo</label>
+        <link refid="struct_in_control_1_1_version_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" line="13" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/VersionInfo.cs" bodystart="14" bodyend="258"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_version_info_1aab230b8422c1ab82d07e3d24b94a2493" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>build</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a047781946090f942f6fed588e671d179" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>Build</name></member>
+      <member refid="struct_in_control_1_1_version_info_1acfb2ede42ea78a57a8f8aa624fb85e6d" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>CompareTo</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a36e12b3a1591f4ce5e47d03bdad47223" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a4860030d4f1c4e361076f30a31abdf6b" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_version_info_1aa59196d83a6b71dfa1473a28789402e1" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>InControlVersion</name></member>
+      <member refid="struct_in_control_1_1_version_info_1ad39b2cb168f2acde066536e37f36fcb6" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>major</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a9f45ee26dce919661bf0549201815c7b" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>Max</name></member>
+      <member refid="struct_in_control_1_1_version_info_1aa7b3bfda44821c859a267e7476c74bcf" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>Min</name></member>
+      <member refid="struct_in_control_1_1_version_info_1ac6fd258817149c7e126ee8479f40beba" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>minor</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a555d96840b3abc82ccabb341565846be" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>Next</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a31de564db3ad2121ba054a4aebf889ff" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_version_info_1af3999062ff0c8bedd5f6ca35490f7608" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator&lt;</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a5dd2590223976a913256650e0db8e495" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator&lt;=</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a6e425f5adc1c03a4b0096bbb235025c9" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a11063b8f92f52e4898ab801a4af1712d" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator&gt;</name></member>
+      <member refid="struct_in_control_1_1_version_info_1af5445b145a2f8195667b16c9f2122efc" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>operator&gt;=</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a3dff696d8b56b755204aabd0346e0329" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>patch</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a56a2c558366739635f92e003c0ab5d9c" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>ToShortString</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a88f860973cb768c4df335e3a66aad25c" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_version_info_1ae71f6b15462bb4760262f9c9ec4669d2" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>UnityVersion</name></member>
+      <member refid="struct_in_control_1_1_version_info_1a623b15d44ab8ad461c5a25064ffc55fb" prot="public" virt="non-virtual"><scope>InControl::VersionInfo</scope><name>VersionInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

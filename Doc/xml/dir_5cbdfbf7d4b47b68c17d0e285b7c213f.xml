@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_5cbdfbf7d4b47b68c17d0e285b7c213f" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source</compoundname>
+    <innerdir refid="dir_580e72406a847434a25b24d13e982fb2">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding</innerdir>
+    <innerdir refid="dir_e4bccbec496d5bcc94a0bc5b85c5d657">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Compatibility</innerdir>
+    <innerdir refid="dir_0e3ebe221672de7fc484b5abe0397b22">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components</innerdir>
+    <innerdir refid="dir_60116e5d1a95faf840435a6543bb31a4">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control</innerdir>
+    <innerdir refid="dir_d3326da2df6a98cc0fb2254f9c2c4a26">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug</innerdir>
+    <innerdir refid="dir_b9433abddc31b93d401b82d591d1ebc2">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device</innerdir>
+    <innerdir refid="dir_1f2de87af6526624d8af6e9c33f2d784">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/GUI</innerdir>
+    <innerdir refid="dir_6cfbd7a3271020d9713fbbe871a61598">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/iCade</innerdir>
+    <innerdir refid="dir_f14ab683facd453929a85008273c74b3">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native</innerdir>
+    <innerdir refid="dir_c4224c4985faf0bec931a12ed64d8dde">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere</innerdir>
+    <innerdir refid="dir_a69db1da90e67ee1c8f707bf2f93f913">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch</innerdir>
+    <innerdir refid="dir_8208a4e9d6d772e6e448b5df3fd6921f">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity</innerdir>
+    <innerdir refid="dir_58eef3372701adf69be86651bbf2ccd6">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility</innerdir>
+    <innerdir refid="dir_ba930d2fe754985c935b1f4f2d0e96f3">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/UWP</innerdir>
+    <innerdir refid="dir_809bf61e33633eaec2c5f2cecdd54438">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XboxOne</innerdir>
+    <innerdir refid="dir_d096bde630e93d6e82bb118994a12afc">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XInput</innerdir>
+    <innerfile refid="_input_manager_8cs">InputManager.cs</innerfile>
+    <innerfile refid="_version_info_8cs">VersionInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/"/>
+  </compounddef>
+</doxygen>

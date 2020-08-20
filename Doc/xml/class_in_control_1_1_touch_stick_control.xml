@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_stick_control" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TouchStickControl</compoundname>
+    <basecompoundref refid="class_in_control_1_1_touch_control" prot="public" virt="non-virtual">InControl.TouchControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a06a81011c2b0b8dd33a61cdc9c7e11e8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" kindref="member">TouchControlAnchor</ref></type>
+        <definition>TouchControlAnchor InControl.TouchStickControl.anchor</definition>
+        <argsstring></argsstring>
+        <name>anchor</name>
+        <initializer>= <ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65aa98e5a1c44509157ebcaf46c515c78875" kindref="member">TouchControlAnchor.BottomLeft</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="26" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a88323feff48e4ec4bf033f46998e7f09" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchStickControl.offsetUnitType</definition>
+        <argsstring></argsstring>
+        <name>offsetUnitType</name>
+        <initializer>= <ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" kindref="member">TouchUnitType.Percent</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="29" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1aba779c09d403c0b2f75b32474cd35300" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchStickControl.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <initializer>= new Vector2( 20.0f, 20.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="32" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ac0b57d49ada9aba5df7bbfe52589c84b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchStickControl.areaUnitType</definition>
+        <argsstring></argsstring>
+        <name>areaUnitType</name>
+        <initializer>= <ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" kindref="member">TouchUnitType.Percent</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="35" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a4e449b0c5751bd7448da044650473552" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchStickControl.activeArea</definition>
+        <argsstring></argsstring>
+        <name>activeArea</name>
+        <initializer>= new Rect( 0.0f, 0.0f, 50.0f, 100.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="38" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1aa09055ad5c1c3c2688761c10f48d0236" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchStickControl.resetPosition</definition>
+        <argsstring></argsstring>
+        <name>resetPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="70" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a706639dc98a0b880a6f1564c052793ab" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchStickControl.beganPosition</definition>
+        <argsstring></argsstring>
+        <name>beganPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="71" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a106c3e0db2399999f57dc7cf5dcf3828" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchStickControl.movedPosition</definition>
+        <argsstring></argsstring>
+        <name>movedPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="72" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a051df5b6fbe7a081638133340ce4c9e0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.ringResetSpeed</definition>
+        <argsstring></argsstring>
+        <name>ringResetSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="73" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ac3b0c868410913610bf353780e69444b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.knobResetSpeed</definition>
+        <argsstring></argsstring>
+        <name>knobResetSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="74" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a687b8178d68095337ff326b357ac154a" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchStickControl.worldActiveArea</definition>
+        <argsstring></argsstring>
+        <name>worldActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="75" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ab189e03043ddbd57d8a50c78989a24cc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.worldKnobRange</definition>
+        <argsstring></argsstring>
+        <name>worldKnobRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="76" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a5a6af4b66032cbcad77b6efd679f1b8d" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchStickControl.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="77" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a8b5abac795a44c92e134696cba3ef495" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+        <definition>Touch InControl.TouchStickControl.currentTouch</definition>
+        <argsstring></argsstring>
+        <name>currentTouch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="78" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a7afa635d9bed593970299fa10911ebeb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.dirty</definition>
+        <argsstring></argsstring>
+        <name>dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="79" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a19bfbbf361dda62cc3a148c68328f29a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+        <definition>AnalogTarget InControl.TouchStickControl.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a78dfae506443f078a68242fa3989e7d2" kindref="member">AnalogTarget.LeftStick</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="42" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ac6d3c825ea5f8ff20fd3bafbd223d94e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" kindref="member">SnapAngles</ref></type>
+        <definition>SnapAngles InControl.TouchStickControl.snapAngles</definition>
+        <argsstring></argsstring>
+        <name>snapAngles</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eea6adf97f83acf6453d4a6a4b1070f3754" kindref="member">SnapAngles.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="44" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ab051db3678ce649d206739c8cfd80861" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aa" kindref="member">LockAxis</ref></type>
+        <definition>LockAxis InControl.TouchStickControl.lockToAxis</definition>
+        <argsstring></argsstring>
+        <name>lockToAxis</name>
+        <initializer>= <ref refid="namespace_in_control_1a2a9bb79eb69f2dcab34f9c92a99649aaa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">LockAxis.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="45" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a547ec05c025810ef7d51713ebc437c18" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.lowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>lowerDeadZone</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="48" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a84b86f7324493aea900701684e9b834b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.upperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>upperDeadZone</name>
+        <initializer>= 0.9f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="51" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a482abc484ad887f4c5d06628d0920975" prot="public" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve InControl.TouchStickControl.inputCurve</definition>
+        <argsstring></argsstring>
+        <name>inputCurve</name>
+        <initializer>= AnimationCurve.Linear( 0.0f, 0.0f, 1.0f, 1.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="53" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a3e7812d203bd303e9719b92943c566d2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.allowDragging</definition>
+        <argsstring></argsstring>
+        <name>allowDragging</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="55" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a2aa07ab25b53e1a569f95ecf7a796432" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4e" kindref="member">DragAxis</ref></type>
+        <definition>DragAxis InControl.TouchStickControl.allowDraggingAxis</definition>
+        <argsstring></argsstring>
+        <name>allowDraggingAxis</name>
+        <initializer>= <ref refid="namespace_in_control_1a9060f17df8984b26d83e2eb3f2f02c4ea130c5b3473c57faa76e2a1c54e26f88e" kindref="member">DragAxis.Both</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="56" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a2856a0c0276efb154c8bed4b654a7859" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.snapToInitialTouch</definition>
+        <argsstring></argsstring>
+        <name>snapToInitialTouch</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="58" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a0ef9b7d7640db383d8c7333264dee9f6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.resetWhenDone</definition>
+        <argsstring></argsstring>
+        <name>resetWhenDone</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="59" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a98c831ebb24fe2c10873b1d998bea3d2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.resetDuration</definition>
+        <argsstring></argsstring>
+        <name>resetDuration</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="60" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ad005abcd7705e8e5a9faec4c0afc78c9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite" kindref="compound">TouchSprite</ref></type>
+        <definition>TouchSprite InControl.TouchStickControl.ring</definition>
+        <argsstring></argsstring>
+        <name>ring</name>
+        <initializer>= new <ref refid="class_in_control_1_1_touch_sprite" kindref="compound">TouchSprite</ref>( 20.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="64" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1a66447db8249a4b19b1f346671c37c65d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_sprite" kindref="compound">TouchSprite</ref></type>
+        <definition>TouchSprite InControl.TouchStickControl.knob</definition>
+        <argsstring></argsstring>
+        <name>knob</name>
+        <initializer>= new <ref refid="class_in_control_1_1_touch_sprite" kindref="compound">TouchSprite</ref>( 10.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="66" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_stick_control_1ac28bb60201d278d129cdf56c895af6ac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchStickControl.knobRange</definition>
+        <argsstring></argsstring>
+        <name>knobRange</name>
+        <initializer>= 7.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="67" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a04cfb224dda4453d120d6b86dc3443a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="309" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="310" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1ab622c16094d88961cc282155d5e32388" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchStickControl.IsNotActive</definition>
+        <argsstring></argsstring>
+        <name>IsNotActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="318" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="319" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a89f73745d4a19c9c3e1b9f16a96934aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3?</type>
+        <definition>Vector3? InControl.TouchStickControl.RingPosition</definition>
+        <argsstring></argsstring>
+        <name>RingPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="327" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="328" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1adcef84244003aafb1933a242df2db906" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3?</type>
+        <definition>Vector3? InControl.TouchStickControl.KnobPosition</definition>
+        <argsstring></argsstring>
+        <name>KnobPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="344" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="345" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a59f5fa494b747b9b193e3b2a0efcf9a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" kindref="member">TouchControlAnchor</ref></type>
+        <definition>TouchControlAnchor InControl.TouchStickControl.Anchor</definition>
+        <argsstring></argsstring>
+        <name>Anchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="361" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="362" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a68ba45d1f8d26ca9b7e7c2e1b8dbdea9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.TouchStickControl.Offset</definition>
+        <argsstring></argsstring>
+        <name>Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="379" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="380" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a7893871c79cd3605b708a1a83419548c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchStickControl.OffsetUnitType</definition>
+        <argsstring></argsstring>
+        <name>OffsetUnitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="397" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="398" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1ab0070300a7c52e6f1e5a29c18d5ff619" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchStickControl.ActiveArea</definition>
+        <argsstring></argsstring>
+        <name>ActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="415" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="416" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_stick_control_1a9c40c3da3249ad69a18f2c145dc55578" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchStickControl.AreaUnitType</definition>
+        <argsstring></argsstring>
+        <name>AreaUnitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="433" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="434" bodyend="448"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a8c648e1f00de4951ef4bce7dcd2aa4cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.CreateControl</definition>
+        <argsstring>()</argsstring>
+        <name>CreateControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab81fefe6eca3e972ce1c188c76a54215">CreateControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="82" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a32e46635a2322a988623aabf591b58ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.DestroyControl</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1af26e3207ecb016a2f783adf1dfc8efc0">DestroyControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="89" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="89" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1ab474fced63b124c3b0b89a4004bc7dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.ConfigureControl</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a884930763fd25d4b01252cad074d4324">ConfigureControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="102" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="102" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1aa87b7c7a466b4625b6b8b241a8a169fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aaaf4e78f6fb9a16199273dcdfe425eee">DrawGizmos</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="115" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a2acc2a4b24134182625c768ef6a07d41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.SubmitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a8e600dd3c15e3d3df1843df8ad755b83">SubmitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="154" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1ae19669be00e747c5658f100d22798e1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.CommitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab6dda6aaa855e7066c3b556fb77752e6">CommitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="160" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a7dfd7112e63f5959e5f0a3c7ec3b0b6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.TouchBegan</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchBegan</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aab486b8ad4c8975e17e36b7749f453fa">TouchBegan</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="166" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="166" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a049f4996647cd3e3ec6ef4c1a188fea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.TouchMoved</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchMoved</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a4241997b6929b835bef41e4938aeb84b">TouchMoved</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="201" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="201" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a0ce3727466605b9133445aa2c775b9e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchStickControl.TouchEnded</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchEnded</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ac9e2cde2c166f417fd6201a0d8104b7d">TouchEnded</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="287" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="287" bodyend="306"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_stick_control_1a142b922849e8ae42acb70f71b1a42720" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchStickControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="124" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="124" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.TouchStickControl</label>
+        <link refid="class_in_control_1_1_touch_stick_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.TouchStickControl</label>
+        <link refid="class_in_control_1_1_touch_stick_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ring</edgelabel>
+          <edgelabel>knob</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>InControl.TouchSprite</label>
+        <link refid="class_in_control_1_1_touch_sprite"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" line="22" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchStickControl.cs" bodystart="23" bodyend="449"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_stick_control_1a4e449b0c5751bd7448da044650473552" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>activeArea</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ab0070300a7c52e6f1e5a29c18d5ff619" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>ActiveArea</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a3e7812d203bd303e9719b92943c566d2" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>allowDragging</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a2aa07ab25b53e1a569f95ecf7a796432" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>allowDraggingAxis</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>AnalogTarget</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a06a81011c2b0b8dd33a61cdc9c7e11e8" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>anchor</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a59f5fa494b747b9b193e3b2a0efcf9a1" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>Anchor</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a9c40c3da3249ad69a18f2c145dc55578" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>AreaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ac0b57d49ada9aba5df7bbfe52589c84b" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>areaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a706639dc98a0b880a6f1564c052793ab" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>beganPosition</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>ButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a639c5df115ecb39e05a3e6cc482ff625" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>CommitAnalog</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a1fd54fbb31e26afcd9b2fa3964f00624" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>CommitButton</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ae19669be00e747c5658f100d22798e1d" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>CommitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ab474fced63b124c3b0b89a4004bc7dc2" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>ConfigureControl</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a8c648e1f00de4951ef4bce7dcd2aa4cd" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>CreateControl</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a8b5abac795a44c92e134696cba3ef495" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>currentTouch</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a32e46635a2322a988623aabf591b58ce" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>DestroyControl</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a7afa635d9bed593970299fa10911ebeb" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>dirty</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1aa87b7c7a466b4625b6b8b241a8a169fb" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>DrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a482abc484ad887f4c5d06628d0920975" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>inputCurve</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a04cfb224dda4453d120d6b86dc3443a3" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>IsActive</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ab622c16094d88961cc282155d5e32388" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>IsNotActive</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a66447db8249a4b19b1f346671c37c65d" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>knob</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1adcef84244003aafb1933a242df2db906" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>KnobPosition</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ac28bb60201d278d129cdf56c895af6ac" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>knobRange</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ac3b0c868410913610bf353780e69444b" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>knobResetSpeed</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ab051db3678ce649d206739c8cfd80861" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>lockToAxis</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a547ec05c025810ef7d51713ebc437c18" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>lowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a106c3e0db2399999f57dc7cf5dcf3828" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>movedPosition</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a68ba45d1f8d26ca9b7e7c2e1b8dbdea9" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>Offset</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1aba779c09d403c0b2f75b32474cd35300" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>offset</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a4b33f1c6fa26e4431f73e0ea34e97229" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>OffsetToWorldPosition</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a88323feff48e4ec4bf033f46998e7f09" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>offsetUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a7893871c79cd3605b708a1a83419548c" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>OffsetUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a98c831ebb24fe2c10873b1d998bea3d2" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>resetDuration</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1aa09055ad5c1c3c2688761c10f48d0236" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>resetPosition</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a0ef9b7d7640db383d8c7333264dee9f6" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>resetWhenDone</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ad005abcd7705e8e5a9faec4c0afc78c9" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>ring</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a89f73745d4a19c9c3e1b9f16a96934aa" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>RingPosition</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a051df5b6fbe7a081638133340ce4c9e0" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>ringResetSpeed</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ac6d3c825ea5f8ff20fd3bafbd223d94e" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>snapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SnapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a32643e06ae9cb3107fc736f9508079f2" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1acff7518787a65fe18efb6a9a2077b5f2" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a2856a0c0276efb154c8bed4b654a7859" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>snapToInitialTouch</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab68ea04ecff413b22305763c2f179efa" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SubmitAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a6e71ca874b032e6664afd8fb315c6a77" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SubmitButtonState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a532ee38b509eb40af2e035e1f6331c28" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SubmitButtonValue</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a2acc2a4b24134182625c768ef6a07d41" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>SubmitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a64006ac4d0eeb6d156591365f1f7eed2" prot="protected" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>SubmitRawAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a19bfbbf361dda62cc3a148c68328f29a" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>target</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a7dfd7112e63f5959e5f0a3c7ec3b0b6b" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>TouchBegan</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a0ce3727466605b9133445aa2c775b9e4" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>TouchEnded</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a049f4996647cd3e3ec6ef4c1a188fea6" prot="public" virt="virtual"><scope>InControl::TouchStickControl</scope><name>TouchMoved</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a142b922849e8ae42acb70f71b1a42720" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a84b86f7324493aea900701684e9b834b" prot="public" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>upperDeadZone</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a5a6af4b66032cbcad77b6efd679f1b8d" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>value</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1a687b8178d68095337ff326b357ac154a" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>worldActiveArea</name></member>
+      <member refid="class_in_control_1_1_touch_stick_control_1ab189e03043ddbd57d8a50c78989a24cc" prot="private" virt="non-virtual"><scope>InControl::TouchStickControl</scope><name>worldKnobRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

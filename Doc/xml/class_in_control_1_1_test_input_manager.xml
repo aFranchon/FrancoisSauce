@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_test_input_manager" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TestInputManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_test_input_manager_1a56f7581d0c5aa2443d00c227025f54d2" prot="public" static="no" mutable="no">
+        <type>Font</type>
+        <definition>Font InControl.TestInputManager.font</definition>
+        <argsstring></argsstring>
+        <name>font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="18" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_test_input_manager_1abe8442464d10b0738ee0f81ce24323bf" prot="private" static="no" mutable="no">
+        <type>readonly GUIStyle</type>
+        <definition>readonly GUIStyle InControl.TestInputManager.style</definition>
+        <argsstring></argsstring>
+        <name>style</name>
+        <initializer>= new GUIStyle()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="20" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_test_input_manager_1aba162109a4971832b0a1f62d8d4153de" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_in_control_1_1_log_message" kindref="compound">LogMessage</ref> &gt;</type>
+        <definition>readonly List&lt;LogMessage&gt; InControl.TestInputManager.logMessages</definition>
+        <argsstring></argsstring>
+        <name>logMessages</name>
+        <initializer>= new List&lt;<ref refid="struct_in_control_1_1_log_message" kindref="compound">LogMessage</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="21" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_test_input_manager_1a4cb14774d3d9d9c7f2dfbf3e0f1892dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TestInputManager.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="22" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a79d22c939091c1c04a5a64b3eaff7899" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="25" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="25" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1abff23f97b8f3f7239f90103567e3b835" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.HandleInputUpdate</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>HandleInputUpdate</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="85" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="85" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a45fae4d77307bc2c9d89a2e206aa2204" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="121" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="121" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a6f0fb2256455bbd49dcfb8958ab03290" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="134" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="134" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a33249baa975017feec0224009de8aede" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.CheckForPauseButton</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForPauseButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="150" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="150" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1ad87496764e7a0377045590d848b3107e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.SetColor</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>SetColor</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="160" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a2b0c162bbd5c6ee924c63bb015f44bb0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="166" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="166" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1ae9e479de67e3cda1eb0ef8f6ec2c41d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.DrawUnityInputDebugger</definition>
+        <argsstring>()</argsstring>
+        <name>DrawUnityInputDebugger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="363" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="363" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_test_input_manager_1a8fca7b4edcf101530601c7ea74ef4dfb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TestInputManager.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="415" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="415" bodyend="434"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.TestInputManager</label>
+        <link refid="class_in_control_1_1_test_input_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.TestInputManager</label>
+        <link refid="class_in_control_1_1_test_input_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>font</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Font</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" line="16" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Test/TestInputManager.cs" bodystart="17" bodyend="435"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_test_input_manager_1a33249baa975017feec0224009de8aede" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>CheckForPauseButton</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1ae9e479de67e3cda1eb0ef8f6ec2c41d5" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>DrawUnityInputDebugger</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a56f7581d0c5aa2443d00c227025f54d2" prot="public" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>font</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1abff23f97b8f3f7239f90103567e3b835" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>HandleInputUpdate</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a4cb14774d3d9d9c7f2dfbf3e0f1892dc" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>isPaused</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1aba162109a4971832b0a1f62d8d4153de" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>logMessages</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a8fca7b4edcf101530601c7ea74ef4dfb" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a79d22c939091c1c04a5a64b3eaff7899" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>OnEnable</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a2b0c162bbd5c6ee924c63bb015f44bb0" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>OnGUI</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1ad87496764e7a0377045590d848b3107e" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>SetColor</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a45fae4d77307bc2c9d89a2e206aa2204" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>Start</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1abe8442464d10b0738ee0f81ce24323bf" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>style</name></member>
+      <member refid="class_in_control_1_1_test_input_manager_1a6f0fb2256455bbd49dcfb8958ab03290" prot="private" virt="non-virtual"><scope>InControl::TestInputManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="protocol_i_cade_event_delegate-p" kind="protocol" language="Objective-C" prot="public">
+    <compoundname>ICadeEventDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="category_i_cade_manager_07_08" prot="public" virt="non-virtual">ICadeManager()</derivedcompoundref>
+    <includes refid="_i_cade_reader_view_8h" local="no">ICadeReaderView.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_i_cade_event_delegate-p_1a72af9689d77b2483bcbe68a9155dbd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeEventDelegate-p::stateChanged:</definition>
+        <argsstring>(ICadeState state)</argsstring>
+        <name>stateChanged:</name>
+        <param>
+          <type><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="1" column="0"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ICadeManager()</label>
+        <link refid="category_i_cade_manager_07_08"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>&lt;ICadeEventDelegate&gt;</label>
+        <link refid="protocol_i_cade_event_delegate-p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>&lt;ICadeEventDelegate&gt;</label>
+        <link refid="protocol_i_cade_event_delegate-p"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="23" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="23" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_i_cade_event_delegate-p_1a72af9689d77b2483bcbe68a9155dbd4c" prot="public" virt="virtual"><scope>ICadeEventDelegate-p</scope><name>stateChanged:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

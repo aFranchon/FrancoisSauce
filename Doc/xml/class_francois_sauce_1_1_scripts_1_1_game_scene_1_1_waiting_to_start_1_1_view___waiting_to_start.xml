@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSViews.IFSView&lt; Scene_Game &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1a0b8b3ebd189e5a678270b2051ac4de3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart.Awake</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>Awake</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>Method to initialize this view </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scene</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref> that own this view</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" line="15" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" bodystart="15" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1ae3385684f6e9dae5af3c009b04ec266a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart.OnViewEnter</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnViewEnter</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" line="26" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1a417a89dfeddea390c1fa930023bf3afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart.OnViewExit</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnViewExit</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" line="31" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1adb45ef0533c4b9ee6e0d002f868d48bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart.OnUpdate</definition>
+        <argsstring>(Scene_Game scene)</argsstring>
+        <name>OnUpdate</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" line="36" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref> implementation of IFSView&lt;T&gt; of the <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start" kindref="compound">WaitingToStart</ref> view </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSView&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFSView&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/WaitingToStart/View_WaitingToStart.cs" bodystart="10" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1a0b8b3ebd189e5a678270b2051ac4de3e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1adb45ef0533c4b9ee6e0d002f868d48bc" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a5d37ff926ef30075b56065bedff7a9d2" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1ae3385684f6e9dae5af3c009b04ec266a" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnViewEnter</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a3ef1f8a685147372c0c44b78cfd605fc" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnViewEnter</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start_1a417a89dfeddea390c1fa930023bf3afa" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnViewExit</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a36392b71d04164b02eee2babec44a104" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::WaitingToStart::View_WaitingToStart</scope><name>OnViewExit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

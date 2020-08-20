@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics" kind="class" language="C#" prot="public">
+    <compoundname>DG::Tweening::DOTweenModuleUtils::Physics</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1a912e1d2e53dce3aaffb50c006887adbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath</definition>
+        <argsstring>(PathOptions options, Tween t, Quaternion newRot, Transform trans)</argsstring>
+        <name>SetOrientationOnPath</name>
+        <param>
+          <type>PathOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>Tween</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>newRot</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>trans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="88" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="88" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1ab0b92fe6954a68419bde9553cae0d03f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody2D</definition>
+        <argsstring>(Component target)</argsstring>
+        <name>HasRigidbody2D</name>
+        <param>
+          <type>Component</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="99" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="99" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1a580f14850e54387226e4667286ecfe8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DG.Tweening.DOTweenModuleUtils.Physics.HasRigidbody</definition>
+        <argsstring>(Component target)</argsstring>
+        <name>HasRigidbody</name>
+        <param>
+          <type>Component</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="116" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="116" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1abba8233991958bc0620e2486f447599f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TweenerCore&lt; Vector3, Path, PathOptions &gt;</type>
+        <definition>static TweenerCore&lt;Vector3, Path, PathOptions&gt; DG.Tweening.DOTweenModuleUtils.Physics.CreateDOTweenPathTween</definition>
+        <argsstring>(MonoBehaviour target, bool tweenRigidbody, bool isLocal, Path path, float duration, PathMode pathMode)</argsstring>
+        <name>CreateDOTweenPathTween</name>
+        <param>
+          <type>MonoBehaviour</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>tweenRigidbody</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isLocal</declname>
+        </param>
+        <param>
+          <type>Path</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>PathMode</type>
+          <declname>pathMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="129" column="39" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="129" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" line="85" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/Modules/DOTweenModuleUtils.cs" bodystart="86" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1abba8233991958bc0620e2486f447599f" prot="public" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils::Physics</scope><name>CreateDOTweenPathTween</name></member>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1a580f14850e54387226e4667286ecfe8f" prot="public" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils::Physics</scope><name>HasRigidbody</name></member>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1ab0b92fe6954a68419bde9553cae0d03f" prot="public" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils::Physics</scope><name>HasRigidbody2D</name></member>
+      <member refid="class_d_g_1_1_tweening_1_1_d_o_tween_module_utils_1_1_physics_1a912e1d2e53dce3aaffb50c006887adbd" prot="public" virt="non-virtual"><scope>DG::Tweening::DOTweenModuleUtils::Physics</scope><name>SetOrientationOnPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

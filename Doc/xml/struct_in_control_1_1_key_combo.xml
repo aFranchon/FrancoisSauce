@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_key_combo" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::KeyCombo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_key_combo_1ab7025a09c865aa37d5bb46ec145ab2e9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.includeSize</definition>
+        <argsstring></argsstring>
+        <name>includeSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="13" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_combo_1a7e332dcb4adc4749976e4b713f5fde3a" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.KeyCombo.includeData</definition>
+        <argsstring></argsstring>
+        <name>includeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="14" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_combo_1ac3fbb48b65f5c3504d65f72681058098" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.excludeSize</definition>
+        <argsstring></argsstring>
+        <name>excludeSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="16" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_key_combo_1ab2e1d2e16740c09908a0ba8078634eab" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.KeyCombo.excludeData</definition>
+        <argsstring></argsstring>
+        <name>excludeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="17" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_key_combo_1aaddcf1523473feb154433ae1fbf10218" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="141" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_key_combo_1a37288140df50284c21a4db84eb181c79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.IncludeCount</definition>
+        <argsstring></argsstring>
+        <name>IncludeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="150" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_key_combo_1af86d3c03d05f7914c040b229a6753113" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.ExcludeCount</definition>
+        <argsstring></argsstring>
+        <name>ExcludeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="159" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_key_combo_1ac958bc59780d1d064d27ac333f9a076d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.KeyCombo.IsPressed</definition>
+        <argsstring></argsstring>
+        <name>IsPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="168" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="169" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_key_combo_1afb5faf9964175c12a25da3feb2969668" prot="public" static="yes" mutable="no">
+        <type>Dictionary&lt; ulong, string &gt;</type>
+        <definition>Dictionary&lt;ulong, string&gt; InControl.KeyCombo.cachedStrings</definition>
+        <argsstring></argsstring>
+        <name>cachedStrings</name>
+        <initializer>= new Dictionary&lt;ulong, string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="238" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a61bcbd99f351db7035caee19117386e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.KeyCombo.KeyCombo</definition>
+        <argsstring>(params Key[] keys)</argsstring>
+        <name>KeyCombo</name>
+        <param>
+          <type>params <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="20" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="20" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1ae8ad15ea3d9785f78766c89241bffbce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.AddIncludeInt</definition>
+        <argsstring>(int key)</argsstring>
+        <name>AddIncludeInt</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="33" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a2957a0552f2ade8064f5090703054fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.GetIncludeInt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetIncludeInt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="45" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1ac04fbef76844d9587ea85c6de07d6279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.Add</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="52" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a2a96a7fbc779e13555f6e23bae2d0c0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+        <definition>Key InControl.KeyCombo.Get</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="59" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1afefda8a7bf4667eb49bce65178adc950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.AddInclude</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>AddInclude</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="65" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a8d31c4356ee9c9598ce5c2844c812151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+        <definition>Key InControl.KeyCombo.GetInclude</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetInclude</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="71" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="71" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1afebfff66d07c5edb94a416d1fb50f006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.AddExcludeInt</definition>
+        <argsstring>(int key)</argsstring>
+        <name>AddExcludeInt</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="81" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a8a6e1e58e2568f26e2d6fdb3a6936e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.KeyCombo.GetExcludeInt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetExcludeInt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="93" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a560f23fe3dedaecbbc3a7d8fa7ae9ab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.AddExclude</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>AddExclude</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="99" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1ac3edd70aec657c8198867b42a39a229a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref></type>
+        <definition>Key InControl.KeyCombo.GetExclude</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetExclude</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="105" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a814a777ea7b8e295980993e39dfbdb43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+        <definition>KeyCombo InControl.KeyCombo.AndNot</definition>
+        <argsstring>(params Key[] keys)</argsstring>
+        <name>AndNot</name>
+        <param>
+          <type>params <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="121" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="121" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a3846abbc4dcffc374e244c7157eba754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="131" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="131" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a18db45a79ac3a4533208bfc585a29643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.KeyCombo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="239" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="239" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1ae6a97bb518e2a6631dacb148f7ff5564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.KeyCombo.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="271" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="271" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1ae9efc20fd54cb689f578937bc0a2227c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.KeyCombo.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="283" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="283" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a9dbd101239440071af7816c64625caa7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+        <definition>static KeyCombo InControl.KeyCombo.With</definition>
+        <argsstring>(params Key[] keys)</argsstring>
+        <name>With</name>
+        <param>
+          <type>params <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="115" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a827d7fbd931f56226d7bf435d50f9d87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+        <definition>static KeyCombo InControl.KeyCombo.Detect</definition>
+        <argsstring>(bool modifiersAsKeys)</argsstring>
+        <name>Detect</name>
+        <param>
+          <type>bool</type>
+          <declname>modifiersAsKeys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="198" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="198" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1aefa6292aee3b13d5dc6e03a448a1aced" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.KeyCombo.operator==</definition>
+        <argsstring>(KeyCombo a, KeyCombo b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="259" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="259" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1a3fc38421c375cd6acf0347a6848db677" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.KeyCombo.operator!=</definition>
+        <argsstring>(KeyCombo a, KeyCombo b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="265" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="265" bodyend="268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1aeef6b765ceb84fe826da836bb79ce826" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.Load</definition>
+        <argsstring>(BinaryReader reader, UInt16 dataFormatVersion)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dataFormatVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="292" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="292" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_key_combo_1aa5111f8e90b4000cfd63fe69c544c812" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.KeyCombo.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="314" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="314" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a combination of one or more keys, including modifiers, up to a maximum of eight. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/KeyCombo.cs" bodystart="12" bodyend="321"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_key_combo_1ac04fbef76844d9587ea85c6de07d6279" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Add</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a560f23fe3dedaecbbc3a7d8fa7ae9ab2" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>AddExclude</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1afebfff66d07c5edb94a416d1fb50f006" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>AddExcludeInt</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1afefda8a7bf4667eb49bce65178adc950" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>AddInclude</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ae8ad15ea3d9785f78766c89241bffbce" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>AddIncludeInt</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a814a777ea7b8e295980993e39dfbdb43" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>AndNot</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1afb5faf9964175c12a25da3feb2969668" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>cachedStrings</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a3846abbc4dcffc374e244c7157eba754" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Clear</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1aaddcf1523473feb154433ae1fbf10218" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Count</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a827d7fbd931f56226d7bf435d50f9d87" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Detect</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ae6a97bb518e2a6631dacb148f7ff5564" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1af86d3c03d05f7914c040b229a6753113" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>ExcludeCount</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ab2e1d2e16740c09908a0ba8078634eab" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>excludeData</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ac3fbb48b65f5c3504d65f72681058098" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>excludeSize</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a2a96a7fbc779e13555f6e23bae2d0c0e" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Get</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ac3edd70aec657c8198867b42a39a229a" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>GetExclude</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a8a6e1e58e2568f26e2d6fdb3a6936e6a" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>GetExcludeInt</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ae9efc20fd54cb689f578937bc0a2227c" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a8d31c4356ee9c9598ce5c2844c812151" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>GetInclude</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a2957a0552f2ade8064f5090703054fc0" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>GetIncludeInt</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a37288140df50284c21a4db84eb181c79" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>IncludeCount</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a7e332dcb4adc4749976e4b713f5fde3a" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>includeData</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ab7025a09c865aa37d5bb46ec145ab2e9" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>includeSize</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1ac958bc59780d1d064d27ac333f9a076d" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>IsPressed</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a61bcbd99f351db7035caee19117386e7" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>KeyCombo</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1aeef6b765ceb84fe826da836bb79ce826" prot="package" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Load</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a3fc38421c375cd6acf0347a6848db677" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1aefa6292aee3b13d5dc6e03a448a1aced" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1aa5111f8e90b4000cfd63fe69c544c812" prot="package" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>Save</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a18db45a79ac3a4533208bfc585a29643" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_key_combo_1a9dbd101239440071af7816c64625caa7" prot="public" virt="non-virtual"><scope>InControl::KeyCombo</scope><name>With</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

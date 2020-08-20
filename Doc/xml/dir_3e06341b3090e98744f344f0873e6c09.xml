@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_3e06341b3090e98744f344f0873e6c09" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles</compoundname>
+    <innerdir refid="dir_d26ae9ac6cb17629fcbed5f879f70585">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Amazon</innerdir>
+    <innerdir refid="dir_e22b51881c5db392a4cabd5724f31954">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Android</innerdir>
+    <innerdir refid="dir_cbdc3e3721d7ecd5748842a210c42a3e">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/AppleTV</innerdir>
+    <innerdir refid="dir_f1ec27d6ac6435920ff31813a682f4fa">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Linux</innerdir>
+    <innerdir refid="dir_99972a918361121894149e9b109dd5a2">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Mac</innerdir>
+    <innerdir refid="dir_121a85c2c821821661d57373e9eac66f">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Other</innerdir>
+    <innerdir refid="dir_787d170138b33b898ebfb53497cde48b">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL</innerdir>
+    <innerdir refid="dir_58f4b2df4dde97a41e361ddc33a65503">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Windows</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/"/>
+  </compounddef>
+</doxygen>

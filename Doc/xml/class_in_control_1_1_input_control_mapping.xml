@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_input_control_mapping" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InputControlMapping</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a9fde56da44b1186c2e3500adaec8cca9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputControlMapping.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="16" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a4d54cb99ee6e971a8309e65baa37a364" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.invert</definition>
+        <argsstring></argsstring>
+        <name>invert</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="21" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1ac46dfd0b4c3d06488bc86ea0340e86a4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="25" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1ad2f770233a0cdccf1cb3e63ef706b128" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="29" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a604d9d5a72cbbbde35788eb1a0c1b10a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.passive</definition>
+        <argsstring></argsstring>
+        <name>passive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="33" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1aa1b1ff06a80183f63fb08d8cc0424154" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.ignoreInitialZeroValue</definition>
+        <argsstring></argsstring>
+        <name>ignoreInitialZeroValue</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="37" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1aa3d15e87c301667b7fee9d959f7b48b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.sensitivity</definition>
+        <argsstring></argsstring>
+        <name>sensitivity</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="40" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a7772d79806b71776668984a898613201" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.lowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>lowerDeadZone</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="43" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a70a2a84da59f25784cf3c526f5e6cbac" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.upperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>upperDeadZone</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="46" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a68957a4bcdb375d291dd7546a8f5fe53" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>InputControlSource InControl.InputControlMapping.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="49" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a8dba90068ee8f4d42f396f17b198a6bf" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+        <definition>InputControlType InControl.InputControlMapping.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <initializer>= <ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">InputControlType.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="52" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1ad514382781bd03368faf2d1784da7661" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>InputRangeType InControl.InputControlMapping.sourceRange</definition>
+        <argsstring></argsstring>
+        <name>sourceRange</name>
+        <initializer>= <ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea74bed7bc7c4e66d80d2f4bf23a165586" kindref="member">InputRangeType.MinusOneToOne</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="55" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_mapping_1a5c00b4f5cecab13e6f2dd3f51be02c02" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>InputRangeType InControl.InputControlMapping.targetRange</definition>
+        <argsstring></argsstring>
+        <name>targetRange</name>
+        <initializer>= <ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea74bed7bc7c4e66d80d2f4bf23a165586" kindref="member">InputRangeType.MinusOneToOne</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="58" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1aed64d2bdefcb4523381f05e54d68aa8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? InControl.InputControlMapping.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="65" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a24ddf1df41f332359d569fd820bf45c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.Invert</definition>
+        <argsstring></argsstring>
+        <name>Invert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="66" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a65d415f783021a48ca3e70135d0ae290" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.Scale</definition>
+        <argsstring></argsstring>
+        <name>Scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="67" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1acab256aaa4875a5ce1508e7925b06f7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.Raw</definition>
+        <argsstring></argsstring>
+        <name>Raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="68" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a3dc630e85d521f7d5bb7333608eae2e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.Passive</definition>
+        <argsstring></argsstring>
+        <name>Passive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="69" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a9d18c7893cd16da97d18181a72f6280b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControlMapping.IgnoreInitialZeroValue</definition>
+        <argsstring></argsstring>
+        <name>IgnoreInitialZeroValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="70" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a10141c754737239b082d9c0e7bfa2e22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.Sensitivity</definition>
+        <argsstring></argsstring>
+        <name>Sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="71" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a0b51ea9af4fba67200059c82f5bfe274" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="72" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1af43fe5649fd30bee8aa9e4975f6972eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="73" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1af19e49742992c430002cf1f9bd662a13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_in_control_1_1_input_control_source" kindref="compound">InputControlSource</ref></type>
+        <definition>InputControlSource InControl.InputControlMapping.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="74" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a484b3bd9c3211e97513639150b484f56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+        <definition>InputControlType InControl.InputControlMapping.Target</definition>
+        <argsstring></argsstring>
+        <name>Target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="75" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1afc63d7cf30f15eefa30e6f110ebcd4ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>InputRangeType InControl.InputControlMapping.SourceRange</definition>
+        <argsstring></argsstring>
+        <name>SourceRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="76" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_mapping_1a1597a9c64b38c36687e71c37e41a85c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>InputRangeType InControl.InputControlMapping.TargetRange</definition>
+        <argsstring></argsstring>
+        <name>TargetRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="77" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_control_mapping_1a5725c737bd01df77c78a435bb21825f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InControl.InputControlMapping.ApplyToValue</definition>
+        <argsstring>(float value)</argsstring>
+        <name>ApplyToValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="82" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="82" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlMapping.cs" bodystart="12" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_control_mapping_1a5725c737bd01df77c78a435bb21825f2" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>ApplyToValue</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a9d18c7893cd16da97d18181a72f6280b" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>IgnoreInitialZeroValue</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1aa1b1ff06a80183f63fb08d8cc0424154" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>ignoreInitialZeroValue</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a4d54cb99ee6e971a8309e65baa37a364" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>invert</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a24ddf1df41f332359d569fd820bf45c1" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Invert</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a7772d79806b71776668984a898613201" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>lowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a0b51ea9af4fba67200059c82f5bfe274" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a9fde56da44b1186c2e3500adaec8cca9" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>name</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1aed64d2bdefcb4523381f05e54d68aa8b" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a3dc630e85d521f7d5bb7333608eae2e4" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Passive</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a604d9d5a72cbbbde35788eb1a0c1b10a" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>passive</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1ad2f770233a0cdccf1cb3e63ef706b128" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>raw</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1acab256aaa4875a5ce1508e7925b06f7f" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a65d415f783021a48ca3e70135d0ae290" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Scale</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1ac46dfd0b4c3d06488bc86ea0340e86a4" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>scale</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a10141c754737239b082d9c0e7bfa2e22" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1aa3d15e87c301667b7fee9d959f7b48b6" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>sensitivity</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1af19e49742992c430002cf1f9bd662a13" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Source</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a68957a4bcdb375d291dd7546a8f5fe53" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>source</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1afc63d7cf30f15eefa30e6f110ebcd4ae" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>SourceRange</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1ad514382781bd03368faf2d1784da7661" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>sourceRange</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a8dba90068ee8f4d42f396f17b198a6bf" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>target</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a484b3bd9c3211e97513639150b484f56" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>Target</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a1597a9c64b38c36687e71c37e41a85c1" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>TargetRange</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a5c00b4f5cecab13e6f2dd3f51be02c02" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>targetRange</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1af43fe5649fd30bee8aa9e4975f6972eb" prot="public" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_control_mapping_1a70a2a84da59f25784cf3c526f5e6cbac" prot="private" virt="non-virtual"><scope>InControl::InputControlMapping</scope><name>upperDeadZone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

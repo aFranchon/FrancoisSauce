@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="interface_i_cade_manager" kind="class" language="Objective-C" prot="public">
+    <compoundname>ICadeManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_i_cade_manager_8h" local="no">ICadeManager.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_i_cade_manager_1a867d9f40f833a0e05f7c6f3c1c51136e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ICadeManager::sharedManager</definition>
+        <argsstring>()</argsstring>
+        <name>sharedManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="25" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_cade_manager_1a07a12e5dc46f8fc92e13bca34d61a174" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeManager::activate:</definition>
+        <argsstring>(BOOL state)</argsstring>
+        <name>activate:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="36" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_cade_manager_1ad8cc15df98d85e18cfdd3f3ec6da926f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeManager::delayedActivate:</definition>
+        <argsstring>(NSNumber *stateNumber)</argsstring>
+        <name>delayedActivate:</name>
+        <param>
+          <type>NSNumber *</type>
+          <declname>stateNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="52" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_cade_manager_1af3c0cc4495808de2aace280daeecc23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ICadeManager::setStateCallback:</definition>
+        <argsstring>(UnityCallback callback)</argsstring>
+        <name>setStateCallback:</name>
+        <param>
+          <type><ref refid="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" kindref="member">UnityCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_cade_manager_1a7c2fc0ed34b40e5fd81e669223b8911d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ICadeManager::getState</definition>
+        <argsstring>()</argsstring>
+        <name>getState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="4" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="101" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICadeManager</label>
+        <link refid="interface_i_cade_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICadeManager</label>
+        <link refid="interface_i_cade_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" line="7" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.h" bodystart="8" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_i_cade_manager_1a07a12e5dc46f8fc92e13bca34d61a174" prot="public" virt="virtual"><scope>ICadeManager</scope><name>activate:</name></member>
+      <member refid="interface_i_cade_manager_1ad8cc15df98d85e18cfdd3f3ec6da926f" prot="public" virt="virtual"><scope>ICadeManager</scope><name>delayedActivate:</name></member>
+      <member refid="interface_i_cade_manager_1a7c2fc0ed34b40e5fd81e669223b8911d" prot="public" virt="virtual"><scope>ICadeManager</scope><name>getState</name></member>
+      <member refid="interface_i_cade_manager_1af3c0cc4495808de2aace280daeecc23d" prot="public" virt="virtual"><scope>ICadeManager</scope><name>setStateCallback:</name></member>
+      <member refid="interface_i_cade_manager_1a867d9f40f833a0e05f7c6f3c1c51136e" prot="public" virt="virtual"><scope>ICadeManager</scope><name>sharedManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

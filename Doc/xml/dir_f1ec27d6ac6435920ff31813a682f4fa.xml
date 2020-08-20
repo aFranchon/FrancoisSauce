@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f1ec27d6ac6435920ff31813a682f4fa" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Linux</compoundname>
+    <innerfile refid="_game_stick_linux_unity_profile_8cs">GameStickLinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_generic_linux_unity_profile_8cs">GenericLinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_havit_h_v_g95_w_linux_profile_8cs">HavitHVG95WLinuxProfile.cs</innerfile>
+    <innerfile refid="_logitech_f310_linux_unity_profile_8cs">LogitechF310LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f510_linux_unity_profile_8cs">LogitechF510LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_logitech_f710_linux_unity_profile_8cs">LogitechF710LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_moga_pro_linux_unity_profile_8cs">MogaProLinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_ouya_linux_unity_profile_8cs">OuyaLinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station2_linux_unity_profile_8cs">PlayStation2LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station3_linux_unity_profile_8cs">PlayStation3LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_linux_unity_profile_8cs">PlayStation4LinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_steel_series_free_linux_unity_profile_8cs">SteelSeriesFreeLinuxUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_linux_unity_profile_8cs">Xbox360LinuxUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Linux/"/>
+  </compounddef>
+</doxygen>

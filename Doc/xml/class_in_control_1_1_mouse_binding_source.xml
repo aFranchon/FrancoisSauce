@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_mouse_binding_source" kind="class" language="C#" prot="public">
+    <compoundname>InControl::MouseBindingSource</compoundname>
+    <basecompoundref refid="class_in_control_1_1_binding_source" prot="public" virt="non-virtual">InControl.BindingSource</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1ab6d016556a82efd13c8cb28dc70a3a44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+        <definition>Mouse InControl.MouseBindingSource.Control</definition>
+        <argsstring></argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="10" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1a1558e58666d2c00664c013d98c31493e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.MouseBindingSource.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="115" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="116" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1a843cf1ac7eb04459dd1c42bd4098e886" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string InControl.MouseBindingSource.DeviceName</definition>
+        <argsstring></argsstring>
+        <name>DeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="124" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1a79d706e40c9ce926ec6939f3b86804d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>override InputDeviceClass InControl.MouseBindingSource.DeviceClass</definition>
+        <argsstring></argsstring>
+        <name>DeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="133" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="134" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1a68a3e558e5aac3cf5460b75e6b88c32a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>override InputDeviceStyle InControl.MouseBindingSource.DeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>DeviceStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="142" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_mouse_binding_source_1a808c16868872272e7a0232371de22f3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>override BindingSourceType InControl.MouseBindingSource.BindingSourceType</definition>
+        <argsstring></argsstring>
+        <name>BindingSourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="191" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="192" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_1a184df8c90fe2b58005ab095ce6850781" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float InControl.MouseBindingSource.ScaleX</definition>
+        <argsstring></argsstring>
+        <name>ScaleX</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="11" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_1a2d063fa1e16468c19d9a609a810e7f71" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float InControl.MouseBindingSource.ScaleY</definition>
+        <argsstring></argsstring>
+        <name>ScaleY</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="12" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_1a53eedf0593adcc434e0ff414384dcf3f" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float InControl.MouseBindingSource.ScaleZ</definition>
+        <argsstring></argsstring>
+        <name>ScaleZ</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="13" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_1ad82ef4d3716f57c7dcf281f2859a975c" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float InControl.MouseBindingSource.JitterThreshold</definition>
+        <argsstring></argsstring>
+        <name>JitterThreshold</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="14" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_mouse_binding_source_1af995d1f662eba939013fff466f2376ee" prot="private" static="yes" mutable="no">
+        <type>readonly int[]</type>
+        <definition>readonly int [] InControl.MouseBindingSource.buttonTable</definition>
+        <argsstring></argsstring>
+        <name>buttonTable</name>
+        <initializer>= new[]
+		{
+			-1, 0, 1, 2, -1, -1, -1, -1, -1, -1, 3, 4, 5, 6, 7, 8
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="42" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1ab3365f206a380713281d4cf6be7275ff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.MouseBindingSource.MouseBindingSource</definition>
+        <argsstring>()</argsstring>
+        <name>MouseBindingSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="17" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a9fcb6a2e073775bde1e65c4892e330da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.MouseBindingSource.MouseBindingSource</definition>
+        <argsstring>(Mouse mouseControl)</argsstring>
+        <name>MouseBindingSource</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+          <declname>mouseControl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="20" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a3358929944911f0d6d56ef7c105cb6d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float InControl.MouseBindingSource.GetValue</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a8fff562866ca868f6b5c9f91932bd64a">GetValue</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a float value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value, usually in the range -1..1, but not necessarily, for example, in the case of mouse movement.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="103" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a352cea127d33a9c28e707421b62c2265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.MouseBindingSource.GetState</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetState</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a72c2d47869cfc3c33b2cfc1ea8ab24cc">GetState</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+<para>Read a bool value from the binding source in the context of an optional <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the value of the binding is non-zero; otherwise <computeroutput>false</computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An input device which serves as the context for this source, if applicable. Pass in null when not applicable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="109" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1aae47c26344f038d1f6c066f63a191aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.MouseBindingSource.Equals</definition>
+        <argsstring>(BindingSource other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1afb297381157f71e88975cbabedabe635">Equals</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to compare with the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the specified <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> is equal to the current <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="151" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="151" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a937f23c9ac8396823811bfd0782eea0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.MouseBindingSource.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="168" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="168" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a2eabd1c9e4cafccb279b3769e1bc6154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.MouseBindingSource.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="185" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1acf98d228eaf27e43120173ad51bd6d23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.MouseBindingSource.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1aa3291f28485fa64ca39cdf41dbbfdaa0">Save</reimplements>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="200" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1af61a4c2ad0d3adbc30118018220e3346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.MouseBindingSource.Load</definition>
+        <argsstring>(BinaryReader reader, UInt16 dataFormatVersion)</argsstring>
+        <name>Load</name>
+        <reimplements refid="class_in_control_1_1_binding_source_1a40f55804f6cbfde3f3c92d59756cbcb1">Load</reimplements>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dataFormatVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="206" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="206" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a2ebe265894966efe6252a3fa503cb5b7" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.MouseBindingSource.SafeGetMouseButton</definition>
+        <argsstring>(int button)</argsstring>
+        <name>SafeGetMouseButton</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="29" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1ad824e119ae25faa52833146d6cecc706" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.MouseBindingSource.ButtonIsPressed</definition>
+        <argsstring>(Mouse control)</argsstring>
+        <name>ButtonIsPressed</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="47" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="47" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1abf78dbf0c556003ff0164a1258774b32" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.MouseBindingSource.NegativeScrollWheelIsActive</definition>
+        <argsstring>(float threshold)</argsstring>
+        <name>NegativeScrollWheelIsActive</name>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="59" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a55a39d98742ea2d63bf019e45b203296" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.MouseBindingSource.PositiveScrollWheelIsActive</definition>
+        <argsstring>(float threshold)</argsstring>
+        <name>PositiveScrollWheelIsActive</name>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="66" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_mouse_binding_source_1a32df0e1dba5b439474ad5bc65621f290" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.MouseBindingSource.GetValue</definition>
+        <argsstring>(Mouse mouseControl)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+          <declname>mouseControl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="73" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="73" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.MouseBindingSource</label>
+        <link refid="class_in_control_1_1_mouse_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.MouseBindingSource</label>
+        <link refid="class_in_control_1_1_mouse_binding_source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/MouseBindingSource.cs" bodystart="9" bodyend="210"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a808c16868872272e7a0232371de22f3d" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>BindingSourceType</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a0d9586fb3b6233d99a96407ef287ccb5" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>BoundTo</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1ad824e119ae25faa52833146d6cecc706" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>ButtonIsPressed</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1af995d1f662eba939013fff466f2376ee" prot="private" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>buttonTable</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1ab6d016556a82efd13c8cb28dc70a3a44" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>Control</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a79d706e40c9ce926ec6939f3b86804d3" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a843cf1ac7eb04459dd1c42bd4098e886" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>DeviceName</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a68a3e558e5aac3cf5460b75e6b88c32a" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1aae47c26344f038d1f6c066f63a191aec" prot="public" virt="virtual"><scope>InControl::MouseBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a937f23c9ac8396823811bfd0782eea0d" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>Equals</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a2eabd1c9e4cafccb279b3769e1bc6154" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>GetHashCode</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a352cea127d33a9c28e707421b62c2265" prot="public" virt="virtual"><scope>InControl::MouseBindingSource</scope><name>GetState</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a32df0e1dba5b439474ad5bc65621f290" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>GetValue</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a3358929944911f0d6d56ef7c105cb6d9" prot="public" virt="virtual"><scope>InControl::MouseBindingSource</scope><name>GetValue</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a5563d470b4b7872b4e03ce7dbaa019c8" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>IsValid</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1ad82ef4d3716f57c7dcf281f2859a975c" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>JitterThreshold</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1af61a4c2ad0d3adbc30118018220e3346" prot="public" virt="virtual"><scope>InControl::MouseBindingSource</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1ab3365f206a380713281d4cf6be7275ff" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>MouseBindingSource</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a9fcb6a2e073775bde1e65c4892e330da" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>MouseBindingSource</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a1558e58666d2c00664c013d98c31493e" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1abf78dbf0c556003ff0164a1258774b32" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>NegativeScrollWheelIsActive</name></member>
+      <member refid="class_in_control_1_1_binding_source_1ab5f01ce009d16d8fe1dcebdcb765dcf3" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>operator!=</name></member>
+      <member refid="class_in_control_1_1_binding_source_1a2be1cd2a60d29c2f90ca075b2bf5b306" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>operator==</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a55a39d98742ea2d63bf019e45b203296" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>PositiveScrollWheelIsActive</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a2ebe265894966efe6252a3fa503cb5b7" prot="package" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>SafeGetMouseButton</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1acf98d228eaf27e43120173ad51bd6d23" prot="public" virt="virtual"><scope>InControl::MouseBindingSource</scope><name>Save</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a184df8c90fe2b58005ab095ce6850781" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>ScaleX</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a2d063fa1e16468c19d9a609a810e7f71" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>ScaleY</name></member>
+      <member refid="class_in_control_1_1_mouse_binding_source_1a53eedf0593adcc434e0ff414384dcf3f" prot="public" virt="non-virtual"><scope>InControl::MouseBindingSource</scope><name>ScaleZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

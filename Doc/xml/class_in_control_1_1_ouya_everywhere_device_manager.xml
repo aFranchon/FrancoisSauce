@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_ouya_everywhere_device_manager" kind="class" language="C#" prot="public">
+    <compoundname>InControl::OuyaEverywhereDeviceManager</compoundname>
+    <basecompoundref refid="class_in_control_1_1_input_device_manager" prot="public" virt="non-virtual">InControl.InputDeviceManager</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_ouya_everywhere_device_manager_1acb0a4d9c5e4ab750675b910c132f62d4" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] InControl.OuyaEverywhereDeviceManager.deviceConnected</definition>
+        <argsstring></argsstring>
+        <name>deviceConnected</name>
+        <initializer>= new bool[] { false, false, false, false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" line="10" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_ouya_everywhere_device_manager_1a348f2d9b05033872236c88b476290dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.OuyaEverywhereDeviceManager.OuyaEverywhereDeviceManager</definition>
+        <argsstring>()</argsstring>
+        <name>OuyaEverywhereDeviceManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" line="13" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_ouya_everywhere_device_manager_1a5ff4a55358deb91306bb6d86ab15f7b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.OuyaEverywhereDeviceManager.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_in_control_1_1_input_device_manager_1ac3416e8a7486490be7f21a0b33f71e77">Update</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" line="22" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" bodystart="22" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_ouya_everywhere_device_manager_1ac221b1019b0046c18f4f4f6d74389e5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.OuyaEverywhereDeviceManager.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" line="46" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" bodystart="46" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+      </node>
+      <node id="1">
+        <label>InControl.OuyaEverywhereDeviceManager</label>
+        <link refid="class_in_control_1_1_ouya_everywhere_device_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>devices</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.OuyaEverywhereDeviceManager</label>
+        <link refid="class_in_control_1_1_ouya_everywhere_device_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/OuyaEverywhere/OuyaEverywhereDeviceManager.cs" bodystart="9" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_device_manager_1afa06031296afe418d2c57b13e2fa3c97" prot="public" virt="virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_ouya_everywhere_device_manager_1acb0a4d9c5e4ab750675b910c132f62d4" prot="private" virt="non-virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>deviceConnected</name></member>
+      <member refid="class_in_control_1_1_input_device_manager_1a024370cba1e3d026abd3a83fa27922c8" prot="protected" virt="non-virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>devices</name></member>
+      <member refid="class_in_control_1_1_ouya_everywhere_device_manager_1ac221b1019b0046c18f4f4f6d74389e5e" prot="public" virt="non-virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>Enable</name></member>
+      <member refid="class_in_control_1_1_ouya_everywhere_device_manager_1a348f2d9b05033872236c88b476290dff" prot="public" virt="non-virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>OuyaEverywhereDeviceManager</name></member>
+      <member refid="class_in_control_1_1_ouya_everywhere_device_manager_1a5ff4a55358deb91306bb6d86ab15f7b7" prot="public" virt="virtual"><scope>InControl::OuyaEverywhereDeviceManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_native_input_options_8cs" kind="file" language="C#">
+    <compoundname>NativeInputOptions.cs</compoundname>
+    <innerclass refid="struct_in_control_1_1_native_input_options" prot="public">InControl::NativeInputOptions</innerclass>
+    <innernamespace refid="namespace_in_control">InControl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Runtime.InteropServices;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[StructLayout(<sp/>LayoutKind.Sequential,<sp/>CharSet<sp/>=<sp/>CharSet.Ansi<sp/>)]</highlight></codeline>
+<codeline lineno="8" refid="struct_in_control_1_1_native_input_options" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_in_control_1_1_native_input_options" kindref="compound">NativeInputOptions</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="struct_in_control_1_1_native_input_options_1aeabd29fbf28e63c2841336094971bf2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UInt16<sp/><ref refid="struct_in_control_1_1_native_input_options_1aeabd29fbf28e63c2841336094971bf2e" kindref="member">updateRate</ref>;</highlight></codeline>
+<codeline lineno="11" refid="struct_in_control_1_1_native_input_options_1aeaf34108d8f2c335cdad6536d730ab44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Int32<sp/><ref refid="struct_in_control_1_1_native_input_options_1aeaf34108d8f2c335cdad6536d730ab44" kindref="member">enableXInput</ref>;</highlight></codeline>
+<codeline lineno="12" refid="struct_in_control_1_1_native_input_options_1a89a31204eacf62ee64ffb0153df303e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Int32<sp/><ref refid="struct_in_control_1_1_native_input_options_1a89a31204eacf62ee64ffb0153df303e1" kindref="member">enableMFi</ref>;</highlight></codeline>
+<codeline lineno="13" refid="struct_in_control_1_1_native_input_options_1aa33adc65ed396f304819a24bfc3f3ec2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Int32<sp/><ref refid="struct_in_control_1_1_native_input_options_1aa33adc65ed396f304819a24bfc3f3ec2" kindref="member">preventSleep</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs"/>
+  </compounddef>
+</doxygen>

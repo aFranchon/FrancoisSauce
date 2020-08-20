@@ -1,0 +1,4 @@
+var class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script =
+[
+    [ "startButton", "class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_waiting_to_start_script.html#a537cf8f42eef37abfe35bcf1a0c489de", null ]
+];

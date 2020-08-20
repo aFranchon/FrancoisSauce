@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_2a77cc1194310edc30cd6eda96f016a4" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Mac</compoundname>
+    <innerfile refid="_nintendo_switch_pro_mac_chrome_unity_profile_8cs">NintendoSwitchProMacChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_mac_chrome_unity_profile_8cs">PlayStation4MacChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_mac_firefox_unity_profile_8cs">PlayStation4MacFirefoxUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_mac_chrome_unity_profile_8cs">Xbox360MacChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_mac_firefox_unity_profile_8cs">Xbox360MacFirefoxUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox360_mac_safari_unity_profile_8cs">Xbox360MacSafariUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_mac_chrome_unity_profile_8cs">XboxOneMacChromeUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_mac_firefox_unity_profile_8cs">XboxOneMacFirefoxUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_mac_safari_unity_profile_8cs">XboxOneMacSafariUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Mac/"/>
+  </compounddef>
+</doxygen>

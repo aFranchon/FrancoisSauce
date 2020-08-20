@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_unknown_device_binding_source_listener" kind="class" language="C#" prot="public">
+    <compoundname>InControl::UnknownDeviceBindingSourceListener</compoundname>
+    <basecompoundref refid="interface_in_control_1_1_binding_source_listener" prot="public" virt="non-virtual">InControl.BindingSourceListener</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_in_control_1_1_unknown_device_binding_source_listener_1aac738447276b287fbae48a3a4bba716b" prot="private" static="no" strong="yes">
+        <type>int</type>
+        <name>DetectPhase</name>
+        <enumvalue id="class_in_control_1_1_unknown_device_binding_source_listener_1aac738447276b287fbae48a3a4bba716ba9b54748312c3252e14270ec0ca331aca" prot="private">
+          <name>WaitForInitialRelease</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_unknown_device_binding_source_listener_1aac738447276b287fbae48a3a4bba716bacdedb32e39e6f2ef662f8032eef36907" prot="private">
+          <name>WaitForControlPress</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_unknown_device_binding_source_listener_1aac738447276b287fbae48a3a4bba716bae567dcd8319d59c67bd781dc36944755" prot="private">
+          <name>WaitForControlRelease</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="5" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="6" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_unknown_device_binding_source_listener_1a00b5e8f3a93078c05844681a70a850e1" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+        <definition>UnknownDeviceControl InControl.UnknownDeviceBindingSourceListener.detectFound</definition>
+        <argsstring></argsstring>
+        <name>detectFound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="13" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_unknown_device_binding_source_listener_1a5f1e95c32af1453f380a4266af0fa364" prot="private" static="no" mutable="no">
+        <type>DetectPhase</type>
+        <definition>DetectPhase InControl.UnknownDeviceBindingSourceListener.detectPhase</definition>
+        <argsstring></argsstring>
+        <name>detectPhase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="14" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_unknown_device_binding_source_listener_1a4442b5ca0bb41819a61341fca1ae5e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.UnknownDeviceBindingSourceListener.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="interface_in_control_1_1_binding_source_listener_1a4827864725a5c6cb801268518552e706">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="17" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unknown_device_binding_source_listener_1a3bbf732083e4d95d2660ce01f9f9a26e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+        <definition>BindingSource InControl.UnknownDeviceBindingSourceListener.Listen</definition>
+        <argsstring>(BindingListenOptions listenOptions, InputDevice device)</argsstring>
+        <name>Listen</name>
+        <reimplements refid="interface_in_control_1_1_binding_source_listener_1a99c94b78347e77cc36cb8d04e26bd5a2">Listen</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+          <declname>listenOptions</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="39" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="39" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_unknown_device_binding_source_listener_1ad91e3b2ae310737c9f4a0ac06e6bcb0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.UnknownDeviceBindingSourceListener.TakeSnapshotOnUnknownDevices</definition>
+        <argsstring>()</argsstring>
+        <name>TakeSnapshotOnUnknownDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="25" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unknown_device_binding_source_listener_1a6f39fe7988cb8b2ee63242a9f5afa212" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.UnknownDeviceBindingSourceListener.IsPressed</definition>
+        <argsstring>(UnknownDeviceControl control, InputDevice device)</argsstring>
+        <name>IsPressed</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="77" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unknown_device_binding_source_listener_1a8231bc24eea8fc257c7e2c975df28cd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_in_control_1_1_unknown_device_control" kindref="compound">UnknownDeviceControl</ref></type>
+        <definition>UnknownDeviceControl InControl.UnknownDeviceBindingSourceListener.ListenForControl</definition>
+        <argsstring>(BindingListenOptions listenOptions, InputDevice device)</argsstring>
+        <name>ListenForControl</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+          <declname>listenOptions</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="84" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="84" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BindingSourceListener</label>
+        <link refid="interface_in_control_1_1_binding_source_listener"/>
+      </node>
+      <node id="1">
+        <label>InControl.UnknownDeviceBindingSourceListener</label>
+        <link refid="class_in_control_1_1_unknown_device_binding_source_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BindingSourceListener</label>
+        <link refid="interface_in_control_1_1_binding_source_listener"/>
+      </node>
+      <node id="1">
+        <label>InControl.UnknownDeviceBindingSourceListener</label>
+        <link refid="class_in_control_1_1_unknown_device_binding_source_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/UnknownDeviceBindingSourceListener.cs" bodystart="4" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a00b5e8f3a93078c05844681a70a850e1" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>detectFound</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1aac738447276b287fbae48a3a4bba716b" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>DetectPhase</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a5f1e95c32af1453f380a4266af0fa364" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>detectPhase</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a6f39fe7988cb8b2ee63242a9f5afa212" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a3bbf732083e4d95d2660ce01f9f9a26e" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>Listen</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a8231bc24eea8fc257c7e2c975df28cd9" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>ListenForControl</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1a4442b5ca0bb41819a61341fca1ae5e1e" prot="public" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>Reset</name></member>
+      <member refid="class_in_control_1_1_unknown_device_binding_source_listener_1ad91e3b2ae310737c9f4a0ac06e6bcb0a" prot="private" virt="non-virtual"><scope>InControl::UnknownDeviceBindingSourceListener</scope><name>TakeSnapshotOnUnknownDevices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

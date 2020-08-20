@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::MainMenu::LoadingMenu::LoadingMenuScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script_1af991beaa8d164cf6a2ff7be13533beaf" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.MainMenu.LoadingMenu.LoadingMenuScript.startGameButton</definition>
+        <argsstring></argsstring>
+        <name>startGameButton</name>
+        <briefdescription>
+<para>startGameButton to allow View_OptionMenu to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu/LoadingMenuScript.cs" line="14" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu/LoadingMenuScript.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of all the mandatory references for the <ref refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu" kindref="compound">View_LoadingMenu</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.MainMenu.LoadingMenu.LoadingMenuScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.MainMenu.LoadingMenu.LoadingMenuScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu/LoadingMenuScript.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/_LoadingMenu/LoadingMenuScript.cs" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_loading_menu_script_1af991beaa8d164cf6a2ff7be13533beaf" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::MainMenu::LoadingMenu::LoadingMenuScript</scope><name>startGameButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

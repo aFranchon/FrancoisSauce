@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_580e72406a847434a25b24d13e982fb2" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding</compoundname>
+    <innerfile refid="_binding_listen_options_8cs">BindingListenOptions.cs</innerfile>
+    <innerfile refid="_binding_source_8cs">BindingSource.cs</innerfile>
+    <innerfile refid="_binding_source_listener_8cs">BindingSourceListener.cs</innerfile>
+    <innerfile refid="_binding_source_rejection_type_8cs">BindingSourceRejectionType.cs</innerfile>
+    <innerfile refid="_binding_source_type_8cs">BindingSourceType.cs</innerfile>
+    <innerfile refid="_device_binding_source_8cs">DeviceBindingSource.cs</innerfile>
+    <innerfile refid="_device_binding_source_listener_8cs">DeviceBindingSourceListener.cs</innerfile>
+    <innerfile refid="_key_8cs">Key.cs</innerfile>
+    <innerfile refid="_key_binding_source_8cs">KeyBindingSource.cs</innerfile>
+    <innerfile refid="_key_binding_source_listener_8cs">KeyBindingSourceListener.cs</innerfile>
+    <innerfile refid="_key_combo_8cs">KeyCombo.cs</innerfile>
+    <innerfile refid="_key_info_8cs">KeyInfo.cs</innerfile>
+    <innerfile refid="_mouse_8cs">Mouse.cs</innerfile>
+    <innerfile refid="_mouse_binding_source_8cs">MouseBindingSource.cs</innerfile>
+    <innerfile refid="_mouse_binding_source_listener_8cs">MouseBindingSourceListener.cs</innerfile>
+    <innerfile refid="_player_action_8cs">PlayerAction.cs</innerfile>
+    <innerfile refid="_player_action_set_8cs">PlayerActionSet.cs</innerfile>
+    <innerfile refid="_player_one_axis_action_8cs">PlayerOneAxisAction.cs</innerfile>
+    <innerfile refid="_player_two_axis_action_8cs">PlayerTwoAxisAction.cs</innerfile>
+    <innerfile refid="_unknown_device_binding_source_8cs">UnknownDeviceBindingSource.cs</innerfile>
+    <innerfile refid="_unknown_device_binding_source_listener_8cs">UnknownDeviceBindingSourceListener.cs</innerfile>
+    <innerfile refid="_unknown_device_control_8cs">UnknownDeviceControl.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/"/>
+  </compounddef>
+</doxygen>

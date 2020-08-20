@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="interface_in_control_1_1_binding_source_listener" kind="interface" language="C#" prot="public">
+    <compoundname>InControl::BindingSourceListener</compoundname>
+    <derivedcompoundref refid="class_in_control_1_1_device_binding_source_listener" prot="public" virt="non-virtual">InControl.DeviceBindingSourceListener</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_key_binding_source_listener" prot="public" virt="non-virtual">InControl.KeyBindingSourceListener</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_mouse_binding_source_listener" prot="public" virt="non-virtual">InControl.MouseBindingSourceListener</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_unknown_device_binding_source_listener" prot="public" virt="non-virtual">InControl.UnknownDeviceBindingSourceListener</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_in_control_1_1_binding_source_listener_1a4827864725a5c6cb801268518552e706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.BindingSourceListener.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplementedby refid="class_in_control_1_1_key_binding_source_listener_1a56dc67b7ed2c38a739e476d29cebf919">Reset</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_device_binding_source_listener_1aaf5d2029b7dcabb26379b0d816b09954">Reset</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_mouse_binding_source_listener_1aa9b5251ce0864e8d6084f8ccb741dfd6">Reset</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_unknown_device_binding_source_listener_1a4442b5ca0bb41819a61341fca1ae5e1e">Reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceListener.cs" line="5" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_in_control_1_1_binding_source_listener_1a99c94b78347e77cc36cb8d04e26bd5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+        <definition>BindingSource InControl.BindingSourceListener.Listen</definition>
+        <argsstring>(BindingListenOptions listenOptions, InputDevice device)</argsstring>
+        <name>Listen</name>
+        <reimplementedby refid="class_in_control_1_1_key_binding_source_listener_1adbbddbaa832530c2f4b7e4a5ac5ad638">Listen</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_device_binding_source_listener_1ab44b002b56c4a20d153b661d75766477">Listen</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_mouse_binding_source_listener_1a4429c434e3d6fab1e1cd73dbfb3527cb">Listen</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_unknown_device_binding_source_listener_1a3bbf732083e4d95d2660ce01f9f9a26e">Listen</reimplementedby>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+          <declname>listenOptions</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceListener.cs" line="6" column="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InControl.DeviceBindingSourceListener</label>
+        <link refid="class_in_control_1_1_device_binding_source_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InControl.KeyBindingSourceListener</label>
+        <link refid="class_in_control_1_1_key_binding_source_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.UnknownDeviceBindingSourceListener</label>
+        <link refid="class_in_control_1_1_unknown_device_binding_source_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>InControl.MouseBindingSourceListener</label>
+        <link refid="class_in_control_1_1_mouse_binding_source_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.BindingSourceListener</label>
+        <link refid="interface_in_control_1_1_binding_source_listener"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceListener.cs" line="3" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/BindingSourceListener.cs" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="interface_in_control_1_1_binding_source_listener_1a99c94b78347e77cc36cb8d04e26bd5a2" prot="public" virt="non-virtual"><scope>InControl::BindingSourceListener</scope><name>Listen</name></member>
+      <member refid="interface_in_control_1_1_binding_source_listener_1a4827864725a5c6cb801268518552e706" prot="public" virt="non-virtual"><scope>InControl::BindingSourceListener</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

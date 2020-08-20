@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_055e1a26b7567f75585441fa9c8efca1" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar</compoundname>
+    <innerfile refid="_progress_bar_8cs">ProgressBar.cs</innerfile>
+    <innerfile refid="_progress_bar_filler_8cs">ProgressBarFiller.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/"/>
+  </compounddef>
+</doxygen>

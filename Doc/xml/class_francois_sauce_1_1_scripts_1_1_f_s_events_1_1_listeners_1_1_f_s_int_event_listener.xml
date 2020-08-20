@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; int &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a5553b89aed2973a1026a01c3a93ecf1c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o" kindref="compound">FSIntEventSO</ref></type>
+        <definition>FSIntEventSO FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.fsIntEventSo</definition>
+        <argsstring></argsstring>
+        <name>fsIntEventSo</name>
+        <briefdescription>
+<para>The FSEventSO to subscribe to of type FSIntEventSO </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="17" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a69fe7ad7c147da7e379fe9704b436b59" prot="public" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event" kindref="compound">FSIntEvent</ref></type>
+        <definition>FSIntEvent FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.listeners</definition>
+        <argsstring></argsstring>
+        <name>listeners</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event" kindref="compound">FSIntEvent</ref>()</initializer>
+        <briefdescription>
+<para>Public UnityEvent&lt;T0&gt; to be raised when the given FSIntEventSO is raised </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="22" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a2319a44794573a05719fa1d010039557" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.AddListeners</definition>
+        <argsstring>()</argsstring>
+        <name>AddListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="26" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a8d42c598bb86da09da4422a3eca06f9d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.RemoveListeners</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="31" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a586720d15a69c189e686c49fe0d29a90" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.Invoke</definition>
+        <argsstring>(int value)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="36" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1afccfe875809c4bbc34fd3f75f25afcde" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="45" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a1ca02a84525477966f1649ce3f1413d7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="51" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a54828caf67f1c9d31410ce40c47589fe" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="57" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a4ad881fe68bdb2d955fbcd8e5e7e519d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="62" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>int implementation of IFSOneArgumentEventListener&lt;T&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFSOneArgumentEventListener&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFSOneArgumentEventListener&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+      </node>
+      <node id="4">
+        <label>FSOneArgumentEventSO&lt; int &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_one_argument_event_s_o"/>
+      </node>
+      <node id="5">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSIntEvent</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.FSIntEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>fsIntEventSo</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>listeners</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSIntEventSO</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_int_event_s_o"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UnityEvent&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" line="12" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/FSIntEventListener.cs" bodystart="13" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a2319a44794573a05719fa1d010039557" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>AddListeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1afccfe875809c4bbc34fd3f75f25afcde" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a5553b89aed2973a1026a01c3a93ecf1c" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>fsIntEventSo</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a586720d15a69c189e686c49fe0d29a90" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>Invoke</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener_1adb27415897b8ceb95fc972905eb5ce79" prot="protected" virt="pure-virtual" ambiguityscope="IFSOneArgumentEventListener&lt; int &gt;."><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>Invoke</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a69fe7ad7c147da7e379fe9704b436b59" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>listeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a4ad881fe68bdb2d955fbcd8e5e7e519d" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a54828caf67f1c9d31410ce40c47589fe" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>OnDisable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a1ca02a84525477966f1649ce3f1413d7" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>OnEnable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_int_event_listener_1a8d42c598bb86da09da4422a3eca06f9d" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::FSIntEventListener</scope><name>RemoveListeners</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

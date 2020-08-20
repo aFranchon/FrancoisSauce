@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.FSVoidEventListener</derivedcompoundref>
+    <derivedcompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_two_argument_event_listener" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSEvents.Listeners.IFTwoArgumentEventListener&lt; T0, T1 &gt;</derivedcompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a4910cd4d11a62d2483abe096d4d4a048" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.AddListeners</definition>
+        <argsstring>()</argsstring>
+        <name>AddListeners</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1a59d19e0f85b07d964aaafcb1d727448d">AddListeners</reimplementedby>
+        <briefdescription>
+<para>Function called to subscribe to FSEventSO </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="17" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1ad993f18a6d542b810928a942588c6762" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.RemoveListeners</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveListeners</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1a634aa7324f0b2a91dc476363dcc04830">RemoveListeners</reimplementedby>
+        <briefdescription>
+<para>Function called to unsubscribe to FSEventSO </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="21" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a9f4110c8bc095c237d5fea9d2f18f87f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1ac90a25418f6cfc049edaa856a940e385">Awake</reimplementedby>
+        <briefdescription>
+<para>Unity Monobehaviour.Awake() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="30" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1af58534aa991b21f25d80dcc6f92b500a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1a9d935a42639a9a36272e6d4c57a8b85b">OnEnable</reimplementedby>
+        <briefdescription>
+<para>Unity Monobehaviour.Awake() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="34" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1acfef303b35085ca512c0daec1840874a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1ae68fa94d052c478b4753236c59532369">OnDisable</reimplementedby>
+        <briefdescription>
+<para>Unity Monobehaviour.Awake() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="38" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1aa866d34759a6378469ec931e9ce867cd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener_1a315c2fb16f8222e233cf6b86c7d498b5">OnDestroy</reimplementedby>
+        <briefdescription>
+<para>Unity Monobehaviour.Awake() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="42" column="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface of all the listeners. A listener&apos;s goal is to subscribe to a FSEventSO and to raise an UnityEvent when the FSEventSO is raised </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFTwoArgumentEventListener&lt; T0, T1 &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_two_argument_event_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFSOneArgumentEventListener&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.FSVoidEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_f_s_void_event_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.Listeners.IFSEventListener</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="10" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" bodystart="11" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a4910cd4d11a62d2483abe096d4d4a048" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>AddListeners</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1a9f4110c8bc095c237d5fea9d2f18f87f" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1aa866d34759a6378469ec931e9ce867cd" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1acfef303b35085ca512c0daec1840874a" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>OnDisable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1af58534aa991b21f25d80dcc6f92b500a" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>OnEnable</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener_1ad993f18a6d542b810928a942588c6762" prot="protected" virt="pure-virtual"><scope>FrancoisSauce::Scripts::FSEvents::Listeners::IFSEventListener</scope><name>RemoveListeners</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

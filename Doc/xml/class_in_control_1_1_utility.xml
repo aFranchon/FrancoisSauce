@@ -1,0 +1,1005 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_utility" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Utility</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_utility_1ad9817ff9db1a30600465aa0d27b9ec27" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float InControl.Utility.Epsilon</definition>
+        <argsstring></argsstring>
+        <name>Epsilon</name>
+        <initializer>= 1.0e-7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="17" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_utility_1a393ad54bb7fe646890ab30999cafa244" prot="private" static="yes" mutable="no">
+        <type>readonly Vector2[]</type>
+        <definition>readonly Vector2 [] InControl.Utility.circleVertexList</definition>
+        <argsstring></argsstring>
+        <name>circleVertexList</name>
+        <initializer>=
+		{
+			new Vector2( +0.0000f, +1.0000f ),
+			new Vector2( +0.2588f, +0.9659f ),
+			new Vector2( +0.5000f, +0.8660f ),
+			new Vector2( +0.7071f, +0.7071f ),
+			new Vector2( +0.8660f, +0.5000f ),
+			new Vector2( +0.9659f, +0.2588f ),
+			new Vector2( +1.0000f, +0.0000f ),
+			new Vector2( +0.9659f, -0.2588f ),
+			new Vector2( +0.8660f, -0.5000f ),
+			new Vector2( +0.7071f, -0.7071f ),
+			new Vector2( +0.5000f, -0.8660f ),
+			new Vector2( +0.2588f, -0.9659f ),
+			new Vector2( +0.0000f, -1.0000f ),
+			new Vector2( -0.2588f, -0.9659f ),
+			new Vector2( -0.5000f, -0.8660f ),
+			new Vector2( -0.7071f, -0.7071f ),
+			new Vector2( -0.8660f, -0.5000f ),
+			new Vector2( -0.9659f, -0.2588f ),
+			new Vector2( -1.0000f, -0.0000f ),
+			new Vector2( -0.9659f, +0.2588f ),
+			new Vector2( -0.8660f, +0.5000f ),
+			new Vector2( -0.7071f, +0.7071f ),
+			new Vector2( -0.5000f, +0.8660f ),
+			new Vector2( -0.2588f, +0.9659f ),
+			new Vector2( +0.0000f, +1.0000f )
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="20" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_utility_1a0e15cdf1d5b7d21fb632538170ae4c8e" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.Utility.Is32Bit</definition>
+        <argsstring></argsstring>
+        <name>Is32Bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="470" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="471" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_utility_1a96e3976e6cfc145600e627405bb7bb62" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.Utility.Is64Bit</definition>
+        <argsstring></argsstring>
+        <name>Is64Bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="479" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="480" bodyend="485"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_utility_1afd9d7b4015ef494fafa2ea68e47df2c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawCircleGizmo</definition>
+        <argsstring>(Vector2 center, float radius)</argsstring>
+        <name>DrawCircleGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="50" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="50" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1acd9857355d625e66b1d8a0fcfac04448" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawCircleGizmo</definition>
+        <argsstring>(Vector2 center, float radius, Color color)</argsstring>
+        <name>DrawCircleGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="61" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a50efb76c7821806b3591f815f7419966" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawOvalGizmo</definition>
+        <argsstring>(Vector2 center, Vector2 size)</argsstring>
+        <name>DrawOvalGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="68" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a72414571250ce95b64ddcecc19894b61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawOvalGizmo</definition>
+        <argsstring>(Vector2 center, Vector2 size, Color color)</argsstring>
+        <name>DrawOvalGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="80" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a3203094512c2b2592eb560cf4dcd1e52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawRectGizmo</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>DrawRectGizmo</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="87" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="87" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a2046b9c2b7a375b3008ea97286a01592" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawRectGizmo</definition>
+        <argsstring>(Rect rect, Color color)</argsstring>
+        <name>DrawRectGizmo</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="100" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a701e68a2bd8cdbc33f63a4e5120ecb04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawRectGizmo</definition>
+        <argsstring>(Vector2 center, Vector2 size)</argsstring>
+        <name>DrawRectGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="107" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="107" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a829f3d441b334e2654a79155ee04160e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.DrawRectGizmo</definition>
+        <argsstring>(Vector2 center, Vector2 size, Color color)</argsstring>
+        <name>DrawRectGizmo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="122" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="122" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ac94e07cd83152696fc4ac9882bf09f72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.GameObjectIsCulledOnCurrentCamera</definition>
+        <argsstring>(GameObject gameObject)</argsstring>
+        <name>GameObjectIsCulledOnCurrentCamera</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="129" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a4ed32cc9bf3791752437efffa8ce7630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color InControl.Utility.MoveColorTowards</definition>
+        <argsstring>(Color color0, Color color1, float maxDelta)</argsstring>
+        <name>MoveColorTowards</name>
+        <param>
+          <type>Color</type>
+          <declname>color0</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDelta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="135" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="135" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a447f8b2ea19c7fe7f061c32fc5b02a5f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.ApplyDeadZone</definition>
+        <argsstring>(float value, float lowerDeadZone, float upperDeadZone)</argsstring>
+        <name>ApplyDeadZone</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="145" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="145" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a684f5469abc7317502cfa23b827f6d58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.ApplySmoothing</definition>
+        <argsstring>(float thisValue, float lastValue, float deltaTime, float sensitivity)</argsstring>
+        <name>ApplySmoothing</name>
+        <param>
+          <type>float</type>
+          <declname>thisValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lastValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sensitivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="163" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="163" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a9c68d84b86d79ab8721335c2bc424c9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.ApplySnapping</definition>
+        <argsstring>(float value, float threshold)</argsstring>
+        <name>ApplySnapping</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="197" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="197" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a83218cdb29e2559223dec9b1f7acada5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string InControl.Utility.ReadFromFile</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ReadFromFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="255" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="255" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a00b9489216517c1d5d2228f8b54889a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.WriteToFile</definition>
+        <argsstring>(string path, string data)</argsstring>
+        <name>WriteToFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="268" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="268" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a744d5ecd695e56c6095c79fc80f1bf2a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.Abs</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Abs</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="281" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ae827f45abac0c8d6c479270d13d1a8f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.Approximately</definition>
+        <argsstring>(float v1, float v2)</argsstring>
+        <name>Approximately</name>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="287" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="287" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ae0b28b7a276a3fb1edb8dde9d9f2ed29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.Approximately</definition>
+        <argsstring>(Vector2 v1, Vector2 v2)</argsstring>
+        <name>Approximately</name>
+        <param>
+          <type>Vector2</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="294" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1add6dcef79d509fae5842c2febec1e036" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.IsNotZero</definition>
+        <argsstring>(float value)</argsstring>
+        <name>IsNotZero</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="300" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a1fb409f54fb17ca08fe448bd16781793" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.IsZero</definition>
+        <argsstring>(float value)</argsstring>
+        <name>IsZero</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="306" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="306" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a0ce40ae91d047a6766f03a587fc442f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.Utility.Sign</definition>
+        <argsstring>(float f)</argsstring>
+        <name>Sign</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="312" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a8c03e4e619d221d875a9e5a5b894ce07" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.AbsoluteIsOverThreshold</definition>
+        <argsstring>(float value, float threshold)</argsstring>
+        <name>AbsoluteIsOverThreshold</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="318" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a2f5194a0306a9a5518a5e93f57142615" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.NormalizeAngle</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>NormalizeAngle</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="324" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="324" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1aa9823828e859c84c46d92ebbd685b646" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.VectorToAngle</definition>
+        <argsstring>(Vector2 vector)</argsstring>
+        <name>VectorToAngle</name>
+        <param>
+          <type>Vector2</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="340" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="340" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a1a0da829275db5abaa875ae5219a0b42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.Min</definition>
+        <argsstring>(float v0, float v1)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>float</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="351" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="351" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ae30bfdd1642201b02df2a48b390ac41a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.Max</definition>
+        <argsstring>(float v0, float v1)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>float</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="357" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="357" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a8321575a54fddeb7c9b890534ff44421" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.Min</definition>
+        <argsstring>(float v0, float v1, float v2, float v3)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>float</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="363" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="363" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a38435d342f1665ce0b295d2df38e5fa9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.Max</definition>
+        <argsstring>(float v0, float v1, float v2, float v3)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>float</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="371" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="371" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1afc7d8bafc62e954fea22453be95eea0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.ArrayResize&lt; T &gt;</definition>
+        <argsstring>(ref T[] array, int capacity)</argsstring>
+        <name>ArrayResize&lt; T &gt;</name>
+        <param>
+          <type>ref T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="404" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="404" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ac4edcf983fde2b6bff246b234c3fb7c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.ArrayExpand&lt; T &gt;</definition>
+        <argsstring>(ref T[] array, int capacity)</argsstring>
+        <name>ArrayExpand&lt; T &gt;</name>
+        <param>
+          <type>ref T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="413" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="413" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a1821c271b0c8e2dd9fa23e265744cddb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.ArrayAppend&lt; T &gt;</definition>
+        <argsstring>(ref T[] array, T item)</argsstring>
+        <name>ArrayAppend&lt; T &gt;</name>
+        <param>
+          <type>ref T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="422" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="422" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a69e7ac8df97aee699b42f051233b882c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.ArrayAppend&lt; T &gt;</definition>
+        <argsstring>(ref T[] array, T[] items)</argsstring>
+        <name>ArrayAppend&lt; T &gt;</name>
+        <param>
+          <type>ref T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>T[]</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="437" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="437" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a5a5256d413f3ad7c1972efd7edd0a98a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.Utility.NextPowerOfTwo</definition>
+        <argsstring>(int value)</argsstring>
+        <name>NextPowerOfTwo</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="452" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="452" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a35641455148b087f3b08327d770e8210" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string InControl.Utility.GetPlatformName</definition>
+        <argsstring>(bool uppercase=true)</argsstring>
+        <name>GetPlatformName</name>
+        <param>
+          <type>bool</type>
+          <declname>uppercase</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="488" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="488" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a28cbb04ea9cbc67c4308b5d6f656dd5f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.Utility.GetSystemBuildNumber</definition>
+        <argsstring>()</argsstring>
+        <name>GetSystemBuildNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="591" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="591" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1af10e274f3b69e9eefa11ffc322c791a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.Utility.LoadScene</definition>
+        <argsstring>(string sceneName)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>string</type>
+          <declname>sceneName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="598" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="598" bodyend="605"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ac16a2f4b36f2826c2b3ab69cff8a8a00" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.TargetIsButton</definition>
+        <argsstring>(InputControlType target)</argsstring>
+        <name>TargetIsButton</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="214" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="214" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a351dbdc4b472d99e8de42c74504de41e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.TargetIsStandard</definition>
+        <argsstring>(InputControlType target)</argsstring>
+        <name>TargetIsStandard</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="221" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="221" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ab13cd19d2a6e4af3bf6e14cc59110b2b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.Utility.TargetIsAlias</definition>
+        <argsstring>(InputControlType target)</argsstring>
+        <name>TargetIsAlias</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="228" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1a2272317d3fa8cbe8307d33ab2a56c4b5" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.ValueFromSides</definition>
+        <argsstring>(float negativeSide, float positiveSide)</argsstring>
+        <name>ValueFromSides</name>
+        <param>
+          <type>float</type>
+          <declname>negativeSide</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positiveSide</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="379" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="379" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1af053debf146cce540d7983221d1b88b7" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.Utility.ValueFromSides</definition>
+        <argsstring>(float negativeSide, float positiveSide, bool invertSides)</argsstring>
+        <name>ValueFromSides</name>
+        <param>
+          <type>float</type>
+          <declname>negativeSide</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positiveSide</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertSides</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="393" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="393" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_utility_1ae64ed8ab2e5ed15ac2baf48669a9661d" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string InControl.Utility.PluginFileExtension</definition>
+        <argsstring>()</argsstring>
+        <name>PluginFileExtension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="608" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="608" bodyend="617"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" line="15" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/Utility.cs" bodystart="16" bodyend="618"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_utility_1a744d5ecd695e56c6095c79fc80f1bf2a" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Abs</name></member>
+      <member refid="class_in_control_1_1_utility_1a8c03e4e619d221d875a9e5a5b894ce07" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>AbsoluteIsOverThreshold</name></member>
+      <member refid="class_in_control_1_1_utility_1a447f8b2ea19c7fe7f061c32fc5b02a5f" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ApplyDeadZone</name></member>
+      <member refid="class_in_control_1_1_utility_1a684f5469abc7317502cfa23b827f6d58" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ApplySmoothing</name></member>
+      <member refid="class_in_control_1_1_utility_1a9c68d84b86d79ab8721335c2bc424c9f" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ApplySnapping</name></member>
+      <member refid="class_in_control_1_1_utility_1ae827f45abac0c8d6c479270d13d1a8f1" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Approximately</name></member>
+      <member refid="class_in_control_1_1_utility_1ae0b28b7a276a3fb1edb8dde9d9f2ed29" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Approximately</name></member>
+      <member refid="class_in_control_1_1_utility_1a1821c271b0c8e2dd9fa23e265744cddb" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ArrayAppend&lt; T &gt;</name></member>
+      <member refid="class_in_control_1_1_utility_1a69e7ac8df97aee699b42f051233b882c" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ArrayAppend&lt; T &gt;</name></member>
+      <member refid="class_in_control_1_1_utility_1ac4edcf983fde2b6bff246b234c3fb7c0" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ArrayExpand&lt; T &gt;</name></member>
+      <member refid="class_in_control_1_1_utility_1afc7d8bafc62e954fea22453be95eea0e" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ArrayResize&lt; T &gt;</name></member>
+      <member refid="class_in_control_1_1_utility_1a393ad54bb7fe646890ab30999cafa244" prot="private" virt="non-virtual"><scope>InControl::Utility</scope><name>circleVertexList</name></member>
+      <member refid="class_in_control_1_1_utility_1afd9d7b4015ef494fafa2ea68e47df2c3" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawCircleGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1acd9857355d625e66b1d8a0fcfac04448" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawCircleGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a50efb76c7821806b3591f815f7419966" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawOvalGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a72414571250ce95b64ddcecc19894b61" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawOvalGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a3203094512c2b2592eb560cf4dcd1e52" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawRectGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a2046b9c2b7a375b3008ea97286a01592" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawRectGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a701e68a2bd8cdbc33f63a4e5120ecb04" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawRectGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1a829f3d441b334e2654a79155ee04160e" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>DrawRectGizmo</name></member>
+      <member refid="class_in_control_1_1_utility_1ad9817ff9db1a30600465aa0d27b9ec27" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Epsilon</name></member>
+      <member refid="class_in_control_1_1_utility_1ac94e07cd83152696fc4ac9882bf09f72" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>GameObjectIsCulledOnCurrentCamera</name></member>
+      <member refid="class_in_control_1_1_utility_1a35641455148b087f3b08327d770e8210" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>GetPlatformName</name></member>
+      <member refid="class_in_control_1_1_utility_1a28cbb04ea9cbc67c4308b5d6f656dd5f" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>GetSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_utility_1a0e15cdf1d5b7d21fb632538170ae4c8e" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>Is32Bit</name></member>
+      <member refid="class_in_control_1_1_utility_1a96e3976e6cfc145600e627405bb7bb62" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>Is64Bit</name></member>
+      <member refid="class_in_control_1_1_utility_1add6dcef79d509fae5842c2febec1e036" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>IsNotZero</name></member>
+      <member refid="class_in_control_1_1_utility_1a1fb409f54fb17ca08fe448bd16781793" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>IsZero</name></member>
+      <member refid="class_in_control_1_1_utility_1af10e274f3b69e9eefa11ffc322c791a8" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>LoadScene</name></member>
+      <member refid="class_in_control_1_1_utility_1ae30bfdd1642201b02df2a48b390ac41a" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Max</name></member>
+      <member refid="class_in_control_1_1_utility_1a38435d342f1665ce0b295d2df38e5fa9" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Max</name></member>
+      <member refid="class_in_control_1_1_utility_1a1a0da829275db5abaa875ae5219a0b42" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Min</name></member>
+      <member refid="class_in_control_1_1_utility_1a8321575a54fddeb7c9b890534ff44421" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Min</name></member>
+      <member refid="class_in_control_1_1_utility_1a4ed32cc9bf3791752437efffa8ce7630" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>MoveColorTowards</name></member>
+      <member refid="class_in_control_1_1_utility_1a5a5256d413f3ad7c1972efd7edd0a98a" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>NextPowerOfTwo</name></member>
+      <member refid="class_in_control_1_1_utility_1a2f5194a0306a9a5518a5e93f57142615" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>NormalizeAngle</name></member>
+      <member refid="class_in_control_1_1_utility_1ae64ed8ab2e5ed15ac2baf48669a9661d" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>PluginFileExtension</name></member>
+      <member refid="class_in_control_1_1_utility_1a83218cdb29e2559223dec9b1f7acada5" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>ReadFromFile</name></member>
+      <member refid="class_in_control_1_1_utility_1a0ce40ae91d047a6766f03a587fc442f2" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>Sign</name></member>
+      <member refid="class_in_control_1_1_utility_1ab13cd19d2a6e4af3bf6e14cc59110b2b" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>TargetIsAlias</name></member>
+      <member refid="class_in_control_1_1_utility_1ac16a2f4b36f2826c2b3ab69cff8a8a00" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>TargetIsButton</name></member>
+      <member refid="class_in_control_1_1_utility_1a351dbdc4b472d99e8de42c74504de41e" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>TargetIsStandard</name></member>
+      <member refid="class_in_control_1_1_utility_1a2272317d3fa8cbe8307d33ab2a56c4b5" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>ValueFromSides</name></member>
+      <member refid="class_in_control_1_1_utility_1af053debf146cce540d7983221d1b88b7" prot="package" virt="non-virtual"><scope>InControl::Utility</scope><name>ValueFromSides</name></member>
+      <member refid="class_in_control_1_1_utility_1aa9823828e859c84c46d92ebbd685b646" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>VectorToAngle</name></member>
+      <member refid="class_in_control_1_1_utility_1a00b9489216517c1d5d2228f8b54889a9" prot="public" virt="non-virtual"><scope>InControl::Utility</scope><name>WriteToFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

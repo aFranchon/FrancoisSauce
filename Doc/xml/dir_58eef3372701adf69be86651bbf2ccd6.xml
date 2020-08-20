@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_58eef3372701adf69be86651bbf2ccd6" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility</compoundname>
+    <innerdir refid="dir_a67e320e0f2e6b6fd62d89ed10c4f735">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes</innerdir>
+    <innerfile refid="_code_writer_8cs">CodeWriter.cs</innerfile>
+    <innerfile refid="_i_updateable_8cs">IUpdateable.cs</innerfile>
+    <innerfile refid="_marshal_utility_8cs">MarshalUtility.cs</innerfile>
+    <innerfile refid="_preserve_attribute_8cs">PreserveAttribute.cs</innerfile>
+    <innerfile refid="_reflector_8cs">Reflector.cs</innerfile>
+    <innerfile refid="_ring_buffer_8cs">RingBuffer.cs</innerfile>
+    <innerfile refid="_singleton_mono_behavior_8cs">SingletonMonoBehavior.cs</innerfile>
+    <innerfile refid="_thread_safe_queue_8cs">ThreadSafeQueue.cs</innerfile>
+    <innerfile refid="_utility_8cs">Utility.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/"/>
+  </compounddef>
+</doxygen>

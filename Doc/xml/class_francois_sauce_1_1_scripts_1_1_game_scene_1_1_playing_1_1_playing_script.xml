@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_playing_script" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::Playing::PlayingScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_playing_script_1a49272501e283959486dfb3450a5def8f" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.GameScene.Playing.PlayingScript.pauseButton</definition>
+        <argsstring></argsstring>
+        <name>pauseButton</name>
+        <briefdescription>
+<para>resumeButton to allow <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_view___playing" kindref="compound">View_Playing</ref> to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Playing/PlayingScript.cs" line="16" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Playing/PlayingScript.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of all the mandatory references for the <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_view___playing" kindref="compound">View_Playing</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Playing.PlayingScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_playing_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Playing.PlayingScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_playing_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Playing/PlayingScript.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Playing/PlayingScript.cs" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_playing_script_1a49272501e283959486dfb3450a5def8f" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Playing::PlayingScript</scope><name>pauseButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

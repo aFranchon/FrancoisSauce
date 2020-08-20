@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::Scene_Game</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSScenes.IFSScene&lt; Scene_Game &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1abf30c8643b4735b844ed0e7715cb6e15" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera FrancoisSauce.Scripts.GameScene.Scene_Game.mainCamera</definition>
+        <argsstring></argsstring>
+        <name>mainCamera</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>main Camera reference to activate it when needed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="28" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1afbb9de0b9b79711e155329758dacae1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.GameScene.Scene_Game.onClickedStartButton</definition>
+        <argsstring></argsstring>
+        <name>onClickedStartButton</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>event raised when start button is clicked </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="181" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1abc0b7d2dc75b00f2ff8cc1d01d1a8ed3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.GameScene.Scene_Game.onPause</definition>
+        <argsstring></argsstring>
+        <name>onPause</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>event raised when pause button is clicked </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="185" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1acf15807d8a9c9b5537f7c2ff6697f1ba" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_void_event_s_o" kindref="compound">FSVoidEventSO</ref></type>
+        <definition>FSVoidEventSO FrancoisSauce.Scripts.GameScene.Scene_Game.onResume</definition>
+        <argsstring></argsstring>
+        <name>onResume</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>event raised when resume button is clicked </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="189" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a355b7d8ed507692735487a9fc0722388" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image FrancoisSauce.Scripts.GameScene.Scene_Game.transition</definition>
+        <argsstring></argsstring>
+        <name>transition</name>
+        <briefdescription>
+<para>Image used for transition purpose </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="33" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a40d93cfd39468f4a1d125369fc286ccb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.GameScene.Scene_Game.waitingToStartUI</definition>
+        <argsstring></argsstring>
+        <name>waitingToStartUI</name>
+        <briefdescription>
+<para>UI for the waitingToStart IFSView&lt;T&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="40" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a82d55fbd586f4346ddb42fd9f35e82a4" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.GameScene.Scene_Game.playingUI</definition>
+        <argsstring></argsstring>
+        <name>playingUI</name>
+        <briefdescription>
+<para>UI for the playing IFSView&lt;T&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="44" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a15da6cfe70f054b71cb8e8cbfd8a8ea8" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.GameScene.Scene_Game.pauseUI</definition>
+        <argsstring></argsstring>
+        <name>pauseUI</name>
+        <briefdescription>
+<para>UI for the pause IFSView&lt;T&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="48" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a29a144757656e10cfe510972f487174e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.GameScene.Scene_Game.winUI</definition>
+        <argsstring></argsstring>
+        <name>winUI</name>
+        <briefdescription>
+<para>UI for the win IFSView&lt;T&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="52" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a71b25920e6b366017b419809dcd63339" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.GameScene.Scene_Game.loseUI</definition>
+        <argsstring></argsstring>
+        <name>loseUI</name>
+        <briefdescription>
+<para>UI for the lose IFSView&lt;T&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="56" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ada07be7184f106106bf43192213ba32e" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start" kindref="compound">View_WaitingToStart</ref></type>
+        <definition>readonly View_WaitingToStart FrancoisSauce.Scripts.GameScene.Scene_Game.waitingToStart</definition>
+        <argsstring></argsstring>
+        <name>waitingToStart</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start" kindref="compound">View_WaitingToStart</ref>()</initializer>
+        <briefdescription>
+<para>Finite state machine implementation, <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start" kindref="compound">WaitingToStart</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="61" column="45" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ab1ec7778d0489a414a0918de0c044fd7" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_view___playing" kindref="compound">View_Playing</ref></type>
+        <definition>readonly View_Playing FrancoisSauce.Scripts.GameScene.Scene_Game.playing</definition>
+        <argsstring></argsstring>
+        <name>playing</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_view___playing" kindref="compound">View_Playing</ref>()</initializer>
+        <briefdescription>
+<para>Finite state machine implementation, <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing" kindref="compound">Playing</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="65" column="38" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7612fcac2283ed47165105708378631b" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause" kindref="compound">View_Pause</ref></type>
+        <definition>readonly View_Pause FrancoisSauce.Scripts.GameScene.Scene_Game.pause</definition>
+        <argsstring></argsstring>
+        <name>pause</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause" kindref="compound">View_Pause</ref>()</initializer>
+        <briefdescription>
+<para>Finite state machine implementation, <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause" kindref="compound">Pause</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="69" column="36" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae7a1806886ae11332abce9d2b4db1c0e" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_win_1_1_view___win" kindref="compound">View_Win</ref></type>
+        <definition>readonly View_Win FrancoisSauce.Scripts.GameScene.Scene_Game.win</definition>
+        <argsstring></argsstring>
+        <name>win</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_win_1_1_view___win" kindref="compound">View_Win</ref>()</initializer>
+        <briefdescription>
+<para>Finite state machine implementation, <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_win" kindref="compound">Win</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="73" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a0e2b74d1a5de784972e46c2487bf4bc8" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" kindref="compound">View_Lose</ref></type>
+        <definition>readonly View_Lose FrancoisSauce.Scripts.GameScene.Scene_Game.lose</definition>
+        <argsstring></argsstring>
+        <name>lose</name>
+        <initializer>= new <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" kindref="compound">View_Lose</ref>()</initializer>
+        <briefdescription>
+<para>Finite state machine implementation, <ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose" kindref="compound">Lose</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="77" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a6e87f81994687959be3574e3cf1b70f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Awake method Initializing finite state machine </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="85" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="85" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae89a5fc0f5865d2fcf6955de19858ccc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s OnDestroy method reset Time.timeScale to 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="172" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="172" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a88b10d28798ba913dd3f3865e26ba7ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Scene_Game.OnSceneLoaded</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneLoaded</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a4ff06426701488cfbb8332604627cfff">OnSceneLoaded</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>subscribe to the onSceneLoaded raised by GameManager </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the loaded Scene</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="102" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ad35c6f530aaaa59a32f47d00583f8b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Scene_Game.OnSceneChanged</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneChanged</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a94507aa18af634587a5ad7303565fa6b">OnSceneChanged</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>subscribe to the onSceneChanged raised by GameManager </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the changed Scene</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="106" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a807f302b5d0447d62719a813a8100754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Scene_Game.OnLoadProgression</definition>
+        <argsstring>(int index, float progression)</argsstring>
+        <name>OnLoadProgression</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1aa1db58019b74cffbb7c72a0bcd6ece5c">OnLoadProgression</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>progression</declname>
+        </param>
+        <briefdescription>
+<para>subscribe to the onLoadProgression raised by GameManager </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the current Scene progression</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>progression</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value of the current Scene progression</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="114" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7ca854d0ba32be05cb609a902f9fbe62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Scene_Game.OnSceneUnloaded</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnSceneUnloaded</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a510a1e7a2c5a05be578f963089ad4ea8">OnSceneUnloaded</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>subscribe to the onSceneUnloaded raised by GameManager </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the unloaded Scene</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="118" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="118" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a3c0762c50988c10d8a940a419bb86d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>sealed override void</type>
+        <definition>sealed override void FrancoisSauce.Scripts.GameScene.Scene_Game.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <reimplements refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1aa945778bcc39b5d402ef5cf1262faa5e">OnUpdate</reimplements>
+        <briefdescription>
+<para>subscribe to the onUpdate raised by GameManager </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="131" column="37" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae31a0bf8f99c2c7b2633174dbae8a70a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FrancoisSauce.Scripts.GameScene.Scene_Game.ChangeView</definition>
+        <argsstring>(IFSView&lt; Scene_Game &gt; newView)</argsstring>
+        <name>ChangeView</name>
+        <param>
+          <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" kindref="compound">IFSView</ref>&lt; <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game" kindref="compound">Scene_Game</ref> &gt;</type>
+          <declname>newView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="136" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a14f16471d73524c8b535e232c2b648d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnWin</definition>
+        <argsstring>()</argsstring>
+        <name>OnWin</name>
+        <briefdescription>
+<para>Called from views to change scene when needed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="146" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a1d3b5df3551a6b7ba395083d5e5dd6d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnLose</definition>
+        <argsstring>()</argsstring>
+        <name>OnLose</name>
+        <briefdescription>
+<para>Called from views to change scene when needed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="154" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7332540358adef42ea31187aba6563d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.LoadScene</definition>
+        <argsstring>(int index)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Called from views to change scene when needed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the Scene to load.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="163" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a659f1e1969f05594b58f5e7b93458a70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnClickedStartButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnClickedStartButton</name>
+        <briefdescription>
+<para>called from views to call event just above </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="194" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a984777bdf705d070684d23058397fb02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>called from views to call event just above </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="202" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1af52692c7d953847ce8b5a114d92bce8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.GameScene.Scene_Game.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+<para>called from views to call event just above </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="210" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="210" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_francois_sauce_1_1_scripts_1_1_game_scene" kindref="compound">GameScene</ref> implementation of IFSScene&lt;T&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFSScene&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Scene_Game</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFSScene&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Scene_Game</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>playing</edgelabel>
+          <edgelabel>win</edgelabel>
+          <edgelabel>lose</edgelabel>
+          <edgelabel>waitingToStart</edgelabel>
+          <edgelabel>pause</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="22" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="23" bodyend="214"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a6e87f81994687959be3574e3cf1b70f0" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae31a0bf8f99c2c7b2633174dbae8a70a" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>ChangeView</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a3bc107afa888c637054423fcc7174a23" prot="public" virt="pure-virtual" ambiguityscope="IFSScene&lt; Scene_Game &gt;."><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>ChangeView</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_1a9c1f990adf97f16778d24e000a792d06" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>currentView</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7332540358adef42ea31187aba6563d6" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>LoadScene</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a0e2b74d1a5de784972e46c2487bf4bc8" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>lose</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a71b25920e6b366017b419809dcd63339" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>loseUI</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1abf30c8643b4735b844ed0e7715cb6e15" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>mainCamera</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a659f1e1969f05594b58f5e7b93458a70" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnClickedStartButton</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1afbb9de0b9b79711e155329758dacae1a" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>onClickedStartButton</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae89a5fc0f5865d2fcf6955de19858ccc" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnDestroy</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a807f302b5d0447d62719a813a8100754" prot="public" virt="virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnLoadProgression</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a1d3b5df3551a6b7ba395083d5e5dd6d0" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnLose</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a984777bdf705d070684d23058397fb02" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnPause</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1abc0b7d2dc75b00f2ff8cc1d01d1a8ed3" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>onPause</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1acf15807d8a9c9b5537f7c2ff6697f1ba" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>onResume</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1af52692c7d953847ce8b5a114d92bce8a" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnResume</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ad35c6f530aaaa59a32f47d00583f8b2b" prot="public" virt="virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnSceneChanged</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a88b10d28798ba913dd3f3865e26ba7ae" prot="public" virt="virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnSceneLoaded</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7ca854d0ba32be05cb609a902f9fbe62" prot="public" virt="virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnSceneUnloaded</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a3c0762c50988c10d8a940a419bb86d4c" prot="public" virt="virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a14f16471d73524c8b535e232c2b648d5" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>OnWin</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a7612fcac2283ed47165105708378631b" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>pause</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a15da6cfe70f054b71cb8e8cbfd8a8ea8" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>pauseUI</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ab1ec7778d0489a414a0918de0c044fd7" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>playing</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a82d55fbd586f4346ddb42fd9f35e82a4" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>playingUI</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a355b7d8ed507692735487a9fc0722388" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>transition</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ada07be7184f106106bf43192213ba32e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>waitingToStart</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a40d93cfd39468f4a1d125369fc286ccb" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>waitingToStartUI</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1ae7a1806886ae11332abce9d2b4db1c0e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>win</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game_1a29a144757656e10cfe510972f487174e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Scene_Game</scope><name>winUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

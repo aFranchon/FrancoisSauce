@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::Scripts::FSUI::ProgressBar</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar" prot="public">FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler" prot="public">FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBarFiller</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

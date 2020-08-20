@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUtils::Singleton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1af7c7128328af7043aa73b8f3d5bfb971" prot="private" static="yes" mutable="no">
+        <type>T</type>
+        <definition>T FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+<para>The current instance of the singleton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="14" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+<para>getter to the instance of the singleton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="19" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1aa10403574a8eba4d6c57d3c3fd690ff1" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;.IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>IsInitialized</name>
+        <briefdescription>
+<para>Call this method to know if the singleton is Initialized or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="27" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41e7b240b5701ecae492ddf4df99b212" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list_1a1b61d06cdfac5a30f9e227df54f62779">Awake</reimplementedby>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_1ac7dc8ae0819f15e70fda6f94ea14d416">Awake</reimplementedby>
+        <reimplementedby refid="class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager_1aa0c00cd0a7c6325079b1377dfb0405e1">Awake</reimplementedby>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Awake method. <ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" kindref="compound">Singleton</ref> logic. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="35" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41fa01ee5bf413c65ea9af2b509ed05e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s OnDestroy </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="51" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" kindref="compound">Singleton</ref> design pattern very simple implementation </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Template to fit every possible type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.Singleton&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/Singleton.cs" bodystart="10" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41e7b240b5701ecae492ddf4df99b212" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSUtils::Singleton</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1af7c7128328af7043aa73b8f3d5bfb971" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::Singleton</scope><name>instance</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a9a4d369055575da6b0972fb4bc7ec887" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::Singleton</scope><name>Instance</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1aa10403574a8eba4d6c57d3c3fd690ff1" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::Singleton</scope><name>IsInitialized</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1a41fa01ee5bf413c65ea9af2b509ed05e" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSUtils::Singleton</scope><name>OnDestroy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

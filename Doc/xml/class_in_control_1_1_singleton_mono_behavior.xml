@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_singleton_mono_behavior" kind="class" language="C#" prot="public">
+    <compoundname>InControl::SingletonMonoBehavior</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TComponent</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_singleton_mono_behavior_1abab6f1d895bd2d399818d59511c78074" prot="private" static="yes" mutable="no">
+        <type>TComponent</type>
+        <definition>TComponent InControl.SingletonMonoBehavior&lt; TComponent &gt;.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="15" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_singleton_mono_behavior_1a3cbcf4080e80154193595aef53e2db84" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.SingletonMonoBehavior&lt; TComponent &gt;.hasInstance</definition>
+        <argsstring></argsstring>
+        <name>hasInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="16" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_singleton_mono_behavior_1a4ffcbf67f5c7e26b2c536b26a87545b2" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int InControl.SingletonMonoBehavior&lt; TComponent &gt;.instanceId</definition>
+        <argsstring></argsstring>
+        <name>instanceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="17" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_singleton_mono_behavior_1a43deb780ab98b21d3dfa7db8a2843e98" prot="private" static="yes" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object InControl.SingletonMonoBehavior&lt; TComponent &gt;.lockObject</definition>
+        <argsstring></argsstring>
+        <name>lockObject</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="18" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_singleton_mono_behavior_1a2089ba68fc4b959f482c6f5cfb2e6606" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TComponent</type>
+        <definition>TComponent InControl.SingletonMonoBehavior&lt; TComponent &gt;.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="21" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="22" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_singleton_mono_behavior_1a22174995c2f5542f14c81f0c5d73ae7e" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.SingletonMonoBehavior&lt; TComponent &gt;.EnforceSingleton</definition>
+        <argsstring></argsstring>
+        <name>EnforceSingleton</name>
+        <briefdescription>
+<para>Returns true if the object is NOT the singleton instance and should exit early from doing any redundant work. It will also log a warning if called from another instance in the editor during play mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="50" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="51" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_singleton_mono_behavior_1ae98bc06372134df5aa3da4a0fbfc43aa" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.SingletonMonoBehavior&lt; TComponent &gt;.IsTheSingleton</definition>
+        <argsstring></argsstring>
+        <name>IsTheSingleton</name>
+        <briefdescription>
+<para>Returns true if the object is the singleton instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="72" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="73" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_singleton_mono_behavior_1a6c557432bdef227f75b1dbd48b774501" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.SingletonMonoBehavior&lt; TComponent &gt;.IsNotTheSingleton</definition>
+        <argsstring></argsstring>
+        <name>IsNotTheSingleton</name>
+        <briefdescription>
+<para>Returns true if the object is not the singleton instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="90" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="91" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_singleton_mono_behavior_1a00620c15caf9d9b02c034c270a438765" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComponent[]</type>
+        <definition>static TComponent [] InControl.SingletonMonoBehavior&lt; TComponent &gt;.FindInstances</definition>
+        <argsstring>()</argsstring>
+        <name>FindInstances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="105" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_singleton_mono_behavior_1ae9c411f837ea47987ed3a3fbd124bfdf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComponent</type>
+        <definition>static TComponent InControl.SingletonMonoBehavior&lt; TComponent &gt;.FindFirstInstance</definition>
+        <argsstring>()</argsstring>
+        <name>FindFirstInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="113" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_in_control_1_1_singleton_mono_behavior_1aff3d984838cc2b331528021ede6ed6a5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InControl.SingletonMonoBehavior&lt; TComponent &gt;.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="121" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="121" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_singleton_mono_behavior_1a3be15dcd4c00e1e68a5eae757c264a1e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InControl.SingletonMonoBehavior&lt; TComponent &gt;.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="144" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="144" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>InControl.SingletonMonoBehavior&lt; TComponent &gt;</label>
+        <link refid="class_in_control_1_1_singleton_mono_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>InControl.SingletonMonoBehavior&lt; TComponent &gt;</label>
+        <link refid="class_in_control_1_1_singleton_mono_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" line="12" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/SingletonMonoBehavior.cs" bodystart="14" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1aff3d984838cc2b331528021ede6ed6a5" prot="protected" virt="virtual"><scope>InControl::SingletonMonoBehavior</scope><name>Awake</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a22174995c2f5542f14c81f0c5d73ae7e" prot="protected" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>EnforceSingleton</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1ae9c411f837ea47987ed3a3fbd124bfdf" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>FindFirstInstance</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a00620c15caf9d9b02c034c270a438765" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>FindInstances</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a3cbcf4080e80154193595aef53e2db84" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>hasInstance</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1abab6f1d895bd2d399818d59511c78074" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>instance</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a2089ba68fc4b959f482c6f5cfb2e6606" prot="public" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>Instance</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a4ffcbf67f5c7e26b2c536b26a87545b2" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>instanceId</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a6c557432bdef227f75b1dbd48b774501" prot="protected" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>IsNotTheSingleton</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1ae98bc06372134df5aa3da4a0fbfc43aa" prot="protected" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>IsTheSingleton</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a43deb780ab98b21d3dfa7db8a2843e98" prot="private" virt="non-virtual"><scope>InControl::SingletonMonoBehavior</scope><name>lockObject</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a3be15dcd4c00e1e68a5eae757c264a1e" prot="protected" virt="virtual"><scope>InControl::SingletonMonoBehavior</scope><name>OnDestroy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

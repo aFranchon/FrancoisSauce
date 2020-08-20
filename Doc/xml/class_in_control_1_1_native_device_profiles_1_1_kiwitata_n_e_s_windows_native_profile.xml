@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile" kind="class" language="C#" prot="public">
+    <compoundname>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</compoundname>
+    <basecompoundref refid="class_in_control_1_1_input_device_profile" prot="public" virt="non-virtual">InControl.InputDeviceProfile</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile_1a94047cc4776770bf27e937b99607d8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile.Define</definition>
+        <argsstring>()</argsstring>
+        <name>Define</name>
+        <reimplements refid="class_in_control_1_1_input_device_profile_1a867e55788f04eaf9f100dbdc6e8bd84e">Define</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kiwitata: <ulink url="https://www.amazon.com/gp/product/B01JYGYAX8">https://www.amazon.com/gp/product/B01JYGYAX8</ulink> Mjadore: <ulink url="https://www.amazon.com/gp/product/B071KQN1BP">https://www.amazon.com/gp/product/B071KQN1BP</ulink> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows/KiwitataNESWindowsNativeProfile.cs" line="12" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows/KiwitataNESWindowsNativeProfile.cs" bodystart="12" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InputDeviceProfile</label>
+        <link refid="class_in_control_1_1_input_device_profile"/>
+      </node>
+      <node id="1">
+        <label>InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile</label>
+        <link refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>InputDeviceProfile</label>
+        <link refid="class_in_control_1_1_input_device_profile"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>MenuKey</edgelabel>
+          <edgelabel>EscapeKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile</label>
+        <link refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows/KiwitataNESWindowsNativeProfile.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows/KiwitataNESWindowsNativeProfile.cs" bodystart="9" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_device_profile_1af8ac52ad2c812a6e5a78937648c94799" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Analog</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ab177a6325bf73396a9f7ef8243c4100f" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>AnalogCount</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ac7ebe9af345a8e28809312dd1f07cc49" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>AnalogMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1afae422ca31b73ea38e9c3562c92a1c0a" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Button</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a987b7547b70cb1fe0a4e1c63ef9b6c41" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>ButtonCount</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aae3597995570addfbfb7f4e004678c83" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>ButtonMappings</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a1c3b1c0eeb3c70033a177ecb0258d44b" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>CreateInstanceOfType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1af65cc53e7fd709dd16930ddb9d795f4c" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>CreateInstanceOfType</name></member>
+      <member refid="class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile_1a94047cc4776770bf27e937b99607d8be" prot="public" virt="virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Define</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a95481d6fc44e494c6fc7e2813d864f32" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a25545f0772a3f2f074dc19b40bd279c3" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DeviceName</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1abc188ddbafbde8f294aa6b0e952ea8b6" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DeviceNotes</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a996c6637e7b3c0b733b79a03d3d605a1" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1acfc357f14eaae184f495859b40db0093" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa4dfc95ca14f23800bb402e74fe5a386" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a568409c65613a22207e10f8f950f0128" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a31d398d2dc796f85ff00bbec36565486" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4849cdc6b4d6832a2311b711cb9eddbb" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a57f0529100a195319d19d07580c645e0" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>DPadUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a7e13d96258c8b1288c21ed05c8b2b229" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>EscapeKey</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a5ebc7a2f988b3eff11f1f7211d7073f7" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>ExcludePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a74a1a29a27f1370b500abe550d2349a0" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Hide</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a9d6205301407b48002d5e2b107697231" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>IncludePlatforms</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3028c74f63433a3744ad3a01476fb544" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>IsHidden</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa59b71b62ce0a51c103e97c9159a285e" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>IsNotHidden</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3afbc43d0833d3b79ab50309f4b78449" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>IsSupportedOnThisPlatform</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a7a6343ce97a0c191e575921df1bfe2c2" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LastResortMatchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a49930b3a10e70aef75df85a1265b8204" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LastResortMatches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1afcaab01b5924c661b57604593baca5fc" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ab65187bdb5468b029510679965eba794" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aeb3b4c3494b98b9502ef8fa2d376054a" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a71923c41ff83bde6ff167f1b9e9c19c0" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a766cad4cb095a0b03272214945347565" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aecf75ccd2b2cf304ff6b961fb4a5f583" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftStickUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4cd8ae54bc98a85e9e93c7c9a3da51c3" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LeftTriggerMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ae05a8f2e472d414c9d05e850caa53fe0" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ad9b74761bbbb035465d6517ae9c0299a" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Matchers</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a9d506e23c72334dec16a4456b3012bd6" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Matches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a5bf4874b4c9f25125eeb4d3c146a711f" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Matches</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a622f4dc64147f01c9171ba730186938e" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>MaxSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4fb4b72076ba70613f40dfc303c9fc32" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>MaxUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a4505d312e7f52e20039f05ffc5b869db" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>MenuKey</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a57ea5ec5b5937425a0f786621429cfb0" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>MinSystemBuildNumber</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a42acf58fbe381b4f9fce1868a4109a1b" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>MinUnityVersion</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1aa391db36ddfc58686faf670a98c2f6e7" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>ProfileType</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a63975e28fada4604aa3195ce06bea054" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickDownMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a3a2f46c0a26c6653b4765fb58cf40b69" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickDownMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a205ccf4cd547af0a60542d875e0cac7d" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickLeftMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a77489aa50fcb32a47f5015c607d48bc8" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickRightMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a945604663254824fed6ac247bae2ee2e" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickUpMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1ac6c896d58dae71f66a798c4ef9534eb2" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightStickUpMapping2</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a31847b8de3dc634a6b91f6a8bee7f691" prot="protected" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>RightTriggerMapping</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a730ee66ab320fe8833f669c629b4badf" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_input_device_profile_1a1bff750befede18389f44aefce702952" prot="public" virt="non-virtual"><scope>InControl::NativeDeviceProfiles::KiwitataNESWindowsNativeProfile</scope><name>UpperDeadZone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

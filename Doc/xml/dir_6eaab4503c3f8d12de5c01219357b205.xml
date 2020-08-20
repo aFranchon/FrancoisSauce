@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_6eaab4503c3f8d12de5c01219357b205" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/___FSScenes</compoundname>
+    <innerfile refid="_i_f_s_scene_8cs">IFSScene.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSScenes/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_input_device_style_8cs" kind="file" language="C#">
+    <compoundname>InputDeviceStyle.cs</compoundname>
+    <innernamespace refid="namespace_in_control">InControl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Not<sp/>all<sp/>of<sp/>these<sp/>are<sp/>necessarily<sp/>used<sp/>or<sp/>supported.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Some<sp/>are<sp/>simply<sp/>included<sp/>for<sp/>future<sp/>use.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">Unknown</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a9676fb543e32a92e7f7074c014dff24d" kindref="member">Xbox360</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a50aa9948f17b86aa044f4c5efe274445" kindref="member">XboxOne</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a2d8121056f5136191b951c5cf75ffc79" kindref="member">PlayStation2</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a18ba8af3fef849cca4d7d8d952289e4a" kindref="member">PlayStation3</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a95830dd4b3c29e91f6ba2bb62d3b4f37" kindref="member">PlayStation4</ref>,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab1092a8aaa69e9e84847d25294eeaf57" kindref="member">PlayStationVita</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a7051340dca783d19cd57b45b3e658637" kindref="member">PlayStationMove</ref>,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab454563f95c69c20f4e840477a7d0d6c" kindref="member">Ouya</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a4db4563826bad0eb2f60ee6e42d0ea4b" kindref="member">Steam</ref>,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ad61408c8059ae69b398a3f2b30e38837" kindref="member">AppleMFi</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ab5979854f969e6ea9f5514539365135e" kindref="member">AmazonFireTV</ref>,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ac4e771614b86be0c39a1abb7ba6e5b67" kindref="member">NVIDIAShield</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a6a46e57e280e3618ef962f9bfb182c61" kindref="member">NintendoNES</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5abec3184d8b8b54e5a286d5ce206fc8e8" kindref="member">NintendoSNES</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ac0b1680593cd43fb2aa91d7675696c50" kindref="member">Nintendo64</ref>,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ada16d1a723daeef055b8a7b52220049d" kindref="member">NintendoGameCube</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5af9d0edcc3c8a38c2951ae7135eca7d94" kindref="member">NintendoWii</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a0e49596cf30134da3e393765f36803dd" kindref="member">NintendoWiiU</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a013ed2500604451a094b5aaf9ad2827c" kindref="member">NintendoSwitch</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a921505a58ebb360d75dc9fba92e1b10a" kindref="member">GoogleStadia</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5ad9ea24fb6c8712c20f239f2468b28f2e" kindref="member">Vive</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5aa8a06837aec81e16c9a07221848aef6f" kindref="member">Oculus</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceStyle.cs"/>
+  </compounddef>
+</doxygen>

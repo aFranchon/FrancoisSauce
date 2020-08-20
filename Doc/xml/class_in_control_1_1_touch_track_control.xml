@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_track_control" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TouchTrackControl</compoundname>
+    <basecompoundref refid="class_in_control_1_1_touch_control" prot="public" virt="non-virtual">InControl.TouchControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a8e4169e6220812650c199d6806a468f1" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchTrackControl.areaUnitType</definition>
+        <argsstring></argsstring>
+        <name>areaUnitType</name>
+        <initializer>= <ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" kindref="member">TouchUnitType.Percent</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="11" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1ac393cf7f8be09c8809c2c40edc439a78" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchTrackControl.activeArea</definition>
+        <argsstring></argsstring>
+        <name>activeArea</name>
+        <initializer>= new Rect( 25.0f, 25.0f, 50.0f, 50.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a966394ca594ddd1b52ae51e9d10e4136" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchTrackControl.worldActiveArea</definition>
+        <argsstring></argsstring>
+        <name>worldActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="29" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a40941c829a44f9c40b4c116ffdfb48cd" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchTrackControl.lastPosition</definition>
+        <argsstring></argsstring>
+        <name>lastPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="30" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1ab38fb70c63b6a6333db552250794aed8" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchTrackControl.thisPosition</definition>
+        <argsstring></argsstring>
+        <name>thisPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="31" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1ad58c1c90b7e22fec1aad32a65c969512" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+        <definition>Touch InControl.TouchTrackControl.currentTouch</definition>
+        <argsstring></argsstring>
+        <name>currentTouch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="32" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1ac6cf5d9229b65df468537c26ebb4244c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchTrackControl.dirty</definition>
+        <argsstring></argsstring>
+        <name>dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="33" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a8fa3e44b9120b6884b12543cffa008dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchTrackControl.fireButtonTarget</definition>
+        <argsstring></argsstring>
+        <name>fireButtonTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="35" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a201080e6ca3352d063e1ed5b4f3df039" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchTrackControl.beganTime</definition>
+        <argsstring></argsstring>
+        <name>beganTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="36" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a24ede5b26aab9475cd825b3112ad82ec" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchTrackControl.beganPosition</definition>
+        <argsstring></argsstring>
+        <name>beganPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="37" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1ae575340c28891f92964d18d9053454cc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+        <definition>AnalogTarget InControl.TouchTrackControl.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a78dfae506443f078a68242fa3989e7d2" kindref="member">AnalogTarget.LeftStick</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="19" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a5414f5fa96e1a3a93d3faebb06ab7dd6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchTrackControl.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="20" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1abd553051b66178b05a1cd81b7dc65917" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchTrackControl.tapTarget</definition>
+        <argsstring></argsstring>
+        <name>tapTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="24" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1a79d377136f6a1524bfd3bb63dfa10fc1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchTrackControl.maxTapDuration</definition>
+        <argsstring></argsstring>
+        <name>maxTapDuration</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="25" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_track_control_1afb93dc3eacf57337a9030e835eaedc60" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchTrackControl.maxTapMovement</definition>
+        <argsstring></argsstring>
+        <name>maxTapMovement</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="26" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_touch_track_control_1aa16398cb7692f3ebdd737ed75944d85c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchTrackControl.ActiveArea</definition>
+        <argsstring></argsstring>
+        <name>ActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="160" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="161" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_track_control_1a8acab54b1884bcef3580f4f79e9d1770" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchTrackControl.AreaUnitType</definition>
+        <argsstring></argsstring>
+        <name>AreaUnitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="178" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="179" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a2a1c2ce8f8ee593c67d11c3e5a28d7da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.CreateControl</definition>
+        <argsstring>()</argsstring>
+        <name>CreateControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab81fefe6eca3e972ce1c188c76a54215">CreateControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="40" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a7eb934e74b44047d816bc03a3e297831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.DestroyControl</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1af26e3207ecb016a2f783adf1dfc8efc0">DestroyControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="46" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a1f37d37cf1a5d10717a3ec56b08faa82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.ConfigureControl</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a884930763fd25d4b01252cad074d4324">ConfigureControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="56" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a692981a708df59392e89ac934fbca5a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aaaf4e78f6fb9a16199273dcdfe425eee">DrawGizmos</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="62" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1aafbc80bd58f843975b6aa70c5694d0c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.SubmitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a8e600dd3c15e3d3df1843df8ad755b83">SubmitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="87" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="87" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1afa149c7577cf257c587517554c6b5a62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.CommitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab6dda6aaa855e7066c3b556fb77752e6">CommitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="98" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="98" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a3b093f6f315732653a39201843f072d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.TouchBegan</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchBegan</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aab486b8ad4c8975e17e36b7749f453fa">TouchBegan</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="105" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="105" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1ab00143379cff8566cdb64a9c98141af9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.TouchMoved</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchMoved</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a4241997b6929b835bef41e4938aeb84b">TouchMoved</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="123" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="123" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a85b436ac8cebdf280181e392d2f80fba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchTrackControl.TouchEnded</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchEnded</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ac9e2cde2c166f417fd6201a0d8104b7d">TouchEnded</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="134" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="134" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1ae92a03a7b9364788101f71fa82856ee7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchTrackControl.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="68" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_track_control_1a7f5c8ed1169ee4593803b9f1ab57d3b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchTrackControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="77" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>InControl.TouchTrackControl</label>
+        <link refid="class_in_control_1_1_touch_track_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>InControl.TouchTrackControl</label>
+        <link refid="class_in_control_1_1_touch_track_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchTrackControl.cs" bodystart="7" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_track_control_1ac393cf7f8be09c8809c2c40edc439a78" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>activeArea</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1aa16398cb7692f3ebdd737ed75944d85c" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>ActiveArea</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>AnalogTarget</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a8e4169e6220812650c199d6806a468f1" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>areaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a8acab54b1884bcef3580f4f79e9d1770" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>AreaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a24ede5b26aab9475cd825b3112ad82ec" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>beganPosition</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a201080e6ca3352d063e1ed5b4f3df039" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>beganTime</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>ButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a639c5df115ecb39e05a3e6cc482ff625" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>CommitAnalog</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a1fd54fbb31e26afcd9b2fa3964f00624" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>CommitButton</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1afa149c7577cf257c587517554c6b5a62" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>CommitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a1f37d37cf1a5d10717a3ec56b08faa82" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>ConfigureControl</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a2a1c2ce8f8ee593c67d11c3e5a28d7da" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>CreateControl</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ad58c1c90b7e22fec1aad32a65c969512" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>currentTouch</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a7eb934e74b44047d816bc03a3e297831" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>DestroyControl</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ac6cf5d9229b65df468537c26ebb4244c" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>dirty</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a692981a708df59392e89ac934fbca5a4" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>DrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a8fa3e44b9120b6884b12543cffa008dd" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>fireButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a40941c829a44f9c40b4c116ffdfb48cd" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>lastPosition</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a79d377136f6a1524bfd3bb63dfa10fc1" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>maxTapDuration</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1afb93dc3eacf57337a9030e835eaedc60" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>maxTapMovement</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a4b33f1c6fa26e4431f73e0ea34e97229" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>OffsetToWorldPosition</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ae92a03a7b9364788101f71fa82856ee7" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>OnValidate</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a5414f5fa96e1a3a93d3faebb06ab7dd6" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>scale</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SnapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a32643e06ae9cb3107fc736f9508079f2" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1acff7518787a65fe18efb6a9a2077b5f2" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab68ea04ecff413b22305763c2f179efa" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SubmitAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a6e71ca874b032e6664afd8fb315c6a77" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SubmitButtonState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a532ee38b509eb40af2e035e1f6331c28" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SubmitButtonValue</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1aafbc80bd58f843975b6aa70c5694d0c8" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>SubmitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a64006ac4d0eeb6d156591365f1f7eed2" prot="protected" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>SubmitRawAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1abd553051b66178b05a1cd81b7dc65917" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>tapTarget</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ae575340c28891f92964d18d9053454cc" prot="public" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>target</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ab38fb70c63b6a6333db552250794aed8" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>thisPosition</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a3b093f6f315732653a39201843f072d9" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>TouchBegan</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a85b436ac8cebdf280181e392d2f80fba" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>TouchEnded</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1ab00143379cff8566cdb64a9c98141af9" prot="public" virt="virtual"><scope>InControl::TouchTrackControl</scope><name>TouchMoved</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a7f5c8ed1169ee4593803b9f1ab57d3b9" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_touch_track_control_1a966394ca594ddd1b52ae51e9d10e4136" prot="private" virt="non-virtual"><scope>InControl::TouchTrackControl</scope><name>worldActiveArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="readme_8txt" kind="file" language="C++">
+    <compoundname>readme.txt</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="readme_8txt_1a79b686a1b5aefdc13812fabf5e8855a2" prot="public" static="no" const="no" explicit="no" inline="no" new="yes" virt="non-virtual">
+        <type>DOTween and DOTween Pro are</type>
+        <definition>DOTween and DOTween Pro are copyright</definition>
+        <argsstring>(c) 2014-2018 Daniele Giardini - Demigiant ------------------------------------------------------------- If you &apos;re upgrading your project from a version of DOTween older than 1.2.000(or DOTween Pro older than 1.0.000) please follow these instructions carefully. 1) Import the new version in the same folder as the previous one</argsstring>
+        <name>copyright</name>
+        <param>
+          <type>c</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/readme.txt" line="1" column="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">DOTween<sp/>and<sp/>DOTween<sp/>Pro<sp/>are<sp/><ref refid="readme_8txt_1a79b686a1b5aefdc13812fabf5e8855a2" kindref="member">copyright</ref><sp/>(c)<sp/>2014-2018<sp/>Daniele<sp/>Giardini<sp/>-<sp/>Demigiant</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPORTANT!!!<sp/>/////////////////////////////////////////////</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Upgrading<sp/>DOTween<sp/>from<sp/>versions<sp/>older<sp/>than<sp/>1.2.000<sp/>///////</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(or<sp/>DOTween<sp/>Pro<sp/>older<sp/>than<sp/>1.0.000)<sp/>//////////////////////</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">-------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">If<sp/>you</highlight><highlight class="stringliteral">&apos;re<sp/>upgrading<sp/>your<sp/>project<sp/>from<sp/>a<sp/>version<sp/>of<sp/>DOTween<sp/>older<sp/>than<sp/>1.2.000<sp/>(or<sp/>DOTween<sp/>Pro<sp/>older<sp/>than<sp/>1.0.000)<sp/>please<sp/>follow<sp/>these<sp/>instructions<sp/>carefully.</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">1)<sp/>Import<sp/>the<sp/>new<sp/>version<sp/>in<sp/>the<sp/>same<sp/>folder<sp/>as<sp/>the<sp/>previous<sp/>one,<sp/>overwriting<sp/>old<sp/>files.<sp/>A<sp/>lot<sp/>of<sp/>errors<sp/>will<sp/>appear<sp/>but<sp/>don&apos;</highlight><highlight class="normal">t<sp/>worry</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">2)<sp/>Close<sp/>and<sp/>reopen<sp/>Unity<sp/>(and<sp/>your<sp/>project).<sp/>This<sp/>is<sp/>fundamental:<sp/>skipping<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>step<sp/>will<sp/>cause<sp/>a<sp/>bloodbath</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">3)<sp/>Open<sp/>DOTween</highlight><highlight class="stringliteral">&apos;s<sp/>Utility<sp/>Panel<sp/>(Tools<sp/>&gt;<sp/>Demigiant<sp/>&gt;<sp/>DOTween<sp/>Utility<sp/>Panel)<sp/>if<sp/>it<sp/>doesn&apos;</highlight><highlight class="normal">t<sp/>open<sp/>automatically,<sp/>then<sp/>press<sp/></highlight><highlight class="stringliteral">&quot;Setup<sp/>DOTween...&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>will<sp/>run<sp/>the<sp/>upgrade<sp/>setup</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">4)<sp/>From<sp/>the<sp/>Add/Remove<sp/>Modules<sp/>panel<sp/>that<sp/>opens,<sp/>activate/deactivate<sp/>Modules<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84a82dd98f1d663acc318e6a8ec4ab69b7a" kindref="member">Unity</ref><sp/>systems<sp/>and<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>external<sp/>assets<sp/>(Pro<sp/>version<sp/>only)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GET<sp/>STARTED<sp/>//////////////////////////////////////////////</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>After<sp/>importing<sp/>a<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DOTween<sp/>update,<sp/>select<sp/>DOTween</highlight><highlight class="stringliteral">&apos;s<sp/>Utility<sp/>Panel<sp/>from<sp/>the<sp/>&quot;Tools/Demigiant&quot;<sp/>menu<sp/>(if<sp/>it<sp/>doesn&apos;</highlight><highlight class="normal">t<sp/>open<sp/>automatically)<sp/>and<sp/>press<sp/>the<sp/></highlight><highlight class="stringliteral">&quot;Setup<sp/>DOTween...&quot;</highlight><highlight class="normal"><sp/>button<sp/>to<sp/>activate/deactivate<sp/>Modules.<sp/>You<sp/>can<sp/>also<sp/>access<sp/>a<sp/>Preferences<sp/>Tab<sp/>from<sp/>there<sp/>to<sp/>choose<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal"><sp/>settings<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>DOTween.</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>In<sp/>your<sp/>code,<sp/>add<sp/></highlight><highlight class="stringliteral">&quot;using<sp/>DG.Tweening&quot;</highlight><highlight class="normal"><sp/>to<sp/>each<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>where<sp/>you<sp/>want<sp/>to<sp/>use<sp/>DOTween.</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>You</highlight><highlight class="stringliteral">&apos;re<sp/>ready<sp/>to<sp/>tween.<sp/>Check<sp/>out<sp/>the<sp/>links<sp/>below<sp/>for<sp/>full<sp/>documentation<sp/>and<sp/>license<sp/>info.</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">//<sp/>LINKS<sp/>///////////////////////////////////////////////////////</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">DOTween<sp/>website<sp/>(documentation,<sp/>examples,<sp/>etc):<sp/>http://dotween.demigiant.com</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">DOTween<sp/>license:<sp/>http://dotween.demigiant.com/license.php</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral">DOTween<sp/>repository<sp/>(Google<sp/>Code):<sp/>https://code.google.com/p/dotween/</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral">Demigiant<sp/>website<sp/>(documentation,<sp/>examples,<sp/>etc):<sp/>http://www.demigiant.com</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral">//<sp/>NOTES<sp/>//////////////////////////////////////////////////////</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral">-<sp/>DOTween&apos;</highlight><highlight class="normal">s<sp/>Utility<sp/>Panel<sp/>can<sp/>be<sp/>found<sp/>under<sp/></highlight><highlight class="stringliteral">&quot;Tools<sp/>&gt;<sp/>Demigiant<sp/>&gt;<sp/>DOTween<sp/>Utility<sp/>Panel&quot;</highlight><highlight class="normal"><sp/>and<sp/>also<sp/>contains<sp/>other<sp/>useful<sp/>options,<sp/>plus<sp/>a<sp/>tab<sp/>to<sp/>set<sp/>DOTween</highlight><highlight class="stringliteral">&apos;s<sp/>preferences</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/DOTween/readme.txt"/>
+  </compounddef>
+</doxygen>

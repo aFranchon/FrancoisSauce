@@ -1,0 +1,1249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_player_action" kind="class" language="C#" prot="public">
+    <compoundname>InControl::PlayerAction</compoundname>
+    <basecompoundref refid="class_in_control_1_1_one_axis_input_control" prot="public" virt="non-virtual">InControl.OneAxisInputControl</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a4596efffef7b22974c2406e7f3959468" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string InControl.PlayerAction.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>The unique identifier for this action within the context of its owning action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="27" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a6e20fde89f27c0bd6fea82a21044a3cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_player_action_set" kindref="compound">PlayerActionSet</ref></type>
+        <definition>PlayerActionSet InControl.PlayerAction.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <briefdescription>
+<para>Gets the owning action set containing this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="32" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a9708d5dfedd7512834abedcd6cab1acb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object InControl.PlayerAction.UserData</definition>
+        <argsstring></argsstring>
+        <name>UserData</name>
+        <briefdescription>
+<para>This property can be used to store whatever arbitrary game data you want on this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="74" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1aebe720a077d93a43f1e24b55d5d04727" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.IsListeningForBinding</definition>
+        <argsstring></argsstring>
+        <name>IsListeningForBinding</name>
+        <briefdescription>
+<para>Gets a value indicating whether this action is listening for new user defined bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="580" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="581" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1aee5a6758e9385ba9afd21f42d27803ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>ReadOnlyCollection&lt;BindingSource&gt; InControl.PlayerAction.Bindings</definition>
+        <argsstring></argsstring>
+        <name>Bindings</name>
+        <briefdescription>
+<para>Gets the valid (in context of the current device) bindings for this action as a readonly collection. What this means is, if your current active controller is an Xbox One controller and you have <ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aadae8ace18bdcbcc6ae5aece263e14fe8" kindref="member">InputControlType.Options</ref> bound, it will not be included. This is generally the bindings you should display unless you are doing something custom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="591" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="592" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a84a08118acf3e36c0acd7da2cda6060b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>ReadOnlyCollection&lt;BindingSource&gt; InControl.PlayerAction.UnfilteredBindings</definition>
+        <argsstring></argsstring>
+        <name>UnfilteredBindings</name>
+        <briefdescription>
+<para>Gets ALL bindings for this action (including ones that don&apos;t make sense for the current device) as a readonly collection. Use of this collection is not recommended unless you really need unfettered access to all the bindings on an action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="601" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="602" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a1c36fd1f4306ee5807ca36b18f03974f" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerAction.Device</definition>
+        <argsstring></argsstring>
+        <name>Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="831" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="832" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1ac811de300a5e18a7e11dbbcbebd64661" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>??</type>
+        <definition>InputDevice?? InControl.PlayerAction.ActiveDevice</definition>
+        <argsstring></argsstring>
+        <name>ActiveDevice</name>
+        <briefdescription>
+<para>Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to this action. When LastInputType is not a device (controller), this will return the null device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="862" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="863" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a0f78a7b59dbe98ddcc0e2639108ad2a0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.LastInputTypeIsDevice</definition>
+        <argsstring></argsstring>
+        <name>LastInputTypeIsDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="868" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="869" bodyend="875"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1a758e0509bae4cf29de1ab07e51cef150" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerAction.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="879" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="880" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_1ab36e7341dd7f70017c21ef580a838e53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerAction.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="893" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="894" bodyend="903"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a2ed649267f4f141292294bee57340e7c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+        <definition>BindingListenOptions InControl.PlayerAction.ListenOptions</definition>
+        <argsstring></argsstring>
+        <name>ListenOptions</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Configures how this action listens for new bindings. When <computeroutput>null</computeroutput> (default) the owner&apos;s <ref refid="class_in_control_1_1_player_action_set_1a4e67b7ac47fe5bc25cb3f510fbb39901" kindref="member">PlayerActionSet.ListenOptions</ref> will be used. <simplesect kind="see"><para><ref refid="class_in_control_1_1_player_action_1a77cdcf2daa0e6a276d2b5fb6a4f2b2e9" kindref="member">ListenForBinding()</ref></para>
+</simplesect>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="39" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1aec1389bf83327ca9e37f0cd94a5f30b6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>BindingSourceType InControl.PlayerAction.LastInputType</definition>
+        <argsstring></argsstring>
+        <name>LastInputType</name>
+        <initializer>= <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">BindingSourceType.None</ref></initializer>
+        <briefdescription>
+<para>The binding source type that last provided input to this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="44" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a47c592a0d56e9961f2729dca5d36760d" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.PlayerAction.LastInputTypeChangedTick</definition>
+        <argsstring></argsstring>
+        <name>LastInputTypeChangedTick</name>
+        <briefdescription>
+<para>Updated when <ref refid="class_in_control_1_1_player_action_1aec1389bf83327ca9e37f0cd94a5f30b6" kindref="member">LastInputType</ref> changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="54" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1aa3f9fc3f8398cc98159ac5bb6eab2e76" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>InputDeviceClass InControl.PlayerAction.LastDeviceClass</definition>
+        <argsstring></argsstring>
+        <name>LastDeviceClass</name>
+        <initializer>= <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceClass.Unknown</ref></initializer>
+        <briefdescription>
+<para>The <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref> of the binding source that last provided input to this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="59" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a1dfb8960b115bee9b7f511279281a328" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>InputDeviceStyle InControl.PlayerAction.LastDeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>LastDeviceStyle</name>
+        <initializer>= <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceStyle.Unknown</ref></initializer>
+        <briefdescription>
+<para>The <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref> of the binding source that last provided input to this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="64" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_in_control_1_1_player_action_1a135ef2d110eebadd8fa3855144844e00" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref> &gt;</type>
+        <definition>Action&lt;BindingSourceType&gt; InControl.PlayerAction.OnLastInputTypeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLastInputTypeChanged</name>
+        <briefdescription>
+<para>This event is triggered when the binding source type that last provided input to this action changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="49" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_in_control_1_1_player_action_1a21a4c42a7fcb785119e2b59d65907da6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action InControl.PlayerAction.OnBindingsChanged</definition>
+        <argsstring></argsstring>
+        <name>OnBindingsChanged</name>
+        <briefdescription>
+<para>This event is triggered if bindings on an action are added or removed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="69" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a746b2e9cfdcd29a95d2cc0a32dc7afda" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>readonly List&lt;BindingSource&gt; InControl.PlayerAction.defaultBindings</definition>
+        <argsstring></argsstring>
+        <name>defaultBindings</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="76" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a255aba0180767a65c32c91b09ab19205" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>readonly List&lt;BindingSource&gt; InControl.PlayerAction.regularBindings</definition>
+        <argsstring></argsstring>
+        <name>regularBindings</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="77" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a4b49ab57c7e7162c9e42853442c7bc8e" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>readonly List&lt;BindingSource&gt; InControl.PlayerAction.visibleBindings</definition>
+        <argsstring></argsstring>
+        <name>visibleBindings</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="78" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a67f1cdbecdf95601428bb0aa5b866948" prot="private" static="no" mutable="no">
+        <type>readonly ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>readonly ReadOnlyCollection&lt;BindingSource&gt; InControl.PlayerAction.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="80" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1aa67ed057f86237876563a693279a8135" prot="private" static="no" mutable="no">
+        <type>readonly ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> &gt;</type>
+        <definition>readonly ReadOnlyCollection&lt;BindingSource&gt; InControl.PlayerAction.unfilteredBindings</definition>
+        <argsstring></argsstring>
+        <name>unfilteredBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="81" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a9104b45f5c0ce94738c3b394b0378bdc" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_in_control_1_1_binding_source_listener" kindref="compound">BindingSourceListener</ref>[]</type>
+        <definition>readonly BindingSourceListener [] InControl.PlayerAction.bindingSourceListeners</definition>
+        <argsstring></argsstring>
+        <name>bindingSourceListeners</name>
+        <initializer>=
+		{
+			new <ref refid="class_in_control_1_1_device_binding_source_listener" kindref="compound">DeviceBindingSourceListener</ref>(),
+			new <ref refid="class_in_control_1_1_unknown_device_binding_source_listener" kindref="compound">UnknownDeviceBindingSourceListener</ref>(),
+			new <ref refid="class_in_control_1_1_key_binding_source_listener" kindref="compound">KeyBindingSourceListener</ref>(),
+			new <ref refid="class_in_control_1_1_mouse_binding_source_listener" kindref="compound">MouseBindingSourceListener</ref>()
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="83" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a25a211544ab2663558e5121e26f8f844" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.triggerBindingEnded</definition>
+        <argsstring></argsstring>
+        <name>triggerBindingEnded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="91" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1ad1be6bfa7fd6c18766c85878e7e61e4c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.triggerBindingChanged</definition>
+        <argsstring></argsstring>
+        <name>triggerBindingChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="92" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1a6e9a81ad96622a80e048eefc6ec74b9a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerAction.device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="829" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_1aa9bf5de5944f9881fc5420dd35846242" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerAction.activeDevice</definition>
+        <argsstring></argsstring>
+        <name>activeDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="855" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="855" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a6b2dd65b9f91bd39c0b89d8bffba51c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.PlayerAction.PlayerAction</definition>
+        <argsstring>(string name, PlayerActionSet owner)</argsstring>
+        <name>PlayerAction</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action_set" kindref="compound">PlayerActionSet</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+<para>Construct an action belonging to a given action set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique identifier for this action within the context of its owning action set.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action set to contain (own) this action.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="100" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a9bcb3dd2ec46f428d04f741fe5369a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.AddDefaultBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>AddDefaultBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Adds a default binding for the action. This will also add it to the regular bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to add.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="115" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="115" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a26d82b1a76814337977579bedcd5a3c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.AddDefaultBinding</definition>
+        <argsstring>(params Key[] keys)</argsstring>
+        <name>AddDefaultBinding</name>
+        <param>
+          <type>params <ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424" kindref="member">Key</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+<para>A convenience method for adding a <ref refid="class_in_control_1_1_key_binding_source" kindref="compound">KeyBindingSource</ref> to the default bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of one or more keys making up a <ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref> for the binding source.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="152" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aee9be6ad55814d59f11bb04c9450ca15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.AddDefaultBinding</definition>
+        <argsstring>(KeyCombo keyCombo)</argsstring>
+        <name>AddDefaultBinding</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref></type>
+          <declname>keyCombo</declname>
+        </param>
+        <briefdescription>
+<para>A convenience method for adding a <ref refid="class_in_control_1_1_key_binding_source" kindref="compound">KeyBindingSource</ref> to the default bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyCombo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="struct_in_control_1_1_key_combo" kindref="compound">KeyCombo</ref> for the binding source.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="162" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a7d96b121b24ff50d8a0af7a87ce001bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.AddDefaultBinding</definition>
+        <argsstring>(Mouse control)</argsstring>
+        <name>AddDefaultBinding</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a75840029eafac4d65146eaa4bc50fc94" kindref="member">Mouse</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>A convenience method for adding a <ref refid="class_in_control_1_1_mouse_binding_source" kindref="compound">MouseBindingSource</ref> to the default bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Mouse control to add.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="172" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a9b3f3e9bed389bb8af978fc5e2a6a0b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.AddDefaultBinding</definition>
+        <argsstring>(InputControlType control)</argsstring>
+        <name>AddDefaultBinding</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>A convenience method for adding a <ref refid="class_in_control_1_1_device_binding_source" kindref="compound">DeviceBindingSource</ref> to the default bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The InputControlType to add.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="182" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1afce6fd8d05d6ad7833fd92d5f58e50d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.AddBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>AddBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Add a regular binding to the action. A binding cannot be added if it matches an existing binding on the action, or if it is already bound to another action. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if binding was added, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to add.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="194" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="194" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aadde5bf3f6614d2fb440c05eced010e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.InsertBindingAt</definition>
+        <argsstring>(int index, BindingSource binding)</argsstring>
+        <name>InsertBindingAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Insert a regular binding to the action at the specified index. A binding cannot be inserted if it matches an existing binding on the action, or if it is already bound to another action. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if binding was inserted, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index at which to insert.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to insert.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="234" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="234" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a1bb914446c5498834dfcab894c8e7ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.ReplaceBinding</definition>
+        <argsstring>(BindingSource findBinding, BindingSource withBinding)</argsstring>
+        <name>ReplaceBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>findBinding</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>withBinding</declname>
+        </param>
+        <briefdescription>
+<para>Add a regular binding to the action replacing an existing binding. A binding cannot be added if is already bound to another action. If the binding to replace is not present on this action, the binding will not be added. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if binding was added, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>findBinding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to replace.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>withBinding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> to replace it with.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="285" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="285" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aa2651a4e1aa3efdbe4930fcce7320553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.PlayerAction.HasBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>HasBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on this action to see if any that match the provided binding object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if a matching binding is found on this action, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="328" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="328" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1acfaa9ca2433357ab09443964cd9528a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+        <definition>BindingSource InControl.PlayerAction.FindBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>FindBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on this action to see if any that match the provided binding object and, if found, returns it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="350" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="350" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a2919bc1a4aa88b1a276acb1191b7133e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.RemoveBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>RemoveBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on this action to see if any that match the provided binding object and, if found, removes it. NOTE: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="406" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="406" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1ac85325c24fb772e16b1e811520468eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.RemoveBindingAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveBindingAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Removes the binding at the specified index from the action. Note: the action is only marked for removal, and is not immediately removed. This is to allow for safe removal during iteration over the Bindings collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> in the Bindings collection to remove.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="427" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="427" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1abe9862bf305ab5f23bd53d868cb54ab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.ClearBindings</definition>
+        <argsstring>()</argsstring>
+        <name>ClearBindings</name>
+        <briefdescription>
+<para>Clears the bindings for this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="491" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="491" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a0aece81ebdc4b78edd99f65e48204975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.ResetBindings</definition>
+        <argsstring>()</argsstring>
+        <name>ResetBindings</name>
+        <briefdescription>
+<para>Resets the bindings to the default bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="509" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="509" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a77cdcf2daa0e6a276d2b5fb6a4f2b2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.ListenForBinding</definition>
+        <argsstring>()</argsstring>
+        <name>ListenForBinding</name>
+        <briefdescription>
+<para>Begin listening for a new user defined binding. Which types of <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> are detected depends on the value of ListenOptions and DefaultListenOptions. Once one is found, it will be added to the regular bindings for the action and listening will stop. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="537" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="537" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1ac88200ed2e7e2a4c21a7d17dbb69eed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.ListenForBindingReplacing</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>ListenForBindingReplacing</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Begin listening for a new user defined binding, replacing an existing specified binding. If the binding to replace is not present on this action, the new binding will fail to be added. Which types of <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> are detected depends on the value of ListenOptions and DefaultListenOptions. Once one is found, it will be added to the regular bindings for the action and listening will stop. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="549" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="549" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a3ec62ce6877c274f9d2ae0f989d95f25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.StopListeningForBinding</definition>
+        <argsstring>()</argsstring>
+        <name>StopListeningForBinding</name>
+        <briefdescription>
+<para>Stop listening for new user defined bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="567" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="567" bodyend="574"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a77da77f3c637f14726f15dcd58580dd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.HardRemoveBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>HardRemoveBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on this action to see if any that match the provided binding object and, if found, removes it. Unlike RemoveBinding, this immediately removes it from the Bindings collection and updates the visible set. WARNING: This is unsafe to call unless absolutely sure it won&apos;t be called while anything is iterating over the Bindings collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="376" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="376" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a13417656e713621292b93136425876a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.PlayerAction.CountBindingsOfType</definition>
+        <argsstring>(BindingSourceType bindingSourceType)</argsstring>
+        <name>CountBindingsOfType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+          <declname>bindingSourceType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="439" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="439" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a12a2552b9a9fbcd947abca451c115500" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.RemoveFirstBindingOfType</definition>
+        <argsstring>(BindingSourceType bindingSourceType)</argsstring>
+        <name>RemoveFirstBindingOfType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+          <declname>bindingSourceType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="456" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="456" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aa36e09e443f4077713c573a2a07a2226" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.PlayerAction.IndexOfFirstInvalidBinding</definition>
+        <argsstring>()</argsstring>
+        <name>IndexOfFirstInvalidBinding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="473" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="473" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1ad0a99f39fcdc4978a8f48fe3042cab00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.RemoveOrphanedBindings</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveOrphanedBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="607" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="607" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aef0937e89cb2df3782c608f504491ccf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.UpdateBindings</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>UpdateBindings</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="646" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="646" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1a6698080edafadc61da99fed328410693" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.DetectBindings</definition>
+        <argsstring>()</argsstring>
+        <name>DetectBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="718" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="718" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aaeac73a4ba8d8a8fbd76b2502cf9ecb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.UpdateVisibleBindings</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateVisibleBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="814" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="814" bodyend="826"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1adb1e7a2aeeea9dd2f373d0eb8038144c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime, InputDevice device)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="620" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="620" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1aa68416ad41da069e394d0fc928c01329" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.Load</definition>
+        <argsstring>(BinaryReader reader, UInt16 dataFormatVersion)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dataFormatVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="906" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="906" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_1ad7801040d3189feec1f0f95dc342a465" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerAction.Save</definition>
+        <argsstring>(BinaryWriter writer)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="947" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="947" bodyend="962"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a single action that may have multiple controls bound to it. A bound control is represented by a subclass of <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref>. For example, <ref refid="class_in_control_1_1_device_binding_source" kindref="compound">DeviceBindingSource</ref> provides input from a control on any supported <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>. Similarly, <ref refid="class_in_control_1_1_key_binding_source" kindref="compound">KeyBindingSource</ref> provides input from one or more keypresses. An action may have any number of bindings. Actions have two groups of bindings defined: default bindings and regular bindings. Default bindings are the predefined default bindings, and the current bindings for the action can be reset to this group in a single operation. Regular bindings are those added by users, most likely at runtime in a settings menu or the like. There are no other distinctions between these groupings; they are purely for organizational convenience. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="4">
+        <label>InControl.BindingListenOptions</label>
+        <link refid="class_in_control_1_1_binding_listen_options"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReplaceBinding</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ListenOptions</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" line="22" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerAction.cs" bodystart="23" bodyend="963"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_player_action_1aa9bf5de5944f9881fc5420dd35846242" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>activeDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_1ac811de300a5e18a7e11dbbcbebd64661" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ActiveDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_1afce6fd8d05d6ad7833fd92d5f58e50d1" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1a9bcb3dd2ec46f428d04f741fe5369a7d" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddDefaultBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1a26d82b1a76814337977579bedcd5a3c2" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddDefaultBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1aee9be6ad55814d59f11bb04c9450ca15" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddDefaultBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1a7d96b121b24ff50d8a0af7a87ce001bb" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddDefaultBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1a9b3f3e9bed389bb8af978fc5e2a6a0b2" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>AddDefaultBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1aee5a6758e9385ba9afd21f42d27803ac" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Bindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a67f1cdbecdf95601428bb0aa5b866948" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>bindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a9104b45f5c0ce94738c3b394b0378bdc" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>bindingSourceListeners</name></member>
+      <member refid="class_in_control_1_1_player_action_1abe9862bf305ab5f23bd53d868cb54ab4" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ClearBindings</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac3c9a4c88b831ec8972690a1ffa3d660" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Commit</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a26ee60b21f6d1fbb6fdb47f640c63789" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>CommitWithSides</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4bfbe3c1dedb74a74c4a78fa7d629166" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>CommitWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adcd69783f6d8b9e1723cb956970542a0" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>CommitWithValue</name></member>
+      <member refid="class_in_control_1_1_player_action_1a13417656e713621292b93136425876a7" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>CountBindingsOfType</name></member>
+      <member refid="class_in_control_1_1_player_action_1a746b2e9cfdcd29a95d2cc0a32dc7afda" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>defaultBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a6698080edafadc61da99fed328410693" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>DetectBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a6e9a81ad96622a80e048eefc6ec74b9a" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>device</name></member>
+      <member refid="class_in_control_1_1_player_action_1a1c36fd1f4306ee5807ca36b18f03974f" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Device</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0628993c2a24211a2a5bec327d753542" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a9069a818f8e575b87b2e8f22dc9213a7" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>EnabledInHierarchy</name></member>
+      <member refid="class_in_control_1_1_player_action_1acfaa9ca2433357ab09443964cd9528a8" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>FindBinding</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abb13de70844295498478b8ac735a90cb" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>FirstRepeatDelay</name></member>
+      <member refid="class_in_control_1_1_player_action_1a77da77f3c637f14726f15dcd58580dd5" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>HardRemoveBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1aa2651a4e1aa3efdbe4930fcce7320553" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>HasBinding</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a1872c88f76350a12d22c13959ee9df7e" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>HasChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a8d11262b1d0fe035558a34bcd25946d6" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>HasInput</name></member>
+      <member refid="class_in_control_1_1_player_action_1aa36e09e443f4077713c573a2a07a2226" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>IndexOfFirstInvalidBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1aadde5bf3f6614d2fb440c05eced010e3" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>InsertBindingAt</name></member>
+      <member refid="class_in_control_1_1_player_action_1aebe720a077d93a43f1e24b55d5d04727" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>IsListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1acff62d4d79fb6e8ca2d9b96640078211" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>IsNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" prot="protected" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>isNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a162fd9ae5ec093c0cfb29f70d44ed615" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_player_action_1aa3f9fc3f8398cc98159ac5bb6eab2e76" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastDeviceClass</name></member>
+      <member refid="class_in_control_1_1_player_action_1a1dfb8960b115bee9b7f511279281a328" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastDeviceStyle</name></member>
+      <member refid="class_in_control_1_1_player_action_1aec1389bf83327ca9e37f0cd94a5f30b6" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_player_action_1a47c592a0d56e9961f2729dca5d36760d" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastInputTypeChangedTick</name></member>
+      <member refid="class_in_control_1_1_player_action_1a0f78a7b59dbe98ddcc0e2639108ad2a0" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastInputTypeIsDevice</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac76ec3ab0d179bac573764257e841f60" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adaa5cf32a0d28ff7771bc9c25ea43bba" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LastValue</name></member>
+      <member refid="class_in_control_1_1_player_action_1a77cdcf2daa0e6a276d2b5fb6a4f2b2e9" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ListenForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1ac88200ed2e7e2a4c21a7d17dbb69eed5" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ListenForBindingReplacing</name></member>
+      <member refid="class_in_control_1_1_player_action_1a2ed649267f4f141292294bee57340e7c" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ListenOptions</name></member>
+      <member refid="class_in_control_1_1_player_action_1aa68416ad41da069e394d0fc928c01329" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_player_action_1a758e0509bae4cf29de1ab07e51cef150" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_action_1a4596efffef7b22974c2406e7f3959468" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1afac4e5ff00ccc02e23d5f81aeb21a59a" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>NextRawValue</name></member>
+      <member refid="class_in_control_1_1_player_action_1a21a4c42a7fcb785119e2b59d65907da6" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>OnBindingsChanged</name></member>
+      <member refid="class_in_control_1_1_player_action_1a135ef2d110eebadd8fa3855144844e00" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a464a57f579e1930fb7b3a585bcd9e438" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>operator bool</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a54fd995f60eb3974df434b3f792e64c0" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>operator float</name></member>
+      <member refid="class_in_control_1_1_player_action_1a6e20fde89f27c0bd6fea82a21044a3cf" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Owner</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a403faa9619b3ce43198cab39bd318bd9" prot="protected" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ownerEnabled</name></member>
+      <member refid="class_in_control_1_1_player_action_1a6b2dd65b9f91bd39c0b89d8bffba51c7" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>PlayerAction</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a90ee3e79b32ff2c7f8144b708c612b7d" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4db7186057aa15f6afdd61e90afec944" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RawValue</name></member>
+      <member refid="class_in_control_1_1_player_action_1a255aba0180767a65c32c91b09ab19205" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>regularBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a2919bc1a4aa88b1a276acb1191b7133e" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RemoveBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1ac85325c24fb772e16b1e811520468eb0" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RemoveBindingAt</name></member>
+      <member refid="class_in_control_1_1_player_action_1a12a2552b9a9fbcd947abca451c115500" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RemoveFirstBindingOfType</name></member>
+      <member refid="class_in_control_1_1_player_action_1ad0a99f39fcdc4978a8f48fe3042cab00" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RemoveOrphanedBindings</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac5aba91554a05625586c898fe9d04488" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>RepeatDelay</name></member>
+      <member refid="class_in_control_1_1_player_action_1a1bb914446c5498834dfcab894c8e7ce8" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ReplaceBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1a0aece81ebdc4b78edd99f65e48204975" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>ResetBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1ad7801040d3189feec1f0f95dc342a465" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Save</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0e83259dc76f5560b5ae31fdb5f9ebfc" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1aa60a87a7cece5b81ff0c0fe166d13732" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>SetValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ad1c6801c74c00ae62ed86e48449a0494" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7ad0a82a7f0abad2b76a1903c430c3e3" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>StateThreshold</name></member>
+      <member refid="class_in_control_1_1_player_action_1a3ec62ce6877c274f9d2ae0f989d95f25" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>StopListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_1ad1be6bfa7fd6c18766c85878e7e61e4c" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>triggerBindingChanged</name></member>
+      <member refid="class_in_control_1_1_player_action_1a25a211544ab2663558e5121e26f8f844" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>triggerBindingEnded</name></member>
+      <member refid="class_in_control_1_1_player_action_1aa67ed057f86237876563a693279a8135" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>unfilteredBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1a84a08118acf3e36c0acd7da2cda6060b" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UnfilteredBindings</name></member>
+      <member refid="class_in_control_1_1_player_action_1adb1e7a2aeeea9dd2f373d0eb8038144c" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_player_action_1aef0937e89cb2df3782c608f504491ccf" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateBindings</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a5bf34a6fdc64beb8d7918c1215fc8926" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_player_action_1aaeac73a4ba8d8a8fbd76b2502cf9ecb7" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateVisibleBindings</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3a4ea5d222f1301291a6ce5deea5545e" prot="package" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateWithRawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1af4034c3da774bd41962a70e1bc6d4695" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a2cfecd6013398352c65a50536b325ff4" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpdateWithValue</name></member>
+      <member refid="class_in_control_1_1_player_action_1ab36e7341dd7f70017c21ef580a838e53" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_action_1a9708d5dfedd7512834abedcd6cab1acb" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>UserData</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a71ba66125a978328e21fd15be98a6391" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>Value</name></member>
+      <member refid="class_in_control_1_1_player_action_1a4b49ab57c7e7162c9e42853442c7bc8e" prot="private" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>visibleBindings</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3f66d80e060c9e3fe4ae28fe3c102d57" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>WasPressed</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a29892ee1b0a2279bad8544d51acd7f6c" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>WasReleased</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7e32762b80868bece430920333b35967" prot="public" virt="non-virtual"><scope>InControl::PlayerAction</scope><name>WasRepeated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

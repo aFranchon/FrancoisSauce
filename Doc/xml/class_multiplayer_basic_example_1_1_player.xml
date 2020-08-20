@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_multiplayer_basic_example_1_1_player" kind="class" language="C#" prot="public">
+    <compoundname>MultiplayerBasicExample::Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_multiplayer_basic_example_1_1_player_1ae292e4ba89f39f192341dee1441f57b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice MultiplayerBasicExample.Player.Device</definition>
+        <argsstring></argsstring>
+        <name>Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="14" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_multiplayer_basic_example_1_1_player_1a6d5da3de0f5a7bc6c414bd18558d5428" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer MultiplayerBasicExample.Player.cachedRenderer</definition>
+        <argsstring></argsstring>
+        <name>cachedRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="16" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_multiplayer_basic_example_1_1_player_1a4614ada738f540621defc11b77aab213" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerBasicExample.Player.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="19" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_basic_example_1_1_player_1a16fe77b43f62811529a981fd07d35107" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerBasicExample.Player.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="25" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="25" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_basic_example_1_1_player_1ab79ba69d4f0fb78c905c05f9dc6f1b2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color MultiplayerBasicExample.Player.GetColorFromInput</definition>
+        <argsstring>()</argsstring>
+        <name>GetColorFromInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="44" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="44" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MultiplayerBasicExample.Player</label>
+        <link refid="class_multiplayer_basic_example_1_1_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MultiplayerBasicExample.Player</label>
+        <link refid="class_multiplayer_basic_example_1_1_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" line="12" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic/Player.cs" bodystart="13" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_multiplayer_basic_example_1_1_player_1a6d5da3de0f5a7bc6c414bd18558d5428" prot="private" virt="non-virtual"><scope>MultiplayerBasicExample::Player</scope><name>cachedRenderer</name></member>
+      <member refid="class_multiplayer_basic_example_1_1_player_1ae292e4ba89f39f192341dee1441f57b9" prot="public" virt="non-virtual"><scope>MultiplayerBasicExample::Player</scope><name>Device</name></member>
+      <member refid="class_multiplayer_basic_example_1_1_player_1ab79ba69d4f0fb78c905c05f9dc6f1b2a" prot="private" virt="non-virtual"><scope>MultiplayerBasicExample::Player</scope><name>GetColorFromInput</name></member>
+      <member refid="class_multiplayer_basic_example_1_1_player_1a4614ada738f540621defc11b77aab213" prot="private" virt="non-virtual"><scope>MultiplayerBasicExample::Player</scope><name>Start</name></member>
+      <member refid="class_multiplayer_basic_example_1_1_player_1a16fe77b43f62811529a981fd07d35107" prot="private" virt="non-virtual"><scope>MultiplayerBasicExample::Player</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_input_control_source_property_drawer" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InputControlSourcePropertyDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_control_source_property_drawer_1a91f36e1110b1d7b45a3fd6cdb97663a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void InControl.InputControlSourcePropertyDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/InputControlSourcePropertyDrawer.cs" line="9" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/InputControlSourcePropertyDrawer.cs" bodystart="9" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.InputControlSourcePropertyDrawer</label>
+        <link refid="class_in_control_1_1_input_control_source_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.InputControlSourcePropertyDrawer</label>
+        <link refid="class_in_control_1_1_input_control_source_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/InputControlSourcePropertyDrawer.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/InputControlSourcePropertyDrawer.cs" bodystart="8" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_control_source_property_drawer_1a91f36e1110b1d7b45a3fd6cdb97663a1" prot="public" virt="non-virtual"><scope>InControl::InputControlSourcePropertyDrawer</scope><name>OnGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

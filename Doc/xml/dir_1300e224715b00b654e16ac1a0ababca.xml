@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_1300e224715b00b654e16ac1a0ababca" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/___FSEvents/SO</compoundname>
+    <innerfile refid="_f_s_bool_event_s_o_8cs">FSBoolEventSO.cs</innerfile>
+    <innerfile refid="_f_s_float_event_s_o_8cs">FSFloatEventSO.cs</innerfile>
+    <innerfile refid="_f_s_int_event_s_o_8cs">FSIntEventSO.cs</innerfile>
+    <innerfile refid="_f_s_one_argument_event_s_o_8cs">FSOneArgumentEventSO.cs</innerfile>
+    <innerfile refid="_f_s_three_argument_event_s_o_8cs">FSThreeArgumentEventSO.cs</innerfile>
+    <innerfile refid="_f_s_two_argument_event_s_o_8cs">FSTwoArgumentEventSO.cs</innerfile>
+    <innerfile refid="_f_s_void_event_s_o_8cs">FSVoidEventSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSEvents/SO/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager}{}\doxysection{Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager Class Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager}\index{FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}}
+
+
+Level manager, use it to load levels. Use the list from Scene\+List to know witch level load  
+
+
+Inheritance diagram for Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_aed6b155a205f97445d7b27496e4e78df}{Load\+Next\+Level}} ()
+\begin{DoxyCompactList}\small\item\em call it when you want to load the next level of the game also unload actual level \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ae8b37d3c1b244fd7115c1f3584bf56f0}{Reload\+Actual\+Level}} (bool do\+Unload\+Level=true)
+\begin{DoxyCompactList}\small\item\em call it when you want to load the current level \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ab1ffebb2d6a2d1aba1daaba7627a427c}{Unload\+Current\+Level}} ()
+\begin{DoxyCompactList}\small\item\em particular use to unload a scene when leaving \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_game_scene}{Game\+Scene}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ac7dc8ae0819f15e70fda6f94ea14d416}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Awake method from Mono\+Behaviour \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Level manager, use it to load levels. Use the list from Scene\+List to know witch level load 
+
+
+
+Definition at line 11 of file Level\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ac7dc8ae0819f15e70fda6f94ea14d416}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ac7dc8ae0819f15e70fda6f94ea14d416}} 
+\index{FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}!Awake@{Awake}}
+\index{Awake@{Awake}!FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Awake method from Mono\+Behaviour 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_a41e7b240b5701ecae492ddf4df99b212}{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Singleton$<$ Level\+Manager $>$}}.
+
+
+
+Definition at line 30 of file Level\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_aed6b155a205f97445d7b27496e4e78df}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_aed6b155a205f97445d7b27496e4e78df}} 
+\index{FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}!LoadNextLevel@{LoadNextLevel}}
+\index{LoadNextLevel@{LoadNextLevel}!FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}}
+\doxysubsubsection{\texorpdfstring{LoadNextLevel()}{LoadNextLevel()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager.\+Load\+Next\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+call it when you want to load the next level of the game also unload actual level 
+
+
+
+Definition at line 44 of file Level\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ae8b37d3c1b244fd7115c1f3584bf56f0}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ae8b37d3c1b244fd7115c1f3584bf56f0}} 
+\index{FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}!ReloadActualLevel@{ReloadActualLevel}}
+\index{ReloadActualLevel@{ReloadActualLevel}!FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}}
+\doxysubsubsection{\texorpdfstring{ReloadActualLevel()}{ReloadActualLevel()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager.\+Reload\+Actual\+Level (\begin{DoxyParamCaption}\item[{bool}]{do\+Unload\+Level = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+call it when you want to load the current level 
+
+
+\begin{DoxyParams}{Parameters}
+{\em do\+Unload\+Level} & if false also unload the previous level of with the same name\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file Level\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ab1ffebb2d6a2d1aba1daaba7627a427c}\label{class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_level_manager_ab1ffebb2d6a2d1aba1daaba7627a427c}} 
+\index{FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}!UnloadCurrentLevel@{UnloadCurrentLevel}}
+\index{UnloadCurrentLevel@{UnloadCurrentLevel}!FrancoisSauce.Scripts.FSSingleton.LevelManager@{FrancoisSauce.Scripts.FSSingleton.LevelManager}}
+\doxysubsubsection{\texorpdfstring{UnloadCurrentLevel()}{UnloadCurrentLevel()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+F\+S\+Singleton.\+Level\+Manager.\+Unload\+Current\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+particular use to unload a scene when leaving \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_game_scene}{Game\+Scene}} 
+
+
+
+Definition at line 92 of file Level\+Manager.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+\_\+\+\_\+\+\_\+\+F\+S\+Singletons/\mbox{\hyperlink{_level_manager_8cs}{Level\+Manager.\+cs}}\end{DoxyCompactItemize}

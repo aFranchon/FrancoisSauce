@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_virtual_device_example_1_1_virtual_device_example" kind="class" language="C#" prot="public">
+    <compoundname>VirtualDeviceExample::VirtualDeviceExample</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_virtual_device_example_1_1_virtual_device_example_1a722dac620d43e99d4bdf3b50462330ff" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VirtualDeviceExample.VirtualDeviceExample.leftObject</definition>
+        <argsstring></argsstring>
+        <name>leftObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="24" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virtual_device_example_1_1_virtual_device_example_1aa28648c59862e733d0d20d0aa10e208e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VirtualDeviceExample.VirtualDeviceExample.rightObject</definition>
+        <argsstring></argsstring>
+        <name>rightObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="25" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_virtual_device_example_1_1_virtual_device_example_1a8fdcea6ee549fd58e9faf0eccfeebdef" prot="private" static="no" mutable="no">
+        <type><ref refid="class_virtual_device_example_1_1_virtual_device" kindref="compound">VirtualDevice</ref></type>
+        <definition>VirtualDevice VirtualDeviceExample.VirtualDeviceExample.virtualDevice</definition>
+        <argsstring></argsstring>
+        <name>virtualDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="27" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_virtual_device_example_1_1_virtual_device_example_1a4b89e1de43486ebf9545fa4ee031d8e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirtualDeviceExample.VirtualDeviceExample.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="30" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virtual_device_example_1_1_virtual_device_example_1a62bfc13b4d93d27091a2dadb71742018" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirtualDeviceExample.VirtualDeviceExample.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="40" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virtual_device_example_1_1_virtual_device_example_1a135a06cc2c3f376f075f145522b3b4df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirtualDeviceExample.VirtualDeviceExample.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="46" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="46" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VirtualDeviceExample.VirtualDeviceExample</label>
+        <link refid="class_virtual_device_example_1_1_virtual_device_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>VirtualDeviceExample.VirtualDeviceExample</label>
+        <link refid="class_virtual_device_example_1_1_virtual_device_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" line="22" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice/VirtualDeviceExample.cs" bodystart="23" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1a722dac620d43e99d4bdf3b50462330ff" prot="public" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>leftObject</name></member>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1a62bfc13b4d93d27091a2dadb71742018" prot="private" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>OnDisable</name></member>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1a4b89e1de43486ebf9545fa4ee031d8e6" prot="private" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>OnEnable</name></member>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1aa28648c59862e733d0d20d0aa10e208e" prot="public" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>rightObject</name></member>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1a135a06cc2c3f376f075f145522b3b4df" prot="private" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>Update</name></member>
+      <member refid="class_virtual_device_example_1_1_virtual_device_example_1a8fdcea6ee549fd58e9faf0eccfeebdef" prot="private" virt="non-virtual"><scope>VirtualDeviceExample::VirtualDeviceExample</scope><name>virtualDevice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

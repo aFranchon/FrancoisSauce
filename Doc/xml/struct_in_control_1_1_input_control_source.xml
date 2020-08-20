@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_input_control_source" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::InputControlSource</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_input_control_source_1ac8ddb48d90268ad1cbe3758aa80f88f4" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a88530919f84d258d097d4198da218079" kindref="member">InputControlSourceType</ref></type>
+        <definition>InputControlSourceType InControl.InputControlSource.sourceType</definition>
+        <argsstring></argsstring>
+        <name>sourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="19" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_control_source_1a929bc7b72cd5621104e893d431753746" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InputControlSource.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="22" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_input_control_source_1abef5a85586d80901ab2445f03491ad1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a88530919f84d258d097d4198da218079" kindref="member">InputControlSourceType</ref></type>
+        <definition>InputControlSourceType InControl.InputControlSource.SourceType</definition>
+        <argsstring></argsstring>
+        <name>SourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="24" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_input_control_source_1aac2f8f9bbd4a5c7795edb0efe556d7e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.InputControlSource.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="25" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_source_1a9edb0579ff340366e7ff8b96cc165bac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputControlSource.InputControlSource</definition>
+        <argsstring>(InputControlSourceType sourceType, int index)</argsstring>
+        <name>InputControlSource</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a88530919f84d258d097d4198da218079" kindref="member">InputControlSourceType</ref></type>
+          <declname>sourceType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="28" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_source_1a6bb2f64bd1a82f74767b4920f5826ce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputControlSource.InputControlSource</definition>
+        <argsstring>(KeyCode keyCode)</argsstring>
+        <name>InputControlSource</name>
+        <param>
+          <type>KeyCode</type>
+          <declname>keyCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="35" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="35" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_source_1a3623c2fd51e1437cbac7e75febb9fe9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InControl.InputControlSource.GetValue</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="39" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="39" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_source_1ac7df2e314e5cb851f59b7ac535669360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputControlSource.GetState</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetState</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="55" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="55" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_control_source_1a80105b34ce3fbcfd2d823e89505249a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InControl.InputControlSource.ToCode</definition>
+        <argsstring>()</argsstring>
+        <name>ToCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="71" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" line="16" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControlSource.cs" bodystart="17" bodyend="75"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_input_control_source_1ac7df2e314e5cb851f59b7ac535669360" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>GetState</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1a3623c2fd51e1437cbac7e75febb9fe9d" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>GetValue</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1aac2f8f9bbd4a5c7795edb0efe556d7e7" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>Index</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1a929bc7b72cd5621104e893d431753746" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>index</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1a9edb0579ff340366e7ff8b96cc165bac" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>InputControlSource</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1a6bb2f64bd1a82f74767b4920f5826ce2" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>InputControlSource</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1ac8ddb48d90268ad1cbe3758aa80f88f4" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>sourceType</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1abef5a85586d80901ab2445f03491ad1f" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>SourceType</name></member>
+      <member refid="struct_in_control_1_1_input_control_source_1a80105b34ce3fbcfd2d823e89505249a1" prot="public" virt="non-virtual"><scope>InControl::InputControlSource</scope><name>ToCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

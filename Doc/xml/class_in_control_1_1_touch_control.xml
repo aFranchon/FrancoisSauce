@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_control" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>InControl::TouchControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_touch_button_control" prot="public" virt="non-virtual">InControl.TouchButtonControl</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_touch_stick_control" prot="public" virt="non-virtual">InControl.TouchStickControl</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_touch_swipe_control" prot="public" virt="non-virtual">InControl.TouchSwipeControl</derivedcompoundref>
+    <derivedcompoundref refid="class_in_control_1_1_touch_track_control" prot="public" virt="non-virtual">InControl.TouchTrackControl</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>ButtonTarget</name>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= InputControlType.None</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a826b0ea5950d9f05469d6f3ded8b570f" prot="public">
+          <name>DPadDown</name>
+          <initializer>= InputControlType.DPadDown</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a1afff4bd4c22275dff273ca6f01952f1" prot="public">
+          <name>DPadLeft</name>
+          <initializer>= InputControlType.DPadLeft</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966aee57d4f85b132ca155ad4f77e71b7df1" prot="public">
+          <name>DPadRight</name>
+          <initializer>= InputControlType.DPadRight</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6e53ad4e24c7b597e15b2193883bf7f2" prot="public">
+          <name>DPadUp</name>
+          <initializer>= InputControlType.DPadUp</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ac412c6d19da2afaf2dc8891f5bcb8901" prot="public">
+          <name>LeftTrigger</name>
+          <initializer>= InputControlType.LeftTrigger</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a837ed99a897594cef0d37403a18f0df0" prot="public">
+          <name>RightTrigger</name>
+          <initializer>= InputControlType.RightTrigger</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a91aac15641d2e4fce8e8aef22a4ce4c7" prot="public">
+          <name>LeftBumper</name>
+          <initializer>= InputControlType.LeftBumper</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a509b4eb4dd040194b2aa506683ccfbad" prot="public">
+          <name>RightBumper</name>
+          <initializer>= InputControlType.RightBumper</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a72c7a3098399dfb77a42f5181b46fa41" prot="public">
+          <name>Action1</name>
+          <initializer>= InputControlType.Action1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a426ce788509fd7ac2814ae1639907fe3" prot="public">
+          <name>Action2</name>
+          <initializer>= InputControlType.Action2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a2da42cea2a446458f0f3c11c87c2f357" prot="public">
+          <name>Action3</name>
+          <initializer>= InputControlType.Action3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ade12011c39014de6d3d6658541695391" prot="public">
+          <name>Action4</name>
+          <initializer>= InputControlType.Action4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ad613b9980f7c731fc279724f9e5689fd" prot="public">
+          <name>Action5</name>
+          <initializer>= InputControlType.Action5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966aafde7dfeec0f4715a0c0319ea13076b6" prot="public">
+          <name>Action6</name>
+          <initializer>= InputControlType.Action6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a307a5eae0ad4a655061922775dc54bb3" prot="public">
+          <name>Action7</name>
+          <initializer>= InputControlType.Action7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a1fd49dd32a5a66be89ccd3256e4d9b14" prot="public">
+          <name>Action8</name>
+          <initializer>= InputControlType.Action8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a436b85e9c6f2f90e3b5b700b1e1a6d40" prot="public">
+          <name>Action9</name>
+          <initializer>= InputControlType.Action9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a4d19cbc5f159e48d45b5600e94d1c749" prot="public">
+          <name>Action10</name>
+          <initializer>= InputControlType.Action10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ab28c4115e6973f1843c4f1bad25c1728" prot="public">
+          <name>Action11</name>
+          <initializer>= InputControlType.Action11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966af9b70b3b3b6ec6a2daa3a6a4e91a8c06" prot="public">
+          <name>Action12</name>
+          <initializer>= InputControlType.Action12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ab61541208db7fa7dba42c85224405911" prot="public">
+          <name>Menu</name>
+          <initializer>= InputControlType.Menu</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966adf18fdbdb36feb48df7a2b683a732543" prot="public">
+          <name>Button0</name>
+          <initializer>= InputControlType.Button0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6475a3746209a62a6ce6289a3741d07e" prot="public">
+          <name>Button1</name>
+          <initializer>= InputControlType.Button1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ae165925a7c2d5ea94209b91389aa189f" prot="public">
+          <name>Button2</name>
+          <initializer>= InputControlType.Button2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6d0c69e60d65a93dd244ae95f90e679c" prot="public">
+          <name>Button3</name>
+          <initializer>= InputControlType.Button3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a91ff24acfc01cc2c3a4238a272a37d07" prot="public">
+          <name>Button4</name>
+          <initializer>= InputControlType.Button4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966af8849babaeaee3344306b87310664d65" prot="public">
+          <name>Button5</name>
+          <initializer>= InputControlType.Button5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a375ccc6b3a6125cc5c67f2c700a55b72" prot="public">
+          <name>Button6</name>
+          <initializer>= InputControlType.Button6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966aa00c628d1b186fa4fe9c7f633426979e" prot="public">
+          <name>Button7</name>
+          <initializer>= InputControlType.Button7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a4f651f24c0b38f6e7ea0d52b0c514e36" prot="public">
+          <name>Button8</name>
+          <initializer>= InputControlType.Button8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966aefe28baa94fc5f90fde7d0ff617460a3" prot="public">
+          <name>Button9</name>
+          <initializer>= InputControlType.Button9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a3d3ef49f12a784286c545ad83aacf8ce" prot="public">
+          <name>Button10</name>
+          <initializer>= InputControlType.Button10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a4133398c2839051d345393acd4faf3ee" prot="public">
+          <name>Button11</name>
+          <initializer>= InputControlType.Button11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ad5a401edc77800581785ad5cb92760da" prot="public">
+          <name>Button12</name>
+          <initializer>= InputControlType.Button12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a08284e923648a561b32f6827740e34d4" prot="public">
+          <name>Button13</name>
+          <initializer>= InputControlType.Button13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966af769ff0469d23edf256a251bf24d1db0" prot="public">
+          <name>Button14</name>
+          <initializer>= InputControlType.Button14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ab445300f30fa6f3d226af8b79226a577" prot="public">
+          <name>Button15</name>
+          <initializer>= InputControlType.Button15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a50797af028427c93d51eca44e1fdd2c6" prot="public">
+          <name>Button16</name>
+          <initializer>= InputControlType.Button16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966ae39be6f7fd8b6699b123a7fd7892bee7" prot="public">
+          <name>Button17</name>
+          <initializer>= InputControlType.Button17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a366892c6e2581cfc45149ba11d5f6bd0" prot="public">
+          <name>Button18</name>
+          <initializer>= InputControlType.Button18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a82aec6b40690390a7bb599b4f3cf43c1" prot="public">
+          <name>Button19</name>
+          <initializer>= InputControlType.Button19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="9" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AnalogTarget</name>
+        <enumvalue id="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a78dfae506443f078a68242fa3989e7d2" prot="public">
+          <name>LeftStick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a8e2f56dca504cbbdf54b6ba95989aed7" prot="public">
+          <name>RightStick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="61" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>SnapAngles</name>
+        <enumvalue id="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eea981b8fcee42e1e726a67a2b9a98ea6e9" prot="public">
+          <name>Four</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eeabaca0ca6729684fd54206793ae4b5bd5" prot="public">
+          <name>Eight</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eea8ba5c1c5015c955a5b142debe35c30ff" prot="public">
+          <name>Sixteen</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="70" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1ab81fefe6eca3e972ce1c188c76a54215" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.CreateControl</definition>
+        <argsstring>()</argsstring>
+        <name>CreateControl</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a2a1c2ce8f8ee593c67d11c3e5a28d7da">CreateControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1a38e18c2c569379a724152821c786c760">CreateControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a93ca8d494cfc3a81a72c61f9a45239d7">CreateControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a8c648e1f00de4951ef4bce7dcd2aa4cd">CreateControl</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="79" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1af26e3207ecb016a2f783adf1dfc8efc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.DestroyControl</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyControl</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a7eb934e74b44047d816bc03a3e297831">DestroyControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1ae461215462dcc7f889b12ed10b652f47">DestroyControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a22077898a869237b21ae1ca8ed470edc">DestroyControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a32e46635a2322a988623aabf591b58ce">DestroyControl</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="80" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a884930763fd25d4b01252cad074d4324" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.ConfigureControl</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureControl</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a1f37d37cf1a5d10717a3ec56b08faa82">ConfigureControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1ac4954ed423c651aab6924236602e440e">ConfigureControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a46448c2d6feae55b99c8dac18c3b121a">ConfigureControl</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1ab474fced63b124c3b0b89a4004bc7dc2">ConfigureControl</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="81" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a8e600dd3c15e3d3df1843df8ad755b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.SubmitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitControlState</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1aafbc80bd58f843975b6aa70c5694d0c8">SubmitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1a9ddeb884d10deb38ef2adb66c9e6f5e3">SubmitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a199a9710a4d01fca78382923cd7e5c96">SubmitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a2acc2a4b24134182625c768ef6a07d41">SubmitControlState</reimplementedby>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="82" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1ab6dda6aaa855e7066c3b556fb77752e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.CommitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitControlState</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1afa149c7577cf257c587517554c6b5a62">CommitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a74a0445eeffac8dd2bb4deb6790da19e">CommitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1ad6994d02653f3509bebf7b7e2f81587b">CommitControlState</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1ae19669be00e747c5658f100d22798e1d">CommitControlState</reimplementedby>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="83" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1aab486b8ad4c8975e17e36b7749f453fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.TouchBegan</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchBegan</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a3b093f6f315732653a39201843f072d9">TouchBegan</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1ab423b663e3fbe25d7d57f5f95806f525">TouchBegan</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1a23cd757a1e50b97049535c0d875e0a16">TouchBegan</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a7dfd7112e63f5959e5f0a3c7ec3b0b6b">TouchBegan</reimplementedby>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="84" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a4241997b6929b835bef41e4938aeb84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.TouchMoved</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchMoved</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1ab00143379cff8566cdb64a9c98141af9">TouchMoved</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1ab87422a2ec74b4eca75825417360cc21">TouchMoved</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1ab06d8faeb6ed8540b264f6549c8daad0">TouchMoved</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a049f4996647cd3e3ec6ef4c1a188fea6">TouchMoved</reimplementedby>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="85" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1ac9e2cde2c166f417fd6201a0d8104b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.TouchEnded</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchEnded</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a85b436ac8cebdf280181e392d2f80fba">TouchEnded</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1a31f08b548597c6b7e24725f4b4990030">TouchEnded</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1a5ac3537abdb8f70bba91bf9559655a2d">TouchEnded</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1a0ce3727466605b9133445aa2c775b9e4">TouchEnded</reimplementedby>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="86" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1aaaf4e78f6fb9a16199273dcdfe425eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void InControl.TouchControl.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <reimplementedby refid="class_in_control_1_1_touch_track_control_1a692981a708df59392e89ac934fbca5a4">DrawGizmos</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_button_control_1a460833c12ef423b3d7724eeac071e7fb">DrawGizmos</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_swipe_control_1ab30e53393258089666c2501185f26d9d">DrawGizmos</reimplementedby>
+        <reimplementedby refid="class_in_control_1_1_touch_stick_control_1aa87b7c7a466b4625b6b8b241a8a169fb">DrawGizmos</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="87" column="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1abd448cf0b235f0754fea36f03d3b1e98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="90" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1acd579c407b94595753409dd8e70a838d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="96" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1aa4ccdfaf5c5399ac629183909a92ba86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="103" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="103" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a84435754e15d61ecd61e45897f310dd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="277" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="277" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a1f298dfa84e0314af0f138eb672abbfb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="303" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="303" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a4b33f1c6fa26e4431f73e0ea34e97229" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchControl.OffsetToWorldPosition</definition>
+        <argsstring>(TouchControlAnchor anchor, Vector2 offset, TouchUnitType offsetUnitType, bool lockAspectRatio)</argsstring>
+        <name>OffsetToWorldPosition</name>
+        <param>
+          <type><ref refid="namespace_in_control_1ad13ad2f389ab0fb36f613eb6e5a6e65a" kindref="member">TouchControlAnchor</ref></type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+          <declname>offsetUnitType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lockAspectRatio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="115" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="115" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a6e71ca874b032e6664afd8fb315c6a77" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.SubmitButtonState</definition>
+        <argsstring>(ButtonTarget target, bool state, ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitButtonState</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="137" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="137" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a532ee38b509eb40af2e035e1f6331c28" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.SubmitButtonValue</definition>
+        <argsstring>(ButtonTarget target, float value, ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitButtonValue</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="152" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="152" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a1fd54fbb31e26afcd9b2fa3964f00624" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.CommitButton</definition>
+        <argsstring>(ButtonTarget target)</argsstring>
+        <name>CommitButton</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="167" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="167" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1ab68ea04ecff413b22305763c2f179efa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.SubmitAnalogValue</definition>
+        <argsstring>(AnalogTarget target, Vector2 value, float lowerDeadZone, float upperDeadZone, ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitAnalogValue</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="182" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="182" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a639c5df115ecb39e05a3e6cc482ff625" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.CommitAnalog</definition>
+        <argsstring>(AnalogTarget target)</argsstring>
+        <name>CommitAnalog</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="203" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="203" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a64006ac4d0eeb6d156591365f1f7eed2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchControl.SubmitRawAnalogValue</definition>
+        <argsstring>(AnalogTarget target, Vector2 rawValue, ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitRawAnalogValue</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>rawValue</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="222" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="222" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1a32643e06ae9cb3107fc736f9508079f2" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 InControl.TouchControl.SnapTo</definition>
+        <argsstring>(Vector2 vector, SnapAngles snapAngles)</argsstring>
+        <name>SnapTo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>vector</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" kindref="member">SnapAngles</ref></type>
+          <declname>snapAngles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="241" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="241" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_control_1acff7518787a65fe18efb6a9a2077b5f2" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 InControl.TouchControl.SnapTo</definition>
+        <argsstring>(Vector2 vector, float snapAngle)</argsstring>
+        <name>SnapTo</name>
+        <param>
+          <type>Vector2</type>
+          <declname>vector</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>snapAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="254" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="254" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>InControl.TouchSwipeControl</label>
+        <link refid="class_in_control_1_1_touch_swipe_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>InControl.TouchStickControl</label>
+        <link refid="class_in_control_1_1_touch_stick_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InControl.TouchButtonControl</label>
+        <link refid="class_in_control_1_1_touch_button_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>InControl.TouchTrackControl</label>
+        <link refid="class_in_control_1_1_touch_track_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" line="6" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/TouchControl.cs" bodystart="7" bodyend="335"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" prot="public" virt="non-virtual"><scope>InControl::TouchControl</scope><name>AnalogTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" prot="public" virt="non-virtual"><scope>InControl::TouchControl</scope><name>ButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a639c5df115ecb39e05a3e6cc482ff625" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>CommitAnalog</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a1fd54fbb31e26afcd9b2fa3964f00624" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>CommitButton</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab6dda6aaa855e7066c3b556fb77752e6" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>CommitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a884930763fd25d4b01252cad074d4324" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>ConfigureControl</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab81fefe6eca3e972ce1c188c76a54215" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>CreateControl</name></member>
+      <member refid="class_in_control_1_1_touch_control_1af26e3207ecb016a2f783adf1dfc8efc0" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>DestroyControl</name></member>
+      <member refid="class_in_control_1_1_touch_control_1aaaf4e78f6fb9a16199273dcdfe425eee" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>DrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a4b33f1c6fa26e4431f73e0ea34e97229" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>OffsetToWorldPosition</name></member>
+      <member refid="class_in_control_1_1_touch_control_1acd579c407b94595753409dd8e70a838d" prot="private" virt="non-virtual"><scope>InControl::TouchControl</scope><name>OnDisable</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a1f298dfa84e0314af0f138eb672abbfb" prot="private" virt="non-virtual"><scope>InControl::TouchControl</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a84435754e15d61ecd61e45897f310dd7" prot="private" virt="non-virtual"><scope>InControl::TouchControl</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_in_control_1_1_touch_control_1abd448cf0b235f0754fea36f03d3b1e98" prot="private" virt="non-virtual"><scope>InControl::TouchControl</scope><name>OnEnable</name></member>
+      <member refid="class_in_control_1_1_touch_control_1aa4ccdfaf5c5399ac629183909a92ba86" prot="private" virt="non-virtual"><scope>InControl::TouchControl</scope><name>Setup</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" prot="public" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SnapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a32643e06ae9cb3107fc736f9508079f2" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1acff7518787a65fe18efb6a9a2077b5f2" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab68ea04ecff413b22305763c2f179efa" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SubmitAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a6e71ca874b032e6664afd8fb315c6a77" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SubmitButtonState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a532ee38b509eb40af2e035e1f6331c28" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SubmitButtonValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a8e600dd3c15e3d3df1843df8ad755b83" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>SubmitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a64006ac4d0eeb6d156591365f1f7eed2" prot="protected" virt="non-virtual"><scope>InControl::TouchControl</scope><name>SubmitRawAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1aab486b8ad4c8975e17e36b7749f453fa" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>TouchBegan</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ac9e2cde2c166f417fd6201a0d8104b7d" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>TouchEnded</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a4241997b6929b835bef41e4938aeb84b" prot="public" virt="pure-virtual"><scope>InControl::TouchControl</scope><name>TouchMoved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

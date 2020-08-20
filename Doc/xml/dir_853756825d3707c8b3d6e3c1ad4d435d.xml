@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_853756825d3707c8b3d6e3c1ad4d435d" kind="dir">
+    <compoundname>FrancoisSauce/MainMenu/Scripts/_BaseMenu</compoundname>
+    <innerfile refid="_base_menu_script_8cs">BaseMenuScript.cs</innerfile>
+    <innerfile refid="_view___base_menu_8cs">View_BaseMenu.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/"/>
+  </compounddef>
+</doxygen>

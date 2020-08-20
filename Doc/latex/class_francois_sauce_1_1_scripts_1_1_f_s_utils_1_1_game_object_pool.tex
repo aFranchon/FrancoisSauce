@@ -1,0 +1,93 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool}{}\doxysection{Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Game\+Object\+Pool Class Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool}\index{FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}}
+
+
+Object\+Pool design pattern really simple implementation. Only allow Game\+Object.  
+
+
+Inheritance diagram for Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Game\+Object\+Pool\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a15acc0d876c8583c0fdc3f2c1bba6e31}{Request\+Pool}} ()
+\begin{DoxyCompactList}\small\item\em Method to request a inactive Game\+Object in the pool and return it. If no Game\+Objects inactive, then the pool create a new one and return it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_abde3698b2e4ca5145237522209df2da3}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Mono\+Behaviour\textquotesingle{}s Start method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a85aa4bf641cedfb55f55ce4bb0d17997}{population\+Prefab}} = null
+\begin{DoxyCompactList}\small\item\em The population\textquotesingle{}s prefab, for instantiation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Object\+Pool design pattern really simple implementation. Only allow Game\+Object. 
+
+
+
+Definition at line 9 of file Game\+Object\+Pool.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a15acc0d876c8583c0fdc3f2c1bba6e31}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a15acc0d876c8583c0fdc3f2c1bba6e31}} 
+\index{FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}!RequestPool@{RequestPool}}
+\index{RequestPool@{RequestPool}!FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}}
+\doxysubsubsection{\texorpdfstring{RequestPool()}{RequestPool()}}
+{\footnotesize\ttfamily Game\+Object Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Game\+Object\+Pool.\+Request\+Pool (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method to request a inactive Game\+Object in the pool and return it. If no Game\+Objects inactive, then the pool create a new one and return it. 
+
+\begin{DoxyReturn}{Returns}
+The first inactive Game\+Object in the pool
+\end{DoxyReturn}
+
+
+Definition at line 71 of file Game\+Object\+Pool.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_abde3698b2e4ca5145237522209df2da3}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_abde3698b2e4ca5145237522209df2da3}} 
+\index{FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}!Start@{Start}}
+\index{Start@{Start}!FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily virtual void Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Game\+Object\+Pool.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Mono\+Behaviour\textquotesingle{}s Start method. 
+
+
+
+Definition at line 38 of file Game\+Object\+Pool.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a85aa4bf641cedfb55f55ce4bb0d17997}\label{class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_a85aa4bf641cedfb55f55ce4bb0d17997}} 
+\index{FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}!populationPrefab@{populationPrefab}}
+\index{populationPrefab@{populationPrefab}!FrancoisSauce.Scripts.FSUtils.GameObjectPool@{FrancoisSauce.Scripts.FSUtils.GameObjectPool}}
+\doxysubsubsection{\texorpdfstring{populationPrefab}{populationPrefab}}
+{\footnotesize\ttfamily Game\+Object Francois\+Sauce.\+Scripts.\+F\+S\+Utils.\+Game\+Object\+Pool.\+population\+Prefab = null\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The population\textquotesingle{}s prefab, for instantiation. 
+
+
+
+Definition at line 25 of file Game\+Object\+Pool.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+\_\+\+\_\+\+\_\+\+F\+S\+Utils/\mbox{\hyperlink{_game_object_pool_8cs}{Game\+Object\+Pool.\+cs}}\end{DoxyCompactItemize}

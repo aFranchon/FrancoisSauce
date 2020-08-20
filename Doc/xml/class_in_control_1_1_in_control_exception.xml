@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_in_control_exception" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InControlException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_in_control_exception_1a8185aae835ad101202e7dcaa0a5de128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InControlException.InControlException</definition>
+        <argsstring>()</argsstring>
+        <name>InControlException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" line="9" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_exception_1af85b5aac865943525254059489924c93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InControlException.InControlException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>InControlException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" line="14" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_exception_1a3322f38e48762ae932f97ce220f5d1fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InControlException.InControlException</definition>
+        <argsstring>(string message, Exception inner)</argsstring>
+        <name>InControlException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" line="20" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>InControl.InControlException</label>
+        <link refid="class_in_control_1_1_in_control_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>InControl.InControlException</label>
+        <link refid="class_in_control_1_1_in_control_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Debug/InControlException.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_in_control_exception_1a8185aae835ad101202e7dcaa0a5de128" prot="public" virt="non-virtual"><scope>InControl::InControlException</scope><name>InControlException</name></member>
+      <member refid="class_in_control_1_1_in_control_exception_1af85b5aac865943525254059489924c93" prot="public" virt="non-virtual"><scope>InControl::InControlException</scope><name>InControlException</name></member>
+      <member refid="class_in_control_1_1_in_control_exception_1a3322f38e48762ae932f97ce220f5d1fd" prot="public" virt="non-virtual"><scope>InControl::InControlException</scope><name>InControlException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

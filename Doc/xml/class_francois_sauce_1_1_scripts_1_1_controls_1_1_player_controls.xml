@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::Controls::PlayerControls</compoundname>
+    <basecompoundref refid="class_in_control_1_1_player_action_set" prot="public" virt="non-virtual">InControl.PlayerActionSet</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1aa97fa8b376eeb2fe35dc0b5e5a611285" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction FrancoisSauce.Scripts.Controls.PlayerControls.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="13" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1a0efb6cd2f0e30a6a6291b301e409231a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction FrancoisSauce.Scripts.Controls.PlayerControls.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="14" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1ab424666ba56cca8f9c22eb69f6956e0f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction FrancoisSauce.Scripts.Controls.PlayerControls.Forward</definition>
+        <argsstring></argsstring>
+        <name>Forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="15" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1aaaabacda724ce9dd59b38c97c939e1d6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction FrancoisSauce.Scripts.Controls.PlayerControls.Backward</definition>
+        <argsstring></argsstring>
+        <name>Backward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="16" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1af79a3ef6b529b311cebf6dab851986e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FrancoisSauce.Scripts.Controls.PlayerControls.PlayerControls</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="18" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of the <ref refid="class_in_control_1_1_player_action_set_1a1c4f1e576375f1f09f7668a51d2c4f14" kindref="member">PlayerActionSet</ref> to make the player move with arrow keys see parent class to get more infos </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.Controls.PlayerControls</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.Controls.PlayerControls</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Backward</edgelabel>
+          <edgelabel>Forward</edgelabel>
+          <edgelabel>Left</edgelabel>
+          <edgelabel>Right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InControl.BindingListenOptions</label>
+        <link refid="class_in_control_1_1_binding_listen_options"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>ReplaceBinding</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>listenWithAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="4">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>InControl.BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ListenOptions</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerControls.cs" bodystart="12" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_player_action_set_1a92e6ddd4be6645bf1cfcf564170c5cbc" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Actions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aef26e18d18f778a6e9c97dde3661a9fd" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>ActiveDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a5b3cdf0c7f9789e823160b9eb2686a" prot="package" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>AddPlayerAction</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1aaaabacda724ce9dd59b38c97c939e1d6" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Backward</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a267737f62ea872e0662fac6f6a0827e4" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a510454d12307b48ad20ed1b17024a95d" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>CreateOneAxisPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aecce35c5a5bbe1ebcfad223b5f295e17" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>CreatePlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a8d5d427c856d1536c80e77c1dbd161" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>CreateTwoAxisPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0cda02068b64064d1de6ac95ebc7b950" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ae75dfd749d6f46962b0a84222064e65f" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Device</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f493288d0c80e6684f319b1824def9e" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aefb98e5358792a2f40b661e4aebc9b65" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>ExcludeDevices</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1ab424666ba56cca8f9c22eb69f6956e0f" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Forward</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aae7aa897b4590eb13c6d7d4697193c2c" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>GetPlayerActionByName</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a60e7b0f8e0c34b68b1242c4e96e91b34" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>HasBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f759003340fa67549593f72ab250f94" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>IncludeDevices</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6c6d0a537148cd66c0b15c8d64ede5df" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>IsListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1acf04e96e3e7446a4a918b27c0b4dfc5d" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>LastDeviceClass</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1adfcf3cd9b1a252fb6f1ec85768813284" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>LastDeviceStyle</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6d91ee6720dec191cfe56cd47119b178" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ada6b89a428d9792e0758d7c9aa9a3cda" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>LastInputTypeChangedTick</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1aa97fa8b376eeb2fe35dc0b5e5a611285" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Left</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a4e67b7ac47fe5bc25cb3f510fbb39901" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>ListenOptions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a20e0ba7362c42bed5bfd8c4719d7105d" prot="package" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>listenWithAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a63a709b0bc2528f462e4ae958b84ba63" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aff307570d2d8878e3d53848e5c1c8aab" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>LoadData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab1e494c0fa2b19f343df52ac104d5941" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1c4f1e576375f1f09f7668a51d2c4f14" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>PlayerActionSet</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1af79a3ef6b529b311cebf6dab851986e8" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>PlayerControls</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab8616f279789513978a6807e7857a0c6" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>PreventInputWhileListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1297642ebbae139ae7e1bb24f8f03488" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>RemoveBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aa57effb6fd3c33b532ca5cd36de39d1f" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Reset</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1a0efb6cd2f0e30a6a6291b301e409231a" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Right</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a9a5773b5c31fd249109dc49eaf0a8065" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Save</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a01ce0f8fc6c5a3efd9a7f16fc71528f8" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>SaveData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a69b1473ae9ce6f960ed5a76d08ce961d" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>this[string actionName]</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad5052caa6e7535488cfd9b29193c6eb3" prot="package" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1abcc95980d57ba52aef3dd54f496dc544" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad6d88193d18e511bf72d41f510804cec" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Controls::PlayerControls</scope><name>UserData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

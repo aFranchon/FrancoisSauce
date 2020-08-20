@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_dead_zone" kind="class" language="C#" prot="public">
+    <compoundname>InControl::DeadZone</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_dead_zone_1a66838434213608eda097ebd6377c62dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InControl.DeadZone.SeparateNotNormalized</definition>
+        <argsstring>(float x, float y, float lowerDeadZone, float upperDeadZone)</argsstring>
+        <name>SeparateNotNormalized</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <briefdescription>
+<para>Apply deadzones to a vector, but processing the x and y components separately. The resulting vector is not normalized, so the result falls within a rectangle. This is not usually the kind of deadzone you want and may give undesired results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower dead zone to apply (e.g. 0.2f)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper dead zone to apply (e.g. 0.9f)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" line="24" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" bodystart="24" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_dead_zone_1a15c4d86e35055fc91cb7dbd0e2b972dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InControl.DeadZone.Separate</definition>
+        <argsstring>(float x, float y, float lowerDeadZone, float upperDeadZone)</argsstring>
+        <name>Separate</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <briefdescription>
+<para>Same as SeparateNotNormalized, but the resulting vector is normalized so the result lands on the edge of a circle with a radius of 1.0f. This is useful for d-pad controls where the input snaps to 8 directions, making the result interchangable with the output for analog sticks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower dead zone to apply (e.g. 0.2f)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper dead zone to apply (e.g. 0.9f)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" line="70" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" bodystart="70" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_dead_zone_1aec6c15310abd2e8fe206d2435966ff14" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InControl.DeadZone.Circular</definition>
+        <argsstring>(float x, float y, float lowerDeadZone, float upperDeadZone)</argsstring>
+        <name>Circular</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lowerDeadZone</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upperDeadZone</declname>
+        </param>
+        <briefdescription>
+<para>Apply deadzones to a vector, but processes the deadzones on the vector as radii on a circle. This works well for analog sticks as they need to operate within a minimum and maximum radius. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y component of the vector to process.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower dead zone to apply (e.g. 0.2f)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperDeadZone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper dead zone to apply (e.g. 0.9f)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" line="119" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" bodystart="119" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" line="13" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/DeadZone.cs" bodystart="14" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_dead_zone_1aec6c15310abd2e8fe206d2435966ff14" prot="public" virt="non-virtual"><scope>InControl::DeadZone</scope><name>Circular</name></member>
+      <member refid="class_in_control_1_1_dead_zone_1a15c4d86e35055fc91cb7dbd0e2b972dd" prot="public" virt="non-virtual"><scope>InControl::DeadZone</scope><name>Separate</name></member>
+      <member refid="class_in_control_1_1_dead_zone_1a66838434213608eda097ebd6377c62dc" prot="public" virt="non-virtual"><scope>InControl::DeadZone</scope><name>SeparateNotNormalized</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

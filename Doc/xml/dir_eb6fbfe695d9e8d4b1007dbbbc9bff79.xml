@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_eb6fbfe695d9e8d4b1007dbbbc9bff79" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/MFi</compoundname>
+    <innerfile refid="_apple_m_fi_extended_gamepad_native_profile_8cs">AppleMFiExtendedGamepadNativeProfile.cs</innerfile>
+    <innerfile refid="_apple_m_fi_micro_gamepad_native_profile_8cs">AppleMFiMicroGamepadNativeProfile.cs</innerfile>
+    <innerfile refid="_dual_shock4_m_fi_native_profile_8cs">DualShock4MFiNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_m_fi_native_profile_8cs">XboxOneMFiNativeProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/MFi/"/>
+  </compounddef>
+</doxygen>

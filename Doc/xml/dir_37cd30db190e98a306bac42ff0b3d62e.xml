@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_37cd30db190e98a306bac42ff0b3d62e" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables</compoundname>
+    <innerfile refid="_f_s_global_bool_s_o_8cs">FSGlobalBoolSO.cs</innerfile>
+    <innerfile refid="_f_s_global_float_s_o_8cs">FSGlobalFloatSO.cs</innerfile>
+    <innerfile refid="_f_s_global_int_s_o_8cs">FSGlobalIntSO.cs</innerfile>
+    <innerfile refid="_f_s_global_string_s_o_8cs">FSGlobalStringSO.cs</innerfile>
+    <innerfile refid="_f_s_global_variable_s_o_8cs">FSGlobalVariableSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/"/>
+  </compounddef>
+</doxygen>

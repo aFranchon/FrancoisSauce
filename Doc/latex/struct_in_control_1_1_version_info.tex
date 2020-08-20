@@ -1,0 +1,437 @@
+\hypertarget{struct_in_control_1_1_version_info}{}\doxysection{In\+Control.\+Version\+Info Struct Reference}
+\label{struct_in_control_1_1_version_info}\index{InControl.VersionInfo@{InControl.VersionInfo}}
+
+
+Encapsulates a comparable version number. This version number generally conforms to the semantic version system.  
+
+
+Inheritance diagram for In\+Control.\+Version\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_in_control_1_1_version_info}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_version_info_a623b15d44ab8ad461c5a25064ffc55fb}{Version\+Info}} (int \mbox{\hyperlink{struct_in_control_1_1_version_info_ad39b2cb168f2acde066536e37f36fcb6}{major}}, int \mbox{\hyperlink{struct_in_control_1_1_version_info_ac6fd258817149c7e126ee8479f40beba}{minor}}, int \mbox{\hyperlink{struct_in_control_1_1_version_info_a3dff696d8b56b755204aabd0346e0329}{patch}}, int \mbox{\hyperlink{struct_in_control_1_1_version_info_aab230b8422c1ab82d07e3d24b94a2493}{build}})
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with given version components. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_acfb2ede42ea78a57a8f8aa624fb85e6d}{Compare\+To}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} other)
+\begin{DoxyCompactList}\small\item\em Returns the sort order of the current instance compared to the specified object. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{struct_in_control_1_1_version_info_a36e12b3a1591f4ce5e47d03bdad47223}{Equals}} (object other)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified System.\+Object is equal to the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{struct_in_control_1_1_version_info_a4860030d4f1c4e361076f30a31abdf6b}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Serves as a hash function for a \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} object. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{struct_in_control_1_1_version_info_a88f860973cb768c4df335e3a66aad25c}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{struct_in_control_1_1_version_info_a56a2c558366739635f92e003c0ab5d9c}{To\+Short\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a shorter System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} \mbox{\hyperlink{struct_in_control_1_1_version_info_aa59196d83a6b71dfa1473a28789402e1}{In\+Control\+Version}} ()
+\begin{DoxyCompactList}\small\item\em Initialize an instance of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with the current version of \mbox{\hyperlink{namespace_in_control}{In\+Control}}. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} \mbox{\hyperlink{struct_in_control_1_1_version_info_ae71f6b15462bb4760262f9c9ec4669d2}{Unity\+Version}} ()
+\begin{DoxyCompactList}\small\item\em Initialize an instance of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with the current version of Unity. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_a6e425f5adc1c03a4b0096bbb235025c9}{operator==}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} for equality. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_a31de564db3ad2121ba054a4aebf889ff}{operator!=}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} for inequality. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_a5dd2590223976a913256650e0db8e495}{operator$<$=}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is equal to or smaller than the second. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_af5445b145a2f8195667b16c9f2122efc}{operator$>$=}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is equal to or larger than the second. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_af3999062ff0c8bedd5f6ca35490f7608}{operator$<$}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is smaller than the second. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_version_info_a11063b8f92f52e4898ab801a4af1712d}{operator$>$}} (\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} a, \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} b)
+\begin{DoxyCompactList}\small\item\em Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is larger than the second. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_ad39b2cb168f2acde066536e37f36fcb6}{major}}
+\begin{DoxyCompactList}\small\item\em The major version component. This number changes when significant A\+PI changes are made. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_ac6fd258817149c7e126ee8479f40beba}{minor}}
+\begin{DoxyCompactList}\small\item\em The minor version component. This number changes when significant functionality is added in a mostly backwards-\/compatible manner. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_a3dff696d8b56b755204aabd0346e0329}{patch}}
+\begin{DoxyCompactList}\small\item\em The patch version component. This number is changed when small updates and fixes are added in a backwards-\/compatible manner. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_aab230b8422c1ab82d07e3d24b94a2493}{build}}
+\begin{DoxyCompactList}\small\item\em The build version component. This number is incremented during development. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} \mbox{\hyperlink{struct_in_control_1_1_version_info_aa7b3bfda44821c859a267e7476c74bcf}{Min}} $^\wedge$(\textbackslash{}d+)\textbackslash{}.(\textbackslash{}d+)\textbackslash{}.(\textbackslash{}d+)\mbox{[}a-\/zA-\/Z\mbox{]}(\textbackslash{}d+)\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Generates the minimum possible version number. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} \mbox{\hyperlink{struct_in_control_1_1_version_info_a9f45ee26dce919661bf0549201815c7b}{Max}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Generates the maximum possible version number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} \mbox{\hyperlink{struct_in_control_1_1_version_info_a555d96840b3abc82ccabb341565846be}{Next}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Generates the next build version. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{struct_in_control_1_1_version_info_a047781946090f942f6fed588e671d179}{Build}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The build version component. This number is incremented during development. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Encapsulates a comparable version number. This version number generally conforms to the semantic version system. 
+
+
+
+Definition at line 13 of file Version\+Info.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a623b15d44ab8ad461c5a25064ffc55fb}\label{struct_in_control_1_1_version_info_a623b15d44ab8ad461c5a25064ffc55fb}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!VersionInfo@{VersionInfo}}
+\index{VersionInfo@{VersionInfo}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{VersionInfo()}{VersionInfo()}}
+{\footnotesize\ttfamily In\+Control.\+Version\+Info.\+Version\+Info (\begin{DoxyParamCaption}\item[{int}]{major,  }\item[{int}]{minor,  }\item[{int}]{patch,  }\item[{int}]{build }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with given version components. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em major} & The major version component.\\
+\hline
+{\em minor} & The minor version component.\\
+\hline
+{\em patch} & The patch version component.\\
+\hline
+{\em build} & The build version component.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file Version\+Info.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_acfb2ede42ea78a57a8f8aa624fb85e6d}\label{struct_in_control_1_1_version_info_acfb2ede42ea78a57a8f8aa624fb85e6d}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{CompareTo()}{CompareTo()}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+Compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{other }\end{DoxyParamCaption})}
+
+
+
+Returns the sort order of the current instance compared to the specified object. 
+
+
+
+Definition at line 130 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a36e12b3a1591f4ce5e47d03bdad47223}\label{struct_in_control_1_1_version_info_a36e12b3a1591f4ce5e47d03bdad47223}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool In\+Control.\+Version\+Info.\+Equals (\begin{DoxyParamCaption}\item[{object}]{other }\end{DoxyParamCaption})}
+
+
+
+Determines whether the specified System.\+Object is equal to the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The System.\+Object to compare with the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified System.\+Object is equal to the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+
+
+Definition at line 208 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a4860030d4f1c4e361076f30a31abdf6b}\label{struct_in_control_1_1_version_info_a4860030d4f1c4e361076f30a31abdf6b}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int In\+Control.\+Version\+Info.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Serves as a hash function for a \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} object. 
+
+\begin{DoxyReturn}{Returns}
+A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.
+\end{DoxyReturn}
+
+
+Definition at line 224 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_aa59196d83a6b71dfa1473a28789402e1}\label{struct_in_control_1_1_version_info_aa59196d83a6b71dfa1473a28789402e1}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!InControlVersion@{InControlVersion}}
+\index{InControlVersion@{InControlVersion}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{InControlVersion()}{InControlVersion()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} In\+Control.\+Version\+Info.\+In\+Control\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Initialize an instance of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with the current version of \mbox{\hyperlink{namespace_in_control}{In\+Control}}. 
+
+\begin{DoxyReturn}{Returns}
+The current version of \mbox{\hyperlink{namespace_in_control}{In\+Control}}.
+\end{DoxyReturn}
+
+
+Definition at line 65 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a31de564db3ad2121ba054a4aebf889ff}\label{struct_in_control_1_1_version_info_a31de564db3ad2121ba054a4aebf889ff}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} for inequality. 
+
+
+
+Definition at line 156 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_af3999062ff0c8bedd5f6ca35490f7608}\label{struct_in_control_1_1_version_info_af3999062ff0c8bedd5f6ca35490f7608}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is smaller than the second. 
+
+
+
+Definition at line 186 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a5dd2590223976a913256650e0db8e495}\label{struct_in_control_1_1_version_info_a5dd2590223976a913256650e0db8e495}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator$<$= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is equal to or smaller than the second. 
+
+
+
+Definition at line 166 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a6e425f5adc1c03a4b0096bbb235025c9}\label{struct_in_control_1_1_version_info_a6e425f5adc1c03a4b0096bbb235025c9}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator==@{operator==}}
+\index{operator==@{operator==}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} for equality. 
+
+
+
+Definition at line 147 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a11063b8f92f52e4898ab801a4af1712d}\label{struct_in_control_1_1_version_info_a11063b8f92f52e4898ab801a4af1712d}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is larger than the second. 
+
+
+
+Definition at line 196 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_af5445b145a2f8195667b16c9f2122efc}\label{struct_in_control_1_1_version_info_af5445b145a2f8195667b16c9f2122efc}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Version\+Info.\+operator$>$= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compares two instances of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} to see if the first is equal to or larger than the second. 
+
+
+
+Definition at line 176 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a56a2c558366739635f92e003c0ab5d9c}\label{struct_in_control_1_1_version_info_a56a2c558366739635f92e003c0ab5d9c}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!ToShortString@{ToShortString}}
+\index{ToShortString@{ToShortString}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{ToShortString()}{ToShortString()}}
+{\footnotesize\ttfamily string In\+Control.\+Version\+Info.\+To\+Short\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns a shorter System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. 
+
+\begin{DoxyReturn}{Returns}
+A shorter System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}.
+\end{DoxyReturn}
+
+
+Definition at line 249 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a88f860973cb768c4df335e3a66aad25c}\label{struct_in_control_1_1_version_info_a88f860973cb768c4df335e3a66aad25c}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!ToString@{ToString}}
+\index{ToString@{ToString}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string In\+Control.\+Version\+Info.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns a System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}. 
+
+\begin{DoxyReturn}{Returns}
+A System.\+String that represents the current \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}}.
+\end{DoxyReturn}
+
+
+Definition at line 234 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_ae71f6b15462bb4760262f9c9ec4669d2}\label{struct_in_control_1_1_version_info_ae71f6b15462bb4760262f9c9ec4669d2}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!UnityVersion@{UnityVersion}}
+\index{UnityVersion@{UnityVersion}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{UnityVersion()}{UnityVersion()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} In\+Control.\+Version\+Info.\+Unity\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Initialize an instance of \mbox{\hyperlink{struct_in_control_1_1_version_info}{In\+Control.\+Version\+Info}} with the current version of Unity. 
+
+\begin{DoxyReturn}{Returns}
+The current version of Unity.
+\end{DoxyReturn}
+
+
+Definition at line 81 of file Version\+Info.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_aab230b8422c1ab82d07e3d24b94a2493}\label{struct_in_control_1_1_version_info_aab230b8422c1ab82d07e3d24b94a2493}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!build@{build}}
+\index{build@{build}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{build}{build}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+build}
+
+
+
+The build version component. This number is incremented during development. 
+
+
+
+Definition at line 41 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_ad39b2cb168f2acde066536e37f36fcb6}\label{struct_in_control_1_1_version_info_ad39b2cb168f2acde066536e37f36fcb6}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!major@{major}}
+\index{major@{major}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{major}{major}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+major}
+
+
+
+The major version component. This number changes when significant A\+PI changes are made. 
+
+
+
+Definition at line 20 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_ac6fd258817149c7e126ee8479f40beba}\label{struct_in_control_1_1_version_info_ac6fd258817149c7e126ee8479f40beba}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!minor@{minor}}
+\index{minor@{minor}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{minor}{minor}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+minor}
+
+
+
+The minor version component. This number changes when significant functionality is added in a mostly backwards-\/compatible manner. 
+
+
+
+Definition at line 27 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a3dff696d8b56b755204aabd0346e0329}\label{struct_in_control_1_1_version_info_a3dff696d8b56b755204aabd0346e0329}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!patch@{patch}}
+\index{patch@{patch}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{patch}{patch}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+patch}
+
+
+
+The patch version component. This number is changed when small updates and fixes are added in a backwards-\/compatible manner. 
+
+
+
+Definition at line 34 of file Version\+Info.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a047781946090f942f6fed588e671d179}\label{struct_in_control_1_1_version_info_a047781946090f942f6fed588e671d179}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!Build@{Build}}
+\index{Build@{Build}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{Build}{Build}}
+{\footnotesize\ttfamily int In\+Control.\+Version\+Info.\+Build\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The build version component. This number is incremented during development. 
+
+
+
+Definition at line 124 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a9f45ee26dce919661bf0549201815c7b}\label{struct_in_control_1_1_version_info_a9f45ee26dce919661bf0549201815c7b}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!Max@{Max}}
+\index{Max@{Max}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{Max}{Max}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} In\+Control.\+Version\+Info.\+Max\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Generates the maximum possible version number. 
+
+
+
+Definition at line 106 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_aa7b3bfda44821c859a267e7476c74bcf}\label{struct_in_control_1_1_version_info_aa7b3bfda44821c859a267e7476c74bcf}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!Min@{Min}}
+\index{Min@{Min}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{Min}{Min}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} In\+Control.\+Version\+Info.\+Min $^\wedge$(\textbackslash{}d+)\textbackslash{}.(\textbackslash{}d+)\textbackslash{}.(\textbackslash{}d+)\mbox{[}a-\/zA-\/Z\mbox{]}(\textbackslash{}d+)\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Generates the minimum possible version number. 
+
+
+
+Definition at line 97 of file Version\+Info.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_version_info_a555d96840b3abc82ccabb341565846be}\label{struct_in_control_1_1_version_info_a555d96840b3abc82ccabb341565846be}} 
+\index{InControl.VersionInfo@{InControl.VersionInfo}!Next@{Next}}
+\index{Next@{Next}!InControl.VersionInfo@{InControl.VersionInfo}}
+\doxysubsubsection{\texorpdfstring{Next}{Next}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_version_info}{Version\+Info}} In\+Control.\+Version\+Info.\+Next\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Generates the next build version. 
+
+
+
+Definition at line 115 of file Version\+Info.\+cs.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\mbox{\hyperlink{_version_info_8cs}{Version\+Info.\+cs}}\end{DoxyCompactItemize}

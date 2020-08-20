@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_input_range" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::InputRange</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1aa5a40bb2a8ac2381318d08614201ce6d" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( 0.0f, 0.0f, InputRangeType.None )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="14" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1ab769d363eba469af0104f5f8a93500e8" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.MinusOneToOne</definition>
+        <argsstring></argsstring>
+        <name>MinusOneToOne</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( -1.0f, 1.0f, InputRangeType.MinusOneToOne )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="15" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a5ff0f8fdc006e86088e3006ede21b0d2" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.OneToMinusOne</definition>
+        <argsstring></argsstring>
+        <name>OneToMinusOne</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( 1.0f, -1.0f, InputRangeType.OneToMinusOne )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="16" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1af8148b8e3c781edfe59a4f0731cccd33" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.ZeroToOne</definition>
+        <argsstring></argsstring>
+        <name>ZeroToOne</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( 0.0f, 1.0f, InputRangeType.ZeroToOne )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="17" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a8b884ec4f2e42a27967dd965399fcae5" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.ZeroToMinusOne</definition>
+        <argsstring></argsstring>
+        <name>ZeroToMinusOne</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( 0.0f, -1.0f, InputRangeType.ZeroToMinusOne )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="18" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a772275659530f96ca015798b7223b178" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.OneToZero</definition>
+        <argsstring></argsstring>
+        <name>OneToZero</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( 1.0f, 0.0f, InputRangeType.OneToZero )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="19" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1aceae03fc197e697c8d47663ab504891a" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+        <definition>readonly InputRange InControl.InputRange.MinusOneToZero</definition>
+        <argsstring></argsstring>
+        <name>MinusOneToZero</name>
+        <initializer>= new <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>( -1.0f, 0.0f, InputRangeType.MinusOneToZero )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="20" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a5957811a2023f7af9b66b98065ede2c2" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref>[]</type>
+        <definition>readonly InputRange [] InControl.InputRange.typeToRange</definition>
+        <argsstring></argsstring>
+        <name>typeToRange</name>
+        <initializer>=
+		{
+			
+			<ref refid="struct_in_control_1_1_input_range_1aa5a40bb2a8ac2381318d08614201ce6d" kindref="member">None</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1ab769d363eba469af0104f5f8a93500e8" kindref="member">MinusOneToOne</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1a5ff0f8fdc006e86088e3006ede21b0d2" kindref="member">OneToMinusOne</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1af8148b8e3c781edfe59a4f0731cccd33" kindref="member">ZeroToOne</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1a8b884ec4f2e42a27967dd965399fcae5" kindref="member">ZeroToMinusOne</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1a772275659530f96ca015798b7223b178" kindref="member">OneToZero</ref>,
+			<ref refid="struct_in_control_1_1_input_range_1aceae03fc197e697c8d47663ab504891a" kindref="member">MinusOneToZero</ref>,
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="23" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a9d0d73e7af25dbf9ed4f35cd68e63f76" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float InControl.InputRange.Value0</definition>
+        <argsstring></argsstring>
+        <name>Value0</name>
+        <briefdescription>
+<para>The first value in the range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="39" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a385a871dcd86e4dc088925dfb301fd3b" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float InControl.InputRange.Value1</definition>
+        <argsstring></argsstring>
+        <name>Value1</name>
+        <briefdescription>
+<para>The second value in the range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="44" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_range_1a95756dce9d9e4261ad36d01a49c6eb5a" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+        <definition>readonly InputRangeType InControl.InputRange.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>An enum type of the range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="49" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a49677e276ef0b4f328e59eaf95ccfd82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputRange.InputRange</definition>
+        <argsstring>(float value0, float value1, InputRangeType type)</argsstring>
+        <name>InputRange</name>
+        <param>
+          <type>float</type>
+          <declname>value0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="52" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a0380cdbbed4938515d584409612b99cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputRange.InputRange</definition>
+        <argsstring>(InputRangeType type)</argsstring>
+        <name>InputRange</name>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new range from a predefined type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="63" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a7b1ae17212dd233c567874e84c39b32f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputRange.Includes</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Includes</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Check whether a value falls within of this range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the value falls within this range, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to check.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="76" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a051775119d743db6b35c8705701bf166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputRange.Excludes</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Excludes</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Check whether a value falls outside of this range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the value falls outside this range, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to check.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="87" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="87" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1ad71eb972cc04258d79f8e96294a5bc8c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.InputRange.Excludes</definition>
+        <argsstring>(InputRangeType rangeType, float value)</argsstring>
+        <name>Excludes</name>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>rangeType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Check whether a value falls outside of a specified range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the value falls outside this range, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rangeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range to check against.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to check.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="104" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a4848ddbcbdf53b6b1ccbdfb08aa033cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.InputRange.Remap</definition>
+        <argsstring>(float value, InputRange sourceRange, InputRange targetRange)</argsstring>
+        <name>Remap</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+          <declname>sourceRange</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_range" kindref="compound">InputRange</ref></type>
+          <declname>targetRange</declname>
+        </param>
+        <briefdescription>
+<para>Remap the specified value, from one range to another. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to remap.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sourceRange</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source range to map from.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>targetRange</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target range to map to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="116" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="116" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_range_1a0ec75adb28cf6156ad8690afe18b9f1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float InControl.InputRange.Remap</definition>
+        <argsstring>(float value, InputRangeType sourceRangeType, InputRangeType targetRangeType)</argsstring>
+        <name>Remap</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>sourceRangeType</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref></type>
+          <declname>targetRangeType</declname>
+        </param>
+        <briefdescription>
+<para>Remap the specified value, from one range to another. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to remap.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sourceRangeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source range to map from.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>targetRangeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target range to map to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="134" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="134" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This type represents a range inclusive of two values, and can remap a value from one range to another. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>readonly</label>
+      </node>
+      <node id="1">
+        <label>InControl.InputRange</label>
+        <link refid="struct_in_control_1_1_input_range"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Value0</edgelabel>
+          <edgelabel>Value1</edgelabel>
+          <edgelabel>typeToRange</edgelabel>
+          <edgelabel>MinusOneToOne</edgelabel>
+          <edgelabel>ZeroToMinusOne</edgelabel>
+          <edgelabel>OneToMinusOne</edgelabel>
+          <edgelabel>None</edgelabel>
+          <edgelabel>Type</edgelabel>
+          <edgelabel>OneToZero</edgelabel>
+          <edgelabel>ZeroToOne</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRange.cs" bodystart="12" bodyend="140"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_input_range_1a051775119d743db6b35c8705701bf166" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Excludes</name></member>
+      <member refid="struct_in_control_1_1_input_range_1ad71eb972cc04258d79f8e96294a5bc8c" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Excludes</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a7b1ae17212dd233c567874e84c39b32f" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Includes</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a49677e276ef0b4f328e59eaf95ccfd82" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>InputRange</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a0380cdbbed4938515d584409612b99cb" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>InputRange</name></member>
+      <member refid="struct_in_control_1_1_input_range_1ab769d363eba469af0104f5f8a93500e8" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>MinusOneToOne</name></member>
+      <member refid="struct_in_control_1_1_input_range_1aceae03fc197e697c8d47663ab504891a" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>MinusOneToZero</name></member>
+      <member refid="struct_in_control_1_1_input_range_1aa5a40bb2a8ac2381318d08614201ce6d" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>None</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a5ff0f8fdc006e86088e3006ede21b0d2" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>OneToMinusOne</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a772275659530f96ca015798b7223b178" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>OneToZero</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a4848ddbcbdf53b6b1ccbdfb08aa033cd" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Remap</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a0ec75adb28cf6156ad8690afe18b9f1c" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Remap</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a95756dce9d9e4261ad36d01a49c6eb5a" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Type</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a5957811a2023f7af9b66b98065ede2c2" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>typeToRange</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a9d0d73e7af25dbf9ed4f35cd68e63f76" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Value0</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a385a871dcd86e4dc088925dfb301fd3b" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>Value1</name></member>
+      <member refid="struct_in_control_1_1_input_range_1a8b884ec4f2e42a27967dd965399fcae5" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>ZeroToMinusOne</name></member>
+      <member refid="struct_in_control_1_1_input_range_1af8148b8e3c781edfe59a4f0731cccd33" prot="public" virt="non-virtual"><scope>InControl::InputRange</scope><name>ZeroToOne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,344 @@
+\hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu}{}\doxysection{Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu Class Reference}
+\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu}\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+
+
+\mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu}{Main\+Menu}} implementation of I\+F\+S\+Scene$<$\+T$>$  
+
+
+Inheritance diagram for Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af63e07fa6bcd3bcc389a089c129c4964}{On\+Scene\+Loaded}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Loaded raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af39520f1c5905b5e77c12ed83fac6851}{On\+Scene\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Changed raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a625ce1084645710d13caff0f27ad413b}{On\+Load\+Progression}} (int index, float progression)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Load\+Progression raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a222de3b4b9d4a8d78274a05c38f7ab26}{On\+Scene\+Unloaded}} (int index)
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Scene\+Unloaded raised by Game\+Manager \end{DoxyCompactList}\item 
+sealed override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5df8e1c1a0563b109877fb0295fdf278}{On\+Update}} ()
+\begin{DoxyCompactList}\small\item\em subscribe to the on\+Update raised by Game\+Manager \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ac508cea259a3e9a7e32bb574937bf9df}{Change\+View}} (\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{I\+F\+S\+View}}$<$ \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu}{Scene\+\_\+\+Main\+Menu}} $>$ new\+View)
+\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_abc3ef48bcea42c0815c360ef81151365}{Load\+Scene}} (int index)
+\begin{DoxyCompactList}\small\item\em Called from views to change scene when needed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5be0df14cdae9b7cda9e4a9d61d7b613}{Unload\+Scene}} (int index)
+\begin{DoxyCompactList}\small\item\em Called from views to unload scene when needed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a6fa940abf57f82ff0dfdedc8947c16d9}{base\+Menu\+UI}}
+\begin{DoxyCompactList}\small\item\em UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu}{Base\+Menu}} I\+F\+S\+View$<$\+T$>$ \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_acae240926d36904893dc3c473768be08}{option\+Menu\+UI}}
+\begin{DoxyCompactList}\small\item\em UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu}{Option\+Menu}} I\+F\+S\+View$<$\+T$>$ \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a9411af38c828289415e3fd0c0dfaf63b}{loading\+Menu\+UI}}
+\begin{DoxyCompactList}\small\item\em UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu}{Loading\+Menu}} I\+F\+S\+View$<$\+T$>$ \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a2c4398cd48ba7299458e4da9c079f027}{current\+Progression}} = 0f
+\begin{DoxyCompactList}\small\item\em To keep track of current progression for the progress bar when loading on the loading menu \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu}{View\+\_\+\+Base\+Menu}} \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae0ec67059da2a8e0394a78042ac3e98f}{base\+Menu}} = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu}{View\+\_\+\+Base\+Menu}}()
+\begin{DoxyCompactList}\small\item\em Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu}{Base\+Menu}} \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu}{View\+\_\+\+Option\+Menu}} \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a605696bda682a7eecbc2867cf1644136}{option\+Menu}} = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu}{View\+\_\+\+Option\+Menu}}()
+\begin{DoxyCompactList}\small\item\em Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu}{Option\+Menu}} \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu}{View\+\_\+\+Loading\+Menu}} \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_afcc5de0350f2081ed62f012264d2c9ac}{loading\+Menu}} = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu}{View\+\_\+\+Loading\+Menu}}()
+\begin{DoxyCompactList}\small\item\em Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu}{Loading\+Menu}} \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae4a86bba44eb0cb4b4034c17f1a52e64}{transition}}
+\begin{DoxyCompactList}\small\item\em Image for transitioning out of the scene \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu}{Main\+Menu}} implementation of I\+F\+S\+Scene$<$\+T$>$ 
+
+
+
+Definition at line 19 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ac508cea259a3e9a7e32bb574937bf9df}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ac508cea259a3e9a7e32bb574937bf9df}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!ChangeView@{ChangeView}}
+\index{ChangeView@{ChangeView}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{ChangeView()}{ChangeView()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+Change\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view}{I\+F\+S\+View}}$<$ \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu}{Scene\+\_\+\+Main\+Menu}} $>$}]{new\+View }\end{DoxyParamCaption})}
+
+
+
+Definition at line 103 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_abc3ef48bcea42c0815c360ef81151365}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_abc3ef48bcea42c0815c360ef81151365}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!LoadScene@{LoadScene}}
+\index{LoadScene@{LoadScene}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{LoadScene()}{LoadScene()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+Load\+Scene (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Called from views to change scene when needed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index of the Scene to load.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 114 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a625ce1084645710d13caff0f27ad413b}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a625ce1084645710d13caff0f27ad413b}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!OnLoadProgression@{OnLoadProgression}}
+\index{OnLoadProgression@{OnLoadProgression}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{OnLoadProgression()}{OnLoadProgression()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+On\+Load\+Progression (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{float}]{progression }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Load\+Progression raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the current Scene progression\\
+\hline
+{\em progression} & value of the current Scene progression\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_aa1db58019b74cffbb7c72a0bcd6ece5c}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Main\+Menu $>$}}.
+
+
+
+Definition at line 88 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af39520f1c5905b5e77c12ed83fac6851}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af39520f1c5905b5e77c12ed83fac6851}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!OnSceneChanged@{OnSceneChanged}}
+\index{OnSceneChanged@{OnSceneChanged}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{OnSceneChanged()}{OnSceneChanged()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+On\+Scene\+Changed (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Changed raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the changed Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a94507aa18af634587a5ad7303565fa6b}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Main\+Menu $>$}}.
+
+
+
+Definition at line 84 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af63e07fa6bcd3bcc389a089c129c4964}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_af63e07fa6bcd3bcc389a089c129c4964}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!OnSceneLoaded@{OnSceneLoaded}}
+\index{OnSceneLoaded@{OnSceneLoaded}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{OnSceneLoaded()}{OnSceneLoaded()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+On\+Scene\+Loaded (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Loaded raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the loaded Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a4ff06426701488cfbb8332604627cfff}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Main\+Menu $>$}}.
+
+
+
+Definition at line 78 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a222de3b4b9d4a8d78274a05c38f7ab26}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a222de3b4b9d4a8d78274a05c38f7ab26}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!OnSceneUnloaded@{OnSceneUnloaded}}
+\index{OnSceneUnloaded@{OnSceneUnloaded}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{OnSceneUnloaded()}{OnSceneUnloaded()}}
+{\footnotesize\ttfamily override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+On\+Scene\+Unloaded (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Scene\+Unloaded raised by Game\+Manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & index of the unloaded Scene\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_a510a1e7a2c5a05be578f963089ad4ea8}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Main\+Menu $>$}}.
+
+
+
+Definition at line 94 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5df8e1c1a0563b109877fb0295fdf278}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5df8e1c1a0563b109877fb0295fdf278}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily sealed override void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+subscribe to the on\+Update raised by Game\+Manager 
+
+
+
+Implements \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene_aa945778bcc39b5d402ef5cf1262faa5e}{Francois\+Sauce.\+Scripts.\+F\+S\+Scenes.\+I\+F\+S\+Scene$<$ Scene\+\_\+\+Main\+Menu $>$}}.
+
+
+
+Definition at line 98 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5be0df14cdae9b7cda9e4a9d61d7b613}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a5be0df14cdae9b7cda9e4a9d61d7b613}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!UnloadScene@{UnloadScene}}
+\index{UnloadScene@{UnloadScene}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{UnloadScene()}{UnloadScene()}}
+{\footnotesize\ttfamily void Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+Unload\+Scene (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Called from views to unload scene when needed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index of the Scene to unload.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 123 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae0ec67059da2a8e0394a78042ac3e98f}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae0ec67059da2a8e0394a78042ac3e98f}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!baseMenu@{baseMenu}}
+\index{baseMenu@{baseMenu}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{baseMenu}{baseMenu}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu}{View\+\_\+\+Base\+Menu}} Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+base\+Menu = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu}{View\+\_\+\+Base\+Menu}}()}
+
+
+
+Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu}{Base\+Menu}} 
+
+
+
+Definition at line 45 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a6fa940abf57f82ff0dfdedc8947c16d9}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a6fa940abf57f82ff0dfdedc8947c16d9}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!baseMenuUI@{baseMenuUI}}
+\index{baseMenuUI@{baseMenuUI}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{baseMenuUI}{baseMenuUI}}
+{\footnotesize\ttfamily Game\+Object Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+base\+Menu\+UI}
+
+
+
+UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu}{Base\+Menu}} I\+F\+S\+View$<$\+T$>$ 
+
+
+
+Definition at line 25 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a2c4398cd48ba7299458e4da9c079f027}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a2c4398cd48ba7299458e4da9c079f027}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!currentProgression@{currentProgression}}
+\index{currentProgression@{currentProgression}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{currentProgression}{currentProgression}}
+{\footnotesize\ttfamily float Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+current\+Progression = 0f}
+
+
+
+To keep track of current progression for the progress bar when loading on the loading menu 
+
+
+
+Definition at line 40 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_afcc5de0350f2081ed62f012264d2c9ac}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_afcc5de0350f2081ed62f012264d2c9ac}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!loadingMenu@{loadingMenu}}
+\index{loadingMenu@{loadingMenu}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{loadingMenu}{loadingMenu}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu}{View\+\_\+\+Loading\+Menu}} Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+loading\+Menu = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu}{View\+\_\+\+Loading\+Menu}}()}
+
+
+
+Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu}{Loading\+Menu}} 
+
+
+
+Definition at line 53 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a9411af38c828289415e3fd0c0dfaf63b}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a9411af38c828289415e3fd0c0dfaf63b}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!loadingMenuUI@{loadingMenuUI}}
+\index{loadingMenuUI@{loadingMenuUI}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{loadingMenuUI}{loadingMenuUI}}
+{\footnotesize\ttfamily Game\+Object Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+loading\+Menu\+UI}
+
+
+
+UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu}{Loading\+Menu}} I\+F\+S\+View$<$\+T$>$ 
+
+
+
+Definition at line 33 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a605696bda682a7eecbc2867cf1644136}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_a605696bda682a7eecbc2867cf1644136}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!optionMenu@{optionMenu}}
+\index{optionMenu@{optionMenu}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{optionMenu}{optionMenu}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu}{View\+\_\+\+Option\+Menu}} Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+option\+Menu = new \mbox{\hyperlink{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu}{View\+\_\+\+Option\+Menu}}()}
+
+
+
+Finite state machine implementation, \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu}{Option\+Menu}} 
+
+
+
+Definition at line 49 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_acae240926d36904893dc3c473768be08}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_acae240926d36904893dc3c473768be08}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!optionMenuUI@{optionMenuUI}}
+\index{optionMenuUI@{optionMenuUI}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{optionMenuUI}{optionMenuUI}}
+{\footnotesize\ttfamily Game\+Object Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+option\+Menu\+UI}
+
+
+
+UI for the \mbox{\hyperlink{namespace_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu}{Option\+Menu}} I\+F\+S\+View$<$\+T$>$ 
+
+
+
+Definition at line 29 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+\mbox{\Hypertarget{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae4a86bba44eb0cb4b4034c17f1a52e64}\label{class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu_ae4a86bba44eb0cb4b4034c17f1a52e64}} 
+\index{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}!transition@{transition}}
+\index{transition@{transition}!FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu@{FrancoisSauce.Scripts.MainMenu.Scene\_MainMenu}}
+\doxysubsubsection{\texorpdfstring{transition}{transition}}
+{\footnotesize\ttfamily Image Francois\+Sauce.\+Scripts.\+Main\+Menu.\+Scene\+\_\+\+Main\+Menu.\+transition}
+
+
+
+Image for transitioning out of the scene 
+
+
+
+Definition at line 59 of file Scene\+\_\+\+Main\+Menu.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce/\+Scripts/\+Main\+Menu/\mbox{\hyperlink{_scene___main_menu_8cs}{Scene\+\_\+\+Main\+Menu.\+cs}}\end{DoxyCompactItemize}

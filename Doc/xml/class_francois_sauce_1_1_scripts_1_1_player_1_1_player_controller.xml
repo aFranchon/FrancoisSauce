@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::Player::PlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Directions</name>
+        <enumvalue id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329a21507b40c80068eda19865706fdc2403" prot="private">
+          <name>RIGHT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329a684d325a7303f52e64011467ff5c5758" prot="private">
+          <name>LEFT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329abfec72bb37910c61f36b6c29a1f7ec31" prot="private">
+          <name>FORWARD</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329a6377b4908ae38f9a57fe9120cf179eb1" prot="private">
+          <name>BACKWARD</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>enum to name different directions of the player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="27" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a8217b597a80e62dd0d6c448e3af7455f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform FrancoisSauce.Scripts.Player.PlayerController.myTransform</definition>
+        <argsstring></argsstring>
+        <name>myTransform</name>
+        <briefdescription>
+<para>private ref to the Transform component of this object, optimization purpose </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="17" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1ac043d1fee607675fe91222ac2cf1cce9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls" kindref="compound">PlayerControls</ref></type>
+        <definition>PlayerControls FrancoisSauce.Scripts.Player.PlayerController.playerControls</definition>
+        <argsstring></argsstring>
+        <name>playerControls</name>
+        <briefdescription>
+<para>PlayerActionSet implementation of the player control with arrows </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="22" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a83b7617f6dab90a8761f3d0f266fd2e4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_float_s_o" kindref="compound">FSGlobalFloatSO</ref></type>
+        <definition>FSGlobalFloatSO FrancoisSauce.Scripts.Player.PlayerController.rotateSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotateSpeed</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>rotate speed of the player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="64" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1ade944c3bde95b8a9455b9e59c004d89a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_float_s_o" kindref="compound">FSGlobalFloatSO</ref></type>
+        <definition>FSGlobalFloatSO FrancoisSauce.Scripts.Player.PlayerController.moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>move speed of the player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="68" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a9e987221860213b2e3e0e76d3851fc77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.Player.PlayerController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>Awake method of MonoBehaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="38" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a97df77a0971286a8fd45480269f59845" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.Player.PlayerController.Move</definition>
+        <argsstring>(Directions direction)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>Directions</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>private method to move the Transform of the player </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="74" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="74" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a76f201ad762dac5a1d1106de5b966994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.Player.PlayerController.OnUpdateGameStarted</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdateGameStarted</name>
+        <briefdescription>
+<para>Called like o Update method of MonoBehaviour but each frame of started and not paused game </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="53" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>the class to control o player with arrows using <ref refid="namespace_in_control" kindref="compound">InControl</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.Player.PlayerController</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.Player.PlayerController</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="12" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="13" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a9e987221860213b2e3e0e76d3851fc77" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>Directions</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a97df77a0971286a8fd45480269f59845" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>Move</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1ade944c3bde95b8a9455b9e59c004d89a" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>moveSpeed</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a8217b597a80e62dd0d6c448e3af7455f" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>myTransform</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a76f201ad762dac5a1d1106de5b966994" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>OnUpdateGameStarted</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1ac043d1fee607675fe91222ac2cf1cce9" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>playerControls</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a83b7617f6dab90a8761f3d0f266fd2e4" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>rotateSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

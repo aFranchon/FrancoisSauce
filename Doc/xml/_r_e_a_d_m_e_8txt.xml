@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_r_e_a_d_m_e_8txt" kind="file" language="C++">
+    <compoundname>README.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_r_e_a_d_m_e_8txt_1a0d6fcc387a73b4c372b1a5251b554d20" prot="public" static="no" mutable="no">
+        <type>Documentation and additional information is available online</type>
+        <definition>Documentation and additional information is available online at</definition>
+        <argsstring></argsstring>
+        <name>at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" line="3" column="62" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_r_e_a_d_m_e_8txt_1adc806030fc83fc80fd405e473c276cfa" prot="public" static="no" mutable="no">
+        <type>Documentation and additional information is available online but it can also be <ref refid="_o_f_l_8txt_1a497ad718514884188c656eb94743f7d0" kindref="member">used</ref> with JavaScript To access it from</type>
+        <definition>Documentation and additional information is available online but it can also be used with JavaScript To access it from JavaScript</definition>
+        <argsstring></argsstring>
+        <name>JavaScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" line="8" column="60" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_r_e_a_d_m_e_8txt_1a6e05c68fce9720e852b8308c21469f26" prot="public" static="no" mutable="no">
+        <type>Documentation and additional information is available online but it can also be <ref refid="_o_f_l_8txt_1a497ad718514884188c656eb94743f7d0" kindref="member">used</ref> with <ref refid="_r_e_a_d_m_e_8txt_1adc806030fc83fc80fd405e473c276cfa" kindref="member">JavaScript</ref> To access it from create a folder under the Assets folder named Plugins and move the InControl folder inside You will also need to add import</type>
+        <definition>Documentation and additional information is available online but it can also be used with JavaScript To access it from create a folder under the Assets folder named Plugins and move the InControl folder inside You will also need to add import InControl</definition>
+        <argsstring></argsstring>
+        <name>InControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" line="8" column="195" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">##<sp/>InControl<sp/>(version<sp/>1.8.2<sp/>build<sp/>9357)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Documentation<sp/>and<sp/>additional<sp/>information<sp/>is<sp/>available<sp/>online<sp/><ref refid="_r_e_a_d_m_e_8txt_1a0d6fcc387a73b4c372b1a5251b554d20" kindref="member">at</ref>:</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">http:</highlight><highlight class="comment">//www.gallantgames.com/incontrol</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">##<sp/>JavaScript</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref><sp/>is<sp/>written<sp/>in<sp/><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0d61f8370cad1d412f80b84d143e1257" kindref="member">C</ref>#,<sp/>but<sp/>it<sp/>can<sp/>also<sp/>be<sp/><ref refid="_o_f_l_8txt_1a497ad718514884188c656eb94743f7d0" kindref="member">used</ref><sp/>with<sp/><ref refid="_r_e_a_d_m_e_8txt_1adc806030fc83fc80fd405e473c276cfa" kindref="member">JavaScript</ref>.<sp/>To<sp/>access<sp/>it<sp/>from<sp/><ref refid="_r_e_a_d_m_e_8txt_1adc806030fc83fc80fd405e473c276cfa" kindref="member">JavaScript</ref>,<sp/>create<sp/>a<sp/>folder<sp/>under<sp/>the<sp/></highlight><highlight class="stringliteral">&apos;Assets&apos;</highlight><highlight class="normal"><sp/>folder<sp/>named<sp/></highlight><highlight class="stringliteral">&apos;Plugins&apos;</highlight><highlight class="normal"><sp/>and<sp/>move<sp/>the<sp/></highlight><highlight class="stringliteral">&apos;InControl&apos;</highlight><highlight class="normal"><sp/>folder<sp/>inside.<sp/>You<sp/>will<sp/>also<sp/>need<sp/>to<sp/>add<sp/></highlight><highlight class="stringliteral">&apos;import<sp/>InControl;&apos;</highlight><highlight class="normal"><sp/>to<sp/>the<sp/>top<sp/>of<sp/>your<sp/><ref refid="_r_e_a_d_m_e_8txt_1adc806030fc83fc80fd405e473c276cfa" kindref="member">JavaScript</ref><sp/>files.<sp/>For<sp/>projects<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control" kindref="compound">InControl</ref><sp/>from<sp/><ref refid="namespace_in_control_1a19d1dc8fcbdfb37bcf314454ba8f5424a0d61f8370cad1d412f80b84d143e1257" kindref="member">C</ref>#,<sp/>none<sp/>of<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>is<sp/>necessary.<sp/>For<sp/>more<sp/>information,<sp/>please<sp/>see<sp/>the<sp/>[<ref refid="namespace_in_control_1a6fd25d223b4263a4637fd40829192c84a82dd98f1d663acc318e6a8ec4ab69b7a" kindref="member">Unity</ref><sp/>documentation<sp/>on<sp/>Special<sp/>Folders<sp/>and<sp/>Script<sp/>Compilation<sp/>Order<sp/><ref refid="_r_e_a_d_m_e_8txt_1a0d6fcc387a73b4c372b1a5251b554d20" kindref="member">at</ref><sp/>http:</highlight><highlight class="comment">//docs.unity3d.com/Documentation/Manual/ScriptCompileOrderFolders.html</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme/README.txt"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_da0ffc59febfd7d245d0dce0b24141d1" kind="dir">
+    <compoundname>Fantasy UI</compoundname>
+    <innerdir refid="dir_e731d51896d0908962ad906d8d0cde9d">Fantasy UI/Fonts</innerdir>
+    <innerdir refid="dir_f43226bab6a66c036323f56221ac0f73">Fantasy UI/Samples</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Fantasy UI/"/>
+  </compounddef>
+</doxygen>

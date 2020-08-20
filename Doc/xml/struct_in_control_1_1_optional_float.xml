@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_optional_float" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::OptionalFloat</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_float_1a39eeacd526771ceddc57ae657e1f68df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.hasValue</definition>
+        <argsstring></argsstring>
+        <name>hasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="21" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_float_1ac09780e88d774ac50a2f4e5c2372a69c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.OptionalFloat.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="25" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_optional_float_1a3f88c8a51cb5c42d7658ae59d6f9f9cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.HasValue</definition>
+        <argsstring></argsstring>
+        <name>HasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="35" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_float_1a62b626a57d85362fe854473beef8fc62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.HasNoValue</definition>
+        <argsstring></argsstring>
+        <name>HasNoValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="44" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_float_1ab618eb03de77a93f8b08978970e1398a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.OptionalFloat.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="53" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="54" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_float_1ab439974521fcd49dcc34057d69c81bfa" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float InControl.OptionalFloat.epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <initializer>= 1.0e-7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="182" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a4b7b379b64c70a5b833d751549039366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.OptionalFloat.OptionalFloat</definition>
+        <argsstring>(float value)</argsstring>
+        <name>OptionalFloat</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="28" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a72ec0cf5dc81d746f1154ef1e419da3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalFloat.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="73" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1aafe9de560772b622204cd467cbc7888a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InControl.OptionalFloat.GetValueOrDefault</definition>
+        <argsstring>(float defaultValue)</argsstring>
+        <name>GetValueOrDefault</name>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="80" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a504c8a12c4043dcf73bd95ad07c698ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InControl.OptionalFloat.GetValueOrZero</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueOrZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="86" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1af0912736dfefb00c3f54a9cd7e08936c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalFloat.SetValue</definition>
+        <argsstring>(float value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="92" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1ad548e27c27736ce19c18cdd292fc3a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.OptionalFloat.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="99" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1af944d5849d5d9e7ef7d7cc47ad474c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.Equals</definition>
+        <argsstring>(OptionalFloat other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="106" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a03f30af31413d4745616a07a9333251d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.Equals</definition>
+        <argsstring>(float other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>float</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="114" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a1df49d7051cdbc7d8373f53b0f6110ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.OptionalFloat.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="156" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a2c13e49e03a03002501dde52624d9412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.OptionalFloat.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="164" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a8c6e5ba043f8e701557887bf685c3c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalFloat.ApproximatelyEquals</definition>
+        <argsstring>(float other)</argsstring>
+        <name>ApproximatelyEquals</name>
+        <param>
+          <type>float</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="193" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="193" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a712e767513ae16a38357cdbd554a0314" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalFloat.operator==</definition>
+        <argsstring>(OptionalFloat a, OptionalFloat b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="121" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a57ac462e257e3c0a92fcec6c62257290" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalFloat.operator!=</definition>
+        <argsstring>(OptionalFloat a, OptionalFloat b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="129" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a429eb023602807e3987eeeb9a6e97b16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalFloat.operator==</definition>
+        <argsstring>(OptionalFloat a, float b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="135" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1abaf0eeeb3d6fb4e85434265f7451c5a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalFloat.operator!=</definition>
+        <argsstring>(OptionalFloat a, float b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="141" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a8b346a985218494587a9f36402039253" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.OptionalFloat.CombineHashCodes</definition>
+        <argsstring>(int h1, int h2)</argsstring>
+        <name>CombineHashCodes</name>
+        <param>
+          <type>int</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="147" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1ab8db3cc995e7556474349bff35e88600" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.OptionalFloat.operator OptionalFloat</definition>
+        <argsstring>(float value)</argsstring>
+        <name>operator OptionalFloat</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="170" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a09c3ae2ab1c4ce7b21975315e7562705" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static InControl.OptionalFloat.operator float</definition>
+        <argsstring>(OptionalFloat optional)</argsstring>
+        <name>operator float</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_float" kindref="compound">OptionalFloat</ref></type>
+          <declname>optional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="176" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_float_1a3060f769e8fe68a84b6e5476c0436828" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalFloat.IsApproximatelyEqual</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>IsApproximatelyEqual</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="185" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="185" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" line="17" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalFloat.cs" bodystart="18" bodyend="204"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_optional_float_1a8c6e5ba043f8e701557887bf685c3c9b" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>ApproximatelyEquals</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a72ec0cf5dc81d746f1154ef1e419da3b" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>Clear</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a8b346a985218494587a9f36402039253" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>CombineHashCodes</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1ab439974521fcd49dcc34057d69c81bfa" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>epsilon</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1ad548e27c27736ce19c18cdd292fc3a99" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1af944d5849d5d9e7ef7d7cc47ad474c1d" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a03f30af31413d4745616a07a9333251d" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a1df49d7051cdbc7d8373f53b0f6110ca" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1aafe9de560772b622204cd467cbc7888a" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>GetValueOrDefault</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a504c8a12c4043dcf73bd95ad07c698ec" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>GetValueOrZero</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a62b626a57d85362fe854473beef8fc62" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>HasNoValue</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a39eeacd526771ceddc57ae657e1f68df" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>hasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a3f88c8a51cb5c42d7658ae59d6f9f9cd" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>HasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a3060f769e8fe68a84b6e5476c0436828" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>IsApproximatelyEqual</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a09c3ae2ab1c4ce7b21975315e7562705" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator float</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1ab8db3cc995e7556474349bff35e88600" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator OptionalFloat</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a57ac462e257e3c0a92fcec6c62257290" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1abaf0eeeb3d6fb4e85434265f7451c5a8" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a712e767513ae16a38357cdbd554a0314" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a429eb023602807e3987eeeb9a6e97b16" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a4b7b379b64c70a5b833d751549039366" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>OptionalFloat</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1af0912736dfefb00c3f54a9cd7e08936c" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>SetValue</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1a2c13e49e03a03002501dde52624d9412" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1ab618eb03de77a93f8b08978970e1398a" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>Value</name></member>
+      <member refid="struct_in_control_1_1_optional_float_1ac09780e88d774ac50a2f4e5c2372a69c" prot="public" virt="non-virtual"><scope>InControl::OptionalFloat</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

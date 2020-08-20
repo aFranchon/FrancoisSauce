@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f8538d7a0aae585dd8fd2f493b24f9db" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor</compoundname>
+    <innerdir refid="dir_66124891fbba6a7e99af72553be23ea6">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes</innerdir>
+    <innerdir refid="dir_076050c71e508c7c397c8b02c6eef605">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/Touch</innerdir>
+    <innerfile refid="_editor_textures_8cs">EditorTextures.cs</innerfile>
+    <innerfile refid="_editor_utility_8cs">EditorUtility.cs</innerfile>
+    <innerfile refid="_in_control_builder_8cs">InControlBuilder.cs</innerfile>
+    <innerfile refid="_in_control_input_module_editor_8cs">InControlInputModuleEditor.cs</innerfile>
+    <innerfile refid="_in_control_manager_editor_8cs">InControlManagerEditor.cs</innerfile>
+    <innerfile refid="_input_control_mapping_property_drawer_8cs">InputControlMappingPropertyDrawer.cs</innerfile>
+    <innerfile refid="_input_control_source_property_drawer_8cs">InputControlSourcePropertyDrawer.cs</innerfile>
+    <innerfile refid="_input_manager_asset_generator_8cs">InputManagerAssetGenerator.cs</innerfile>
+    <innerfile refid="_native_profile_list_generator_8cs">NativeProfileListGenerator.cs</innerfile>
+    <innerfile refid="_unity_profile_list_generator_8cs">UnityProfileListGenerator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/"/>
+  </compounddef>
+</doxygen>

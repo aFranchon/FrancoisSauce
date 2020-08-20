@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_in_control_manager" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InControlManager</compoundname>
+    <basecompoundref refid="class_in_control_1_1_singleton_mono_behavior" prot="public" virt="non-virtual">InControl.SingletonMonoBehavior&lt; InControlManager &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a59e0895401c167baafd12f0615545ea3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.logDebugInfo</definition>
+        <argsstring></argsstring>
+        <name>logDebugInfo</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="26" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1ab0f6e086c3786f0d3bd80a95f6834fc7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.invertYAxis</definition>
+        <argsstring></argsstring>
+        <name>invertYAxis</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="27" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a366cf752a92690944e56290d56d540c4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.dontDestroyOnLoad</definition>
+        <argsstring></argsstring>
+        <name>dontDestroyOnLoad</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="35" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a9e2c6b51fc9d6387e70bc6a39a2a49cb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.suspendInBackground</definition>
+        <argsstring></argsstring>
+        <name>suspendInBackground</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="36" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a6421b114f8f9b9af6fcc0333214e0f35" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a5ae6e3c90e0df90b1054ca2d4c37ce4c" kindref="member">InControlUpdateMode</ref></type>
+        <definition>InControlUpdateMode InControl.InControlManager.updateMode</definition>
+        <argsstring></argsstring>
+        <name>updateMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="37" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1ac109847d3f963c3c06e9666fc3102cd0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.enableICade</definition>
+        <argsstring></argsstring>
+        <name>enableICade</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="39" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a114ebf71036d65860eaad29f00807f79" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.enableXInput</definition>
+        <argsstring></argsstring>
+        <name>enableXInput</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="41" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a3ed7dde77ffb684295268b124b113187" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.xInputOverrideUpdateRate</definition>
+        <argsstring></argsstring>
+        <name>xInputOverrideUpdateRate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="42" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a9f8629eae375d1b5add34901fb3fefbb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InControlManager.xInputUpdateRate</definition>
+        <argsstring></argsstring>
+        <name>xInputUpdateRate</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="43" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1aa41fd97123b1006ec6c34a5fb8124312" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.xInputOverrideBufferSize</definition>
+        <argsstring></argsstring>
+        <name>xInputOverrideBufferSize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="44" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1adf8cedf14d60b8d6641117e989350dbf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InControlManager.xInputBufferSize</definition>
+        <argsstring></argsstring>
+        <name>xInputBufferSize</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="45" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1ab921130caced85c9eca19c6aa3b0598d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.enableNativeInput</definition>
+        <argsstring></argsstring>
+        <name>enableNativeInput</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="47" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a0af3a0a3ffd946db07cdca679505f34f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.nativeInputEnableXInput</definition>
+        <argsstring></argsstring>
+        <name>nativeInputEnableXInput</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="48" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a67d9f00a56ab731faba9db65ac44a676" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.nativeInputEnableMFi</definition>
+        <argsstring></argsstring>
+        <name>nativeInputEnableMFi</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="49" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1ac4b24cfc8775c88db5ad004d118003a2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.nativeInputPreventSleep</definition>
+        <argsstring></argsstring>
+        <name>nativeInputPreventSleep</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="50" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1acde44e57a62899abc61123f2b03ac9f5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.nativeInputOverrideUpdateRate</definition>
+        <argsstring></argsstring>
+        <name>nativeInputOverrideUpdateRate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="51" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a84eda5dc1fdc3167919e399672273da5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.InControlManager.nativeInputUpdateRate</definition>
+        <argsstring></argsstring>
+        <name>nativeInputUpdateRate</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="52" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1a47e6226ceeaded1f7ecfa9cce514f666" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.useFixedUpdate</definition>
+        <argsstring></argsstring>
+        <name>useFixedUpdate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="32" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_in_control_manager_1ac2d36e1bc11496693407ceec33bc4767" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InControlManager.applicationHasQuit</definition>
+        <argsstring></argsstring>
+        <name>applicationHasQuit</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="54" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a70d38356be476f27df0cf262e5020b9c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="57" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="57" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a8a27231872bfce6d67aaa407cf8b4dd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="100" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="100" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1aa2f3f7d8ed7b9cee17c9778b8aafa181" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="134" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="134" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a6d2f695d9700c4b24295de8f6d18cac4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="145" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="145" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a255d3f2e86d976d1237a8212a9bd4277" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnApplicationFocus</definition>
+        <argsstring>(bool focusState)</argsstring>
+        <name>OnApplicationFocus</name>
+        <param>
+          <type>bool</type>
+          <declname>focusState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="156" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a0ec65fef05cc617cc8bb750715478ed9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnApplicationPause</definition>
+        <argsstring>(bool pauseState)</argsstring>
+        <name>OnApplicationPause</name>
+        <param>
+          <type>bool</type>
+          <declname>pauseState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="163" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1ad91270ca3a9fec09ed0f5c7c420593c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="170" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a7dafabe878ce2fd296554e9d5d63b96c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InControlManager.OnLevelWasLoaded</definition>
+        <argsstring>(int level)</argsstring>
+        <name>OnLevelWasLoaded</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="188" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="188" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_in_control_manager_1a1a91a600b75003bbd1564c09aff3d0a2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.InControlManager.LogMessage</definition>
+        <argsstring>(LogMessage logMessage)</argsstring>
+        <name>LogMessage</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_log_message" kindref="compound">LogMessage</ref></type>
+          <declname>logMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="196" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="196" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.InControlManager</label>
+        <link refid="class_in_control_1_1_in_control_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SingletonMonoBehavior&lt; InControlManager &gt;</label>
+        <link refid="class_in_control_1_1_singleton_mono_behavior"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.InControlManager</label>
+        <link refid="class_in_control_1_1_in_control_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SingletonMonoBehavior&lt; InControlManager &gt;</label>
+        <link refid="class_in_control_1_1_singleton_mono_behavior"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" line="24" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Components/InControlManager.cs" bodystart="25" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_in_control_manager_1ac2d36e1bc11496693407ceec33bc4767" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>applicationHasQuit</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1aff3d984838cc2b331528021ede6ed6a5" prot="protected" virt="virtual"><scope>InControl::InControlManager</scope><name>Awake</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a366cf752a92690944e56290d56d540c4" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>dontDestroyOnLoad</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1ac109847d3f963c3c06e9666fc3102cd0" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>enableICade</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1ab921130caced85c9eca19c6aa3b0598d" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>enableNativeInput</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a114ebf71036d65860eaad29f00807f79" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>enableXInput</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a22174995c2f5542f14c81f0c5d73ae7e" prot="protected" virt="non-virtual"><scope>InControl::InControlManager</scope><name>EnforceSingleton</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a6d2f695d9700c4b24295de8f6d18cac4" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>FixedUpdate</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a2089ba68fc4b959f482c6f5cfb2e6606" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>Instance</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1ab0f6e086c3786f0d3bd80a95f6834fc7" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>invertYAxis</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a6c557432bdef227f75b1dbd48b774501" prot="protected" virt="non-virtual"><scope>InControl::InControlManager</scope><name>IsNotTheSingleton</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1ae98bc06372134df5aa3da4a0fbfc43aa" prot="protected" virt="non-virtual"><scope>InControl::InControlManager</scope><name>IsTheSingleton</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a59e0895401c167baafd12f0615545ea3" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>logDebugInfo</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a1a91a600b75003bbd1564c09aff3d0a2" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>LogMessage</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a67d9f00a56ab731faba9db65ac44a676" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>nativeInputEnableMFi</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a0af3a0a3ffd946db07cdca679505f34f" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>nativeInputEnableXInput</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1acde44e57a62899abc61123f2b03ac9f5" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>nativeInputOverrideUpdateRate</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1ac4b24cfc8775c88db5ad004d118003a2" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>nativeInputPreventSleep</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a84eda5dc1fdc3167919e399672273da5" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>nativeInputUpdateRate</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a255d3f2e86d976d1237a8212a9bd4277" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnApplicationFocus</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a0ec65fef05cc617cc8bb750715478ed9" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnApplicationPause</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1ad91270ca3a9fec09ed0f5c7c420593c9" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnApplicationQuit</name></member>
+      <member refid="class_in_control_1_1_singleton_mono_behavior_1a3be15dcd4c00e1e68a5eae757c264a1e" prot="protected" virt="virtual"><scope>InControl::InControlManager</scope><name>OnDestroy</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a8a27231872bfce6d67aaa407cf8b4dd7" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnDisable</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a70d38356be476f27df0cf262e5020b9c" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnEnable</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a7dafabe878ce2fd296554e9d5d63b96c" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>OnLevelWasLoaded</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a9e2c6b51fc9d6387e70bc6a39a2a49cb" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>suspendInBackground</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1aa2f3f7d8ed7b9cee17c9778b8aafa181" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a6421b114f8f9b9af6fcc0333214e0f35" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>updateMode</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a47e6226ceeaded1f7ecfa9cce514f666" prot="private" virt="non-virtual"><scope>InControl::InControlManager</scope><name>useFixedUpdate</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1adf8cedf14d60b8d6641117e989350dbf" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>xInputBufferSize</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1aa41fd97123b1006ec6c34a5fb8124312" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>xInputOverrideBufferSize</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a3ed7dde77ffb684295268b124b113187" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>xInputOverrideUpdateRate</name></member>
+      <member refid="class_in_control_1_1_in_control_manager_1a9f8629eae375d1b5add34901fb3fefbb" prot="public" virt="non-virtual"><scope>InControl::InControlManager</scope><name>xInputUpdateRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

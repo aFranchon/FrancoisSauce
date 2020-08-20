@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_input_range_type_8cs" kind="file" language="C#">
+    <compoundname>InputRangeType.cs</compoundname>
+    <innernamespace refid="namespace_in_control">InControl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_in_control" kindref="compound">InControl</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1ee" kindref="member">InputRangeType</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Can<sp/>None<sp/>be<sp/>removed?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ac9d3e887722f2bc482bcca9d41c512af" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea74bed7bc7c4e66d80d2f4bf23a165586" kindref="member">MinusOneToOne</ref>,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eeaad00e9dd65a4f4c0db6e7ad8cdbb1510" kindref="member">OneToMinusOne</ref>,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea4b942544cb3e764bbb8d33f8a8744855" kindref="member">ZeroToOne</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea0afe74d4b1c048417383fa00eb87f2c2" kindref="member">ZeroToMinusOne</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea551dcb73a586c383608f9f38d77b6851" kindref="member">OneToZero</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_in_control_1ad1c59cc658f1d7c1255bf853fd69d1eea4ec4c9b9f31fa329cab7dbca8b271c73" kindref="member">MinusOneToZero</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputRangeType.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_thread_safe_queue" kind="class" language="C#" prot="package">
+    <compoundname>InControl::ThreadSafeQueue</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_thread_safe_queue_1a47371fa5269873b3d3b6fcf9d1a93d94" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object InControl.ThreadSafeQueue&lt; T &gt;.sync</definition>
+        <argsstring></argsstring>
+        <name>sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="8" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_thread_safe_queue_1a9ed9d6db37dfd80da9e519d4222e5768" prot="private" static="no" mutable="no">
+        <type>Queue&lt; T &gt;</type>
+        <definition>Queue&lt;T&gt; InControl.ThreadSafeQueue&lt; T &gt;.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="9" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1ac008a622e67fa5fc2331363432cb4bb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.ThreadSafeQueue&lt; T &gt;.ThreadSafeQueue</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadSafeQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="12" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1a1beece05b5496841a5516dc0443f9a8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.ThreadSafeQueue&lt; T &gt;.ThreadSafeQueue</definition>
+        <argsstring>(int capacity)</argsstring>
+        <name>ThreadSafeQueue</name>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="19" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1a6f029dbd29ebbf0d4a52c7d199731284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.ThreadSafeQueue&lt; T &gt;.Enqueue</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Enqueue</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="26" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1a500505f8e1c1dad6fbe1e15a192d2038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.ThreadSafeQueue&lt; T &gt;.Dequeue</definition>
+        <argsstring>(out T item)</argsstring>
+        <name>Dequeue</name>
+        <param>
+          <type>out T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="35" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="35" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1a7d1454617db36d9135fa2550561dfcfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T InControl.ThreadSafeQueue&lt; T &gt;.Dequeue</definition>
+        <argsstring>()</argsstring>
+        <name>Dequeue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="51" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="51" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_thread_safe_queue_1a4f5f81a91980785289d04532d827b348" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int InControl.ThreadSafeQueue&lt; T &gt;.Dequeue</definition>
+        <argsstring>(ref IList&lt; T &gt; list)</argsstring>
+        <name>Dequeue</name>
+        <param>
+          <type>ref IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="64" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="64" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" line="6" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/ThreadSafeQueue.cs" bodystart="7" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a9ed9d6db37dfd80da9e519d4222e5768" prot="private" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>data</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a500505f8e1c1dad6fbe1e15a192d2038" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>Dequeue</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a7d1454617db36d9135fa2550561dfcfd" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>Dequeue</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a4f5f81a91980785289d04532d827b348" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>Dequeue</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a6f029dbd29ebbf0d4a52c7d199731284" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>Enqueue</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a47371fa5269873b3d3b6fcf9d1a93d94" prot="private" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>sync</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1ac008a622e67fa5fc2331363432cb4bb0" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>ThreadSafeQueue</name></member>
+      <member refid="class_in_control_1_1_thread_safe_queue_1a1beece05b5496841a5516dc0443f9a8f" prot="public" virt="non-virtual"><scope>InControl::ThreadSafeQueue</scope><name>ThreadSafeQueue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

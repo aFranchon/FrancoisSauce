@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_unity_input_device" kind="class" language="C#" prot="public">
+    <compoundname>InControl::UnityInputDevice</compoundname>
+    <basecompoundref refid="class_in_control_1_1_input_device" prot="public" virt="non-virtual">InControl.InputDevice</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1a9bf8273a2e7a7112ed402f3895582a5b" prot="private" static="yes" mutable="no">
+        <type>string[,]</type>
+        <definition>string [,] InControl.UnityInputDevice.analogQueries</definition>
+        <argsstring></argsstring>
+        <name>analogQueries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="8" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1a6fd7704815e7c89dba2c283df83aed2d" prot="private" static="yes" mutable="no">
+        <type>string[,]</type>
+        <definition>string [,] InControl.UnityInputDevice.buttonQueries</definition>
+        <argsstring></argsstring>
+        <name>buttonQueries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="9" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1a26e3cf47c60855d1e1bcc02fa01f6583" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int InControl.UnityInputDevice.MaxDevices</definition>
+        <argsstring></argsstring>
+        <name>MaxDevices</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="11" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1aab5829ea04c1851c57c862d368fdfaa9" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int InControl.UnityInputDevice.MaxButtons</definition>
+        <argsstring></argsstring>
+        <name>MaxButtons</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="12" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1a61fecfbebecc30d1a870eb19d1f61ba3" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int InControl.UnityInputDevice.MaxAnalogs</definition>
+        <argsstring></argsstring>
+        <name>MaxAnalogs</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="13" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_unity_input_device_1a582bf12895ff7ffff4808589e07442f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int InControl.UnityInputDevice.JoystickId</definition>
+        <argsstring></argsstring>
+        <name>JoystickId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="15" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_unity_input_device_1a8fee2aff9dd9d66453e3f6dc63afc63b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool InControl.UnityInputDevice.IsSupportedOnThisPlatform</definition>
+        <argsstring></argsstring>
+        <name>IsSupportedOnThisPlatform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="199" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_unity_input_device_1a83263cc7101b29f1610da5a43476fe8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool InControl.UnityInputDevice.IsKnown</definition>
+        <argsstring></argsstring>
+        <name>IsKnown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="208" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_unity_input_device_1a079c04b0a05a0047637dab10f7241065" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override int</type>
+        <definition>override int InControl.UnityInputDevice.NumUnknownButtons</definition>
+        <argsstring></argsstring>
+        <name>NumUnknownButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="217" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_unity_input_device_1ad6f75e9574c7e8ee0e905c530a5288f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override int</type>
+        <definition>override int InControl.UnityInputDevice.NumUnknownAnalogs</definition>
+        <argsstring></argsstring>
+        <name>NumUnknownAnalogs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="226" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="227" bodyend="232"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_unity_input_device_1a7c7e5fc8bd4ee7adb624a22efa95ab7b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref></type>
+        <definition>readonly InputDeviceProfile InControl.UnityInputDevice.profile</definition>
+        <argsstring></argsstring>
+        <name>profile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="17" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1a5cfd64bc516117642e309b3e8186254f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.UnityInputDevice.UnityInputDevice</definition>
+        <argsstring>(int joystickId, string joystickName)</argsstring>
+        <name>UnityInputDevice</name>
+        <param>
+          <type>int</type>
+          <declname>joystickId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>joystickName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="20" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1af7c853a8622d4e68ce0424c69560f9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.UnityInputDevice.UnityInputDevice</definition>
+        <argsstring>(InputDeviceProfile deviceProfile, int joystickId, string joystickName)</argsstring>
+        <name>UnityInputDevice</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref></type>
+          <declname>deviceProfile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>joystickId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>joystickName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="24" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="24" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1ac24eeb1fcdd32f60b752038232b5f093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.UnityInputDevice.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_in_control_1_1_input_device_1ad927cca3de09c44fd9d977d3fefdc8e9">Update</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="99" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="99" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1ac1ec524086a326d64a7c7297d34d2b6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.UnityInputDevice.ReadRawButtonState</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ReadRawButtonState</name>
+        <reimplements refid="class_in_control_1_1_input_device_1aac5b76b0b9bd9358d3cbfed83a9ea60c">ReadRawButtonState</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="175" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="175" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1a3ba0be498184daf0ebcb2f4192ccd8d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override float</type>
+        <definition>override float InControl.UnityInputDevice.ReadRawAnalogValue</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ReadRawAnalogValue</name>
+        <reimplements refid="class_in_control_1_1_input_device_1a94e7c8bc0a377983e02a7679fb9c744b">ReadRawAnalogValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="187" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="187" bodyend="196"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1aa9aab3dae2d396aaa6146639484122d9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.UnityInputDevice.SetupAnalogQueries</definition>
+        <argsstring>()</argsstring>
+        <name>SetupAnalogQueries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="141" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="141" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_unity_input_device_1aade04a2876fe21bb5417ab0c2691335b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InControl.UnityInputDevice.SetupButtonQueries</definition>
+        <argsstring>()</argsstring>
+        <name>SetupButtonQueries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="158" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="158" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InControl.UnityInputDevice</label>
+        <link refid="class_in_control_1_1_unity_input_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InputDevice</label>
+        <link refid="class_in_control_1_1_input_device"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InControl.UnityInputDevice</label>
+        <link refid="class_in_control_1_1_unity_input_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+      <node id="2">
+        <label>InputDevice</label>
+        <link refid="class_in_control_1_1_input_device"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Null</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/UnityInputDevice.cs" bodystart="7" bodyend="233"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_input_device_1a5d93d14773333a0e751585996c9f5b77" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Action1</name></member>
+      <member refid="class_in_control_1_1_input_device_1a0cda65a2c153479ed5005c7327baaaae" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Action2</name></member>
+      <member refid="class_in_control_1_1_input_device_1a405357291244593b61506bcd01d214d9" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Action3</name></member>
+      <member refid="class_in_control_1_1_input_device_1ad12df47fa4b2288b2cab5f55ee597c95" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Action4</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1b692818390731829d1363538773c85e" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AddControl</name></member>
+      <member refid="class_in_control_1_1_input_device_1ada56e8f646cc0cef9d17878a699d99b9" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AddControl</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a9bf8273a2e7a7112ed402f3895582a5b" prot="private" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>analogQueries</name></member>
+      <member refid="class_in_control_1_1_input_device_1ab051cecf530b78787de236e9cb90607a" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AnalogSnapshot</name></member>
+      <member refid="class_in_control_1_1_input_device_1adb18f4d84b69c9d169b97849350c6784" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AnyButton</name></member>
+      <member refid="class_in_control_1_1_input_device_1aa0f55880adbc2b888398bbf97a51878a" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AnyButtonIsPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1a90952b8c99784717fc54ce04abc66cb0" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AnyButtonWasPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1a3d9f85eb1173f568df9d9d8989879037" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>AnyButtonWasReleased</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a6fd7704815e7c89dba2c283df83aed2d" prot="private" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>buttonQueries</name></member>
+      <member refid="class_in_control_1_1_input_device_1ada32e82a8b95dd649512683975285580" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>ClearControls</name></member>
+      <member refid="class_in_control_1_1_input_device_1a5df7b9a790839f4bb1bc63122f9720cf" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_input_device_1aad86b9d1a4bc3baaea31dd30cc89363d" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Command</name></member>
+      <member refid="class_in_control_1_1_input_device_1ad60996b36ba3ecb813ec46b7a09fbf0a" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>CommandIsPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1a261354968ef15bbe0a458c45ad553569" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>CommandWasPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1a2ee1662b266f5fade80591b623b97e4f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>CommandWasReleased</name></member>
+      <member refid="class_in_control_1_1_input_device_1aa910c9fbe34df355b42ac6013a399d87" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Commit</name></member>
+      <member refid="class_in_control_1_1_input_device_1a9fd3b3b4c3817be7e3ae03f883a79abe" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>CommitLeftStick</name></member>
+      <member refid="class_in_control_1_1_input_device_1a2dd1ceb9151b1fceb8e60e068988ca97" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>CommitRightStick</name></member>
+      <member refid="class_in_control_1_1_input_device_1a4268f12783d582d2e2cb46b62587e2bf" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Controls</name></member>
+      <member refid="class_in_control_1_1_input_device_1afa91bda72edeeabdfc52a4c68da8869e" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>ControlsByTarget</name></member>
+      <member refid="class_in_control_1_1_input_device_1a15de0a1bb0d85882b27aa5d409dc8774" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DeviceClass</name></member>
+      <member refid="class_in_control_1_1_input_device_1a512664c24ed7c9cd9fcce89da52a8aa2" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DeviceStyle</name></member>
+      <member refid="class_in_control_1_1_input_device_1a3feed4ed9d9c667f9291f4d84a84da0f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Direction</name></member>
+      <member refid="class_in_control_1_1_input_device_1a0dc83d2a9fd0d351b88fcc815a12026b" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPad</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1e50017cd70c9ea4b5cb81070c05a48f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadDown</name></member>
+      <member refid="class_in_control_1_1_input_device_1aa4bfbc40fc807ac6a159c74607fd6ec9" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadLeft</name></member>
+      <member refid="class_in_control_1_1_input_device_1afc393071ee66b731b2d547a29a5df84f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadRight</name></member>
+      <member refid="class_in_control_1_1_input_device_1a608d60562aef56d600257cfa667ba3ef" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadUp</name></member>
+      <member refid="class_in_control_1_1_input_device_1a7c81db0898d981434a40216022a0dbde" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadX</name></member>
+      <member refid="class_in_control_1_1_input_device_1abdf25659f0a77d5a80a6a1c72b044414" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>DPadY</name></member>
+      <member refid="class_in_control_1_1_input_device_1a6de8f8e9667d607fb05e83c3d1d1f972" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GetControl</name></member>
+      <member refid="class_in_control_1_1_input_device_1afae509de58e308f78b18bca34fb5cded" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GetControlByName</name></member>
+      <member refid="class_in_control_1_1_input_device_1a0542e741f10de68db94fc0b8713d5b52" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GetFirstPressedAnalog</name></member>
+      <member refid="class_in_control_1_1_input_device_1a553aed4b4a3a836a9932a7bac32aa34a" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GetFirstPressedButton</name></member>
+      <member refid="class_in_control_1_1_input_device_1a16f3d4399b06dae377ea254264095841" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GetInputControlTypeByName</name></member>
+      <member refid="class_in_control_1_1_input_device_1a7171b92462ba0b798d1433ea71bd39d2" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>GUID</name></member>
+      <member refid="class_in_control_1_1_input_device_1a12b559b4becdb7e4477b6e0ab27bc215" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>HasControl</name></member>
+      <member refid="class_in_control_1_1_input_device_1aaa84c23d7800bafe87ba86942964dbf0" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>InputDevice</name></member>
+      <member refid="class_in_control_1_1_input_device_1a48467f078fa4beb0559058f8602f533f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>InputDevice</name></member>
+      <member refid="class_in_control_1_1_input_device_1a9534198cc6d019fb6059d82c48c1f920" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>InputDevice</name></member>
+      <member refid="class_in_control_1_1_input_device_1af31f04c251833ec56f3501cc67fc2abd" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>IsActive</name></member>
+      <member refid="class_in_control_1_1_input_device_1ae7c70795b65e02d9d2b061c71a448ec0" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>IsAttached</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a83263cc7101b29f1610da5a43476fe8f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>IsKnown</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a8fee2aff9dd9d66453e3f6dc63afc63b" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>IsSupportedOnThisPlatform</name></member>
+      <member refid="class_in_control_1_1_input_device_1ae1e274e92e7f8b9d5c5fe1a8430d821f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>IsUnknown</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a582bf12895ff7ffff4808589e07442f9" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>JoystickId</name></member>
+      <member refid="class_in_control_1_1_input_device_1ae09c7662a2a92ade7697fc4c76247cb2" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LastInputAfter</name></member>
+      <member refid="class_in_control_1_1_input_device_1a25f71d6d2199aea78513eb11789508a5" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LastInputTick</name></member>
+      <member refid="class_in_control_1_1_input_device_1a83bf1a76a92d1506018ffa4abd75cc58" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftBumper</name></member>
+      <member refid="class_in_control_1_1_input_device_1a734002b1ab2eb62587df450daba23a61" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStick</name></member>
+      <member refid="class_in_control_1_1_input_device_1a588c8fc549c079112beb8642b6587dab" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickButton</name></member>
+      <member refid="class_in_control_1_1_input_device_1a66ca6a10fded33a49a4f3d6632962d67" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickDown</name></member>
+      <member refid="class_in_control_1_1_input_device_1a928c388a6f337a2c57d36f2e9ddbb23d" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickLeft</name></member>
+      <member refid="class_in_control_1_1_input_device_1a8f38e0cb6386e6776937775464ebc72e" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickRight</name></member>
+      <member refid="class_in_control_1_1_input_device_1ac1658e9c5adb671ec5b6ce4179d2bd0c" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickUp</name></member>
+      <member refid="class_in_control_1_1_input_device_1a611329caf85687b7fe6f2675dd00cf74" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickX</name></member>
+      <member refid="class_in_control_1_1_input_device_1ac2d6e183c300ee847ca3675d99104cf5" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftStickY</name></member>
+      <member refid="class_in_control_1_1_input_device_1ac3c31091129f3056b7a7e60753ef1ee7" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>LeftTrigger</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a61fecfbebecc30d1a870eb19d1f61ba3" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MaxAnalogs</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1aab5829ea04c1851c57c862d368fdfaa9" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MaxButtons</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a26e3cf47c60855d1e1bcc02fa01f6583" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MaxDevices</name></member>
+      <member refid="class_in_control_1_1_input_device_1a179837f8a176c1f91bb5d5a50cbf6e52" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MenuIsPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1af98b201d800dd9082b7f894c453c7f53" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MenuWasPressed</name></member>
+      <member refid="class_in_control_1_1_input_device_1a795f75707281b6d7389522fb0121e124" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>MenuWasReleased</name></member>
+      <member refid="class_in_control_1_1_input_device_1a85b61f3827983fe5524f92416a13da8d" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Meta</name></member>
+      <member refid="class_in_control_1_1_input_device_1a4e42f774c1cf4b329552cfd63acf4b2c" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Name</name></member>
+      <member refid="class_in_control_1_1_input_device_1a9fb7bdedcbac71b641c45c3a621924bd" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Null</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1ad6f75e9574c7e8ee0e905c530a5288f6" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>NumUnknownAnalogs</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a079c04b0a05a0047637dab10f7241065" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>NumUnknownButtons</name></member>
+      <member refid="class_in_control_1_1_input_device_1aecda673040a36f3530a3ef7c09e62de5" prot="package" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>OnAttached</name></member>
+      <member refid="class_in_control_1_1_input_device_1ab464db0d9d6637051e5d264ae579e1f2" prot="package" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>OnDetached</name></member>
+      <member refid="class_in_control_1_1_input_device_1a9fc608f824f2991720806acd5ac988cf" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Passive</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a7c7e5fc8bd4ee7adb624a22efa95ab7b" prot="private" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>profile</name></member>
+      <member refid="class_in_control_1_1_input_device_1adfe6cd341162ca2f10e631050a5ad833" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RawSticks</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a3ba0be498184daf0ebcb2f4192ccd8d0" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>ReadRawAnalogValue</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1ac1ec524086a326d64a7c7297d34d2b6e" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>ReadRawButtonState</name></member>
+      <member refid="class_in_control_1_1_input_device_1a31b8850fda687ccc8a88757c0ebc718f" prot="package" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RequestActivation</name></member>
+      <member refid="class_in_control_1_1_input_device_1af699c6e32f0afbdd7af84bf85697100b" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightBumper</name></member>
+      <member refid="class_in_control_1_1_input_device_1aa3ec8559208f319a804caa530fe3015d" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStick</name></member>
+      <member refid="class_in_control_1_1_input_device_1a2c9f65ddec1df4075dd0b0184f0ffc07" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickButton</name></member>
+      <member refid="class_in_control_1_1_input_device_1a9ac69c0342529888a472642081a18ffb" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickDown</name></member>
+      <member refid="class_in_control_1_1_input_device_1a50a3ec90e322e5d9a8c70552dbe1595d" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickLeft</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1ffcddc34659d08f0bd064f37d827bab" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickRight</name></member>
+      <member refid="class_in_control_1_1_input_device_1a3a50ecdcb61325a1bbaa87e6e3be2668" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickUp</name></member>
+      <member refid="class_in_control_1_1_input_device_1aee9a26848a4e6dc82416c28d4b300b78" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickX</name></member>
+      <member refid="class_in_control_1_1_input_device_1a969e1f4326e3e9f267e9ff3e31fcd9e7" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightStickY</name></member>
+      <member refid="class_in_control_1_1_input_device_1a771fda97d00d3f299f61e2c36d12dd7f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>RightTrigger</name></member>
+      <member refid="class_in_control_1_1_input_device_1ac99a7da44c24b9688f78082710a6465d" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>SetLightColor</name></member>
+      <member refid="class_in_control_1_1_input_device_1a17a6841f43bbf0bb8213bb6124e18b2c" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>SetLightColor</name></member>
+      <member refid="class_in_control_1_1_input_device_1a283e938f9c146edbe0ef9b9dc9dd68bc" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>SetLightFlash</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1aa9aab3dae2d396aaa6146639484122d9" prot="private" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>SetupAnalogQueries</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1aade04a2876fe21bb5417ab0c2691335b" prot="private" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>SetupButtonQueries</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1c6f73b47c2f9163e99c0b948effcec3" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>SortOrder</name></member>
+      <member refid="class_in_control_1_1_input_device_1a0befd36b4cd2b3077f3c1a9f3f8a2c88" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>StopLightFlash</name></member>
+      <member refid="class_in_control_1_1_input_device_1afde16535135a393bbf91356b49994fcf" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>StopVibration</name></member>
+      <member refid="class_in_control_1_1_input_device_1a56319331de6eb3857eb4d02aaa739cf7" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>TakeSnapshot</name></member>
+      <member refid="class_in_control_1_1_input_device_1a4b334152c26f072e227924c065ce1633" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>this[InputControlType controlType]</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1a5cfd64bc516117642e309b3e8186254f" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UnityInputDevice</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1af7c853a8622d4e68ce0424c69560f9c0" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UnityInputDevice</name></member>
+      <member refid="class_in_control_1_1_unity_input_device_1ac24eeb1fcdd32f60b752038232b5f093" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_input_device_1aab4a0fb778b49c23d72f5862d4238716" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateLeftStickWithRawValue</name></member>
+      <member refid="class_in_control_1_1_input_device_1a34d75729911e2fbfbc073a5ad6261634" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateLeftStickWithValue</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1799c38f5bcd0e5c86b4b68465bc31a4" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateRightStickWithRawValue</name></member>
+      <member refid="class_in_control_1_1_input_device_1a0a13444618190cef8d4bc670801c4bc4" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateRightStickWithValue</name></member>
+      <member refid="class_in_control_1_1_input_device_1aeb283e0ce1d2870d8683b7a0f6f52aef" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateWithState</name></member>
+      <member refid="class_in_control_1_1_input_device_1a1da6a776db3b18efb22beb496ca9d9f7" prot="protected" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>UpdateWithValue</name></member>
+      <member refid="class_in_control_1_1_input_device_1ac7a44b1cea1e5e0a191501292e67dc4c" prot="public" virt="virtual"><scope>InControl::UnityInputDevice</scope><name>Vibrate</name></member>
+      <member refid="class_in_control_1_1_input_device_1a2d65d48c4a35641ce8ea88b3972283da" prot="public" virt="non-virtual"><scope>InControl::UnityInputDevice</scope><name>Vibrate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

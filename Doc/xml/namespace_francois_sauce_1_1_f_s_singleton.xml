@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_f_s_singleton" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::FSSingleton</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_f_s_singleton_1_1_game_manager" prot="public">FrancoisSauce::FSSingleton::GameManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSSingletons/GameManager.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

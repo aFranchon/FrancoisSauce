@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_input_device_info" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::InputDeviceInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1ad891e62f77a9963d21396fb5e5853c04" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputDeviceInfo.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="13" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a737602604880d876e7ad4c5840086b16" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputDeviceInfo.location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="16" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a687d062d8f437e87a6b794e3a0829174" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InControl.InputDeviceInfo.serialNumber</definition>
+        <argsstring></argsstring>
+        <name>serialNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="19" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a77d0b0c42ddd0ce9a1d1ca03535adea4" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 InControl.InputDeviceInfo.vendorID</definition>
+        <argsstring></argsstring>
+        <name>vendorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="21" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a1549969b1934131aa8a91977404f45ef" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 InControl.InputDeviceInfo.productID</definition>
+        <argsstring></argsstring>
+        <name>productID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="22" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1adea19448560670fa006b03c107b66a45" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 InControl.InputDeviceInfo.versionNumber</definition>
+        <argsstring></argsstring>
+        <name>versionNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="23" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a0f286aea314c00353679634599ddc948" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+        <definition>InputDeviceDriverType InControl.InputDeviceInfo.driverType</definition>
+        <argsstring></argsstring>
+        <name>driverType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="25" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1a575565825d2069e9923a525345191c5e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1aa9a518a677ab284bad6a5971e000bb85" kindref="member">InputDeviceTransportType</ref></type>
+        <definition>InputDeviceTransportType InControl.InputDeviceInfo.transportType</definition>
+        <argsstring></argsstring>
+        <name>transportType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="26" column="33" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1ae0abf1e0de23b71786979b313f2317c8" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 InControl.InputDeviceInfo.numButtons</definition>
+        <argsstring></argsstring>
+        <name>numButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="28" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_input_device_info_1adad3e85d0b4d70ace00b2f23b14ed5c9" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 InControl.InputDeviceInfo.numAnalogs</definition>
+        <argsstring></argsstring>
+        <name>numAnalogs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="29" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_input_device_info_1ad47c921e76a134dd2936f1e733091170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceInfo.HasSameVendorID</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>HasSameVendorID</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="32" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_device_info_1a85cbe2df7f7f5b3c6a60014e31b41109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceInfo.HasSameProductID</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>HasSameProductID</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="38" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_device_info_1a66fff43445385b79f5c61fad06fd32e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceInfo.HasSameVersionNumber</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>HasSameVersionNumber</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="44" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_device_info_1a3f99b8867ab7219a8eb116587d11f470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceInfo.HasSameLocation</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>HasSameLocation</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="50" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="50" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_input_device_info_1afe4220b5c4ac7fd7698a67f1d301bb0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.InputDeviceInfo.HasSameSerialNumber</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>HasSameSerialNumber</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="61" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="61" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" line="10" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Device/InputDeviceInfo.cs" bodystart="11" bodyend="70"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_input_device_info_1a0f286aea314c00353679634599ddc948" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>driverType</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a3f99b8867ab7219a8eb116587d11f470" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>HasSameLocation</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a85cbe2df7f7f5b3c6a60014e31b41109" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>HasSameProductID</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1afe4220b5c4ac7fd7698a67f1d301bb0e" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>HasSameSerialNumber</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1ad47c921e76a134dd2936f1e733091170" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>HasSameVendorID</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a66fff43445385b79f5c61fad06fd32e0" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>HasSameVersionNumber</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a737602604880d876e7ad4c5840086b16" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>location</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1ad891e62f77a9963d21396fb5e5853c04" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>name</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1adad3e85d0b4d70ace00b2f23b14ed5c9" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>numAnalogs</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1ae0abf1e0de23b71786979b313f2317c8" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>numButtons</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a1549969b1934131aa8a91977404f45ef" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>productID</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a687d062d8f437e87a6b794e3a0829174" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>serialNumber</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a575565825d2069e9923a525345191c5e" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>transportType</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1a77d0b0c42ddd0ce9a1d1ca03535adea4" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>vendorID</name></member>
+      <member refid="struct_in_control_1_1_input_device_info_1adea19448560670fa006b03c107b66a45" prot="public" virt="non-virtual"><scope>InControl::InputDeviceInfo</scope><name>versionNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

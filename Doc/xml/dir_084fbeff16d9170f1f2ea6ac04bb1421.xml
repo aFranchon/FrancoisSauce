@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_084fbeff16d9170f1f2ea6ac04bb1421" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement</compoundname>
+    <innerfile refid="_button_8cs">Button.cs</innerfile>
+    <innerfile refid="_button_focus_8cs">ButtonFocus.cs</innerfile>
+    <innerfile refid="_button_manager_8cs">ButtonManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/"/>
+  </compounddef>
+</doxygen>

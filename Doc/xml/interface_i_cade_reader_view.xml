@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="interface_i_cade_reader_view" kind="class" language="Objective-C" prot="public">
+    <compoundname>ICadeReaderView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIKeyInput&gt;</basecompoundref>
+    <includes refid="_i_cade_reader_view_8h" local="no">ICadeReaderView.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="interface_i_cade_reader_view_1ac25308ca9bf703377ab961cc0fac1cf5" prot="protected" static="no" mutable="no">
+        <type>UIView *</type>
+        <definition>UIView* ICadeReaderView::inputView</definition>
+        <argsstring></argsstring>
+        <name>inputView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="33" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_i_cade_reader_view_1a208a88819cbed702f1ea878c11c220af" prot="protected" static="no" mutable="no">
+        <type><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref></type>
+        <definition>ICadeState ICadeReaderView::_state</definition>
+        <argsstring></argsstring>
+        <name>_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="34" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_i_cade_reader_view_1a339d82aaa7a02e52e52b93da1ebb930f" prot="protected" static="no" mutable="no">
+        <type>id&lt; <ref refid="protocol_i_cade_event_delegate-p" kindref="compound">ICadeEventDelegate</ref> &gt;</type>
+        <definition>id&lt;ICadeEventDelegate&gt; ICadeReaderView::_delegate</definition>
+        <argsstring></argsstring>
+        <name>_delegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="35" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_i_cade_reader_view_1a5f400a373f4c3ec61f3c6fba085d6cc4" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref></type>
+        <definition>ICadeState ICadeReaderView::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="38" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_i_cade_reader_view_1a61893e06af92e1de4548bbab8aee5e5c" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>id&lt; <ref refid="protocol_i_cade_event_delegate-p" kindref="compound">ICadeEventDelegate</ref> &gt;</type>
+        <definition>id&lt;ICadeEventDelegate&gt; ICadeReaderView::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="39" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_i_cade_reader_view_1a91ee413ad16d136171a716fe851506ce" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL ICadeReaderView::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="40" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICadeReaderView</label>
+        <link refid="interface_i_cade_reader_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIView</label>
+      </node>
+      <node id="3">
+        <label>&lt;UIKeyInput&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICadeReaderView</label>
+        <link refid="interface_i_cade_reader_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIView</label>
+      </node>
+      <node id="3">
+        <label>&lt;UIKeyInput&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="30" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_i_cade_reader_view_1a339d82aaa7a02e52e52b93da1ebb930f" prot="protected" virt="non-virtual"><scope>ICadeReaderView</scope><name>_delegate</name></member>
+      <member refid="interface_i_cade_reader_view_1a208a88819cbed702f1ea878c11c220af" prot="protected" virt="non-virtual"><scope>ICadeReaderView</scope><name>_state</name></member>
+      <member refid="interface_i_cade_reader_view_1a91ee413ad16d136171a716fe851506ce" prot="public" virt="non-virtual"><scope>ICadeReaderView</scope><name>active</name></member>
+      <member refid="interface_i_cade_reader_view_1a61893e06af92e1de4548bbab8aee5e5c" prot="public" virt="non-virtual"><scope>ICadeReaderView</scope><name>delegate</name></member>
+      <member refid="interface_i_cade_reader_view_1ac25308ca9bf703377ab961cc0fac1cf5" prot="protected" virt="non-virtual"><scope>ICadeReaderView</scope><name>inputView</name></member>
+      <member refid="interface_i_cade_reader_view_1a5f400a373f4c3ec61f3c6fba085d6cc4" prot="public" virt="non-virtual"><scope>ICadeReaderView</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

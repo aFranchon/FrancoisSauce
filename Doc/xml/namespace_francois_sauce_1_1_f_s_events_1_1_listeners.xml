@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_f_s_events_1_1_listeners" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::FSEvents::Listeners</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_f_s_events_1_1_listeners_1_1_i_f_s_event_listener" prot="public">FrancoisSauce::FSEvents::Listeners::IFSEventListener</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_f_s_events_1_1_listeners_1_1_i_f_s_one_argument_event_listener" prot="public">FrancoisSauce::FSEvents::Listeners::IFSOneArgumentEventListener</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/___FSEvents/Listeners/IFSEventListener.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

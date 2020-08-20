@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_player_one_axis_action" kind="class" language="C#" prot="public">
+    <compoundname>InControl::PlayerOneAxisAction</compoundname>
+    <basecompoundref refid="class_in_control_1_1_one_axis_input_control" prot="public" virt="non-virtual">InControl.OneAxisInputControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_one_axis_action_1a8dedf833888432eca0b5eafd99f68552" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerOneAxisAction.negativeAction</definition>
+        <argsstring></argsstring>
+        <name>negativeAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="8" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_one_axis_action_1a0b1f4b30c7fdd71aa938a4b30c9904ae" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerOneAxisAction.positiveAction</definition>
+        <argsstring></argsstring>
+        <name>positiveAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="9" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_one_axis_action_1a20d6718bb46cc7b2048160b897440578" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>BindingSourceType InControl.PlayerOneAxisAction.LastInputType</definition>
+        <argsstring></argsstring>
+        <name>LastInputType</name>
+        <initializer>= <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">BindingSourceType.None</ref></initializer>
+        <briefdescription>
+<para>The binding source type that last provided input to this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="14" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_in_control_1_1_player_one_axis_action_1a35bfc7216c0d5d1b43df899842dccc18" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref> &gt;</type>
+        <definition>Action&lt;BindingSourceType&gt; InControl.PlayerOneAxisAction.OnLastInputTypeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLastInputTypeChanged</name>
+        <briefdescription>
+<para>Occurs when the binding source type that last provided input to this action set changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="19" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_player_one_axis_action_1ae14147d448ed3c96248e019c245b68e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object InControl.PlayerOneAxisAction.UserData</definition>
+        <argsstring></argsstring>
+        <name>UserData</name>
+        <briefdescription>
+<para>This property can be used to store whatever arbitrary game data you want on this action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="24" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_one_axis_action_1ae44054c86a1808150df3e2a66f8e1fe1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerOneAxisAction.LowerDeadZone</definition>
+        <argsstring></argsstring>
+        <name>LowerDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="67" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="68" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_one_axis_action_1a514a8ced4bd09a4c91277dd53bb758b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new float</type>
+        <definition>new float InControl.PlayerOneAxisAction.UpperDeadZone</definition>
+        <argsstring></argsstring>
+        <name>UpperDeadZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="84" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="85" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_one_axis_action_1a7169e7bcce8cd86ce5e0fc2249b6911f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.PlayerOneAxisAction.PlayerOneAxisAction</definition>
+        <argsstring>(PlayerAction negativeAction, PlayerAction positiveAction)</argsstring>
+        <name>PlayerOneAxisAction</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="27" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_one_axis_action_1a23cb0a10ea2e90936a1bffa47d18a7f1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerOneAxisAction.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="35" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_one_axis_action_1aa47b975d2138bdc7d92a90a9c62f592a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerOneAxisAction.ProcessActionUpdate</definition>
+        <argsstring>(PlayerAction action)</argsstring>
+        <name>ProcessActionUpdate</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="45" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="45" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerOneAxisAction</label>
+        <link refid="class_in_control_1_1_player_one_axis_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerOneAxisAction</label>
+        <link refid="class_in_control_1_1_player_one_axis_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerOneAxisAction.cs" bodystart="7" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac3c9a4c88b831ec8972690a1ffa3d660" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Commit</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a26ee60b21f6d1fbb6fdb47f640c63789" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>CommitWithSides</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4bfbe3c1dedb74a74c4a78fa7d629166" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>CommitWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adcd69783f6d8b9e1723cb956970542a0" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>CommitWithValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0628993c2a24211a2a5bec327d753542" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a9069a818f8e575b87b2e8f22dc9213a7" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>EnabledInHierarchy</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abb13de70844295498478b8ac735a90cb" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>FirstRepeatDelay</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a1872c88f76350a12d22c13959ee9df7e" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>HasChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a8d11262b1d0fe035558a34bcd25946d6" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>HasInput</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1acff62d4d79fb6e8ca2d9b96640078211" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>IsNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" prot="protected" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>isNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a162fd9ae5ec093c0cfb29f70d44ed615" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a20d6718bb46cc7b2048160b897440578" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac76ec3ab0d179bac573764257e841f60" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>LastState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adaa5cf32a0d28ff7771bc9c25ea43bba" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>LastValue</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1ae44054c86a1808150df3e2a66f8e1fe1" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a8dedf833888432eca0b5eafd99f68552" prot="private" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>negativeAction</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1afac4e5ff00ccc02e23d5f81aeb21a59a" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>NextRawValue</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a35bfc7216c0d5d1b43df899842dccc18" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a464a57f579e1930fb7b3a585bcd9e438" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>operator bool</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a54fd995f60eb3974df434b3f792e64c0" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>operator float</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a403faa9619b3ce43198cab39bd318bd9" prot="protected" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>ownerEnabled</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a7169e7bcce8cd86ce5e0fc2249b6911f" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>PlayerOneAxisAction</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a0b1f4b30c7fdd71aa938a4b30c9904ae" prot="private" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>positiveAction</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1aa47b975d2138bdc7d92a90a9c62f592a" prot="private" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>ProcessActionUpdate</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a90ee3e79b32ff2c7f8144b708c612b7d" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4db7186057aa15f6afdd61e90afec944" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>RawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac5aba91554a05625586c898fe9d04488" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>RepeatDelay</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0e83259dc76f5560b5ae31fdb5f9ebfc" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1aa60a87a7cece5b81ff0c0fe166d13732" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>SetValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ad1c6801c74c00ae62ed86e48449a0494" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7ad0a82a7f0abad2b76a1903c430c3e3" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>StateThreshold</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a23cb0a10ea2e90936a1bffa47d18a7f1" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a5bf34a6fdc64beb8d7918c1215fc8926" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3a4ea5d222f1301291a6ce5deea5545e" prot="package" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UpdateWithRawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1af4034c3da774bd41962a70e1bc6d4695" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UpdateWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a2cfecd6013398352c65a50536b325ff4" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UpdateWithValue</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1a514a8ced4bd09a4c91277dd53bb758b7" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_player_one_axis_action_1ae14147d448ed3c96248e019c245b68e4" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>UserData</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a71ba66125a978328e21fd15be98a6391" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>Value</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3f66d80e060c9e3fe4ae28fe3c102d57" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>WasPressed</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a29892ee1b0a2279bad8544d51acd7f6c" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>WasReleased</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7e32762b80868bece430920333b35967" prot="public" virt="non-virtual"><scope>InControl::PlayerOneAxisAction</scope><name>WasRepeated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

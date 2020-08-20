@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_d3c4f1590ffe0257a9cc86b286b50781" kind="dir">
+    <compoundname>FrancoisSauce/Scripts/__FSUI/Scripts</compoundname>
+    <innerdir refid="dir_e1c44529dd979e45c28a8c390ae91b81">FrancoisSauce/Scripts/__FSUI/Scripts/_ProgressBar</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/Scripts/__FSUI/Scripts/"/>
+  </compounddef>
+</doxygen>

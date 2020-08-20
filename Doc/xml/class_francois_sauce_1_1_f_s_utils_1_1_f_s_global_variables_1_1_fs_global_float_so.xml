@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalFloatSo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so_1aa3733acf4935100471b677d6a02bc68a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FrancoisSauce.FSUtils.FSGlobalVariables.FsGlobalFloatSo.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalFloatSO.cs" line="12" column="22" bodyfile="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalFloatSO.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.FSUtils.FSGlobalVariables.FsGlobalFloatSo</label>
+        <link refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.FSUtils.FSGlobalVariables.FsGlobalFloatSo</label>
+        <link refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalFloatSO.cs" line="10" column="11" bodyfile="FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalFloatSO.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_f_s_utils_1_1_f_s_global_variables_1_1_fs_global_float_so_1aa3733acf4935100471b677d6a02bc68a" prot="public" virt="non-virtual"><scope>FrancoisSauce::FSUtils::FSGlobalVariables::FsGlobalFloatSo</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_input_control" kind="class" language="C#" prot="public">
+    <compoundname>InControl::InputControl</compoundname>
+    <basecompoundref refid="class_in_control_1_1_one_axis_input_control" prot="public" virt="non-virtual">InControl.OneAxisInputControl</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_1a7ad1dd5eaa682a6107ebe996bf03b1d3" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_in_control_1_1_input_control" kindref="compound">InputControl</ref></type>
+        <definition>readonly InputControl InControl.InputControl.Null</definition>
+        <argsstring></argsstring>
+        <name>Null</name>
+        <initializer>= new <ref refid="class_in_control_1_1_input_control" kindref="compound">InputControl</ref> { <ref refid="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" kindref="member">isNullControl</ref> = true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="5" column="37" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1a865a58718fa469d4e88dfd6a58e55020" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>string</type>
+        <definition>string InControl.InputControl.Handle</definition>
+        <argsstring></argsstring>
+        <name>Handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="8" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1a71d8baf0134c88b43db69a684ca36026" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+        <definition>InputControlType InControl.InputControl.Target</definition>
+        <argsstring></argsstring>
+        <name>Target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="11" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1accbacb4aaee2a5022d7b9a578ab6103a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>bool</type>
+        <definition>bool InControl.InputControl.IsButton</definition>
+        <argsstring></argsstring>
+        <name>IsButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="22" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1a469b919e57931445cb998feb9445e695" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>bool</type>
+        <definition>bool InControl.InputControl.IsAnalog</definition>
+        <argsstring></argsstring>
+        <name>IsAnalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="23" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1a08ff780fb0dba0ffa8779bad5ac9a841" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControl.IsOnZeroTick</definition>
+        <argsstring></argsstring>
+        <name>IsOnZeroTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="61" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_input_control_1a0327800ee042077a687c6920a1372a34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControl.IsStandard</definition>
+        <argsstring></argsstring>
+        <name>IsStandard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="70" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_1a318099e845038c51c10d14c0700d9175" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.InputControl.Passive</definition>
+        <argsstring></argsstring>
+        <name>Passive</name>
+        <briefdescription>
+<para>When a control is passive, it will not cause a device to be considered active. This is useful for certain controls that spam data, like gyro or accelerometer input. Defaults to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="19" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_input_control_1a5e4fb58f18b4311b50c8f3d495b1a04d" prot="private" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.InputControl.zeroTick</definition>
+        <argsstring></argsstring>
+        <name>zeroTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="25" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_control_1a33811d0e31324aac0a1d479d2dd0abae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputControl.InputControl</definition>
+        <argsstring>()</argsstring>
+        <name>InputControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="28" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_control_1acaca56704c1c0ca0dbbc281ad1df481f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputControl.InputControl</definition>
+        <argsstring>(string handle, InputControlType target)</argsstring>
+        <name>InputControl</name>
+        <param>
+          <type>string</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="38" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_input_control_1a6d846bdd1ac6f0682355afa6eddb5881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.InputControl.InputControl</definition>
+        <argsstring>(string handle, InputControlType target, bool passive)</argsstring>
+        <name>InputControl</name>
+        <param>
+          <type>string</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3a" kindref="member">InputControlType</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>passive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="48" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_input_control_1a0f2e030ec663c6ad458586e85741b279" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.InputControl.SetZeroTick</definition>
+        <argsstring>()</argsstring>
+        <name>SetZeroTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="55" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>InControl.InputControl</label>
+        <link refid="class_in_control_1_1_input_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="1">
+        <label>InControl.InputControl</label>
+        <link refid="class_in_control_1_1_input_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Null</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>readonly</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" line="3" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Control/InputControl.cs" bodystart="4" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a52027acbb86146a3d82060ca5fe69558" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac3c9a4c88b831ec8972690a1ffa3d660" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Commit</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a26ee60b21f6d1fbb6fdb47f640c63789" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>CommitWithSides</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4bfbe3c1dedb74a74c4a78fa7d629166" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>CommitWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adcd69783f6d8b9e1723cb956970542a0" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>CommitWithValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0628993c2a24211a2a5bec327d753542" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a9069a818f8e575b87b2e8f22dc9213a7" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>EnabledInHierarchy</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abb13de70844295498478b8ac735a90cb" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>FirstRepeatDelay</name></member>
+      <member refid="class_in_control_1_1_input_control_1a865a58718fa469d4e88dfd6a58e55020" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Handle</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a1872c88f76350a12d22c13959ee9df7e" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>HasChanged</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a8d11262b1d0fe035558a34bcd25946d6" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>HasInput</name></member>
+      <member refid="class_in_control_1_1_input_control_1a33811d0e31324aac0a1d479d2dd0abae" prot="private" virt="non-virtual"><scope>InControl::InputControl</scope><name>InputControl</name></member>
+      <member refid="class_in_control_1_1_input_control_1acaca56704c1c0ca0dbbc281ad1df481f" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>InputControl</name></member>
+      <member refid="class_in_control_1_1_input_control_1a6d846bdd1ac6f0682355afa6eddb5881" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>InputControl</name></member>
+      <member refid="class_in_control_1_1_input_control_1a469b919e57931445cb998feb9445e695" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsAnalog</name></member>
+      <member refid="class_in_control_1_1_input_control_1accbacb4aaee2a5022d7b9a578ab6103a" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsButton</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1abef0e38da8073a2a4f65dc103527a0ac" prot="protected" virt="non-virtual"><scope>InControl::InputControl</scope><name>isNullControl</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1acff62d4d79fb6e8ca2d9b96640078211" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsNullControl</name></member>
+      <member refid="class_in_control_1_1_input_control_1a08ff780fb0dba0ffa8779bad5ac9a841" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsOnZeroTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a162fd9ae5ec093c0cfb29f70d44ed615" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsPressed</name></member>
+      <member refid="class_in_control_1_1_input_control_1a0327800ee042077a687c6920a1372a34" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>IsStandard</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac76ec3ab0d179bac573764257e841f60" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>LastState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1adaa5cf32a0d28ff7771bc9c25ea43bba" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>LastValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0f3e6493becb5157f2d3d9fbe02082cc" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>LowerDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1afac4e5ff00ccc02e23d5f81aeb21a59a" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>NextRawValue</name></member>
+      <member refid="class_in_control_1_1_input_control_1a7ad1dd5eaa682a6107ebe996bf03b1d3" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Null</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a464a57f579e1930fb7b3a585bcd9e438" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>operator bool</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a54fd995f60eb3974df434b3f792e64c0" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>operator float</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a403faa9619b3ce43198cab39bd318bd9" prot="protected" virt="non-virtual"><scope>InControl::InputControl</scope><name>ownerEnabled</name></member>
+      <member refid="class_in_control_1_1_input_control_1a318099e845038c51c10d14c0700d9175" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Passive</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a90ee3e79b32ff2c7f8144b708c612b7d" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Raw</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a4db7186057aa15f6afdd61e90afec944" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>RawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ac5aba91554a05625586c898fe9d04488" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>RepeatDelay</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a0e83259dc76f5560b5ae31fdb5f9ebfc" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Sensitivity</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1aa60a87a7cece5b81ff0c0fe166d13732" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>SetValue</name></member>
+      <member refid="class_in_control_1_1_input_control_1a0f2e030ec663c6ad458586e85741b279" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>SetZeroTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1ad1c6801c74c00ae62ed86e48449a0494" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>State</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7ad0a82a7f0abad2b76a1903c430c3e3" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>StateThreshold</name></member>
+      <member refid="class_in_control_1_1_input_control_1a71d8baf0134c88b43db69a684ca36026" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Target</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a5bf34a6fdc64beb8d7918c1215fc8926" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3a4ea5d222f1301291a6ce5deea5545e" prot="package" virt="non-virtual"><scope>InControl::InputControl</scope><name>UpdateWithRawValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1af4034c3da774bd41962a70e1bc6d4695" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>UpdateWithState</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a2cfecd6013398352c65a50536b325ff4" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>UpdateWithValue</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a703699e369e8f581afb18ed5ab5cd648" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>UpperDeadZone</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a71ba66125a978328e21fd15be98a6391" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>Value</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a3f66d80e060c9e3fe4ae28fe3c102d57" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>WasPressed</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a29892ee1b0a2279bad8544d51acd7f6c" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>WasReleased</name></member>
+      <member refid="class_in_control_1_1_one_axis_input_control_1a7e32762b80868bece430920333b35967" prot="public" virt="non-virtual"><scope>InControl::InputControl</scope><name>WasRepeated</name></member>
+      <member refid="class_in_control_1_1_input_control_1a5e4fb58f18b4311b50c8f3d495b1a04d" prot="private" virt="non-virtual"><scope>InControl::InputControl</scope><name>zeroTick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

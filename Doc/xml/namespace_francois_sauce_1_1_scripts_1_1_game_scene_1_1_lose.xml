@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose" kind="namespace" language="C#">
+    <compoundname>FrancoisSauce::Scripts::GameScene::Lose</compoundname>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script" prot="public">FrancoisSauce::Scripts::GameScene::Lose::LoseScript</innerclass>
+    <innerclass refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" prot="public">FrancoisSauce::Scripts::GameScene::Lose::View_Lose</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

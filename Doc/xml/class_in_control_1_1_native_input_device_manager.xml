@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_native_input_device_manager" kind="class" language="C#" prot="public">
+    <compoundname>InControl::NativeInputDeviceManager</compoundname>
+    <basecompoundref refid="class_in_control_1_1_input_device_manager" prot="public" virt="non-virtual">InControl.InputDeviceManager</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1aa4ce4dde30468be21cdb05f1e0cf9bb1" prot="public" static="yes" mutable="no">
+        <type>Func&lt; <ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref>, ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref> &gt;, <ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref> &gt;</type>
+        <definition>Func&lt;InputDeviceInfo, ReadOnlyCollection&lt;NativeInputDevice&gt;, NativeInputDevice&gt; InControl.NativeInputDeviceManager.CustomFindDetachedDevice</definition>
+        <argsstring></argsstring>
+        <name>CustomFindDetachedDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="14" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1a6888c660f05317c9429b6d4a7cf36700" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref> &gt;</type>
+        <definition>readonly List&lt;NativeInputDevice&gt; InControl.NativeInputDeviceManager.attachedDevices</definition>
+        <argsstring></argsstring>
+        <name>attachedDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="16" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1a88cb3707e4cade531d715c14f5b34ff5" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref> &gt;</type>
+        <definition>readonly List&lt;NativeInputDevice&gt; InControl.NativeInputDeviceManager.detachedDevices</definition>
+        <argsstring></argsstring>
+        <name>detachedDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="17" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1a3b4a47c42995c4e4b85187200a0340c3" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref> &gt;</type>
+        <definition>readonly List&lt;InputDeviceProfile&gt; InControl.NativeInputDeviceManager.systemDeviceProfiles</definition>
+        <argsstring></argsstring>
+        <name>systemDeviceProfiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="19" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1a4bac23fbad8789402722ff9ca8be85eb" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref> &gt;</type>
+        <definition>readonly List&lt;InputDeviceProfile&gt; InControl.NativeInputDeviceManager.customDeviceProfiles</definition>
+        <argsstring></argsstring>
+        <name>customDeviceProfiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="20" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_native_input_device_manager_1a83a27756b99b24fbe395fc7efdf78b11" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1acd54c2f1bf3f4d16a3190ce4faf1a983" kindref="member">DeviceHandle</ref>[]</type>
+        <definition>DeviceHandle [] InControl.NativeInputDeviceManager.deviceEvents</definition>
+        <argsstring></argsstring>
+        <name>deviceEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="22" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a91aebd52e68fcf2bec0acbbdf5b1c8ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.NativeInputDeviceManager.NativeInputDeviceManager</definition>
+        <argsstring>()</argsstring>
+        <name>NativeInputDeviceManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="25" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="25" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a8a2569e0f985eedf1e3b2f6871b48fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.NativeInputDeviceManager.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <reimplements refid="class_in_control_1_1_input_device_manager_1afa06031296afe418d2c57b13e2fa3c97">Destroy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="55" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a73fc159153de40e247a8c16417cea162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.NativeInputDeviceManager.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_in_control_1_1_input_device_manager_1ac3416e8a7486490be7f21a0b33f71e77">Update</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="61" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="61" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a4373cff62c20b89b1250e41411816af4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.NativeInputDeviceManager.DetectDevice</definition>
+        <argsstring>(DeviceHandle deviceHandle, InputDeviceInfo deviceInfo)</argsstring>
+        <name>DetectDevice</name>
+        <param>
+          <type><ref refid="namespace_in_control_1acd54c2f1bf3f4d16a3190ce4faf1a983" kindref="member">DeviceHandle</ref></type>
+          <declname>deviceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="117" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="117" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a58584b38e2da9c32d2be00a672c04474" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.NativeInputDeviceManager.AttachDevice</definition>
+        <argsstring>(NativeInputDevice device)</argsstring>
+        <name>AttachDevice</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="138" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1ab6fc2c7d72f5fa38b2d7da20ae108a9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.NativeInputDeviceManager.DetachDevice</definition>
+        <argsstring>(NativeInputDevice device)</argsstring>
+        <name>DetachDevice</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref></type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="146" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a58fda253904abd293bc089cef75aa0f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref></type>
+        <definition>NativeInputDevice InControl.NativeInputDeviceManager.FindAttachedDevice</definition>
+        <argsstring>(DeviceHandle deviceHandle)</argsstring>
+        <name>FindAttachedDevice</name>
+        <param>
+          <type><ref refid="namespace_in_control_1acd54c2f1bf3f4d16a3190ce4faf1a983" kindref="member">DeviceHandle</ref></type>
+          <declname>deviceHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="154" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="154" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1aba574df4888e07c8d41f2487cec386ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref></type>
+        <definition>NativeInputDevice InControl.NativeInputDeviceManager.FindDetachedDevice</definition>
+        <argsstring>(InputDeviceInfo deviceInfo)</argsstring>
+        <name>FindDetachedDevice</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="170" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="170" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a111c2b5b4706a980d5e296b72ed167a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.NativeInputDeviceManager.AddSystemDeviceProfile</definition>
+        <argsstring>(InputDeviceProfile deviceProfile)</argsstring>
+        <name>AddSystemDeviceProfile</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device_profile" kindref="compound">InputDeviceProfile</ref></type>
+          <declname>deviceProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="233" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="233" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1aec16e2021e9861092e3aaa628e654cfa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.NativeInputDeviceManager.AddSystemDeviceProfiles</definition>
+        <argsstring>()</argsstring>
+        <name>AddSystemDeviceProfiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="242" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="242" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a17d99f78146a6e60887cf5a9f3cb0c7c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref></type>
+        <definition>static NativeInputDevice InControl.NativeInputDeviceManager.SystemFindDetachedDevice</definition>
+        <argsstring>(InputDeviceInfo deviceInfo, ReadOnlyCollection&lt; NativeInputDevice &gt; detachedDevices)</argsstring>
+        <name>SystemFindDetachedDevice</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_input_device_info" kindref="compound">InputDeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <param>
+          <type>ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_native_input_device" kindref="compound">NativeInputDevice</ref> &gt;</type>
+          <declname>detachedDevices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="183" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="183" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a3b3d9250858444074d2ba6d81cd96224" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.NativeInputDeviceManager.CheckPlatformSupport</definition>
+        <argsstring>(ICollection&lt; string &gt; errors)</argsstring>
+        <name>CheckPlatformSupport</name>
+        <param>
+          <type>ICollection&lt; string &gt;</type>
+          <declname>errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="253" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="253" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_in_control_1_1_native_input_device_manager_1a72956f68d647d52ed44aabf35fd6ef3c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.NativeInputDeviceManager.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="297" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="297" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+      </node>
+      <node id="1">
+        <label>InControl.NativeInputDeviceManager</label>
+        <link refid="class_in_control_1_1_native_input_device_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>InputDeviceManager</label>
+        <link refid="class_in_control_1_1_input_device_manager"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>devices</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>readonly</label>
+      </node>
+      <node id="1">
+        <label>InControl.NativeInputDeviceManager</label>
+        <link refid="class_in_control_1_1_native_input_device_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" line="11" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputDeviceManager.cs" bodystart="12" bodyend="321"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a111c2b5b4706a980d5e296b72ed167a1" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>AddSystemDeviceProfile</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1aec16e2021e9861092e3aaa628e654cfa" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>AddSystemDeviceProfiles</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a58584b38e2da9c32d2be00a672c04474" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>AttachDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a6888c660f05317c9429b6d4a7cf36700" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>attachedDevices</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a3b3d9250858444074d2ba6d81cd96224" prot="public" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>CheckPlatformSupport</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a4bac23fbad8789402722ff9ca8be85eb" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>customDeviceProfiles</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1aa4ce4dde30468be21cdb05f1e0cf9bb1" prot="public" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>CustomFindDetachedDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a8a2569e0f985eedf1e3b2f6871b48fbf" prot="public" virt="virtual"><scope>InControl::NativeInputDeviceManager</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1ab6fc2c7d72f5fa38b2d7da20ae108a9b" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>DetachDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a88cb3707e4cade531d715c14f5b34ff5" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>detachedDevices</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a4373cff62c20b89b1250e41411816af4" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>DetectDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a83a27756b99b24fbe395fc7efdf78b11" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>deviceEvents</name></member>
+      <member refid="class_in_control_1_1_input_device_manager_1a024370cba1e3d026abd3a83fa27922c8" prot="protected" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>devices</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a72956f68d647d52ed44aabf35fd6ef3c" prot="package" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>Enable</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a58fda253904abd293bc089cef75aa0f7" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>FindAttachedDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1aba574df4888e07c8d41f2487cec386ad" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>FindDetachedDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a91aebd52e68fcf2bec0acbbdf5b1c8ea" prot="public" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>NativeInputDeviceManager</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a3b4a47c42995c4e4b85187200a0340c3" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>systemDeviceProfiles</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a17d99f78146a6e60887cf5a9f3cb0c7c" prot="private" virt="non-virtual"><scope>InControl::NativeInputDeviceManager</scope><name>SystemFindDetachedDevice</name></member>
+      <member refid="class_in_control_1_1_native_input_device_manager_1a73fc159153de40e247a8c16417cea162" prot="public" virt="virtual"><scope>InControl::NativeInputDeviceManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

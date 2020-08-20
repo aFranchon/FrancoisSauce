@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_121a85c2c821821661d57373e9eac66f" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Other</compoundname>
+    <innerfile refid="_apple_m_fi_unity_profile_8cs">AppleMFiUnityProfile.cs</innerfile>
+    <innerfile refid="_game_stick_unity_profile_8cs">GameStickUnityProfile.cs</innerfile>
+    <innerfile refid="_generic_black_berry_unity_profile_8cs">GenericBlackBerryUnityProfile.cs</innerfile>
+    <innerfile refid="_google_stadia_unity_profile_8cs">GoogleStadiaUnityProfile.cs</innerfile>
+    <innerfile refid="_play_station4_unity_profile_8cs">PlayStation4UnityProfile.cs</innerfile>
+    <innerfile refid="_play_station_vita_p_s_m_unity_profile_8cs">PlayStationVitaPSMUnityProfile.cs</innerfile>
+    <innerfile refid="_razer_serval_forge_t_v_unity_profile_8cs">RazerServalForgeTVUnityProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_unity_profile_8cs">XboxOneUnityProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Other/"/>
+  </compounddef>
+</doxygen>

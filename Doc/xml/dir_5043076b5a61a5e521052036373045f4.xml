@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_5043076b5a61a5e521052036373045f4" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows</compoundname>
+    <innerfile refid="_afterglow_xbox360_windows_native_profile_8cs">AfterglowXbox360WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_air_flo_p_s3_windows_native_profile_8cs">AirFloPS3WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_buffalo_classic_windows_native_profile_8cs">BuffaloClassicWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_n_e_s30_pro_windows_native_profile_8cs">EightBitdoNES30ProWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_f30_pro_windows_native_profile_8cs">EightBitdoSF30ProWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_f_c30_windows_native_profile_8cs">EightBitdoSFC30WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_eight_bitdo_s_n_e_s30_windows_native_profile_8cs">EightBitdoSNES30WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_game_cube_mayflash_windows_native_profile_8cs">GameCubeMayflashWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_game_cube_windows_native_profile_8cs">GameCubeWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_google_stadia_windows_native_profile_8cs">GoogleStadiaWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_kiwitata_n_e_s_windows_native_profile_8cs">KiwitataNESWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f310_mode_d_windows_native_profile_8cs">LogitechF310ModeDWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f310_mode_x_windows_native_profile_8cs">LogitechF310ModeXWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f510_mode_d_windows_native_profile_8cs">LogitechF510ModeDWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f510_mode_x_windows_native_profile_8cs">LogitechF510ModeXWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f710_mode_d_windows_native_profile_8cs">LogitechF710ModeDWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_logitech_f710_mode_x_windows_native_profile_8cs">LogitechF710ModeXWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_nintendo_switch_pro_windows_native_profile_8cs">NintendoSwitchProWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_n_vidia_shield_windows_native_profile_8cs">NVidiaShieldWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_o_u_y_a_windows_native_profile_8cs">OUYAWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_p_c_t_w_i_n_s_h_o_c_k_windows_native_profile_8cs">PCTWINSHOCKWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_play_station4_windows_native_profile_8cs">PlayStation4WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_razer_serval_windows_native_profile_8cs">RazerServalWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_steam_windows_native_profile_8cs">SteamWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox360_wired_windows_native_profile_8cs">Xbox360WiredWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox360_wireless_windows_native_profile_8cs">Xbox360WirelessWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_elite_windows10_a_e_native_profile_8cs">XboxOneEliteWindows10AENativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_elite_windows_native_profile_8cs">XboxOneEliteWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_windows10_a_e_native_profile_8cs">XboxOneWindows10AENativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_windows10_native_profile_8cs">XboxOneWindows10NativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_windows_native_profile_8cs">XboxOneWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_xbox_one_wireless_adapter_windows_native_profile_8cs">XboxOneWirelessAdapterWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_x_input_windows_native_profile_8cs">XInputWindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_x_t_r55___g2___windows_native_profile_8cs">XTR55_G2_WindowsNativeProfile.cs</innerfile>
+    <innerfile refid="_x_t_r___g2___windows_native_profile_8cs">XTR_G2_WindowsNativeProfile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows/"/>
+  </compounddef>
+</doxygen>

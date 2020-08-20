@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::GameScene::Lose::LoseScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script_1ad3c90eea97e4e73ae6d5c13e7b4530ce" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.GameScene.Lose.LoseScript.quitButton</definition>
+        <argsstring></argsstring>
+        <name>quitButton</name>
+        <briefdescription>
+<para>quitButton to allow <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" kindref="compound">View_Lose</ref> to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" line="14" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script_1a47d8ef2a549f3286a65ba07e6b3079ee" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FrancoisSauce.Scripts.GameScene.Lose.LoseScript.replayButton</definition>
+        <argsstring></argsstring>
+        <name>replayButton</name>
+        <briefdescription>
+<para>replayButton to allow <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" kindref="compound">View_Lose</ref> to register to his onClick event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" line="18" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of all the mandatory references for the <ref refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose" kindref="compound">View_Lose</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Lose.LoseScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.GameScene.Lose.LoseScript</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Lose/LoseScript.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script_1ad3c90eea97e4e73ae6d5c13e7b4530ce" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Lose::LoseScript</scope><name>quitButton</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script_1a47d8ef2a549f3286a65ba07e6b3079ee" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::GameScene::Lose::LoseScript</scope><name>replayButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

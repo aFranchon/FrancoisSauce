@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_294324ffd102c6db9744363f3d3e7240" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls</compoundname>
+    <innerfile refid="_touch_button_control_8cs">TouchButtonControl.cs</innerfile>
+    <innerfile refid="_touch_stick_control_8cs">TouchStickControl.cs</innerfile>
+    <innerfile refid="_touch_swipe_control_8cs">TouchSwipeControl.cs</innerfile>
+    <innerfile refid="_touch_track_control_8cs">TouchTrackControl.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/"/>
+  </compounddef>
+</doxygen>

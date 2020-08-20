@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_optional_input_device_driver_type" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::OptionalInputDeviceDriverType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_input_device_driver_type_1a2a8449a13757666a46af56edc0d5229c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceDriverType.hasValue</definition>
+        <argsstring></argsstring>
+        <name>hasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_optional_input_device_driver_type_1a81eed092d0ae632231f21c9cfc08775d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+        <definition>InputDeviceDriverType InControl.OptionalInputDeviceDriverType.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="18" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_driver_type_1ac626bf3b7731a0e5fcefd86257f14b97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceDriverType.HasValue</definition>
+        <argsstring></argsstring>
+        <name>HasValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="28" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_driver_type_1a8f014757000f2a92d060c93751d84bf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceDriverType.HasNoValue</definition>
+        <argsstring></argsstring>
+        <name>HasNoValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="37" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_in_control_1_1_optional_input_device_driver_type_1aeae461eb63d1da045ba20e9e2d08a245" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+        <definition>InputDeviceDriverType InControl.OptionalInputDeviceDriverType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="46" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="47" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a6e25661d9d325b8cec457f0117caf309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.OptionalInputDeviceDriverType.OptionalInputDeviceDriverType</definition>
+        <argsstring>(InputDeviceDriverType value)</argsstring>
+        <name>OptionalInputDeviceDriverType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="21" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a40d9dd1ad92bdca243104d34e2bb305a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalInputDeviceDriverType.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="66" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a6752a0a0673e9a9e6a5a4959f5475684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+        <definition>InputDeviceDriverType InControl.OptionalInputDeviceDriverType.GetValueOrDefault</definition>
+        <argsstring>(InputDeviceDriverType defaultValue)</argsstring>
+        <name>GetValueOrDefault</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="73" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1adfae39edfa2ad473a7c0f691aa273800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+        <definition>InputDeviceDriverType InControl.OptionalInputDeviceDriverType.GetValueOrZero</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueOrZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="79" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1ae00d85652ae5c38e7026d43ec40cc627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.OptionalInputDeviceDriverType.SetValue</definition>
+        <argsstring>(InputDeviceDriverType value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="86" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="86" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a13d7a1eb0a289dd9657ffce5ac81fd1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool InControl.OptionalInputDeviceDriverType.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="93" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1ae2d39f5f1bcfb07d599e86e2a15605ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceDriverType.Equals</definition>
+        <argsstring>(OptionalInputDeviceDriverType other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="100" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a10deb70b5c758667abcc0819519b6d19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.OptionalInputDeviceDriverType.Equals</definition>
+        <argsstring>(InputDeviceDriverType other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="108" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a28a76a49ab6f6e485a224edd78e70d37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int InControl.OptionalInputDeviceDriverType.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="150" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="150" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a4d9bf926bddc66d5ff3476df40dec1e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string InControl.OptionalInputDeviceDriverType.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="158" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a4f2913b832c49aeb840fef20b700969d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceDriverType.operator==</definition>
+        <argsstring>(OptionalInputDeviceDriverType a, OptionalInputDeviceDriverType b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="115" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a65e55183c30d87fc3661ea7a9eb9f254" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceDriverType.operator!=</definition>
+        <argsstring>(OptionalInputDeviceDriverType a, OptionalInputDeviceDriverType b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="123" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1abdfbad9479db5354c8ec8cd21293895e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceDriverType.operator==</definition>
+        <argsstring>(OptionalInputDeviceDriverType a, InputDeviceDriverType b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="129" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1ad505b4f8a5339ce6e170e5f221066cc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool InControl.OptionalInputDeviceDriverType.operator!=</definition>
+        <argsstring>(OptionalInputDeviceDriverType a, InputDeviceDriverType b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="135" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1af84a2171fca73870265de839aa851201" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int InControl.OptionalInputDeviceDriverType.CombineHashCodes</definition>
+        <argsstring>(int h1, int h2)</argsstring>
+        <name>CombineHashCodes</name>
+        <param>
+          <type>int</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="141" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1a0e887531c345b68b86020aba7f1d7d40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit InControl.OptionalInputDeviceDriverType.operator OptionalInputDeviceDriverType</definition>
+        <argsstring>(InputDeviceDriverType value)</argsstring>
+        <name>operator OptionalInputDeviceDriverType</name>
+        <param>
+          <type><ref refid="namespace_in_control_1a51d9e44c633d2eb036cfa165688645fd" kindref="member">InputDeviceDriverType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="164" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_in_control_1_1_optional_input_device_driver_type_1aca9d7b5dfac6c7191115e060d7d0da0d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static InControl.OptionalInputDeviceDriverType.operator InputDeviceDriverType</definition>
+        <argsstring>(OptionalInputDeviceDriverType optional)</argsstring>
+        <name>operator InputDeviceDriverType</name>
+        <param>
+          <type><ref refid="struct_in_control_1_1_optional_input_device_driver_type" kindref="compound">OptionalInputDeviceDriverType</ref></type>
+          <declname>optional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="170" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" line="10" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/OptionalInputDeviceDriverType.cs" bodystart="11" bodyend="174"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a40d9dd1ad92bdca243104d34e2bb305a" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>Clear</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1af84a2171fca73870265de839aa851201" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>CombineHashCodes</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a13d7a1eb0a289dd9657ffce5ac81fd1c" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1ae2d39f5f1bcfb07d599e86e2a15605ab" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a10deb70b5c758667abcc0819519b6d19" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>Equals</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a28a76a49ab6f6e485a224edd78e70d37" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>GetHashCode</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a6752a0a0673e9a9e6a5a4959f5475684" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>GetValueOrDefault</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1adfae39edfa2ad473a7c0f691aa273800" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>GetValueOrZero</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a8f014757000f2a92d060c93751d84bf9" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>HasNoValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a2a8449a13757666a46af56edc0d5229c" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>hasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1ac626bf3b7731a0e5fcefd86257f14b97" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>HasValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1aca9d7b5dfac6c7191115e060d7d0da0d" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator InputDeviceDriverType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a0e887531c345b68b86020aba7f1d7d40" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator OptionalInputDeviceDriverType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a65e55183c30d87fc3661ea7a9eb9f254" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1ad505b4f8a5339ce6e170e5f221066cc7" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator!=</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a4f2913b832c49aeb840fef20b700969d" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1abdfbad9479db5354c8ec8cd21293895e" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>operator==</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a6e25661d9d325b8cec457f0117caf309" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>OptionalInputDeviceDriverType</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1ae00d85652ae5c38e7026d43ec40cc627" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>SetValue</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a4d9bf926bddc66d5ff3476df40dec1e9" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>ToString</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1a81eed092d0ae632231f21c9cfc08775d" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>value</name></member>
+      <member refid="struct_in_control_1_1_optional_input_device_driver_type_1aeae461eb63d1da045ba20e9e2d08a245" prot="public" virt="non-virtual"><scope>InControl::OptionalInputDeviceDriverType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

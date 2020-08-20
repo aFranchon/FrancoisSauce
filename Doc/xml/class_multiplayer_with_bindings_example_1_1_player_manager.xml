@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_multiplayer_with_bindings_example_1_1_player_manager" kind="class" language="C#" prot="public">
+    <compoundname>MultiplayerWithBindingsExample::PlayerManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1ada7dd5522c58d4bf0f879750d413b061" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MultiplayerWithBindingsExample.PlayerManager.playerPrefab</definition>
+        <argsstring></argsstring>
+        <name>playerPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="14" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a4068e602d09698f097e26043c864e122" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MultiplayerWithBindingsExample.PlayerManager.maxPlayers</definition>
+        <argsstring></argsstring>
+        <name>maxPlayers</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="16" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a2fb4d2639c03136a8d44ed7aa3a58dc0" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; MultiplayerWithBindingsExample.PlayerManager.playerPositions</definition>
+        <argsstring></argsstring>
+        <name>playerPositions</name>
+        <initializer>= new List&lt;Vector3&gt;() {
+			new Vector3( -1, 1, -10 ),
+			new Vector3( 1, 1, -10 ),
+			new Vector3( -1, -1, -10 ),
+			new Vector3( 1, -1, -10 ),
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="18" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a1591656a185782cf875c01808ec8c50c" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref> &gt;</type>
+        <definition>List&lt;Player&gt; MultiplayerWithBindingsExample.PlayerManager.players</definition>
+        <argsstring></argsstring>
+        <name>players</name>
+        <initializer>= new List&lt;<ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref>&gt;( maxPlayers )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="25" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a1bddf35619d888ce1396b86236f842ef" prot="private" static="no" mutable="no">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions MultiplayerWithBindingsExample.PlayerManager.keyboardListener</definition>
+        <argsstring></argsstring>
+        <name>keyboardListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="27" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a2d074d346cafe598fcab3e34a0722382" prot="private" static="no" mutable="no">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions MultiplayerWithBindingsExample.PlayerManager.joystickListener</definition>
+        <argsstring></argsstring>
+        <name>joystickListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="28" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a7d3bebc0838959f186dadbbd543de8f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="31" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a1f62e02a84c15763a2b246fcf844840a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="39" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a7b8b04cca49caa3201a3fd3d2278d59d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="47" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="47" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1adf3afe7e470a243eced079d859a8226d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MultiplayerWithBindingsExample.PlayerManager.JoinButtonWasPressedOnListener</definition>
+        <argsstring>(PlayerActions actions)</argsstring>
+        <name>JoinButtonWasPressedOnListener</name>
+        <param>
+          <type><ref refid="class_multiplayer_with_bindings_example_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+          <declname>actions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="69" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a5fd63d451e0f22c1ff5825ee2fe78c2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player MultiplayerWithBindingsExample.PlayerManager.FindPlayerUsingJoystick</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>FindPlayerUsingJoystick</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="75" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a3874e797b7175ed44d6e4bbf6a564a4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MultiplayerWithBindingsExample.PlayerManager.ThereIsNoPlayerUsingJoystick</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>ThereIsNoPlayerUsingJoystick</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="91" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a7df0f54f071baf61f9d1891a405428e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player MultiplayerWithBindingsExample.PlayerManager.FindPlayerUsingKeyboard</definition>
+        <argsstring>()</argsstring>
+        <name>FindPlayerUsingKeyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="97" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="97" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1aa418c066dad987c1220db4ff7fbc438f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MultiplayerWithBindingsExample.PlayerManager.ThereIsNoPlayerUsingKeyboard</definition>
+        <argsstring>()</argsstring>
+        <name>ThereIsNoPlayerUsingKeyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="113" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a94d2c8752b7831897f49b1b0cb3e54e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.OnDeviceDetached</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>OnDeviceDetached</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="119" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="119" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a30fa1040ed4b70d89b414ddabb0a88f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player MultiplayerWithBindingsExample.PlayerManager.CreatePlayer</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>CreatePlayer</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="129" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="129" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1ac715436ca497ebf1d8d644c5c8c4c2cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.RemovePlayer</definition>
+        <argsstring>(Player player)</argsstring>
+        <name>RemovePlayer</name>
+        <param>
+          <type><ref refid="class_multiplayer_with_bindings_example_1_1_player" kindref="compound">Player</ref></type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="165" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_multiplayer_with_bindings_example_1_1_player_manager_1a619accbdea78ee1ab6736df017a131c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiplayerWithBindingsExample.PlayerManager.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="174" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="174" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MultiplayerWithBindingsExample.PlayerManager</label>
+        <link refid="class_multiplayer_with_bindings_example_1_1_player_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MultiplayerWithBindingsExample.PlayerManager</label>
+        <link refid="class_multiplayer_with_bindings_example_1_1_player_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" line="12" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings/PlayerManager.cs" bodystart="13" bodyend="188"/>
+    <listofallmembers>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a30fa1040ed4b70d89b414ddabb0a88f2" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>CreatePlayer</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a5fd63d451e0f22c1ff5825ee2fe78c2e" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>FindPlayerUsingJoystick</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a7df0f54f071baf61f9d1891a405428e2" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>FindPlayerUsingKeyboard</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1adf3afe7e470a243eced079d859a8226d" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>JoinButtonWasPressedOnListener</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a2d074d346cafe598fcab3e34a0722382" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>joystickListener</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a1bddf35619d888ce1396b86236f842ef" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>keyboardListener</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a4068e602d09698f097e26043c864e122" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>maxPlayers</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a94d2c8752b7831897f49b1b0cb3e54e5" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>OnDeviceDetached</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a1f62e02a84c15763a2b246fcf844840a" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>OnDisable</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a7d3bebc0838959f186dadbbd543de8f3" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>OnEnable</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a619accbdea78ee1ab6736df017a131c0" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>OnGUI</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a2fb4d2639c03136a8d44ed7aa3a58dc0" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>playerPositions</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1ada7dd5522c58d4bf0f879750d413b061" prot="public" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>playerPrefab</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a1591656a185782cf875c01808ec8c50c" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>players</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1ac715436ca497ebf1d8d644c5c8c4c2cf" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>RemovePlayer</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a3874e797b7175ed44d6e4bbf6a564a4d" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>ThereIsNoPlayerUsingJoystick</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1aa418c066dad987c1220db4ff7fbc438f" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>ThereIsNoPlayerUsingKeyboard</name></member>
+      <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a7b8b04cca49caa3201a3fd3d2278d59d" prot="private" virt="non-virtual"><scope>MultiplayerWithBindingsExample::PlayerManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

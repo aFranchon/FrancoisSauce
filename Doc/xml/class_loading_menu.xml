@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_loading_menu" kind="class" language="C#" prot="public">
+    <compoundname>LoadingMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_loading_menu_1a2aff24d13b4b757cff067eacc8ecf4d9" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button LoadingMenu.startGameButton</definition>
+        <argsstring></argsstring>
+        <name>startGameButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_LoadingMenu/LoadingMenu.cs" line="8" column="19" bodyfile="FrancoisSauce/MainMenu/Scripts/_LoadingMenu/LoadingMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LoadingMenu</label>
+        <link refid="class_loading_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LoadingMenu</label>
+        <link refid="class_loading_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/MainMenu/Scripts/_LoadingMenu/LoadingMenu.cs" line="6" column="7" bodyfile="FrancoisSauce/MainMenu/Scripts/_LoadingMenu/LoadingMenu.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_loading_menu_1a2aff24d13b4b757cff067eacc8ecf4d9" prot="public" virt="non-virtual"><scope>LoadingMenu</scope><name>startGameButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,396 @@
+\hypertarget{struct_in_control_1_1_key_combo}{}\doxysection{In\+Control.\+Key\+Combo Struct Reference}
+\label{struct_in_control_1_1_key_combo}\index{InControl.KeyCombo@{InControl.KeyCombo}}
+
+
+Represents a combination of one or more keys, including modifiers, up to a maximum of eight.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_key_combo_a61bcbd99f351db7035caee19117386e7}{Key\+Combo}} (params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]} keys)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_ae8ad15ea3d9785f78766c89241bffbce}{Add\+Include\+Int}} (int key)
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_a2957a0552f2ade8064f5090703054fc0}{Get\+Include\+Int}} (int index)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_ac04fbef76844d9587ea85c6de07d6279}{Add}} (\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} key)
+\item 
+\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_a2a96a7fbc779e13555f6e23bae2d0c0e}{Get}} (int index)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_afefda8a7bf4667eb49bce65178adc950}{Add\+Include}} (\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} key)
+\item 
+\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_a8d31c4356ee9c9598ce5c2844c812151}{Get\+Include}} (int index)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_afebfff66d07c5edb94a416d1fb50f006}{Add\+Exclude\+Int}} (int key)
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_a8a6e1e58e2568f26e2d6fdb3a6936e6a}{Get\+Exclude\+Int}} (int index)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_a560f23fe3dedaecbbc3a7d8fa7ae9ab2}{Add\+Exclude}} (\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} key)
+\item 
+\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_ac3edd70aec657c8198867b42a39a229a}{Get\+Exclude}} (int index)
+\item 
+\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_a814a777ea7b8e295980993e39dfbdb43}{And\+Not}} (params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]} keys)
+\item 
+void \mbox{\hyperlink{struct_in_control_1_1_key_combo_a3846abbc4dcffc374e244c7157eba754}{Clear}} ()
+\item 
+override string \mbox{\hyperlink{struct_in_control_1_1_key_combo_a18db45a79ac3a4533208bfc585a29643}{To\+String}} ()
+\item 
+override bool \mbox{\hyperlink{struct_in_control_1_1_key_combo_ae6a97bb518e2a6631dacb148f7ff5564}{Equals}} (object other)
+\item 
+override int \mbox{\hyperlink{struct_in_control_1_1_key_combo_ae9efc20fd54cb689f578937bc0a2227c}{Get\+Hash\+Code}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_a9dbd101239440071af7816c64625caa7}{With}} (params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]} keys)
+\item 
+static \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} \mbox{\hyperlink{struct_in_control_1_1_key_combo_a827d7fbd931f56226d7bf435d50f9d87}{Detect}} (bool modifiers\+As\+Keys)
+\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_key_combo_aefa6292aee3b13d5dc6e03a448a1aced}{operator==}} (\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} a, \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} b)
+\item 
+static bool \mbox{\hyperlink{struct_in_control_1_1_key_combo_a3fc38421c375cd6acf0347a6848db677}{operator!=}} (\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} a, \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} b)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_ab7025a09c865aa37d5bb46ec145ab2e9}{include\+Size}}
+\item 
+ulong \mbox{\hyperlink{struct_in_control_1_1_key_combo_a7e332dcb4adc4749976e4b713f5fde3a}{include\+Data}}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_ac3fbb48b65f5c3504d65f72681058098}{exclude\+Size}}
+\item 
+ulong \mbox{\hyperlink{struct_in_control_1_1_key_combo_ab2e1d2e16740c09908a0ba8078634eab}{exclude\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Dictionary$<$ ulong, string $>$ \mbox{\hyperlink{struct_in_control_1_1_key_combo_afb5faf9964175c12a25da3feb2969668}{cached\+Strings}} = new Dictionary$<$ulong, string$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_aaddcf1523473feb154433ae1fbf10218}{Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_a37288140df50284c21a4db84eb181c79}{Include\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{struct_in_control_1_1_key_combo_af86d3c03d05f7914c040b229a6753113}{Exclude\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{struct_in_control_1_1_key_combo_ac958bc59780d1d064d27ac333f9a076d}{Is\+Pressed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a combination of one or more keys, including modifiers, up to a maximum of eight. 
+
+
+
+Definition at line 11 of file Key\+Combo.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a61bcbd99f351db7035caee19117386e7}\label{struct_in_control_1_1_key_combo_a61bcbd99f351db7035caee19117386e7}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!KeyCombo@{KeyCombo}}
+\index{KeyCombo@{KeyCombo}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{KeyCombo()}{KeyCombo()}}
+{\footnotesize\ttfamily In\+Control.\+Key\+Combo.\+Key\+Combo (\begin{DoxyParamCaption}\item[{params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]}}]{keys }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Key\+Combo.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ac04fbef76844d9587ea85c6de07d6279}\label{struct_in_control_1_1_key_combo_ac04fbef76844d9587ea85c6de07d6279}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Add@{Add}}
+\index{Add@{Add}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}}]{key }\end{DoxyParamCaption})}
+
+
+
+Definition at line 52 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a560f23fe3dedaecbbc3a7d8fa7ae9ab2}\label{struct_in_control_1_1_key_combo_a560f23fe3dedaecbbc3a7d8fa7ae9ab2}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!AddExclude@{AddExclude}}
+\index{AddExclude@{AddExclude}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{AddExclude()}{AddExclude()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Add\+Exclude (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}}]{key }\end{DoxyParamCaption})}
+
+
+
+Definition at line 99 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_afebfff66d07c5edb94a416d1fb50f006}\label{struct_in_control_1_1_key_combo_afebfff66d07c5edb94a416d1fb50f006}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!AddExcludeInt@{AddExcludeInt}}
+\index{AddExcludeInt@{AddExcludeInt}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{AddExcludeInt()}{AddExcludeInt()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Add\+Exclude\+Int (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Definition at line 81 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_afefda8a7bf4667eb49bce65178adc950}\label{struct_in_control_1_1_key_combo_afefda8a7bf4667eb49bce65178adc950}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!AddInclude@{AddInclude}}
+\index{AddInclude@{AddInclude}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{AddInclude()}{AddInclude()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Add\+Include (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}}]{key }\end{DoxyParamCaption})}
+
+
+
+Definition at line 65 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ae8ad15ea3d9785f78766c89241bffbce}\label{struct_in_control_1_1_key_combo_ae8ad15ea3d9785f78766c89241bffbce}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!AddIncludeInt@{AddIncludeInt}}
+\index{AddIncludeInt@{AddIncludeInt}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{AddIncludeInt()}{AddIncludeInt()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Add\+Include\+Int (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Definition at line 33 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a814a777ea7b8e295980993e39dfbdb43}\label{struct_in_control_1_1_key_combo_a814a777ea7b8e295980993e39dfbdb43}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!AndNot@{AndNot}}
+\index{AndNot@{AndNot}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{AndNot()}{AndNot()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} In\+Control.\+Key\+Combo.\+And\+Not (\begin{DoxyParamCaption}\item[{params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]}}]{keys }\end{DoxyParamCaption})}
+
+
+
+Definition at line 121 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a3846abbc4dcffc374e244c7157eba754}\label{struct_in_control_1_1_key_combo_a3846abbc4dcffc374e244c7157eba754}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Clear@{Clear}}
+\index{Clear@{Clear}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void In\+Control.\+Key\+Combo.\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 131 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a827d7fbd931f56226d7bf435d50f9d87}\label{struct_in_control_1_1_key_combo_a827d7fbd931f56226d7bf435d50f9d87}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Detect@{Detect}}
+\index{Detect@{Detect}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Detect()}{Detect()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} In\+Control.\+Key\+Combo.\+Detect (\begin{DoxyParamCaption}\item[{bool}]{modifiers\+As\+Keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 198 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ae6a97bb518e2a6631dacb148f7ff5564}\label{struct_in_control_1_1_key_combo_ae6a97bb518e2a6631dacb148f7ff5564}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Equals@{Equals}}
+\index{Equals@{Equals}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool In\+Control.\+Key\+Combo.\+Equals (\begin{DoxyParamCaption}\item[{object}]{other }\end{DoxyParamCaption})}
+
+
+
+Definition at line 271 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a2a96a7fbc779e13555f6e23bae2d0c0e}\label{struct_in_control_1_1_key_combo_a2a96a7fbc779e13555f6e23bae2d0c0e}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Get@{Get}}
+\index{Get@{Get}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} In\+Control.\+Key\+Combo.\+Get (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ac3edd70aec657c8198867b42a39a229a}\label{struct_in_control_1_1_key_combo_ac3edd70aec657c8198867b42a39a229a}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!GetExclude@{GetExclude}}
+\index{GetExclude@{GetExclude}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{GetExclude()}{GetExclude()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} In\+Control.\+Key\+Combo.\+Get\+Exclude (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 105 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a8a6e1e58e2568f26e2d6fdb3a6936e6a}\label{struct_in_control_1_1_key_combo_a8a6e1e58e2568f26e2d6fdb3a6936e6a}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!GetExcludeInt@{GetExcludeInt}}
+\index{GetExcludeInt@{GetExcludeInt}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{GetExcludeInt()}{GetExcludeInt()}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+Get\+Exclude\+Int (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 93 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ae9efc20fd54cb689f578937bc0a2227c}\label{struct_in_control_1_1_key_combo_ae9efc20fd54cb689f578937bc0a2227c}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int In\+Control.\+Key\+Combo.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 283 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a8d31c4356ee9c9598ce5c2844c812151}\label{struct_in_control_1_1_key_combo_a8d31c4356ee9c9598ce5c2844c812151}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!GetInclude@{GetInclude}}
+\index{GetInclude@{GetInclude}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{GetInclude()}{GetInclude()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}} In\+Control.\+Key\+Combo.\+Get\+Include (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 71 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a2957a0552f2ade8064f5090703054fc0}\label{struct_in_control_1_1_key_combo_a2957a0552f2ade8064f5090703054fc0}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!GetIncludeInt@{GetIncludeInt}}
+\index{GetIncludeInt@{GetIncludeInt}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{GetIncludeInt()}{GetIncludeInt()}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+Get\+Include\+Int (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 45 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a3fc38421c375cd6acf0347a6848db677}\label{struct_in_control_1_1_key_combo_a3fc38421c375cd6acf0347a6848db677}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Key\+Combo.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 265 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_aefa6292aee3b13d5dc6e03a448a1aced}\label{struct_in_control_1_1_key_combo_aefa6292aee3b13d5dc6e03a448a1aced}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!operator==@{operator==}}
+\index{operator==@{operator==}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool In\+Control.\+Key\+Combo.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}}}]{a,  }\item[{\mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}}}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 259 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a18db45a79ac3a4533208bfc585a29643}\label{struct_in_control_1_1_key_combo_a18db45a79ac3a4533208bfc585a29643}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!ToString@{ToString}}
+\index{ToString@{ToString}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string In\+Control.\+Key\+Combo.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 239 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a9dbd101239440071af7816c64625caa7}\label{struct_in_control_1_1_key_combo_a9dbd101239440071af7816c64625caa7}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!With@{With}}
+\index{With@{With}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{With()}{With()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{struct_in_control_1_1_key_combo}{Key\+Combo}} In\+Control.\+Key\+Combo.\+With (\begin{DoxyParamCaption}\item[{params \mbox{\hyperlink{namespace_in_control_a19d1dc8fcbdfb37bcf314454ba8f5424}{Key}}\mbox{[}$\,$\mbox{]}}]{keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 115 of file Key\+Combo.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_afb5faf9964175c12a25da3feb2969668}\label{struct_in_control_1_1_key_combo_afb5faf9964175c12a25da3feb2969668}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!cachedStrings@{cachedStrings}}
+\index{cachedStrings@{cachedStrings}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{cachedStrings}{cachedStrings}}
+{\footnotesize\ttfamily Dictionary$<$ulong, string$>$ In\+Control.\+Key\+Combo.\+cached\+Strings = new Dictionary$<$ulong, string$>$()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 238 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ab2e1d2e16740c09908a0ba8078634eab}\label{struct_in_control_1_1_key_combo_ab2e1d2e16740c09908a0ba8078634eab}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!excludeData@{excludeData}}
+\index{excludeData@{excludeData}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{excludeData}{excludeData}}
+{\footnotesize\ttfamily ulong In\+Control.\+Key\+Combo.\+exclude\+Data}
+
+
+
+Definition at line 17 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ac3fbb48b65f5c3504d65f72681058098}\label{struct_in_control_1_1_key_combo_ac3fbb48b65f5c3504d65f72681058098}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!excludeSize@{excludeSize}}
+\index{excludeSize@{excludeSize}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{excludeSize}{excludeSize}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+exclude\+Size}
+
+
+
+Definition at line 16 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a7e332dcb4adc4749976e4b713f5fde3a}\label{struct_in_control_1_1_key_combo_a7e332dcb4adc4749976e4b713f5fde3a}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!includeData@{includeData}}
+\index{includeData@{includeData}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{includeData}{includeData}}
+{\footnotesize\ttfamily ulong In\+Control.\+Key\+Combo.\+include\+Data}
+
+
+
+Definition at line 14 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ab7025a09c865aa37d5bb46ec145ab2e9}\label{struct_in_control_1_1_key_combo_ab7025a09c865aa37d5bb46ec145ab2e9}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!includeSize@{includeSize}}
+\index{includeSize@{includeSize}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{includeSize}{includeSize}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+include\+Size}
+
+
+
+Definition at line 13 of file Key\+Combo.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_aaddcf1523473feb154433ae1fbf10218}\label{struct_in_control_1_1_key_combo_aaddcf1523473feb154433ae1fbf10218}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!Count@{Count}}
+\index{Count@{Count}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{Count}{Count}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 141 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_af86d3c03d05f7914c040b229a6753113}\label{struct_in_control_1_1_key_combo_af86d3c03d05f7914c040b229a6753113}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!ExcludeCount@{ExcludeCount}}
+\index{ExcludeCount@{ExcludeCount}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{ExcludeCount}{ExcludeCount}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+Exclude\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 159 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_a37288140df50284c21a4db84eb181c79}\label{struct_in_control_1_1_key_combo_a37288140df50284c21a4db84eb181c79}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!IncludeCount@{IncludeCount}}
+\index{IncludeCount@{IncludeCount}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{IncludeCount}{IncludeCount}}
+{\footnotesize\ttfamily int In\+Control.\+Key\+Combo.\+Include\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 150 of file Key\+Combo.\+cs.
+
+\mbox{\Hypertarget{struct_in_control_1_1_key_combo_ac958bc59780d1d064d27ac333f9a076d}\label{struct_in_control_1_1_key_combo_ac958bc59780d1d064d27ac333f9a076d}} 
+\index{InControl.KeyCombo@{InControl.KeyCombo}!IsPressed@{IsPressed}}
+\index{IsPressed@{IsPressed}!InControl.KeyCombo@{InControl.KeyCombo}}
+\doxysubsubsection{\texorpdfstring{IsPressed}{IsPressed}}
+{\footnotesize\ttfamily bool In\+Control.\+Key\+Combo.\+Is\+Pressed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 168 of file Key\+Combo.\+cs.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/3032f/\+Francois\+Sauce/\+Francois\+Sauce/\+Assets/\+\_\+\+\_\+\+\_\+\+\_\+\+Francois\+Sauce\+External\+Assets/\+In\+Control/\+Source/\+Binding/\mbox{\hyperlink{_key_combo_8cs}{Key\+Combo.\+cs}}\end{DoxyCompactItemize}

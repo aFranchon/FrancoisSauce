@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="struct_in_control_1_1_native_input_options" kind="struct" language="C#" prot="public">
+    <compoundname>InControl::NativeInputOptions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_in_control_1_1_native_input_options_1aeabd29fbf28e63c2841336094971bf2e" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 InControl.NativeInputOptions.updateRate</definition>
+        <argsstring></argsstring>
+        <name>updateRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" line="10" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_native_input_options_1aeaf34108d8f2c335cdad6536d730ab44" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 InControl.NativeInputOptions.enableXInput</definition>
+        <argsstring></argsstring>
+        <name>enableXInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" line="11" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_native_input_options_1a89a31204eacf62ee64ffb0153df303e1" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 InControl.NativeInputOptions.enableMFi</definition>
+        <argsstring></argsstring>
+        <name>enableMFi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" line="12" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_in_control_1_1_native_input_options_1aa33adc65ed396f304819a24bfc3f3ec2" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 InControl.NativeInputOptions.preventSleep</definition>
+        <argsstring></argsstring>
+        <name>preventSleep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" line="13" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" line="8" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/NativeInputOptions.cs" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_in_control_1_1_native_input_options_1a89a31204eacf62ee64ffb0153df303e1" prot="public" virt="non-virtual"><scope>InControl::NativeInputOptions</scope><name>enableMFi</name></member>
+      <member refid="struct_in_control_1_1_native_input_options_1aeaf34108d8f2c335cdad6536d730ab44" prot="public" virt="non-virtual"><scope>InControl::NativeInputOptions</scope><name>enableXInput</name></member>
+      <member refid="struct_in_control_1_1_native_input_options_1aa33adc65ed396f304819a24bfc3f3ec2" prot="public" virt="non-virtual"><scope>InControl::NativeInputOptions</scope><name>preventSleep</name></member>
+      <member refid="struct_in_control_1_1_native_input_options_1aeabd29fbf28e63c2841336094971bf2e" prot="public" virt="non-virtual"><scope>InControl::NativeInputOptions</scope><name>updateRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

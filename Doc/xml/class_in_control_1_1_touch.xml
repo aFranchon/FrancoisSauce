@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Touch</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1afede87d072049ad7f9d0449378e2611d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int InControl.Touch.FingerID_None</definition>
+        <argsstring></argsstring>
+        <name>FingerID_None</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="12" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1af4288eb714fc1f19a65ea7c88bf068f4" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int InControl.Touch.FingerID_Mouse</definition>
+        <argsstring></argsstring>
+        <name>FingerID_Mouse</name>
+        <initializer>= -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="13" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1aa8b244c9deba3a63e64c8cf79176730b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Touch.fingerId</definition>
+        <argsstring></argsstring>
+        <name>fingerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="15" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a1d6bac11d7ab35b7ac54592cf69ec938" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Touch.mouseButton</definition>
+        <argsstring></argsstring>
+        <name>mouseButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="16" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1ab8acc28199fecef6fad3b6689f562182" prot="public" static="no" mutable="no">
+        <type>TouchPhase</type>
+        <definition>TouchPhase InControl.Touch.phase</definition>
+        <argsstring></argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="18" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a8e6f74fbb48ad49ea1a86b33caac0852" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Touch.tapCount</definition>
+        <argsstring></argsstring>
+        <name>tapCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="19" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a450578425c165d6e3a75990d5b3afb3c" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.Touch.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="21" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a98d8f777e54814436e6046446a1d3b56" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.Touch.startPosition</definition>
+        <argsstring></argsstring>
+        <name>startPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="22" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a4ab22fba502e1df705b12e466b0f86bc" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.Touch.deltaPosition</definition>
+        <argsstring></argsstring>
+        <name>deltaPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="23" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a75857a4d97f3528f8b8d31b0fae6c577" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 InControl.Touch.lastPosition</definition>
+        <argsstring></argsstring>
+        <name>lastPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="24" column="16" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a06414accf4cfb6abdfdae549ad45dc4f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="26" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a0933effcc7c3e0f067d8999087616ab5" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.Touch.updateTick</definition>
+        <argsstring></argsstring>
+        <name>updateTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="27" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1ac69afa91dfd650439a6be8079c241b00" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1ab9567f999cf938112e43f91587810dd1" kindref="member">TouchType</ref></type>
+        <definition>TouchType InControl.Touch.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="29" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a3d561db23f94b6b6cd0757b60499b186" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.altitudeAngle</definition>
+        <argsstring></argsstring>
+        <name>altitudeAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="31" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a37962006f7e909d6b82c5415ec2a6cd5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.azimuthAngle</definition>
+        <argsstring></argsstring>
+        <name>azimuthAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="32" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a4a34d6155e94227330221c0d3dc3bafc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.maximumPossiblePressure</definition>
+        <argsstring></argsstring>
+        <name>maximumPossiblePressure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="33" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1a4452a094935884b1de3dd900a5085bf1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.pressure</definition>
+        <argsstring></argsstring>
+        <name>pressure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="34" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1ac454b2e9982dfa1c32f1c987c9548de7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="35" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_1af6a4545cc4220fc1f4840c8909137d34" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.radiusVariance</definition>
+        <argsstring></argsstring>
+        <name>radiusVariance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="36" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_touch_1ab3b2c41a131a771361e41e580f8b8f9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.normalizedPressure</definition>
+        <argsstring></argsstring>
+        <name>normalizedPressure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="69" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_1a3535a1d8e93487873468fd27c392517f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float InControl.Touch.NormalizedPressure</definition>
+        <argsstring></argsstring>
+        <name>NormalizedPressure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="79" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_1ad838bf65296ef470af31703edb0e27b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.Touch.IsMouse</definition>
+        <argsstring></argsstring>
+        <name>IsMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="89" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="90" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_1a43c513120afdedba1e1b51e9e6056393" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.Touch.Touch</definition>
+        <argsstring>()</argsstring>
+        <name>Touch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="39" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_1a21227202369489f6a1eb98b5595f0826" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Touch.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="46" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="46" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_1a6ffaa6f783fac7813be8d88284031680" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Touch.SetWithTouchData</definition>
+        <argsstring>(UnityEngine.Touch touch, ulong updateTick, float deltaTime)</argsstring>
+        <name>SetWithTouchData</name>
+        <param>
+          <type>UnityEngine.Touch</type>
+          <declname>touch</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="95" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="95" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_1a43489a2843a6edc83583af4f39963a35" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.Touch.SetWithMouseData</definition>
+        <argsstring>(int button, ulong updateTick, float deltaTime)</argsstring>
+        <name>SetWithMouseData</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="146" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="146" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" line="10" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Touch.cs" bodystart="11" bodyend="220"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_1a3d561db23f94b6b6cd0757b60499b186" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>altitudeAngle</name></member>
+      <member refid="class_in_control_1_1_touch_1a37962006f7e909d6b82c5415ec2a6cd5" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>azimuthAngle</name></member>
+      <member refid="class_in_control_1_1_touch_1a4ab22fba502e1df705b12e466b0f86bc" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>deltaPosition</name></member>
+      <member refid="class_in_control_1_1_touch_1a06414accf4cfb6abdfdae549ad45dc4f" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>deltaTime</name></member>
+      <member refid="class_in_control_1_1_touch_1aa8b244c9deba3a63e64c8cf79176730b" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>fingerId</name></member>
+      <member refid="class_in_control_1_1_touch_1af4288eb714fc1f19a65ea7c88bf068f4" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>FingerID_Mouse</name></member>
+      <member refid="class_in_control_1_1_touch_1afede87d072049ad7f9d0449378e2611d" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>FingerID_None</name></member>
+      <member refid="class_in_control_1_1_touch_1ad838bf65296ef470af31703edb0e27b4" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>IsMouse</name></member>
+      <member refid="class_in_control_1_1_touch_1a75857a4d97f3528f8b8d31b0fae6c577" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>lastPosition</name></member>
+      <member refid="class_in_control_1_1_touch_1a4a34d6155e94227330221c0d3dc3bafc" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>maximumPossiblePressure</name></member>
+      <member refid="class_in_control_1_1_touch_1a1d6bac11d7ab35b7ac54592cf69ec938" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>mouseButton</name></member>
+      <member refid="class_in_control_1_1_touch_1ab3b2c41a131a771361e41e580f8b8f9e" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>normalizedPressure</name></member>
+      <member refid="class_in_control_1_1_touch_1a3535a1d8e93487873468fd27c392517f" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>NormalizedPressure</name></member>
+      <member refid="class_in_control_1_1_touch_1ab8acc28199fecef6fad3b6689f562182" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>phase</name></member>
+      <member refid="class_in_control_1_1_touch_1a450578425c165d6e3a75990d5b3afb3c" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>position</name></member>
+      <member refid="class_in_control_1_1_touch_1a4452a094935884b1de3dd900a5085bf1" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>pressure</name></member>
+      <member refid="class_in_control_1_1_touch_1ac454b2e9982dfa1c32f1c987c9548de7" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>radius</name></member>
+      <member refid="class_in_control_1_1_touch_1af6a4545cc4220fc1f4840c8909137d34" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>radiusVariance</name></member>
+      <member refid="class_in_control_1_1_touch_1a21227202369489f6a1eb98b5595f0826" prot="package" virt="non-virtual"><scope>InControl::Touch</scope><name>Reset</name></member>
+      <member refid="class_in_control_1_1_touch_1a43489a2843a6edc83583af4f39963a35" prot="package" virt="non-virtual"><scope>InControl::Touch</scope><name>SetWithMouseData</name></member>
+      <member refid="class_in_control_1_1_touch_1a6ffaa6f783fac7813be8d88284031680" prot="package" virt="non-virtual"><scope>InControl::Touch</scope><name>SetWithTouchData</name></member>
+      <member refid="class_in_control_1_1_touch_1a98d8f777e54814436e6046446a1d3b56" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>startPosition</name></member>
+      <member refid="class_in_control_1_1_touch_1a8e6f74fbb48ad49ea1a86b33caac0852" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>tapCount</name></member>
+      <member refid="class_in_control_1_1_touch_1a43c513120afdedba1e1b51e9e6056393" prot="package" virt="non-virtual"><scope>InControl::Touch</scope><name>Touch</name></member>
+      <member refid="class_in_control_1_1_touch_1ac69afa91dfd650439a6be8079c241b00" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>type</name></member>
+      <member refid="class_in_control_1_1_touch_1a0933effcc7c3e0f067d8999087616ab5" prot="public" virt="non-virtual"><scope>InControl::Touch</scope><name>updateTick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

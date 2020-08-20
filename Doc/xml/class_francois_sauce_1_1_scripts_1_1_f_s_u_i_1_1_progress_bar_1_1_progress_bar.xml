@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1ad69b179894897eac3c214330db7ab32a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler" kindref="compound">ProgressBarFiller</ref></type>
+        <definition>ProgressBarFiller FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar.filler</definition>
+        <argsstring></argsstring>
+        <name>filler</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>The filler component of the progress bar </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="16" column="35" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a95dab41eeb05f4c7a9c130e5715f4cc9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar.baseWidth</definition>
+        <argsstring></argsstring>
+        <name>baseWidth</name>
+        <briefdescription>
+<para>Variable to keep track of the baseWidth of the filler </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="21" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1aedee69eae631d7d36a074249a981b78e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar.baseHeight</definition>
+        <argsstring></argsstring>
+        <name>baseHeight</name>
+        <briefdescription>
+<para>Variable to keep track of the baseHeight of the filler </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="25" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a7c47e6f3ef13a7b6a1ceac432bd5b4b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Start method </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="30" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="30" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a9ecd8a30fe009483ace04d82244826a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar.UpdateProgression</definition>
+        <argsstring>(float progression)</argsstring>
+        <name>UpdateProgression</name>
+        <param>
+          <type>float</type>
+          <declname>progression</declname>
+        </param>
+        <briefdescription>
+<para>Call this function each time you need to update the <ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar" kindref="compound">ProgressBar</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>progression</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Progression to update in the progress bar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="44" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simple implementation of a progress bar </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBar</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBar.cs" bodystart="12" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1aedee69eae631d7d36a074249a981b78e" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</scope><name>baseHeight</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a95dab41eeb05f4c7a9c130e5715f4cc9" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</scope><name>baseWidth</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1ad69b179894897eac3c214330db7ab32a" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</scope><name>filler</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a7c47e6f3ef13a7b6a1ceac432bd5b4b8" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</scope><name>Start</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_1a9ecd8a30fe009483ace04d82244826a2" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBar</scope><name>UpdateProgression</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

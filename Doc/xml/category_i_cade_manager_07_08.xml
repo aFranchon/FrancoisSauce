@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="category_i_cade_manager_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>ICadeManager()</compoundname>
+    <basecompoundref refid="protocol_i_cade_event_delegate-p" prot="public" virt="non-virtual">&lt;ICadeEventDelegate&gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="category_i_cade_manager_07_08_1ac761e629a4b97b4a31eb05974d41cdac" prot="protected" static="no" mutable="no">
+        <type><ref refid="_i_cade_manager_8h_1a514bbb715450aaef02091b3f53511a7c" kindref="member">UnityCallback</ref></type>
+        <definition>UnityCallback ICadeManager()::stateCallback</definition>
+        <argsstring></argsstring>
+        <name>stateCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" line="10" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="category_i_cade_manager_07_08_1abcc206ed4d3c0b6572557d1a0afffeb3" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_i_cade_reader_view" kindref="compound">ICadeReaderView</ref> *</type>
+        <definition>ICadeReaderView* ICadeManager()::readerView</definition>
+        <argsstring></argsstring>
+        <name>readerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" line="11" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_i_cade_manager_07_08_1acabfc0525f8272bbac0bd07d58f6f905" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL ICadeManager()::activated</definition>
+        <argsstring></argsstring>
+        <name>activated</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" line="14" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_i_cade_manager_07_08_1a9e24e89c47febf4410f4a7862bb4ed4d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSTimer *</type>
+        <definition>NSTimer* ICadeManager()::timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" line="15" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICadeManager()</label>
+        <link refid="category_i_cade_manager_07_08"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>&lt;ICadeEventDelegate&gt;</label>
+        <link refid="protocol_i_cade_event_delegate-p"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICadeManager()</label>
+        <link refid="category_i_cade_manager_07_08"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>readerView</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>stateCallback</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICadeReaderView</label>
+        <link refid="interface_i_cade_reader_view"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>&lt;ICadeEventDelegate&gt;</label>
+        <link refid="protocol_i_cade_event_delegate-p"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="5">
+        <label>UIView</label>
+      </node>
+      <node id="6">
+        <label>&lt;UIKeyInput&gt;</label>
+      </node>
+      <node id="7">
+        <label>void</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" line="7" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m" bodystart="9" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_i_cade_manager_07_08_1acabfc0525f8272bbac0bd07d58f6f905" prot="public" virt="non-virtual"><scope>ICadeManager()</scope><name>activated</name></member>
+      <member refid="category_i_cade_manager_07_08_1abcc206ed4d3c0b6572557d1a0afffeb3" prot="protected" virt="non-virtual"><scope>ICadeManager()</scope><name>readerView</name></member>
+      <member refid="category_i_cade_manager_07_08_1ac761e629a4b97b4a31eb05974d41cdac" prot="protected" virt="non-virtual"><scope>ICadeManager()</scope><name>stateCallback</name></member>
+      <member refid="protocol_i_cade_event_delegate-p_1a72af9689d77b2483bcbe68a9155dbd4c" prot="public" virt="virtual"><scope>ICadeManager()</scope><name>stateChanged:</name></member>
+      <member refid="category_i_cade_manager_07_08_1a9e24e89c47febf4410f4a7862bb4ed4d" prot="public" virt="non-virtual"><scope>ICadeManager()</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_i_cade_reader_view_8h" kind="file" language="C++">
+    <compoundname>ICadeReaderView.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_i_cade_manager_8m" local="yes">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m</includedby>
+    <includedby refid="_i_cade_reader_view_8m" local="yes">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h</label>
+        <link refid="_i_cade_reader_view_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h</label>
+        <link refid="_i_cade_reader_view_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.m</label>
+        <link refid="_i_cade_reader_view_8m"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeManager.m</label>
+        <link refid="_i_cade_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_i_cade_event_delegate-p" prot="public">ICadeEventDelegate-p</innerclass>
+    <innerclass refid="interface_i_cade_reader_view" prot="public">ICadeReaderView</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ICadeState</name>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ac9d3e887722f2bc482bcca9d41c512af" prot="public">
+          <name>None</name>
+          <initializer>= 0x000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a3d7395b6bf61fd4c249323f250eedca1" prot="public">
+          <name>DPadUp</name>
+          <initializer>= 0x001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a330f73d7c0c134fb8342bc7509847335" prot="public">
+          <name>DPadRight</name>
+          <initializer>= 0x002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a5f9dc7af38f4ff5f1b790c13fb391922" prot="public">
+          <name>DPadDown</name>
+          <initializer>= 0x004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adb4a7197c5f3e58ab16324102fb9ccec" prot="public">
+          <name>DPadLeft</name>
+          <initializer>= 0x008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2b47ab82400b3bfa22da2c1f39942008" prot="public">
+          <name>Action0</name>
+          <initializer>= 0x010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a926d605b33d43ec7e404c199089fde8f" prot="public">
+          <name>Action1</name>
+          <initializer>= 0x020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1aa5dde21bbd50aaa2fb0d804cdaef2c60" prot="public">
+          <name>Action2</name>
+          <initializer>= 0x040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ab3f8ce7c2a62686ad29d44e707b96255" prot="public">
+          <name>Action3</name>
+          <initializer>= 0x080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1af72e6d29a15c73d3c334466383a20475" prot="public">
+          <name>Action4</name>
+          <initializer>= 0x100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2ce81a2c7552a525691655dd9ae4f675" prot="public">
+          <name>Action5</name>
+          <initializer>= 0x200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a1724fc07b7f422c05320c23ee37ef25d" prot="public">
+          <name>Action6</name>
+          <initializer>= 0x400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adf9996f550720db0e4627b17d1aa784f" prot="public">
+          <name>Action7</name>
+          <initializer>= 0x800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="4" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" bodystart="5" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_i_cade_reader_view_8h_1a92fa7ebc914d335ac7a4cd364af8c212" prot="public" static="no">
+        <type>enum <ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref></type>
+        <definition>typedef enum ICadeState ICadeState</definition>
+        <argsstring></argsstring>
+        <name>ICadeState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h" line="20" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="protocol_i_cade_event_delegate-p_1a72af9689d77b2483bcbe68a9155dbd4c" refkind="member"><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ac9d3e887722f2bc482bcca9d41c512af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ac9d3e887722f2bc482bcca9d41c512af" kindref="member">None</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x000,</highlight></codeline>
+<codeline lineno="7" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a3d7395b6bf61fd4c249323f250eedca1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a3d7395b6bf61fd4c249323f250eedca1" kindref="member">DPadUp</ref><sp/><sp/><sp/><sp/>=<sp/>0x001,</highlight></codeline>
+<codeline lineno="8" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a330f73d7c0c134fb8342bc7509847335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a330f73d7c0c134fb8342bc7509847335" kindref="member">DPadRight</ref><sp/>=<sp/>0x002,</highlight></codeline>
+<codeline lineno="9" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a5f9dc7af38f4ff5f1b790c13fb391922" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a5f9dc7af38f4ff5f1b790c13fb391922" kindref="member">DPadDown</ref><sp/><sp/>=<sp/>0x004,</highlight></codeline>
+<codeline lineno="10" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adb4a7197c5f3e58ab16324102fb9ccec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adb4a7197c5f3e58ab16324102fb9ccec" kindref="member">DPadLeft</ref><sp/><sp/>=<sp/>0x008,</highlight></codeline>
+<codeline lineno="11" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2b47ab82400b3bfa22da2c1f39942008" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2b47ab82400b3bfa22da2c1f39942008" kindref="member">Action0</ref><sp/><sp/><sp/>=<sp/>0x010,</highlight></codeline>
+<codeline lineno="12" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a926d605b33d43ec7e404c199089fde8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a926d605b33d43ec7e404c199089fde8f" kindref="member">Action1</ref><sp/><sp/><sp/>=<sp/>0x020,</highlight></codeline>
+<codeline lineno="13" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1aa5dde21bbd50aaa2fb0d804cdaef2c60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1aa5dde21bbd50aaa2fb0d804cdaef2c60" kindref="member">Action2</ref><sp/><sp/><sp/>=<sp/>0x040,</highlight></codeline>
+<codeline lineno="14" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ab3f8ce7c2a62686ad29d44e707b96255" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1ab3f8ce7c2a62686ad29d44e707b96255" kindref="member">Action3</ref><sp/><sp/><sp/>=<sp/>0x080,</highlight></codeline>
+<codeline lineno="15" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1af72e6d29a15c73d3c334466383a20475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1af72e6d29a15c73d3c334466383a20475" kindref="member">Action4</ref><sp/><sp/><sp/>=<sp/>0x100,</highlight></codeline>
+<codeline lineno="16" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2ce81a2c7552a525691655dd9ae4f675" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a2ce81a2c7552a525691655dd9ae4f675" kindref="member">Action5</ref><sp/><sp/><sp/>=<sp/>0x200,</highlight></codeline>
+<codeline lineno="17" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a1724fc07b7f422c05320c23ee37ef25d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1a1724fc07b7f422c05320c23ee37ef25d" kindref="member">Action6</ref><sp/><sp/><sp/>=<sp/>0x400,</highlight></codeline>
+<codeline lineno="18" refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adf9996f550720db0e4627b17d1aa784f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1adf9996f550720db0e4627b17d1aa784f" kindref="member">Action7</ref><sp/><sp/><sp/>=<sp/>0x800,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_i_cade_reader_view_8h_1a92fa7ebc914d335ac7a4cd364af8c212" refkind="member"><highlight class="normal">}<sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="protocol_i_cade_event_delegate-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_i_cade_event_delegate-p" kindref="compound">ICadeEventDelegate</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(void)<sp/>stateChanged:<sp/>(<ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref>)<sp/>state;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="interface_i_cade_reader_view" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_cade_reader_view" kindref="compound">ICadeReaderView</ref><sp/>:<sp/>UIView&lt;UIKeyInput&gt;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><ref refid="interface_i_cade_reader_view_1ac25308ca9bf703377ab961cc0fac1cf5" kindref="member">inputView</ref>;</highlight></codeline>
+<codeline lineno="33" refid="interface_i_cade_reader_view_1ac25308ca9bf703377ab961cc0fac1cf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_i_cade_reader_view_1a208a88819cbed702f1ea878c11c220af" kindref="member">_state</ref>;</highlight></codeline>
+<codeline lineno="34" refid="interface_i_cade_reader_view_1a208a88819cbed702f1ea878c11c220af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>id&lt;ICadeEventDelegate&gt;<sp/><sp/><ref refid="interface_i_cade_reader_view_1a339d82aaa7a02e52e52b93da1ebb930f" kindref="member">_delegate</ref>;</highlight></codeline>
+<codeline lineno="35" refid="interface_i_cade_reader_view_1a339d82aaa7a02e52e52b93da1ebb930f" refkind="member"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/><ref refid="_i_cade_reader_view_8h_1aecddfa0d663482024ed7af90899f09f1" kindref="member">ICadeState</ref><sp/>state;</highlight></codeline>
+<codeline lineno="38" refid="interface_i_cade_reader_view_1a5f400a373f4c3ec61f3c6fba085d6cc4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>id&lt;ICadeEventDelegate&gt;<sp/>delegate;</highlight></codeline>
+<codeline lineno="39" refid="interface_i_cade_reader_view_1a61893e06af92e1de4548bbab8aee5e5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/>active;</highlight></codeline>
+<codeline lineno="40" refid="interface_i_cade_reader_view_1a91ee413ad16d136171a716fe851506ce" refkind="member"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins/iOS_tvOS/ICadeReaderView.h"/>
+  </compounddef>
+</doxygen>

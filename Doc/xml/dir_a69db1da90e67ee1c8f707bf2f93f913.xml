@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_a69db1da90e67ee1c8f707bf2f93f913" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch</compoundname>
+    <innerdir refid="dir_294324ffd102c6db9744363f3d3e7240">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls</innerdir>
+    <innerfile refid="_touch_8cs">Touch.cs</innerfile>
+    <innerfile refid="_touch_control_8cs">TouchControl.cs</innerfile>
+    <innerfile refid="_touch_control_anchor_8cs">TouchControlAnchor.cs</innerfile>
+    <innerfile refid="_touch_input_device_8cs">TouchInputDevice.cs</innerfile>
+    <innerfile refid="_touch_manager_8cs">TouchManager.cs</innerfile>
+    <innerfile refid="_touch_pool_8cs">TouchPool.cs</innerfile>
+    <innerfile refid="_touch_sprite_8cs">TouchSprite.cs</innerfile>
+    <innerfile refid="_touch_type_8cs">TouchType.cs</innerfile>
+    <innerfile refid="_touch_unit_type_8cs">TouchUnitType.cs</innerfile>
+    <innerfile refid="_touch_utility_8cs">TouchUtility.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/"/>
+  </compounddef>
+</doxygen>

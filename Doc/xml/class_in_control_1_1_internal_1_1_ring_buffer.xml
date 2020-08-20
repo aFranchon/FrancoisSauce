@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_internal_1_1_ring_buffer" kind="class" language="C#" prot="public">
+    <compoundname>InControl::Internal::RingBuffer</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_ring_buffer_1a0a79887f82fe70f3b3cd9381725aa335" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int InControl.Internal.RingBuffer&lt; T &gt;.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="8" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_ring_buffer_1a12131a368c5280b880a03ae00df51388" prot="private" static="no" mutable="no">
+        <type>readonly T[]</type>
+        <definition>readonly T [] InControl.Internal.RingBuffer&lt; T &gt;.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="9" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_ring_buffer_1a82dd3e7c6475a38bb244d32dc4fcddf2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Internal.RingBuffer&lt; T &gt;.head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="10" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_ring_buffer_1a53e10a2dfc4561e19fbf0af95dda7c99" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InControl.Internal.RingBuffer&lt; T &gt;.tail</definition>
+        <argsstring></argsstring>
+        <name>tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="11" column="5" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_internal_1_1_ring_buffer_1a3c1a65e95175c793847765eddc5098c7" prot="private" static="no" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object InControl.Internal.RingBuffer&lt; T &gt;.sync</definition>
+        <argsstring></argsstring>
+        <name>sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="12" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_ring_buffer_1aaafc4c3c15b5246d337eb0cefe665c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.Internal.RingBuffer&lt; T &gt;.RingBuffer</definition>
+        <argsstring>(int size)</argsstring>
+        <name>RingBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="15" column="8" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="15" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_ring_buffer_1a3fc83f9546d6f6db9cb45acddeef19d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.Internal.RingBuffer&lt; T &gt;.Enqueue</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Enqueue</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="31" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="31" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_internal_1_1_ring_buffer_1a023933190116552d4dbf67f6ce6dc970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T InControl.Internal.RingBuffer&lt; T &gt;.Dequeue</definition>
+        <argsstring>()</argsstring>
+        <name>Dequeue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="49" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="49" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/RingBuffer.cs" bodystart="7" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a12131a368c5280b880a03ae00df51388" prot="private" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>data</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a023933190116552d4dbf67f6ce6dc970" prot="public" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>Dequeue</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a3fc83f9546d6f6db9cb45acddeef19d4" prot="public" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>Enqueue</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a82dd3e7c6475a38bb244d32dc4fcddf2" prot="private" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>head</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1aaafc4c3c15b5246d337eb0cefe665c94" prot="public" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>RingBuffer</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a0a79887f82fe70f3b3cd9381725aa335" prot="private" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>size</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a3c1a65e95175c793847765eddc5098c7" prot="private" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>sync</name></member>
+      <member refid="class_in_control_1_1_internal_1_1_ring_buffer_1a53e10a2dfc4561e19fbf0af95dda7c99" prot="private" virt="non-virtual"><scope>InControl::Internal::RingBuffer</scope><name>tail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

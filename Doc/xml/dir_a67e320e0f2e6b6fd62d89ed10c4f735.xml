@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_a67e320e0f2e6b6fd62d89ed10c4f735" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes</compoundname>
+    <innerfile refid="_optional_float_8cs">OptionalFloat.cs</innerfile>
+    <innerfile refid="_optional_input_device_driver_type_8cs">OptionalInputDeviceDriverType.cs</innerfile>
+    <innerfile refid="_optional_input_device_transport_type_8cs">OptionalInputDeviceTransportType.cs</innerfile>
+    <innerfile refid="_optional_int16_8cs">OptionalInt16.cs</innerfile>
+    <innerfile refid="_optional_int32_8cs">OptionalInt32.cs</innerfile>
+    <innerfile refid="_optional_u_int16_8cs">OptionalUInt16.cs</innerfile>
+    <innerfile refid="_optional_u_int32_8cs">OptionalUInt32.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Utility/OptionalTypes/"/>
+  </compounddef>
+</doxygen>

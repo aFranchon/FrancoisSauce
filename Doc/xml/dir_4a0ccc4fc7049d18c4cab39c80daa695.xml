@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_4a0ccc4fc7049d18c4cab39c80daa695" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples</compoundname>
+    <innerdir refid="dir_9462366967b0f9952856eb969ededa73">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Basic</innerdir>
+    <innerdir refid="dir_308540e464fe23197214526aa92e7b09">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/Bindings</innerdir>
+    <innerdir refid="dir_084fbeff16d9170f1f2ea6ac04bb1421">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement</innerdir>
+    <innerdir refid="dir_c328db3b2fcbae34141f974edbf271b6">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerBasic</innerdir>
+    <innerdir refid="dir_96aa997ae8bb3b92ef01bc3aa143de25">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings</innerdir>
+    <innerdir refid="dir_59416c8ccee300575401af6040edea67">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls</innerdir>
+    <innerdir refid="dir_f0df6f8f3851682f5a3970338dc60dbc">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/VirtualDevice</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/"/>
+  </compounddef>
+</doxygen>

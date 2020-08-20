@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSEvents::SO::FSTwoArgumentEventSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T0</type>
+      </param>
+      <param>
+        <type>T1</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o_1a1f618b952eb6c713dc158714e86656b2" prot="public" static="no" mutable="no">
+        <type>Action&lt; T0, T1 &gt;</type>
+        <definition>Action&lt;T0, T1&gt; FrancoisSauce.Scripts.FSEvents.SO.FSTwoArgumentEventSO&lt; T0, T1 &gt;.fsTwoArgumentAction</definition>
+        <argsstring></argsstring>
+        <name>fsTwoArgumentAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" line="9" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o_1abd73c330cb55ec503c845841b693f768" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSEvents.SO.FSTwoArgumentEventSO&lt; T0, T1 &gt;.Invoke</definition>
+        <argsstring>(T0 valueOne, T1 valueTwo)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>T0</type>
+          <declname>valueOne</declname>
+        </param>
+        <param>
+          <type>T1</type>
+          <declname>valueTwo</declname>
+        </param>
+        <briefdescription>
+<para>Function called by original raiser of the event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valueOne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the firs value to be raised</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valueTwo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second value to be raised</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" line="16" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSTwoArgumentEventSO&lt; T0, T1 &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSEvents.SO.FSTwoArgumentEventSO&lt; T0, T1 &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" line="7" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO/FSTwoArgumentEventSO.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o_1a1f618b952eb6c713dc158714e86656b2" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSTwoArgumentEventSO</scope><name>fsTwoArgumentAction</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o_1_1_f_s_two_argument_event_s_o_1abd73c330cb55ec503c845841b693f768" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSEvents::SO::FSTwoArgumentEventSO</scope><name>Invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_1fedb9e9f20fa62b9596c4fab69ae8ef" kind="dir">
+    <compoundname>FrancoisSauce</compoundname>
+    <innerdir refid="dir_fc568d46123d533477dfccf73cc502fc">FrancoisSauce/GameScene</innerdir>
+    <innerdir refid="dir_e699fe32e4dcbea933ae9fdeead412fc">FrancoisSauce/MainMenu</innerdir>
+    <innerdir refid="dir_e283aa68b4f9363fecca26d5d16e2f21">FrancoisSauce/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FrancoisSauce/"/>
+  </compounddef>
+</doxygen>

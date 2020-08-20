@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_view___base_menu" kind="class" language="C#" prot="public">
+    <compoundname>View_BaseMenu</compoundname>
+    <basecompoundref refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view" prot="public" virt="non-virtual">FrancoisSauce.Scripts.FSViews.IFSView&lt; Scene_MainMenu &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_view___base_menu_1a6c5af8a8502149246bb738e2785b5729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void View_BaseMenu.Awake</definition>
+        <argsstring>(Scene_MainMenu scene)</argsstring>
+        <name>Awake</name>
+        <param>
+          <type><ref refid="class_scene___main_menu" kindref="compound">Scene_MainMenu</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" line="7" column="17" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" bodystart="7" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view___base_menu_1a93a45da226f298416d7138998129500a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void View_BaseMenu.OnViewEnter</definition>
+        <argsstring>(Scene_MainMenu scene)</argsstring>
+        <name>OnViewEnter</name>
+        <param>
+          <type><ref refid="class_scene___main_menu" kindref="compound">Scene_MainMenu</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" line="21" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view___base_menu_1a9ffa8af63f9548fa9166a25a2337f6b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void View_BaseMenu.OnViewExit</definition>
+        <argsstring>(Scene_MainMenu scene)</argsstring>
+        <name>OnViewExit</name>
+        <param>
+          <type><ref refid="class_scene___main_menu" kindref="compound">Scene_MainMenu</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" line="26" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view___base_menu_1a042f65a15696bc5a103b2f0e10094c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void View_BaseMenu.OnUpdate</definition>
+        <argsstring>(Scene_MainMenu scene)</argsstring>
+        <name>OnUpdate</name>
+        <param>
+          <type><ref refid="class_scene___main_menu" kindref="compound">Scene_MainMenu</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" line="31" column="26" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFSView&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+      <node id="1">
+        <label>View_BaseMenu</label>
+        <link refid="class_view___base_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFSView&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
+      <node id="1">
+        <label>View_BaseMenu</label>
+        <link refid="class_view___base_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" line="5" column="7" bodyfile="FrancoisSauce/MainMenu/Scripts/_BaseMenu/View_BaseMenu.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_view___base_menu_1a6c5af8a8502149246bb738e2785b5729" prot="public" virt="non-virtual"><scope>View_BaseMenu</scope><name>Awake</name></member>
+      <member refid="class_view___base_menu_1a042f65a15696bc5a103b2f0e10094c24" prot="public" virt="non-virtual"><scope>View_BaseMenu</scope><name>OnUpdate</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a5d37ff926ef30075b56065bedff7a9d2" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_MainMenu &gt;."><scope>View_BaseMenu</scope><name>OnUpdate</name></member>
+      <member refid="class_view___base_menu_1a93a45da226f298416d7138998129500a" prot="public" virt="non-virtual"><scope>View_BaseMenu</scope><name>OnViewEnter</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a3ef1f8a685147372c0c44b78cfd605fc" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_MainMenu &gt;."><scope>View_BaseMenu</scope><name>OnViewEnter</name></member>
+      <member refid="class_view___base_menu_1a9ffa8af63f9548fa9166a25a2337f6b6" prot="public" virt="non-virtual"><scope>View_BaseMenu</scope><name>OnViewExit</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view_1a36392b71d04164b02eee2babec44a104" prot="public" virt="pure-virtual" ambiguityscope="IFSView&lt; Scene_MainMenu &gt;."><scope>View_BaseMenu</scope><name>OnViewExit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

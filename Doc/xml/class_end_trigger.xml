@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_end_trigger" kind="class" language="C#" prot="public">
+    <compoundname>EndTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_end_trigger_1a772afe20366aca39513a3fd072b1b812" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EndTrigger.win</definition>
+        <argsstring></argsstring>
+        <name>win</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" line="9" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_end_trigger_1a5c5dfb544bc207d1ee55cde0b9ad4d8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EndTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" line="10" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>EndTrigger</label>
+        <link refid="class_end_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>EndTrigger</label>
+        <link refid="class_end_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts/EndTrigger.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_end_trigger_1a5c5dfb544bc207d1ee55cde0b9ad4d8c" prot="private" virt="non-virtual"><scope>EndTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_end_trigger_1a772afe20366aca39513a3fd072b1b812" prot="public" virt="non-virtual"><scope>EndTrigger</scope><name>win</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

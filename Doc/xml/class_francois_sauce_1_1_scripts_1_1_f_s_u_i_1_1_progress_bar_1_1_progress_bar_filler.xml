@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBarFiller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler_1a3fb7351425e16aa71d286c288ecd99e4" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBarFiller.myTransform</definition>
+        <argsstring></argsstring>
+        <name>myTransform</name>
+        <briefdescription>
+<para>Used in the progress bar to correctly scale the filler with the progression </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" line="16" column="30" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler_1aaa896d650d111019de34e29b7450dd7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBarFiller.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Awake method </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" line="21" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Progress bar&apos;s filler component. To keep track of the RectTransform component </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBarFiller</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUI.ProgressBar.ProgressBarFiller</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" line="11" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/__FSUI/_ProgressBar/ProgressBarFiller.cs" bodystart="12" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler_1aaa896d650d111019de34e29b7450dd7b" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBarFiller</scope><name>Awake</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar_1_1_progress_bar_filler_1a3fb7351425e16aa71d286c288ecd99e4" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUI::ProgressBar::ProgressBarFiller</scope><name>myTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

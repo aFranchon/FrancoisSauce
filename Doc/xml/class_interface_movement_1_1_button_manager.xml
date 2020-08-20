@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_interface_movement_1_1_button_manager" kind="class" language="C#" prot="public">
+    <compoundname>InterfaceMovement::ButtonManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_manager_1a02f4c4445968fe0805d7952c2d78d369" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button InterfaceMovement.ButtonManager.focusedButton</definition>
+        <argsstring></argsstring>
+        <name>focusedButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="9" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interface_movement_1_1_button_manager_1ae49cd5b6e3e21f96277f39a1c859692a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_two_axis_input_control" kindref="compound">TwoAxisInputControl</ref></type>
+        <definition>TwoAxisInputControl InterfaceMovement.ButtonManager.filteredDirection</definition>
+        <argsstring></argsstring>
+        <name>filteredDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="11" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_interface_movement_1_1_button_manager_1a2949b8d048365e1df3ddd012ca450fae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.ButtonManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_movement_1_1_button_manager_1ad29d715d933ebd092fc52cb9d4d6ef05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.ButtonManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="21" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="21" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_movement_1_1_button_manager_1a29b2c2ddc83486f745773e522370f436" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InterfaceMovement.ButtonManager.MoveFocusTo</definition>
+        <argsstring>(Button newFocusedButton)</argsstring>
+        <name>MoveFocusTo</name>
+        <param>
+          <type><ref refid="class_interface_movement_1_1_button" kindref="compound">Button</ref></type>
+          <declname>newFocusedButton</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="56" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InterfaceMovement.ButtonManager</label>
+        <link refid="class_interface_movement_1_1_button_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>InterfaceMovement.Button</label>
+        <link refid="class_interface_movement_1_1_button"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>down</edgelabel>
+          <edgelabel>right</edgelabel>
+          <edgelabel>left</edgelabel>
+          <edgelabel>up</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InterfaceMovement.ButtonManager</label>
+        <link refid="class_interface_movement_1_1_button_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>focusedButton</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/InterfaceMovement/ButtonManager.cs" bodystart="8" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_interface_movement_1_1_button_manager_1a2949b8d048365e1df3ddd012ca450fae" prot="private" virt="non-virtual"><scope>InterfaceMovement::ButtonManager</scope><name>Awake</name></member>
+      <member refid="class_interface_movement_1_1_button_manager_1ae49cd5b6e3e21f96277f39a1c859692a" prot="private" virt="non-virtual"><scope>InterfaceMovement::ButtonManager</scope><name>filteredDirection</name></member>
+      <member refid="class_interface_movement_1_1_button_manager_1a02f4c4445968fe0805d7952c2d78d369" prot="public" virt="non-virtual"><scope>InterfaceMovement::ButtonManager</scope><name>focusedButton</name></member>
+      <member refid="class_interface_movement_1_1_button_manager_1a29b2c2ddc83486f745773e522370f436" prot="private" virt="non-virtual"><scope>InterfaceMovement::ButtonManager</scope><name>MoveFocusTo</name></member>
+      <member refid="class_interface_movement_1_1_button_manager_1ad29d715d933ebd092fc52cb9d4d6ef05" prot="private" virt="non-virtual"><scope>InterfaceMovement::ButtonManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

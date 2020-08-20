@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_d611f8d8a860c4412311bb3059ccc206" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners</compoundname>
+    <innerfile refid="_f_s_bool_event_listener_8cs">FSBoolEventListener.cs</innerfile>
+    <innerfile refid="_f_s_float_event_listener_8cs">FSFloatEventListener.cs</innerfile>
+    <innerfile refid="_f_s_int_event_listener_8cs">FSIntEventListener.cs</innerfile>
+    <innerfile refid="_f_s_int_float_event_listener_8cs">FSIntFloatEventListener.cs</innerfile>
+    <innerfile refid="_f_s_void_event_listener_8cs">FSVoidEventListener.cs</innerfile>
+    <innerfile refid="_i_f_s_event_listener_8cs">IFSEventListener.cs</innerfile>
+    <innerfile refid="_i_f_s_one_argument_event_listener_8cs">IFSOneArgumentEventListener.cs</innerfile>
+    <innerfile refid="_i_f_s_two_argument_event_listener_8cs">IFSTwoArgumentEventListener.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/Listeners/"/>
+  </compounddef>
+</doxygen>

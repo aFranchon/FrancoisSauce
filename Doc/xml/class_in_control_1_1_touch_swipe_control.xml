@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_touch_swipe_control" kind="class" language="C#" prot="public">
+    <compoundname>InControl::TouchSwipeControl</compoundname>
+    <basecompoundref refid="class_in_control_1_1_touch_control" prot="public" virt="non-virtual">InControl.TouchControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a4dd651d0e741f21718d68f5719de5751" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchSwipeControl.areaUnitType</definition>
+        <argsstring></argsstring>
+        <name>areaUnitType</name>
+        <initializer>= <ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605aadaaee4b22041c27198d410c68d952c9" kindref="member">TouchUnitType.Percent</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="11" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a7f942ab23b1bb5363f53b6902e688e8c" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchSwipeControl.activeArea</definition>
+        <argsstring></argsstring>
+        <name>activeArea</name>
+        <initializer>= new Rect( 25.0f, 25.0f, 50.0f, 50.0f )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="14" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1af55d773dd2777ffb36c26130f26c26da" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchSwipeControl.worldActiveArea</definition>
+        <argsstring></argsstring>
+        <name>worldActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="40" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a76f8e23413894fdac99d3f2bbfc11208" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchSwipeControl.currentVector</definition>
+        <argsstring></argsstring>
+        <name>currentVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="41" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1aae5d773cc7cbac7079ff0606cc4f1db3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSwipeControl.currentVectorIsSet</definition>
+        <argsstring></argsstring>
+        <name>currentVectorIsSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="42" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1afb4d6f1aea2b185cd6b623270471968b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchSwipeControl.beganPosition</definition>
+        <argsstring></argsstring>
+        <name>beganPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="43" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1ac08e20d260effb678dd458380a8c513d" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 InControl.TouchSwipeControl.lastPosition</definition>
+        <argsstring></argsstring>
+        <name>lastPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="44" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a5ca9f4bab7b767c32f35c60aced60291" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+        <definition>Touch InControl.TouchSwipeControl.currentTouch</definition>
+        <argsstring></argsstring>
+        <name>currentTouch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="45" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1ac3362e57d6c3282556e0ee239957a1a0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSwipeControl.fireButtonTarget</definition>
+        <argsstring></argsstring>
+        <name>fireButtonTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="46" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a0f92d9084f94e47a48f075228f7398d6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.nextButtonTarget</definition>
+        <argsstring></argsstring>
+        <name>nextButtonTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="47" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a8934f3bea8a577b919efbbb14c2746a3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.lastButtonTarget</definition>
+        <argsstring></argsstring>
+        <name>lastButtonTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="48" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1ab91622d8935b023428fb2d4abbdf54bc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSwipeControl.dirty</definition>
+        <argsstring></argsstring>
+        <name>dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="49" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a181be2bb8c05e0f7db58fc5f8ad81387" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InControl.TouchSwipeControl.sensitivity</definition>
+        <argsstring></argsstring>
+        <name>sensitivity</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="20" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1aa10c26893f6901fc4f00e04f0d4ef730" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InControl.TouchSwipeControl.oneSwipePerTouch</definition>
+        <argsstring></argsstring>
+        <name>oneSwipePerTouch</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="21" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1ab720548d7a49f39cc6ad6e38845767f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" kindref="member">AnalogTarget</ref></type>
+        <definition>AnalogTarget InControl.TouchSwipeControl.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">AnalogTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="26" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1aeb15ff2278a3829db3d6c4990c6fb1b3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" kindref="member">SnapAngles</ref></type>
+        <definition>SnapAngles InControl.TouchSwipeControl.snapAngles</definition>
+        <argsstring></argsstring>
+        <name>snapAngles</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0eea6adf97f83acf6453d4a6a4b1070f3754" kindref="member">SnapAngles.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="27" column="19" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1ae413b7ef9415d7b5fcefbf449249f527" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.upTarget</definition>
+        <argsstring></argsstring>
+        <name>upTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="32" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1afe12379dc9d00fce857910f835c4a2c1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.downTarget</definition>
+        <argsstring></argsstring>
+        <name>downTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="33" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a8757839045b87a095ec8468a5c34d668" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.leftTarget</definition>
+        <argsstring></argsstring>
+        <name>leftTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="34" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1a81465d17090bbe2ac82bc3c289f53853" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.rightTarget</definition>
+        <argsstring></argsstring>
+        <name>rightTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="35" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_touch_swipe_control_1abd1377b396a4a81090954d17238d7ec7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.tapTarget</definition>
+        <argsstring></argsstring>
+        <name>tapTarget</name>
+        <initializer>= <ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ButtonTarget.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="36" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_touch_swipe_control_1a4c48fd57394589bbaad6031a3d64a810" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Rect</type>
+        <definition>Rect InControl.TouchSwipeControl.ActiveArea</definition>
+        <argsstring></argsstring>
+        <name>ActiveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="230" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="231" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_touch_swipe_control_1a28f198e074caa4bbba699a8ddeccbb87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_in_control_1a511ebe2d5cc1b40d96165f734e5b3605" kindref="member">TouchUnitType</ref></type>
+        <definition>TouchUnitType InControl.TouchSwipeControl.AreaUnitType</definition>
+        <argsstring></argsstring>
+        <name>AreaUnitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="248" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="249" bodyend="263"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a93ca8d494cfc3a81a72c61f9a45239d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.CreateControl</definition>
+        <argsstring>()</argsstring>
+        <name>CreateControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab81fefe6eca3e972ce1c188c76a54215">CreateControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="52" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a22077898a869237b21ae1ca8ed470edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.DestroyControl</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1af26e3207ecb016a2f783adf1dfc8efc0">DestroyControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="57" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a46448c2d6feae55b99c8dac18c3b121a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.ConfigureControl</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureControl</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a884930763fd25d4b01252cad074d4324">ConfigureControl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="67" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1ab30e53393258089666c2501185f26d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aaaf4e78f6fb9a16199273dcdfe425eee">DrawGizmos</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="73" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a199a9710a4d01fca78382923cd7e5c96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.SubmitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>SubmitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a8e600dd3c15e3d3df1843df8ad755b83">SubmitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="91" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="91" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a74a0445eeffac8dd2bb4deb6790da19e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.CommitControlState</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>CommitControlState</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ab6dda6aaa855e7066c3b556fb77752e6">CommitControlState</reimplements>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="111" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1ab423b663e3fbe25d7d57f5f95806f525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.TouchBegan</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchBegan</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1aab486b8ad4c8975e17e36b7749f453fa">TouchBegan</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="122" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="122" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1ab87422a2ec74b4eca75825417360cc21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.TouchMoved</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchMoved</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1a4241997b6929b835bef41e4938aeb84b">TouchMoved</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="144" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="144" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1a5ac3537abdb8f70bba91bf9559655a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InControl.TouchSwipeControl.TouchEnded</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>TouchEnded</name>
+        <reimplements refid="class_in_control_1_1_touch_control_1ac9e2cde2c166f417fd6201a0d8104b7d">TouchEnded</reimplements>
+        <param>
+          <type><ref refid="class_in_control_1_1_touch" kindref="compound">Touch</ref></type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="175" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="175" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1ab37a75a6afc7b24c69e2fe3bdf04172a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.TouchSwipeControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="81" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="81" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_touch_swipe_control_1afc637bea584ef09c62da64de5854c7ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" kindref="member">ButtonTarget</ref></type>
+        <definition>ButtonTarget InControl.TouchSwipeControl.GetButtonTargetForVector</definition>
+        <argsstring>(Vector2 vector)</argsstring>
+        <name>GetButtonTargetForVector</name>
+        <param>
+          <type>Vector2</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="202" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="202" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.TouchSwipeControl</label>
+        <link refid="class_in_control_1_1_touch_swipe_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TouchControl</label>
+        <link refid="class_in_control_1_1_touch_control"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.TouchSwipeControl</label>
+        <link refid="class_in_control_1_1_touch_swipe_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" line="6" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Touch/Controls/TouchSwipeControl.cs" bodystart="7" bodyend="264"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a7f942ab23b1bb5363f53b6902e688e8c" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>activeArea</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a4c48fd57394589bbaad6031a3d64a810" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>ActiveArea</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ae29c73ec1d64281b23f52fcfbe532804" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>AnalogTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a4dd651d0e741f21718d68f5719de5751" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>areaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a28f198e074caa4bbba699a8ddeccbb87" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>AreaUnitType</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1afb4d6f1aea2b185cd6b623270471968b" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>beganPosition</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a8b96adca4e913ca6b3cbb089d1b60966" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>ButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a639c5df115ecb39e05a3e6cc482ff625" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>CommitAnalog</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a1fd54fbb31e26afcd9b2fa3964f00624" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>CommitButton</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a74a0445eeffac8dd2bb4deb6790da19e" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>CommitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a46448c2d6feae55b99c8dac18c3b121a" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>ConfigureControl</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a93ca8d494cfc3a81a72c61f9a45239d7" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>CreateControl</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a5ca9f4bab7b767c32f35c60aced60291" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>currentTouch</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a76f8e23413894fdac99d3f2bbfc11208" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>currentVector</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1aae5d773cc7cbac7079ff0606cc4f1db3" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>currentVectorIsSet</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a22077898a869237b21ae1ca8ed470edc" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>DestroyControl</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab91622d8935b023428fb2d4abbdf54bc" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>dirty</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1afe12379dc9d00fce857910f835c4a2c1" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>downTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab30e53393258089666c2501185f26d9d" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>DrawGizmos</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ac3362e57d6c3282556e0ee239957a1a0" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>fireButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1afc637bea584ef09c62da64de5854c7ff" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>GetButtonTargetForVector</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a8934f3bea8a577b919efbbb14c2746a3" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>lastButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ac08e20d260effb678dd458380a8c513d" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>lastPosition</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a8757839045b87a095ec8468a5c34d668" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>leftTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a0f92d9084f94e47a48f075228f7398d6" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>nextButtonTarget</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a4b33f1c6fa26e4431f73e0ea34e97229" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>OffsetToWorldPosition</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1aa10c26893f6901fc4f00e04f0d4ef730" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>oneSwipePerTouch</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a81465d17090bbe2ac82bc3c289f53853" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>rightTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a181be2bb8c05e0f7db58fc5f8ad81387" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>sensitivity</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1aeb15ff2278a3829db3d6c4990c6fb1b3" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>snapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab4670bde92c44aa6ac250771ed29d0ee" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SnapAngles</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a32643e06ae9cb3107fc736f9508079f2" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1acff7518787a65fe18efb6a9a2077b5f2" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SnapTo</name></member>
+      <member refid="class_in_control_1_1_touch_control_1ab68ea04ecff413b22305763c2f179efa" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SubmitAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a6e71ca874b032e6664afd8fb315c6a77" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SubmitButtonState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a532ee38b509eb40af2e035e1f6331c28" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SubmitButtonValue</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a199a9710a4d01fca78382923cd7e5c96" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>SubmitControlState</name></member>
+      <member refid="class_in_control_1_1_touch_control_1a64006ac4d0eeb6d156591365f1f7eed2" prot="protected" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>SubmitRawAnalogValue</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1abd1377b396a4a81090954d17238d7ec7" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>tapTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab720548d7a49f39cc6ad6e38845767f8" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>target</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab423b663e3fbe25d7d57f5f95806f525" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>TouchBegan</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1a5ac3537abdb8f70bba91bf9559655a2d" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>TouchEnded</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab87422a2ec74b4eca75825417360cc21" prot="public" virt="virtual"><scope>InControl::TouchSwipeControl</scope><name>TouchMoved</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ab37a75a6afc7b24c69e2fe3bdf04172a" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1ae413b7ef9415d7b5fcefbf449249f527" prot="public" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>upTarget</name></member>
+      <member refid="class_in_control_1_1_touch_swipe_control_1af55d773dd2777ffb36c26130f26c26da" prot="private" virt="non-virtual"><scope>InControl::TouchSwipeControl</scope><name>worldActiveArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

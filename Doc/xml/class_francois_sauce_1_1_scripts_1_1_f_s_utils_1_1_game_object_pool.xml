@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUtils::GameObjectPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1ace88507f3bae1554d1415211cf4e79e1" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; FrancoisSauce.Scripts.FSUtils.GameObjectPool.pool</definition>
+        <argsstring></argsstring>
+        <name>pool</name>
+        <briefdescription>
+<para>List&lt;T&gt; of pool&apos;s GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="16" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a56a6e82472f85bd58485cf21a5be6980" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform FrancoisSauce.Scripts.FSUtils.GameObjectPool.poolContainer</definition>
+        <argsstring></argsstring>
+        <name>poolContainer</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>The pollContainer transform, to parent the instated pool objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="21" column="28" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a51f719794c3d1b4f66dd992b818a6a28" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FrancoisSauce.Scripts.FSUtils.GameObjectPool.basePopulation</definition>
+        <argsstring></argsstring>
+        <name>basePopulation</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The number of gameObject to create GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="29" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a85aa4bf641cedfb55f55ce4bb0d17997" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.FSUtils.GameObjectPool.populationPrefab</definition>
+        <argsstring></argsstring>
+        <name>populationPrefab</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>The population&apos;s prefab, for instantiation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="25" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1abde3698b2e4ca5145237522209df2da3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FrancoisSauce.Scripts.FSUtils.GameObjectPool.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>MonoBehaviour&apos;s Start method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="38" column="32" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1abdd8725e5bd07c9d45d8cecbe2037a10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; FrancoisSauce.Scripts.FSUtils.GameObjectPool.GeneratePool</definition>
+        <argsstring>()</argsstring>
+        <name>GeneratePool</name>
+        <briefdescription>
+<para>Method to create a List&lt;T&gt; of GameObject and return it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The newly created pool of GameObject</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="47" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="47" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a15acc0d876c8583c0fdc3f2c1bba6e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject FrancoisSauce.Scripts.FSUtils.GameObjectPool.RequestPool</definition>
+        <argsstring>()</argsstring>
+        <name>RequestPool</name>
+        <briefdescription>
+<para>Method to request a inactive GameObject in the pool and return it. If no GameObjects inactive, then the pool create a new one and return it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The first inactive GameObject in the pool</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="71" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="71" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ObjectPool design pattern really simple implementation. Only allow GameObject. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.GameObjectPool</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.GameObjectPool</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" line="9" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/GameObjectPool.cs" bodystart="10" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a51f719794c3d1b4f66dd992b818a6a28" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>basePopulation</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1abdd8725e5bd07c9d45d8cecbe2037a10" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>GeneratePool</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1ace88507f3bae1554d1415211cf4e79e1" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>pool</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a56a6e82472f85bd58485cf21a5be6980" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>poolContainer</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a85aa4bf641cedfb55f55ce4bb0d17997" prot="protected" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>populationPrefab</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1a15acc0d876c8583c0fdc3f2c1bba6e31" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>RequestPool</name></member>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_1abde3698b2e4ca5145237522209df2da3" prot="protected" virt="virtual"><scope>FrancoisSauce::Scripts::FSUtils::GameObjectPool</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,928 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_in_control_1_1_player_action_set" kind="class" language="C#" prot="public">
+    <compoundname>InControl::PlayerActionSet</compoundname>
+    <derivedcompoundref refid="class_bindings_example_1_1_player_actions" prot="public" virt="non-virtual">BindingsExample.PlayerActions</derivedcompoundref>
+    <derivedcompoundref refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls" prot="public" virt="non-virtual">FrancoisSauce.Scripts.Controls.PlayerControls</derivedcompoundref>
+    <derivedcompoundref refid="class_multiplayer_with_bindings_example_1_1_player_actions" prot="public" virt="non-virtual">MultiplayerWithBindingsExample.PlayerActions</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1ae75dfd749d6f46962b0a84222064e65f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerActionSet.Device</definition>
+        <argsstring></argsstring>
+        <name>Device</name>
+        <briefdescription>
+<para>Optionally specifies a device which this action set should query from, if applicable. When set to <computeroutput>null</computeroutput> (default) this action set will try to find an active device when required. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="23" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a3f759003340fa67549593f72ab250f94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref> &gt;</type>
+        <definition>List&lt;InputDevice&gt; InControl.PlayerActionSet.IncludeDevices</definition>
+        <argsstring></argsstring>
+        <name>IncludeDevices</name>
+        <briefdescription>
+<para>A list of devices which this action set should include when searching for an active device. When empty, all attached devices will be considered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="29" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1aefb98e5358792a2f40b661e4aebc9b65" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref> &gt;</type>
+        <definition>List&lt;InputDevice&gt; InControl.PlayerActionSet.ExcludeDevices</definition>
+        <argsstring></argsstring>
+        <name>ExcludeDevices</name>
+        <briefdescription>
+<para>A list of devices which this action set should exclude when searching for an active device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="34" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a92e6ddd4be6645bf1cfcf564170c5cbc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ReadOnlyCollection&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref> &gt;</type>
+        <definition>ReadOnlyCollection&lt;PlayerAction&gt; InControl.PlayerActionSet.Actions</definition>
+        <argsstring></argsstring>
+        <name>Actions</name>
+        <briefdescription>
+<para>Gets the actions in this action set as a readonly collection. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="39" column="27" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1abcc95980d57ba52aef3dd54f496dc544" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>ulong</type>
+        <definition>ulong InControl.PlayerActionSet.UpdateTick</definition>
+        <argsstring></argsstring>
+        <name>UpdateTick</name>
+        <briefdescription>
+<para>The last update tick on which any action in this set changed value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="44" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a3f493288d0c80e6684f319b1824def9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerActionSet.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+<para>Whether this action set should produce input. Default: <computeroutput>true</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="74" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1ab8616f279789513978a6807e7857a0c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerActionSet.PreventInputWhileListeningForBinding</definition>
+        <argsstring></argsstring>
+        <name>PreventInputWhileListeningForBinding</name>
+        <briefdescription>
+<para>The prevent input to all actions while any action in the set is listening for a binding. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="79" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1ad6d88193d18e511bf72d41f510804cec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object InControl.PlayerActionSet.UserData</definition>
+        <argsstring></argsstring>
+        <name>UserData</name>
+        <briefdescription>
+<para>This property can be used to store whatever arbitrary game data you want on this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="84" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a69b1473ae9ce6f960ed5a76d08ce961d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerActionSet.this[string actionName]</definition>
+        <argsstring></argsstring>
+        <name>this[string actionName]</name>
+        <briefdescription>
+<para>Gets the action with the specified action name. If the action does not exist, <computeroutput>KeyNotFoundException</computeroutput> is thrown. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the action to get.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="186" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="187" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a6c6d0a537148cd66c0b15c8d64ede5df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool InControl.PlayerActionSet.IsListeningForBinding</definition>
+        <argsstring></argsstring>
+        <name>IsListeningForBinding</name>
+        <briefdescription>
+<para>Query whether any action in this set is currently listening for a new binding. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="395" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="396" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1a4e67b7ac47fe5bc25cb3f510fbb39901" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref>??</type>
+        <definition>BindingListenOptions?? InControl.PlayerActionSet.ListenOptions</definition>
+        <argsstring></argsstring>
+        <name>ListenOptions</name>
+        <briefdescription>
+<para>Configures how in an action in this set listens for new bindings when the action does not explicitly define its own listen options. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="408" column="29" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="409" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="property" id="class_in_control_1_1_player_action_set_1aef26e18d18f778a6e9c97dde3661a9fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref>??</type>
+        <definition>InputDevice?? InControl.PlayerActionSet.ActiveDevice</definition>
+        <argsstring></argsstring>
+        <name>ActiveDevice</name>
+        <briefdescription>
+<para>Gets the currently active device (controller) if present, otherwise returns a null device which does nothing. The currently active device is defined as the last device that provided input to an action on this set. When LastInputType is not a device (controller), this will return the null device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="429" column="20" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="430" bodyend="435"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a6d91ee6720dec191cfe56cd47119b178" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref></type>
+        <definition>BindingSourceType InControl.PlayerActionSet.LastInputType</definition>
+        <argsstring></argsstring>
+        <name>LastInputType</name>
+        <initializer>= <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">BindingSourceType.None</ref></initializer>
+        <briefdescription>
+<para>The binding source type that last provided input to this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="49" column="26" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1ada6b89a428d9792e0758d7c9aa9a3cda" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong InControl.PlayerActionSet.LastInputTypeChangedTick</definition>
+        <argsstring></argsstring>
+        <name>LastInputTypeChangedTick</name>
+        <briefdescription>
+<para>Updated when <ref refid="class_in_control_1_1_player_action_set_1a6d91ee6720dec191cfe56cd47119b178" kindref="member">LastInputType</ref> changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="59" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1acf04e96e3e7446a4a918b27c0b4dfc5d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref></type>
+        <definition>InputDeviceClass InControl.PlayerActionSet.LastDeviceClass</definition>
+        <argsstring></argsstring>
+        <name>LastDeviceClass</name>
+        <initializer>= <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceClass.Unknown</ref></initializer>
+        <briefdescription>
+<para>The <ref refid="namespace_in_control_1a7fd580c8e3f325ebec83b30422aad339" kindref="member">InputDeviceClass</ref> of the binding source that last provided input to this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="64" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1adfcf3cd9b1a252fb6f1ec85768813284" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref></type>
+        <definition>InputDeviceStyle InControl.PlayerActionSet.LastDeviceStyle</definition>
+        <argsstring></argsstring>
+        <name>LastDeviceStyle</name>
+        <initializer>= <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">InputDeviceStyle.Unknown</ref></initializer>
+        <briefdescription>
+<para>The <ref refid="namespace_in_control_1a13b7f216b54cd6b6699ed61c35491de5" kindref="member">InputDeviceStyle</ref> of the binding source that last provided input to this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="69" column="25" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_in_control_1_1_player_action_set_1ab1e494c0fa2b19f343df52ac104d5941" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="namespace_in_control_1a9fdcf96c2fce1dd6ce4862cf8dea841a" kindref="member">BindingSourceType</ref> &gt;</type>
+        <definition>Action&lt;BindingSourceType&gt; InControl.PlayerActionSet.OnLastInputTypeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLastInputTypeChanged</name>
+        <briefdescription>
+<para>Occurs when the binding source type that last provided input to this action set changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="54" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1acfcad21d31f5b8d410a9256ebe64f80b" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref> &gt;</type>
+        <definition>List&lt;PlayerAction&gt; InControl.PlayerActionSet.actions</definition>
+        <argsstring></argsstring>
+        <name>actions</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="87" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a0e222ed8b781c595a59be4da5a2bffbc" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_in_control_1_1_player_one_axis_action" kindref="compound">PlayerOneAxisAction</ref> &gt;</type>
+        <definition>List&lt;PlayerOneAxisAction&gt; InControl.PlayerActionSet.oneAxisActions</definition>
+        <argsstring></argsstring>
+        <name>oneAxisActions</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_player_one_axis_action" kindref="compound">PlayerOneAxisAction</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="88" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1ae38c210ffdb1980405c4dbaf7270beb5" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_in_control_1_1_player_two_axis_action" kindref="compound">PlayerTwoAxisAction</ref> &gt;</type>
+        <definition>List&lt;PlayerTwoAxisAction&gt; InControl.PlayerActionSet.twoAxisActions</definition>
+        <argsstring></argsstring>
+        <name>twoAxisActions</name>
+        <initializer>= new List&lt;<ref refid="class_in_control_1_1_player_two_axis_action" kindref="compound">PlayerTwoAxisAction</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="89" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a09a1db466cc6a1cbefea4c16eeb5c5bc" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref> &gt;</type>
+        <definition>Dictionary&lt;string, PlayerAction&gt; InControl.PlayerActionSet.actionsByName</definition>
+        <argsstring></argsstring>
+        <name>actionsByName</name>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="90" column="12" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a08ad8097b010187f9ad2a477ea04e1bc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref></type>
+        <definition>BindingListenOptions InControl.PlayerActionSet.listenOptions</definition>
+        <argsstring></argsstring>
+        <name>listenOptions</name>
+        <initializer>= new <ref refid="class_in_control_1_1_binding_listen_options" kindref="compound">BindingListenOptions</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="91" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a07e3d061d3f0560aa12eac7f35d3b197" prot="private" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerActionSet.activeDevice</definition>
+        <argsstring></argsstring>
+        <name>activeDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="422" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a20e0ba7362c42bed5bfd8c4719d7105d" prot="package" static="no" mutable="no">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerActionSet.listenWithAction</definition>
+        <argsstring></argsstring>
+        <name>listenWithAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="92" column="23" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_in_control_1_1_player_action_set_1a067402e3d40a4e0bc202bde3d5010609" prot="private" static="yes" mutable="no">
+        <type>const UInt16</type>
+        <definition>const UInt16 InControl.PlayerActionSet.currentDataFormatVersion</definition>
+        <argsstring></argsstring>
+        <name>currentDataFormatVersion</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="438" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a1c4f1e576375f1f09f7668a51d2c4f14" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InControl.PlayerActionSet.PlayerActionSet</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerActionSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="95" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1aecce35c5a5bbe1ebcfad223b5f295e17" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerActionSet.CreatePlayerAction</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CreatePlayerAction</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Create an action on this set. This should be performed in the constructor of your <ref refid="class_in_control_1_1_player_action_set" kindref="compound">PlayerActionSet</ref> subclass. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique identifier for this action within the context of this set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_in_control_1_1_in_control_exception" kindref="compound">InControlException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when trying to create an action with a non-unique name for this set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="123" column="24" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a510454d12307b48ad20ed1b17024a95d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_player_one_axis_action" kindref="compound">PlayerOneAxisAction</ref></type>
+        <definition>PlayerOneAxisAction InControl.PlayerActionSet.CreateOneAxisPlayerAction</definition>
+        <argsstring>(PlayerAction negativeAction, PlayerAction positiveAction)</argsstring>
+        <name>CreateOneAxisPlayerAction</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveAction</declname>
+        </param>
+        <briefdescription>
+<para>Create an aggregate, single-axis action on this set. This should be performed in the constructor of your <ref refid="class_in_control_1_1_player_action_set" kindref="compound">PlayerActionSet</ref> subclass. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting><codeline><highlight class="normal">Throttle<sp/>=<sp/>CreateOneAxisPlayerAction(<sp/>Brake,<sp/>Accelerate<sp/>);</highlight></codeline>
+</programlisting> </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>negativeAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the negative component of the axis.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>positiveAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the positive component of the axis.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="153" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a0a8d5d427c856d1536c80e77c1dbd161" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_player_two_axis_action" kindref="compound">PlayerTwoAxisAction</ref></type>
+        <definition>PlayerTwoAxisAction InControl.PlayerActionSet.CreateTwoAxisPlayerAction</definition>
+        <argsstring>(PlayerAction negativeXAction, PlayerAction positiveXAction, PlayerAction negativeYAction, PlayerAction positiveYAction)</argsstring>
+        <name>CreateTwoAxisPlayerAction</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeXAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveXAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>negativeYAction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>positiveYAction</declname>
+        </param>
+        <briefdescription>
+<para>Create an aggregate, double-axis action on this set. This should be performed in the constructor of your <ref refid="class_in_control_1_1_player_action_set" kindref="compound">PlayerActionSet</ref> subclass. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that, due to Unity&apos;s positive up-vector, the parameter order of <computeroutput>negativeYAction</computeroutput> and <computeroutput>positiveYAction</computeroutput> might seem counter-intuitive. <programlisting><codeline><highlight class="normal">Move<sp/>=<sp/>CreateTwoAxisPlayerAction(<sp/>Left,<sp/>Right,<sp/>Down,<sp/>Up<sp/>);</highlight></codeline>
+</programlisting> </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>negativeXAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the negative component of the X axis.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>positiveXAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the positive component of the X axis.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>negativeYAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the negative component of the Y axis.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>positiveYAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to query for the positive component of the Y axis.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="174" column="31" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="174" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a0cda02068b64064d1de6ac95ebc7b950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <briefdescription>
+<para>Properly dispose of this action set. You should make sure to call this when the action set will no longer be used or it will result in unnecessary internal processing every frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="111" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1aae7aa897b4590eb13c6d7d4697193c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+        <definition>PlayerAction InControl.PlayerActionSet.GetPlayerActionByName</definition>
+        <argsstring>(string actionName)</argsstring>
+        <name>GetPlayerActionByName</name>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <briefdescription>
+<para>Gets the action with the specified action name. If the action does not exist, it returns <computeroutput>null</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the action to get.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="205" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="205" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1aa57effb6fd3c33b532ca5cd36de39d1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Reset the bindings on all actions in this set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="280" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="280" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a267737f62ea872e0662fac6f6a0827e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.ClearInputState</definition>
+        <argsstring>()</argsstring>
+        <name>ClearInputState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="323" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="323" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a60e7b0f8e0c34b68b1242c4e96e91b34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InControl.PlayerActionSet.HasBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>HasBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on all the actions on this set to see if any match the provided binding object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if a matching binding is found on any action on this set, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="352" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="352" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a1297642ebbae139ae7e1bb24f8f03488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.RemoveBinding</definition>
+        <argsstring>(BindingSource binding)</argsstring>
+        <name>RemoveBinding</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+<para>Searches all the bindings on all the actions on this set to see if any match the provided binding object and, if found, removes it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>binding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_in_control_1_1_binding_source" kindref="compound">BindingSource</ref> template to search for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="377" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="377" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a01ce0f8fc6c5a3efd9a7f16fc71528f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] InControl.PlayerActionSet.SaveData</definition>
+        <argsstring>()</argsstring>
+        <name>SaveData</name>
+        <briefdescription>
+<para>Returns the state of this action set and all bindings encoded into a byte array that you can save somewhere. Pass this string to <ref refid="class_in_control_1_1_player_action_set_1aff307570d2d8878e3d53848e5c1c8aab" kindref="member">LoadData()</ref> to restore the state of this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="446" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="446" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1aff307570d2d8878e3d53848e5c1c8aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.LoadData</definition>
+        <argsstring>(byte[] data)</argsstring>
+        <name>LoadData</name>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Load a state returned by calling SaveBytes() at a prior time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data byte array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="479" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="479" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a9a5773b5c31fd249109dc49eaf0a8065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InControl.PlayerActionSet.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+<para>Returns the state of this action set and all bindings encoded into a string that you can save somewhere. Pass this string to <ref refid="class_in_control_1_1_player_action_set_1a63a709b0bc2528f462e4ae958b84ba63" kindref="member">Load()</ref> to restore the state of this action set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="528" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="528" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a63a709b0bc2528f462e4ae958b84ba63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.Load</definition>
+        <argsstring>(string data)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Load a state returned by calling <ref refid="class_in_control_1_1_player_action_set_1a9a5773b5c31fd249109dc49eaf0a8065" kindref="member">Save()</ref> at a prior time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="538" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="538" bodyend="554"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a0a5b3cdf0c7f9789e823160b9eb2686a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.AddPlayerAction</definition>
+        <argsstring>(PlayerAction action)</argsstring>
+        <name>AddPlayerAction</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_player_action" kindref="compound">PlayerAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="129" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="129" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1ad5052caa6e7535488cfd9b29193c6eb3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InControl.PlayerActionSet.Update</definition>
+        <argsstring>(ulong updateTick, float deltaTime)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>ulong</type>
+          <declname>updateTick</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="217" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="217" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_in_control_1_1_player_action_set_1a837de88bf9b0b5aec007808b19a7bc95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+        <definition>InputDevice InControl.PlayerActionSet.FindActiveDevice</definition>
+        <argsstring>()</argsstring>
+        <name>FindActiveDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="290" column="13" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="290" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An action set represents a set of actions, usually for a single player. This class must be subclassed to be used. An action set can contain both explicit, bindable single value actions (for example, &quot;Jump&quot;, &quot;Left&quot; and &quot;Right&quot;) and implicit, aggregate actions which combine together other actions into one or two axes, for example &quot;Move&quot;, which might consist of &quot;Left&quot;, &quot;Right&quot;, &quot;Up&quot; and &quot;Down&quot; filtered into a single two-axis control with its own applied circular deadzone, queryable vector value, etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.Controls.PlayerControls</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+      </node>
+      <node id="2">
+        <label>BindingsExample.PlayerActions</label>
+        <link refid="class_bindings_example_1_1_player_actions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MultiplayerWithBindingsExample.PlayerActions</label>
+        <link refid="class_multiplayer_with_bindings_example_1_1_player_actions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IInputControl</label>
+        <link refid="interface_in_control_1_1_i_input_control"/>
+      </node>
+      <node id="5">
+        <label>InControl.BindingListenOptions</label>
+        <link refid="class_in_control_1_1_binding_listen_options"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ReplaceBinding</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InControl.PlayerActionSet</label>
+        <link refid="class_in_control_1_1_player_action_set"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>listenWithAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IEquatable&lt; BindingSource &gt;</label>
+      </node>
+      <node id="3">
+        <label>OneAxisInputControl</label>
+        <link refid="class_in_control_1_1_one_axis_input_control"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InControl.BindingSource</label>
+        <link refid="class_in_control_1_1_binding_source"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InControl.PlayerAction</label>
+        <link refid="class_in_control_1_1_player_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ListenOptions</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" line="17" column="17" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Binding/PlayerActionSet.cs" bodystart="18" bodyend="555"/>
+    <listofallmembers>
+      <member refid="class_in_control_1_1_player_action_set_1a92e6ddd4be6645bf1cfcf564170c5cbc" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Actions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1acfcad21d31f5b8d410a9256ebe64f80b" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>actions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a09a1db466cc6a1cbefea4c16eeb5c5bc" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>actionsByName</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a07e3d061d3f0560aa12eac7f35d3b197" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>activeDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aef26e18d18f778a6e9c97dde3661a9fd" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>ActiveDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a5b3cdf0c7f9789e823160b9eb2686a" prot="package" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>AddPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a267737f62ea872e0662fac6f6a0827e4" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>ClearInputState</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a510454d12307b48ad20ed1b17024a95d" prot="protected" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>CreateOneAxisPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aecce35c5a5bbe1ebcfad223b5f295e17" prot="protected" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>CreatePlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0a8d5d427c856d1536c80e77c1dbd161" prot="protected" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>CreateTwoAxisPlayerAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a067402e3d40a4e0bc202bde3d5010609" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>currentDataFormatVersion</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0cda02068b64064d1de6ac95ebc7b950" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Destroy</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ae75dfd749d6f46962b0a84222064e65f" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Device</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f493288d0c80e6684f319b1824def9e" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Enabled</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aefb98e5358792a2f40b661e4aebc9b65" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>ExcludeDevices</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a837de88bf9b0b5aec007808b19a7bc95" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>FindActiveDevice</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aae7aa897b4590eb13c6d7d4697193c2c" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>GetPlayerActionByName</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a60e7b0f8e0c34b68b1242c4e96e91b34" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>HasBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a3f759003340fa67549593f72ab250f94" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>IncludeDevices</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6c6d0a537148cd66c0b15c8d64ede5df" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>IsListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1acf04e96e3e7446a4a918b27c0b4dfc5d" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>LastDeviceClass</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1adfcf3cd9b1a252fb6f1ec85768813284" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>LastDeviceStyle</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a6d91ee6720dec191cfe56cd47119b178" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>LastInputType</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ada6b89a428d9792e0758d7c9aa9a3cda" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>LastInputTypeChangedTick</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a4e67b7ac47fe5bc25cb3f510fbb39901" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>ListenOptions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a08ad8097b010187f9ad2a477ea04e1bc" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>listenOptions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a20e0ba7362c42bed5bfd8c4719d7105d" prot="package" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>listenWithAction</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a63a709b0bc2528f462e4ae958b84ba63" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Load</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aff307570d2d8878e3d53848e5c1c8aab" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>LoadData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a0e222ed8b781c595a59be4da5a2bffbc" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>oneAxisActions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab1e494c0fa2b19f343df52ac104d5941" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>OnLastInputTypeChanged</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1c4f1e576375f1f09f7668a51d2c4f14" prot="protected" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>PlayerActionSet</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ab8616f279789513978a6807e7857a0c6" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>PreventInputWhileListeningForBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a1297642ebbae139ae7e1bb24f8f03488" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>RemoveBinding</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1aa57effb6fd3c33b532ca5cd36de39d1f" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Reset</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a9a5773b5c31fd249109dc49eaf0a8065" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Save</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a01ce0f8fc6c5a3efd9a7f16fc71528f8" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>SaveData</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1a69b1473ae9ce6f960ed5a76d08ce961d" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>this[string actionName]</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ae38c210ffdb1980405c4dbaf7270beb5" prot="private" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>twoAxisActions</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad5052caa6e7535488cfd9b29193c6eb3" prot="package" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>Update</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1abcc95980d57ba52aef3dd54f496dc544" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>UpdateTick</name></member>
+      <member refid="class_in_control_1_1_player_action_set_1ad6d88193d18e511bf72d41f510804cec" prot="public" virt="non-virtual"><scope>InControl::PlayerActionSet</scope><name>UserData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_touch_example_1_1_cube_controller" kind="class" language="C#" prot="public">
+    <compoundname>TouchExample::CubeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_touch_example_1_1_cube_controller_1a3f731b0630075d94b4405f70a25f27e3" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer TouchExample.CubeController.cachedRenderer</definition>
+        <argsstring></argsstring>
+        <name>cachedRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="9" column="10" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_touch_example_1_1_cube_controller_1af4fb9ee368d289f467826f6730fdd604" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TouchExample.CubeController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="12" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_touch_example_1_1_cube_controller_1a9ef873da8a8eb7840ba0dd5a433803a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TouchExample.CubeController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="18" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="18" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_touch_example_1_1_cube_controller_1aa641d3c40ca8f472a33e27dde7eb51bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TouchExample.CubeController.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="66" column="6" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="66" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_touch_example_1_1_cube_controller_1a9def89d1f70005d37ad08329e52d2c16" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color TouchExample.CubeController.GetColorFromActionButtons</definition>
+        <argsstring>(InputDevice inputDevice)</argsstring>
+        <name>GetColorFromActionButtons</name>
+        <param>
+          <type><ref refid="class_in_control_1_1_input_device" kindref="compound">InputDevice</ref></type>
+          <declname>inputDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="40" column="14" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="40" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>TouchExample.CubeController</label>
+        <link refid="class_touch_example_1_1_cube_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>TouchExample.CubeController</label>
+        <link refid="class_touch_example_1_1_cube_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" line="7" column="7" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/TouchControls/CubeController.cs" bodystart="8" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_touch_example_1_1_cube_controller_1a3f731b0630075d94b4405f70a25f27e3" prot="private" virt="non-virtual"><scope>TouchExample::CubeController</scope><name>cachedRenderer</name></member>
+      <member refid="class_touch_example_1_1_cube_controller_1a9def89d1f70005d37ad08329e52d2c16" prot="private" virt="non-virtual"><scope>TouchExample::CubeController</scope><name>GetColorFromActionButtons</name></member>
+      <member refid="class_touch_example_1_1_cube_controller_1aa641d3c40ca8f472a33e27dde7eb51bf" prot="private" virt="non-virtual"><scope>TouchExample::CubeController</scope><name>OnGUI</name></member>
+      <member refid="class_touch_example_1_1_cube_controller_1af4fb9ee368d289f467826f6730fdd604" prot="private" virt="non-virtual"><scope>TouchExample::CubeController</scope><name>Start</name></member>
+      <member refid="class_touch_example_1_1_cube_controller_1a9ef873da8a8eb7840ba0dd5a433803a3" prot="private" virt="non-virtual"><scope>TouchExample::CubeController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

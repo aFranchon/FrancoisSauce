@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o" kind="class" language="C#" prot="public">
+    <compoundname>FrancoisSauce::Scripts::FSUtils::FSGlobalVariables::FSGlobalVariableSO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o_1a523196fb8b89056fbd30005de5e24ec5" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalVariableSO&lt; T &gt;.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+<para>the global variable&apos;s value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalVariableSO.cs" line="16" column="18" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalVariableSO.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract class to implement for creating GlobalVariable. This is a ScriptableObject witch allow to changes the variable&apos;s value while playing the game and save it </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Template to fit every possible type of variable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalVariableSO&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>FrancoisSauce.Scripts.FSUtils.FSGlobalVariables.FSGlobalVariableSO&lt; T &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalVariableSO.cs" line="11" column="21" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSUtils/__FSGlobalVariables/FSGlobalVariableSO.cs" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_variable_s_o_1a523196fb8b89056fbd30005de5e24ec5" prot="public" virt="non-virtual"><scope>FrancoisSauce::Scripts::FSUtils::FSGlobalVariables::FSGlobalVariableSO</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

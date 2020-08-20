@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets</compoundname>
+    <innerdir refid="dir_7f228d03672f985fe58756d1ccff453a">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce</innerdir>
+    <innerdir refid="dir_f6d92b1e2f390a305fd2f97268e22817">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets</innerdir>
+    <innerdir refid="dir_1fe04bd28e21fea0c254c79d18e7fd88">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name</innerdir>
+    <innerdir refid="dir_a61728ed8d39ae932c553f4837da35dd">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Editor</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/"/>
+  </compounddef>
+</doxygen>
