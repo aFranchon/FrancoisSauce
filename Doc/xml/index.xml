@@ -1471,21 +1471,6 @@
     <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1aaaabacda724ce9dd59b38c97c939e1d6" kind="variable"><name>Backward</name></member>
     <member refid="class_francois_sauce_1_1_scripts_1_1_controls_1_1_player_controls_1af79a3ef6b529b311cebf6dab851986e8" kind="function"><name>PlayerControls</name></member>
   </compound>
-  <compound refid="class_multiplayer_basic_example_1_1_player_manager" kind="class"><name>MultiplayerBasicExample::PlayerManager</name>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1ac43d924af4c7b098af92a87efc52b044" kind="variable"><name>playerPrefab</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a8ad1be766e79445077c61b345e726673" kind="variable"><name>maxPlayers</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a5cd19a4d05dd08a01262d80d59d020c0" kind="variable"><name>playerPositions</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a296481b57742fad3ca1de952f9b2484f" kind="variable"><name>players</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a6993d0f5958586d0c9475dd3984b7357" kind="function"><name>Start</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a53e6d1c347aa2c61ed6e8dd224a1ccea" kind="function"><name>Update</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a0e8f8880af6c873b88e40886802e820a" kind="function"><name>JoinButtonWasPressedOnDevice</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1aa83fa8b5dbf3d3f6308cb89c5ff69298" kind="function"><name>FindPlayerUsingDevice</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a90cdbf4af96217e8457c38381578c420" kind="function"><name>ThereIsNoPlayerUsingDevice</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a2a5059c201d8060ad79071e26ba76222" kind="function"><name>OnDeviceDetached</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1ab3613b5d133960fcb224defe0f4f1979" kind="function"><name>CreatePlayer</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a4b86efaea6281e4ac647ea3ed1a79227" kind="function"><name>RemovePlayer</name></member>
-    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a4cda0f03187e34d0a1eb38af1a9558a1" kind="function"><name>OnGUI</name></member>
-  </compound>
   <compound refid="class_multiplayer_with_bindings_example_1_1_player_manager" kind="class"><name>MultiplayerWithBindingsExample::PlayerManager</name>
     <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1ada7dd5522c58d4bf0f879750d413b061" kind="variable"><name>playerPrefab</name></member>
     <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a4068e602d09698f097e26043c864e122" kind="variable"><name>maxPlayers</name></member>
@@ -1505,6 +1490,21 @@
     <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a30fa1040ed4b70d89b414ddabb0a88f2" kind="function"><name>CreatePlayer</name></member>
     <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1ac715436ca497ebf1d8d644c5c8c4c2cf" kind="function"><name>RemovePlayer</name></member>
     <member refid="class_multiplayer_with_bindings_example_1_1_player_manager_1a619accbdea78ee1ab6736df017a131c0" kind="function"><name>OnGUI</name></member>
+  </compound>
+  <compound refid="class_multiplayer_basic_example_1_1_player_manager" kind="class"><name>MultiplayerBasicExample::PlayerManager</name>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1ac43d924af4c7b098af92a87efc52b044" kind="variable"><name>playerPrefab</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a8ad1be766e79445077c61b345e726673" kind="variable"><name>maxPlayers</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a5cd19a4d05dd08a01262d80d59d020c0" kind="variable"><name>playerPositions</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a296481b57742fad3ca1de952f9b2484f" kind="variable"><name>players</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a6993d0f5958586d0c9475dd3984b7357" kind="function"><name>Start</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a53e6d1c347aa2c61ed6e8dd224a1ccea" kind="function"><name>Update</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a0e8f8880af6c873b88e40886802e820a" kind="function"><name>JoinButtonWasPressedOnDevice</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1aa83fa8b5dbf3d3f6308cb89c5ff69298" kind="function"><name>FindPlayerUsingDevice</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a90cdbf4af96217e8457c38381578c420" kind="function"><name>ThereIsNoPlayerUsingDevice</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a2a5059c201d8060ad79071e26ba76222" kind="function"><name>OnDeviceDetached</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1ab3613b5d133960fcb224defe0f4f1979" kind="function"><name>CreatePlayer</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a4b86efaea6281e4ac647ea3ed1a79227" kind="function"><name>RemovePlayer</name></member>
+    <member refid="class_multiplayer_basic_example_1_1_player_manager_1a4cda0f03187e34d0a1eb38af1a9558a1" kind="function"><name>OnGUI</name></member>
   </compound>
   <compound refid="class_in_control_1_1_player_one_axis_action" kind="class"><name>InControl::PlayerOneAxisAction</name>
     <member refid="class_in_control_1_1_player_one_axis_action_1a8dedf833888432eca0b5eafd99f68552" kind="variable"><name>negativeAction</name></member>
@@ -1624,6 +1624,14 @@
     <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list_1a683f641524afcad32f932dfe919df34f" kind="variable"><name>scenes</name></member>
     <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list_1a5f5a826a0b3dc19bd0702844ed320ab2" kind="variable"><name>pathToLevels</name></member>
     <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_scene_list_1a1b61d06cdfac5a30f9e227df54f62779" kind="function"><name>Awake</name></member>
+  </compound>
+  <compound refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour" kind="class"><name>Sirenix::OdinInspector::SerializedNetworkBehaviour</name>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1a8ec185843b5d92c47794e5ab6211942f" kind="variable"><name>serializationData</name></member>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1a47e7c7726892fa593f46d79f9a13a31e" kind="property"><name>SerializationData</name></member>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1a3e031e48f3cdccaf6bd209f01a8076ba" kind="function"><name>OnAfterDeserialize</name></member>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1a0db2aac3d5e37f1c1900142c0448f352" kind="function"><name>OnBeforeSerialize</name></member>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1aacef1114bae6d401c705a495366fbb26" kind="function"><name>OnAfterDeserialize</name></member>
+    <member refid="class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour_1a6cc1077b1a46e803fb0bbeec078017cb" kind="function"><name>OnBeforeSerialize</name></member>
   </compound>
   <compound refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton" kind="class"><name>FrancoisSauce::Scripts::FSUtils::Singleton</name>
     <member refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton_1af7c7128328af7043aa73b8f3d5bfb971" kind="variable"><name>instance</name></member>
@@ -2843,6 +2851,12 @@
   </compound>
   <compound refid="namespace_multiplayer_with_bindings_example" kind="namespace"><name>MultiplayerWithBindingsExample</name>
   </compound>
+  <compound refid="namespace_sirenix" kind="namespace"><name>Sirenix</name>
+  </compound>
+  <compound refid="namespace_sirenix_1_1_odin_inspector" kind="namespace"><name>Sirenix::OdinInspector</name>
+  </compound>
+  <compound refid="namespace_sirenix_1_1_serialization" kind="namespace"><name>Sirenix::Serialization</name>
+  </compound>
   <compound refid="namespace_system" kind="namespace"><name>System</name>
   </compound>
   <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
@@ -2850,6 +2864,8 @@
   <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
   </compound>
   <compound refid="namespace_system_1_1_collections_1_1_object_model" kind="namespace"><name>System::Collections::ObjectModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics_1_1_contracts" kind="namespace"><name>System::Diagnostics::Contracts</name>
   </compound>
   <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
   </compound>
@@ -2872,6 +2888,8 @@
   <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
   </compound>
   <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_networking" kind="namespace"><name>UnityEngine::Networking</name>
   </compound>
   <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
   </compound>
@@ -4096,6 +4114,37 @@
   </compound>
   <compound refid="_default_scene_loader_8cs" kind="file"><name>DefaultSceneLoader.cs</name>
   </compound>
+  <compound refid="_pre_processing_8cs" kind="file"><name>PreProcessing.cs</name>
+    <member refid="_pre_processing_8cs_1a515f2d22ea05a2dd660bcb3b17a541f0" kind="define"><name>ODIN_INSPECTOR_TEST</name></member>
+  </compound>
+  <compound refid="_assembly_import_settings_automation_8cs" kind="file"><name>AssemblyImportSettingsAutomation.cs</name>
+  </compound>
+  <compound refid="_build_a_o_t_automation_8cs" kind="file"><name>BuildAOTAutomation.cs</name>
+  </compound>
+  <compound refid="_ensure_odin_inspector_define_8cs" kind="file"><name>EnsureOdinInspectorDefine.cs</name>
+  </compound>
+  <compound refid="_fix_broken_unity_object_wrapper_drawer_8cs" kind="file"><name>FixBrokenUnityObjectWrapperDrawer.cs</name>
+  </compound>
+  <compound refid="_sync_list_drawer_8cs" kind="file"><name>SyncListDrawer.cs</name>
+  </compound>
+  <compound refid="_sync_var_attribute_drawer_8cs" kind="file"><name>SyncVarAttributeDrawer.cs</name>
+  </compound>
+  <compound refid="_vector2_int_min_max_attribute_drawer_8cs" kind="file"><name>Vector2IntMinMaxAttributeDrawer.cs</name>
+  </compound>
+  <compound refid="_vector_int_drawers_8cs" kind="file"><name>VectorIntDrawers.cs</name>
+  </compound>
+  <compound refid="_vector_int_property_resolvers_8cs" kind="file"><name>VectorIntPropertyResolvers.cs</name>
+  </compound>
+  <compound refid="_serialized_network_behaviour_8cs" kind="file"><name>SerializedNetworkBehaviour.cs</name>
+  </compound>
+  <compound refid="_vector_int_formatters_8cs" kind="file"><name>VectorIntFormatters.cs</name>
+  </compound>
+  <compound refid="_readme_8txt" kind="file"><name>Readme.txt</name>
+    <member refid="_readme_8txt_1ae539b94e05a478f9b23997023b0f62bf" kind="variable"><name>Tutorials</name></member>
+    <member refid="_readme_8txt_1a85c32310e4594fd74e4dc3080b8fbf95" kind="variable"><name>advice</name></member>
+    <member refid="_readme_8txt_1a049dc24d3c059be9bfb3759cf52afe45" kind="variable"><name>Discord</name></member>
+    <member refid="_readme_8txt_1a307fc4bb23ff5d23db415d00f9f92f2a" kind="variable"><name>Support</name></member>
+  </compound>
   <compound refid="dir_7f228d03672f985fe58756d1ccff453a" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce</name>
   </compound>
   <compound refid="dir_f6d92b1e2f390a305fd2f97268e22817" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets</name>
@@ -4162,6 +4211,8 @@
   </compound>
   <compound refid="dir_a61728ed8d39ae932c553f4837da35dd" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Editor</name>
   </compound>
+  <compound refid="dir_eddea1cbedc43b07590ecee5e8076542" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor</name>
+  </compound>
   <compound refid="dir_4a0ccc4fc7049d18c4cab39c80daa695" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples</name>
   </compound>
   <compound refid="dir_e39bd2351bfbc26f39620f18a8d9cd4d" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI</name>
@@ -4190,9 +4241,9 @@
   </compound>
   <compound refid="dir_81937e6817eb236788211635c47409bc" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Mac</name>
   </compound>
-  <compound refid="dir_2a77cc1194310edc30cd6eda96f016a4" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Mac</name>
-  </compound>
   <compound refid="dir_99972a918361121894149e9b109dd5a2" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Mac</name>
+  </compound>
+  <compound refid="dir_2a77cc1194310edc30cd6eda96f016a4" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Mac</name>
   </compound>
   <compound refid="dir_4934994b5bb25daaa8cee874ce807ed1" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu</name>
   </compound>
@@ -4205,6 +4256,8 @@
   <compound refid="dir_96aa997ae8bb3b92ef01bc3aa143de25" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Examples/MultiplayerWithBindings</name>
   </compound>
   <compound refid="dir_f14ab683facd453929a85008273c74b3" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native</name>
+  </compound>
+  <compound refid="dir_829c0b4ecf018df9861944812e305fd9" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector</name>
   </compound>
   <compound refid="dir_66124891fbba6a7e99af72553be23ea6" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Editor/OptionalTypes</name>
   </compound>
@@ -4222,13 +4275,19 @@
   </compound>
   <compound refid="dir_965640687fbb535603a55ead1d52b839" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Plugins</name>
   </compound>
+  <compound refid="dir_c0005b12c1c6ae1cb8e9754bcab8bc3c" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins</name>
+  </compound>
   <compound refid="dir_71cb1949589b14dff2a1161c5133a67d" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Readme</name>
   </compound>
   <compound refid="dir_7578ed210cef21f1c6eb2b2ca637e555" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/Fantasy UI/Samples</name>
   </compound>
+  <compound refid="dir_c06d332c756e36a78818f83ff277174a" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector/Scripts</name>
+  </compound>
   <compound refid="dir_1745a6c2208346ab6afa2da9e8034c49" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/___EXEMPLEGAME_Change this name/Scripts</name>
   </compound>
   <compound refid="dir_ff21122d515c5730d0e5e8a60abbaeca" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts</name>
+  </compound>
+  <compound refid="dir_87dc885662dec2d0759a6d91b459c49a" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix</name>
   </compound>
   <compound refid="dir_673a0ee3bcc82ddc3114fd095a1c0436" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/___FSEvents/SO</name>
   </compound>
@@ -4256,11 +4315,11 @@
   </compound>
   <compound refid="dir_1ef7d95bbd984691510489fb754268e4" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Win</name>
   </compound>
+  <compound refid="dir_387a2ab59f531916a920e81d725b2bdb" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Windows</name>
+  </compound>
   <compound refid="dir_58f4b2df4dde97a41e361ddc33a65503" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/Windows</name>
   </compound>
   <compound refid="dir_5043076b5a61a5e521052036373045f4" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Native/DeviceProfiles/Windows</name>
-  </compound>
-  <compound refid="dir_387a2ab59f531916a920e81d725b2bdb" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/Unity/DeviceProfiles/WebGL/Windows</name>
   </compound>
   <compound refid="dir_809bf61e33633eaec2c5f2cecdd54438" kind="dir"><name>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauceExternalAssets/InControl/Source/XboxOne</name>
   </compound>

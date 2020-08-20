@@ -8,6 +8,7 @@ var annotated_dup =
     [ "InterfaceMovement", "namespace_interface_movement.html", "namespace_interface_movement" ],
     [ "MultiplayerBasicExample", "namespace_multiplayer_basic_example.html", "namespace_multiplayer_basic_example" ],
     [ "MultiplayerWithBindingsExample", "namespace_multiplayer_with_bindings_example.html", "namespace_multiplayer_with_bindings_example" ],
+    [ "Sirenix", "namespace_sirenix.html", "namespace_sirenix" ],
     [ "TouchExample", "namespace_touch_example.html", "namespace_touch_example" ],
     [ "VirtualDeviceExample", "namespace_virtual_device_example.html", "namespace_virtual_device_example" ],
     [ "EndTrigger", "class_end_trigger.html", "class_end_trigger" ],

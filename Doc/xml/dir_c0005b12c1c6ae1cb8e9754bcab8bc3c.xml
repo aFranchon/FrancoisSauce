@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_c0005b12c1c6ae1cb8e9754bcab8bc3c" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins</compoundname>
+    <innerdir refid="dir_87dc885662dec2d0759a6d91b459c49a">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/"/>
+  </compounddef>
+</doxygen>

@@ -55,7 +55,8 @@ var NAVTREE =
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -64,18 +65,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_afterglow_xbox360_windows_native_profile_8cs.html",
-"_game_manager_8cs.html",
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa7e3b48e444c2605133fde31157fa9524",
-"_key_8cs.html#a19d1dc8fcbdfb37bcf314454ba8f5424a9c8ae0945940e5baec5a93c4c8ec869e",
-"_mouse_8cs.html#a75840029eafac4d65146eaa4bc50fc94a773cf26b55c80474de2fbf5fcc950ecf",
-"_razer_onza_t_e_controller_mac_native_profile_8cs.html",
-"_xbox360_driver_mac_native_profile_8cs.html",
-"class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game.html#a14f16471d73524c8b535e232c2b648d5",
-"class_in_control_1_1_input_device.html#aa3ec8559208f319a804caa530fe3015d",
-"class_in_control_1_1_player_action_set.html#a3f493288d0c80e6684f319b1824def9e",
-"class_in_control_1_1_touch_swipe_control.html#ab30e53393258089666c2501185f26d9d",
-"functions_func_s.html",
-"struct_in_control_1_1_input_range.html#a9d0d73e7af25dbf9ed4f35cd68e63f76"
+"_game_cube_mayflash_windows_unity_profile_8cs_source.html",
+"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6adf97f83acf6453d4a6a4b1070f3754",
+"_key_8cs.html#a19d1dc8fcbdfb37bcf314454ba8f5424a8dac2f53f69eb1bce11b7f781d8302ce",
+"_moga_pro_windows_unity_profile_8cs.html",
+"_progress_bar_8cs_source.html",
+"_x_input_windows_chrome_unity_profile_8cs_source.html",
+"class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_lose_script.html",
+"class_in_control_1_1_input_device.html#a588c8fc549c079112beb8642b6587dab",
+"class_in_control_1_1_player_action.html#a84a08118acf3e36c0acd7da2cda6060b",
+"class_in_control_1_1_touch_stick_control.html#a98c831ebb24fe2c10873b1d998bea3d2",
+"dir_f14ab683facd453929a85008273c74b3.html",
+"struct_in_control_1_1_input_device_1_1_analog_snapshot_entry.html#ab5c6058732e02736e4d7e563334e506f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -7,7 +7,6 @@
     <innernamespace refid="namespace_francois_sauce_1_1_scripts">FrancoisSauce::Scripts</innernamespace>
     <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events">FrancoisSauce::Scripts::FSEvents</innernamespace>
     <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o">FrancoisSauce::Scripts::FSEvents::SO</innernamespace>
-    <innernamespace refid="namespace_system">System</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

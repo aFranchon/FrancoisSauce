@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_readme_8txt" kind="file" language="C++">
+    <compoundname>Readme.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_readme_8txt_1ae539b94e05a478f9b23997023b0f62bf" prot="public" static="no" mutable="no">
+        <type>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links</type>
+        <definition>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links Tutorials</definition>
+        <argsstring></argsstring>
+        <name>Tutorials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" line="8" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_readme_8txt_1a85c32310e4594fd74e4dc3080b8fbf95" prot="public" static="no" mutable="no">
+        <type>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want</type>
+        <definition>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want advice</definition>
+        <argsstring></argsstring>
+        <name>advice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" line="17" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_readme_8txt_1a049dc24d3c059be9bfb3759cf52afe45" prot="public" static="no" mutable="no">
+        <type>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want then you re more than welcome to join us on</type>
+        <definition>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want then you re more than welcome to join us on Discord</definition>
+        <argsstring></argsstring>
+        <name>Discord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" line="18" column="15" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_readme_8txt_1a307fc4bb23ff5d23db415d00f9f92f2a" prot="public" static="no" mutable="no">
+        <type>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want then you re more than welcome to join us on or reach out to us by any other means</type>
+        <definition>Getting Started Open up the Getting Started guide from Tools Odin Inspector Getting Started Helpful Links suggestions or want then you re more than welcome to join us on or reach out to us by any other means Support</definition>
+        <argsstring></argsstring>
+        <name>Support</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" line="20" column="1" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">------------------------------------<sp/>Getting<sp/>Started<sp/>------------------------------------</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Open<sp/>up<sp/>the<sp/>Getting<sp/>Started<sp/>guide<sp/>from<sp/></highlight><highlight class="stringliteral">&quot;Tools<sp/>&gt;<sp/>Odin<sp/>Inspector<sp/>&gt;<sp/>Getting<sp/>Started.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">-------------------------------------<sp/>Helpful<sp/>Links<sp/>-------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="_readme_8txt_1ae539b94e05a478f9b23997023b0f62bf" kindref="member">Tutorials</ref>:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https:</highlight><highlight class="comment">//odininspector.com/tutorials</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">API<sp/>Documentaion:<sp/><sp/><sp/>https:</highlight><highlight class="comment">//odininspector.com/documentation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">Roadmap:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https:</highlight><highlight class="comment">//odininspector.com/roadmap</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">Release<sp/>Notes:<sp/><sp/><sp/><sp/><sp/><sp/>https:</highlight><highlight class="comment">//odininspector.com/patch-notes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Issue<sp/>Tracker:<sp/><sp/><sp/><sp/><sp/><sp/>https:</highlight><highlight class="comment">//bitbucket.org/sirenix/odin-inspector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">---------------------------------<sp/>Community<sp/>and<sp/><ref refid="_readme_8txt_1a307fc4bb23ff5d23db415d00f9f92f2a" kindref="member">Support</ref><sp/>---------------------------------</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">If<sp/>you<sp/>have<sp/>any<sp/>issues,<sp/>suggestions<sp/>or<sp/>want<sp/><ref refid="_readme_8txt_1a85c32310e4594fd74e4dc3080b8fbf95" kindref="member">advice</ref>,<sp/>then<sp/>you</highlight><highlight class="stringliteral">&apos;re<sp/>more<sp/>than<sp/>welcome<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">to<sp/>join<sp/>us<sp/>on<sp/>Discord,<sp/>or<sp/>reach<sp/>out<sp/>to<sp/>us<sp/>by<sp/>any<sp/>other<sp/>means.</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">Support:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://odininspector.com/support</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">Community<sp/>Addons:<sp/><sp/><sp/>https://odininspector.com/community-tools</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">Discord:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://discord.gg/AgDmStu</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral">---------------------------------------Thanks<sp/>you!---------------------------------------</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral">We<sp/>really<sp/>hope<sp/>you<sp/>like<sp/>using<sp/>Odin.<sp/>Be<sp/>sure<sp/>to<sp/>leave<sp/>a<sp/>review<sp/>on<sp/>the<sp/>Asset<sp/>Store,</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral">that<sp/>helps<sp/>us<sp/>out<sp/>a<sp/>lot!</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">Leave<sp/>a<sp/>review:<sp/><sp/><sp/><sp/><sp/>https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral">Odin<sp/>Inspector<sp/>is<sp/>published<sp/>by<sp/>Devdog<sp/>and<sp/>developed<sp/>by<sp/>Sirenix.</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral">Devdog:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://devdog.io</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral">Sirenix:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Https://sirenix.net</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Readme.txt"/>
+  </compounddef>
+</doxygen>

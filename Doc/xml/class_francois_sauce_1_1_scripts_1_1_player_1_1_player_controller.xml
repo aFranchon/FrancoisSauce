@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="64" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="64" bodyend="-1"/>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="65" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1ade944c3bde95b8a9455b9e59c004d89a" prot="private" static="no" mutable="no">
         <type><ref refid="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_f_s_global_variables_1_1_f_s_global_float_s_o" kindref="compound">FSGlobalFloatSO</ref></type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="68" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="68" bodyend="-1"/>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="70" column="34" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="70" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="74" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="74" bodyend="93"/>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="76" column="22" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="76" bodyend="95"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -195,7 +195,7 @@
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="12" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="13" bodyend="94"/>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" line="12" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player/PlayerController.cs" bodystart="13" bodyend="96"/>
     <listofallmembers>
       <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a9e987221860213b2e3e0e76d3851fc77" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>Awake</name></member>
       <member refid="class_francois_sauce_1_1_scripts_1_1_player_1_1_player_controller_1a52e54f1c0220a379e4d340d9fba3f329" prot="private" virt="non-virtual"><scope>FrancoisSauce::Scripts::Player::PlayerController</scope><name>Directions</name></member>

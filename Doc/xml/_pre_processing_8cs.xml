@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_pre_processing_8cs" kind="file" language="C#">
+    <compoundname>PreProcessing.cs</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pre_processing_8cs_1a515f2d22ea05a2dd660bcb3b17a541f0" prot="public" static="no">
+        <name>ODIN_INSPECTOR_TEST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Editor/PreProcessing.cs" line="2" column="9" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Editor/PreProcessing.cs" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//If<sp/>ODIN_INSPECTOR<sp/>is<sp/>in<sp/>the<sp/>project<sp/>remove<sp/>the<sp/>undef<sp/>of<sp/>ODIN_INSPECTOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ODIN_INSPECTOR_TEST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="_pre_processing_8cs_1a515f2d22ea05a2dd660bcb3b17a541f0" refkind="member"><highlight class="normal"></highlight><highlight class="comment">//#undef<sp/>ODIN_INSPECTOR_TEST</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Editor/PreProcessing.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_c06d332c756e36a78818f83ff277174a" kind="dir">
+    <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector/Scripts</compoundname>
+    <innerdir refid="dir_eddea1cbedc43b07590ecee5e8076542">C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor</innerdir>
+    <innerfile refid="_serialized_network_behaviour_8cs">SerializedNetworkBehaviour.cs</innerfile>
+    <innerfile refid="_vector_int_formatters_8cs">VectorIntFormatters.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/Plugins/Sirenix/Odin Inspector/Scripts/"/>
+  </compounddef>
+</doxygen>

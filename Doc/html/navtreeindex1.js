@@ -1,5 +1,13 @@
 var NAVTREEINDEX1 =
 {
+"_game_cube_mayflash_windows_unity_profile_8cs_source.html":[2,0,0,1,2,4,11,0,7,7],
+"_game_cube_windows_native_profile_8cs.html":[2,0,0,1,2,4,8,0,3,8],
+"_game_cube_windows_native_profile_8cs_source.html":[2,0,0,1,2,4,8,0,3,8],
+"_game_cube_windows_unity_profile_8cs.html":[2,0,0,1,2,4,11,0,7,8],
+"_game_cube_windows_unity_profile_8cs_source.html":[2,0,0,1,2,4,11,0,7,8],
+"_game_logic_8cs.html":[2,0,0,0,0,2,0],
+"_game_logic_8cs.html#ad7b0db16f1a5601e9be5f6b59cf8e3bb":[2,0,0,0,0,2,0,1],
+"_game_logic_8cs_source.html":[2,0,0,0,0,2,0],
 "_game_manager_8cs.html":[2,0,0,0,0,2,1],
 "_game_manager_8cs_source.html":[2,0,0,0,0,2,1],
 "_game_object_pool_8cs.html":[2,0,0,0,0,3,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX1 =
 "_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa5d41976830c48a3e4102632da498abcf":[2,0,0,1,2,4,3,6,0,54],
 "_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6475a3746209a62a6ce6289a3741d07e":[2,0,0,1,2,4,3,6,0,102],
 "_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6800dacf1d72eea9cebd0b955a6e70b7":[2,0,0,1,2,4,3,6,0,92],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa689cab14f03e18dea46edac0b828ee42":[2,0,0,1,2,4,3,6,0,59],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6adf97f83acf6453d4a6a4b1070f3754":[2,0,0,1,2,4,3,6,0,0],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6d0c69e60d65a93dd244ae95f90e679c":[2,0,0,1,2,4,3,6,0,104],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa6e53ad4e24c7b597e15b2193883bf7f2":[2,0,0,1,2,4,3,6,0,11],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa729f2100a072d3bc80d4eaea3218e61f":[2,0,0,1,2,4,3,6,0,76],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa72c7a3098399dfb77a42f5181b46fa41":[2,0,0,1,2,4,3,6,0,19],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa73b28bdae29261d8fa6b8e828d7aa452":[2,0,0,1,2,4,3,6,0,90],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa793c863ba9f4223cb5fd7224f85f67ce":[2,0,0,1,2,4,3,6,0,48],
-"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa7c3e272db858fa69cdc6e212861e0c07":[2,0,0,1,2,4,3,6,0,71]
+"_input_control_type_8cs.html#a182fc07c0fa4922faa248b81f403fb3aa689cab14f03e18dea46edac0b828ee42":[2,0,0,1,2,4,3,6,0,59]
 };

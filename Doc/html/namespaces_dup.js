@@ -8,6 +8,7 @@ var namespaces_dup =
     [ "InterfaceMovement", "namespace_interface_movement.html", null ],
     [ "MultiplayerBasicExample", "namespace_multiplayer_basic_example.html", null ],
     [ "MultiplayerWithBindingsExample", "namespace_multiplayer_with_bindings_example.html", null ],
+    [ "Sirenix", "namespace_sirenix.html", "namespace_sirenix" ],
     [ "TouchExample", "namespace_touch_example.html", null ],
     [ "VirtualDeviceExample", "namespace_virtual_device_example.html", null ]
 ];

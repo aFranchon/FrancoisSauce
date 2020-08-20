@@ -96,71 +96,74 @@ $(document).ready(function(){initNavTree('_game_object_pool_8cs_source.html','')
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">private</span> List&lt;GameObject&gt; pool;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        [SerializeField] <span class="keyword">private</span> Transform poolContainer = <span class="keyword">null</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">   25</a></span>&#160;        [SerializeField] <span class="keyword">protected</span> GameObject <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a> = <span class="keyword">null</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        [SerializeField] <span class="keyword">private</span> <span class="keywordtype">int</span> basePopulation = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">        #endregion</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">        #region Initialize Object</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">   38</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">Start</a>()</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            pool = GeneratePool();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">private</span> List&lt;GameObject&gt; GeneratePool()</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            List&lt;GameObject&gt; newPool = <span class="keyword">new</span> List&lt;GameObject&gt;();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            GameObject newPopulation;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">for</span> (var i = 0; i &lt; basePopulation; i++)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                newPopulation = Instantiate(<a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a>, poolContainer);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                newPopulation.SetActive(<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                newPool.Add(newPopulation);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> newPool;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        [Tooltip(<span class="stringliteral">&quot;The parent gameObject for the pool objects&quot;</span>)]</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        [SerializeField] <span class="keyword">private</span> Transform poolContainer = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        [Tooltip(<span class="stringliteral">&quot;The prefab of the pool objects&quot;</span>)]</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">   27</a></span>&#160;        [SerializeField] <span class="keyword">protected</span> GameObject <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        [Tooltip(<span class="stringliteral">&quot;The base number of pool objects (aka number of objects initialized when the game start)&quot;</span>)]</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        [SerializeField] <span class="keyword">private</span> <span class="keywordtype">int</span> basePopulation = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">        #endregion</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        #region Initialize Object</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">   41</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">Start</a>()</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            pool = GeneratePool();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">private</span> List&lt;GameObject&gt; GeneratePool()</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            List&lt;GameObject&gt; newPool = <span class="keyword">new</span> List&lt;GameObject&gt;();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            GameObject newPopulation;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">for</span> (var i = 0; i &lt; basePopulation; i++)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                newPopulation = Instantiate(<a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a>, poolContainer);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                newPopulation.SetActive(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                newPool.Add(newPopulation);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">        #endregion</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">        #region Pool methods implementations</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">   71</a></span>&#160;        <span class="keyword">public</span> GameObject <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">RequestPool</a>()</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">//finding an elem of the list that is free</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">foreach</span> (var population <span class="keywordflow">in</span> pool)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="comment">//TODO change this to use LinQ</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordflow">if</span> (!population.gameObject.activeInHierarchy)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    population.SetActive(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    <span class="keywordflow">return</span> population;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="comment">//if Any elem are free, just create and add one new to the list and return it</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            GameObject newPopulation = Instantiate(<a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a>, poolContainer);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            pool.Add(newPopulation);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">return</span> newPopulation;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> newPool;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">        #endregion</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">        #region Pool methods implementations</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">   74</a></span>&#160;        <span class="keyword">public</span> GameObject <a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">RequestPool</a>()</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="comment">//finding an elem of the list that is free</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">foreach</span> (var population <span class="keywordflow">in</span> pool)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="comment">//TODO change this to use LinQ</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span> (!population.gameObject.activeInHierarchy)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    population.SetActive(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <span class="keywordflow">return</span> population;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="comment">//if Any elem are free, just create and add one new to the list and return it</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            GameObject newPopulation = Instantiate(<a class="code" href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">populationPrefab</a>, poolContainer);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            pool.Add(newPopulation);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">        #endregion</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">return</span> newPopulation;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        #endregion</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html">FrancoisSauce.Scripts.FSUtils.GameObjectPool</a></div><div class="ttdoc">ObjectPool design pattern really simple implementation. Only allow GameObject.</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00009">GameObjectPool.cs:10</a></div></div>
 <div class="ttc" id="anamespace_in_control_html_a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a"><div class="ttname"><a href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a">InControl.InputControlType.System</a></div><div class="ttdeci">@ System</div></div>
-<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_abde3698b2e4ca5145237522209df2da3"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">FrancoisSauce.Scripts.FSUtils.GameObjectPool.Start</a></div><div class="ttdeci">virtual void Start()</div><div class="ttdoc">MonoBehaviour's Start method.</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00038">GameObjectPool.cs:38</a></div></div>
+<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_abde3698b2e4ca5145237522209df2da3"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#abde3698b2e4ca5145237522209df2da3">FrancoisSauce.Scripts.FSUtils.GameObjectPool.Start</a></div><div class="ttdeci">virtual void Start()</div><div class="ttdoc">MonoBehaviour's Start method.</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00041">GameObjectPool.cs:41</a></div></div>
 <div class="ttc" id="anamespace_francois_sauce_1_1_scripts_1_1_f_s_utils_html"><div class="ttname"><a href="namespace_francois_sauce_1_1_scripts_1_1_f_s_utils.html">FrancoisSauce.Scripts.FSUtils</a></div><div class="ttdef"><b>Definition:</b> <a href="_scene_list_8cs_source.html#l00008">SceneList.cs:9</a></div></div>
-<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_a85aa4bf641cedfb55f55ce4bb0d17997"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">FrancoisSauce.Scripts.FSUtils.GameObjectPool.populationPrefab</a></div><div class="ttdeci">GameObject populationPrefab</div><div class="ttdoc">The population's prefab, for instantiation.</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00025">GameObjectPool.cs:25</a></div></div>
-<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_a15acc0d876c8583c0fdc3f2c1bba6e31"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">FrancoisSauce.Scripts.FSUtils.GameObjectPool.RequestPool</a></div><div class="ttdeci">GameObject RequestPool()</div><div class="ttdoc">Method to request a inactive GameObject in the pool and return it. If no GameObjects inactive,...</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00071">GameObjectPool.cs:71</a></div></div>
+<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_a85aa4bf641cedfb55f55ce4bb0d17997"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a85aa4bf641cedfb55f55ce4bb0d17997">FrancoisSauce.Scripts.FSUtils.GameObjectPool.populationPrefab</a></div><div class="ttdeci">GameObject populationPrefab</div><div class="ttdoc">The population's prefab, for instantiation.</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00027">GameObjectPool.cs:27</a></div></div>
+<div class="ttc" id="aclass_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool_html_a15acc0d876c8583c0fdc3f2c1bba6e31"><div class="ttname"><a href="class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_game_object_pool.html#a15acc0d876c8583c0fdc3f2c1bba6e31">FrancoisSauce.Scripts.FSUtils.GameObjectPool.RequestPool</a></div><div class="ttdeci">GameObject RequestPool()</div><div class="ttdoc">Method to request a inactive GameObject in the pool and return it. If no GameObjects inactive,...</div><div class="ttdef"><b>Definition:</b> <a href="_game_object_pool_8cs_source.html#l00074">GameObjectPool.cs:74</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

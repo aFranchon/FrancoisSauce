@@ -118,6 +118,12 @@ var hierarchy =
       [ "InControl.NativeDeviceProfiles.KiwitataNESWindowsNativeProfile", "class_in_control_1_1_native_device_profiles_1_1_kiwitata_n_e_s_windows_native_profile.html", null ]
     ] ],
     [ "InControl.InputRange", "struct_in_control_1_1_input_range.html", null ],
+    [ "ISerializationCallbackReceiver", null, [
+      [ "Sirenix.OdinInspector.SerializedNetworkBehaviour", "class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour.html", null ]
+    ] ],
+    [ "ISupportsPrefabSerialization", null, [
+      [ "Sirenix.OdinInspector.SerializedNetworkBehaviour", "class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour.html", null ]
+    ] ],
     [ "InControl.IUpdateable", "interface_in_control_1_1_i_updateable.html", null ],
     [ "InControl.KeyCombo", "struct_in_control_1_1_key_combo.html", null ],
     [ "InControl.KeyInfo", "struct_in_control_1_1_key_info.html", null ],
@@ -168,6 +174,9 @@ var hierarchy =
     ] ],
     [ "InControl.NativeInputOptions", "struct_in_control_1_1_native_input_options.html", null ],
     [ "InControl.NativeVersionInfo", "struct_in_control_1_1_native_version_info.html", null ],
+    [ "NetworkBehaviour", null, [
+      [ "Sirenix.OdinInspector.SerializedNetworkBehaviour", "class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour.html", null ]
+    ] ],
     [ "NSObject", null, [
       [ "ICadeManager", "interface_i_cade_manager.html", null ]
     ] ],
