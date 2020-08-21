@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace FrancoisSauce.Scripts.FSUtils
@@ -74,14 +75,10 @@ namespace FrancoisSauce.Scripts.FSUtils
         public GameObject RequestPool()
         {
             //finding an elem of the list that is free
-            foreach (var population in pool)
+            foreach (var population in pool.Where(population => !population.gameObject.activeInHierarchy))
             {
-                //TODO change this to use LinQ
-                if (!population.gameObject.activeInHierarchy)
-                {
-                    population.SetActive(true);
-                    return population;
-                }
+                population.SetActive(true);
+                return population;
             }
 
             //if Any elem are free, just create and add one new to the list and return it
