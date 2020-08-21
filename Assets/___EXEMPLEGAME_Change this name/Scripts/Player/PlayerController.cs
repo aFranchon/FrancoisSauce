@@ -1,7 +1,7 @@
 ﻿using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 
-namespace FrancoisSauce.Scripts.Player
+namespace FrancoisSauce.changeName.Scripts.Player
 {
     /// <summary>
     /// the class to control o player with arrows

@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33a5496a61e41b288c575997817b632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathToLevels: Assets/____FrancoisSauce/Scenes/Levels
+  pathToLevels: Assets/___EXEMPLEGAME_Change this name/Levels
 --- !u!1001 &3621088003459310735
 PrefabInstance:
   m_ObjectHideFlags: 0
