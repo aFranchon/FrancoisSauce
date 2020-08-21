@@ -16,8 +16,8 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Author:<sp/>Daniele<sp/>Giardini<sp/>-<sp/>http://www.demigiant.com</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created:<sp/>2018/07/13</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Reflection;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Reflection;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_g" kindref="compound">DG</ref>.<ref refid="namespace_d_g_1_1_tweening" kindref="compound">Tweening</ref>.Core;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_g" kindref="compound">DG</ref>.<ref refid="namespace_d_g_1_1_tweening" kindref="compound">Tweening</ref>.Plugins.Core.PathCore;</highlight></codeline>

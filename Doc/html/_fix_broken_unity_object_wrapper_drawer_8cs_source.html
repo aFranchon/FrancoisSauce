@@ -100,18 +100,18 @@ $(document).ready(function(){initNavTree('_fix_broken_unity_object_wrapper_drawe
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">using</span> <a class="code" href="namespace_sirenix.html">Sirenix</a>.<a class="code" href="namespace_sirenix_1_1_odin_inspector.html">OdinInspector</a>.Editor;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">using</span> <a class="code" href="namespace_sirenix.html">Sirenix</a>.Utilities;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">using</span> <a class="code" href="namespace_sirenix.html">Sirenix</a>.Utilities.Editor;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">using</span> <a class="code" href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a">System</a>.Linq;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">using</span> System.Linq;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">using</span> UnityEditor;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">using</span> UnityEngine;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    [DrawerPriority(0.001, 0, 0)]</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span>FixBrokenUnityObjectWrapperDrawer&lt;<a class="code" href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&gt; : OdinValueDrawer&lt;T&gt;, IDefinesGenericMenuItems</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        where <a class="code" href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> : UnityEngine.Component</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span>FixBrokenUnityObjectWrapperDrawer&lt;T&gt; : OdinValueDrawer&lt;T&gt;, IDefinesGenericMenuItems</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        where T : UnityEngine.Component</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">private</span> <span class="keyword">const</span> <span class="keywordtype">string</span> AUTO_FIX_PREFS_KEY = <span class="stringliteral">&quot;TemporarilyBrokenUnityObjectWrapperDrawer.autoFix&quot;</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">private</span> <span class="keywordtype">bool</span> isBroken = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">private</span> <a class="code" href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> realWrapperInstance;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">private</span> T realWrapperInstance;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">private</span> <span class="keywordtype">bool</span> allowSceneViewObjects;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> autoFix;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('_fix_broken_unity_object_wrapper_drawe
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.ValueEntry.ValueCount; i++)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        <a class="code" href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> fixedComponent = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        T fixedComponent = <span class="keyword">null</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                        <span class="keywordflow">if</span> (ComponentIsBroken(this.ValueEntry.Values[i], ref fixedComponent) &amp;&amp; fixedComponent)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                        {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                            (this.ValueEntry as IValueEntryActualValueSetter&lt;T&gt;).SetActualValue(i, fixedComponent);</div>
@@ -255,13 +255,13 @@ $(document).ready(function(){initNavTree('_fix_broken_unity_object_wrapper_drawe
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                this.valueEntry = valueEntry;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            }</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            [HorizontalGroup, <a class="code" href="namespace_in_control.html#a88530919f84d258d097d4198da218079a87b7760f14fbff78d8819291f36ab9a0">Button</a>(ButtonSizes.Large)]</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            [HorizontalGroup, Button(ButtonSizes.Large)]</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> FixItThisTime()</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            {</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.valueEntry.ValueCount; i++)</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                {</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                    var localI = i;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                    <a class="code" href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> fixedComponent = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                    T fixedComponent = <span class="keyword">null</span>;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                    <span class="keywordflow">if</span> (ComponentIsBroken(this.valueEntry.Values[i], ref fixedComponent) &amp;&amp; fixedComponent)</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                    {</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                        this.valueEntry.Property.Tree.DelayActionUntilRepaint(() =&gt;</div>
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('_fix_broken_unity_object_wrapper_drawe
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            [HorizontalGroup, <a class="code" href="namespace_in_control.html#a88530919f84d258d097d4198da218079a87b7760f14fbff78d8819291f36ab9a0">Button</a>(ButtonSizes.Large)]</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            [HorizontalGroup, Button(ButtonSizes.Large)]</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">void</span> FixItAlways()</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                EditorPrefs.SetBool(AUTO_FIX_PREFS_KEY, <span class="keyword">true</span>);</div>
@@ -296,10 +296,7 @@ $(document).ready(function(){initNavTree('_fix_broken_unity_object_wrapper_drawe
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespace_sirenix_1_1_odin_inspector_html"><div class="ttname"><a href="namespace_sirenix_1_1_odin_inspector.html">Sirenix.OdinInspector</a></div><div class="ttdef"><b>Definition:</b> <a href="_serialized_network_behaviour_8cs_source.html#l00010">SerializedNetworkBehaviour.cs:11</a></div></div>
-<div class="ttc" id="anamespace_in_control_html_a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a"><div class="ttname"><a href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a">InControl.InputControlType.System</a></div><div class="ttdeci">@ System</div></div>
-<div class="ttc" id="anamespace_in_control_html_a88530919f84d258d097d4198da218079a87b7760f14fbff78d8819291f36ab9a0"><div class="ttname"><a href="namespace_in_control.html#a88530919f84d258d097d4198da218079a87b7760f14fbff78d8819291f36ab9a0">InControl.InputControlSourceType.Button</a></div><div class="ttdeci">@ Button</div></div>
 <div class="ttc" id="anamespace_sirenix_html"><div class="ttname"><a href="namespace_sirenix.html">Sirenix</a></div><div class="ttdef"><b>Definition:</b> <a href="_serialized_network_behaviour_8cs_source.html#l00010">SerializedNetworkBehaviour.cs:11</a></div></div>
-<div class="ttc" id="anamespace_in_control_html_a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3"><div class="ttname"><a href="namespace_in_control.html#a19d1dc8fcbdfb37bcf314454ba8f5424ab9ece18c950afbfa6b0fdbfa4ff731d3">InControl.Key.T</a></div><div class="ttdeci">@ T</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

@@ -534,6 +534,12 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.GameScene.Win.View_Win</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_win_1_1_view___win"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>IFSScene&lt; Scene_Game &gt;</label>
         <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
@@ -544,15 +550,48 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>playing</edgelabel>
           <edgelabel>win</edgelabel>
-          <edgelabel>lose</edgelabel>
-          <edgelabel>waitingToStart</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
           <edgelabel>pause</edgelabel>
         </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>lose</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>waitingToStart</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>playing</edgelabel>
+        </childnode>
       </node>
-      <node id="3">
-        <label>readonly</label>
+      <node id="5">
+        <label>FrancoisSauce.Scripts.GameScene.Pause.View_Pause</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_pause_1_1_view___pause"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>FrancoisSauce.Scripts.GameScene.Playing.View_Playing</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_playing_1_1_view___playing"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FrancoisSauce.Scripts.GameScene.WaitingToStart.View_WaitingToStart</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_waiting_to_start_1_1_view___waiting_to_start"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FrancoisSauce.Scripts.GameScene.Lose.View_Lose</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_lose_1_1_view___lose"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IFSView&lt; Scene_Game &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
       </node>
     </collaborationgraph>
     <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" line="22" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/GameScene/Scene_Game.cs" bodystart="23" bodyend="223"/>

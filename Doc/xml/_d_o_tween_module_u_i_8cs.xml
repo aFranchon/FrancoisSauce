@@ -12,8 +12,8 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>true<sp/>&amp;&amp;<sp/>(UNITY_4_6<sp/>||<sp/>UNITY_5<sp/>||<sp/>UNITY_2017_1_OR_NEWER)<sp/>//<sp/>MODULE_MARKER</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>;</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Globalization;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Globalization;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_g" kindref="compound">DG</ref>.<ref refid="namespace_d_g_1_1_tweening" kindref="compound">Tweening</ref>.Core;</highlight></codeline>

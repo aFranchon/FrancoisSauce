@@ -373,6 +373,28 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="3">
+        <label>FrancoisSauce.Scripts.MainMenu.LoadingMenu.View_LoadingMenu</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_loading_menu_1_1_view___loading_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FrancoisSauce.Scripts.MainMenu.BaseMenu.View_BaseMenu</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_view___base_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FrancoisSauce.Scripts.MainMenu.OptionMenu.View_OptionMenu</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_option_menu_1_1_view___option_menu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IFSView&lt; Scene_MainMenu &gt;</label>
+        <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_views_1_1_i_f_s_view"/>
+      </node>
       <node id="2">
         <label>IFSScene&lt; Scene_MainMenu &gt;</label>
         <link refid="class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene"/>
@@ -384,12 +406,13 @@
         </childnode>
         <childnode refid="3" relation="usage">
           <edgelabel>loadingMenu</edgelabel>
-          <edgelabel>baseMenu</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
           <edgelabel>optionMenu</edgelabel>
         </childnode>
-      </node>
-      <node id="3">
-        <label>readonly</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>baseMenu</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/Scene_MainMenu.cs" line="19" column="11" bodyfile="C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/MainMenu/Scene_MainMenu.cs" bodystart="20" bodyend="133"/>

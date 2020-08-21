@@ -17,12 +17,12 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>;</highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_francois_sauce" kindref="compound">FrancoisSauce</ref>.<ref refid="namespace_francois_sauce_1_1_scripts" kindref="compound">Scripts</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events" kindref="compound">FSEvents</ref>.<ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events_1_1_s_o" kindref="compound">SO</ref>;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ODIN_INSPECTOR</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_sirenix" kindref="compound">Sirenix</ref>.<ref refid="namespace_sirenix_1_1_odin_inspector" kindref="compound">OdinInspector</ref>;</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Reflection;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Reflection;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor.Events;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>

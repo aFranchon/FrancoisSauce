@@ -3,7 +3,6 @@
   <compounddef id="namespace_francois_sauce_1_1_scripts" kind="namespace" language="C#">
     <compoundname>FrancoisSauce::Scripts</compoundname>
     <innerclass refid="class_francois_sauce_1_1_scripts_1_1_pre_loader_end" prot="public">FrancoisSauce::Scripts::PreLoaderEnd</innerclass>
-    <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_controls">FrancoisSauce::Scripts::Controls</innernamespace>
     <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_events">FrancoisSauce::Scripts::FSEvents</innernamespace>
     <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_scenes">FrancoisSauce::Scripts::FSScenes</innernamespace>
     <innernamespace refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_singleton">FrancoisSauce::Scripts::FSSingleton</innernamespace>

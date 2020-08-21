@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['beforeattach_2627',['BeforeAttach',['../class_in_control_1_1_ouya_everywhere_device.html#a594435ce6c2d6766aff11f8b7e6b2484',1,'InControl::OuyaEverywhereDevice']]],
-  ['brandao_2628',['Brandao',['../_o_f_l_8txt.html#a0d5c405947e56005c3424651f3286bcc',1,'OFL.txt']]],
-  ['button_2629',['Button',['../class_in_control_1_1_input_device_profile.html#afae422ca31b73ea38e9c3562c92a1c0a',1,'InControl::InputDeviceProfile']]]
+  ['changeview_459',['ChangeView',['../class_francois_sauce_1_1_scripts_1_1_f_s_scenes_1_1_i_f_s_scene.html#a3bc107afa888c637054423fcc7174a23',1,'FrancoisSauce.Scripts.FSScenes.IFSScene.ChangeView()'],['../class_francois_sauce_1_1_scripts_1_1_game_scene_1_1_scene___game.html#ae31a0bf8f99c2c7b2633174dbae8a70a',1,'FrancoisSauce.Scripts.GameScene.Scene_Game.ChangeView()'],['../class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_scene___main_menu.html#ac508cea259a3e9a7e32bb574937bf9df',1,'FrancoisSauce.Scripts.MainMenu.Scene_MainMenu.ChangeView()']]],
+  ['copyright_460',['copyright',['../readme_8txt.html#a79b686a1b5aefdc13812fabf5e8855a2',1,'copyright(c) 2014-2018 Daniele Giardini - Demigiant ------------------------------------------------------------- If you &apos;re upgrading your project from a version of DOTween older than 1.2.000(or DOTween Pro older than 1.0.000) please follow these instructions carefully. 1) Import the new version in the same folder as the previous one:&#160;readme.txt'],['../_o_f_l_8txt.html#aa79e51981d5b29fa83e4148d30ce480b',1,'Copyright(c) 2011:&#160;OFL.txt']]]
 ];

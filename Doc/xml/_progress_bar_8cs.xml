@@ -12,9 +12,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>;</highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Collections;</highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_in_control_1a182fc07c0fa4922faa248b81f403fb3aaa45da96d0bf6575970f2d27af22be28a" kindref="member">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6" refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_francois_sauce_1_1_scripts_1_1_f_s_u_i_1_1_progress_bar" kindref="compound">FrancoisSauce.Scripts.FSUI.ProgressBar</ref></highlight></codeline>

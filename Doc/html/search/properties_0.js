@@ -1,22 +1,5 @@
 var searchData=
 [
-  ['action1_3521',['Action1',['../class_in_control_1_1_input_device.html#a5d93d14773333a0e751585996c9f5b77',1,'InControl::InputDevice']]],
-  ['action2_3522',['Action2',['../class_in_control_1_1_input_device.html#a0cda65a2c153479ed5005c7327baaaae',1,'InControl::InputDevice']]],
-  ['action3_3523',['Action3',['../class_in_control_1_1_input_device.html#a405357291244593b61506bcd01d214d9',1,'InControl::InputDevice']]],
-  ['action4_3524',['Action4',['../class_in_control_1_1_input_device.html#ad12df47fa4b2288b2cab5f55ee597c95',1,'InControl::InputDevice']]],
-  ['actions_3525',['Actions',['../class_multiplayer_with_bindings_example_1_1_player.html#a3f9f3383d1d9cfbf96e64c03659d4a1c',1,'MultiplayerWithBindingsExample.Player.Actions()'],['../class_in_control_1_1_player_action_set.html#a92e6ddd4be6645bf1cfcf564170c5cbc',1,'InControl.PlayerActionSet.Actions()']]],
-  ['activated_3526',['activated',['../category_i_cade_manager_07_08.html#acabfc0525f8272bbac0bd07d58f6f905',1,'ICadeManager()']]],
-  ['active_3527',['active',['../interface_i_cade_reader_view.html#a91ee413ad16d136171a716fe851506ce',1,'ICadeReaderView']]],
-  ['activearea_3528',['ActiveArea',['../class_in_control_1_1_touch_stick_control.html#ab0070300a7c52e6f1e5a29c18d5ff619',1,'InControl.TouchStickControl.ActiveArea()'],['../class_in_control_1_1_touch_swipe_control.html#a4c48fd57394589bbaad6031a3d64a810',1,'InControl.TouchSwipeControl.ActiveArea()'],['../class_in_control_1_1_touch_track_control.html#aa16398cb7692f3ebdd737ed75944d85c',1,'InControl.TouchTrackControl.ActiveArea()']]],
-  ['activedevice_3529',['ActiveDevice',['../class_in_control_1_1_player_action.html#ac811de300a5e18a7e11dbbcbebd64661',1,'InControl.PlayerAction.ActiveDevice()'],['../class_in_control_1_1_player_action_set.html#aef26e18d18f778a6e9c97dde3661a9fd',1,'InControl.PlayerActionSet.ActiveDevice()']]],
-  ['analogcount_3530',['AnalogCount',['../class_in_control_1_1_input_device_profile.html#ab177a6325bf73396a9f7ef8243c4100f',1,'InControl::InputDeviceProfile']]],
-  ['analogmappings_3531',['AnalogMappings',['../class_in_control_1_1_input_device_profile.html#ac7ebe9af345a8e28809312dd1f07cc49',1,'InControl::InputDeviceProfile']]],
-  ['analogsnapshot_3532',['AnalogSnapshot',['../class_in_control_1_1_input_device.html#ab051cecf530b78787de236e9cb90607a',1,'InControl::InputDevice']]],
-  ['anchor_3533',['Anchor',['../class_in_control_1_1_touch_button_control.html#a356f5af9f460a0c0ca41babc0a58f2f9',1,'InControl.TouchButtonControl.Anchor()'],['../class_in_control_1_1_touch_stick_control.html#a59f5fa494b747b9b193e3b2a0efcf9a1',1,'InControl.TouchStickControl.Anchor()']]],
-  ['angle_3534',['Angle',['../class_in_control_1_1_two_axis_input_control.html#a9688fe52d6aed9472165d39dcdd1550f',1,'InControl::TwoAxisInputControl']]],
-  ['anybutton_3535',['AnyButton',['../class_in_control_1_1_input_device.html#adb18f4d84b69c9d169b97849350c6784',1,'InControl::InputDevice']]],
-  ['anybuttonispressed_3536',['AnyButtonIsPressed',['../class_in_control_1_1_input_device.html#aa0f55880adbc2b888398bbf97a51878a',1,'InControl::InputDevice']]],
-  ['anybuttonwaspressed_3537',['AnyButtonWasPressed',['../class_in_control_1_1_input_device.html#a90952b8c99784717fc54ce04abc66cb0',1,'InControl::InputDevice']]],
-  ['anybuttonwasreleased_3538',['AnyButtonWasReleased',['../class_in_control_1_1_input_device.html#a3d9f85eb1173f568df9d9d8989879037',1,'InControl::InputDevice']]],
-  ['areaunittype_3539',['AreaUnitType',['../class_in_control_1_1_touch_stick_control.html#a9c40c3da3249ad69a18f2c145dc55578',1,'InControl.TouchStickControl.AreaUnitType()'],['../class_in_control_1_1_touch_swipe_control.html#a28f198e074caa4bbba699a8ddeccbb87',1,'InControl.TouchSwipeControl.AreaUnitType()'],['../class_in_control_1_1_touch_track_control.html#a8acab54b1884bcef3580f4f79e9d1770',1,'InControl.TouchTrackControl.AreaUnitType()']]]
+  ['instance_554',['Instance',['../class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton.html#a9a4d369055575da6b0972fb4bc7ec887',1,'FrancoisSauce::Scripts::FSUtils::Singleton']]],
+  ['isinitialized_555',['IsInitialized',['../class_francois_sauce_1_1_scripts_1_1_f_s_utils_1_1_singleton.html#aa10403574a8eba4d6c57d3c3fd690ff1',1,'FrancoisSauce::Scripts::FSUtils::Singleton']]]
 ];

@@ -1,6 +1,8 @@
 var dir_19adcbfd34c6bdc253f0795bbae35711 =
 [
-    [ "GameLogic.cs", "_game_logic_8cs.html", "_game_logic_8cs" ],
+    [ "GameLogic.cs", "_game_logic_8cs.html", [
+      [ "GameLogic", "class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic.html", "class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_logic" ]
+    ] ],
     [ "GameManager.cs", "_game_manager_8cs.html", [
       [ "GameManager", "class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager.html", "class_francois_sauce_1_1_scripts_1_1_f_s_singleton_1_1_game_manager" ]
     ] ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['analogsnapshotentry_1788',['AnalogSnapshotEntry',['../struct_in_control_1_1_input_device_1_1_analog_snapshot_entry.html',1,'InControl::InputDevice']]]
+  ['basemenuscript_276',['BaseMenuScript',['../class_francois_sauce_1_1_scripts_1_1_main_menu_1_1_base_menu_1_1_base_menu_script.html',1,'FrancoisSauce::Scripts::MainMenu::BaseMenu']]]
 ];

@@ -3,7 +3,6 @@
   <compounddef id="dir_571f6220cb5b88a48c61c7a654630516" kind="dir">
     <compoundname>C:/Users/3032f/FrancoisSauce/FrancoisSauce/Assets/____FrancoisSauce/Scripts/Player</compoundname>
     <innerfile refid="_player_controller_8cs">PlayerController.cs</innerfile>
-    <innerfile refid="_player_controls_8cs">PlayerControls.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

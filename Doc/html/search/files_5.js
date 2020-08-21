@@ -1,26 +1,6 @@
 var searchData=
 [
-  ['fixbrokenunityobjectwrapperdrawer_2ecs_2105',['FixBrokenUnityObjectWrapperDrawer.cs',['../_fix_broken_unity_object_wrapper_drawer_8cs.html',1,'']]],
-  ['fixxbg301androidunityprofile_2ecs_2106',['FixXBG301AndroidUnityProfile.cs',['../_fix_x_b_g301_android_unity_profile_8cs.html',1,'']]],
-  ['flareandroidunityprofile_2ecs_2107',['FlareAndroidUnityProfile.cs',['../_flare_android_unity_profile_8cs.html',1,'']]],
-  ['flareplayandroidunityprofile_2ecs_2108',['FlarePlayAndroidUnityProfile.cs',['../_flare_play_android_unity_profile_8cs.html',1,'']]],
-  ['fsbooleventlistener_2ecs_2109',['FSBoolEventListener.cs',['../_f_s_bool_event_listener_8cs.html',1,'']]],
-  ['fsbooleventso_2ecs_2110',['FSBoolEventSO.cs',['../_f_s_bool_event_s_o_8cs.html',1,'']]],
-  ['fsfloateventlistener_2ecs_2111',['FSFloatEventListener.cs',['../_f_s_float_event_listener_8cs.html',1,'']]],
-  ['fsfloateventso_2ecs_2112',['FSFloatEventSO.cs',['../_f_s_float_event_s_o_8cs.html',1,'']]],
-  ['fsglobalboolso_2ecs_2113',['FSGlobalBoolSO.cs',['../_f_s_global_bool_s_o_8cs.html',1,'']]],
-  ['fsglobalfloatso_2ecs_2114',['FSGlobalFloatSO.cs',['../_f_s_global_float_s_o_8cs.html',1,'']]],
-  ['fsglobalintso_2ecs_2115',['FSGlobalIntSO.cs',['../_f_s_global_int_s_o_8cs.html',1,'']]],
-  ['fsglobalstringso_2ecs_2116',['FSGlobalStringSO.cs',['../_f_s_global_string_s_o_8cs.html',1,'']]],
-  ['fsglobalvariableso_2ecs_2117',['FSGlobalVariableSO.cs',['../_f_s_global_variable_s_o_8cs.html',1,'']]],
-  ['fsinteventlistener_2ecs_2118',['FSIntEventListener.cs',['../_f_s_int_event_listener_8cs.html',1,'']]],
-  ['fsinteventso_2ecs_2119',['FSIntEventSO.cs',['../_f_s_int_event_s_o_8cs.html',1,'']]],
-  ['fsintfloateventlistener_2ecs_2120',['FSIntFloatEventListener.cs',['../_f_s_int_float_event_listener_8cs.html',1,'']]],
-  ['fsintfloateventso_2ecs_2121',['FSIntFloatEventSO.cs',['../_f_s_int_float_event_s_o_8cs.html',1,'']]],
-  ['fsoneargumenteventso_2ecs_2122',['FSOneArgumentEventSO.cs',['../_f_s_one_argument_event_s_o_8cs.html',1,'']]],
-  ['fsthreeargumenteventso_2ecs_2123',['FSThreeArgumentEventSO.cs',['../_f_s_three_argument_event_s_o_8cs.html',1,'']]],
-  ['fstwoargumenteventso_2ecs_2124',['FSTwoArgumentEventSO.cs',['../_f_s_two_argument_event_s_o_8cs.html',1,'']]],
-  ['fsvoideventlistener_2ecs_2125',['FSVoidEventListener.cs',['../_f_s_void_event_listener_8cs.html',1,'']]],
-  ['fsvoideventso_2ecs_2126',['FSVoidEventSO.cs',['../_f_s_void_event_s_o_8cs.html',1,'']]],
-  ['fusionxboxonecontrollermacnativeprofile_2ecs_2127',['FusionXboxOneControllerMacNativeProfile.cs',['../_fusion_xbox_one_controller_mac_native_profile_8cs.html',1,'']]]
+  ['gamelogic_2ecs_413',['GameLogic.cs',['../_game_logic_8cs.html',1,'']]],
+  ['gamemanager_2ecs_414',['GameManager.cs',['../_game_manager_8cs.html',1,'']]],
+  ['gameobjectpool_2ecs_415',['GameObjectPool.cs',['../_game_object_pool_8cs.html',1,'']]]
 ];

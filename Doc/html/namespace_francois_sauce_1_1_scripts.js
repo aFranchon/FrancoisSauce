@@ -1,6 +1,5 @@
 var namespace_francois_sauce_1_1_scripts =
 [
-    [ "Controls", "namespace_francois_sauce_1_1_scripts_1_1_controls.html", "namespace_francois_sauce_1_1_scripts_1_1_controls" ],
     [ "FSEvents", "namespace_francois_sauce_1_1_scripts_1_1_f_s_events.html", "namespace_francois_sauce_1_1_scripts_1_1_f_s_events" ],
     [ "FSScenes", "namespace_francois_sauce_1_1_scripts_1_1_f_s_scenes.html", "namespace_francois_sauce_1_1_scripts_1_1_f_s_scenes" ],
     [ "FSSingleton", "namespace_francois_sauce_1_1_scripts_1_1_f_s_singleton.html", "namespace_francois_sauce_1_1_scripts_1_1_f_s_singleton" ],
