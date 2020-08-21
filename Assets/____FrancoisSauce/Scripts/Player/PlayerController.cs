@@ -38,10 +38,10 @@ namespace FrancoisSauce.Scripts.Player
         /// </summary>
         public void OnUpdateGameStarted()
         {
-            if (Input.GetKeyDown(KeyCode.D)) Move(Directions.RIGHT);
-            if (Input.GetKeyDown(KeyCode.Q)) Move(Directions.LEFT);
-            if (Input.GetKeyDown(KeyCode.Z)) Move(Directions.FORWARD);
-            if (Input.GetKeyDown(KeyCode.S)) Move(Directions.BACKWARD);
+            if (Input.GetKey(KeyCode.D)) Move(Directions.RIGHT);
+            if (Input.GetKey(KeyCode.Q)) Move(Directions.LEFT);
+            if (Input.GetKey(KeyCode.Z)) Move(Directions.FORWARD);
+            if (Input.GetKey(KeyCode.S)) Move(Directions.BACKWARD);
         }
         
         /// <summary>

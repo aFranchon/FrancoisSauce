@@ -50,8 +50,8 @@ namespace FrancoisSauce.Scripts.FSSingleton
             currentLevel.value += 1;
             
             StartCoroutine(GameManager.Instance.LoadSceneAsync(
-                //TODO do something to handle 10+ levels
-                SceneList.Instance.scenes["Level000" + (currentLevel.value % totalLevelsNumber + 1)], true, false)
+                SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")], 
+                true, false)
             );
         }
 
@@ -66,8 +66,8 @@ namespace FrancoisSauce.Scripts.FSSingleton
             if (doUnloadLevel) UnloadLevel();
 
             StartCoroutine(GameManager.Instance.LoadSceneAsync(
-                //TODO do something to handle 10+ levels
-                SceneList.Instance.scenes["Level000" + (currentLevel.value % totalLevelsNumber + 1)], true, false)
+                SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")], 
+                true, false)
             );
         }
 
@@ -82,8 +82,8 @@ namespace FrancoisSauce.Scripts.FSSingleton
                 return;
             }
 
-            //TODO addSomething to handle 10+ levels
-            GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["Level000" + (levelToUnload + 1)]);
+            GameManager.Instance.UnloadAsync(
+                SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")]);
             levelToUnload = -1;
         }
 
@@ -98,8 +98,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
                 return;
             }
             
-            //TODO addSomething to handle 10+ levels
-            GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["Level000" + (currentLevel.value % totalLevelsNumber + 1)]);
+            GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")]);
         }
     }
 }
