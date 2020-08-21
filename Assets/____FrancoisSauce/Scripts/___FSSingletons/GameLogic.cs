@@ -1,9 +1,6 @@
-﻿
-using FrancoisSauce.Scripts.FSEvents.SO;
+﻿using FrancoisSauce.Scripts.FSEvents.SO;
 using FrancoisSauce.Scripts.FSUtils;
-using InControl;
 using UnityEngine;
-using InputDevice = InControl.InputDevice;
 
 namespace FrancoisSauce.Scripts.FSSingleton
 {

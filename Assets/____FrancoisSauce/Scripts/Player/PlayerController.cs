@@ -1,6 +1,4 @@
-﻿using FrancoisSauce.Scripts.Controls;
-using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
-using InControl;
+﻿using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 
 namespace FrancoisSauce.Scripts.Player
@@ -15,12 +13,7 @@ namespace FrancoisSauce.Scripts.Player
         /// private ref to the <see cref="Transform"/> component of this object, optimization purpose
         /// </summary>
         private Transform myTransform;
-    
-        /// <summary>
-        /// <see cref="PlayerActionSet"/> implementation of the player control with arrows
-        /// </summary>
-        private PlayerControls playerControls;
-        
+
         /// <summary>
         /// enum to name different directions of the player
         /// </summary>
@@ -38,13 +31,6 @@ namespace FrancoisSauce.Scripts.Player
         private void Awake()
         {
             myTransform = transform;
-            
-            playerControls = new PlayerControls();
-            
-            playerControls.Left.AddDefaultBinding( Key.LeftArrow );
-            playerControls.Right.AddDefaultBinding( Key.RightArrow );
-            playerControls.Forward.AddDefaultBinding( Key.UpArrow );
-            playerControls.Backward.AddDefaultBinding( Key.DownArrow );
         }
     
         /// <summary>
@@ -52,10 +38,10 @@ namespace FrancoisSauce.Scripts.Player
         /// </summary>
         public void OnUpdateGameStarted()
         {
-            if (playerControls.Right.IsPressed) Move(Directions.RIGHT);
-            if (playerControls.Left.IsPressed) Move(Directions.LEFT);
-            if (playerControls.Forward.IsPressed) Move(Directions.FORWARD);
-            if (playerControls.Backward.IsPressed) Move(Directions.BACKWARD);
+            if (Input.GetKeyDown(KeyCode.D)) Move(Directions.RIGHT);
+            if (Input.GetKeyDown(KeyCode.Q)) Move(Directions.LEFT);
+            if (Input.GetKeyDown(KeyCode.Z)) Move(Directions.FORWARD);
+            if (Input.GetKeyDown(KeyCode.S)) Move(Directions.BACKWARD);
         }
         
         /// <summary>
