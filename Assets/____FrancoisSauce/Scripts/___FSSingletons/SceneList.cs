@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 #if UNITY_EDITOR
 using System.IO;
@@ -38,21 +40,15 @@ namespace FrancoisSauce.Scripts.FSUtils
             
 #if UNITY_EDITOR
             // Find valid Scene paths and make a list of EditorBuildSettingsScene
-            List<EditorBuildSettingsScene> editorBuildSettingsScenes = new List<EditorBuildSettingsScene>();
-
-            foreach (var editorBuildSettingsScene in EditorBuildSettings.scenes)
-            {
-                if (editorBuildSettingsScene.path.Contains("Level")) continue;
-                
-                editorBuildSettingsScenes.Add(new EditorBuildSettingsScene(editorBuildSettingsScene.path, true));
-            }
+            var editorBuildSettingsScenes = (
+                from editorBuildSettingsScene in EditorBuildSettings.scenes 
+                where !editorBuildSettingsScene.path.Contains("Level")
+                select new EditorBuildSettingsScene(editorBuildSettingsScene.path, true)).ToList();
             
-            foreach (var levelPath in levels)
-            {
-                if (string.IsNullOrEmpty(levelPath) || Path.GetExtension(levelPath) != ".unity") continue;
-
-                editorBuildSettingsScenes.Add(new EditorBuildSettingsScene(levelPath, true));
-            }
+            editorBuildSettingsScenes.AddRange(
+                from levelPath in levels
+                where !string.IsNullOrEmpty(levelPath) && Path.GetExtension(levelPath) == ".unity"
+                select new EditorBuildSettingsScene(levelPath, true));
 
             // Set the Build Settings window Scene list
             EditorBuildSettings.scenes = editorBuildSettingsScenes.ToArray();

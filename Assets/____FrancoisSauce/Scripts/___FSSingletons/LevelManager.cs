@@ -15,6 +15,11 @@ namespace FrancoisSauce.Scripts.FSSingleton
         /// </summary>
         [Tooltip("The FSGlobalVariable that handle the current level value")]
         [SerializeField] private FSGlobalIntSO currentLevel = null;
+        /// <summary>
+        /// Total level of not levels scenes
+        /// </summary>
+        [Tooltip("The FSGlobalVariable that handle the not Level Scene number")]
+        [SerializeField] private FSGlobalIntSO notLevelsSceneNumber = null;
 
         /// <summary>
         /// private variable to keep track of witch level to unload next
@@ -34,8 +39,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
 
             DontDestroyOnLoad(this);
 
-            //TODO rework this, magical values
-            totalLevelsNumber = SceneManager.sceneCountInBuildSettings - 3;
+            totalLevelsNumber = SceneManager.sceneCountInBuildSettings - notLevelsSceneNumber.value;
         }
 
         /// <summary>

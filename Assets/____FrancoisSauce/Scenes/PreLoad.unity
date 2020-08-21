@@ -209,33 +209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathToLevels: Assets/____FrancoisSauce/Scenes/Levels
---- !u!114 &1386362349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386362347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5255099c3d9ed4841a1983566dfc55f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsIntEventSo: {fileID: 11400000, guid: 62ddb14e4b680da4fa7bc6575fb3279d, type: 2}
-  listeners:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3621088003459310736}
-        m_MethodName: OnLevelLoaded
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &3621088003459310735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -243,6 +216,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3621088004253569570, guid: c4e635ca5a497e749ab98e019c550c6c,
+        type: 3}
+      propertyPath: notLevelsSceneNumber
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f19613acb267a5459fc77a2e8f3f3f3,
+        type: 2}
     - target: {fileID: 3621088004253569571, guid: c4e635ca5a497e749ab98e019c550c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -305,18 +284,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4e635ca5a497e749ab98e019c550c6c, type: 3}
---- !u!114 &3621088003459310736 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3621088004253569570, guid: c4e635ca5a497e749ab98e019c550c6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3621088003459310735}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386362347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10234d4dab5a3c4fb82f27c601700ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8171020845364962945
 PrefabInstance:
   m_ObjectHideFlags: 0
