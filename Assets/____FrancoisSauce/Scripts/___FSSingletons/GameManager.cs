@@ -5,6 +5,7 @@ using FrancoisSauce.Scripts.FSEvents.SO;
 using FrancoisSauce.Scripts.FSUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 namespace FrancoisSauce.Scripts.FSSingleton
 {
@@ -23,8 +24,9 @@ namespace FrancoisSauce.Scripts.FSSingleton
         /// <summary>
         /// reference to <see cref="FSIntEventSO"/> for changed scene event occurs when the scene become active
         /// </summary>
+        [FormerlySerializedAs("onSceneChanged")]
         [Tooltip("Event raised when a scene has been changed to active")]
-        [SerializeField] private FSIntEventSO onSceneChanged = null;
+        [SerializeField] private FSIntEventSO onSceneBecameActive = null;
         /// <summary>
         /// reference to <see cref="FSIntFloatEventSO"/> for load scene progress event occurs during each loading frames
         /// </summary>
@@ -150,7 +152,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
             //letting time to the event to progress
             yield return null;
             
-            onSceneChanged.Invoke(index);
+            onSceneBecameActive.Invoke(index);
             
             //scene is no more loading, removing her index
             /*currentAsyncOperation.Remove(currentAsyncOperation[indexes[index]]);
