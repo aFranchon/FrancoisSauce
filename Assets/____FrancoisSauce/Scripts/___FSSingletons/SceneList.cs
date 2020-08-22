@@ -36,7 +36,7 @@ namespace FrancoisSauce.Scripts.FSUtils
             
             DontDestroyOnLoad(this);
             
-            var levels = System.IO.Directory.GetFiles(pathToLevels);
+            var levels = Directory.GetFiles(pathToLevels);
             
 #if UNITY_EDITOR
             // Find valid Scene paths and make a list of EditorBuildSettingsScene
