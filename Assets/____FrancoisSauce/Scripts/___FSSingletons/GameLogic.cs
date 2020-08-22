@@ -43,7 +43,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
         public void OnUpdate()
         {
 #if UNITY_EDITOR //TESTING PURPOSE
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Return))
                 onGameWin.Invoke();
             else if (Input.GetKeyDown(KeyCode.Delete))
                 onGameLose.Invoke();
