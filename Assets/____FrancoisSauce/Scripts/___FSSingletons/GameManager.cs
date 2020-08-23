@@ -79,7 +79,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
         /// <returns>IEnumerator method (use StartCoroutine(LoadSceneAsync) to run the method</returns>
         public IEnumerator LoadSceneAsync(int index, bool directActivation = false, bool slowLoading = true)
         {
-            float currentLoad = 0f;
+            var currentLoad = 0f;
             yield return null;
             
             //adding index to the current loading lists
@@ -115,7 +115,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
                 
 
                 //direct activation of the scene
-                if (directActivation) StartCoroutine(EndLoadingActivation(index));
+                if (directActivation) StartCoroutine(EndLoadingActivation(index, slowLoading));
                 //normal behaviour
                 else onSceneLoaded.Invoke(index);
                     
@@ -127,22 +127,30 @@ namespace FrancoisSauce.Scripts.FSSingleton
         /// Method to end the loading of a <see cref="Scene"/> and activate it
         /// </summary>
         /// <param name="index">index of the <see cref="Scene"/> to activate</param>
+        /// <param name="slowLoading">if false do not load game slowly</param>
         /// <returns>IEnumerator method (use StartCoroutine(EndLoadingActivation) to run the method</returns>
-        public IEnumerator EndLoadingActivation(int index)
+        public IEnumerator EndLoadingActivation(int index, bool slowLoading = false)
         {
             if (!indexes.ContainsKey(index)) print("Merde => " + index);
             //allow activation of the scene to end the load
             currentAsyncOperation[indexes[index]].allowSceneActivation = true;
             
-            while (!currentAsyncOperation[indexes[index]].isDone)
+            var currentLoad = 0.9f;
+            
+            while (slowLoading ? currentLoad < 1f : currentAsyncOperation[indexes[index]].progress < 1f)
             {
-                //TODO add fake slow loading
-                //Same as above method
-                onLoadProgress.Invoke(
-                    index,
-                    currentAsyncOperation[indexes[index]].progress
-                );
                 yield return null;
+                if (slowLoading)
+                {
+                    if (currentLoad <= currentAsyncOperation[indexes[index]].progress) currentLoad += Time.deltaTime;
+                    onLoadProgress.Invoke(index, currentLoad);
+                }
+                //normal loading
+                else
+                {
+                    onLoadProgress.Invoke(index, currentAsyncOperation[indexes[index]].progress);
+                }
+                
             }
 
             onLoadProgress.Invoke(

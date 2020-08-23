@@ -81,7 +81,7 @@ namespace FrancoisSauce.Scripts.MainMenu
         public override void OnSceneLoaded(int index)
         {
             if (index == SceneList.Instance.scenes["GameScene"])
-                StartCoroutine(GameManager.Instance.EndLoadingActivation(SceneList.Instance.scenes["GameScene"]));
+                StartCoroutine(GameManager.Instance.EndLoadingActivation(SceneList.Instance.scenes["GameScene"], true));
         }
     
         public override void OnSceneChanged(int index)
