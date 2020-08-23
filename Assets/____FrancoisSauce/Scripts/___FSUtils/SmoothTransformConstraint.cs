@@ -53,9 +53,12 @@ namespace FrancoisSauce.Scripts.FSUtils
                 actualTimer = 0f;
             }
             
+            //Update timer
+            actualTimer += Time.deltaTime;
+            
             //Lerp depend of timeToFollow
             float lerpValue;
-            if (Math.Abs(timeToFollow) > .0001f)
+            if (Math.Abs(timeToFollow) > 0.00000001f)
                 lerpValue = Mathf.Min(1, actualTimer / timeToFollow);
             else
                 lerpValue = 1;
@@ -69,8 +72,7 @@ namespace FrancoisSauce.Scripts.FSUtils
             //Move transform with lerp
             myTransform.position = Vector3.Lerp(myPosition, targetPosition, lerpValue);
 
-            //Update timer
-            actualTimer += Time.deltaTime;
+            
         }
     }
 }

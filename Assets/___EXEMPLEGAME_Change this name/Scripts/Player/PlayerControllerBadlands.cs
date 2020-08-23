@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
+﻿using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 
 namespace FrancoisSauce.changeName.Scripts.Player
 {
-    //TODO rename to PlayerControllerBadlands
-    public class PlayerControllerJumpOnly : MonoBehaviour
+    public class PlayerControllerBadlands : MonoBehaviour
     {
         [SerializeField] private FSGlobalFloatSO forwardSpeed = null;
         [SerializeField] private FSGlobalFloatSO upSpeed = null;
@@ -28,6 +24,11 @@ namespace FrancoisSauce.changeName.Scripts.Player
         {
             myRigidbody.constraints = RigidbodyConstraints.FreezeAll;
         }
+
+        public void OnResume()
+        {
+            myRigidbody.constraints = RigidbodyConstraints.FreezeRotationY;
+        }
         
         public void OnUpdateGameStarted()
         {
@@ -38,8 +39,8 @@ namespace FrancoisSauce.changeName.Scripts.Player
 
         private void Jump()
         {
-            //TODO do something to improve the feeling of the mechanic
-            myRigidbody.AddForce(Vector3.up * Time.deltaTime * upSpeed.value);
+            //if (myRigidbody.velocity.y < 0f) myRigidbody.velocity = Vector3.zero;
+            myRigidbody.AddForce(Vector3.up * Time.deltaTime * upSpeed.value * (myRigidbody.velocity.y < 3f ? 2 : 1));
         }
     }
 }

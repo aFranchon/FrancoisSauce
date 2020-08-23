@@ -136,6 +136,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
             
             while (!currentAsyncOperation[indexes[index]].isDone)
             {
+                //TODO add fake slow loading
                 //Same as above method
                 onLoadProgress.Invoke(
                     index,
