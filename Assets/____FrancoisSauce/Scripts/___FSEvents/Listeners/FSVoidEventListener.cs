@@ -86,7 +86,7 @@ namespace FrancoisSauce.Scripts.FSEvents.Listeners
 
         protected override void RemoveListeners()
         {
-            fsVoidEventSo.fsVoidEvent += Invoke;
+            fsVoidEventSo.fsVoidEvent -= Invoke;
         }
 
         private void Invoke()

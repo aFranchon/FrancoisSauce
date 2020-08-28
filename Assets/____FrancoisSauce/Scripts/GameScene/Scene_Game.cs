@@ -105,11 +105,6 @@ namespace FrancoisSauce.Scripts.GameScene
             if (LevelManager.IsInitialized) LevelManager.Instance.ReloadActualLevel(false);
         }
 
-        public void TEST()
-        {
-            print("putain");
-        }
-
         public override void OnSceneLoaded(int index)
         {
         }

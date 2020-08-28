@@ -17,11 +17,8 @@ namespace FrancoisSauce.Scripts.GameScene.WaitingToStart
         {
             var viewUI = scene.waitingToStartUI.GetComponentInChildren<WaitingToStartScript>();
             
-            Debug.Log("B");
-            
             viewUI.startButton.onClick.AddListener(() =>
             {
-                Debug.Log("a");
                 scene.OnClickedStartButton();
                 scene.ChangeView(scene.playing);
             });

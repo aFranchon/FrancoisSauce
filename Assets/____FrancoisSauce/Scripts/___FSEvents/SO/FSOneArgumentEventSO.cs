@@ -1,5 +1,6 @@
 ﻿using System;
 using FrancoisSauce.Scripts.FSEvents.Listeners;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace FrancoisSauce.Scripts.FSEvents.SO
