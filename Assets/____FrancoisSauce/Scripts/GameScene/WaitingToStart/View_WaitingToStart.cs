@@ -1,4 +1,5 @@
 ﻿using FrancoisSauce.Scripts.FSViews;
+using UnityEngine;
 
 namespace FrancoisSauce.Scripts.GameScene.WaitingToStart
 {
@@ -15,9 +16,12 @@ namespace FrancoisSauce.Scripts.GameScene.WaitingToStart
         public void Awake(Scene_Game scene)
         {
             var viewUI = scene.waitingToStartUI.GetComponentInChildren<WaitingToStartScript>();
-
+            
+            Debug.Log("B");
+            
             viewUI.startButton.onClick.AddListener(() =>
             {
+                Debug.Log("a");
                 scene.OnClickedStartButton();
                 scene.ChangeView(scene.playing);
             });

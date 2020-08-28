@@ -740,6 +740,36 @@ PrefabInstance:
       propertyPath: InitialModule.gravityModifier.scalar
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7180935908829729465}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TEST
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290346865959069844, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4290346865959069846, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
         type: 3}
       propertyPath: m_Layer
@@ -755,6 +785,11 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4290346866004898412, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1387005186}
     - target: {fileID: 4290346866004898413, guid: da2d9e5d9e9f53f4d90170fd27d2a34f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1181,3 +1216,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c0cd344b588ee40afb79c2a11b1683, type: 3}
+--- !u!114 &7180935908829729465 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7180935908890843190, guid: 18c0cd344b588ee40afb79c2a11b1683,
+    type: 3}
+  m_PrefabInstance: {fileID: 7180935908829729464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143dd8d5b729ce4882ff1326441d6be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

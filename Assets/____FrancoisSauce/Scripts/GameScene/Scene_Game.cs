@@ -30,7 +30,7 @@ namespace FrancoisSauce.Scripts.GameScene
         /// Image used for transition purpose
         /// </summary>
         [Tooltip("Image used for transition purpose")]
-        public Image transition;
+        [SerializeField] private Image transition;
 
         #region View variables
 
@@ -103,6 +103,11 @@ namespace FrancoisSauce.Scripts.GameScene
             loseUI.SetActive(false);
             
             if (LevelManager.IsInitialized) LevelManager.Instance.ReloadActualLevel(false);
+        }
+
+        public void TEST()
+        {
+            print("putain");
         }
 
         public override void OnSceneLoaded(int index)
