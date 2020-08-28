@@ -4,9 +4,9 @@ using System.Diagnostics.Contracts;
 using FrancoisSauce.Scripts.FSEvents.SO;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
+#endif
 using UnityEditor.Events;
 using System.Reflection;
-#endif
 using UnityEngine;
 using UnityEngine.Events;
 

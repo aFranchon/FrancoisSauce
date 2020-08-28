@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSEvents.SO;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
-using System.Reflection;
-using UnityEditor.Events;
 #endif
 using UnityEngine;
+using System.Reflection;
+using UnityEditor.Events;
 using UnityEngine.Events;
 
 namespace FrancoisSauce.Scripts.FSEvents.Listeners
