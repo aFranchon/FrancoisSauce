@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSEvents.SO;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
+#endif
 using System.Reflection;
 using UnityEditor.Events;
-#endif
 using UnityEngine;
 using UnityEngine.Events;
 

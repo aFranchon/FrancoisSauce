@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSEvents.SO;
 #if ODIN_INSPECTOR
-using System.Reflection;
 using Sirenix.OdinInspector;
-using UnityEditor.Events;
 #endif
+using System.Reflection;
+using UnityEditor.Events;
 using UnityEngine;
 using UnityEngine.Events;
 
