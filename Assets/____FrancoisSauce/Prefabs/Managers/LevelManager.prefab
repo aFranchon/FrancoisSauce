@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3621088004253569571}
   - component: {fileID: 3621088004253569570}
+  - component: {fileID: 1386362348}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -44,3 +45,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: {fileID: 11400000, guid: 45952ee594635754e97128f909b23ff4, type: 2}
+  notLevelsSceneNumber: {fileID: 11400000, guid: 5f19613acb267a5459fc77a2e8f3f3f3,
+    type: 2}
+--- !u!114 &1386362348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621088004253569572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33a5496a61e41b288c575997817b632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathToLevels: Assets/___EXEMPLEGAME_Change this name/Levels

@@ -40,6 +40,14 @@ namespace FrancoisSauce.Scripts.FSSingleton
             DontDestroyOnLoad(this);
 
             totalLevelsNumber = SceneManager.sceneCountInBuildSettings - notLevelsSceneNumber.value;
+            currentLevel.value = PlayerPrefs.GetInt("CurrentLevel");
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            
+            PlayerPrefs.SetInt("CurrentLevel", currentLevel.value);
         }
 
         /// <summary>
@@ -68,7 +76,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
             levelToUnload = currentLevel.value % totalLevelsNumber;
             
             if (doUnloadLevel) UnloadLevel();
-
+            
             StartCoroutine(GameManager.Instance.LoadSceneAsync(
                 SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")], 
                 true, false)
@@ -96,12 +104,6 @@ namespace FrancoisSauce.Scripts.FSSingleton
         /// </summary>
         public void UnloadCurrentLevel()
         {
-            if (currentLevel.value == -1)
-            {
-                Debug.LogError("currentLevel.value should not be equal to -1");
-                return;
-            }
-            
             GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["Level" + (currentLevel.value % totalLevelsNumber + 1).ToString("0000")]);
         }
     }

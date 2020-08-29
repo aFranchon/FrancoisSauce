@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Security.Cryptography;
-using FrancoisSauce.Scripts.FSSingleton;
+﻿using System.Collections;
+using FrancoisSauce.changeName.Scripts.Player;
+using FrancoisSauce.Scripts.FSEvents.SO;
 using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 
-public class EnemyControllerBonefire : MonoBehaviour
+public class EnemyControllerBonefireDragon : MonoBehaviour
 {
     private bool isDashing = false;
     private bool isBlocked = false;
@@ -21,6 +20,8 @@ public class EnemyControllerBonefire : MonoBehaviour
     private static readonly int Dashing = Animator.StringToHash("Dashing");
     private static readonly int Victory = Animator.StringToHash("Victory");
 
+    [SerializeField] private FSIntEventSO onPlayerHitByEnemy = null;
+    
     private void Awake()
     {
         myTransform = transform;
@@ -32,8 +33,12 @@ public class EnemyControllerBonefire : MonoBehaviour
         {
             //Player layer
             case 8:
-                myAnimator.SetBool(Victory, true);
-                GameLogic.Instance.OnLose();
+                if (other.gameObject.GetComponent<PlayerController>().isInvincible) break;
+                onPlayerHitByEnemy.Invoke(1);
+                break;
+            //KillableEnemy layer
+            case 11:
+                Destroy(other.gameObject);
                 break;
             //BreakableWall layer
             case 10:
@@ -42,15 +47,13 @@ public class EnemyControllerBonefire : MonoBehaviour
         }
     }
 
-    //TODO enemy always look the direction he's moving
-
     public void OnUpdateGameStarted()
     {
         if (isBlocked) return;
         
         if (isDashing)
         {
-            if (myRigidbody.velocity.magnitude > .01f) return;
+            if (myRigidbody.velocity.magnitude > .5f) return;
             myAnimator.SetBool(Dashing, false);
             isDashing = false;
             dashTimer = 0f;
@@ -79,7 +82,7 @@ public class EnemyControllerBonefire : MonoBehaviour
         
         yield return new WaitForSecondsRealtime(2f);
 
-        myRigidbody.AddForce(myTransform.forward * 1000);
+        myRigidbody.AddForce(myTransform.forward.normalized * 1000);
         
         yield return new WaitForSecondsRealtime(.5f);
         isBlocked = false;

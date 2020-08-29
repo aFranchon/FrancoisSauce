@@ -30,7 +30,7 @@ namespace FrancoisSauce.Scripts.GameScene
         /// Image used for transition purpose
         /// </summary>
         [Tooltip("Image used for transition purpose")]
-        [SerializeField] private Image transition;
+        [SerializeField] private Image transition = null;
 
         #region View variables
 

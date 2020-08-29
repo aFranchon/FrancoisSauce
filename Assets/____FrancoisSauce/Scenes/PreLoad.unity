@@ -190,25 +190,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da2d16706bd52e1418ca9940c917cf81, type: 3}
---- !u!1 &1386362347 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3621088004253569572, guid: c4e635ca5a497e749ab98e019c550c6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3621088003459310735}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1386362348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386362347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33a5496a61e41b288c575997817b632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pathToLevels: Assets/___EXEMPLEGAME_Change this name/Levels
 --- !u!1001 &3621088003459310735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216,12 +197,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3621088004253569570, guid: c4e635ca5a497e749ab98e019c550c6c,
-        type: 3}
-      propertyPath: notLevelsSceneNumber
-      value: 
-      objectReference: {fileID: 11400000, guid: 5f19613acb267a5459fc77a2e8f3f3f3,
-        type: 2}
     - target: {fileID: 3621088004253569571, guid: c4e635ca5a497e749ab98e019c550c6c,
         type: 3}
       propertyPath: m_LocalPosition.x

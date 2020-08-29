@@ -1,4 +1,7 @@
-﻿using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
+﻿using System.Collections;
+using FrancoisSauce.Scripts.FSSingleton;
+using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
+using TMPro;
 using UnityEngine;
 
 namespace FrancoisSauce.changeName.Scripts.Player
@@ -14,6 +17,9 @@ namespace FrancoisSauce.changeName.Scripts.Player
         /// </summary>
         private Transform myTransform;
 
+        [SerializeField] private Renderer myRenderer = null;
+        [SerializeField] private Animator myAnimator = null;
+
         /// <summary>
         /// enum to name different directions of the player
         /// </summary>
@@ -28,9 +34,10 @@ namespace FrancoisSauce.changeName.Scripts.Player
         /// <summary>
         /// Awake method of <see cref="MonoBehaviour"/>
         /// </summary>
-        private void Awake()
+        private void Start()
         {
             myTransform = transform;
+            life.value = 3;
         }
     
         /// <summary>
@@ -38,6 +45,8 @@ namespace FrancoisSauce.changeName.Scripts.Player
         /// </summary>
         public void OnUpdateGameStarted()
         {
+            myAnimator.SetBool(Walking, false);
+            
             if (Input.GetKey(KeyCode.D)) Move(Directions.RIGHT);
             if (Input.GetKey(KeyCode.Q)) Move(Directions.LEFT);
             if (Input.GetKey(KeyCode.Z)) Move(Directions.FORWARD);
@@ -61,6 +70,7 @@ namespace FrancoisSauce.changeName.Scripts.Player
         /// <param name="direction"></param>
         private void Move(Directions direction)
         {
+            myAnimator.SetBool(Walking, true);
             switch (direction)
             {
                 case (Directions.RIGHT):
@@ -78,6 +88,54 @@ namespace FrancoisSauce.changeName.Scripts.Player
                 default:
                     break;
             }
+        }
+
+        [SerializeField] private FSGlobalIntSO life = null;
+        [HideInInspector] public bool isInvincible = false;
+        private static readonly int Dead = Animator.StringToHash("Dead");
+        private static readonly int Hit = Animator.StringToHash("Hit");
+        private static readonly int Walking = Animator.StringToHash("Walking");
+
+        public void OnPlayerGainLife(int lifeGained)
+        {
+            life.value += lifeGained;
+        }
+        
+        public void OnPlayerHitByEnemy(int damageTaken)
+        {
+            life.value -= damageTaken;
+            isInvincible = true;
+
+            if (life.value <= 0)
+            {
+                myAnimator.SetBool(Dead, true);
+                GameLogic.Instance.OnLose();
+            }
+            else
+                StartCoroutine(ResetInvincible());
+        }
+
+        private IEnumerator ResetInvincible()
+        {
+            var time = 0f;
+            
+            myAnimator.SetTrigger(Hit);
+            
+            while (time < .75f)
+            {
+                time += Time.deltaTime;
+                yield return null;
+                myRenderer.enabled = !myRenderer.enabled;
+            }
+
+            myRenderer.enabled = true;
+            
+            isInvincible = false;
+        }
+
+        public void OnWin()
+        {
+            life.value += 1;
         }
     }
 }

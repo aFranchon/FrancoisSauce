@@ -44,9 +44,9 @@ namespace FrancoisSauce.Scripts.FSSingleton
         {
 #if UNITY_EDITOR //TESTING PURPOSE
             if (Input.GetKeyDown(KeyCode.Return))
-                onGameWin.Invoke();
+                OnWin();
             else if (Input.GetKeyDown(KeyCode.Delete))
-                onGameLose.Invoke();
+                OnLose();
  #endif
             if (!gameStarted) return;
             if (gamePaused) return;

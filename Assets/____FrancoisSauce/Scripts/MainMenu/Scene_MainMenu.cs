@@ -38,7 +38,6 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// <summary>
         /// To keep track of current progression for the progress bar when loading on the loading menu
         /// </summary>
-        // TODO probably change this one day
         [HideInInspector]
         public float currentProgression = 0f;
         
@@ -58,7 +57,6 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// <summary>
         /// Image for transitioning out of the scene
         /// </summary>
-        // TODO probably remove this elsewhere one day
         [Space] public Image transition;
     
         /// <summary>

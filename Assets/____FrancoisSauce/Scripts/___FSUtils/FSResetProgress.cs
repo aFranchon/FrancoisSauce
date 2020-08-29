@@ -20,6 +20,8 @@ namespace FrancoisSauce.Scripts.FSUtils
         [MenuItem("FrancoisSauce/Reset Progress")]
         public static void ResetGlobalVariables()
         {
+            Debug.Log("putain");
+            
             // Resetting INT
             var globalVariablesInt = Resources.LoadAll("GlobalVariablesToReset", typeof(FSGlobalIntSO));
                 
