@@ -652,6 +652,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -665,10 +666,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: ad6e6ede-7302-4fae-a859-b0074a57de81
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: FrancoisSauce
+  organizationId: unity_3032fmartinage
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

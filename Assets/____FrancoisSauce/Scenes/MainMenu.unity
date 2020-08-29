@@ -298,10 +298,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1495940295627836560, guid: ba3c296ccdf368e4a93452147c8e28e5,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495940295627836560, guid: ba3c296ccdf368e4a93452147c8e28e5,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495940295627836560, guid: ba3c296ccdf368e4a93452147c8e28e5,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1495940295627836562, guid: ba3c296ccdf368e4a93452147c8e28e5,
         type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495940295627836563, guid: ba3c296ccdf368e4a93452147c8e28e5,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 311
       objectReference: {fileID: 0}
     - target: {fileID: 1495940295627836566, guid: ba3c296ccdf368e4a93452147c8e28e5,
         type: 3}
