@@ -17,10 +17,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/___EXEMPLEGAME_Change this name/Levels/Level0001.unity
     guid: 6816ae9bc9ccf94449ecd8dc52f0df7e
-  - enabled: 1
-    path: Assets/___EXEMPLEGAME_Change this name/Levels/Level0002.unity
-    guid: 270bd40118839e040b1c79580b11929a
-  - enabled: 1
-    path: Assets/___EXEMPLEGAME_Change this name/Levels/Level0003.unity
-    guid: 56791d7838142f844a31298a387240b7
   m_configObjects: {}

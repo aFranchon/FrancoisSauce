@@ -1172,5 +1172,10 @@ PrefabInstance:
       propertyPath: BypassEffects
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8721646295641463380, guid: 4ea39d97c03f74c43a457af24615f572,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9b672db8b0202f845a90de5091fb4838, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea39d97c03f74c43a457af24615f572, type: 3}

@@ -90,7 +90,7 @@ namespace FrancoisSauce.Scripts.FSEvents.Listeners
 
         protected override void RemoveListeners()
         {
-            fsIntEventSo.fsOneArgumentAction -= Invoke;
+            fsIntEventSo?.fsOneArgumentAction -= Invoke;
         }
 
         protected override void Invoke(int value)
