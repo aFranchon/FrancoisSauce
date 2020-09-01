@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
 using FrancoisSauce.changeName.Scripts.Player;
 using FrancoisSauce.Scripts.FSEvents.SO;
 using Sirenix.OdinInspector;
-using UnityEditor.Events;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class EnemyControllerPatrol : MonoBehaviour
 {
@@ -19,6 +15,9 @@ public class EnemyControllerPatrol : MonoBehaviour
     
     [SerializeField] private FSIntEventSO onPlayerHitByEnemy = null;
     
+    [SerializeField] private Animator myAnimator = null;
+    private static readonly int Dead = Animator.StringToHash("Dead");
+
 #if UNITY_EDITOR
 #if ODIN_INSPECTOR
     [Button("Find Positions")]
@@ -46,9 +45,21 @@ public class EnemyControllerPatrol : MonoBehaviour
                 break;
         }
     }
+
+    public void OnUpdateGameStarted()
+    {
+        if (myAnimator.GetBool(Dead))
+        {
+            transform.DOKill();
+            walkingSound.Stop();
+        };
+    }
+
+    [SerializeField] private AudioSource walkingSound = null;
     
     public void OnClickedStartButton()
     {
+        walkingSound.Play();
         transform.DOPath(positions.Select(position => position.position).ToArray(), timeToPath, PathType.CatmullRom)
             .SetLoops(-1, loopType)
             .SetEase(Ease.Linear)
@@ -58,6 +69,7 @@ public class EnemyControllerPatrol : MonoBehaviour
 
     private void OnDestroy()
     {
+        
         transform.DOKill();
     }
 }

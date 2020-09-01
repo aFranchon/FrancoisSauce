@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Security.Cryptography;
 using DG.Tweening;
 using FrancoisSauce.Scripts.FSUtils;
 using UnityEngine;
@@ -10,9 +11,10 @@ public class EnemyControllerShooter : MonoBehaviour
 
     private Transform myTransform;
     [SerializeField] private Collider myCollider = null;
+    [SerializeField] private Animator myAnimator = null;
 
     [SerializeField] private float maxDistanceToShoot = 10f;
-    
+
     private void Awake()
     {
         myTransform = transform;
@@ -20,10 +22,19 @@ public class EnemyControllerShooter : MonoBehaviour
 
     [SerializeField] private float bulletTimer = .5f;
     private bool isAbleToShoot = true;
+    private static readonly int Dead = Animator.StringToHash("Dead");
+
+    [SerializeField] private AudioSource shootingSound = null;
     
     public void OnUpdateGameStarted()
     {
+        if (myAnimator.GetBool(Dead))
+        {
+            if (myCollider) Destroy(myCollider);
+            return;
+        }
         if (!isAbleToShoot) return;
+     
         var position = myTransform.position;
         var distance = (position - playerTransform.position);
 
@@ -31,7 +42,9 @@ public class EnemyControllerShooter : MonoBehaviour
         
         var newBullet = poolShot.RequestPool();
         
-        newBullet.transform.DOMove(distance.normalized * -200, 100f)
+        shootingSound.Play();
+        
+        newBullet.transform.DOMove(distance.normalized * -200, 30f)
             .SetEase(Ease.Linear)
             .From(new Vector3(position.x, 1f, position.z))
             .onComplete += () => newBullet.SetActive(false);
@@ -47,4 +60,6 @@ public class EnemyControllerShooter : MonoBehaviour
         yield return new WaitForSecondsRealtime(bulletTimer);
         isAbleToShoot = true;
     }
+    
+    
 }

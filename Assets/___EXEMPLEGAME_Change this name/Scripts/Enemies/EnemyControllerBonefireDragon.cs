@@ -21,11 +21,18 @@ public class EnemyControllerBonefireDragon : MonoBehaviour
     private static readonly int Victory = Animator.StringToHash("Victory");
 
     [SerializeField] private FSIntEventSO onPlayerHitByEnemy = null;
-    
+    private static readonly int Dead = Animator.StringToHash("Dead");
+
     private void Awake()
     {
         myTransform = transform;
     }
+
+    [SerializeField] private AudioSource eatingSound = null;
+    [SerializeField] private AudioSource dashSound = null;
+    [SerializeField] private AudioSource idleSound = null;
+    [SerializeField] private AudioSource preparingSound = null;
+    [SerializeField] private AudioSource breakingWallSound = null;
 
     private void OnCollisionEnter(Collision other)
     {
@@ -33,15 +40,24 @@ public class EnemyControllerBonefireDragon : MonoBehaviour
         {
             //Player layer
             case 8:
+                eatingSound.Play();
+                
                 if (other.gameObject.GetComponent<PlayerController>().isInvincible) break;
                 onPlayerHitByEnemy.Invoke(1);
                 break;
             //KillableEnemy layer
             case 11:
-                Destroy(other.gameObject);
+                eatingSound.Play();
+                
+                var otherAnimator = other.gameObject.GetComponent<Animator>();
+                
+                if (otherAnimator) if (!otherAnimator.GetBool(Dead)) otherAnimator.SetBool(Dead, true);
+                Destroy(other.gameObject, 1.5f);
                 break;
             //BreakableWall layer
             case 10:
+                breakingWallSound.Play();
+                
                 Destroy(other.gameObject);
                 break;
         }
@@ -49,6 +65,7 @@ public class EnemyControllerBonefireDragon : MonoBehaviour
 
     public void OnUpdateGameStarted()
     {
+        if (!idleSound.isPlaying) idleSound.Play();
         if (isBlocked) return;
         
         if (isDashing)
@@ -76,12 +93,16 @@ public class EnemyControllerBonefireDragon : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        preparingSound.Play();
         myAnimator.SetBool(Dashing, true);
         isDashing = true;
         isBlocked = true;
         
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(1.5f);
+        dashSound.Play();
+        yield return new WaitForSecondsRealtime(.5f);
 
+        preparingSound.Stop();
         myRigidbody.AddForce(myTransform.forward.normalized * 1000);
         
         yield return new WaitForSecondsRealtime(.5f);

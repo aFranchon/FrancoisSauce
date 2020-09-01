@@ -81,8 +81,14 @@ namespace FrancoisSauce.Scripts.GameScene
         /// Finite state machine implementation, Lose
         /// </summary>
         public readonly View_Lose lose = new View_Lose();
+        
+        //TODO comment
+        [SerializeField] private AudioSource gameSceneAudioSource = null;
+        [SerializeField] private AudioSource winAudioSource = null;
+        
 
         #endregion
+        
 
         /// <summary>
         /// <see cref="MonoBehaviour"/>'s Awake method
@@ -151,6 +157,8 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public void OnWin()
         {
+            gameSceneAudioSource.Stop();
+            winAudioSource.Play();
             ChangeView(win);
         }
 
@@ -159,6 +167,7 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public void OnLose()
         {
+            gameSceneAudioSource.Stop();
             ChangeView(lose);
         }
 
@@ -203,6 +212,7 @@ namespace FrancoisSauce.Scripts.GameScene
         public void OnClickedStartButton()
         {
             onClickedStartButton.Invoke();
+            gameSceneAudioSource.Play();
         }
 
         /// <summary>

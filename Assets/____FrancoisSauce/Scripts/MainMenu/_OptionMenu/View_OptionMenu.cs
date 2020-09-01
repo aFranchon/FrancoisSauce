@@ -17,6 +17,8 @@ namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
             var viewUI = scene.optionMenuUI.GetComponent<OptionMenuScript>();
             
             viewUI.backButton.onClick.AddListener(() => scene.ChangeView(scene.baseMenu));
+            viewUI.volumeSlider.onValueChanged.AddListener(
+                (float value) => scene.mainAudioMixer.SetFloat("MainVolume", value));
         }
         
         public override void OnViewEnter(Scene_MainMenu scene)

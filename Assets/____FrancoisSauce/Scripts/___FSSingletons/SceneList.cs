@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
 #if UNITY_EDITOR
 using System.IO;
@@ -36,9 +35,10 @@ namespace FrancoisSauce.Scripts.FSUtils
             
             DontDestroyOnLoad(this);
             
-            var levels = Directory.GetFiles(pathToLevels);
+            
             
 #if UNITY_EDITOR
+            var levels = Directory.GetFiles(pathToLevels);
             // Find valid Scene paths and make a list of EditorBuildSettingsScene
             var editorBuildSettingsScenes = (
                 from editorBuildSettingsScene in EditorBuildSettings.scenes 
@@ -52,12 +52,21 @@ namespace FrancoisSauce.Scripts.FSUtils
 
             // Set the Build Settings window Scene list
             EditorBuildSettings.scenes = editorBuildSettingsScenes.ToArray();
-#endif
+
             for (var i = 0; i < EditorBuildSettings.scenes.Length; i++)
             {
                 var sceneName = Path.GetFileNameWithoutExtension(EditorBuildSettings.scenes[i].path);
                 scenes.Add(sceneName, i);
             }
+#else
+            scenes.Add("Preload", 0);
+            scenes.Add("MainMenu", 1);
+            scenes.Add("GameScene", 2);
+            scenes.Add("Level0001", 3);
+            scenes.Add("Level0002", 4);
+            scenes.Add("Level0003", 5);
+#endif
         }
+
     }
 }

@@ -7,6 +7,7 @@ using FrancoisSauce.Scripts.MainMenu.BaseMenu;
 using FrancoisSauce.Scripts.MainMenu.LoadingMenu;
 using FrancoisSauce.Scripts.MainMenu.OptionMenu;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -58,6 +59,10 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// Image for transitioning out of the scene
         /// </summary>
         [Space] public Image transition;
+        
+        //TODO comment
+        [SerializeField] private AudioSource mainMenuMusic = null;
+        public AudioMixer mainAudioMixer = null;
     
         /// <summary>
         /// <see cref="MonoBehaviour"/>'s Awake method
@@ -73,13 +78,17 @@ namespace FrancoisSauce.Scripts.MainMenu
             optionMenuUI.SetActive(false);
             loadingMenuUI.SetActive(false);
             
+            mainMenuMusic.Play();
+            
             ChangeView(baseMenu);
         }
         
         public override void OnSceneLoaded(int index)
         {
-            if (index == SceneList.Instance.scenes["GameScene"])
-                StartCoroutine(GameManager.Instance.EndLoadingActivation(SceneList.Instance.scenes["GameScene"], true));
+            if (index != SceneList.Instance.scenes["GameScene"]) return;
+            
+            mainMenuMusic.Stop();
+            StartCoroutine(GameManager.Instance.EndLoadingActivation(SceneList.Instance.scenes["GameScene"], true));
         }
     
         public override void OnSceneChanged(int index)

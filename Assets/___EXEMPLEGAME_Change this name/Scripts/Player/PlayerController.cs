@@ -39,30 +39,46 @@ namespace FrancoisSauce.changeName.Scripts.Player
             myTransform = transform;
             life.value = 3;
         }
-    
+
+        private bool hasWalked = false;
+        private Vector3 oldPosition = Vector3.zero;
         /// <summary>
         /// Called like o Update method of <see cref="MonoBehaviour"/> but each frame of started and not paused game
         /// </summary>
         public void OnUpdateGameStarted()
         {
+            oldPosition = transform.position;
             myAnimator.SetBool(Walking, false);
             
-            if (Input.GetKey(KeyCode.D)) Move(Directions.RIGHT);
-            if (Input.GetKey(KeyCode.Q)) Move(Directions.LEFT);
-            if (Input.GetKey(KeyCode.Z)) Move(Directions.FORWARD);
-            if (Input.GetKey(KeyCode.S)) Move(Directions.BACKWARD);
+            if (Input.GetKey(KeyCode.RightArrow)) Move(Directions.RIGHT);
+            if (Input.GetKey(KeyCode.LeftArrow)) Move(Directions.LEFT);
+            if (Input.GetKey(KeyCode.UpArrow)) Move(Directions.FORWARD);
+            if (Input.GetKey(KeyCode.DownArrow)) Move(Directions.BACKWARD);
+
+            if (hasWalked && !movingSound.isPlaying)
+            {
+                var position = transform.position;
+                transform.LookAt(position + position - oldPosition/*oldPosition - transform.position*/);
+                movingSound.Play();
+            }
+            else
+            {
+                movingSound.Stop();
+            }
+            hasWalked = false;
         }
         
-        /// <summary>
-        /// rotate speed of the player
-        /// </summary>
-        [Tooltip("Player rotate speed, global variable")]
-        [SerializeField] private FSGlobalFloatSO rotateSpeed = null;
         /// <summary>
         /// move speed of the player
         /// </summary>
         [Tooltip("Player move speed, global variable")]
         [SerializeField] private FSGlobalFloatSO moveSpeed = null;
+
+        [Header("Sounds")]
+        [SerializeField] private AudioSource movingSound = null;
+        [SerializeField] private AudioSource hitSound = null;
+        [SerializeField] private AudioSource deadSound = null;
+        [SerializeField] private AudioSource healSound = null;
     
         /// <summary>
         /// private method to move the <see cref="Transform"/> of the player
@@ -71,19 +87,24 @@ namespace FrancoisSauce.changeName.Scripts.Player
         private void Move(Directions direction)
         {
             myAnimator.SetBool(Walking, true);
+
             switch (direction)
             {
                 case (Directions.RIGHT):
-                    myTransform.Rotate(Vector3.up * Time.deltaTime * rotateSpeed.value);
+                    myTransform.position += Vector3.right * Time.deltaTime * moveSpeed.value;
+                    hasWalked = true;
                     break;
                 case (Directions.LEFT):
-                    myTransform.Rotate(Vector3.down * Time.deltaTime * rotateSpeed.value);
+                    myTransform.position -= Vector3.right * Time.deltaTime * moveSpeed.value;
+                    hasWalked = true;
                     break;
                 case (Directions.FORWARD):
-                    myTransform.position += myTransform.forward * Time.deltaTime * moveSpeed.value;
+                    myTransform.position += Vector3.forward * Time.deltaTime * moveSpeed.value;
+                    hasWalked = true;
                     break;
                 case (Directions.BACKWARD):
-                    myTransform.position += -myTransform.forward * Time.deltaTime * moveSpeed.value;
+                    myTransform.position -= Vector3.forward * Time.deltaTime * moveSpeed.value;
+                    hasWalked = true;
                     break;
                 default:
                     break;
@@ -98,6 +119,7 @@ namespace FrancoisSauce.changeName.Scripts.Player
 
         public void OnPlayerGainLife(int lifeGained)
         {
+            healSound.Play();
             life.value += lifeGained;
         }
         
@@ -108,11 +130,15 @@ namespace FrancoisSauce.changeName.Scripts.Player
 
             if (life.value <= 0)
             {
+                deadSound.Play();
                 myAnimator.SetBool(Dead, true);
                 GameLogic.Instance.OnLose();
             }
             else
+            {
+                hitSound.Play();
                 StartCoroutine(ResetInvincible());
+            }
         }
 
         private IEnumerator ResetInvincible()
@@ -123,8 +149,8 @@ namespace FrancoisSauce.changeName.Scripts.Player
             
             while (time < .75f)
             {
-                time += Time.deltaTime;
-                yield return null;
+                time += .1f;
+                yield return new WaitForSecondsRealtime(.1f);
                 myRenderer.enabled = !myRenderer.enabled;
             }
 

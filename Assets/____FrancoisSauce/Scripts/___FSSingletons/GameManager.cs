@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using FrancoisSauce.Scripts.FSEvents.SO;
 using FrancoisSauce.Scripts.FSUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 namespace FrancoisSauce.Scripts.FSSingleton
 {
@@ -69,7 +69,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
             
             DontDestroyOnLoad(this);
         }
-
+        
         /// <summary>
         /// Method to async load a new <see cref="Scene"/>. It's additive so the scene will be added without unloading previous ones
         /// </summary>

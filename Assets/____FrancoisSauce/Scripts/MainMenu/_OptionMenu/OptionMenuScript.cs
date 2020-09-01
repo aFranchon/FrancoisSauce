@@ -13,6 +13,8 @@ namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
         /// </summary>
         public Button backButton;
         //TODO add more options there later
+        //TODO comment
+        public Slider volumeSlider;
     }
 }
 

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSEvents.SO;
 #if ODIN_INSPECTOR
@@ -7,7 +6,9 @@ using Sirenix.OdinInspector;
 #endif
 using UnityEngine;
 using System.Reflection;
+#if UNITY_EDITOR
 using UnityEditor.Events;
+#endif
 using UnityEngine.Events;
 
 namespace FrancoisSauce.Scripts.FSEvents.Listeners

@@ -30,7 +30,7 @@ namespace FrancoisSauce.Scripts.GameScene.Lose
         public override void OnViewEnter(Scene_Game scene)
         {
             scene.loseUI.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
         }
 
         public override void OnViewExit(Scene_Game scene)

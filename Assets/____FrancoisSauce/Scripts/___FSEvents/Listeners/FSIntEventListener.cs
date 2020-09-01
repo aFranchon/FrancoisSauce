@@ -5,7 +5,9 @@ using FrancoisSauce.Scripts.FSEvents.SO;
 using Sirenix.OdinInspector;
 #endif
 using System.Reflection;
+#if UNITY_EDITOR
 using UnityEditor.Events;
+#endif
 using UnityEngine;
 using UnityEngine.Events;
 

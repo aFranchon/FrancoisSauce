@@ -177,33 +177,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7026293466545986806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6823371430453334991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e7b551f34f7944b8a99084419a8ed2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsVoidEventSo: {fileID: 11400000, guid: e4aa9cf5f23800442b598ed632fc47ce, type: 2}
-  listeners:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5112538093398284245}
-        m_MethodName: OnClickedStartButton
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &203864865293907574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -211,41 +184,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4290346866004898413}
     m_Modifications:
-    - target: {fileID: 4133769809705164512, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769809705164514, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769809705164514, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TEST
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769809705164514, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769809705164514, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769809705164514, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4133769810280298304, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
-        type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4133769810690334735, guid: e985d17b6e6a2b7468fa7f16cfb00fff,
         type: 3}
       propertyPath: m_Name
@@ -506,116 +444,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4290346866004898413}
     m_Modifications:
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764115533356942424, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575970391220980724, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717583840018811784, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2859893103538779761, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: m_PreserveAspect
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2859893104481143474, guid: 955c30f69e1dad646bfc76b85c38c971,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -726,125 +554,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Win
       objectReference: {fileID: 0}
-    - target: {fileID: 2859893105210939434, guid: 955c30f69e1dad646bfc76b85c38c971,
+    - target: {fileID: 3007419427417546224, guid: 955c30f69e1dad646bfc76b85c38c971,
         type: 3}
-      propertyPath: m_PreserveAspect
-      value: 1
+      propertyPath: m_LocalPosition.x
+      value: -639
       objectReference: {fileID: 0}
     - target: {fileID: 3007419427417546224, guid: 955c30f69e1dad646bfc76b85c38c971,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -302
+      value: -360
       objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
+    - target: {fileID: 9212828321040229341, guid: 955c30f69e1dad646bfc76b85c38c971,
         type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4704348509355957765, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292102663466192799, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
+      propertyPath: m_LocalPosition.x
+      value: -641
       objectReference: {fileID: 0}
     - target: {fileID: 9212828321040229341, guid: 955c30f69e1dad646bfc76b85c38c971,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -302
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeY.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.startSizeZ.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9218584619603782557, guid: 955c30f69e1dad646bfc76b85c38c971,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 10
+      value: -360
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 955c30f69e1dad646bfc76b85c38c971, type: 3}
