@@ -12,9 +12,13 @@ namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
         /// backButton to allow <see cref="View_OptionMenu"/> to register to his onClick event
         /// </summary>
         public Button backButton;
+        
         //TODO add more options there later
+
         //TODO comment
-        public Slider volumeSlider;
+        public Slider mainVolumeSlider;
+        public Slider musicVolumeSlider;
+        public Slider sfxVolumeSlider;
     }
 }
 

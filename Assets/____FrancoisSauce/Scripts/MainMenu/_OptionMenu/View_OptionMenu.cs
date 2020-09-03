@@ -1,4 +1,5 @@
 ﻿using FrancoisSauce.Scripts.FSViews;
+using UnityEngine;
 
 namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
 {
@@ -17,8 +18,21 @@ namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
             var viewUI = scene.optionMenuUI.GetComponent<OptionMenuScript>();
             
             viewUI.backButton.onClick.AddListener(() => scene.ChangeView(scene.baseMenu));
-            viewUI.volumeSlider.onValueChanged.AddListener(
-                (float value) => scene.mainAudioMixer.SetFloat("MainVolume", value));
+            viewUI.mainVolumeSlider.onValueChanged.AddListener(
+                (float value) =>
+                {
+                    scene.mainAudioMixer.SetFloat("MainVolume", value);
+                });
+            viewUI.musicVolumeSlider.onValueChanged.AddListener(
+                (float value) =>
+                {
+                    scene.mainAudioMixer.SetFloat("MusicVolume", value);
+                });
+            viewUI.mainVolumeSlider.onValueChanged.AddListener(
+                (float value) =>
+                {
+                    scene.mainAudioMixer.SetFloat("SFXVolume", value);
+                });
         }
         
         public override void OnViewEnter(Scene_MainMenu scene)

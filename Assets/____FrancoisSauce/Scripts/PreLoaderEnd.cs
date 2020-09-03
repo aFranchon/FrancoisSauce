@@ -19,7 +19,7 @@ namespace FrancoisSauce.Scripts
             
             StartCoroutine(GameManager.Instance.LoadSceneAsync(SceneList.Instance.scenes["MainMenu"], true, false));
             
-            yield return new WaitForSecondsRealtime(.75f);
+            yield return new WaitForSecondsRealtime(2f);
                 
             GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["PreLoad"]);
         }
