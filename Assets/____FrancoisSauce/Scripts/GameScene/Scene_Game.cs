@@ -82,8 +82,15 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public readonly View_Lose lose = new View_Lose();
         
-        //TODO comment
+        /// <summary>
+        /// The running game music
+        /// </summary>
+        [Tooltip("The running game music")]
         [SerializeField] private AudioSource gameSceneAudioSource = null;
+        /// <summary>
+        /// The win game music
+        /// </summary>
+        [Tooltip("The win game music")]
         [SerializeField] private AudioSource winAudioSource = null;
         
 
@@ -186,7 +193,6 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         private void OnDestroy()
         {
-            //TODO temp => remove all Time.timeScale in the FrancoisSauce too dangerous
             Time.timeScale = 1f;
         }
 

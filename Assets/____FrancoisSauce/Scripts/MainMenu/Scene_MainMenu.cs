@@ -60,8 +60,16 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// </summary>
         [Space] public Image transition;
         
-        //TODO comment
+        //TODO comment, don't remember what is it
+        /// <summary>
+        /// 
+        /// </summary>
+        [Tooltip("")]
         [SerializeField] private AudioSource mainMenuMusic = null;
+        /// <summary>
+        /// The audioMixer use to change 
+        /// </summary>
+        [Tooltip("")]
         public AudioMixer mainAudioMixer = null;
     
         /// <summary>

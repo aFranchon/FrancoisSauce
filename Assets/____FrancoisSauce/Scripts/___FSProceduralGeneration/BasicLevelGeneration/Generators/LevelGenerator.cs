@@ -1,30 +1,53 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
 using FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Entities;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 
-//TODO comment
 namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Generators
 {
+    /// <summary>
+    /// Class to handle level creation. To do so, it uses the tiles created by <see cref="TileGenerator"/>.
+    /// For the moment only mix up tiles in a binding of isaac way, but will be updated to handle more options
+    /// </summary>
     public class LevelGenerator : MonoBehaviour
     {
+        /// <summary>
+        /// Minimum number of tiles to put in the level
+        /// </summary>
+        [Tooltip("Minimum number of tiles to put in the level")]
         public int minTileNumber = 0;
+        /// <summary>
+        /// maximum number of tiles to put in the level
+        /// </summary>
+        [Tooltip("Maximum number of tiles to put in the level")]
         public int maxTileNumber = 0;
+        /// <summary>
+        /// Chosen number of tile to put in the level, just to keep track of it in the entire class
+        /// </summary>
         private int tileNumber = 0;
 
+        /// <summary>
+        /// First tile to put in the level, leave null if you don't care about it
+        /// </summary>
+        [Tooltip("First tile to put in the level, leave null if you don't care about it")]
         public __Tile firstTile = null;
 
+        /// <summary>
+        /// List of all tiles you want the level to be generated with.
+        /// </summary>
+        [Tooltip("List of all tiles you want the level to be generated with.")]
         public List<__Tile> possibleTiles = new List<__Tile>();//TODO fill it with tiles in the tile folder automatically
 
 #if UNITY_EDITOR
 #if ODIN_INSPECTOR
-
-
+        /// <summary>
+        /// Function used to find the position of the new tile to be added to the level. Do not check every conditions here.
+        /// </summary>
+        /// <param name="newTile">The new <see cref="__Tile"/> to be added</param>
+        /// <param name="position">the position to align with, from the first tile</param>
+        /// <param name="index">the chosen index, use to find the side to be appended</param>
         private static void SetNewTilePosition(__Tile newTile, Vector3 position, int index)
         {
             Vector3 positionToAlign;
@@ -49,54 +72,58 @@ namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Gene
             transform1.position = position - (transform1.position + positionToAlign);
         }
 
-        private void AddTile(Scene newScene)
+        /// <summary>
+        /// The main function to add tiles.
+        /// </summary>
+        private void AddTile()
         {
-            while (true)
+            while (true) // Run this as long as there are no tiles added
             {
                 if (firstTile == null)
-                    firstTile = Instantiate(possibleTiles[Random.Range(0, possibleTiles.Count)]);
+                    firstTile = Instantiate(possibleTiles[Random.Range(0, possibleTiles.Count)]); // if no first tile, create one and exit the function
                 else
                 {
-                    var newTile = Instantiate(possibleTiles[Random.Range(0, possibleTiles.Count)]);
+                    var newTile = Instantiate(possibleTiles[Random.Range(0, possibleTiles.Count)]); // Create new Tile in the level scene
                     var position = firstTile.transform.position;
                     
                                    var index = Random.Range(0, 5);
-                    switch (index)
+                    switch (index) //index is here to define the side to be appended
                     {
-                        case 0:
+                        case 0: //Up side
                         {
                             SetNewTilePosition(newTile, position + firstTile.freePositionsUp[Random.Range(0, firstTile.freePositionsUp.Count)], index);
 
-                            if (!firstTile.CheckNewTile(newTile))
+                            if (!firstTile.CheckNewTile(newTile)) //checking if the new tile is okay or not if false try with another new tile
                             {
                                 DestroyImmediate(newTile.gameObject, true);
                                 continue;
                             }
                             break;
                         }
-                        case 1:
+                        case 1: //Down side
                             SetNewTilePosition(newTile, position + firstTile.freePositionsDown[Random.Range(0, firstTile.freePositionsDown.Count)], index);
 
-                            if (!firstTile.CheckNewTile(newTile))
+                            if (!firstTile.CheckNewTile(newTile)) //checking if the new tile is okay or not if false try with another new tile
                             {
                                 DestroyImmediate(newTile.gameObject, true);
                                 continue;
                             }
                             break;
-                        case 2:
+                        case 2: //Left side
                             SetNewTilePosition(newTile, position + firstTile.freePositionsLeft[Random.Range(0, firstTile.freePositionsLeft.Count)], index);
 
-                            if (!firstTile.CheckNewTile(newTile))
+                            if (!firstTile.CheckNewTile(newTile)) //checking if the new tile is okay or not if false try with another new tile
                             {
                                 DestroyImmediate(newTile.gameObject, true);
                                 continue;
                             }
                             break;
-                        default:
+                        default: //Right side
                             SetNewTilePosition(newTile, position + firstTile.freePositionsRight[Random.Range(0, firstTile.freePositionsRight.Count)], index);
 
-                            if (!firstTile.CheckNewTile(newTile))
-                            {                                DestroyImmediate(newTile.gameObject, true);
+                            if (!firstTile.CheckNewTile(newTile)) //checking if the new tile is okay or not if false try with another new tile
+                            {
+                                DestroyImmediate(newTile.gameObject, true);
                                 continue;
                             }
                             break;
@@ -107,6 +134,9 @@ namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Gene
             }
         }
 
+        /// <summary>
+        /// The function called from unity editor button, start the creation of the new level
+        /// </summary>
         [Button("Create Level")]
         [ContextMenu("Create Level")]
         public void CreateLevel()
@@ -120,7 +150,7 @@ namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Gene
 
             for (var i = 0; i < tileNumber; i++)
             {
-                AddTile(newScene);
+                AddTile();
             }
             
             EditorSceneManager.SaveScene(newScene, localPath);

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using UnityEngine;
-using UnityEngine.UI;
 
 //TODO Comment this file
-
 namespace FrancoisSauce.Scripts.GameScene.Playing
 {
     public class HeartUI : MonoBehaviour

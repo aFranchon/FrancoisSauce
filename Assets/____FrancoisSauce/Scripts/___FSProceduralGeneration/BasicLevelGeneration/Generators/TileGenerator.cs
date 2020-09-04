@@ -2,7 +2,6 @@
 using Sirenix.OdinInspector;
 #endif
 using System.Collections.Generic;
-using System.ComponentModel;
 using FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Entities;
 using UnityEditor;
 using UnityEngine;
@@ -48,7 +47,6 @@ namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Gene
 
             for (var i = 0; i < numberOfGrounds; i++)
             {
-                //TODO change to manage multiple grounds
                 var tmp = Instantiate(possibleGrounds[Random.Range(0, possibleGrounds.Count)], tileToPopulate.transform);
                 tileToPopulate.GetComponent<__Tile>().groundPositions.Add(tmp.transform);
             }

@@ -1,11 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Generators;
 
-//TODO comment
 namespace FrancoisSauce.Scripts.FSProceduralGeneration.BasicLevelGeneration.Entities
 {
-    public class Wall : MonoBehaviour
+    /// <summary>
+    /// This class is an implementation of <see cref="TileEntity"/> for walls.
+    /// Use mainly to find walls by get component in <see cref="TileGenerator"/>
+    /// </summary>
+    /// <inheritdoc/>
+    public class Wall : TileEntity
     {
     }
 }
