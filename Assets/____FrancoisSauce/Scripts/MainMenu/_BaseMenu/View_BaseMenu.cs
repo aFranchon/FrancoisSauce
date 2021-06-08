@@ -18,9 +18,15 @@ namespace FrancoisSauce.Scripts.MainMenu.BaseMenu
         {
             var viewUI = scene.baseMenuUI.GetComponentInChildren<BaseMenuScript>();
 
-            viewUI.optionMenuButton.onClick.AddListener(() => scene.ChangeView(scene.optionMenu));
+            viewUI.optionMenuButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.ChangeView(scene.optionMenu);
+            });
             viewUI.playButton.onClick.AddListener(() =>
             {
+                scene.clickSound.Play();
+                scene.background.SetActive(true);
                 scene.ChangeView(scene.loadingMenu);
                 scene.LoadScene(SceneList.Instance.scenes["GameScene"]);
             });

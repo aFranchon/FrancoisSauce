@@ -21,10 +21,15 @@ namespace FrancoisSauce.Scripts.GameScene.Lose
 
             viewUI.replayButton.onClick.AddListener(() =>
             {
+                scene.clickSound.Play();
                 LevelManager.Instance.ReloadActualLevel();
                 scene.ChangeView(scene.waitingToStart);
             });
-            viewUI.quitButton.onClick.AddListener(() => {scene.LoadScene(SceneList.Instance.scenes["MainMenu"]);});
+            viewUI.quitButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.LoadScene(SceneList.Instance.scenes["MainMenu"]);
+            });
         }
 
         public override void OnViewEnter(Scene_Game scene)

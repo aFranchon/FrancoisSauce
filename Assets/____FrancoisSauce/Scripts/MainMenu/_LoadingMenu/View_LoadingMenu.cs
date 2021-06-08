@@ -25,6 +25,7 @@ namespace FrancoisSauce.Scripts.MainMenu.LoadingMenu
             startGameButton = scene.loadingMenuUI.GetComponent<LoadingMenuScript>().startGameButton;
             startGameButton.onClick.AddListener(() =>
             {
+                scene.clickSound.Play();
                 scene.UnloadScene(SceneList.Instance.scenes["MainMenu"]);
                 startGameButton.enabled = false;
             });
@@ -46,7 +47,7 @@ namespace FrancoisSauce.Scripts.MainMenu.LoadingMenu
             progressBar.UpdateProgression(scene.currentProgression);
 
             if (!startGameButton.gameObject.activeInHierarchy && scene.currentProgression > .999f)
-                startGameButton.gameObject.SetActive(true);
+                scene.UnloadScene(SceneList.Instance.scenes["MainMenu"]);//startGameButton.gameObject.SetActive(true);
         }
     }
 }

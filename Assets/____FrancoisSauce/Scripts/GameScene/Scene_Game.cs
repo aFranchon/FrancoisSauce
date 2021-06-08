@@ -1,8 +1,11 @@
-﻿using DG.Tweening;
+﻿using System;
+using System.Collections.Generic;
+using DG.Tweening;
 using FrancoisSauce.Scripts.FSEvents.SO;
 using FrancoisSauce.Scripts.FSSingleton;
 using FrancoisSauce.Scripts.FSScenes;
 using FrancoisSauce.Scripts.FSUtils;
+using FrancoisSauce.Scripts.FSUtils.FSGlobalVariables;
 using FrancoisSauce.Scripts.FSViews;
 using FrancoisSauce.Scripts.GameScene.Lose;
 using FrancoisSauce.Scripts.GameScene.Pause;
@@ -81,21 +84,19 @@ namespace FrancoisSauce.Scripts.GameScene
         /// Finite state machine implementation, Lose
         /// </summary>
         public readonly View_Lose lose = new View_Lose();
-        
-        /// <summary>
-        /// The running game music
-        /// </summary>
-        [Tooltip("The running game music")]
-        [SerializeField] private AudioSource gameSceneAudioSource = null;
-        /// <summary>
-        /// The win game music
-        /// </summary>
-        [Tooltip("The win game music")]
-        [SerializeField] private AudioSource winAudioSource = null;
-        
 
-        #endregion
+        [SerializeField] private List<Transform> planets = new List<Transform>();
+        [SerializeField] private GameObject playerTmpTransition = null;
+        private Transform playerTransform = null;
+
+        public AudioSource clickSound = null;
+        public AudioSource winSound = null;
+        public AudioSource loseSound = null;
+        public AudioSource musicSound = null;
         
+        #endregion
+
+        private bool isStarted = false;
 
         /// <summary>
         /// <see cref="MonoBehaviour"/>'s Awake method
@@ -125,7 +126,6 @@ namespace FrancoisSauce.Scripts.GameScene
         public override void OnSceneChanged(int index)
         {
             if (index != SceneList.Instance.scenes["MainMenu"]) return;
-            
             GameManager.Instance.UnloadAsync(SceneList.Instance.scenes["GameScene"]);
             LevelManager.Instance.UnloadCurrentLevel();
         }
@@ -147,6 +147,23 @@ namespace FrancoisSauce.Scripts.GameScene
                 .From(1f);
         }
 
+        private void Update()
+        {
+            if (isStarted && Input.GetKeyDown(KeyCode.Escape))
+            { 
+                ChangeView((currentView == pause) ? (IFSView<Scene_Game>)playing : pause);
+            }
+            
+            try
+            {
+                playerTmpTransition.transform.position = playerTransform.position;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
         public sealed override void OnUpdate()
         {
             currentView.OnUpdate(this);
@@ -164,8 +181,9 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public void OnWin()
         {
-            gameSceneAudioSource.Stop();
-            winAudioSource.Play();
+            musicSound.Stop();
+            winSound.Play();
+            isStarted = false;
             ChangeView(win);
         }
 
@@ -174,7 +192,9 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public void OnLose()
         {
-            gameSceneAudioSource.Stop();
+            musicSound.Stop();
+            loseSound.Play();
+            isStarted = false;
             ChangeView(lose);
         }
 
@@ -217,8 +237,8 @@ namespace FrancoisSauce.Scripts.GameScene
         /// </summary>
         public void OnClickedStartButton()
         {
+            isStarted = true;
             onClickedStartButton.Invoke();
-            gameSceneAudioSource.Play();
         }
 
         /// <summary>
@@ -235,6 +255,17 @@ namespace FrancoisSauce.Scripts.GameScene
         public void OnResume()
         {
             onResume.Invoke();
+        }
+        
+        public void ChangeCursor(CursorLockMode newState)
+        {
+            Cursor.lockState = newState;
+        }
+
+        public void ChangeLevel()
+        {
+            LevelManager.Instance.LoadNextLevel();
+            ChangeView(waitingToStart);
         }
     }
 }

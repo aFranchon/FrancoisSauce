@@ -16,6 +16,7 @@ namespace FrancoisSauce.Scripts
         /// </summary>
         [Tooltip("the main AudioListener of the game")]
         [SerializeField] private GameObject mainAudioListener = null;
+        [SerializeField] private GameObject eventSystem = null;
         
         /// <summary>
         /// The <see cref="MonoBehaviour"/> start function
@@ -26,6 +27,7 @@ namespace FrancoisSauce.Scripts
             yield return null;
             
             DontDestroyOnLoad(mainAudioListener);
+            DontDestroyOnLoad(eventSystem);
             
             StartCoroutine(GameManager.Instance.LoadSceneAsync(SceneList.Instance.scenes["MainMenu"], true, false));
             

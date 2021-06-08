@@ -59,7 +59,8 @@ namespace FrancoisSauce.Scripts.FSUtils
                 scenes.Add(sceneName, i);
             }
 #else
-            scenes.Add("Preload", 0);
+            scenes.Clear();
+            scenes.Add("PreLoad", 0);
             scenes.Add("MainMenu", 1);
             scenes.Add("GameScene", 2);
             scenes.Add("Level0001", 3);

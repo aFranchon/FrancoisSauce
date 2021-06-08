@@ -19,6 +19,7 @@ namespace FrancoisSauce.Scripts.GameScene.WaitingToStart
             
             viewUI.startButton.onClick.AddListener(() =>
             {
+                scene.clickSound.Play();
                 scene.OnClickedStartButton();
                 scene.ChangeView(scene.playing);
             });

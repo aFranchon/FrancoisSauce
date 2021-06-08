@@ -1,4 +1,5 @@
 ﻿using FrancoisSauce.Scripts.FSViews;
+using UnityEngine;
 
 namespace FrancoisSauce.Scripts.GameScene.Playing
 {
@@ -16,7 +17,11 @@ namespace FrancoisSauce.Scripts.GameScene.Playing
         {
             var viewUI = scene.playingUI.GetComponentInChildren<PlayingScript>();
             
-            viewUI.pauseButton.onClick.AddListener(() => {scene.ChangeView(scene.pause);});
+            viewUI.pauseButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.ChangeView(scene.pause);
+            });
         }
 
         public override void OnViewEnter(Scene_Game scene)

@@ -17,22 +17,41 @@ namespace FrancoisSauce.Scripts.MainMenu.OptionMenu
         {
             var viewUI = scene.optionMenuUI.GetComponent<OptionMenuScript>();
             
-            viewUI.backButton.onClick.AddListener(() => scene.ChangeView(scene.baseMenu));
+            viewUI.backButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.ChangeView(scene.baseMenu);
+            });
             viewUI.mainVolumeSlider.onValueChanged.AddListener(
-                (float value) =>
+                (value) =>
                 {
+                    PlayerPrefs.SetFloat("MainVolume", value);
                     scene.mainAudioMixer.SetFloat("MainVolume", value);
                 });
             viewUI.musicVolumeSlider.onValueChanged.AddListener(
-                (float value) =>
+                (value) =>
                 {
+                    PlayerPrefs.SetFloat("MusicVolume", value);
                     scene.mainAudioMixer.SetFloat("MusicVolume", value);
                 });
-            viewUI.mainVolumeSlider.onValueChanged.AddListener(
-                (float value) =>
+            viewUI.sfxVolumeSlider.onValueChanged.AddListener(
+                (value) =>
                 {
+                    PlayerPrefs.SetFloat("SFXVolume", value);
                     scene.mainAudioMixer.SetFloat("SFXVolume", value);
                 });
+            
+            var volumeValue = PlayerPrefs.GetFloat("MainVolume");
+            viewUI.mainVolumeSlider.value = volumeValue;
+            scene.mainAudioMixer.SetFloat("MainVolume", volumeValue);
+            
+            volumeValue = PlayerPrefs.GetFloat("MusicVolume");
+            viewUI.musicVolumeSlider.value = volumeValue;
+            scene.mainAudioMixer.SetFloat("MusicVolume", volumeValue);
+            
+            volumeValue = PlayerPrefs.GetFloat("SFXVolume");
+            viewUI.sfxVolumeSlider.value = volumeValue;
+            scene.mainAudioMixer.SetFloat("SFXVolume", volumeValue);
         }
         
         public override void OnViewEnter(Scene_MainMenu scene)

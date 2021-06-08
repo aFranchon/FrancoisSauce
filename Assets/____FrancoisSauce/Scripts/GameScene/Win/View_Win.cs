@@ -20,10 +20,15 @@ namespace FrancoisSauce.Scripts.GameScene.Win
 
             viewUI.nextButton.onClick.AddListener(() =>
             {
+                scene.clickSound.Play();
                 LevelManager.Instance.LoadNextLevel();
                 scene.ChangeView(scene.waitingToStart);
             });
-            viewUI.quitButton.onClick.AddListener(() => scene.LoadScene(SceneList.Instance.scenes["MainMenu"]));
+            viewUI.quitButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.LoadScene(SceneList.Instance.scenes["MainMenu"]);
+            });
         }
 
         public override void OnViewEnter(Scene_Game scene)

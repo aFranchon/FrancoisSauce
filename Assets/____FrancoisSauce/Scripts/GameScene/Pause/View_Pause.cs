@@ -18,8 +18,16 @@ namespace FrancoisSauce.Scripts.GameScene.Pause
         {
             var viewUI = scene.pauseUI.GetComponentInChildren<PauseScript>();
 
-            viewUI.resumeButton.onClick.AddListener(() => scene.ChangeView(scene.playing));
-            viewUI.quitButton.onClick.AddListener(() => {scene.LoadScene(SceneList.Instance.scenes["MainMenu"]);});
+            viewUI.resumeButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.ChangeView(scene.playing);
+            });
+            viewUI.quitButton.onClick.AddListener(() =>
+            {
+                scene.clickSound.Play();
+                scene.LoadScene(SceneList.Instance.scenes["MainMenu"]);
+            });
         }
 
         public override void OnViewEnter(Scene_Game scene)

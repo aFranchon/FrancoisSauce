@@ -8,7 +8,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
     /// <summary>
     /// Level manager, use it to load levels. Use the list from <see cref="SceneList"/> to know witch level load
     /// </summary>
-    public class LevelManager : Singleton<LevelManager>
+    public class LevelManager : FrancoisSauce.Scripts.FSUtils.Singleton<LevelManager>
     {
         /// <summary>
         /// current level used to load good level at each time, without using playerPrefs

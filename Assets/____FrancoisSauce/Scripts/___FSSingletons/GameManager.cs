@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using FrancoisSauce.Scripts.FSEvents.SO;
-using FrancoisSauce.Scripts.FSUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
-using UnityEngine.UI;
 
 namespace FrancoisSauce.Scripts.FSSingleton
 {
@@ -13,7 +11,7 @@ namespace FrancoisSauce.Scripts.FSSingleton
     /// Game Manager's purpose is to handle scene loading/unloading. It raises events on every step of the process of loading/unloading scenes
     /// </summary>
     /// <inheritdoc/>
-    public class GameManager : Singleton<GameManager>
+    public class GameManager : FrancoisSauce.Scripts.FSUtils.Singleton<GameManager>
     {
         /// <summary>
         /// reference to <see cref="FSIntEventSO"/> for loaded scene event occurs when scene is loaded at 90%

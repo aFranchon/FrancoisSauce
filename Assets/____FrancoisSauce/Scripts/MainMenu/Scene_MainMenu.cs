@@ -35,7 +35,7 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// </summary>
         [Tooltip("UI for the View_LoadingMenu")]
         public GameObject loadingMenuUI;
-    
+
         /// <summary>
         /// To keep track of current progression for the progress bar when loading on the loading menu
         /// </summary>
@@ -60,18 +60,16 @@ namespace FrancoisSauce.Scripts.MainMenu
         /// </summary>
         [Space] public Image transition;
         
-        //TODO comment, don't remember what is it
-        /// <summary>
-        /// 
-        /// </summary>
-        [Tooltip("")]
-        [SerializeField] private AudioSource mainMenuMusic = null;
         /// <summary>
         /// The audioMixer use to change 
         /// </summary>
         [Tooltip("")]
         public AudioMixer mainAudioMixer = null;
-    
+
+        public GameObject background = null;
+
+        public AudioSource clickSound = null;
+
         /// <summary>
         /// <see cref="MonoBehaviour"/>'s Awake method
         /// Initializing finite state machine
@@ -86,16 +84,14 @@ namespace FrancoisSauce.Scripts.MainMenu
             optionMenuUI.SetActive(false);
             loadingMenuUI.SetActive(false);
             
-            mainMenuMusic.Play();
-            
             ChangeView(baseMenu);
+            Cursor.lockState = CursorLockMode.None;
         }
         
         public override void OnSceneLoaded(int index)
         {
             if (index != SceneList.Instance.scenes["GameScene"]) return;
             
-            mainMenuMusic.Stop();
             StartCoroutine(GameManager.Instance.EndLoadingActivation(SceneList.Instance.scenes["GameScene"], true));
         }
     
@@ -145,6 +141,8 @@ namespace FrancoisSauce.Scripts.MainMenu
                 .SetEase(Ease.Linear)
                 .onComplete += () => GameManager.Instance.UnloadAsync(index);
         }
+
+        
     }
 }
 
