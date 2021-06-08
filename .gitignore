@@ -65,3 +65,7 @@ Assets/Plugins/Sirenix.meta
 Assets/____FrancoisSauceExternalAssets
 
 **/**/*.meta
+
+Packages
+ProjectSettings
+UserSettings
